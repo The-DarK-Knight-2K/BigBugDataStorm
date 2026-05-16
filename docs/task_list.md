@@ -7,31 +7,31 @@
 
 ## Phase 2: Exploratory Data Analysis (EDA)
 ### `transactions.csv`
-- [ ] Check for missing values in Date, Distributor_ID, and Volume_Litres.
-- [ ] Identify negative volumes (refunds/returns) and decide handling strategy.
-- [ ] Analyze date ranges and identify any gaps or anomalies (e.g., blackout periods).
-- [ ] Check distribution of transaction volumes and identify outliers.
+- [x] Check for missing values in Date, Distributor_ID, and Volume_Litres.
+- [x] Identify negative volumes (refunds/returns) and decide handling strategy.
+- [x] Analyze date ranges and identify any gaps or anomalies (e.g., blackout periods).
+- [x] Check distribution of transaction volumes and identify outliers.
 
 ### `outlet_master.csv`
-- [ ] Check for missing values in Outlet_Size.
-- [ ] Validate Cooler_Count distribution (expecting range 0-5).
-- [ ] Validate Outlet_Type categories.
-- [ ] Identify duplicates or inconsistencies in Outlet_ID.
+- [x] Check for missing values in Outlet_Size.
+- [x] Validate Cooler_Count distribution (expecting range 0-5).
+- [x] Validate Outlet_Type categories.
+- [x] Identify duplicates or inconsistencies in Outlet_ID.
 
 ### `outlet_coordinates.csv`
-- [ ] Identify missing coordinates.
-- [ ] Plot coordinates on a map to check for points outside Sri Lanka (lat: 5.9-9.9, lon: 79.5-81.9).
-- [ ] Identify swapped latitude and longitude values and plan correction strategy.
+- [x] Identify missing coordinates.
+- [x] Plot coordinates on a map to check for points outside Sri Lanka (lat: 5.9-9.9, lon: 79.5-81.9).
+- [x] Identify swapped latitude and longitude values and plan correction strategy.
 
 ### `seasonality.csv`
-- [ ] Validate Year and Month ranges.
-- [ ] Check distribution of Seasonality_Index (Favorable, Moderate, Un-Favorable).
-- [ ] Ensure all distributors are represented across time periods.
+- [x] Validate Year and Month ranges.
+- [x] Check distribution of Seasonality_Index (Favorable, Moderate, Un-Favorable).
+- [x] Ensure all distributors are represented across time periods.
 
 ### `holidays.csv`
-- [ ] Check for duplicate dates.
-- [ ] Validate Holiday_Type distributions.
-- [ ] Cross-reference holidays with transaction dips/spikes.
+- [x] Check for duplicate dates.
+- [x] Validate Holiday_Type distributions.
+- [x] Cross-reference holidays with transaction dips/spikes.
 
 ## Phase 3: Silver Layer (Data Cleaning & Quality)
 ### `dq_checks.py`
