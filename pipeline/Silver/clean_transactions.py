@@ -24,9 +24,8 @@ OUTPUTS_DIR = os.path.join(ROOT_DIR, "outputs")
 def get_canonical_columns(df: pd.DataFrame) -> dict:
     fuzzy_map = {
         "Outlet_ID": ["outlet_id", "outlet id", "outletid", "shop_id"],
-        "Date": ["date", "transaction_date", "txn_date", "order_date"],
         "Distributor_ID": ["distributor_id", "dist_id", "distributor"],
-        "Volume_Litres": ["volume_litres", "volume", "litres", "qty", "quantity", "sales_volume", "volume_liters"]
+        "Volume_Litres": ["volume_litres", "volume", "litres", "qty", "quantity", "sales_volume", "volume_liters", "volume_liters"]
     }
     
     col_mapping = {}
@@ -52,6 +51,13 @@ def main():
     log.info(f"Raw columns: {df.columns.tolist()}")
     log.info(f"Raw dtypes: \n{df.dtypes}")
     
+    # Synthesize a Date column from Year + Month (data has no Date column)
+    if "Date" not in df.columns and "Year" in df.columns and "Month" in df.columns:
+        df["Date"] = pd.to_datetime(
+            df["Year"].astype(str) + "-" + df["Month"].astype(str).str.zfill(2) + "-01"
+        )
+        log.info("Synthesized 'Date' column from Year + Month columns.")
+    
     # Map columns
     col_mapping = get_canonical_columns(df)
     df = df.rename(columns=col_mapping)
@@ -67,15 +73,8 @@ def main():
     
     failed_dfs = []
     
-    # 1. Date parsing
-    df["date_parsed"] = pd.to_datetime(df["Date"], utc=True, errors="coerce")
-    bad_dates_mask = df["date_parsed"].isnull()
-    if bad_dates_mask.any():
-        bad_dates_df = df[bad_dates_mask].copy()
-        bad_dates_df["failure_reason"] = "unparseable_date"
-        failed_dfs.append(bad_dates_df)
-        df = df[~bad_dates_mask].copy()
-        
+    # 1. Date validation — Year/Month range check
+    df["date_parsed"] = pd.to_datetime(df["Date"], errors="coerce")
     df["Year"] = df["date_parsed"].dt.year.astype("int16")
     df["Month"] = df["date_parsed"].dt.month.astype("int8")
     
@@ -85,6 +84,7 @@ def main():
         oor_dates_df["failure_reason"] = "date_out_of_expected_range"
         failed_dfs.append(oor_dates_df)
         df = df[~out_of_range_date].copy()
+        log.info(f"Quarantined {out_of_range_date.sum()} rows with out-of-range dates.")
         
     # 2. DQ Checks
     valid_dists = ["DIST_W_01","DIST_W_02","DIST_W_03","DIST_C_01","DIST_C_02",
@@ -175,7 +175,7 @@ def main():
     log.info(f"Flagged {blackout_count} transactions as occurring during a blackout period.")
     
     # 5. Construct Output
-    df_clean["Date"] = df_clean["date_parsed"].dt.date
+    df_clean["Date"] = df_clean["date_parsed"].dt.to_period("M").dt.to_timestamp().dt.date
     df_clean["Volume_Litres"] = df_clean["Volume_Litres"].astype("float32")
     df_clean["row_source"] = "transactions_history_final.csv"
     

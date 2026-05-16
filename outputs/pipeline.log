@@ -21,3 +21,71 @@
 2026-05-16 14:10:59,334 | INFO     | 01_raw_to_bronze | ========================================
 2026-05-16 17:18:10,069 | INFO     | clean_outlets | Loaded 20000 rows from outlet_master bronze
 2026-05-16 17:28:32,716 | INFO     | clean_outlets | Loaded 20000 rows from outlet_master bronze
+2026-05-16 18:02:49,503 | INFO     | clean_outlets | Loaded 20000 rows from outlet_master bronze
+2026-05-16 18:03:05,414 | INFO     | clean_outlets | Imputed Outlet_Size for 196 rows using Cooler_Count rule.
+2026-05-16 18:03:05,425 | INFO     | clean_outlets | Corrected Outlet_Type typos: 785 rows updated.
+2026-05-16 18:03:05,538 | INFO     | clean_outlets | outlet_master cleaning complete
+2026-05-16 18:03:05,538 | INFO     | clean_outlets |   Input rows        : 20000
+2026-05-16 18:03:05,538 | INFO     | clean_outlets |   Clean rows        : 20000
+2026-05-16 18:03:05,539 | INFO     | clean_outlets |   Quarantined rows  : 0
+2026-05-16 18:03:05,539 | INFO     | clean_outlets |   Sizes imputed     : 196
+2026-05-16 18:03:05,539 | INFO     | clean_outlets |   Type typos fixed  : 785
+2026-05-16 18:04:33,797 | INFO     | clean_coordinates | Loaded 20000 rows from outlet_coordinates bronze
+2026-05-16 18:04:34,221 | INFO     | clean_coordinates | Quarantining 40 zero-coordinate rows (GPS never recorded).
+2026-05-16 18:04:34,238 | INFO     | clean_coordinates | Swapped lat/lon for 200 rows.
+2026-05-16 18:04:34,286 | INFO     | clean_coordinates | outlet_coordinates cleaning complete
+2026-05-16 18:04:34,287 | INFO     | clean_coordinates |   Input rows        : 20000
+2026-05-16 18:04:34,287 | INFO     | clean_coordinates |   Clean rows        : 19960
+2026-05-16 18:04:34,287 | INFO     | clean_coordinates |   Quarantined rows  : 40
+2026-05-16 18:04:34,287 | INFO     | clean_coordinates |     zero_coordinates: 40
+2026-05-16 18:04:34,287 | INFO     | clean_coordinates |     other           : 0
+2026-05-16 18:04:34,288 | INFO     | clean_coordinates |   Lat/Lon swaps     : 200
+2026-05-16 18:05:34,424 | INFO     | clean_seasonality | Loaded 360 rows from seasonality bronze
+2026-05-16 18:05:34,472 | INFO     | clean_seasonality | Extrapolated January 2026 seasonality for 10 distributors using Jan 2025 values.
+2026-05-16 18:05:34,473 | INFO     | clean_seasonality | DIST_W_01 -> Jan 2026: Moderate (extrapolated from Jan 2025)
+2026-05-16 18:05:34,474 | INFO     | clean_seasonality | DIST_W_02 -> Jan 2026: Moderate (extrapolated from Jan 2025)
+2026-05-16 18:05:34,474 | INFO     | clean_seasonality | DIST_W_03 -> Jan 2026: Moderate (extrapolated from Jan 2025)
+2026-05-16 18:05:34,474 | INFO     | clean_seasonality | DIST_C_01 -> Jan 2026: Moderate (extrapolated from Jan 2025)
+2026-05-16 18:05:34,475 | INFO     | clean_seasonality | DIST_C_02 -> Jan 2026: Moderate (extrapolated from Jan 2025)
+2026-05-16 18:05:34,475 | INFO     | clean_seasonality | DIST_C_03 -> Jan 2026: Moderate (extrapolated from Jan 2025)
+2026-05-16 18:05:34,475 | INFO     | clean_seasonality | DIST_NW_01 -> Jan 2026: Moderate (extrapolated from Jan 2025)
+2026-05-16 18:05:34,476 | INFO     | clean_seasonality | DIST_NW_02 -> Jan 2026: Moderate (extrapolated from Jan 2025)
+2026-05-16 18:05:34,476 | INFO     | clean_seasonality | DIST_S_01 -> Jan 2026: Favorable (extrapolated from Jan 2025)
+2026-05-16 18:05:34,476 | INFO     | clean_seasonality | DIST_S_02 -> Jan 2026: Favorable (extrapolated from Jan 2025)
+2026-05-16 18:05:34,497 | INFO     | clean_seasonality | seasonality cleaning complete
+2026-05-16 18:05:57,908 | INFO     | clean_holidays | Loaded 349 rows from holidays bronze
+2026-05-16 18:05:58,015 | INFO     | clean_holidays | Manually added 2 January 2026 holiday entries.
+2026-05-16 18:05:58,029 | INFO     | clean_holidays | January 2026 trading days (weekdays minus holidays): 20
+2026-05-16 18:05:58,047 | INFO     | clean_holidays | holidays cleaning complete
+2026-05-16 18:06:14,059 | INFO     | clean_transactions | Loaded 2376389 rows from transactions bronze
+2026-05-16 18:06:14,060 | INFO     | clean_transactions | Raw columns: ['Outlet_ID', 'Year', 'Month', 'Distributor_ID', 'SKU_ID', 'Volume_Liters', 'Total_Bill_Value']
+2026-05-16 18:06:14,063 | INFO     | clean_transactions | Raw dtypes: 
+Outlet_ID               str
+Year                  int64
+Month                 int64
+Distributor_ID          str
+SKU_ID                  str
+Volume_Liters       float64
+Total_Bill_Value    float64
+dtype: object
+2026-05-16 18:07:38,899 | INFO     | clean_transactions | Loaded 2376389 rows from transactions bronze
+2026-05-16 18:07:38,899 | INFO     | clean_transactions | Raw columns: ['Outlet_ID', 'Year', 'Month', 'Distributor_ID', 'SKU_ID', 'Volume_Liters', 'Total_Bill_Value']
+2026-05-16 18:07:38,904 | INFO     | clean_transactions | Raw dtypes: 
+Outlet_ID               str
+Year                  int64
+Month                 int64
+Distributor_ID          str
+SKU_ID                  str
+Volume_Liters       float64
+Total_Bill_Value    float64
+dtype: object
+2026-05-16 18:07:43,480 | INFO     | clean_transactions | Synthesized 'Date' column from Year + Month columns.
+2026-05-16 18:07:43,482 | INFO     | clean_transactions | Mapped columns: {'Outlet_ID': 'Outlet_ID', 'Distributor_ID': 'Distributor_ID', 'Volume_Liters': 'Volume_Litres'}
+2026-05-16 18:07:52,106 | INFO     | clean_transactions | Detecting volume outliers using IQR method...
+2026-05-16 18:08:37,279 | WARNING  | clean_transactions | Flagged 140779 records as extreme volume outliers (NOT quarantined).
+2026-05-16 18:08:37,279 | INFO     | clean_transactions | Detecting blackout periods...
+2026-05-16 18:09:04,142 | INFO     | clean_transactions | Flagged 0 transactions as occurring during a blackout period.
+2026-05-16 18:09:08,135 | INFO     | clean_transactions | transactions cleaning complete
+2026-05-16 18:09:08,135 | INFO     | clean_transactions |   Input rows        : 2376389
+2026-05-16 18:09:08,136 | INFO     | clean_transactions |   Clean rows        : 2359769
+2026-05-16 18:09:08,136 | INFO     | clean_transactions |   Quarantined rows  : 16620
