@@ -127,21 +127,27 @@ All rejected record files share the same appended column:
 ### `poi_features.parquet`
 | Column | Type | Nullable | Notes |
 |--------|------|----------|-------|
-| Outlet_ID | string | No | |
-| schools_500m | int16 | No | Count within 500m |
-| schools_1km | int16 | No | Count within 1km |
-| schools_2km | int16 | No | Count within 2km |
-| hospitals_500m | int16 | No | |
-| hospitals_1km | int16 | No | |
-| transport_500m | int16 | No | Bus stops + train stations |
-| transport_1km | int16 | No | |
-| markets_1km | int16 | No | Supermarkets + marketplaces |
-| worship_500m | int16 | No | Places of worship (Poya Day traffic) |
-| hotels_restaurants_500m | int16 | No | |
-| poi_total_500m | int16 | No | Sum of all POI types within 500m |
-| poi_total_1km | int16 | No | Sum of all POI types within 1km |
-| footfall_score | float32 | No | Weighted composite, see SPEC_scrape_poi.md |
-| poi_data_available | bool | No | False for the 40 zero-coord quarantined outlets |
+| Outlet_ID | string | No | Primary key |
+| schools_500m | int32 | No | Count within 500m |
+| schools_1000m | int32 | No | Count within 1000m |
+| schools_2000m | int32 | No | Count within 2000m |
+| hospitals_500m | int32 | No | Count within 500m |
+| hospitals_1000m | int32 | No | Count within 1000m |
+| hospitals_2000m | int32 | No | Count within 2000m |
+| transport_500m | int32 | No | Bus stops + train stations within 500m |
+| transport_1000m | int32 | No | Bus stops + train stations within 1000m |
+| transport_2000m | int32 | No | Bus stops + train stations within 2000m |
+| markets_500m | int32 | No | Supermarkets + marketplaces within 500m |
+| markets_1000m | int32 | No | Supermarkets + marketplaces within 1000m |
+| markets_2000m | int32 | No | Supermarkets + marketplaces within 2000m |
+| worship_500m | int32 | No | Places of worship within 500m |
+| worship_1000m | int32 | No | Places of worship within 1000m |
+| worship_2000m | int32 | No | Places of worship within 2000m |
+| hospitality_500m | int32 | No | Hotels + restaurants within 500m |
+| hospitality_1000m | int32 | No | Hotels + restaurants within 1000m |
+| hospitality_2000m | int32 | No | Hotels + restaurants within 2000m |
+| footfall_score | float32 | No | Weighted composite (0-100), based only on 500m |
+| poi_data_available | bool | No | False for the 40 zero-coord quarantined outlets or failed clusters |
 
 ### `sales_features.parquet`
 | Column | Type | Nullable | Notes |
