@@ -41,7 +41,7 @@ def main():
         (range_check, {"col": "Month", "min_val": 1, "max_val": 12})
     ]
     
-    df_passed, failed_dfs, report_rows = run_checks(checks, "seasonality")
+    df_passed, failed_dfs, report_rows = run_checks(df, checks, "seasonality")
     
     if failed_dfs:
         log.error("DQ failures detected in seasonality! Source data should be clean.")

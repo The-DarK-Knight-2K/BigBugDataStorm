@@ -48,7 +48,7 @@ def main():
         (ref_integrity_check, {"fk_col": "Outlet_ID", "ref_df": ref_df, "ref_col": "Outlet_ID"})
     ]
     
-    df_passed, failed_dfs, report_rows = run_checks(checks, "outlet_coordinates")
+    df_passed, failed_dfs, report_rows = run_checks(df, checks, "outlet_coordinates")
     df_clean = df_passed.copy()
     
     # 3. Zero-coordinate quarantine

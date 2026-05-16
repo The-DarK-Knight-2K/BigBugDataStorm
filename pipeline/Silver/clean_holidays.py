@@ -58,7 +58,7 @@ def main():
         (value_set_check, {"col": "Holiday_Type", "valid_values": ["Public", "Bank", "Mercantile", "Poya Day"]})
     ]
     
-    df_passed, failed_dfs, report_rows = run_checks(checks, "holidays")
+    df_passed, failed_dfs, report_rows = run_checks(df, checks, "holidays")
     df_clean = df_passed.copy()
     
     # 4. Pivot to one row per date
