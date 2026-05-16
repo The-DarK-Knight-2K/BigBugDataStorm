@@ -64,17 +64,20 @@
 - [x] Handle edge cases where multiple holidays fall on the same date.
 
 ## Phase 4: Gold Layer (Feature Engineering)
-### `scrape_poi.py`
-- [ ] Set up robust API querying (OSM/Google) with rate limiting and retries.
-- [ ] Calculate POI counts within 500m and 1km radii.
-- [ ] Compute weighted `footfall_score`.
-- [ ] Handle POI imputation for the 40 outlets with quarantined coordinates.
+### `scrape_poi_raw.py`
+- [x] Set up robust API querying (OSM) with clustering, rate limiting, and retries.
+- [x] Implement caching mechanism (`scrape_manifest.json`) for resumes.
+
+### `build_poi_features.py`
+- [x] Calculate POI counts within multiple radii (500m, 1km, 2km).
+- [x] Compute weighted and normalized `footfall_score` (0-100).
+- [x] Handle POI imputation (assigning 0s) for outlets with no coordinates or failed scrapes.
 
 ### `build_sales_features.py`
-- [ ] Calculate historical metrics (max, mean, p75, p90, std, CV).
-- [ ] Compute January-specific aggregates and active months percentage.
-- [ ] Identify `consecutive_zero_months_max` and handle new outlets lacking sufficient history.
-- [ ] Calculate YoY growth rate and recent 3-month averages.
+- [x] Calculate historical metrics (max, mean, p75, p90, std, CV).
+- [x] Compute January-specific aggregates and active months percentage.
+- [x] Identify `consecutive_zero_months_max` and handle inactive outlets.
+- [x] Calculate YoY growth rate, EMA, and recent 3-month averages.
 
 ### `build_master_features.py`
 - [ ] Join cleaned silver tables and gold feature tables safely.
