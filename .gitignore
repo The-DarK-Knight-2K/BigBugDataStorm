@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Global Data Files
+*.csv
+*.parquet
+*.xlsx
+*.db
+*.sqlite
+*.sqlite3
+*.mdb
+*.accdb
+
+# Lakehouse Data Directories
+# Ignore all contents in these folders...
+Data/Raw/*
+Data/Bronze/*
+Data/Silver/*
+Data/Gold/*
+
+# ...but keep the folder structures by allowing .gitkeep files
+!Data/Raw/.gitkeep
+!Data/Bronze/.gitkeep
+!Data/Silver/.gitkeep
+!Data/Gold/.gitkeep
