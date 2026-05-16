@@ -59,6 +59,7 @@ the corresponding script in `pipeline/` or `modelling/`.
 ## Progress tracking
 
 1. Record each implemented step concisely.
-2. Save the summary to the `worksummary.md` file.
+2. Save the summary to the `docs/worksummary.md` file.
 3. Keep the content brief and focused on key actions.
 4. Don't make it too long, write just the summary.
+5. Check off completed items in `docs/task_list.md`.
