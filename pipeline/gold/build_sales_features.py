@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 import sys
+import time
 from scipy.stats import linregress
 
 # Path setup
@@ -21,7 +22,7 @@ GOLD_DIR = os.path.join(ROOT_DIR, "Data", "Gold")
 
 
 # ---------------------------------------------------------------------------
-# Helper functions
+# Helper functions (unchanged logic)
 # ---------------------------------------------------------------------------
 
 def max_consecutive_zeros(monthly_volumes: pd.Series) -> int:
@@ -46,9 +47,9 @@ def compute_trend_slope(monthly_volumes: pd.Series):
     return float(slope)
 
 
-def compute_yoy_growth(monthly_df: pd.DataFrame):
+def compute_yoy_growth(group_df: pd.DataFrame):
     """Year-over-year growth rate from first to last year average. None if <2 years."""
-    avg_by_year = monthly_df.groupby("Year")["monthly_volume"].mean()
+    avg_by_year = group_df.groupby("Year")["monthly_volume"].mean()
     years = sorted(avg_by_year.index)
     if len(years) < 2:
         return None
@@ -71,6 +72,8 @@ def compute_ema(monthly_volumes: pd.Series, span: int) -> float:
 # ---------------------------------------------------------------------------
 
 def main():
+    start_time = time.time()
+
     # ── Step 1: Load inputs ──────────────────────────────────────────────
     txn = pd.read_parquet(os.path.join(SILVER_DIR, "transactions_clean.parquet"))
     outlets = pd.read_parquet(os.path.join(SILVER_DIR, "outlet_master_clean.parquet"))[["Outlet_ID"]]
@@ -95,100 +98,146 @@ def main():
     total_months_in_data = (data_end - data_start).n + 1
     log.info("Data spans %d months (%s to %s)", total_months_in_data, data_start, data_end)
 
-    # Build a complete period range for filling zeros later
     all_periods = pd.period_range(data_start, data_end, freq="M")
 
-    # ── Step 4: Compute per-outlet features ──────────────────────────────
-    results = []
-    outlets_with_txn = monthly["Outlet_ID"].unique()
+    # ── Step 4: Build the complete outlet × period grid (VECTORIZED) ─────
+    # Instead of reindexing per outlet in a loop, build one massive grid
+    outlet_ids = monthly["Outlet_ID"].unique()
+    log.info("Building complete grid for %d outlets × %d months...", len(outlet_ids), len(all_periods))
 
-    # Global mode distributor for imputation of outlets with no transactions
-    global_mode_dist = txn["Distributor_ID"].value_counts().idxmax()
+    grid = pd.MultiIndex.from_product([outlet_ids, all_periods], names=["Outlet_ID", "period"])
+    full = grid.to_frame(index=False)
+    full["Year"] = full["period"].dt.year
+    full["Month"] = full["period"].dt.month
 
-    for outlet_id in outlets_with_txn:
-        om = monthly[monthly["Outlet_ID"] == outlet_id].copy()
+    # Attach a period column to monthly for merging
+    monthly["period"] = pd.PeriodIndex(
+        monthly["Year"].astype(str) + "-" + monthly["Month"].astype(str).str.zfill(2), freq="M"
+    )
 
-        # Create a full timeline for this outlet (fill missing months with 0)
-        om["period"] = pd.PeriodIndex(
-            om["Year"].astype(str) + "-" + om["Month"].astype(str).str.zfill(2), freq="M"
-        )
-        om = om.set_index("period").reindex(all_periods, fill_value=0).reset_index()
-        om.rename(columns={"index": "period"}, inplace=True)
-        om["Year"] = om["period"].dt.year
-        om["Month"] = om["period"].dt.month
-        # Ensure monthly_volume is float for calculations
-        om["monthly_volume"] = om["monthly_volume"].astype(float)
+    # Merge actual data onto grid — missing months become 0
+    full = full.merge(
+        monthly[["Outlet_ID", "period", "monthly_volume"]],
+        on=["Outlet_ID", "period"],
+        how="left"
+    )
+    full["monthly_volume"] = full["monthly_volume"].fillna(0.0).astype(float)
 
-        vol = om["monthly_volume"]
+    log.info("Grid built: %d rows. Computing features...", len(full))
 
-        # 4a — Historical volume statistics
-        hist_max = float(vol.max())
-        hist_p90 = float(vol.quantile(0.90))
-        hist_p75 = float(vol.quantile(0.75))
-        hist_mean = float(vol.mean())
-        hist_std = float(vol.std()) if len(vol) > 1 else 0.0
-        hist_cv = float(hist_std / hist_mean) if hist_mean > 0 else 0.0
+    # ── Step 4a: Vectorized basic stats via groupby().agg() ──────────────
+    grouped = full.groupby("Outlet_ID")["monthly_volume"]
 
-        # 4b — January-specific features
-        jan_data = om[om["Month"] == 1]["monthly_volume"]
-        jan_avg = float(jan_data.mean()) if len(jan_data) > 0 else 0.0
-        jan_max = float(jan_data.max()) if len(jan_data) > 0 else 0.0
-        jan_count = int((jan_data > 0).sum())
+    stats = grouped.agg(
+        hist_max_monthly="max",
+        hist_mean_monthly="mean",
+        hist_std_monthly="std",
+        total_volume="sum",
+    ).reset_index()
 
-        # 4c — Activity and recency
-        active_months = int((vol > 0).sum())
-        active_months_pct = float(active_months / total_months_in_data) if total_months_in_data > 0 else 0.0
-        consec_zero_max = max_consecutive_zeros(vol)
+    # Quantiles need separate calls
+    stats["hist_p90_monthly"] = grouped.quantile(0.90).values
+    stats["hist_p75_monthly"] = grouped.quantile(0.75).values
 
-        # months_since_last_order: distance from last non-zero month to data_end
-        non_zero_indices = vol[vol > 0].index
-        if len(non_zero_indices) > 0:
-            last_active_idx = non_zero_indices[-1]
-            months_since_last = len(vol) - 1 - last_active_idx
+    # Fill NaN std (outlets with only 1 month of data)
+    stats["hist_std_monthly"] = stats["hist_std_monthly"].fillna(0.0)
+
+    # Coefficient of variation
+    stats["hist_cv"] = np.where(
+        stats["hist_mean_monthly"] > 0,
+        stats["hist_std_monthly"] / stats["hist_mean_monthly"],
+        0.0
+    )
+
+    # Active months
+    stats["active_months"] = grouped.apply(lambda x: int((x > 0).sum())).values
+    stats["active_months_pct"] = stats["active_months"] / total_months_in_data
+
+    log.info("Basic stats computed.")
+
+    # ── Step 4b: January features via filtered groupby ───────────────────
+    jan = full[full["Month"] == 1]
+    jan_grouped = jan.groupby("Outlet_ID")["monthly_volume"]
+
+    jan_stats = jan_grouped.agg(
+        jan_avg_volume="mean",
+        jan_max_volume="max",
+    ).reset_index()
+
+    jan_stats["jan_count"] = jan_grouped.apply(lambda x: int((x > 0).sum())).values
+
+    log.info("January features computed.")
+
+    # ── Step 4c: Sequential features via groupby().apply() ───────────────
+    # These genuinely need per-group sequential logic
+    def compute_sequential(group):
+        vol = group["monthly_volume"]
+
+        # Consecutive zero months
+        czm = max_consecutive_zeros(vol)
+
+        # Months since last order
+        non_zero_mask = vol > 0
+        if non_zero_mask.any():
+            last_active_pos = non_zero_mask.values[::-1].argmax()
+            months_since = last_active_pos
         else:
-            months_since_last = total_months_in_data
+            months_since = total_months_in_data
 
-        total_vol = float(vol.sum())
-
-        # 4d — Growth and trend
-        yoy = compute_yoy_growth(om)
+        # Recent 3-month average
         recent_3m = float(vol.iloc[-3:].mean()) if len(vol) >= 3 else float(vol.mean())
+
+        # Trend slope
         slope = compute_trend_slope(vol)
 
-        # 4e — EMA
+        # YoY growth
+        yoy = compute_yoy_growth(group)
+
+        # EMA
         ema_3 = compute_ema(vol, span=3)
         ema_6 = compute_ema(vol, span=6)
 
-        # 4f — Distributor assignment (most frequent)
-        outlet_txn = txn[txn["Outlet_ID"] == outlet_id]
-        dist_id = outlet_txn["Distributor_ID"].value_counts().idxmax()
-
-        results.append({
-            "Outlet_ID": outlet_id,
-            "hist_max_monthly": hist_max,
-            "hist_p90_monthly": hist_p90,
-            "hist_p75_monthly": hist_p75,
-            "hist_mean_monthly": hist_mean,
-            "hist_std_monthly": hist_std,
-            "hist_cv": hist_cv,
-            "jan_avg_volume": jan_avg,
-            "jan_max_volume": jan_max,
-            "jan_count": jan_count,
-            "active_months": active_months,
-            "active_months_pct": active_months_pct,
-            "consecutive_zero_months_max": consec_zero_max,
-            "yoy_growth_rate": yoy,
+        return pd.Series({
+            "consecutive_zero_months_max": czm,
+            "months_since_last_order": months_since,
             "recent_3m_avg": recent_3m,
             "trend_slope": slope,
-            "months_since_last_order": months_since_last,
-            "total_volume": total_vol,
-            "distributor_id": dist_id,
+            "yoy_growth_rate": yoy,
             "ema_3m": ema_3,
             "ema_6m": ema_6,
         })
 
-    computed = pd.DataFrame(results)
-    log.info("Computed features for %d outlets with transaction history.", len(computed))
+    seq = full.groupby("Outlet_ID").apply(compute_sequential).reset_index()
+
+    log.info("Sequential features computed.")
+
+    # ── Step 4d: Distributor assignment via groupby ───────────────────────
+    dist = (
+        txn.groupby("Outlet_ID")["Distributor_ID"]
+        .agg(lambda x: x.value_counts().idxmax())
+        .reset_index()
+        .rename(columns={"Distributor_ID": "distributor_id"})
+    )
+
+    # Global mode distributor for imputation of outlets with no transactions
+    global_mode_dist = txn["Distributor_ID"].value_counts().idxmax()
+
+    log.info("Distributor assignments computed.")
+
+    # ── Step 4e: Merge all feature groups ────────────────────────────────
+    computed = (
+        stats
+        .merge(jan_stats, on="Outlet_ID", how="left")
+        .merge(seq, on="Outlet_ID", how="left")
+        .merge(dist, on="Outlet_ID", how="left")
+    )
+
+    # Fill jan stats for outlets that had no January data
+    computed["jan_avg_volume"] = computed["jan_avg_volume"].fillna(0.0)
+    computed["jan_max_volume"] = computed["jan_max_volume"].fillna(0.0)
+    computed["jan_count"] = computed["jan_count"].fillna(0)
+
+    log.info("Merged all feature groups: %d outlets with transaction history.", len(computed))
 
     # ── Step 5: Handle outlets with no transactions ──────────────────────
     features_df = outlets.merge(computed, on="Outlet_ID", how="left")
@@ -266,7 +315,8 @@ def main():
         index=False, engine="pyarrow", compression="snappy"
     )
 
-    log.info("Written %d rows → sales_features.parquet", len(features_df))
+    duration = time.time() - start_time
+    log.info("Written %d rows → sales_features.parquet (%.1fs)", len(features_df), duration)
     log.info("  Outlets with history : %d", len(features_df) - no_history_count)
     log.info("  Outlets without      : %d", no_history_count)
 
