@@ -1,0 +1,61 @@
+# ============================================================
+# Data Storm 7.0 — Python Dependencies
+# Python version: 3.11
+#
+# Install:
+#   python3.11 -m venv venv
+#   source venv/bin/activate        (Mac/Linux)
+#   venv\Scripts\activate           (Windows)
+#   pip install -r requirements.txt
+# ============================================================
+
+# ----------------------------
+# Core data manipulation
+# ----------------------------
+pandas==2.2.2
+numpy==1.26.4
+
+# ----------------------------
+# File formats
+# ----------------------------
+pyarrow==16.1.0          # parquet read/write (used by pandas .to_parquet / .read_parquet)
+
+# ----------------------------
+# Machine learning
+# ----------------------------
+lightgbm==4.3.0          # primary gradient boosting model
+scikit-learn==1.5.0      # KMeans (POI clustering), KFold (cross-validation)
+scipy==1.13.1            # linregress (trend slope feature)
+
+# ----------------------------
+# Geospatial / POI scraping
+# ----------------------------
+requests==2.32.3         # HTTP calls to Overpass API
+geopy==2.4.1             # geodesic distance calculation (outlet → POI)
+overpy==0.7              # optional Overpass API wrapper (used as fallback to raw requests)
+
+# ----------------------------
+# Progress & utilities
+# ----------------------------
+tqdm==4.66.4             # progress bars in scrape_poi.py
+pyyaml==6.0.1            # config.yaml parsing
+
+# ----------------------------
+# Visualisation (notebooks + feature importance plots)
+# ----------------------------
+matplotlib==3.9.0
+seaborn==0.13.2
+
+# ----------------------------
+# Jupyter (notebooks only — not used in pipeline scripts)
+# ----------------------------
+jupyter==1.0.0
+ipykernel==6.29.4
+nbformat==5.10.4
+
+# ----------------------------
+# Development utilities
+# ----------------------------
+black==24.4.2            # code formatter
+flake8==7.1.0            # linter
+pytest==8.2.2            # unit tests for dq_checks.py
