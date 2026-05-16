@@ -165,6 +165,8 @@ All rejected record files share the same appended column:
 | months_since_last_order | int16 | No | Recency indicator |
 | total_volume | float32 | No | Lifetime volume sum |
 | distributor_id | string | No | Most frequent distributor for this outlet |
+| ema_3m | float32 | No | 3-month exponential moving average of monthly volume |
+| ema_6m | float32 | No | 6-month exponential moving average of monthly volume |
 
 ### `master_features.parquet`
 One row per outlet. All 20,000 outlets must be present (even the 40 with no valid

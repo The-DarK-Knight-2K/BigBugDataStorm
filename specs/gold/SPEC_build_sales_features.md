@@ -168,7 +168,23 @@ def yoy_growth(monthly_df: pd.DataFrame) -> float | None:
 
 ---
 
-#### 4e — Distributor assignment
+#### 4e — Exponential Moving Averages (EMA)
+
+| Feature | Formula | Business rationale |
+|---------|---------|-------------------|
+| `ema_3m` | 3-month EMA of `monthly_volume` | Captures recent momentum with exponential decay |
+| `ema_6m` | 6-month EMA of `monthly_volume` | Captures medium-term trajectory |
+
+```python
+def compute_ema(monthly_volumes: pd.Series, span: int) -> float:
+    if len(monthly_volumes) == 0:
+        return 0.0
+    return float(monthly_volumes.ewm(span=span, adjust=False).mean().iloc[-1])
+```
+
+---
+
+#### 4f — Distributor assignment
 
 ```python
 distributor_id = (
@@ -192,10 +208,8 @@ features_df = outlets.merge(computed_features, on="Outlet_ID", how="left")
 ```
 
 Fill null numeric features with 0 for inactive outlets. Fill `distributor_id` with
-the most common distributor in the province for that outlet (use outlet_master's
-province lookup). Flag these with `has_transaction_history = False`.
-
-Add column `has_transaction_history: bool`.
+the global mode (most common distributor across all outlets). The province column
+is derived from the distributor downstream, so it cannot be used for imputation here.
 
 ### Step 6 — Write output
 
@@ -216,7 +230,6 @@ assert features_df["Outlet_ID"].isnull().sum() == 0
 assert features_df["hist_p90_monthly"].isnull().sum() == 0
 assert (features_df["hist_p90_monthly"] >= 0).all()
 assert (features_df["active_months_pct"].between(0, 1)).all()
-assert "has_transaction_history" in features_df.columns
 ```
 
 ---
