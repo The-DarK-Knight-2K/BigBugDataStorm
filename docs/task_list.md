@@ -76,8 +76,8 @@
 ### `build_sales_features.py`
 - [x] Calculate historical metrics (max, mean, p75, p90, std, CV).
 - [x] Compute January-specific aggregates and active months percentage.
-- [x] Identify `consecutive_zero_months_max` and handle inactive outlets.
-- [x] Calculate YoY growth rate, EMA, and recent 3-month averages.
+- [x] Identify `consecutive_zero_months_max` and handle new outlets lacking sufficient history.
+- [x] Calculate YoY growth rate and recent 3-month averages.
 
 ### `build_master_features.py`
 - [ ] Join cleaned silver tables and gold feature tables safely.
