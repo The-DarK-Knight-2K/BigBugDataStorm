@@ -35,33 +35,33 @@
 
 ## Phase 3: Silver Layer (Data Cleaning & Quality)
 ### `dq_checks.py`
-- [ ] Implement schema validation against `DATA_CONTRACTS.md`.
-- [ ] Set up a quarantine mechanism for rejected records (e.g., `rejected_transactions.parquet`).
-- [ ] Generate `dq_report.csv` logging checked, passed, and quarantined records.
+- [x] Implement schema validation against `DATA_CONTRACTS.md`.
+- [x] Set up a quarantine mechanism for rejected records (e.g., `rejected_transactions.parquet`).
+- [x] Generate `dq_report.csv` logging checked, passed, and quarantined records.
 
 ### `clean_transactions.py`
-- [ ] Parse raw dates to Python `date` objects.
-- [ ] Handle and filter out negative `Volume_Litres`.
-- [ ] Identify and flag blackout periods (`is_blackout_period`).
-- [ ] Validate `Outlet_ID` and `Distributor_ID` against master lists.
+- [x] Parse raw dates to Python `date` objects.
+- [x] Handle and filter out negative `Volume_Litres`.
+- [x] Identify and flag blackout periods (`is_blackout_period`).
+- [x] Validate `Outlet_ID` and `Distributor_ID` against master lists.
 
 ### `clean_outlets.py`
-- [ ] Impute missing `Outlet_Size` based on `Cooler_Count` heuristics.
-- [ ] Validate and standardize `Outlet_Type` categorical values.
-- [ ] Flag records where imputation occurred (`size_imputed`).
+- [x] Impute missing `Outlet_Size` based on `Cooler_Count` heuristics.
+- [x] Validate and standardize `Outlet_Type` categorical values.
+- [x] Flag records where imputation occurred (`size_imputed`).
 
 ### `clean_coordinates.py`
-- [ ] Detect and fix swapped Latitude/Longitude values.
-- [ ] Quarantine records with missing, zero, or out-of-bounds coordinates.
-- [ ] Flag records that were corrected (`coords_swapped`).
+- [x] Detect and fix swapped Latitude/Longitude values.
+- [x] Quarantine records with missing, zero, or out-of-bounds coordinates.
+- [x] Flag records that were corrected (`coords_swapped`).
 
 ### `clean_seasonality.py`
-- [ ] Extrapolate seasonality metrics to cover January 2026.
-- [ ] Flag extrapolated rows (`is_extrapolated`).
+- [x] Extrapolate seasonality metrics to cover January 2026.
+- [x] Flag extrapolated rows (`is_extrapolated`).
 
 ### `clean_holidays.py`
-- [ ] Map dates to specific holiday types (public, bank, mercantile, poya day).
-- [ ] Handle edge cases where multiple holidays fall on the same date.
+- [x] Map dates to specific holiday types (public, bank, mercantile, poya day).
+- [x] Handle edge cases where multiple holidays fall on the same date.
 
 ## Phase 4: Gold Layer (Feature Engineering)
 ### `scrape_poi.py`
