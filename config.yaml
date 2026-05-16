@@ -4,7 +4,7 @@ sri_lanka_bounds:
   lon_min: 79.5
   lon_max: 81.9
 valid_outlet_sizes: ["Small", "Medium", "Large", "Extra Large"]
-valid_outlet_types: ["Grocery", "Bakery", "Eatery", "Pharmacy", "Hotel", "SMMT"]
+valid_outlet_types: ["Grocery", "Bakery", "Eatery", "Pharmacy", "Hotel", "SMMT", "Kiosk"]
 outlet_type_corrections:
   "Grocry": "Grocery"
   "Bakry": "Bakery"
