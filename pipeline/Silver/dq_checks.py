@@ -185,7 +185,7 @@ def value_set_check(df: pd.DataFrame, col: str, valid_values: list[str], dataset
     log.info(f"value_set_check | {dataset_name} | checked={n_checked} passed={n_passed} failed={n_failed}")
     return DQResult(passed, failed, "value_set_check", n_checked, n_passed, n_failed)
 
-def run_checks(checks: list[tuple], dataset_name: str) -> tuple[pd.DataFrame, list[pd.DataFrame], list[dict]]:
+def run_checks(df: pd.DataFrame, checks: list[tuple], dataset_name: str) -> tuple[pd.DataFrame, list[pd.DataFrame], list[dict]]:
     """
     Runs a sequence of checks where each check is applied to the survivors of the previous check.
     Returns (final_passed_df, list_of_failed_dfs, list_of_report_rows)
@@ -193,7 +193,7 @@ def run_checks(checks: list[tuple], dataset_name: str) -> tuple[pd.DataFrame, li
     if not checks:
         return pd.DataFrame(), [], []
         
-    current_df = checks[0][1]["df"]
+    current_df = df.copy()
     failed_dfs = []
     report_rows = []
     

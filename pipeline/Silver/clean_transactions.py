@@ -98,7 +98,7 @@ def main():
         (range_check, {"col": "Volume_Litres", "min_val": 0.01, "max_val": None})
     ]
     
-    df_passed, run_failed_dfs, report_rows = run_checks(checks, "transactions")
+    df_passed, run_failed_dfs, report_rows = run_checks(df, checks, "transactions")
     failed_dfs.extend(run_failed_dfs)
     df_clean = df_passed.copy()
     

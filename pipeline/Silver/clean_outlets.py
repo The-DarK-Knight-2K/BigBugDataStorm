@@ -41,7 +41,7 @@ def main():
         (range_check, {"col": "Cooler_Count", "min_val": 0, "max_val": 5})
     ]
     
-    df_passed, failed_dfs, report_rows = run_checks(checks, "outlet_master")
+    df_passed, failed_dfs, report_rows = run_checks(df, checks, "outlet_master")
     
     if df_passed.empty:
         log.error("All rows failed DQ checks!")
