@@ -316,7 +316,7 @@ def main():
     )
 
     duration = time.time() - start_time
-    log.info("Written %d rows → sales_features.parquet (%.1fs)", len(features_df), duration)
+    log.info("Written %d rows -> sales_features.parquet (%.1fs)", len(features_df), duration)
     log.info("  Outlets with history : %d", len(features_df) - no_history_count)
     log.info("  Outlets without      : %d", no_history_count)
 

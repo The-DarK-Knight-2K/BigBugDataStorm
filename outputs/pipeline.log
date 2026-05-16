@@ -177,3 +177,15 @@ dtype: object
 2026-05-16 22:42:38,510 | INFO     | build_poi_features | Running Data Contract assertions...
 2026-05-16 22:42:38,566 | INFO     | build_poi_features | Phase 2 Finished in 466.59s.
 2026-05-16 22:42:38,566 | INFO     | build_poi_features | Wrote 20000 rows x 21 columns to poi_features.parquet
+2026-05-16 23:48:34,221 | INFO     | build_sales_features | Loaded 2359769 transaction rows for 20000 unique outlets
+2026-05-16 23:48:35,279 | INFO     | build_sales_features | Data spans 36 months (2023-01 to 2025-12)
+2026-05-16 23:48:35,300 | INFO     | build_sales_features | Building complete grid for 20000 outlets × 36 months...
+2026-05-16 23:48:41,988 | INFO     | build_sales_features | Grid built: 720000 rows. Computing features...
+2026-05-16 23:48:45,636 | INFO     | build_sales_features | Basic stats computed.
+2026-05-16 23:48:49,004 | INFO     | build_sales_features | January features computed.
+2026-05-16 23:49:46,670 | INFO     | build_sales_features | Sequential features computed.
+2026-05-16 23:49:59,367 | INFO     | build_sales_features | Distributor assignments computed.
+2026-05-16 23:49:59,402 | INFO     | build_sales_features | Merged all feature groups: 20000 outlets with transaction history.
+2026-05-16 23:49:59,418 | INFO     | build_sales_features | Outlets with no transaction history: 0
+2026-05-16 23:49:59,583 | INFO     | build_sales_features |   Outlets with history : 20000
+2026-05-16 23:49:59,583 | INFO     | build_sales_features |   Outlets without      : 0
