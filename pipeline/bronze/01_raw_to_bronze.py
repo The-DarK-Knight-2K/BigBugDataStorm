@@ -1,10 +1,20 @@
 import pandas as pd
 import os
+import sys
 
-# Define relative paths
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW_DIR = os.path.join(BASE_DIR, 'Data', 'Raw')
-BRONZE_DIR = os.path.join(BASE_DIR, 'Data', 'Bronze')
+# Define paths
+CURRENT_DIR = os.path.dirname(os.path.abspath(__file__)) # pipeline/bronze
+PIPELINE_DIR = os.path.dirname(CURRENT_DIR)              # pipeline
+ROOT_DIR = os.path.dirname(PIPELINE_DIR)                 # BigBugDataStorm
+
+# Add PIPELINE_DIR to sys.path to import utils
+if PIPELINE_DIR not in sys.path:
+    sys.path.insert(0, PIPELINE_DIR)
+
+from utils.logger import setup_logger
+
+RAW_DIR = os.path.join(ROOT_DIR, 'Data', 'Raw')
+BRONZE_DIR = os.path.join(ROOT_DIR, 'Data', 'Bronze')
 
 # List of target datasets
 files_to_ingest = [
@@ -16,9 +26,11 @@ files_to_ingest = [
 ]
 
 def ingest_raw_to_bronze():
-    print("========================================")
-    print("Starting Raw to Bronze Ingestion...")
-    print("========================================")
+    log = setup_logger("01_raw_to_bronze")
+    
+    log.info("========================================")
+    log.info("Starting Raw to Bronze Ingestion...")
+    log.info("========================================")
     
     # Ensure Bronze directory exists
     os.makedirs(BRONZE_DIR, exist_ok=True)
@@ -28,26 +40,24 @@ def ingest_raw_to_bronze():
         base_name = os.path.splitext(file_name)[0]
         bronze_path = os.path.join(BRONZE_DIR, f"{base_name}.parquet")
         
-        print(f"\nProcessing: {file_name}")
-        
         if not os.path.exists(raw_path):
-            print(f"  [WARNING] File not found: {raw_path}")
+            log.warning(f"File not found: {raw_path}")
             continue
             
         try:
-            print(f"  - Reading CSV...")
+            log.info(f"Reading CSV: {file_name}")
             df = pd.read_csv(raw_path)
             
-            print(f"  - Saving to Parquet...")
+            log.info(f"Saving to Parquet: {base_name}.parquet")
             df.to_parquet(bronze_path, engine='pyarrow', index=False)
             
-            print(f"  [SUCCESS] Saved {base_name}.parquet successfully!")
+            log.info(f"Successfully processed {file_name}")
         except Exception as e:
-            print(f"  [ERROR] Failed to process {file_name}: {e}")
+            log.error(f"Failed to process {file_name}: {e}")
 
-    print("\n========================================")
-    print("Ingestion Complete.")
-    print("========================================")
+    log.info("========================================")
+    log.info("Ingestion Complete.")
+    log.info("========================================")
 
 if __name__ == "__main__":
     ingest_raw_to_bronze()

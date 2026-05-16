@@ -1,0 +1,21 @@
+2026-05-16 14:10:53,150 | INFO     | 01_raw_to_bronze | ========================================
+2026-05-16 14:10:53,150 | INFO     | 01_raw_to_bronze | Starting Raw to Bronze Ingestion...
+2026-05-16 14:10:53,151 | INFO     | 01_raw_to_bronze | ========================================
+2026-05-16 14:10:53,151 | INFO     | 01_raw_to_bronze | Reading CSV: distributor_seasonality_details.csv
+2026-05-16 14:10:53,188 | INFO     | 01_raw_to_bronze | Saving to Parquet: distributor_seasonality_details.parquet
+2026-05-16 14:10:53,618 | INFO     | 01_raw_to_bronze | Successfully processed distributor_seasonality_details.csv
+2026-05-16 14:10:53,618 | INFO     | 01_raw_to_bronze | Reading CSV: holiday_list.csv
+2026-05-16 14:10:53,636 | INFO     | 01_raw_to_bronze | Saving to Parquet: holiday_list.parquet
+2026-05-16 14:10:53,643 | INFO     | 01_raw_to_bronze | Successfully processed holiday_list.csv
+2026-05-16 14:10:53,644 | INFO     | 01_raw_to_bronze | Reading CSV: outlet_coordinates.csv
+2026-05-16 14:10:53,686 | INFO     | 01_raw_to_bronze | Saving to Parquet: outlet_coordinates.parquet
+2026-05-16 14:10:53,707 | INFO     | 01_raw_to_bronze | Successfully processed outlet_coordinates.csv
+2026-05-16 14:10:53,708 | INFO     | 01_raw_to_bronze | Reading CSV: outlet_master.csv
+2026-05-16 14:10:53,765 | INFO     | 01_raw_to_bronze | Saving to Parquet: outlet_master.parquet
+2026-05-16 14:10:53,783 | INFO     | 01_raw_to_bronze | Successfully processed outlet_master.csv
+2026-05-16 14:10:53,783 | INFO     | 01_raw_to_bronze | Reading CSV: transactions_history_final.csv
+2026-05-16 14:10:57,914 | INFO     | 01_raw_to_bronze | Saving to Parquet: transactions_history_final.parquet
+2026-05-16 14:10:59,334 | INFO     | 01_raw_to_bronze | Successfully processed transactions_history_final.csv
+2026-05-16 14:10:59,334 | INFO     | 01_raw_to_bronze | ========================================
+2026-05-16 14:10:59,334 | INFO     | 01_raw_to_bronze | Ingestion Complete.
+2026-05-16 14:10:59,334 | INFO     | 01_raw_to_bronze | ========================================
