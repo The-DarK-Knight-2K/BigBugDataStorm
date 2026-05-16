@@ -255,8 +255,13 @@ def handle_nulls(df: pd.DataFrame) -> pd.DataFrame:
 def round_floats(df: pd.DataFrame, decimals: int = 4) -> pd.DataFrame:
     """Step 8 — Round all float columns to reduce spurious precision."""
     float_cols = df.select_dtypes(include=["float32", "float64"]).columns.tolist()
+    # Upcast float32 → float64 so that rounding to 4 dp is exact
+    # (float32 has only ~7 significant digits, causing trailing noise)
+    for col in float_cols:
+        if df[col].dtype == "float32":
+            df[col] = df[col].astype("float64")
     df[float_cols] = df[float_cols].round(decimals)
-    log.info("Rounded %d float columns to %d decimal places",
+    log.info("Rounded %d float columns to %d decimal places (all float64)",
              len(float_cols), decimals)
     return df
 
