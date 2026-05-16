@@ -95,7 +95,11 @@ if non_numeric:
 ### Step 3 — Build training set and target
 
 ```python
-df_train = df[df["has_transaction_history"] == True].copy()
+df_train = df[
+    (df["has_transaction_history"] == True) & 
+    (df["exclude_from_training"] == False)
+].copy()
+
 df_train["target"] = (
     df_train["hist_p90_monthly"]
     * df_train["seasonality_multiplier_jan_2026"]

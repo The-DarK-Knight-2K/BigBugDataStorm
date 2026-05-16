@@ -63,3 +63,12 @@ To support seamless model swapping (Ensembling) down the line without breaking t
    * If `algo == "random_forest"`, trigger a `SimpleImputer` pipeline followed by an `OrdinalEncoder` pipeline.
 
 This prevents the Silver/Gold tables from being bloated by one-hot encoded columns (which are unreadable for humans and take up unnecessary disk space).
+
+---
+
+## 4. Inference Optimization: "Clean Train, Predict All"
+
+To maximize the generalization capability of our model while strictly adhering to the submission requirement of predicting for all 20,000 outlets, we use a bifurcated pipeline strategy:
+
+1. **Filtering the Training Set**: The 40 outlets with quarantined/missing coordinates will have their coordinates imputed with the province centroid and POI features set to 0. While necessary for prediction, this imputed data acts as noise during training. Thus, we create an `exclude_from_training` flag in `master_features.parquet` and filter these records out before calling `model.fit()`. The model learns exclusively from the ~19,960 clean, geographically accurate outlets.
+2. **Comprehensive Inference**: During `predict.py`, the `exclude_from_training` flag is ignored. The trained model infers the target for all 20,000 outlets. The 40 problematic outlets receive a prediction based on their actual sales history and their best-guess (imputed) geographic features, avoiding any loss of records in the final submission.

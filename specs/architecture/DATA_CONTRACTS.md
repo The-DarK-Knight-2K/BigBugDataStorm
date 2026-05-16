@@ -176,19 +176,29 @@ All rejected record files share the same appended column:
 
 ### `master_features.parquet`
 One row per outlet. All 20,000 outlets must be present (even the 40 with no valid
-coordinates — they get median-imputed POI features).
+coordinates — they are left as-is with 0 counts for POI features).
 
 | Column group | Source |
 |-------------|--------|
 | Outlet_ID | Key |
 | All `outlet_master_clean` columns | Silver |
-| Latitude, Longitude, coords_swapped | Silver coords |
+| Latitude, Longitude, coords_swapped | Silver coords (NaN filled with `False`) |
 | All `sales_features` columns | Gold sales |
 | All `poi_features` columns | Gold POI |
 | seasonality_jan_2026 | Silver seasonality (Jan 2026, distributor match) |
+| seasonality_multiplier_jan_2026 | Numeric multiplier derived from seasonality_jan_2026 |
 | jan_2026_holiday_count | Silver holidays (distinct holiday dates in Jan 2026) |
-| jan_2026_trading_days | Computed: 31 − jan_2026_holiday_count − weekend_days |
+| jan_2026_trading_days | Loaded from `jan_2026_trading_days.json` |
 | province | Derived from distributor_id |
+| has_transaction_history | bool — True if `active_months > 0` |
+| exclude_from_training | bool — True for ~40 outlets with no valid coordinates |
+
+> **Note:** This table is intentionally kept algorithm-agnostic. Categorical
+> columns (`Outlet_Type`, `Outlet_Size`, `province`, `seasonality_jan_2026`)
+> are stored as raw strings. Encoding (one-hot, ordinal, target) is deferred
+> to `train.py`. See `docs/optimizations.md` Section 3.
+>
+> All float columns are rounded to 4 decimal places.
 
 ---
 

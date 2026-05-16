@@ -80,9 +80,13 @@
 - [x] Calculate YoY growth rate, EMA, and recent 3-month averages.
 
 ### `build_master_features.py`
-- [ ] Join cleaned silver tables and gold feature tables safely.
-- [ ] Compute `jan_2026_trading_days` accounting for weekends and holidays.
-- [ ] Derive `province` or regional features from `distributor_id`.
+- [x] Join cleaned silver tables and gold feature tables safely.
+- [x] Load `jan_2026_trading_days` from the silver JSON file.
+- [x] Derive `province` from `distributor_id`.
+- [x] Add `has_transaction_history` flag (from `active_months > 0`).
+- [x] Add `exclude_from_training` flag (outlets with no valid coordinates).
+- [x] Fill `coords_swapped` NaN with `False` for quarantined outlets.
+- [x] Round all float columns to 4 decimal places.
 - [ ] Ensure output has exactly 20,000 rows (no lost outlets).
 
 ## Phase 5: Modelling
@@ -93,6 +97,7 @@
 ### `train.py`
 - [ ] Handle temporal train/validation splitting (e.g., predict 2025 Jan using 2024 data).
 - [ ] Address skewness in `Volume_Litres` (e.g., log transformation).
+- [ ] Filter out `exclude_from_training` records (invalid coordinates) before fitting.
 - [ ] Encode categorical features (Outlet_Type, Size, Province) robustly.
 - [ ] Track experiments, save model artifacts, and log feature importances.
 

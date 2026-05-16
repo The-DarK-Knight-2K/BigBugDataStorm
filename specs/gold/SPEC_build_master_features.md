@@ -130,6 +130,14 @@ df["province"] = df["distributor_id"].map(DIST_TO_PROVINCE)
 
 ### Step 7 — Handle nulls from left joins
 
+**`coords_swapped`:** The ~40 quarantined outlets are missing from
+`outlet_coordinates_clean.parquet`, so `coords_swapped` will be NaN after the
+LEFT JOIN. Fill with `False` (they weren't swapped — they were absent).
+
+```python
+df["coords_swapped"] = df["coords_swapped"].fillna(False)
+```
+
 **Coordinates:** ~40 outlets with zero coordinates will have null Latitude/Longitude.
 Fill with province centroid coordinates as approximations:
 
@@ -140,7 +148,11 @@ PROVINCE_CENTROIDS = {
     "North-Western": (7.7102, 80.0078),
     "Southern":      (6.0535, 80.2210),
 }
+# Flag outlets with no valid coordinates to be excluded from training
+df["exclude_from_training"] = df["Latitude"].isnull()
+
 # Fill null coords with province centroid
+n_null_coords = df["Latitude"].isnull().sum()
 for province, (lat, lon) in PROVINCE_CENTROIDS.items():
     mask = df["Latitude"].isnull() & (df["province"] == province)
     df.loc[mask, "Latitude"]  = lat
@@ -152,6 +164,16 @@ log.warning("Filled %d null coordinates with province centroids", n_null_coords)
 
 **Numeric sales features:** If any outlet has null sales features (fully inactive),
 fill with 0.
+
+**`has_transaction_history`:** Derive from `active_months` (from sales features).
+Outlets with 0 active months have no transaction history and will be handled
+separately during modelling.
+
+```python
+df["has_transaction_history"] = df["active_months"].fillna(0).gt(0)
+log.info("%d outlets have no transaction history",
+         (~df["has_transaction_history"]).sum())
+```
 
 **trend_slope, yoy_growth_rate:** These legitimately can be null for outlets with
 insufficient history. Fill nulls with the **median** value across all outlets
@@ -168,31 +190,24 @@ for col in ["trend_slope", "yoy_growth_rate"]:
 **seasonality_multiplier_jan_2026:** If null (outlet has no distributor assigned),
 fill with 1.00 (Moderate/neutral).
 
-### Step 8 — Encode categorical features
+### Step 8 — Round floating-point columns
 
-**Outlet_Size:**
+Round all float columns to 4 decimal places to avoid spurious precision
+and reduce parquet file size.
+
 ```python
-SIZE_ORDER = {"Small": 1, "Medium": 2, "Large": 3, "Extra Large": 4}
-df["outlet_size_encoded"] = df["Outlet_Size"].map(SIZE_ORDER)
+float_cols = df.select_dtypes(include=["float32", "float64"]).columns
+df[float_cols] = df[float_cols].round(4)
+log.info("Rounded %d float columns to 4 decimal places", len(float_cols))
 ```
 
-**Outlet_Type** (one-hot encode):
-```python
-type_dummies = pd.get_dummies(df["Outlet_Type"], prefix="type")
-df = pd.concat([df, type_dummies], axis=1)
-```
-
-**Province** (one-hot encode):
-```python
-province_dummies = pd.get_dummies(df["province"], prefix="province")
-df = pd.concat([df, province_dummies], axis=1)
-```
-
-**Seasonality_Index:**
-```python
-SEASON_ENCODE = {"Un-Favorable": 0, "Moderate": 1, "Favorable": 2}
-df["seasonality_encoded"] = df["seasonality_jan_2026"].map(SEASON_ENCODE).fillna(1)
-```
+> **Note:** Categorical encoding (one-hot, ordinal) is intentionally **NOT**
+> performed here. `master_features.parquet` is kept algorithm-agnostic with raw
+> string categories (`Outlet_Type`, `Outlet_Size`, `province`,
+> `seasonality_jan_2026`). Encoding is deferred to `train.py` via a
+> Preprocessor class so the same Gold table can serve LightGBM, XGBoost,
+> CatBoost, and Random Forest without modification.
+> See `docs/optimizations.md` Section 3 for details.
 
 ### Step 9 — Write output
 
@@ -214,9 +229,11 @@ assert df["Outlet_ID"].duplicated().sum() == 0
 assert df["Outlet_ID"].isnull().sum() == 0
 assert df["Latitude"].isnull().sum() == 0,  "Null latitudes after centroid fill"
 assert df["Longitude"].isnull().sum() == 0, "Null longitudes after centroid fill"
+assert df["coords_swapped"].isnull().sum() == 0, "Null coords_swapped after fill"
 assert df["seasonality_multiplier_jan_2026"].isnull().sum() == 0
 assert df["hist_p90_monthly"].isnull().sum() == 0
-assert df["outlet_size_encoded"].isnull().sum() == 0
+assert df["has_transaction_history"].dtype == bool
+assert df["exclude_from_training"].dtype == bool
 assert "jan_2026_trading_days" in df.columns
 assert df["jan_2026_trading_days"].iloc[0] > 0
 ```
