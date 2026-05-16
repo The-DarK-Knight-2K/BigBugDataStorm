@@ -30,7 +30,7 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 
 ## Phase 4: Gold Layer (Feature Engineering)
 
-18. Implemented Gold Layer POI data acquisition pipeline: `scrape_poi_raw.py` using Overpass API with K-Means clustering to optimize bounding box queries and respect API rate limits via a manifest-based caching system.
+18. Designed and implemented a two-phase Gold Layer POI data acquisition pipeline to enrich outlet data with geospatial features from OpenStreetMap. **Phase 1** (`scrape_poi_raw.py`) used K-Means spatial clustering to group 19,960 outlets into 400 geographic neighborhoods, reducing API calls by 98%. Each cluster was queried via the Overpass API with a 2 km bounding-box buffer, and raw JSON responses were cached to `Data/Gold/poi_raw_cache/`. A `scrape_manifest.json` tracker enabled idempotent resumption — if the script crashed mid-run, it safely resumed from the last incomplete cluster without re-querying completed ones. Achieved 100% cluster retrieval (400/400).
 19. Developed `build_poi_features.py` to calculate outlet-specific POI density metrics across multiple radii (500m, 1km, 2km) and compute a weighted, normalized `footfall_score` for all 20,000 outlets.
 20. Implemented `build_sales_features.py` to derive advanced historical metrics, including YoY growth, EMA trends, and January-specific seasonality patterns to support target variable estimation.
 
