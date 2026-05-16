@@ -1,0 +1,10 @@
+sri_lanka_bounds:
+  lat_min: 5.9
+  lat_max: 9.9
+  lon_min: 79.5
+  lon_max: 81.9
+valid_outlet_sizes: ["Small", "Medium", "Large", "Extra Large"]
+valid_outlet_types: ["Grocery", "Bakery", "Eatery", "Pharmacy", "Hotel", "SMMT"]
+outlet_type_corrections:
+  "Grocry": "Grocery"
+  "Bakry": "Bakery"
