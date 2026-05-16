@@ -118,7 +118,6 @@ All rejected record files share the same appended column:
 
 ### Quarantine files
 - `rejected_transactions.parquet`
-- `rejected_outlet_master.parquet`
 - `rejected_outlet_coordinates.parquet`
 
 ---
