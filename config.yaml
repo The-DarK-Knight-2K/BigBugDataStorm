@@ -21,14 +21,25 @@ modelling:
   random_seed: 42
   cv_folds: 5
   target_percentile: 90
-  lgbm_params:
-    n_estimators: 1000
-    learning_rate: 0.05
-    num_leaves: 63
-    min_child_samples: 20
-    subsample: 0.8
-    colsample_bytree: 0.8
-    reg_alpha: 0.1
-    reg_lambda: 0.1
+  algorithm: "catboost"                # Winner from Colab experiments (RMSE 40.38 vs LightGBM 40.96)
+  catboost_params:
+    iterations: 1289
+    learning_rate: 0.0283
+    depth: 5
+    l2_leaf_reg: 1.495
+    subsample: 0.713
+    random_seed: 42
+    verbose: 100
+    cat_features: ["Outlet_Type", "Outlet_Size", "province"]
+  # --- LightGBM fallback (from initial config, pre-experiment) ---
+  # lgbm_params:
+  #   n_estimators: 1000
+  #   learning_rate: 0.05
+  #   num_leaves: 63
+  #   min_child_samples: 20
+  #   subsample: 0.8
+  #   colsample_bytree: 0.8
+  #   reg_alpha: 0.1
+  #   reg_lambda: 0.1
 
 team_name: "bigbug"

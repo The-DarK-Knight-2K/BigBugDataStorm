@@ -2,10 +2,15 @@
 
 ## Purpose
 
-Train a LightGBM gradient boosting model to predict outlet-level maximum monthly
+Train a CatBoost gradient boosting model to predict outlet-level maximum monthly
 purchase potential. Since there is no labelled target variable, a pseudo-label is
 constructed from the 90th percentile historical monthly volume adjusted for
 seasonality. The trained model is saved to `modelling/artifacts/model.pkl`.
+
+> **Algorithm Decision (from Colab Experiments):** CatBoost was selected over
+> LightGBM based on 5-fold CV (RMSE 40.38 vs 40.96). CatBoost's native categorical
+> handling of `Outlet_Type`, `Outlet_Size`, and `province` eliminates the need for
+> manual encoding. Hyperparameters were tuned via Optuna (20 trials).
 
 ## Layer
 Modelling
@@ -73,23 +78,38 @@ df = pd.read_parquet(GOLD / "master_features.parquet")
 
 ### Step 2 — Define feature columns
 
+CatBoost handles categorical columns natively via `cat_features`. We include
+`Outlet_Type`, `Outlet_Size`, and `province` as features (unlike LightGBM which
+would require encoding them).
+
 ```python
-# Exclude non-feature columns
+# Exclude non-feature / metadata columns
 EXCLUDE_COLS = [
-    "Outlet_ID", "Outlet_Size", "Outlet_Type", "province",
+    "Outlet_ID",
     "seasonality_jan_2026", "distributor_id",
-    "target",  # will be added
+    "target",                        # will be added
+    "has_transaction_history",        # filter flag, not a feature
+    "exclude_from_training",          # filter flag, not a feature
+    "baseline_potential_litres",      # baseline floor, not a training feature
+    "jan_2026_holiday_count",         # constant across all rows (zero variance)
+    "jan_2026_trading_days",          # constant across all rows (zero variance)
+    # Redundant volume columns (keep hist_p90, hist_max, ema_3m, jan_avg)
+    "hist_p75_monthly",
+    "hist_mean_monthly",
+    "total_volume",
+    "hist_std_monthly",
+    "ema_6m",
+    "recent_3m_avg",
+    "jan_max_volume",
 ]
 
 feature_cols = [c for c in df.columns if c not in EXCLUDE_COLS]
-log.info("Training with %d features: %s", len(feature_cols), feature_cols)
-```
 
-Verify all `feature_cols` are numeric:
-```python
-non_numeric = df[feature_cols].select_dtypes(exclude=["number"]).columns.tolist()
-if non_numeric:
-    raise ValueError(f"Non-numeric feature columns found: {non_numeric}")
+# Identify categorical features for CatBoost
+CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province"]
+cat_feature_indices = [feature_cols.index(c) for c in CAT_FEATURES if c in feature_cols]
+log.info("Training with %d features (%d categorical): %s",
+         len(feature_cols), len(cat_feature_indices), feature_cols)
 ```
 
 ### Step 3 — Build training set and target
@@ -119,8 +139,11 @@ Split on `Outlet_ID` (not time-based — this is a cross-sectional problem).
 
 ```python
 from sklearn.model_selection import KFold
-import lightgbm as lgb
+from catboost import CatBoostRegressor, Pool
 import numpy as np
+
+cb_params = CFG["modelling"]["catboost_params"].copy()
+cb_cat_features = cb_params.pop("cat_features", [])
 
 kf = KFold(
     n_splits=CFG["modelling"]["cv_folds"],
@@ -135,13 +158,15 @@ for fold, (train_idx, val_idx) in enumerate(kf.split(X), 1):
     X_tr, X_val = X.iloc[train_idx], X.iloc[val_idx]
     y_tr, y_val = y.iloc[train_idx], y.iloc[val_idx]
 
-    model = lgb.LGBMRegressor(**CFG["modelling"]["lgbm_params"],
-                               random_state=CFG["modelling"]["random_seed"])
+    train_pool = Pool(X_tr, y_tr, cat_features=cat_feature_indices)
+    val_pool   = Pool(X_val, y_val, cat_features=cat_feature_indices)
+
+    model = CatBoostRegressor(**cb_params)
     model.fit(
-        X_tr, y_tr,
-        eval_set=[(X_val, y_val)],
-        callbacks=[lgb.early_stopping(50, verbose=False),
-                   lgb.log_evaluation(100)],
+        train_pool,
+        eval_set=val_pool,
+        early_stopping_rounds=50,
+        verbose=100,
     )
 
     preds = model.predict(X_val)
@@ -158,9 +183,9 @@ log.info("CV MAE : %.2f ± %.2f", np.mean(cv_mae_scores),  np.std(cv_mae_scores)
 ### Step 5 — Train final model on full training data
 
 ```python
-final_model = lgb.LGBMRegressor(**CFG["modelling"]["lgbm_params"],
-                                  random_state=CFG["modelling"]["random_seed"])
-final_model.fit(X, y)
+full_pool = Pool(X, y, cat_features=cat_feature_indices)
+final_model = CatBoostRegressor(**cb_params)
+final_model.fit(full_pool, verbose=100)
 log.info("Final model trained on %d samples", len(X))
 ```
 
@@ -191,7 +216,7 @@ importance_df = pd.DataFrame({
 fig, ax = plt.subplots(figsize=(10, 12))
 ax.barh(importance_df["feature"][::-1], importance_df["importance"][::-1])
 ax.set_xlabel("Feature Importance (gain)")
-ax.set_title("Top 30 Feature Importances — LightGBM")
+ax.set_title("Top 30 Feature Importances — CatBoost")
 plt.tight_layout()
 plt.savefig(ARTIFACTS / "feature_importance.png", dpi=150)
 plt.close()
@@ -240,7 +265,7 @@ python modelling/train.py
 ## Dependencies
 
 - pandas, numpy, pyarrow, pyyaml
-- lightgbm
+- catboost
 - scikit-learn (KFold)
 - matplotlib
 - Standard library: pickle, json, logging

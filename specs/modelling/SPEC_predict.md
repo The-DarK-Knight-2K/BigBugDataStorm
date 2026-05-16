@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Generate the final submission CSV by blending the LightGBM model predictions with
+Generate the final submission CSV by blending the CatBoost model predictions with
 the statistical baseline. The final prediction for every outlet is the maximum of
 the two approaches, ensuring we never predict below the statistically grounded
 floor. Output is `outputs/teamname_predictions.csv`.
@@ -186,5 +186,5 @@ python modelling/predict.py
 
 ## Dependencies
 
-- pandas, numpy, pyarrow, pyyaml, lightgbm
+- pandas, numpy, pyarrow, pyyaml, catboost
 - Standard library: pickle, logging

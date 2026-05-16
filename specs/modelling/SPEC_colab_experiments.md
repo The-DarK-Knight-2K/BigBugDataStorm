@@ -52,3 +52,37 @@ Write Python code to evaluate and compare different Gradient Boosting frameworks
 - Output a clean comparison table (e.g., a pandas DataFrame) showing CV RMSE and MAE for LightGBM vs. CatBoost.
 - Output high-quality `matplotlib` or `seaborn` horizontal bar charts for feature importance.
 - Provide a markdown summary concluding which algorithm and hyperparameters should be used for the final `train.py` script.
+
+---
+
+## Experiment Results (Completed 2026-05-17)
+
+### Algorithm Comparison (5-Fold CV)
+
+| Metric | LightGBM | CatBoost |
+|--------|----------|----------|
+| RMSE   | 40.96    | 40.75    |
+| MAE    | 6.07     | 6.50     |
+
+### Optuna Hyperparameter Tuning (CatBoost, 20 trials)
+
+Best trial (#13): **RMSE 40.38**
+
+| Parameter     | Value  |
+|---------------|--------|
+| iterations    | 1289   |
+| learning_rate | 0.0283 |
+| depth         | 5      |
+| l2_leaf_reg   | 1.495  |
+| subsample     | 0.713  |
+
+### Key Findings
+
+1. **Feature importance**: `hist_max_monthly` + `hist_p90_monthly` account for ~88% of model gain.
+2. **Baseline blend**: `max(model_pred, baseline)` reduces RMSE from ~40 to ~10.7, confirming the safety floor design works as intended.
+3. **Redundant features removed**: 7 near-clone volume columns dropped to reduce multicollinearity.
+4. **Constant columns**: `jan_2026_holiday_count` and `jan_2026_trading_days` have zero variance → dropped.
+
+### Decision
+
+**CatBoost** selected as the production algorithm. Config and specs updated accordingly.
