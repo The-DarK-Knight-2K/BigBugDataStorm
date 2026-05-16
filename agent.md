@@ -27,6 +27,13 @@ the corresponding script in `pipeline/` or `modelling/`.
 |------|--------|
 | `bronze/SPEC_ingest.md` | `pipeline/bronze/ingest.py` |
 
+### EDA (Jupyter Notebooks)
+| File | Notebook |
+|------|--------|
+| `eda/01_transactions_spec.md` | `notebooks/01_eda_transactions.ipynb` |
+| `eda/02_outlets_spec.md` | `notebooks/02_eda_outlets.ipynb` |
+| `eda/03_features_spec.md` | `notebooks/03_feature_exploration.ipynb` |
+
 ### Silver layer
 | File | Script |
 |------|--------|
