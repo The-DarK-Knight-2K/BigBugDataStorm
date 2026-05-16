@@ -36,5 +36,11 @@ Instead of ad-hoc cleaning scripts, we implemented a robust, modular Validation 
 *   **Forensics Applied**: The dataset suffered from sloppy column naming, massive volume outliers, and hidden missing data patterns.
 *   **The "Why"**:
     *   *Dynamic Mapping*: Built a fuzzy-matcher to catch column drift (e.g., automatically mapping `volume_liters` to the canonical `Volume_Litres`).
-    *   *Outlier Flagging (IQR)*: We implemented an Interquartile Range (IQR) method at the *individual outlet level*. Extreme spikes (`> Q3 + 5*IQR`) are flagged but NOT quarantined, as they may represent genuine wholesale events that the model must learn from.
+    *   *Negative Volume Treatment*: 
+        *   **Options Considered**: Netting at monthly level, absolute value conversion, or direct quarantine.
+        *   **Decision**: We implemented a strict **Quarantine** via `range_check(min=0.01)`. This ensures that "Silver" data contains only valid purchase signals. Negative values (0.20% of data) represent returns/refunds which would otherwise skew the standard deviation of retail features.
+    *   *Hierarchical Outlier Handling*: 
+        *   **Options Considered**: Global Winsorization (capping), Deletion, or Contextual Flagging.
+        *   **Decision**: We chose **Contextual Flagging**. We calculated the Interquartile Range (IQR) at the *individual outlet level* for stores with sufficient history, falling back to a global IQR for new stores. Values exceeding `Q3 + 5*IQR` are flagged (`is_volume_outlier`) but **NOT** quarantined. This preserves wholesale spikes for the model while allowing us to apply log-transformations later to stabilize variance.
     *   *Blackout Periods*: We isolated sequences of consecutive zero-volume months bounded by active months. Flagging these "Blackout Periods" proves to the model that these are true retail stockouts or credit-holds, not just missing database entries.
+
