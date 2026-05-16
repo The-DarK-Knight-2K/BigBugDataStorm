@@ -198,7 +198,8 @@ coordinates — they are left as-is with 0 counts for POI features).
 > are stored as raw strings. Encoding (one-hot, ordinal, target) is deferred
 > to `train.py`. See `docs/optimizations.md` Section 3.
 >
-> All float columns are rounded to 4 decimal places.
+> All float columns are upcast to `float64` and rounded to 4 decimal places
+> (float32 cannot represent 4-dp values exactly).
 
 ---
 

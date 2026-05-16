@@ -195,10 +195,18 @@ fill with 1.00 (Moderate/neutral).
 Round all float columns to 4 decimal places to avoid spurious precision
 and reduce parquet file size.
 
+**Important:** Upcast any `float32` columns to `float64` *before* rounding.
+`float32` has only ~7 significant digits, so rounding to 4 decimal places
+and keeping `float32` produces trailing noise (e.g. `1941.4699707031` instead
+of `1941.47`). All float columns are written as `float64` in the output.
+
 ```python
 float_cols = df.select_dtypes(include=["float32", "float64"]).columns
+for col in float_cols:
+    if df[col].dtype == "float32":
+        df[col] = df[col].astype("float64")
 df[float_cols] = df[float_cols].round(4)
-log.info("Rounded %d float columns to 4 decimal places", len(float_cols))
+log.info("Rounded %d float columns to 4 decimal places (all float64)", len(float_cols))
 ```
 
 > **Note:** Categorical encoding (one-hot, ordinal) is intentionally **NOT**
