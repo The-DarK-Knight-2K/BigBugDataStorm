@@ -16,3 +16,19 @@ poi:
   timeout_s: 60                # seconds the Overpass server waits before giving up
   request_delay_s: 1.0         # polite delay between cluster queries (avoid rate limiting)
   radii_m: [500, 1000, 2000]   # radius bands for counting POIs per outlet (edit here to recompute Phase 2)
+
+modelling:
+  random_seed: 42
+  cv_folds: 5
+  target_percentile: 90
+  lgbm_params:
+    n_estimators: 1000
+    learning_rate: 0.05
+    num_leaves: 63
+    min_child_samples: 20
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 0.1
+
+team_name: "bigbug"

@@ -87,7 +87,7 @@
 - [x] Add `exclude_from_training` flag (outlets with no valid coordinates).
 - [x] Fill `coords_swapped` NaN with `False` for quarantined outlets.
 - [x] Round all float columns to 4 decimal places.
-- [ ] Ensure output has exactly 20,000 rows (no lost outlets).
+- [x] Ensure output has exactly 20,000 rows (no lost outlets).
 
 ## Phase 5: Modelling
 ### `baseline.py`

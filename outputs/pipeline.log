@@ -245,3 +245,21 @@ dtype: object
 2026-05-17 01:53:28,595 | INFO     | build_master_features | ======================================================================
 2026-05-17 01:53:28,595 | INFO     | build_master_features | BUILD MASTER FEATURES — DONE
 2026-05-17 01:53:28,595 | INFO     | build_master_features | ======================================================================
+2026-05-17 03:04:25,683 | INFO     | baseline | ======================================================================
+2026-05-17 03:04:25,683 | INFO     | baseline | BASELINE ESTIMATION — START
+2026-05-17 03:04:25,683 | INFO     | baseline | ======================================================================
+2026-05-17 03:04:26,492 | INFO     | baseline | Loaded 20000 rows from master_features.parquet
+2026-05-17 03:04:26,515 | INFO     | baseline | Data-driven cold-start medians by size: {'Extra Large': 1295.9961, 'Large': 482.1064, 'Medium': 95.941, 'Small': 21.8072}
+2026-05-17 03:04:26,515 | INFO     | baseline | Global median fallback: 51.59
+2026-05-17 03:04:27,026 | INFO     | baseline | Baseline statistics:
+2026-05-17 03:04:27,026 | INFO     | baseline |   Min    : 28.05
+2026-05-17 03:04:27,027 | INFO     | baseline |   Median : 161.88
+2026-05-17 03:04:27,027 | INFO     | baseline |   Mean   : 393.95
+2026-05-17 03:04:27,028 | INFO     | baseline |   P90    : 970.75
+2026-05-17 03:04:27,029 | INFO     | baseline |   Max    : 10457.94
+2026-05-17 03:04:27,030 | INFO     | baseline | Estimation paths — January-anchored: 18432, P90 fallback: 1568, Cold-start: 0
+2026-05-17 03:04:27,048 | INFO     | baseline | All assertions passed.
+2026-05-17 03:04:27,067 | INFO     | baseline | Saved 20000 rows -> baseline_predictions.parquet (1.4s)
+2026-05-17 03:04:27,067 | INFO     | baseline | ======================================================================
+2026-05-17 03:04:27,067 | INFO     | baseline | BASELINE ESTIMATION — DONE
+2026-05-17 03:04:27,067 | INFO     | baseline | ======================================================================

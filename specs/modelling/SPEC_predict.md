@@ -73,11 +73,12 @@ assert df["baseline_potential_litres"].isnull().sum() == 0, \
 df["Maximum_Monthly_Liters"] = df[["model_prediction", "baseline_potential_litres"]].max(axis=1)
 ```
 
-**Rationale:** The baseline encodes hard business logic (an outlet cannot have less
-potential than its historical P90 adjusted for seasonality). The model may
-extrapolate higher potential where structural signals (POI, cooler count, growth
-trend) justify it. Taking the maximum of both ensures we always respect the floor
-while benefiting from the model's signal.
+**Rationale:** The baseline encodes hard business logic anchored on **January-specific
+historical volumes** and recency momentum — a fundamentally different signal from
+the model's all-months P90 pseudo-label. The model may extrapolate higher potential
+where structural signals (POI, cooler count, growth trend) justify it. Taking the
+maximum of both ensures we always respect the January-grounded floor while
+benefiting from the model's learned signal.
 
 ### Step 5 — Post-processing and sanity checks
 
