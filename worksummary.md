@@ -1,3 +1,5 @@
+Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP?usp=drive_link
+
 # Work Summary
 
 1. Created `.gitignore` to exclude datasets and environment files.
