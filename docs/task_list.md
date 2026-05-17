@@ -91,20 +91,20 @@
 
 ## Phase 5: Modelling
 ### `baseline.py`
-- [ ] Implement a naive heuristic (e.g., historical Jan average or last 3-month average).
-- [ ] Generate baseline predictions and evaluate MAE/RMSE.
+- [x] Implement a naive heuristic (e.g., historical Jan average or last 3-month average).
+- [x] Generate baseline predictions and evaluate MAE/RMSE.
 
 ### `train.py`
-- [ ] Handle temporal train/validation splitting (e.g., predict 2025 Jan using 2024 data).
-- [ ] Address skewness in `Volume_Litres` (e.g., log transformation).
-- [ ] Filter out `exclude_from_training` records (invalid coordinates) before fitting.
-- [ ] Encode categorical features (Outlet_Type, Size, Province) robustly.
-- [ ] Track experiments, save model artifacts, and log feature importances.
+- [x] Handle temporal train/validation splitting (e.g., predict 2025 Jan using 2024 data).
+- [x] Address skewness in `Volume_Litres` (e.g., log transformation).
+- [x] Filter out `exclude_from_training` records (invalid coordinates) before fitting.
+- [x] Encode categorical features (Outlet_Type, Size, Province) robustly.
+- [x] Track experiments, save model artifacts, and log feature importances.
 
 ### `predict.py`
-- [ ] Load the latest trained model and `master_features.parquet`.
-- [ ] Apply post-processing bounds (e.g., ensure `Maximum_Monthly_Liters` > 0).
-- [ ] Format output strictly to `teamname_predictions.csv` schema.
+- [x] Load the latest trained model and `master_features.parquet`.
+- [x] Apply post-processing bounds (e.g., ensure `Maximum_Monthly_Liters` > 0).
+- [x] Format output strictly to `teamname_predictions.csv` schema.
 
 ## Phase 6: Orchestration
 ### `run_pipeline.py`

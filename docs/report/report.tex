@@ -1,0 +1,441 @@
+% ============================================================
+%  DATA STORM 7.0 — STORMING ROUND SUBMISSION REPORT
+%  Team: BigBug
+%  Max 5 pages including cover page
+% ============================================================
+
+\documentclass[11pt, a4paper]{article}
+
+% ── Packages ────────────────────────────────────────────────
+\usepackage[T1]{fontenc}        % Better font encoding
+\usepackage{mathpazo}           % Palatino font for main text (elegant and professional)
+\usepackage{inconsolata}        % Clean, modern monospace font for \texttt{}
+\usepackage[
+  top=2cm, bottom=2cm,
+  left=2.2cm, right=2.2cm
+]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{tcolorbox}
+\usepackage{fontawesome5}
+
+% ── Colours (customise to your team palette) ────────────────
+\definecolor{primary}{HTML}{1A3C5E}
+\definecolor{accent}{HTML}{E87722}
+\definecolor{lightgray}{HTML}{F4F5F7}
+\definecolor{midgray}{HTML}{6B7280}
+\definecolor{successgreen}{HTML}{16A34A}
+\definecolor{alertred}{HTML}{DC2626}
+
+% ── Section formatting ───────────────────────────────────────
+\titleformat{\section}
+  {\large\bfseries\color{primary}}
+  {\thesection.}{0.5em}{}
+  [\color{accent}\titlerule[1.2pt]]
+
+\titleformat{\subsection}
+  {\normalsize\bfseries\color{primary}}
+  {\thesubsection}{0.5em}{}
+
+\titlespacing{\section}{0pt}{10pt}{4pt}
+\titlespacing{\subsection}{0pt}{6pt}{2pt}
+
+% ── Header / Footer ──────────────────────────────────────────
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyhead[L]{\small\color{midgray} Data Storm 7.0 — Storming Round}
+\fancyhead[R]{\small\color{midgray} Team: \textbf{BigBug}}
+\fancyfoot[C]{\small\color{midgray} \thepage}
+
+% ── Hyperlink setup ──────────────────────────────────────────
+\hypersetup{
+  colorlinks=true,
+  linkcolor=primary,
+  urlcolor=accent,
+  citecolor=primary
+}
+
+% ── Helper: info box ─────────────────────────────────────────
+\tcbuselibrary{skins, breakable}
+\newtcolorbox{infobox}[1][]{
+  colback=lightgray,
+  colframe=primary,
+  fonttitle=\bfseries\small,
+  title=#1,
+  left=4pt, right=4pt, top=4pt, bottom=4pt,
+  boxrule=0.6pt
+}
+
+% ── Helper: metric pill table ────────────────────────────────
+\newcolumntype{C}[1]{>{\centering\arraybackslash}p{#1}}
+
+% ============================================================
+\begin{document}
+\thispagestyle{empty}
+
+% ============================================================
+% PAGE 1 — COVER PAGE
+% ============================================================
+
+\begin{center}
+  \vspace*{0.4cm}
+
+  % ── Competition badge ──
+  {\color{primary}\rule{\linewidth}{2.5pt}}
+  \vspace{0.3cm}
+
+  {\fontsize{9}{11}\selectfont\color{midgray}\MakeUppercase{Sri Lanka's Premier Advanced Analytics Competition}}\\[4pt]
+  {\fontsize{22}{26}\selectfont\bfseries\color{primary} Data Storm 7.0}\\[6pt]
+  {\fontsize{13}{15}\selectfont\color{accent}\bfseries Powered by OCTAVE JKH}\\[4pt]
+  {\color{primary}\rule{\linewidth}{2.5pt}}
+
+  \vspace{1.0cm}
+
+  % ── Report title ──
+  {\fontsize{16}{20}\selectfont\bfseries\color{primary}
+    Latent Demand Estimation Framework\\[4pt]
+    for Traditional Trade Outlets}
+
+  \vspace{0.6cm}
+  {\color{midgray}\rule{0.5\linewidth}{0.4pt}}
+  \vspace{0.6cm}
+
+  % ── Team details table ──
+  \begin{tabular}{rl}
+    \textbf{Team Name}   & BigBug \\[3pt]
+    \textbf{Members}     & Sithum Fernando, Ranuja Jayawardena, Sandaru Nethmina \\[3pt]
+    \textbf{Round}       & Storming Round \\[3pt]
+    \textbf{Submission}  & May 17, 2026 \\[3pt]
+    \textbf{GitHub}      & \url{https://github.com/The-DarK-Knight-2K/BigBugDataStorm} \\
+  \end{tabular}
+
+  \vspace{1.0cm}
+
+  % ── Evaluation weight reminder (visual) ──
+  \begin{infobox}[Evaluation Criteria Overview]
+    \begin{tabular}{lcc}
+      \toprule
+      \textbf{Criteria} & \textbf{Weight} & \textbf{Report Section} \\
+      \midrule
+      Data Engineering \& Forensics & 40\% & Section 1 \\
+      Methodology \& Base Math      & 40\% & Sections 2 \& 3 \\
+      Generative AI Utilisation     & 20\% & Section 4 \\
+      \bottomrule
+    \end{tabular}
+  \end{infobox}
+
+  \vspace{0.6cm}
+
+  % ── One-line abstract ──
+  \begin{minipage}{0.88\linewidth}
+    \small\color{midgray}\itshape
+    This report presents our end-to-end analytical framework for estimating the
+    latent maximum monthly purchase potential (in litres) for 20{,}000 traditional
+    trade outlets across Sri Lanka, targeting January 2026.
+  \end{minipage}
+
+\end{center}
+
+\newpage
+
+% ============================================================
+% PAGE 2 — SECTION 1: DATA FORENSICS & HYGIENE
+% ============================================================
+
+\section{Data Engineering \& Forensics}
+
+\subsection{Lakehouse Pipeline Architecture}
+
+We structured our codebase into three explicit layers stored as local
+\texttt{.parquet} files under \texttt{Data/Bronze/}, \texttt{Data/Silver/}, and
+\texttt{Data/Gold/}.
+
+\begin{center}
+\small
+\begin{tabular}{p{2.2cm} p{4.5cm} p{5.5cm}}
+  \toprule
+  \textbf{Layer} & \textbf{Input} & \textbf{Action} \\
+  \midrule
+  \textcolor{accent}{\textbf{Bronze}} &
+    Raw CSV exports from SFA / ERP &
+    Ingest as-is; schema-typed; no transformations \\
+  \textcolor{primary}{\textbf{Silver}} &
+    Bronze tables &
+    DQ checks applied; failed records quarantined \\
+  \textcolor{successgreen}{\textbf{Gold}} &
+    Silver + external POI &
+    Feature engineering; model-ready output \\
+  \bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Reusable Data Quality Check Functions}
+
+All checks are implemented as reusable Python functions in
+\texttt{pipeline/Silver/dq\_checks.py} and executed from the Silver pipeline with a
+single \texttt{run\_checks()} call per dataset.
+
+\begin{infobox}[DQ Check Summary — Key Functions]
+\begin{tabularx}{\linewidth}{l p{5.5cm} X}
+  \toprule
+  \textbf{Check} & \textbf{Function} & \textbf{Parameters} \\
+  \midrule
+  Duplicate       & \texttt{duplicate\_check(df, pk\_cols)}
+                  & Configurable composite primary key list \\
+  Null / Empty    & \texttt{null\_check(df, mandatory\_cols)}
+                  & List of non-nullable column names \\
+  Referential     & \texttt{ref\_integrity\_check(df, fk\_col, ref\_df)}
+                  & Child FK column, parent lookup table \\
+  Range           & \texttt{range\_check(df, col, min\_val, max\_val)}
+                  & Numeric field + expected bounds \\
+  Format / Type   & \texttt{value\_set\_check(df, col, valid\_values)}
+                  & Allowed set enforcement for categorical values \\
+  \bottomrule
+\end{tabularx}
+\end{infobox}
+
+\subsection{Anomalies Identified \& Quarantine Results}
+
+\begin{center}
+\small
+\begin{tabular}{lcccc}
+  \toprule
+  \textbf{Dataset} & \textbf{Raw Records} & \textbf{Quarantined} & \textbf{Clean} & \textbf{Primary Failure} \\
+  \midrule
+  transactions\_history & 2,376,389 & 16,620 & 2,359,769 & Negative/invalid volumes \\
+  outlet\_master        & 20,000 & 0 & 20,000 & Typos and missing outlet metadata \\
+  outlet\_geolocation   & 20,000 & 40 & 19,960 & Invalid / zero GPS coordinates \\
+  dist\_seasonality     & 360 & 0 & 370 & Missing Jan 2026 seasonality index \\
+  holiday\_list         & 349 & 0 & 351 & Duplicate/multi-type date rows \\
+  \bottomrule
+\end{tabular}
+\end{center}
+
+\textbf{Key System Artefacts Detected:}
+\begin{itemize}[noitemsep, topsep=2pt]
+  \item \textbf{Ghost entries:} Zero-volume months bounded by active sales,
+        suggesting stockouts or system heartbeat records rather than real demand.
+  \item \textbf{Clipped volumes:} Repeated identical transaction values were flagged
+        as capacity-bound behaviour rather than true consumption signals.
+  \item \textbf{Coordinate drift:} 40 outlets had invalid or zero coordinates within
+        the raw GPS supply chain and were quarantined before POI enrichment.
+  \item \textbf{Master-data decay:} Orphan transaction rows failing referential
+        integrity were quarantined to ensure the model only uses validated outlet IDs.
+\end{itemize}
+
+\newpage
+
+% ============================================================
+% PAGE 3 — SECTION 2: POI DATA ACQUISITION
+% ============================================================
+
+\section{POI Data Acquisition}
+
+\subsection{Geospatial Scraping Strategy}
+
+We sourced geospatial Point of Interest (POI) data using the
+\textbf{OpenStreetMap Overpass API}. To avoid 20,000 direct point queries, we
+engineered a highly scalable, two-phase scraping pipeline.
+
+\textbf{Two-Phase Implementation:}
+\begin{enumerate}[noitemsep, topsep=2pt]
+  \item \textbf{Phase 1 (Network):} Applied \textbf{K-Means spatial clustering} to group
+        20,000 outlets into 400 geographic neighborhoods. We issued one
+        bounding-box query (with a 2 km buffer) per cluster and cached the raw
+        JSON envelopes locally. This reduced API calls by 98\% and enabled
+        safe resumption after failures.
+  \item \textbf{Phase 2 (Compute):} A local script parsed the cached JSON and
+        calculated precise \textbf{geodesic distances} from each outlet to every
+        nearby POI using \texttt{geopy}, correctly accounting for the Earth's
+        curvature.
+\end{enumerate}
+
+\subsection{POI Categories \& Footfall Rationale}
+
+We extracted 6 core categories. Counts were binned into \textbf{500 m, 1000 m,
+and 2000 m} radius bands. The 500 m counts were heavily weighted to generate a
+normalized \textbf{Footfall Score (0--100)}.
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{l l X c}
+  \toprule
+  \textbf{Category} & \textbf{Core OSM Tags} & \textbf{Demand Signal Rationale} & \textbf{Weight} \\
+  \midrule
+  Transit     & \texttt{highway=bus\_stop/station} & Constant daily commuter volume & 3.0 \\
+  Education   & \texttt{amenity=school/university} & Morning/afternoon density spikes & 2.5 \\
+  Markets     & \texttt{shop=supermarket}          & High intent-to-purchase traffic & 2.0 \\
+  Healthcare  & \texttt{amenity=hospital/clinic}   & Steady staff \& visitor demand & 1.5 \\
+  Community   & \texttt{amenity=place\_of\_worship}& Event-driven congregation footfall & 1.0 \\
+  Hospitality & \texttt{tourism=hotel/restaurant}  & Dining crowds and tourists & 1.0 \\
+  \bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection{Final Engineered Features}
+
+Each outlet received 20 newly engineered geospatial features, significantly
+upgrading the baseline dataset:
+\begin{itemize}[noitemsep, topsep=2pt]
+  \item \textbf{18 Dynamic Count Columns:} Specific POI counts for all 6 categories
+        across 3 radii (e.g., \texttt{schools\_500m}, \texttt{transport\_1000m},
+        \texttt{markets\_2000m}).
+  \item \textbf{footfall\_score:} A Min-Max normalized composite score (0--100)
+        combining the weighted 500 m metrics.
+  \item \textbf{poi\_data\_available:} A boolean data contract flag gracefully
+        handling the 40 quarantined outlets lacking valid GPS coordinates by
+        assigning them safe zero values.
+\end{itemize}
+
+\newpage
+
+% ============================================================
+% PAGE 4 — SECTION 3: CAUSAL BASE LOGIC & UNCAPPED DEMAND
+% ============================================================
+
+\section{Causal Base Logic \& Uncapped Demand Estimation}
+
+\subsection{Problem Conceptualisation}
+
+Observed historical sales $y_i$ are a \emph{censored} realisation of true
+latent demand $y_i^*$:
+
+\begin{equation}
+  y_i = \min\!\left(y_i^*,\; C_i\right)
+\end{equation}
+
+where $C_i$ represents the binding constraint for outlet $i$ (credit limit,
+delivery cap, or stockout ceiling). The goal is to estimate $\hat{y}_i^*$ — the
+unconstrained ceiling.
+
+\subsection{Methodology: Pseudo-Labelled CatBoost Demand Ceiling}
+
+We selected a gradient-boosted tree model trained on a pseudo-labelled upper-tail
+target rather than directly using raw monthly volume. This approximates latent
+potential while preserving the signal from constraint-bound outlets.
+
+\begin{infobox}[Model Approach]
+  The target is built from the outlet's historical 90th percentile monthly volume
+  adjusted for January 2026 seasonality and trading days. We then train a
+  CatBoost regressor using Gold-layer structural features. CatBoost was chosen
+  after cross-validation outperformed LightGBM (CV RMSE 40.38 vs. 40.96).
+\end{infobox}
+
+\subsection{Feature Set for Potential Model}
+
+\begin{center}
+\small
+\begin{tabular}{ll}
+  \toprule
+  \textbf{Feature} & \textbf{Source} \\
+  \midrule
+  Historical avg. monthly volume (12-month) & transactions\_history \\
+  Peak-to-average ratio (demand volatility)  & transactions\_history \\
+  Outlet type, channel class                 & outlet\_master \\
+  Distributor seasonality index (Jan)        & distributor\_seasonality \\
+  Holiday-adjusted trading days (Jan 2026)   & holiday\_list \\
+  POI count \& diversity (500 m)             & Overpass API \\
+  Nearest transit / school distance          & Overpass API \\
+  Province-level market index                & Derived \\
+  \bottomrule
+\end{tabular}
+\end{center}
+
+\subsection{Constraint Neutralisation Logic}
+
+Outlets flagged as constraint-bound (e.g., identical volumes across repeated
+periods or zero-volume blackout sequences) had their effective target derived as:
+
+\begin{equation}
+  \hat{y}_i^* = \texttt{hist\_p90\_monthly} \times
+                \texttt{seasonality\_multiplier\_jan\_2026} \times
+                \frac{\texttt{jan\_2026\_trading\_days}}{22.0}
+\end{equation}
+
+This uses a robust upper-tail historical signal and normalizes it to the target
+month, preserving demand potential even when observed volumes were likely capped.
+
+\newpage
+
+% ============================================================
+% PAGE 5 — SECTION 4: GENAI TRANSPARENCY LOG
+% ============================================================
+
+\section{Generative AI Transparency Log}
+
+All AI tool usage is documented below in accordance with competition requirements.
+Every AI-generated output was critically reviewed and validated before integration.
+
+\begin{center}
+\small
+\begin{tabularx}{\linewidth}{p{2.8cm} p{1.6cm} X p{2.8cm}}
+  \toprule
+  \textbf{Task} & \textbf{Tool} & \textbf{How It Was Used} & \textbf{How Validated} \\
+  \midrule
+  Latent demand framework design &
+    Claude &
+    Brainstormed pseudo-label vs. censored regression formulations &
+    Cross-checked against econometrics literature \\
+
+  Overpass API scraping boilerplate &
+    ChatGPT &
+    Generated initial Python query builder for OSM POI extraction &
+    Manually tested on 10 clusters; fixed bounding-box edge cases \\
+
+  DQ check function templates &
+    Copilot &
+    Autocompleted parameterisable \texttt{check\_*} functions &
+    Unit-tested with synthetic dirty data \\
+
+  Anomaly pattern identification &
+    Claude &
+    Prompted with sample transaction rows to identify ghost-entry patterns &
+    Confirmed via manual inspection of flagged records \\
+
+  Report structure \& LaTeX template &
+    Claude &
+    Generated section outline and LaTeX skeleton &
+    All content written and verified by team \\
+  \bottomrule
+\end{tabularx}
+\end{center}
+
+\subsection*{AI Usage Principles}
+
+\begin{itemize}[noitemsep, topsep=4pt]
+  \item \textbf{Accelerator, not a crutch:} AI was used to generate starting
+        points and boilerplate; all business logic and model decisions were made
+        by the team.
+  \item \textbf{Critical evaluation:} Every AI output was tested against real
+        data before being incorporated into the pipeline.
+  \item \textbf{Iterative prompting:} Prompts were refined multiple times until
+        outputs met our quality standards — initial outputs were rarely used
+        verbatim.
+  \item \textbf{Transparency:} We did not use AI to fabricate results, invent
+        data sources, or generate prediction values directly.
+\end{itemize}
+
+% ── Footer note ──
+\vfill
+\begin{center}
+  \color{midgray}\small
+  \rule{0.4\linewidth}{0.4pt}\\[4pt]
+  Submitted for Data Storm 7.0 Storming Round $\cdot$
+  Powered by OCTAVE JKH $\cdot$
+  Team: \textbf{BigBug}
+\end{center}
+
+\end{document}
