@@ -263,3 +263,60 @@ dtype: object
 2026-05-17 03:04:27,067 | INFO     | baseline | ======================================================================
 2026-05-17 03:04:27,067 | INFO     | baseline | BASELINE ESTIMATION — DONE
 2026-05-17 03:04:27,067 | INFO     | baseline | ======================================================================
+2026-05-17 05:16:46,653 | INFO     | train | ======================================================================
+2026-05-17 05:16:46,653 | INFO     | train | CATBOOST TRAINING PIPELINE — START
+2026-05-17 05:16:46,653 | INFO     | train | ======================================================================
+2026-05-17 05:16:46,728 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-17 05:16:46,728 | INFO     | train | Training with 41 features (3 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_max_monthly', 'hist_p90_monthly', 'hist_cv', 'jan_avg_volume', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'ema_3m', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-17 05:16:46,756 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-17 05:16:46,757 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-17 05:16:46,757 | INFO     | train | Starting 5-fold cross-validation...
+2026-05-17 05:18:21,391 | INFO     | train | Fold 1 — RMSE: 5.76  MAE: 2.36
+2026-05-17 05:19:54,525 | INFO     | train | Fold 2 — RMSE: 6.02  MAE: 2.35
+2026-05-17 05:21:40,184 | INFO     | train | Fold 3 — RMSE: 5.59  MAE: 2.35
+2026-05-17 05:23:23,822 | INFO     | train | Fold 4 — RMSE: 5.01  MAE: 2.34
+2026-05-17 05:25:06,770 | INFO     | train | Fold 5 — RMSE: 5.14  MAE: 2.29
+2026-05-17 05:25:06,772 | INFO     | train | CV RMSE: 5.50 ± 0.38
+2026-05-17 05:25:06,773 | INFO     | train | CV MAE : 2.34 ± 0.02
+2026-05-17 05:25:06,773 | INFO     | train | Training final model on full training set (19960 samples)...
+2026-05-17 05:26:49,670 | INFO     | train | Final model trained on 19960 samples
+2026-05-17 05:26:50,287 | INFO     | train | All assertions passed.
+2026-05-17 05:26:50,287 | INFO     | train | ======================================================================
+2026-05-17 05:26:50,288 | INFO     | train | TRAINING SUMMARY
+2026-05-17 05:26:50,288 | INFO     | train |   Training samples     : 19960
+2026-05-17 05:26:50,288 | INFO     | train |   Features             : 41 (3 categorical)
+2026-05-17 05:26:50,289 | INFO     | train |   CV RMSE              : 5.50 ± 0.38
+2026-05-17 05:26:50,289 | INFO     | train |   CV MAE               : 2.34 ± 0.02
+2026-05-17 05:26:50,289 | INFO     | train |   Artifacts saved to   : c:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts
+2026-05-17 05:26:50,289 | INFO     | train |   Duration             : 603.6 seconds
+2026-05-17 05:26:50,289 | INFO     | train | ======================================================================
+2026-05-17 05:26:50,289 | INFO     | train | CATBOOST TRAINING PIPELINE — DONE
+2026-05-17 05:26:50,289 | INFO     | train | ======================================================================
+2026-05-17 05:28:29,377 | INFO     | predict | ======================================================================
+2026-05-17 05:28:29,377 | INFO     | predict | PREDICTION PIPELINE — START
+2026-05-17 05:28:29,378 | INFO     | predict | ======================================================================
+2026-05-17 05:28:29,447 | INFO     | predict | Loaded master features: 20000 rows
+2026-05-17 05:28:30,494 | INFO     | predict | Loaded model with 38 features
+2026-05-17 05:28:30,514 | INFO     | predict | Loaded baseline predictions: 20000 rows
+2026-05-17 05:28:30,566 | INFO     | predict | Model predictions — min: 52.28  median: 162.29  max: 10439.66
+2026-05-17 05:28:30,595 | INFO     | predict |   P10: 96.19 litres
+2026-05-17 05:28:30,596 | INFO     | predict |   P25: 113.67 litres
+2026-05-17 05:28:30,597 | INFO     | predict |   P50: 164.05 litres
+2026-05-17 05:28:30,598 | INFO     | predict |   P75: 347.88 litres
+2026-05-17 05:28:30,599 | INFO     | predict |   P90: 974.98 litres
+2026-05-17 05:28:30,600 | INFO     | predict |   P95: 1196.40 litres
+2026-05-17 05:28:30,601 | INFO     | predict |   P99: 2096.50 litres
+2026-05-17 05:28:30,606 | INFO     | predict | All assertions passed.
+2026-05-17 05:28:30,837 | INFO     | predict | ==================================================
+2026-05-17 05:28:30,837 | INFO     | predict | PREDICTION SUMMARY
+2026-05-17 05:28:30,837 | INFO     | predict |   Total outlets predicted : 20000
+2026-05-17 05:28:30,838 | INFO     | predict |   Min prediction          : 52.28 L
+2026-05-17 05:28:30,839 | INFO     | predict |   Median prediction       : 164.05 L
+2026-05-17 05:28:30,839 | INFO     | predict |   Mean prediction         : 396.02 L
+2026-05-17 05:28:30,839 | INFO     | predict |   Max prediction          : 10457.94 L
+2026-05-17 05:28:30,840 | INFO     | predict |   Baseline-capped (model < baseline): 9674 outlets
+2026-05-17 05:28:30,840 | INFO     | predict |   Model won (model > baseline)      : 10326 outlets
+2026-05-17 05:28:30,840 | INFO     | predict |   Duration                : 1.5 seconds
+2026-05-17 05:28:30,841 | INFO     | predict | ==================================================
+2026-05-17 05:28:30,841 | INFO     | predict | PREDICTION PIPELINE — DONE
+2026-05-17 05:28:30,841 | INFO     | predict | ==================================================

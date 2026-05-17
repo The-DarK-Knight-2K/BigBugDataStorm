@@ -90,7 +90,7 @@ CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province"]
 def main() -> None:
     start_time = time.time()
     log.info("=" * 70)
-    log.info("CATBOOST TRAINING PIPELINE — START")
+    log.info("CATBOOST TRAINING PIPELINE -- START")
     log.info("=" * 70)
 
     # ------------------------------------------------------------------
@@ -180,14 +180,14 @@ def main() -> None:
         mae = np.mean(np.abs(preds - y_val.values))
         cv_rmse_scores.append(rmse)
         cv_mae_scores.append(mae)
-        log.info("Fold %d — RMSE: %.2f  MAE: %.2f", fold, rmse, mae)
+        log.info("Fold %d -- RMSE: %.2f  MAE: %.2f", fold, rmse, mae)
 
     log.info(
-        "CV RMSE: %.2f ± %.2f",
+        "CV RMSE: %.2f +/- %.2f",
         np.mean(cv_rmse_scores), np.std(cv_rmse_scores),
     )
     log.info(
-        "CV MAE : %.2f ± %.2f",
+        "CV MAE : %.2f +/- %.2f",
         np.mean(cv_mae_scores), np.std(cv_mae_scores),
     )
 
@@ -208,7 +208,7 @@ def main() -> None:
     model_path = os.path.join(ARTIFACTS_DIR, "model.pkl")
     with open(model_path, "wb") as f:
         pickle.dump({"model": final_model, "feature_cols": feature_cols}, f)
-    log.info("Model saved → %s", model_path)
+    log.info("Model saved -> %s", model_path)
 
     # ------------------------------------------------------------------
     # Step 7 — Feature importance plot
@@ -224,13 +224,13 @@ def main() -> None:
         importance_df["importance"][::-1],
     )
     ax.set_xlabel("Feature Importance (gain)")
-    ax.set_title("Top 30 Feature Importances — CatBoost")
+    ax.set_title("Top 30 Feature Importances - CatBoost")
     plt.tight_layout()
 
     plot_path = os.path.join(ARTIFACTS_DIR, "feature_importance.png")
     plt.savefig(plot_path, dpi=150)
     plt.close()
-    log.info("Feature importance plot saved → %s", plot_path)
+    log.info("Feature importance plot saved -> %s", plot_path)
 
     # ------------------------------------------------------------------
     # Step 8 — Save CV results
@@ -247,7 +247,7 @@ def main() -> None:
     cv_path = os.path.join(ARTIFACTS_DIR, "cv_results.json")
     with open(cv_path, "w") as f:
         json.dump(cv_results, f, indent=2)
-    log.info("CV results saved → %s", cv_path)
+    log.info("CV results saved -> %s", cv_path)
 
     # ------------------------------------------------------------------
     # Assertions
@@ -269,12 +269,12 @@ def main() -> None:
     log.info("TRAINING SUMMARY")
     log.info("  Training samples     : %d", len(X))
     log.info("  Features             : %d (%d categorical)", len(feature_cols), len(cat_feature_indices))
-    log.info("  CV RMSE              : %.2f ± %.2f", np.mean(cv_rmse_scores), np.std(cv_rmse_scores))
-    log.info("  CV MAE               : %.2f ± %.2f", np.mean(cv_mae_scores), np.std(cv_mae_scores))
+    log.info("  CV RMSE              : %.2f +/- %.2f", np.mean(cv_rmse_scores), np.std(cv_rmse_scores))
+    log.info("  CV MAE               : %.2f +/- %.2f", np.mean(cv_mae_scores), np.std(cv_mae_scores))
     log.info("  Artifacts saved to   : %s", ARTIFACTS_DIR)
     log.info("  Duration             : %.1f seconds", duration)
     log.info("=" * 70)
-    log.info("CATBOOST TRAINING PIPELINE — DONE")
+    log.info("CATBOOST TRAINING PIPELINE -- DONE")
     log.info("=" * 70)
 
 

@@ -55,7 +55,7 @@ with open(os.path.join(ROOT_DIR, "config.yaml"), "r") as f:
 def main() -> None:
     start_time = time.time()
     log.info("=" * 70)
-    log.info("PREDICTION PIPELINE — START")
+    log.info("PREDICTION PIPELINE -- START")
     log.info("=" * 70)
 
     # ------------------------------------------------------------------
@@ -82,7 +82,7 @@ def main() -> None:
     X_all = df[feature_cols]
     df["model_prediction"] = model.predict(X_all)
     log.info(
-        "Model predictions — min: %.2f  median: %.2f  max: %.2f",
+        "Model predictions -- min: %.2f  median: %.2f  max: %.2f",
         df["model_prediction"].min(),
         df["model_prediction"].median(),
         df["model_prediction"].max(),
@@ -110,7 +110,7 @@ def main() -> None:
     floor_violations = (df["Maximum_Monthly_Liters"] <= 0).sum()
     if floor_violations > 0:
         log.warning(
-            "Clamping %d predictions from ≤0 to 1.0", floor_violations
+            "Clamping %d predictions from <=0 to 1.0", floor_violations
         )
         df["Maximum_Monthly_Liters"] = df["Maximum_Monthly_Liters"].clip(
             lower=1.0
@@ -163,7 +163,7 @@ def main() -> None:
     team_name = CFG["team_name"]
     output_path = os.path.join(OUTPUTS_DIR, f"{team_name}_predictions.csv")
     submission.to_csv(output_path, index=False)
-    log.info("Written %d rows → %s", len(submission), output_path)
+    log.info("Written %d rows -> %s", len(submission), output_path)
 
     # ------------------------------------------------------------------
     # Step 7 — Write diagnostics CSV
@@ -182,7 +182,7 @@ def main() -> None:
 
     diag_path = os.path.join(OUTPUTS_DIR, "prediction_diagnostics.csv")
     df[diag_cols].to_csv(diag_path, index=False)
-    log.info("Written diagnostics → %s", diag_path)
+    log.info("Written diagnostics -> %s", diag_path)
 
     # ------------------------------------------------------------------
     # Final summary log
@@ -217,7 +217,7 @@ def main() -> None:
     )
     log.info("  Duration                : %.1f seconds", duration)
     log.info("=" * 50)
-    log.info("PREDICTION PIPELINE — DONE")
+    log.info("PREDICTION PIPELINE -- DONE")
     log.info("=" * 50)
 
 
