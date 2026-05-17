@@ -321,17 +321,17 @@ where $C_i$ represents the binding constraint for outlet $i$ (credit limit,
 delivery cap, or stockout ceiling). The goal is to estimate $\hat{y}_i^*$ — the
 unconstrained ceiling.
 
-\subsection{Methodology: Pseudo-Labelled CatBoost Demand Ceiling}
+\subsection{Methodology: ``Clean Train, Predict All'' Demand Ceiling}
 
-We selected a gradient-boosted tree model trained on a pseudo-labelled upper-tail
+We implemented a \textbf{``Clean Train, Predict All''} strategy, selecting a gradient-boosted tree model trained on a pseudo-labelled upper-tail
 target rather than directly using raw monthly volume. This approximates latent
 potential while preserving the signal from constraint-bound outlets.
 
 \begin{infobox}[Model Approach]
   The target is built from the outlet's historical 90th percentile monthly volume
   adjusted for January 2026 seasonality and trading days. We then train a
-  CatBoost regressor using Gold-layer structural features. CatBoost was chosen
-  after cross-validation outperformed LightGBM (CV RMSE 40.38 vs. 40.96).
+  CatBoost regressor using 41 Gold-layer structural features. CatBoost was chosen
+  after cross-validation demonstrated robust performance (CV RMSE $5.50 \pm 0.38$).
 \end{infobox}
 
 \subsection{Feature Set for Potential Model}
@@ -342,14 +342,13 @@ potential while preserving the signal from constraint-bound outlets.
   \toprule
   \textbf{Feature} & \textbf{Source} \\
   \midrule
-  Historical avg. monthly volume (12-month) & transactions\_history \\
-  Peak-to-average ratio (demand volatility)  & transactions\_history \\
-  Outlet type, channel class                 & outlet\_master \\
-  Distributor seasonality index (Jan)        & distributor\_seasonality \\
-  Holiday-adjusted trading days (Jan 2026)   & holiday\_list \\
-  POI count \& diversity (500 m)             & Overpass API \\
-  Nearest transit / school distance          & Overpass API \\
-  Province-level market index                & Derived \\
+  Historical volume signals (p90, max, jan\_avg, ema\_3m) & transactions\_history \\
+  Demand volatility (hist\_cv) & transactions\_history \\
+  Outlet type, size, and province & outlet\_master \\
+  Distributor seasonality multiplier (Jan 2026) & distributor\_seasonality \\
+  Activity / Recency (active\_months, months\_since\_last\_order) & transactions\_history \\
+  POI counts by category (500m, 1000m, 2000m) & Overpass API \\
+  Composite Footfall Score & Overpass API \\
   \bottomrule
 \end{tabular}
 \end{center}
