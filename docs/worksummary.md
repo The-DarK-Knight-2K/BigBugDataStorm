@@ -33,7 +33,20 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 18. Designed and implemented a two-phase Gold Layer POI data acquisition pipeline to enrich outlet data with geospatial features from OpenStreetMap. **Phase 1** (`scrape_poi_raw.py`) used K-Means spatial clustering to group 19,960 outlets into 400 geographic neighborhoods, reducing API calls by 98%. Each cluster was queried via the Overpass API with a 2 km bounding-box buffer, and raw JSON responses were cached to `Data/Gold/poi_raw_cache/`. A `scrape_manifest.json` tracker enabled idempotent resumption — if the script crashed mid-run, it safely resumed from the last incomplete cluster without re-querying completed ones. Achieved 100% cluster retrieval (400/400).
 19. Developed `build_poi_features.py` to calculate outlet-specific POI density metrics across multiple radii (500m, 1km, 2km) and compute a weighted, normalized `footfall_score` for all 20,000 outlets.
 20. Implemented `build_sales_features.py` to derive advanced historical metrics, including YoY growth, EMA trends, and January-specific seasonality patterns to support target variable estimation.
+21. Designed and implemented `build_master_features.py` to join outlets, POI features, and historical sales features into a single, cohesive dataset. Integrated the "Clean Train, Predict All" strategy to exclude coordinate-imputed records from model training while preserving all 20,000 records for downstream predictions.
 
 ## Phase 5: Repository Management
 
-21. Synchronized local repository with `origin/main`, resolving complex merge conflicts and file locks on `outputs/pipeline.log` to ensure alignment with the latest team updates.
+22. Synchronized local repository with `origin/main`, resolving complex merge conflicts and file locks on `outputs/pipeline.log` to ensure alignment with the latest team updates.
+23. Updated git configurations (`.gitignore`) to safely package and track finalized `.parquet` gold-layer features for reproducible, zero-compute-loss deployments.
+
+## Phase 6: Modelling (Training and Prediction)
+
+24. Developed and executed `modelling/baseline.py` to compute a naive statistical baseline potential (using January seasonality and December transaction history). This defined the conservative prediction floor for unconstrained demand.
+25. Implemented `modelling/train.py` to train a CatBoost regressor on the pseudo-labelled target variable using 41 Gold-layer structural features. Set up a 5-fold cross-validation scheme that achieved a robust CV RMSE of $5.50 \pm 0.38$ (CV MAE of $2.34 \pm 0.02$), validating model stability and feature efficacy.
+26. Implemented `modelling/predict.py` to run full inference on the 20,000 outlets. Blended the CatBoost predictions with the statistical baseline potentials using a max-blend approach, clamped any non-positive values, rounded results to 2 decimal places, and generated the final competition-ready submission `outputs/bigbug_predictions.csv` along with detailed diagnostics.
+
+## Phase 7: Documentation & Reporting
+
+27. Authored a thorough `README.md` outlining the environment setup, project structure, and sequential command-line execution steps required to run the pipeline end-to-end (Bronze -> Silver -> Gold -> Modelling -> Inference).
+28. Produced the comprehensive 5-page LaTeX technical report (`docs/report/report.tex`) strictly conforming to Storming Round submission guidelines, covering Data Forensics, POI Acquisition, Causal Base Logic, and the Generative AI Transparency Log.

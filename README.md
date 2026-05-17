@@ -46,16 +46,18 @@ BigBugDataStorm/
 │   └── 02_eda_outlets.ipynb         # Exploratory Data Analysis — outlets
 │
 ├── specs/                           # Technical specification documents
-│   ├── architecture/
-│   │   └── DATA_CONTRACTS.md        # Strict column schemas for every parquet file
-│   └── gold/
-│       ├── SPEC_scrape_poi.md       # POI pipeline architecture & footfall weights
-│       ├── SPEC_build_sales_features.md
-│       └── SPEC_build_master_features.md
+│   ├── architecture/                # Coding conventions, strict data contracts, and system overview
+│   ├── bronze/                      # CSV data ingestion and schema preservation specs
+│   ├── silver/                      # Data cleaning, validation, and quality check specs
+│   ├── gold/                        # Feature engineering, POI scraping, and master features specs
+│   ├── eda/                         # Notebook requirements and goals for exploratory analysis
+│   ├── modelling/                   # Baseline, training, prediction, and Colab experiments specs
+│   └── orchestration/               # Pipeline execution and orchestration flow guidelines
 │
 ├── outputs/
 │   ├── pipeline.log                 # Full execution log
-│   └── dq_report.csv               # Data quality audit report
+│   └── prediction_diagnostics.csv   # Prediction diagnostics
+│   └── bigbug_predictions.csv       # Final predictions
 │
 ├── docs/
 │   └── worksummary.md               # Chronological work log
