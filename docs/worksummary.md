@@ -2,6 +2,10 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 
 # Work Summary
 
+---
+
+# ROUND 1: Core Pipeline & Initial Submission
+
 ## Phase 1: Infrastructure & Setup
 
 1. Created `.gitignore` to exclude datasets and environment files.
@@ -50,3 +54,27 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 
 27. Authored a thorough `README.md` outlining the environment setup, project structure, and sequential command-line execution steps required to run the pipeline end-to-end (Bronze -> Silver -> Gold -> Modelling -> Inference).
 28. Produced the comprehensive 5-page LaTeX technical report (`docs/report/report.tex`) strictly conforming to Storming Round submission guidelines, covering Data Forensics, POI Acquisition, Causal Base Logic, and the Generative AI Transparency Log.
+
+---
+
+# ROUND 2: Advanced Features, Modeling & XAI
+
+## Phase 1: Advanced Features & Integration
+
+29. **Implemented Gravity Model Feature Engineering (`build_gravity_features.py`)**:
+    - Designed and implemented a spatial gravity model based on inverse-square distance decay ($1/(d + \epsilon)^2$) with a decay epsilon of 0.1km and a maximum radius of 2.0km.
+    - Utilized a spatial `BallTree` with the Haversine metric for high-performance query execution across all 20,000 outlets against scrape-cached OpenStreetMap POIs.
+    - Generated 6 distinct POI category gravity scores (School, Hospital, Transport, Market, Worship, Hospitality), along with a weighted `raw_composite_gravity` score and min-max normalized `composite_gravity_score` $[0, 100]$.
+    - Gracefully handled zero-coordinate / quarantined outlets by setting scores to 0 and tagging `gravity_data_available` as `False`. Output compiled to `data/Gold/gravity_features.parquet`.
+30. **Implemented Catchment Feature Engineering (`build_catchment_features.py`)**:
+    - Built a high-performance spatial competitor density pipeline using a `BallTree` coordinate model.
+    - Calculated flat competitor (outlet-to-outlet) counts within three key catchment bands: 500m, 1km, and 2km.
+    - Derived a normalized `competition_density_score` based on P25/P75 thresholds of the 1km competitor count, classifying outlets into `isolated` (bottom quartile), `moderate`, or `dense` (top quartile) `market_saturation_class` cohorts.
+    - Successfully handled zero-coordinate outlets by assigning 0 competitors and classifying them as `isolated`. Output compiled to `data/Gold/catchment_features.parquet`.
+31. **Upgraded Master Features Pipeline (`build_master_features.py`)**:
+    - Updated the master integration script to seamlessly `left-join` both `gravity_features.parquet` (10 columns) and `catchment_features.parquet` (6 columns) onto the existing Gold structural features.
+    - Strictly maintained the user-requested constraint of rounding all numerical columns to exactly 4 decimal places using pyarrow-friendly float64 upcasting to prevent spurious precision or trailing noise.
+    - Resolved Windows console-specific encoding (`UnicodeEncodeError`) issues by replacing special logging indicators (e.g. `≤`, `≥`, `×`, `→`) with clean, fully compatible ASCII equivalents (`<=`, `>=`, `x`, `->`).
+    - Successfully generated `data/Gold/master_features.parquet` containing exactly 20,000 rows and 69 columns (representing 55 original features plus 14 newly engineered advanced spatial and competitor features), passing all data contract schema validations.
+
+
