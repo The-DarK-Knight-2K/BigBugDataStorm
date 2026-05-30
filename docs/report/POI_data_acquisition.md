@@ -15,12 +15,12 @@ We extracted 6 core categories. Counts were binned into **500m, 1000m, and 2000m
 
 | Category | Core OSM Tags | Demand Signal Rationale | Weight |
 | :--- | :--- | :--- | :---: |
-| **Transport** | `bus_stop`, `station` | **Highest Weight:** Public transit hubs drive the most intense, consistent daily volume of commuters. | 3.0 |
-| **Education** | `school`, `university` | **High Weight:** Generates concentrated bursts of footfall during morning drop-offs and afternoon pick-ups. | 2.5 |
-| **Markets** | `supermarket`, `marketplace` | **Medium-High Weight:** Shoppers are already in a commercial area with the intent to purchase. | 2.0 |
-| **Healthcare** | `hospital`, `clinic` | **Medium Weight:** Provides a steady, predictable stream of staff, patients, and visitors. | 1.5 |
-| **Community** | `place_of_worship` | **Base Weight:** Generates large crowds, but highly concentrated to specific days (e.g., Poya days). | 1.0 |
-| **Hospitality** | `hotel`, `restaurant` | **Base Weight:** Attracts tourists and dining crowds, but traffic is more variable. | 1.0 |
+| **transport** | `bus_stop`, `station` | **Highest Weight:** Public transit hubs drive the most intense, consistent daily volume of commuters. | 3.0 |
+| **schools** | `school`, `university` | **High Weight:** Generates concentrated bursts of footfall during morning drop-offs and afternoon pick-ups. | 2.5 |
+| **markets** | `supermarket`, `marketplace` | **Medium-High Weight:** Shoppers are already in a commercial area with the intent to purchase. | 2.0 |
+| **hospitals** | `hospital`, `clinic` | **Medium Weight:** Provides a steady, predictable stream of staff, patients, and visitors. | 1.5 |
+| **worship** | `place_of_worship` | **Base Weight:** Generates large crowds, but highly concentrated to specific days (e.g., Poya days). | 1.0 |
+| **hospitality** | `hotel`, `restaurant` | **Base Weight:** Attracts tourists and dining crowds, but traffic is more variable. | 1.0 |
 
 ## Final Engineered Features
 

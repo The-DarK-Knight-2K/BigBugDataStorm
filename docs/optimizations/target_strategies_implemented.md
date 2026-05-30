@@ -13,9 +13,9 @@ Because FMCG sales are highly seasonal, January behaves very differently than ot
 
 **Training Target Formula** (in `modelling/train.py`):
 ```python
-pseudo_target = hist_p90_monthly 
-              × seasonality_multiplier_jan_2026 
-              × (jan_2026_trading_days / 22.0)
+target = hist_p90_monthly 
+       × seasonality_multiplier_jan_2026 
+       × (jan_2026_trading_days / 22.0)
 ```
 
 **Components**:
@@ -31,7 +31,7 @@ pseudo_target = hist_p90_monthly
 | Training Record | X (Features) | y (Target) |
 |---|---|---|
 | Record 1 | Features calculated using all data up to Dec 2024 | January 2025 volume (adjusted) |
-| Record 2 | Features calculated using all data up to Dec 2024 | Pseudo-label from p90 + seasonality + trading days |
+| Record 2 | Features calculated using all data up to Dec 2024 | Target from p90 + seasonality + trading days |
 | ... | ... | ... |
 
 ### Dataset Size

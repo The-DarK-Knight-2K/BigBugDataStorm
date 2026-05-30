@@ -3,7 +3,7 @@
 *This document outlines the data engineering decisions, anomaly detections, and forensics applied to transition raw Data Storm 7.0 datasets into the clean, ML-ready Silver Layer.*
 
 ## Overview: The Data Quality (DQ) Engine
-Instead of ad-hoc cleaning scripts, we implemented a robust, modular Validation Engine (`pipeline/silver/dq_checks.py`). 
+Instead of ad-hoc cleaning scripts, we implemented a robust, modular Validation Engine (`pipeline/Silver/dq_checks.py`). 
 *   **The Decision**: Every dataset passes through strict parameterizable checks (duplicates, nulls, referential integrity, range bounds, format Regex, and valid value sets).
 *   **The "Why"**: This architecture ensures all rejected rows are captured systematically into a `Data/Quarantine/` database with a specific `failure_reason`. It provides a 100% auditable pipeline rather than silently dropping valuable data.
 

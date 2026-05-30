@@ -101,24 +101,24 @@ This document outlines the optimization and feature engineering strategies that 
 
 ---
 
-## 5. POI Feature Engineering ✓ IMPLEMENTED
+## 5. Spatial & Geospatial Features ✓ IMPLEMENTED
 
 ### Multi-Radius Point-of-Interest Counts
 - ✓ **Status**: Fully implemented in `pipeline/gold/build_poi_features.py`
 - **Radii**: 500m, 1000m, 2000m
-- **Categories**: Schools, Hospitals, Transport, Markets, Worship, Hospitality
+- **Categories**: schools, hospitals, transport, markets, worship, hospitality
 - **Example columns**: `schools_500m`, `hospitals_1000m`, `transport_2000m`, etc.
 
 ### Footfall Score Composite Feature
 - ✓ **Status**: Implemented in `build_poi_features.py`
 - **Formula**: Weighted composite of 500m POI counts (0-100 scale)
 - **Weights**:
-  - Transport: 3.0x
-  - Schools: 2.5x
-  - Markets: 2.0x
-  - Hospitals: 1.5x
-  - Worship: 1.0x
-  - Hospitality: 1.0x
+  - transport: 3.0x
+  - schools: 2.5x
+  - markets: 2.0x
+  - hospitals: 1.5x
+  - worship: 1.0x
+  - hospitality: 1.0x
 - **Purpose**: Proxy for high-footfall locations (commercial hubs, transit nodes)
 
 ### POI Data Availability Flag
@@ -126,6 +126,18 @@ This document outlines the optimization and feature engineering strategies that 
 - **Column**: `poi_data_available` (bool)
 - **Usage**: False for outlets with zero coordinates or failed OSM scrapes
 - **Impact on Training**: These outlets get 0 POI counts; model learns to handle sparse geo data
+
+### Competitive Catchment Density
+- ✓ **Status**: Fully implemented in `pipeline/gold/build_catchment_features.py`
+- **Logic**: Counts competing outlets within 500m, 1km, and 2km using `BallTree`.
+- **Columns**: `competitors_500m`, `competitors_1km`, `competitors_2km`, `competition_density_score`, `market_saturation_class`
+- **Purpose**: Estimates market saturation and identifies isolated vs dense outlets.
+
+### Spatial Distance-Decay Modeling (Gravity Model)
+- ✓ **Status**: Fully implemented in `pipeline/gold/build_gravity_features.py`
+- **Logic**: Applies inverse-square distance decay function to POIs within a maximum radius. Closer POIs exert a stronger gravitational pull than distant ones.
+- **Columns**: Category-specific gravity scores (e.g. `transport_gravity_score`) and a `composite_gravity_score` (0-100 scale).
+- **Purpose**: Models realistic spatial influence of POIs better than flat multi-radius counts.
 
 ---
 
@@ -197,6 +209,8 @@ This document outlines the optimization and feature engineering strategies that 
 | Clean train / Predict all strategy | ✓ | `train.py` + `predict.py` |
 | POI multi-radius counts | ✓ | `build_poi_features.py` |
 | Footfall score | ✓ | `build_poi_features.py` |
+| Competitive catchment density | ✓ | `build_catchment_features.py` |
+| Gravity model (distance-decay) | ✓ | `build_gravity_features.py` |
 | January-anchored baseline | ✓ | `baseline.py` |
 | Cold-start estimation | ✓ | `baseline.py` |
 | Recency momentum factor | ✓ | `baseline.py` |

@@ -36,9 +36,9 @@ Set up a seamless way to work in the cloud and keep files in Git.
 
 ### 3. Repository Structure Updates
 
-The following notebooks will be initialized in the `notebooks/` directory. Each maps directly to Phase 2 of the `task_list.md`.
+The following notebooks are available in the `notebooks/` directory.
 
-#### [NEW] [01_eda_transactions.ipynb](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/notebooks/01_eda_transactions.ipynb)
+#### [01_eda_transactions.ipynb](../../notebooks/01_eda_transactions.ipynb)
 **Objectives:**
 - **Missing Values**: Check Date, Distributor_ID, and Volume_Litres.
 - **Data Integrity**: Identify negative volumes and anomalies in date ranges (blackout periods).
@@ -46,17 +46,20 @@ The following notebooks will be initialized in the `notebooks/` directory. Each 
 - **External Factors**: Cross-reference transactions with `holidays.csv` to see impact on volume.
 - **Seasonality Check**: Validate time-series representation from `seasonality.csv`.
 
-#### [NEW] [02_eda_outlets.ipynb](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/notebooks/02_eda_outlets.ipynb)
+#### [02_eda_outlets.ipynb](../../notebooks/02_eda_outlets.ipynb)
 **Objectives:**
 - **Master Data Quality**: Check `Outlet_Size`, `Cooler_Count`, and `Outlet_Type` for inconsistencies.
 - **Duplicate Detection**: Identify redundant or conflicting `Outlet_ID` records.
 - **Geospatial Validation**: Map coordinates from `outlet_coordinates.csv` to identify points outside Sri Lanka and detect swapped Lat/Lon values.
 
-#### [NEW] [03_feature_exploration.ipynb](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/notebooks/03_feature_exploration.ipynb)
+#### [03_model_evaluation.ipynb](../../notebooks/03_model_evaluation.ipynb)
 **Objectives:**
-- **Correlation Analysis**: Explore relationships between outlet features (size, POIs) and sales volume.
-- **Heuristic Development**: Brainstorm rules for missing data imputation (e.g., Size based on Cooler_Count).
-- **Target Analysis**: Prepare for Phase 4 (Gold Layer) by identifying key predictive signals.
+- **Data Loading & Preparation**: Load master features and baseline predictions, apply the "Clean Train" rule, and construct the pseudo-label target.
+- **Algorithm Comparison**: Evaluate LightGBM and CatBoost using 5-Fold Cross-Validation.
+- **Metric Tracking**: Calculate RMSE and MAE across folds.
+- **The Baseline Blend Test**: Apply final competition logic (`max(model_prediction, baseline_potential)`) to validation sets.
+- **Feature Importance**: Extract and plot Top 20 feature importances.
+- **Hyperparameter Tuning**: Use Optuna for finding optimal parameters for the winning algorithm.
 
 ## Verification Plan
 

@@ -6,18 +6,6 @@ This document outlines optimization and feature engineering strategies described
 
 ## 1. Advanced Spatial & Geospatial Features — NOT IMPLEMENTED
 
-### Outlet Density Features
-- **Status**: ✗ Not Implemented
-- **Proposed Logic**: Using cleaned coordinates, calculate the count of competing outlets within multiple radii for each `Outlet_ID`:
-  - Count of outlets within 1km
-  - Count of outlets within 5km
-  - Count of outlets within 10km
-- **Rationale**: 
-  - High density might indicate a major commercial hub (positive signal)
-  - Or it might indicate high competition (negative signal)
-  - Requires analysis to determine optimal interpretation
-- **Why Not Implemented**: Would require spatial index construction and distance calculations at scale; less impactful than POI features
-
 ### Distance to Distributor
 - **Status**: ✗ Not Implemented
 - **Proposed Logic**:
@@ -253,7 +241,6 @@ This document outlines optimization and feature engineering strategies described
 
 | Feature | Complexity | Expected Impact | Priority |
 |---------|------------|-----------------|----------|
-| Outlet density (1km, 5km, 10km) | Low | Low-Medium | Medium |
 | Distance to distributor | Low | Low | Low |
 | K-Means micro-regions | Medium | Medium | Medium |
 | Log transformation of target | Low | Low | Low |
