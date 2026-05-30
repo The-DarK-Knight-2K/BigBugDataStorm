@@ -257,6 +257,18 @@ export function updateXaiExplanation(outletId: string, explanation: string): voi
 }
 
 /**
+ * Get the XAI context (JSON and any cached explanation) for a specific outlet.
+ */
+export function getXAIContext(outletId: string): { context_json: string; xai_explanation: string | null } | null {
+  const stmt = db.prepare(`
+    SELECT context_json, xai_explanation 
+    FROM xai_contexts 
+    WHERE outlet_id = ?
+  `);
+  return stmt.get(outletId) as { context_json: string; xai_explanation: string | null } | null;
+}
+
+/**
  * Get all budget allocations.
  */
 export function getBudgetAllocations(): (BudgetAllocation & { distributor_id: string; outlet_type: string })[] {

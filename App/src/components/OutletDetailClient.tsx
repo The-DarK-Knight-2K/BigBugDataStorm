@@ -14,22 +14,24 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
   const [xaiLoading, setXaiLoading] = useState(false);
   const [xaiExplanation, setXaiExplanation] = useState<string | null>(outlet.xai_explanation);
 
-  const generateXaiInsight = async () => {
+  const generateXaiInsight = async (force: boolean = false) => {
     setXaiLoading(true);
-    // In a full implementation, this would call an API route. 
-    // Here we're simulating the lag and mock text for Deliverable 4 before API integration.
-    setTimeout(() => {
-      let mockText = "";
-      if (outlet.outlet_id === "OUT_W_00042") {
-        mockText = "This Western Province Grocery is designated as a High Potential target due to high pedestrian transit access. The model predicts a high monthly volume of 1,240.5 L, driven by a transport gravity score of 8.75 and a footfall score of 67.4. However, historical demand variability (CV: 0.137) and two consecutive zero-volume months represent minor risks to this projection. We strongly recommend allocating a High Tier cooler grant of 45,000 LKR to fully resolve physical capacity constraints and unlock the 420.2 L uplift.";
-      } else if (outlet.outlet_id === "OUT_C_01022") {
-        mockText = "This Central Province Grocery displays Moderate overall potential with a maximum predicted ceiling of 960 L. Solid underlying demand is indicated by a historical P90 volume of 820 L, though transit access is moderate (gravity score: 4.32). Volume is significantly limited by three consecutive zero-volume months in the history, indicating a recurring supply chain bottleneck. The sales team should prioritize correcting distributor delivery schedules before allocating trade spends.";
-      } else {
-        mockText = `This ${outlet.province} ${outlet.outlet_type} represents a solid target with a predicted maximum potential of ${context?.prediction.Maximum_Monthly_Liters || outlet.predicted_potential_litres} L. Demand is actively driven by favorable local POI access, including a composite gravity score of ${outlet.composite_gravity_score}. However, a standard order gap of ${context?.sales_history.months_since_last_order || 1} months indicates subtle distribution friction that slightly caps the baseline performance. We recommend utilizing promotional trade spends to incentivize ordering consistency for January 2026.`;
+    
+    try {
+      const res = await fetch(`/api/explain/${outlet.outlet_id}${force ? '?force=true' : ''}`);
+      const data = await res.json();
+      
+      if (!res.ok) {
+        throw new Error(data.error || 'Failed to generate explanation');
       }
-      setXaiExplanation(mockText);
+      
+      setXaiExplanation(data.explanation);
+    } catch (err: any) {
+      console.error(err);
+      setXaiExplanation(`Error: ${err.message}. Please check if the API Key is configured correctly.`);
+    } finally {
       setXaiLoading(false);
-    }, 1800);
+    }
   };
 
   // Recharts custom label mapping for readability
@@ -291,7 +293,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
           {/* Action button */}
           {!xaiExplanation && !xaiLoading && (
             <button
-              onClick={generateXaiInsight}
+              onClick={() => generateXaiInsight()}
               className="w-full py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-violet-600 text-white font-semibold text-sm hover:scale-[1.01] hover:shadow-lg hover:shadow-cyan-500/10 active:scale-95 transition-all flex items-center justify-center gap-2"
             >
               <span>⚡</span> Generate Explanatory Briefing
@@ -300,7 +302,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
 
           {xaiExplanation && !xaiLoading && (
             <button
-              onClick={generateXaiInsight}
+              onClick={() => generateXaiInsight(true)}
               className="w-full py-3 rounded-xl border border-slate-800 bg-slate-900/40 text-slate-400 font-medium text-xs hover:text-white hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
             >
               <span>🔄</span> Force Regenerate Insight
