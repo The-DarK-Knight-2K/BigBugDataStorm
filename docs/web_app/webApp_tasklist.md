@@ -6,6 +6,16 @@
 
 ---
 
+## ✅ Current Status (Completed Work)
+
+- **Next.js Setup**: Next.js 15 is successfully initialized in the `App` root folder.
+- **Styling**: Tailwind CSS and `shadcn/ui` are fully configured.
+- **Folder Structure**: Integrated the Next.js `src/` directory seamlessly alongside the existing `data` and `scripts` folders.
+- **Dependencies Installed**: `better-sqlite3`, `react-leaflet`, `leaflet`, `recharts`, `lucide-react`.
+- **Skeleton Pages Built**: Empty placeholder files have been created for all required routes and API endpoints.
+
+---
+
 ## Table of Contents
 
 1. [What This App Is](#1-what-this-app-is)
@@ -79,6 +89,7 @@ Loading and filtering 20,000 rows from a CSV on every request is slow and hacky.
 | Maps               | React-Leaflet           | Free, no API key, handles 20k markers       |
 | Charts             | Recharts                | Clean, works natively with React            |
 | LLM / XAI          | Gemini 2.0 Flash (Free) | Sufficient for demo, zero cost              |
+| Styling            | Tailwind + shadcn/ui    | Premium, industry-standard component library|
 | Hosting            | None — runs locally     | Meets competition requirement exactly       |
 
 ---
@@ -138,39 +149,29 @@ Display on outlet detail page
 
 ## 4. Project Structure
 
-```
-/outlet-intelligence-app
-  │
+```text
+/App                            ← Project Root
   /data
-    outlets.csv                  ← committed to git
-    predictions.csv              ← committed to git
-    budget_allocations.csv       ← committed to git
-    outlets.db                   ← in .gitignore (generated locally)
-  │
-  /scripts
-    setup_db.py                  ← committed to git
-                                    reads CSVs → creates outlets.db
-  │
-  /app
-    page.tsx                     ← dashboard (browse + filter + map)
-    /outlets
-      /[id]
-        page.tsx                 ← outlet detail + XAI explanation
-    /budget
-      page.tsx                   ← Western Province budget dashboard
-  │
-  /app/api
-    /explain
-      /[id]
-        route.ts                 ← calls Gemini, caches result in SQLite
-  │
-  /lib
-    db.ts                        ← better-sqlite3 connection setup
-  │
-  .env.local                     ← GEMINI_API_KEY (not committed)
-  .env.example                   ← template showing required keys (committed)
-  .gitignore
-  README.md
+    outlets.db                  ← Existing SQLite Database
+  /scripts                      ← Existing Python scripts
+    setup_db.py
+    verify_db.py
+  /src                          ← Next.js Source Folder
+    /app
+      /api/explain/[id]/route.ts
+      /budget/page.tsx
+      /health/page.tsx          
+      /outlets/[id]/page.tsx
+      globals.css
+      layout.tsx
+      page.tsx
+    /components
+      /ui                       ← shadcn/ui components
+      Map.tsx                   
+    /lib                        
+      db.ts                     ← Database connection
+  package.json                  
+  tailwind.config.ts            
 ```
 
 ---
