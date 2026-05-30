@@ -1,5 +1,8 @@
 # SPEC: predict.py
 
+> [!IMPORTANT]
+> **Round 2 Architecture Upgrade:** The `predict.py` script has been updated to support Run Tracking via the `--run-id` flag, automatic interaction feature computation, and decoding algorithms dynamically. Please refer to `specs/orchestration/SPEC_run_setup.md` for the latest usage instructions. This spec document describes the core blending logic, but execution should follow the new CLI setup.
+
 ## Purpose
 
 Generate the final submission CSV by blending the CatBoost model predictions with
@@ -8,21 +11,22 @@ the two approaches, ensuring we never predict below the statistically grounded
 floor. Output is `outputs/teamname_predictions.csv`.
 
 ## Layer
+
 Modelling
 
 ## Inputs
 
-| File | Path |
-|------|------|
-| master_features.parquet | `data/gold/master_features.parquet` |
-| model.pkl | `modelling/artifacts/model.pkl` |
+| File                         | Path                                     |
+| ---------------------------- | ---------------------------------------- |
+| master_features.parquet      | `data/gold/master_features.parquet`      |
+| model.pkl                    | `modelling/artifacts/model.pkl`          |
 | baseline_predictions.parquet | `data/gold/baseline_predictions.parquet` |
 
 ## Outputs
 
-| File | Path |
-|------|------|
-| teamname_predictions.csv | `outputs/teamname_predictions.csv` |
+| File                       | Path                                 |
+| -------------------------- | ------------------------------------ |
+| teamname_predictions.csv   | `outputs/teamname_predictions.csv`   |
 | prediction_diagnostics.csv | `outputs/prediction_diagnostics.csv` |
 
 ---
@@ -83,6 +87,7 @@ benefiting from the model's learned signal.
 ### Step 5 — Post-processing and sanity checks
 
 **Minimum floor:** No outlet's potential can be zero or negative:
+
 ```python
 floor_violations = (df["Maximum_Monthly_Liters"] <= 0).sum()
 if floor_violations > 0:
@@ -91,11 +96,13 @@ if floor_violations > 0:
 ```
 
 **Round to 2 decimal places:**
+
 ```python
 df["Maximum_Monthly_Liters"] = df["Maximum_Monthly_Liters"].round(2)
 ```
 
 **Distribution check:** Log decile distribution for sanity inspection:
+
 ```python
 for q in [0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.99]:
     log.info("  P%02d: %.2f litres", int(q*100),
@@ -103,6 +110,7 @@ for q in [0.1, 0.25, 0.5, 0.75, 0.9, 0.95, 0.99]:
 ```
 
 **Outlier flag:** Log any outlet predicting >5× the 99th percentile:
+
 ```python
 p99 = df["Maximum_Monthly_Liters"].quantile(0.99)
 extreme = df[df["Maximum_Monthly_Liters"] > 5 * p99]

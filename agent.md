@@ -21,6 +21,7 @@ the corresponding script in `pipeline/` or `modelling/`.
 | `architecture/SYSTEM_OVERVIEW.md` | Full pipeline, data flow, layer definitions |
 | `architecture/DATA_CONTRACTS.md` | Exact schema for every parquet file |
 | `architecture/CONVENTIONS.md` | Coding style, logging, error handling rules |
+| `architecture/SPEC_pipeline_nodes.md` | Pipeline dependency graph and node definitions |
 
 ### Bronze layer
 | File | Script |
@@ -71,11 +72,13 @@ the corresponding script in `pipeline/` or `modelling/`.
 | File | Script |
 |------|--------|
 | `orchestration/SPEC_run_pipeline.md` | `pipeline/run_pipeline.py` |
+| `orchestration/SPEC_run_setup.md` | Execution instructions for `modelling/train.py` & `modelling/predict.py` |
+| `orchestration/SPEC_training_scenarios.md` | 10 training scenarios and orchestration steps |
 
 ## Progress tracking
 
 1. Record each implemented step concisely.
-2. Save the summary to the `docs/worksummary.md` file.
+2. Save the summary to the `docs/management/work_summary.md` file.
 3. Keep the content brief and focused on key actions.
 4. Don't make it too long, write just the summary.
-5. Check off completed items in `docs/task_list.md`.
+5. Check off completed items in `docs/management/project_task_list.md`.

@@ -8,8 +8,8 @@ When feeding this spec to Gemini in Google Colab, ensure you also provide:
 - `specs/architecture/DATA_CONTRACTS.md` (To understand table schemas)
 - `specs/architecture/CONVENTIONS.md` (For coding standard and hyperparameter defaults)
 - `config.yaml` (For standard parameters)
-- `docs/target_generation_strategies.md` (Details options for structuring the target variable $y$)
-- `docs/optimizations.md` (Outlines advanced features, models, preprocessing switch, and clean train logic)
+- `docs/modelling_and_pipeline/optimizations/target_strategies_implemented.md` (Details options for structuring the target variable $y$)
+- `docs/modelling_and_pipeline/optimizations/optimizations_implemented.md` (Outlines advanced features, models, preprocessing switch, and clean train logic)
 - `specs/modelling/SPEC_train.md` & `specs/modelling/SPEC_predict.md` (The destination script specs the Colab model will lay the foundation for)
 - The contents of `modelling/baseline.py` (For the exact safety floor blending logic)
 

@@ -1,5 +1,8 @@
 # SPEC: train.py
 
+> [!IMPORTANT]
+> **Round 2 Architecture Upgrade:** The `train.py` script has been completely rewritten for Round 2 to support advanced Run Tracking, dynamic strategy exclusions (e.g., removing target leakages), multi-algorithm support (CatBoost, XGBoost, LightGBM), GPU acceleration, and SHAP value extraction. Please refer to `specs/orchestration/SPEC_run_setup.md` for the latest usage instructions. This spec document describes the base logic, but execution should follow the new CLI setup.
+
 ## Purpose
 
 Train a CatBoost gradient boosting model to predict outlet-level maximum monthly
@@ -13,21 +16,22 @@ seasonality. The trained model is saved to `modelling/artifacts/model.pkl`.
 > manual encoding. Hyperparameters were tuned via Optuna (20 trials).
 
 ## Layer
+
 Modelling
 
 ## Inputs
 
-| File | Path |
-|------|------|
+| File                    | Path                                |
+| ----------------------- | ----------------------------------- |
 | master_features.parquet | `data/gold/master_features.parquet` |
 
 ## Outputs
 
-| File | Path |
-|------|------|
-| model.pkl | `modelling/artifacts/model.pkl` |
+| File                   | Path                                         |
+| ---------------------- | -------------------------------------------- |
+| model.pkl              | `modelling/artifacts/model.pkl`              |
 | feature_importance.png | `modelling/artifacts/feature_importance.png` |
-| cv_results.json | `modelling/artifacts/cv_results.json` |
+| cv_results.json        | `modelling/artifacts/cv_results.json`        |
 
 ---
 
@@ -37,6 +41,7 @@ Because there is no ground-truth "maximum potential" column, we construct a targ
 variable (pseudo-label) that represents our best estimate of the demand ceiling.
 
 **Formula:**
+
 ```
 pseudo_target = hist_p90_monthly
               × seasonality_multiplier_jan_2026
@@ -44,6 +49,7 @@ pseudo_target = hist_p90_monthly
 ```
 
 **Rationale:**
+
 - `hist_p90_monthly` is the 90th percentile monthly volume — close to but more
   robust than the raw maximum.
 - Multiplying by the January 2026 seasonality multiplier adjusts for the fact that
@@ -93,7 +99,7 @@ EXCLUDE_COLS = [
     "baseline_potential_litres",      # baseline floor, not a training feature
     "jan_2026_holiday_count",         # constant across all rows (zero variance)
     "jan_2026_trading_days",          # constant across all rows (zero variance)
-    
+
     # STRATEGY A: Remove Target Leaks
     # We must exclude historical sales volumes that are directly correlated
     # with the pseudo-label, forcing the model to rely on structural/spatial features.
@@ -123,7 +129,7 @@ log.info("Training with %d features (%d categorical): %s",
 
 ```python
 df_train = df[
-    (df["has_transaction_history"] == True) & 
+    (df["has_transaction_history"] == True) &
     (df["exclude_from_training"] == False)
 ].copy()
 

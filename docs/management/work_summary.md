@@ -53,7 +53,7 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 ## Phase 7: Documentation & Reporting
 
 27. Authored a thorough `README.md` outlining the environment setup, project structure, and sequential command-line execution steps required to run the pipeline end-to-end (Bronze -> Silver -> Gold -> Modelling -> Inference).
-28. Produced the comprehensive 5-page LaTeX technical report (`docs/report/report.tex`) strictly conforming to Storming Round submission guidelines, covering Data Forensics, POI Acquisition, Causal Base Logic, and the Generative AI Transparency Log.
+28. Produced the comprehensive 5-page LaTeX technical report (`docs/report/round_1/report.tex`) strictly conforming to Storming Round submission guidelines, covering Data Forensics, POI Acquisition, Causal Base Logic, and the Generative AI Transparency Log.
 
 ---
 

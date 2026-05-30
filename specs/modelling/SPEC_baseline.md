@@ -7,7 +7,7 @@ maximum monthly purchase potential for every outlet. This baseline:
 1. Is used as a floor — the ML model prediction is never allowed to go below it.
 2. Is independently defensible to judges without any ML.
 3. Uses **January-specific historical volumes** as the primary signal (Direct Month
-   strategy — see `docs/target_generation_strategies.md` Approach 1), making it
+   strategy — see `docs/modelling_and_pipeline/optimizations/target_strategies_implemented.md` Approach 1), making it
    fundamentally different from the model's all-months P90 pseudo-label.
 
 ## Layer
