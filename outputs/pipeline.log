@@ -392,3 +392,35 @@ dtype: object
 2026-05-30 21:14:14,386 | INFO     | build_gravity_features |   worship_gravity_score           mean=8.93  median=1.65  max=1258.34
 2026-05-30 21:14:14,387 | INFO     | build_gravity_features |   hospitality_gravity_score       mean=7.99  median=0.00  max=1331.05
 2026-05-30 21:14:14,389 | INFO     | build_gravity_features |   composite_gravity_score         mean=1.25  median=0.12  max=100.00
+2026-05-30 21:28:31,075 | INFO     | build_master_features | ======================================================================
+2026-05-30 21:28:31,075 | INFO     | build_master_features | BUILD MASTER FEATURES — START
+2026-05-30 21:28:31,075 | INFO     | build_master_features | ======================================================================
+2026-05-30 21:28:31,170 | INFO     | build_master_features | Loaded outlet_master_clean: 20000 rows
+2026-05-30 21:28:31,181 | INFO     | build_master_features | Loaded outlet_coordinates_clean: 19960 rows
+2026-05-30 21:28:31,204 | INFO     | build_master_features | Loaded seasonality_clean: 370 rows
+2026-05-30 21:28:31,220 | INFO     | build_master_features | Loaded sales_features: 20000 rows
+2026-05-30 21:28:31,248 | INFO     | build_master_features | Loaded poi_features: 20000 rows
+2026-05-30 21:28:31,260 | INFO     | build_master_features | Loaded gravity_features: 20000 rows
+2026-05-30 21:28:31,272 | INFO     | build_master_features | Loaded catchment_features: 20000 rows
+2026-05-30 21:28:31,274 | INFO     | build_master_features | Loaded jan_2026_trading_days.json: {'jan_2026_trading_days': 20, 'jan_2026_holiday_count': 2}
+2026-05-30 21:28:31,280 | INFO     | build_master_features | Jan 2026 seasonality lookup: 10 distributors
+2026-05-30 21:28:31,281 | INFO     | build_master_features | Base outlets: 20000 rows
+2026-05-30 21:28:31,293 | INFO     | build_master_features | After coords merge: 20000 rows
+2026-05-30 21:28:31,302 | INFO     | build_master_features | After sales_features merge: 20000 rows
+2026-05-30 21:28:31,323 | INFO     | build_master_features | After poi_features merge: 20000 rows
+2026-05-30 21:28:31,341 | INFO     | build_master_features | After gravity_features merge: 20000 rows
+2026-05-30 21:28:31,357 | INFO     | build_master_features | After catchment_features merge: 20000 rows
+2026-05-30 21:28:31,373 | INFO     | build_master_features | After seasonality merge: 20000 rows
+2026-05-30 21:28:31,375 | INFO     | build_master_features | Added scalar features: trading_days=20, holiday_count=2
+2026-05-30 21:28:31,382 | INFO     | build_master_features | Filled 40 null coords_swapped with False
+2026-05-30 21:28:31,382 | INFO     | build_master_features | Flagged 40 outlets for exclude_from_training
+2026-05-30 21:28:31,390 | WARNING  | build_master_features | Filled 40 null coordinates with province centroids
+2026-05-30 21:28:31,393 | INFO     | build_master_features | 0 outlets have no transaction history
+2026-05-30 21:28:31,396 | INFO     | build_master_features | Filled 5 nulls in yoy_growth_rate with median -0.0002
+2026-05-30 21:28:31,424 | INFO     | build_master_features | Rounded 28 float columns to 4 decimal places (all float64)
+2026-05-30 21:28:31,427 | INFO     | build_master_features | All assertions passed.
+2026-05-30 21:28:31,565 | INFO     | build_master_features | Written 20000 rows, 69 columns -> master_features.parquet (0.5s)
+2026-05-30 21:28:31,565 | INFO     | build_master_features | Columns: ['Outlet_ID', 'Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_max_monthly', 'hist_p90_monthly', 'hist_p75_monthly', 'hist_mean_monthly', 'hist_std_monthly', 'hist_cv', 'jan_avg_volume', 'jan_max_volume', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'recent_3m_avg', 'trend_slope', 'months_since_last_order', 'total_volume', 'distributor_id', 'ema_3m', 'ema_6m', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_jan_2026', 'seasonality_multiplier_jan_2026', 'jan_2026_holiday_count', 'jan_2026_trading_days', 'province', 'exclude_from_training', 'has_transaction_history']
+2026-05-30 21:28:31,566 | INFO     | build_master_features | ======================================================================
+2026-05-30 21:28:31,566 | INFO     | build_master_features | BUILD MASTER FEATURES — DONE
+2026-05-30 21:28:31,566 | INFO     | build_master_features | ======================================================================

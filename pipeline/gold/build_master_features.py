@@ -80,6 +80,12 @@ def load_inputs() -> dict:
     poi_ft = pd.read_parquet(os.path.join(GOLD_DIR, "poi_features.parquet"))
     log.info("Loaded poi_features: %d rows", len(poi_ft))
 
+    grav_ft = pd.read_parquet(os.path.join(GOLD_DIR, "gravity_features.parquet"))
+    log.info("Loaded gravity_features: %d rows", len(grav_ft))
+
+    catch_ft = pd.read_parquet(os.path.join(GOLD_DIR, "catchment_features.parquet"))
+    log.info("Loaded catchment_features: %d rows", len(catch_ft))
+
     json_path = os.path.join(SILVER_DIR, "jan_2026_trading_days.json")
     with open(json_path) as f:
         trading_days_info = json.load(f)
@@ -91,6 +97,8 @@ def load_inputs() -> dict:
         "season": season,
         "sales_ft": sales_ft,
         "poi_ft": poi_ft,
+        "grav_ft": grav_ft,
+        "catch_ft": catch_ft,
         "jan_2026_trading_days": trading_days_info["jan_2026_trading_days"],
         "jan_2026_holiday_count": trading_days_info["jan_2026_holiday_count"],
     }
@@ -116,6 +124,8 @@ def merge_all_datasets(
     coords: pd.DataFrame,
     sales_ft: pd.DataFrame,
     poi_ft: pd.DataFrame,
+    grav_ft: pd.DataFrame,
+    catch_ft: pd.DataFrame,
     jan_2026_season: pd.DataFrame,
 ) -> pd.DataFrame:
     """Step 4 — LEFT JOIN all datasets onto the outlet master base."""
@@ -136,6 +146,14 @@ def merge_all_datasets(
     # Merge POI features
     df = df.merge(poi_ft, on="Outlet_ID", how="left")
     log.info("After poi_features merge: %d rows", len(df))
+
+    # Merge gravity features
+    df = df.merge(grav_ft, on="Outlet_ID", how="left")
+    log.info("After gravity_features merge: %d rows", len(df))
+
+    # Merge catchment features
+    df = df.merge(catch_ft, on="Outlet_ID", how="left")
+    log.info("After catchment_features merge: %d rows", len(df))
 
     # Merge seasonality via distributor_id from sales_features
     df = df.merge(
@@ -308,6 +326,8 @@ def main():
         coords=inputs["coords"],
         sales_ft=inputs["sales_ft"],
         poi_ft=inputs["poi_ft"],
+        grav_ft=inputs["grav_ft"],
+        catch_ft=inputs["catch_ft"],
         jan_2026_season=jan_2026_season,
     )
 

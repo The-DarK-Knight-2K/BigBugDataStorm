@@ -129,7 +129,7 @@
 - [x] Output `catchment_features.parquet`.
 
 ### `build_master_features.py` (Update)
-- [ ] Left-join `gravity_features` and `catchment_features`.
+- [x] Left-join `gravity_features` and `catchment_features`.
 
 ### `train.py` (Update)
 - [ ] Remove target leakage features (e.g., `hist_p90_monthly`) from training (Strategy A).
