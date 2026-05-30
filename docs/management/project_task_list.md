@@ -168,16 +168,36 @@
 
 ### Model Training Scenarios (Execution)
 
-- [x] **Scenario 1:** Round 1 Baseline (Reference Run) — `round1_baseline` with CatBoost (GPU) (leak features kept)
-- [x] **Scenario 2:** Strategy A — Remove Target Leakage with CatBoost (GPU)
-- [x] **Scenario 3:** Strategy A — XGBoost Comparison (GPU)
-- [x] **Scenario 4:** Strategy A — LightGBM Comparison (GPU)
-- [x] **Scenario 5:** Strategy C — Feature Interactions with CatBoost (GPU)
-- [x] **Scenario 6:** Strategy A + Only Gravity Features (No Flat POI Counts) with CatBoost (GPU)
-- [x] **Scenario 7:** Strategy A + Only Flat POI Counts (No Gravity) with CatBoost (GPU)
-- [ ] **Scenario 8:** Strategy A + Tuned Epsilon (ε = 0.02) with CatBoost (GPU) (requires gravity rebuild)
-- [x] **Scenario 9:** Optuna Hyperparameter Re-tuning (XGBoost GPU) (using `optuna_tune.py`)
-- [ ] **Scenario 10:** Model Ensemble (Blending) (using `ensemble.py`)
+#### Round 2 (Completed)
+
+- [x] ~~**Scenario 1:** Round 1 Baseline — `round1_baseline` with CatBoost (GPU)~~ ❌ ABANDONED (CatBoost over-regularised, RMSE 329.00)
+- [x] ~~**Scenario 2:** Strategy A — Remove Target Leakage with CatBoost (GPU)~~ ❌ ABANDONED (Same CatBoost issue)
+- [x] **Scenario 3:** Strategy A — XGBoost Comparison (GPU) — RMSE 41.82
+- [x] **Scenario 4:** Strategy A — LightGBM Comparison — RMSE 43.50
+- [x] **Scenario 5:** Strategy C — Feature Interactions with XGBoost (GPU) — RMSE 41.78
+- [x] **Scenario 6:** Strategy A + Only Gravity Features with XGBoost (GPU) — RMSE **41.14** (BEST)
+- [x] **Scenario 7:** Strategy A + Only Flat POI Counts with XGBoost (GPU) — RMSE 41.54
+- [ ] **Scenario 8:** Strategy A + Tuned Epsilon (epsilon = 0.02) — ⏸️ DEFERRED
+- [x] **Scenario 9:** Optuna Hyperparameter Re-tuning (XGBoost GPU, `strategyC`) — RMSE 41.33
+
+#### Round 3 — Boolean Noise Removal + Algorithm Expansion (Pending)
+
+- [ ] **Scenario 10:** Strategy C — LightGBM (original features)
+- [ ] **Scenario 11:** Strategy C Clean — XGBoost (boolean noise removed)
+- [ ] **Scenario 12:** Strategy C Clean — LightGBM (boolean noise removed)
+- [ ] **Scenario 13:** Gravity-Only — LightGBM (original features)
+- [ ] **Scenario 14:** Gravity-Only Clean — XGBoost (boolean noise removed) ⭐
+- [ ] **Scenario 15:** Gravity-Only Clean — LightGBM (boolean noise removed)
+- [ ] **Scenario 16:** Flat-Only — LightGBM (original features)
+- [ ] **Scenario 17:** Flat-Only Clean — XGBoost (boolean noise removed)
+- [ ] **Scenario 18:** Flat-Only Clean — LightGBM (boolean noise removed)
+
+#### Future Scenarios (Pending Round 3 Results)
+
+- [ ] Optuna tuning on best Round 3 strategy (trial count TBD)
+- [ ] Strategy C v2 — improved interaction features
+- [ ] Model Ensemble (Blending) — `ensemble.py`
+
 
 ### `predict.py` (Re-run)
 

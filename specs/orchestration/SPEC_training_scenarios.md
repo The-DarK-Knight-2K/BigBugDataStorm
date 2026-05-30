@@ -1,4 +1,4 @@
-﻿## Q6: 10 Training Scenarios â€” Detailed Transition Guide
+## Training Scenarios — Detailed Transition Guide
 
 ### Code Preservation Strategy
 
@@ -43,283 +43,470 @@ python modelling/train.py --strategy strategyC --algorithm catboost
 
 ---
 
-### The 10 Scenarios
+### Round 1 Scenarios (1-9)
 
 #### Scenario 1: Round 1 Baseline (Reference Run)
 
-| Item                  | Detail                                                                                                                                                                                                                       |
-| --------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Purpose**           | Establish the baseline RMSE with the Round 1 model on the **updated** `master_features.parquet` (which now includes gravity + catchment columns)                                                                             |
-| **Strategy**          | `round1_baseline`                                                                                                                                                                                                            |
-| **Algorithm**         | CatBoost (GPU)                                                                                                                                                                                                               |
-| **Excluded features** | Same as current [train.py L63-80](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/modelling/train.py#L63-L80) â€” keeps `hist_p90`, `hist_max`, `jan_avg`, `ema_3m` as features |
-| **New features used** | Gravity scores + catchment features are auto-included (they're in `master_features.parquet`)                                                                                                                                 |
-| **Target**            | `hist_p90_monthly Ã— seasonality Ã— trading_days`                                                                                                                                                                              |
-| **Custom scripts**    | None                                                                                                                                                                                                                         |
-| **Code/data changes** | None â€” just run with the strategy flag                                                                                                                                                                                       |
-| **Expected RMSE**     | ~40 (similar to Colab experiments, since leak features dominate)                                                                                                                                                             |
+| Item                  | Detail                                                                 |
+| --------------------- | ---------------------------------------------------------------------- |
+| **Purpose**           | Establish the baseline RMSE with the Round 1 model on the updated `master_features.parquet` (which now includes gravity + catchment columns) |
+| **Strategy**          | `round1_baseline`                                                      |
+| **Algorithm**         | CatBoost (GPU)                                                         |
+| **Excluded features** | Same as original train.py — keeps `hist_p90`, `hist_max`, `jan_avg`, `ema_3m` as features |
+| **New features used** | Gravity scores + catchment features are auto-included (they're in `master_features.parquet`) |
+| **Target**            | `hist_p90_monthly * seasonality * trading_days`                        |
+| **Custom scripts**    | None                                                                   |
+| **Code/data changes** | None — just run with the strategy flag                                 |
+| **Expected RMSE**     | ~40 (similar to Colab experiments, since leak features dominate)       |
+| **Status**            | ❌ **ABANDONED** — CatBoost GPU over-regularised (RMSE 329.00)        |
 
 ```bash
 python modelling/train.py --strategy round1_baseline --notes "Reference: R1 features on updated master_features"
 ```
 
-**Transition to Scenario 2:** No changes needed, just switch the flag.
-
 ---
 
-#### Scenario 2: Strategy A â€” Remove Target Leakage (CatBoost)
+#### Scenario 2: Strategy A — Remove Target Leakage (CatBoost)
 
-| Item                  | Detail                                                                                                                     |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| **Purpose**           | Force the model to learn from structural/spatial features by removing the "answer key"                                     |
-| **Strategy**          | `strategyA`                                                                                                                |
-| **Algorithm**         | CatBoost (GPU)                                                                                                             |
-| **Excluded features** | All of Scenario 1 + `hist_p90_monthly`, `hist_max_monthly`, `jan_avg_volume`, `ema_3m`                                     |
-| **New features used** | Gravity (6 individual + composite), catchment (3 radii + density + saturation class), POI flat counts, structural features |
-| **Target**            | Same formula (no change)                                                                                                   |
-| **Custom scripts**    | None                                                                                                                       |
-| **Code/data changes** | None â€” strategy flag controls exclusions                                                                                   |
-| **Expected RMSE**     | 55-65 (higher because leak features removed, but this is correct)                                                          |
+| Item                  | Detail                                                                 |
+| --------------------- | ---------------------------------------------------------------------- |
+| **Purpose**           | Force the model to learn from structural/spatial features by removing the "answer key" |
+| **Strategy**          | `strategyA`                                                            |
+| **Algorithm**         | CatBoost (GPU)                                                         |
+| **Excluded features** | All of Scenario 1 + `hist_p90_monthly`, `hist_max_monthly`, `jan_avg_volume`, `ema_3m` |
+| **Target**            | Same formula (no change)                                               |
+| **Expected RMSE**     | 55-65 (higher because leak features removed, but this is correct)      |
+| **Status**            | ❌ **ABANDONED** — Same CatBoost GPU issue (RMSE 329.00)              |
 
 ```bash
 python modelling/train.py --strategy strategyA --notes "Strategy A: no leak features, CatBoost GPU"
 ```
 
-**Transition to Scenario 3:** Just switch `--algorithm`.
-
 ---
 
-#### Scenario 3: Strategy A â€” XGBoost Comparison
+#### Scenario 3: Strategy A — XGBoost Comparison
 
-| Item                  | Detail                                                                                                      |
-| --------------------- | ----------------------------------------------------------------------------------------------------------- |
-| **Purpose**           | Compare XGBoost against CatBoost on the same feature set (proves systematic algorithm evaluation)           |
-| **Strategy**          | `strategyA`                                                                                                 |
-| **Algorithm**         | XGBoost (GPU)                                                                                               |
-| **Excluded features** | Same as Scenario 2                                                                                          |
-| **Target**            | Same formula                                                                                                |
-| **Custom scripts**    | None â€” `train.py` handles XGBoost via `--algorithm xgboost`                                                 |
-| **Code/data changes** | XGBoost requires label-encoding categoricals â€” `train.py` does this automatically when algorithm â‰  catboost |
-| **Dependencies**      | `pip install xgboost` (add to `requirements.txt`)                                                           |
-| **Expected RMSE**     | 55-65 (similar to CatBoost, may be slightly better/worse)                                                   |
+| Item                  | Detail                                                                 |
+| --------------------- | ---------------------------------------------------------------------- |
+| **Purpose**           | Compare XGBoost against CatBoost on the same feature set               |
+| **Strategy**          | `strategyA`                                                            |
+| **Algorithm**         | XGBoost (GPU)                                                          |
+| **Excluded features** | Same as Scenario 2                                                     |
+| **Target**            | Same formula                                                           |
+| **Expected RMSE**     | 55-65 (similar to CatBoost, may be slightly better/worse)             |
+| **Status**            | ✅ **Done** — RMSE 41.82 (massive breakthrough vs CatBoost's 329.00)  |
 
 ```bash
-pip install xgboost
 python modelling/train.py --strategy strategyA --algorithm xgboost --notes "XGBoost GPU comparison"
 ```
 
-**Transition to Scenario 4:** Just switch `--algorithm`.
-
 ---
 
-#### Scenario 4: Strategy A â€” LightGBM Comparison
+#### Scenario 4: Strategy A — LightGBM Comparison
 
-| Item                  | Detail                                                                                                                                                                           |
-| --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Purpose**           | Third algorithm comparison (LightGBM already installed)                                                                                                                          |
-| **Strategy**          | `strategyA`                                                                                                                                                                      |
-| **Algorithm**         | LightGBM (GPU)                                                                                                                                                                   |
-| **Excluded features** | Same as Scenario 2                                                                                                                                                               |
-| **Target**            | Same formula                                                                                                                                                                     |
-| **Custom scripts**    | None                                                                                                                                                                             |
-| **Code/data changes** | LightGBM requires `astype("category")` for categoricals â€” `train.py` handles automatically                                                                                       |
-| **Dependencies**      | Already installed (`lightgbm==4.3.0` in [requirements.txt](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/requirements.txt#L26)) |
-| **Expected RMSE**     | 55-65                                                                                                                                                                            |
+| Item                  | Detail                                                                 |
+| --------------------- | ---------------------------------------------------------------------- |
+| **Purpose**           | Third algorithm comparison (LightGBM)                                  |
+| **Strategy**          | `strategyA`                                                            |
+| **Algorithm**         | LightGBM                                                               |
+| **Excluded features** | Same as Scenario 2                                                     |
+| **Target**            | Same formula                                                           |
+| **Expected RMSE**     | 55-65                                                                  |
+| **Status**            | ✅ **Done** — RMSE 43.50                                               |
 
 ```bash
 python modelling/train.py --strategy strategyA --algorithm lightgbm --notes "LightGBM GPU comparison"
 ```
 
-> [!NOTE]
-> LightGBM GPU requires the `lightgbm` package built with GPU support. The pip version may be CPU-only. If GPU fails, it'll fall back to CPU (still fast for 20K rows). We'll test this during the first run.
-
-**Transition to Scenario 5:** Switch to `strategyC`.
-
 ---
 
-#### Scenario 5: Strategy C â€” Feature Interactions (CatBoost)
+#### Scenario 5: Strategy C — Feature Interactions (XGBoost)
 
-| Item                    | Detail                                                                                                                                                                                                       |
-| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Purpose**             | Test if cross-features improve the model â€” per [modelling_strategy.md #6](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/modelling_strategy.md#L36-L38) |
-| **Strategy**            | `strategyC`                                                                                                                                                                                                  |
-| **Algorithm**           | CatBoost (GPU)                                                                                                                                                                                               |
-| **Excluded features**   | Same as Strategy A                                                                                                                                                                                           |
-| **Additional features** | Auto-generated interaction features:                                                                                                                                                                         |
-|                         | `gravity_x_cooler = composite_gravity_score Ã— Cooler_Count`                                                                                                                                                  |
-|                         | `gravity_x_active_months = composite_gravity_score Ã— active_months_pct`                                                                                                                                      |
-|                         | `catchment_x_cooler = competition_density_score Ã— Cooler_Count`                                                                                                                                              |
-|                         | `transport_x_school = transport_gravity_score Ã— school_gravity_score`                                                                                                                                        |
-| **Target**              | Same formula                                                                                                                                                                                                 |
-| **Custom scripts**      | None â€” `train.py` auto-creates interaction columns when `--strategy strategyC`                                                                                                                               |
-| **Code/data changes**   | No parquet changes. `train.py` computes interactions on-the-fly in memory                                                                                                                                    |
-| **Expected RMSE**       | Slightly lower than Scenario 2 if interactions help                                                                                                                                                          |
+| Item                    | Detail                                                                 |
+| ----------------------- | ---------------------------------------------------------------------- |
+| **Purpose**             | Test if cross-features improve the model                               |
+| **Strategy**            | `strategyC`                                                            |
+| **Algorithm**           | XGBoost (GPU)                                                          |
+| **Excluded features**   | Same as Strategy A                                                     |
+| **Additional features** | Auto-generated interaction features: `gravity_x_cooler`, `gravity_x_active_months`, `catchment_x_cooler`, `transport_x_school` |
+| **Target**              | Same formula                                                           |
+| **Expected RMSE**       | Slightly lower than Scenario 3 if interactions help                    |
+| **Status**              | ✅ **Done** — RMSE 41.78                                               |
 
 ```bash
-python modelling/train.py --strategy strategyC --algorithm catboost --notes "Strategy C: interaction features"
+python modelling/train.py --strategy strategyC --algorithm xgboost --notes "Strategy C: Feature Interactions with XGBoost"
 ```
-
-**Transition to Scenario 6:** Switch strategy flag.
 
 ---
 
 #### Scenario 6: Strategy A + Only Gravity Features (No Flat POI Counts)
 
-| Item                  | Detail                                                                                                                |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| **Purpose**           | Test if gravity scores can fully replace flat POI counts (cleaner model, less multicollinearity)                      |
-| **Strategy**          | `strategyA_gravity_only`                                                                                              |
-| **Algorithm**         | CatBoost (GPU)                                                                                                        |
+| Item                  | Detail                                                                 |
+| --------------------- | ---------------------------------------------------------------------- |
+| **Purpose**           | Test if gravity scores can fully replace flat POI counts (cleaner model, less multicollinearity) |
+| **Strategy**          | `strategyA_gravity_only`                                               |
+| **Algorithm**         | XGBoost (GPU)                                                          |
 | **Excluded features** | Strategy A exclusions + all 18 flat POI count columns (`schools_500m` through `hospitality_2000m`) + `footfall_score` |
-| **Features kept**     | 6 individual gravity scores + `composite_gravity_score` + catchment features + structural                             |
-| **Target**            | Same formula                                                                                                          |
-| **Custom scripts**    | None                                                                                                                  |
-| **Code/data changes** | None                                                                                                                  |
-| **Expected RMSE**     | Similar to Scenario 2 â€” if gravity scores capture the same signal as flat counts                                      |
+| **Features kept**     | 6 individual gravity scores + `composite_gravity_score` + catchment features + structural |
+| **Target**            | Same formula                                                           |
+| **Expected RMSE**     | Similar to Scenario 3 — if gravity scores capture the same signal as flat counts |
+| **Status**            | ✅ **Done** — RMSE **41.14** (BEST untuned result, 32 features)       |
 
 ```bash
-python modelling/train.py --strategy strategyA_gravity_only --notes "Gravity only, no flat POI counts"
+python modelling/train.py --strategy strategyA_gravity_only --algorithm xgboost --notes "Ablation: Gravity features only (XGBoost)"
 ```
-
-**Transition to Scenario 7:** Switch strategy flag.
 
 ---
 
 #### Scenario 7: Strategy A + Only Flat POI Counts (No Gravity)
 
-| Item                  | Detail                                                                         |
-| --------------------- | ------------------------------------------------------------------------------ |
-| **Purpose**           | Ablation test â€” prove that gravity features add value over Round 1 flat counts |
-| **Strategy**          | `strategyA_flat_only`                                                          |
-| **Algorithm**         | CatBoost (GPU)                                                                 |
-| **Excluded features** | Strategy A exclusions + all 7 gravity columns + `raw_composite_gravity`        |
-| **Features kept**     | 18 flat POI counts + `footfall_score` + catchment + structural                 |
-| **Target**            | Same formula                                                                   |
-| **Custom scripts**    | None                                                                           |
-| **Code/data changes** | None                                                                           |
-| **Expected RMSE**     | Higher than Scenario 2 (proving gravity adds value)                            |
+| Item                  | Detail                                                                 |
+| --------------------- | ---------------------------------------------------------------------- |
+| **Purpose**           | Ablation test — prove that gravity features add value over Round 1 flat counts |
+| **Strategy**          | `strategyA_flat_only`                                                  |
+| **Algorithm**         | XGBoost (GPU)                                                          |
+| **Excluded features** | Strategy A exclusions + all 7 gravity columns + `raw_composite_gravity` |
+| **Features kept**     | 18 flat POI counts + `footfall_score` + catchment + structural         |
+| **Target**            | Same formula                                                           |
+| **Expected RMSE**     | Higher than Scenario 3 (proving gravity adds value)                    |
+| **Status**            | ✅ **Done** — RMSE 41.54                                               |
 
 ```bash
-python modelling/train.py --strategy strategyA_flat_only --notes "Ablation: flat POI only, no gravity"
+python modelling/train.py --strategy strategyA_flat_only --algorithm xgboost --notes "Ablation: Flat POI counts only (XGBoost)"
 ```
 
 > [!TIP]
-> **Scenarios 6 vs 7 vs 2** form an ablation study. If Scenario 2 (both) beats Scenario 6 (gravity only) and Scenario 7 (flat only), it proves both feature sets contribute unique signal. This is excellent for the judges.
-
-**Transition to Scenario 8:** Switch strategy flag.
+> **Scenarios 6 vs 7 vs 3** form an ablation study. Scenario 6 (gravity only, 41.14) beat Scenario 7 (flat only, 41.54) and Scenario 3 (both, 41.82). Gravity-only is the cleanest and best approach.
 
 ---
 
-#### Scenario 8: Strategy A + Tuned Epsilon (Îµ = 0.02)
+#### Scenario 8: Strategy A + Tuned Epsilon (epsilon = 0.02)
 
-| Item                  | Detail                                                                                                                                                                                                                    |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Purpose**           | Test if a tighter epsilon gives better discrimination â€” per [modelling_strategy.md #9](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/modelling_strategy.md#L54-L56) |
-| **Strategy**          | `strategyA`                                                                                                                                                                                                               |
-| **Algorithm**         | CatBoost (GPU)                                                                                                                                                                                                            |
-| **Excluded features** | Same as Scenario 2                                                                                                                                                                                                        |
-| **Target**            | Same formula                                                                                                                                                                                                              |
-| **Custom scripts**    | **Yes â€” must re-run `build_gravity_features.py`** with `decay_epsilon: 0.02`                                                                                                                                              |
-| **Code/data changes** | **Parquet change required:**                                                                                                                                                                                              |
-|                       | 1. Edit `config.yaml`: change `gravity_model.decay_epsilon` from `0.05` to `0.02`                                                                                                                                         |
-|                       | 2. Re-run `python pipeline/gold/build_gravity_features.py` â†’ regenerates `gravity_features.parquet`                                                                                                                       |
-|                       | 3. Re-run `python pipeline/gold/build_master_features.py` â†’ regenerates `master_features.parquet`                                                                                                                         |
-|                       | 4. Then train                                                                                                                                                                                                             |
-| **Expected RMSE**     | May improve if closer POIs deserve more extreme weighting                                                                                                                                                                 |
-
-```bash
-# Step 1: Update config.yaml (decay_epsilon: 0.05 â†’ 0.02)
-# Step 2: Rebuild gravity features
-python pipeline/gold/build_gravity_features.py
-python pipeline/gold/build_master_features.py
-# Step 3: Train
-python modelling/train.py --strategy strategyA --notes "Epsilon=0.02 gravity rebuild"
-```
+| Item                  | Detail                                                                 |
+| --------------------- | ---------------------------------------------------------------------- |
+| **Purpose**           | Test if a tighter epsilon gives better discrimination                   |
+| **Strategy**          | `strategyA`                                                            |
+| **Algorithm**         | CatBoost (GPU)                                                         |
+| **Custom scripts**    | Must re-run `build_gravity_features.py` with `decay_epsilon: 0.02`     |
+| **Code/data changes** | Parquet change required — rebuild gravity + master features             |
+| **Status**            | ⏸️ **DEFERRED** — Pending Round 3 results                              |
 
 > [!WARNING]
-> **This scenario modifies `gravity_features.parquet` and `master_features.parquet`.** After testing, you MUST revert `config.yaml` back to `decay_epsilon: 0.05` and re-run the gravity + master feature pipeline to restore the original data for other scenarios. Alternatively, back up the parquets before changing epsilon.
-
-**Transition to Scenario 9:** Revert config, rebuild parquets, then switch strategy.
+> This scenario modifies `gravity_features.parquet` and `master_features.parquet`. After testing, you MUST revert `config.yaml` back to `decay_epsilon: 0.05` and rebuild.
 
 ---
 
-#### Scenario 9: Optuna Hyperparameter Re-tuning (CatBoost)
+#### Scenario 9: Optuna Hyperparameter Re-tuning (XGBoost)
 
-| Item                  | Detail                                                                                                                                                                                                                                                                         |
-| --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Purpose**           | The Round 1 Optuna params were tuned with leak features. The optimal params will be different without them â€” per [modelling_strategy.md #5](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/modelling_strategy.md#L32-L34) |
-| **Strategy**          | `strategyA` (or whichever performed best in Scenarios 2-7)                                                                                                                                                                                                                     |
-| **Algorithm**         | CatBoost (GPU)                                                                                                                                                                                                                                                                 |
-| **Excluded features** | Same as the best strategy                                                                                                                                                                                                                                                      |
-| **Target**            | Same formula                                                                                                                                                                                                                                                                   |
-| **Custom scripts**    | **Yes â€” `modelling/optuna_tune.py`** (new script)                                                                                                                                                                                                                              |
-| **Code/data changes** | New script that runs 50 Optuna trials, saves the best params, then trains with them                                                                                                                                                                                            |
-| **Expected RMSE**     | 2-5% lower than the un-tuned version of the same strategy                                                                                                                                                                                                                      |
+| Item                  | Detail                                                                 |
+| --------------------- | ---------------------------------------------------------------------- |
+| **Purpose**           | The Round 1 Optuna params were tuned with leak features. Re-tune for new feature set |
+| **Strategy**          | `strategyC`                                                            |
+| **Algorithm**         | XGBoost (GPU)                                                          |
+| **Custom scripts**    | `modelling/optuna_tune.py` (50 trials)                                 |
+| **Expected RMSE**     | 2-5% lower than the un-tuned version                                   |
+| **Status**            | ✅ **Done** — RMSE 41.33 (improved from 41.78 untuned)                |
 
 ```bash
-# Step 1: Run Optuna tuning (50 trials, ~5-10 min on GPU)
-python modelling/optuna_tune.py --strategy strategyA --n-trials 50
-
-# Step 2: Train with the best found params
-python modelling/train.py --strategy strategyA --use-optuna-params --notes "Optuna re-tuned (50 trials)"
+python modelling/optuna_tune.py --strategy strategyC --algorithm xgboost --n-trials 50
+python modelling/train.py --strategy strategyC --algorithm xgboost --use-optuna-params --notes "Optuna re-tuned (50 trials)"
 ```
 
-**Transition to Scenario 10:** Decide on the best single-model result first.
+---
+
+#### ~~Original Scenario 10: Model Ensemble (Blending)~~ → Deferred
+
+> [!NOTE]
+> Original Scenario 10 (Ensemble blending) has been deferred. Scenarios 10-18 are now the Round 3 boolean cleanup runs. Ensemble will be run after Round 3.
 
 ---
 
-#### Scenario 10: Model Ensemble (Blending)
+### Round 3 — Boolean Noise Removal + Algorithm Expansion (Scenarios 10-18)
 
-| Item                  | Detail                                                                                                                                                                                                                            |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Purpose**           | Blend the 2-3 best single models for a final RMSE improvement â€” per [modelling_strategy.md #7](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/modelling_strategy.md#L46-L48) |
-| **Strategy**          | N/A (uses predictions from multiple prior runs)                                                                                                                                                                                   |
-| **Algorithm**         | Weighted average of 2-3 models                                                                                                                                                                                                    |
-| **Custom scripts**    | **Yes â€” `modelling/ensemble.py`** (new script)                                                                                                                                                                                    |
-| **Code/data changes** | New script that:                                                                                                                                                                                                                  |
-|                       | 1. Loads `predictions.csv` from 2-3 selected run folders                                                                                                                                                                          |
-|                       | 2. Blends them: e.g. `0.5 Ã— CatBoost + 0.3 Ã— XGBoost + 0.2 Ã— LightGBM`                                                                                                                                                            |
-|                       | 3. Applies the baseline floor (same `max(blend, baseline)` logic)                                                                                                                                                                 |
-|                       | 4. Saves the blended result as a new run in `run_registry.csv`                                                                                                                                                                    |
-| **Expected RMSE**     | 2-5% lower than the best single model                                                                                                                                                                                             |
+> [!IMPORTANT]
+> **Decisions from Round 2 analysis:**
+> - ❌ **Scenarios 1 & 2 (CatBoost): ABANDONED** — CatBoost GPU severely over-regularises on this dataset (RMSE 329.00)
+> - ❌ **Scenario 8 (epsilon tuning): DEFERRED** — Pending Round 3 results
+> - ✅ XGBoost is the clear winner algorithm (RMSE ~41 vs CatBoost ~329)
+> - ✅ Gravity-only (S6, RMSE 41.14) is the best feature strategy
+>
+> **Feature importance analysis** revealed 4 boolean noise fields that must be removed:
+> `size_imputed`, `coords_swapped`, `poi_data_available`, `gravity_data_available`
+> These are data cleaning artifacts, not demand drivers. `size_imputed` (2.2% importance) leaks Outlet_Size uncertainty.
+
+#### Code Changes Required
+
+Add to `train.py` — new constant and 3 new strategies:
+
+```python
+_BOOLEAN_NOISE = [
+    "size_imputed",
+    "coords_swapped",
+    "poi_data_available",
+    "gravity_data_available",
+]
+
+STRATEGIES["strategyC_clean"] = {
+    "description": "Strategy C (interactions) + remove boolean noise flags.",
+    "exclude": _BASE_EXCLUDE + _R1_REDUNDANT + _LEAK_FEATURES + _BOOLEAN_NOISE,
+    "interaction_features": True,
+}
+
+STRATEGIES["strategyA_gravity_clean"] = {
+    "description": "Gravity-only + remove boolean noise. Cleanest spatial model.",
+    "exclude": _BASE_EXCLUDE + _R1_REDUNDANT + _LEAK_FEATURES + _FLAT_POI_COLS + _BOOLEAN_NOISE,
+    "interaction_features": False,
+}
+
+STRATEGIES["strategyA_flat_clean"] = {
+    "description": "Flat POI only + remove boolean noise.",
+    "exclude": _BASE_EXCLUDE + _R1_REDUNDANT + _LEAK_FEATURES + _GRAVITY_COLS + _BOOLEAN_NOISE,
+    "interaction_features": False,
+}
+```
+
+---
+
+#### Scenario 10: Strategy C — LightGBM (Original Features)
+
+| Item                  | Detail                                                                    |
+| --------------------- | ------------------------------------------------------------------------- |
+| **Purpose**           | Algorithm comparison — LightGBM on the interaction feature set            |
+| **Strategy**          | `strategyC`                                                               |
+| **Algorithm**         | LightGBM                                                                  |
+| **Excluded features** | Same as Scenario 5                                                        |
+| **Target**            | Same formula                                                              |
+| **Custom scripts**    | None                                                                      |
+| **Code/data changes** | None — existing strategy + algorithm flag                                 |
+| **Expected RMSE**     | ~43 (LightGBM was ~2 points behind XGBoost on strategyA in S4)           |
 
 ```bash
-# Step 1: Identify the 2-3 best runs from the registry
-python -c "import pandas as pd; print(pd.read_csv('modelling/artifacts/run_registry.csv').sort_values('cv_rmse_mean').head(5))"
+python modelling/train.py --strategy strategyC --algorithm lightgbm --notes "Strategy C with LightGBM"
+```
 
-# Step 2: Run ensemble blending
-python modelling/ensemble.py \
-  --runs run_20260531_0100_catboost_strategyA,run_20260531_0200_xgboost_strategyA \
-  --weights 0.6,0.4 \
-  --notes "CatBoost 60% + XGBoost 40% blend"
+---
+
+#### Scenario 11: Strategy C Clean — XGBoost (Boolean Noise Removed)
+
+| Item                    | Detail                                                                    |
+| ----------------------- | ------------------------------------------------------------------------- |
+| **Purpose**             | Test if removing 4 boolean noise flags improves S5 (RMSE 41.78)          |
+| **Strategy**            | `strategyC_clean` **(NEW)**                                               |
+| **Algorithm**           | XGBoost (GPU)                                                             |
+| **Excluded features**   | Strategy C exclusions + `size_imputed`, `coords_swapped`, `poi_data_available`, `gravity_data_available` |
+| **Target**              | Same formula                                                              |
+| **Custom scripts**      | None                                                                      |
+| **Code/data changes**   | New strategy definition in `train.py`                                     |
+| **Expected RMSE**       | ~41.5-41.8                                                                |
+| **Expected features**   | ~51                                                                       |
+
+```bash
+python modelling/train.py --strategy strategyC_clean --algorithm xgboost --notes "Strategy C, boolean noise removed, XGBoost"
+```
+
+---
+
+#### Scenario 12: Strategy C Clean — LightGBM (Boolean Noise Removed)
+
+| Item                  | Detail                                                                    |
+| --------------------- | ------------------------------------------------------------------------- |
+| **Purpose**           | Cleaned interactions + LightGBM — ensemble diversity candidate            |
+| **Strategy**          | `strategyC_clean`                                                         |
+| **Algorithm**         | LightGBM                                                                  |
+| **Excluded features** | Same as Scenario 11                                                       |
+| **Target**            | Same formula                                                              |
+| **Custom scripts**    | None                                                                      |
+| **Code/data changes** | None — reuses `strategyC_clean` from S11                                  |
+| **Expected RMSE**     | ~43                                                                       |
+| **Expected features** | ~51                                                                       |
+
+```bash
+python modelling/train.py --strategy strategyC_clean --algorithm lightgbm --notes "Strategy C, boolean noise removed, LightGBM"
+```
+
+---
+
+#### Scenario 13: Gravity-Only — LightGBM (Original Features)
+
+| Item                  | Detail                                                                    |
+| --------------------- | ------------------------------------------------------------------------- |
+| **Purpose**           | Algorithm comparison — LightGBM on the current best strategy (S6)         |
+| **Strategy**          | `strategyA_gravity_only`                                                  |
+| **Algorithm**         | LightGBM                                                                  |
+| **Excluded features** | Same as Scenario 6                                                        |
+| **Target**            | Same formula                                                              |
+| **Custom scripts**    | None                                                                      |
+| **Code/data changes** | None — existing strategy + algorithm flag                                 |
+| **Expected RMSE**     | ~42-43                                                                    |
+| **Expected features** | 32                                                                        |
+
+```bash
+python modelling/train.py --strategy strategyA_gravity_only --algorithm lightgbm --notes "Gravity-only ablation with LightGBM"
+```
+
+---
+
+#### Scenario 14: Gravity-Only Clean — XGBoost (Boolean Noise Removed) ⭐
+
+| Item                    | Detail                                                                    |
+| ----------------------- | ------------------------------------------------------------------------- |
+| **Purpose**             | **Highest priority** — remove noise from current champion (S6, RMSE 41.14). Could push below 41.0 |
+| **Strategy**            | `strategyA_gravity_clean` **(NEW)**                                       |
+| **Algorithm**           | XGBoost (GPU)                                                             |
+| **Excluded features**   | Gravity-only exclusions + `size_imputed`, `coords_swapped`, `poi_data_available`, `gravity_data_available` |
+| **Target**              | Same formula                                                              |
+| **Custom scripts**      | None                                                                      |
+| **Code/data changes**   | New strategy definition in `train.py`                                     |
+| **Expected RMSE**       | ~40.8-41.1                                                                |
+| **Expected features**   | ~28                                                                       |
+
+```bash
+python modelling/train.py --strategy strategyA_gravity_clean --algorithm xgboost --notes "Gravity-only, boolean noise removed, XGBoost"
+```
+
+---
+
+#### Scenario 15: Gravity-Only Clean — LightGBM (Boolean Noise Removed)
+
+| Item                  | Detail                                                                    |
+| --------------------- | ------------------------------------------------------------------------- |
+| **Purpose**           | Cleaned gravity features + LightGBM — ensemble diversity with S14         |
+| **Strategy**          | `strategyA_gravity_clean`                                                 |
+| **Algorithm**         | LightGBM                                                                  |
+| **Excluded features** | Same as Scenario 14                                                       |
+| **Target**            | Same formula                                                              |
+| **Custom scripts**    | None                                                                      |
+| **Code/data changes** | None — reuses `strategyA_gravity_clean` from S14                          |
+| **Expected RMSE**     | ~42-43                                                                    |
+| **Expected features** | ~28                                                                       |
+
+```bash
+python modelling/train.py --strategy strategyA_gravity_clean --algorithm lightgbm --notes "Gravity-only, boolean noise removed, LightGBM"
+```
+
+---
+
+#### Scenario 16: Flat-Only — LightGBM (Original Features)
+
+| Item                  | Detail                                                                    |
+| --------------------- | ------------------------------------------------------------------------- |
+| **Purpose**           | Algorithm comparison — LightGBM on flat POI ablation (S7)                 |
+| **Strategy**          | `strategyA_flat_only`                                                     |
+| **Algorithm**         | LightGBM                                                                  |
+| **Excluded features** | Same as Scenario 7                                                        |
+| **Target**            | Same formula                                                              |
+| **Custom scripts**    | None                                                                      |
+| **Code/data changes** | None — existing strategy + algorithm flag                                 |
+| **Expected RMSE**     | ~43-44                                                                    |
+| **Expected features** | 43                                                                        |
+
+```bash
+python modelling/train.py --strategy strategyA_flat_only --algorithm lightgbm --notes "Flat-only ablation with LightGBM"
+```
+
+---
+
+#### Scenario 17: Flat-Only Clean — XGBoost (Boolean Noise Removed)
+
+| Item                    | Detail                                                                    |
+| ----------------------- | ------------------------------------------------------------------------- |
+| **Purpose**             | Test if removing booleans helps the flat-only model (S7 had RMSE 41.54)   |
+| **Strategy**            | `strategyA_flat_clean` **(NEW)**                                          |
+| **Algorithm**           | XGBoost (GPU)                                                             |
+| **Excluded features**   | Flat-only exclusions + `size_imputed`, `coords_swapped`, `poi_data_available`, `gravity_data_available` |
+| **Target**              | Same formula                                                              |
+| **Custom scripts**      | None                                                                      |
+| **Code/data changes**   | New strategy definition in `train.py`                                     |
+| **Expected RMSE**       | ~41.3-41.5                                                                |
+| **Expected features**   | ~39                                                                       |
+
+```bash
+python modelling/train.py --strategy strategyA_flat_clean --algorithm xgboost --notes "Flat-only, boolean noise removed, XGBoost"
+```
+
+---
+
+#### Scenario 18: Flat-Only Clean — LightGBM (Boolean Noise Removed)
+
+| Item                  | Detail                                                                    |
+| --------------------- | ------------------------------------------------------------------------- |
+| **Purpose**           | Cleaned flat features + LightGBM                                          |
+| **Strategy**          | `strategyA_flat_clean`                                                    |
+| **Algorithm**         | LightGBM                                                                  |
+| **Excluded features** | Same as Scenario 17                                                       |
+| **Target**            | Same formula                                                              |
+| **Custom scripts**    | None                                                                      |
+| **Code/data changes** | None — reuses `strategyA_flat_clean` from S17                             |
+| **Expected RMSE**     | ~43-44                                                                    |
+| **Expected features** | ~39                                                                       |
+
+```bash
+python modelling/train.py --strategy strategyA_flat_clean --algorithm lightgbm --notes "Flat-only, boolean noise removed, LightGBM"
 ```
 
 ---
 
 ### Scenario Summary Table
 
-| #   | Strategy                 | Algorithm | Key Difference                 | Custom Scripts   | Data Rebuild? |
-| --- | ------------------------ | --------- | ------------------------------ | ---------------- | ------------- |
-| 1   | `round1_baseline`        | CatBoost  | Reference (leak features kept) | None             | No            |
-| 2   | `strategyA`              | CatBoost  | **Remove 4 leak features**     | None             | No            |
-| 3   | `strategyA`              | XGBoost   | Algorithm comparison           | None             | No            |
-| 4   | `strategyA`              | LightGBM  | Algorithm comparison           | None             | No            |
-| 5   | `strategyC`              | CatBoost  | + Interaction features         | None             | No            |
-| 6   | `strategyA_gravity_only` | CatBoost  | Drop flat POI counts           | None             | No            |
-| 7   | `strategyA_flat_only`    | CatBoost  | Drop gravity scores            | None             | No            |
-| 8   | `strategyA`              | CatBoost  | Îµ = 0.02 gravity rebuild       | None             | **Yes** âš ï¸    |
-| 9   | Best from 2-7            | CatBoost  | Optuna re-tuning               | `optuna_tune.py` | No            |
-| 10  | Ensemble                 | Blend     | Weighted model average         | `ensemble.py`    | No            |
+| #     | Strategy                  | Algorithm | Key Difference                        | Custom Scripts   | Data Rebuild? | Status       |
+| ----- | ------------------------- | --------- | ------------------------------------- | ---------------- | ------------- | ------------ |
+| 1     | `round1_baseline`         | CatBoost  | Reference (leak features kept)        | None             | No            | ❌ Abandoned |
+| 2     | `strategyA`               | CatBoost  | **Remove 4 leak features**            | None             | No            | ❌ Abandoned |
+| 3     | `strategyA`               | XGBoost   | Algorithm comparison                  | None             | No            | ✅ Done      |
+| 4     | `strategyA`               | LightGBM  | Algorithm comparison                  | None             | No            | ✅ Done      |
+| 5     | `strategyC`               | XGBoost   | + Interaction features                | None             | No            | ✅ Done      |
+| 6     | `strategyA_gravity_only`  | XGBoost   | Drop flat POI counts                  | None             | No            | ✅ Done      |
+| 7     | `strategyA_flat_only`     | XGBoost   | Drop gravity scores                   | None             | No            | ✅ Done      |
+| 8     | `strategyA`               | CatBoost  | epsilon = 0.02 gravity rebuild        | None             | **Yes**       | ⏸️ Deferred  |
+| 9     | `strategyC`               | XGBoost   | Optuna re-tuning (50 trials)          | `optuna_tune.py` | No            | ✅ Done      |
+|       |                           |           | **— Round 3: Boolean Cleanup —**      |                  |               |              |
+| 10    | `strategyC`               | LightGBM  | LightGBM on interactions              | None             | No            | 🔲 Pending   |
+| 11    | `strategyC_clean`         | XGBoost   | Interactions + booleans removed       | None             | No            | 🔲 Pending   |
+| 12    | `strategyC_clean`         | LightGBM  | Interactions + booleans removed       | None             | No            | 🔲 Pending   |
+| 13    | `strategyA_gravity_only`  | LightGBM  | LightGBM on gravity-only              | None             | No            | 🔲 Pending   |
+| 14 ⭐ | `strategyA_gravity_clean` | XGBoost   | **Gravity-only + booleans removed**   | None             | No            | 🔲 Pending   |
+| 15    | `strategyA_gravity_clean` | LightGBM  | Gravity-only + booleans removed       | None             | No            | 🔲 Pending   |
+| 16    | `strategyA_flat_only`     | LightGBM  | LightGBM on flat-only                 | None             | No            | 🔲 Pending   |
+| 17    | `strategyA_flat_clean`    | XGBoost   | Flat-only + booleans removed          | None             | No            | 🔲 Pending   |
+| 18    | `strategyA_flat_clean`    | LightGBM  | Flat-only + booleans removed          | None             | No            | 🔲 Pending   |
+
+### Future Scenarios (Post-Round 3, Pending Results)
+
+| #    | Strategy                    | Algorithm | Key Difference              | Status      |
+| ---- | --------------------------- | --------- | --------------------------- | ----------- |
+| TBD  | Best from Round 3           | XGBoost   | Optuna re-tuning            | Deciding    |
+| TBD  | `strategyC_v2`              | XGBoost   | Improved interaction terms  | Deciding    |
+| TBD  | `strategyA_gravity_minimal` | XGBoost   | Aggressive feature pruning  | Deciding    |
+| TBD  | Log-transform target        | XGBoost   | `log1p(y)` optimisation     | Deciding    |
+| TBD  | Ensemble                    | Blend     | Weighted model average      | Deciding    |
 
 ### Recommended Execution Order
 
 ```
-Scenario 1 â†’ 2 â†’ 3 â†’ 4 â†’ 5 â†’ 6 â†’ 7 â†’ [Compare 2-7] â†’ 9 â†’ 10
-                                          â†“
-                                    (Only if time permits)
-                                          8
+Round 2 (COMPLETED):
+  S1 -> S2 -> S3 -> S4 -> S5 -> S6 -> S7 -> S9
+  (S1, S2 abandoned — CatBoost failure)
+  (S8 deferred — epsilon tuning)
+
+Round 3 (NOW — 9 new scenarios):
+  Group B (Priority 1 — best strategy):
+    S14 -> strategyA_gravity_clean + XGBoost   ⭐ Most likely to beat S6
+    S13 -> strategyA_gravity_only  + LightGBM
+    S15 -> strategyA_gravity_clean + LightGBM
+
+  Group A (Priority 2 — interactions):
+    S11 -> strategyC_clean + XGBoost
+    S10 -> strategyC       + LightGBM
+    S12 -> strategyC_clean + LightGBM
+
+  Group C (Priority 3 — flat POI ablation):
+    S17 -> strategyA_flat_clean + XGBoost
+    S16 -> strategyA_flat_only  + LightGBM
+    S18 -> strategyA_flat_clean + LightGBM
+
+Round 4 (FUTURE — pending Round 3 results):
+  Optuna tuning -> Strategy C v2 -> Ensemble
 ```
 
 > [!TIP]
-> Scenarios 1-7 require **zero code changes** between runs â€” just different CLI flags. Scenario 8 needs a data rebuild (revert after). Scenarios 9-10 each need one small new script.
-
+> All 9 Round 3 scenarios require **3 new strategy definitions** in `train.py` (`strategyC_clean`, `strategyA_gravity_clean`, `strategyA_flat_clean`) but **zero other code changes**. Each run is just a CLI flag combination.
