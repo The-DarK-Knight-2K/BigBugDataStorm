@@ -52,6 +52,7 @@ BigBugDataStorm/
 │   ├── gold/                        # Feature engineering, POI scraping, and master features specs
 │   ├── eda/                         # Notebook requirements and goals for exploratory analysis
 │   ├── modelling/                   # Baseline, training, prediction, and Colab experiments specs
+│   ├── webapp/                      # API contracts and frontend component specifications
 │   └── orchestration/               # Pipeline execution and orchestration flow guidelines
 │
 ├── outputs/

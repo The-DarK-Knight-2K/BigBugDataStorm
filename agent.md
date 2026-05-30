@@ -50,6 +50,7 @@ the corresponding script in `pipeline/` or `modelling/`.
 | `gold/SPEC_scrape_poi.md` | `pipeline/gold/scrape_poi.py` |
 | `gold/SPEC_build_sales_features.md` | `pipeline/gold/build_sales_features.py` |
 | `gold/SPEC_build_master_features.md` | `pipeline/gold/build_master_features.py` |
+| `gold/GRAVITY_MODEL.md` | `pipeline/gold/build_gravity_features.py` |
 
 ### Modelling
 | File | Script |
@@ -57,6 +58,14 @@ the corresponding script in `pipeline/` or `modelling/`.
 | `modelling/SPEC_baseline.md` | `modelling/baseline.py` |
 | `modelling/SPEC_train.md` | `modelling/train.py` |
 | `modelling/SPEC_predict.md` | `modelling/predict.py` |
+| `modelling/BUDGET_OPTIMIZATION.md` | `modelling/optimise_budget.py` |
+| `modelling/XAI_SPEC.md` | `pipeline/xai/` (context packager/prompt builder) & `app/api/xai_api.py` |
+
+### Web App & API
+| File | Description / Component |
+|------|-------------------------|
+| `webapp/API_SPEC.md` | `app/api/main.py` (FastAPI backend endpoints & contract) |
+| `webapp/WEBAPP_COMPONENTS.md` | `app/src/` (Vite + React frontend component dashboard views) |
 
 ### Orchestration
 | File | Script |
