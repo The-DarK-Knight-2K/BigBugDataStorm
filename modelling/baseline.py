@@ -87,10 +87,10 @@ def _compute_recency_factor(row: pd.Series) -> float:
     return max(0.8, min(ratio, 1.3))
 
 
-def _compute_poi_uplift(footfall_score: float) -> float:
+def _compute_poi_uplift(composite_gravity_score: float) -> float:
     """
-    Footfall score is 0-100.
-    Low footfall  (0-20)   -> no uplift (1.00)
+    Gravity score is 0-100.
+    Low gravity   (0-20)   -> no uplift (1.00)
     Medium        (20-60)  -> small uplift up to 1.10
     High          (60-100) -> uplift up to 1.25
 
@@ -98,12 +98,12 @@ def _compute_poi_uplift(footfall_score: float) -> float:
     has more potential customers than its historical sales suggest — especially
     if it has been supply-constrained in the past.
     """
-    if footfall_score <= 20:
+    if composite_gravity_score <= 20:
         return 1.00
-    elif footfall_score <= 60:
-        return 1.00 + ((footfall_score - 20) / 40) * 0.10
+    elif composite_gravity_score <= 60:
+        return 1.00 + ((composite_gravity_score - 20) / 40) * 0.10
     else:
-        return 1.10 + ((footfall_score - 60) / 40) * 0.15
+        return 1.10 + ((composite_gravity_score - 60) / 40) * 0.15
 
 
 def compute_baseline(
@@ -141,7 +141,7 @@ def compute_baseline(
     trading_ratio = row["jan_2026_trading_days"] / AVG_TRADING_DAYS_PER_MONTH
 
     # POI uplift
-    poi_uplift = _compute_poi_uplift(row["footfall_score"])
+    poi_uplift = _compute_poi_uplift(row["composite_gravity_score"])
 
     baseline = jan_demand * recency_factor * season_mult * trading_ratio * poi_uplift
 

@@ -43,6 +43,8 @@ modelling:
     subsample: 0.713
     random_seed: 42
     verbose: 100
+    task_type: "GPU"
+    devices: "0"
     cat_features: ["Outlet_Type", "Outlet_Size", "province"]
   # --- LightGBM fallback (from initial config, pre-experiment) ---
   # lgbm_params:

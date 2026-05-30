@@ -1,18 +1,19 @@
 """
-Generate the final submission CSV by blending CatBoost model predictions with
-the statistical baseline floor.
+Generate the final submission CSV by blending CatBoost/XGB/LGBM model
+predictions with the statistical baseline floor.
 
 The final prediction for every outlet is max(model_prediction, baseline),
 ensuring we never predict below the statistically grounded floor.
 
 Layer  : Modelling
 Inputs : data/Gold/master_features.parquet
-         modelling/artifacts/model.pkl
+         modelling/artifacts/runs/{run_id}/model.pkl
          data/Gold/baseline_predictions.parquet
-Outputs: outputs/bigbug_predictions.csv
+Outputs: outputs/teamname_predictions.csv
          outputs/prediction_diagnostics.csv
 """
 
+import argparse
 import os
 import pickle
 import sys
@@ -39,6 +40,7 @@ log = setup_logger("predict")
 
 GOLD_DIR = os.path.join(ROOT_DIR, "Data", "Gold")
 ARTIFACTS_DIR = os.path.join(CURRENT_DIR, "artifacts")
+RUNS_DIR = os.path.join(ARTIFACTS_DIR, "runs")
 OUTPUTS_DIR = os.path.join(ROOT_DIR, "outputs")
 
 # ---------------------------------------------------------------------------
@@ -47,12 +49,54 @@ OUTPUTS_DIR = os.path.join(ROOT_DIR, "outputs")
 with open(os.path.join(ROOT_DIR, "config.yaml"), "r") as f:
     CFG = yaml.safe_load(f)
 
+CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province"]
+
+# ---------------------------------------------------------------------------
+# Helper functions
+# ---------------------------------------------------------------------------
+def add_interaction_features(df: pd.DataFrame) -> pd.DataFrame:
+    """Compute all possible interaction features that the model might need."""
+    df = df.copy()
+    if "composite_gravity_score" in df.columns and "Cooler_Count" in df.columns:
+        df["gravity_x_cooler"] = df["composite_gravity_score"] * df["Cooler_Count"]
+    if "composite_gravity_score" in df.columns and "active_months_pct" in df.columns:
+        df["gravity_x_active_months"] = df["composite_gravity_score"] * df["active_months_pct"]
+    if "competition_density_score" in df.columns and "Cooler_Count" in df.columns:
+        df["catchment_x_cooler"] = df["competition_density_score"] * df["Cooler_Count"]
+    if "transport_gravity_score" in df.columns and "school_gravity_score" in df.columns:
+        df["transport_x_school"] = df["transport_gravity_score"] * df["school_gravity_score"]
+    return df
+
+def encode_categoricals_for_non_catboost(
+    df: pd.DataFrame, cat_cols: list[str], algorithm: str
+) -> pd.DataFrame:
+    """Encode categorical columns for XGBoost/LightGBM."""
+    df = df.copy()
+    if algorithm == "lightgbm":
+        for col in cat_cols:
+            if col in df.columns:
+                df[col] = df[col].astype("category")
+    elif algorithm == "xgboost":
+        for col in cat_cols:
+            if col in df.columns:
+                df[col] = df[col].astype("category").cat.codes
+    return df
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--run-id",
+        type=str,
+        default=None,
+        help="Run ID to load from modelling/artifacts/runs/ (e.g. run_20260531_XXXX)",
+    )
+    return parser.parse_args()
 
 # ---------------------------------------------------------------------------
 # Main prediction pipeline
 # ---------------------------------------------------------------------------
-
 def main() -> None:
+    args = parse_args()
     start_time = time.time()
     log.info("=" * 70)
     log.info("PREDICTION PIPELINE -- START")
@@ -64,12 +108,24 @@ def main() -> None:
     df = pd.read_parquet(os.path.join(GOLD_DIR, "master_features.parquet"))
     log.info("Loaded master features: %d rows", len(df))
 
-    model_path = os.path.join(ARTIFACTS_DIR, "model.pkl")
+    # Pre-compute all potential interaction features
+    df = add_interaction_features(df)
+
+    if args.run_id:
+        model_path = os.path.join(RUNS_DIR, args.run_id, "model.pkl")
+        log.info("Loading model from specific run: %s", args.run_id)
+    else:
+        model_path = os.path.join(ARTIFACTS_DIR, "model.pkl")
+        log.warning("No --run-id provided. Loading legacy model.pkl.")
+
     with open(model_path, "rb") as f:
         saved = pickle.load(f)
+    
     model = saved["model"]
     feature_cols = saved["feature_cols"]
-    log.info("Loaded model with %d features", len(feature_cols))
+    algorithm = saved.get("algorithm", "catboost")
+    
+    log.info("Loaded %s model with %d features", algorithm, len(feature_cols))
 
     baseline_df = pd.read_parquet(
         os.path.join(GOLD_DIR, "baseline_predictions.parquet")
@@ -79,7 +135,11 @@ def main() -> None:
     # ------------------------------------------------------------------
     # Step 2 — Generate model predictions for all 20,000 outlets
     # ------------------------------------------------------------------
-    X_all = df[feature_cols]
+    X_all = df[feature_cols].copy()
+    
+    if algorithm != "catboost":
+        X_all = encode_categoricals_for_non_catboost(X_all, CAT_FEATURES, algorithm)
+        
     df["model_prediction"] = model.predict(X_all)
     log.info(
         "Model predictions -- min: %.2f  median: %.2f  max: %.2f",
@@ -173,7 +233,7 @@ def main() -> None:
         "Cooler_Count", "hist_p90_monthly", "hist_max_monthly",
         "jan_avg_volume", "has_transaction_history",
         "seasonality_jan_2026", "seasonality_multiplier_jan_2026",
-        "footfall_score", "poi_total_1km",
+        "footfall_score", "composite_gravity_score", "poi_total_1km",
         "model_prediction", "baseline_potential_litres",
         "Maximum_Monthly_Liters",
     ]
