@@ -23,7 +23,7 @@ The detailed project requirements are located in the `specs/webapp/` folder:
 ## 📋 Implementation Tasks
 - [x] **Architecture**: Review `01_architecture.md` and start dev server.
 - [x] **Database**: Build `src/data_access/db.ts` and SQL queries according to `02_database.md`.
-- [ ] **GenAI API**: Connect Gemini and implement caching in `xai_contexts` according to `03_llm_integration.md`.
+- [x] **GenAI API**: Connect Gemini and implement caching in `xai_contexts` according to `03_llm_integration.md`.
 - [x] **UI - Dashboard**: Build map and tables in `/` based on `04_ui_pages.md`.
 - [x] **UI - Details**: Build SHAP charts and XAI component in `/outlets/[id]` based on `04_ui_pages.md`.
 - [x] **UI - Budget**: Build allocation charts in `/budget` based on `04_ui_pages.md`.
