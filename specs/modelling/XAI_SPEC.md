@@ -88,11 +88,11 @@ context = {
             "human_description": "67.4 out of 100"
         },
         {
-            "feature": "hist_p90_monthly",
+            "feature": "competition_density_score",
             "shap_contribution_litres": 98.10,
-            "feature_value": 980.00,
-            "human_label": "Historical peak volume",
-            "human_description": "980 L in best months"
+            "feature_value": 12.50,
+            "human_label": "Low local competition",
+            "human_description": "Only 2 competitors within 1km (isolated market)"
         }
     ],
 
@@ -141,9 +141,10 @@ xai:
     footfall_score:
       label: "Area footfall score"
       template: "{value:.1f} out of 100"
-    hist_p90_monthly:
-      label: "Historical peak volume"
-      template: "{value:.0f} L in best months"
+    competition_density_score:
+      label: "Low local competition"
+      template: "Only {count} competitors within 1km"
+      value_field: "competitors_1km"
     hist_cv:
       label: "Order volatility"
       template: "Coefficient of variation: {value:.2f}"
@@ -161,8 +162,7 @@ xai:
       label: "Year-on-year growth"
       template: "{value:.1%} growth vs prior year"
     recent_3m_avg:
-      label: "Recent order volume"
-      template: "{value:.0f} L average in last 3 months"
+      label: "Operating in an isolated local market with only 2 competitors within 1km."
 ```
 
 ---

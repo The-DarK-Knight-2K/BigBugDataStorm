@@ -93,14 +93,21 @@ EXCLUDE_COLS = [
     "baseline_potential_litres",      # baseline floor, not a training feature
     "jan_2026_holiday_count",         # constant across all rows (zero variance)
     "jan_2026_trading_days",          # constant across all rows (zero variance)
-    # Redundant volume columns (keep hist_p90, hist_max, ema_3m, jan_avg)
+    
+    # STRATEGY A: Remove Target Leaks
+    # We must exclude historical sales volumes that are directly correlated
+    # with the pseudo-label, forcing the model to rely on structural/spatial features.
+    "hist_max_monthly",
+    "hist_p90_monthly",
     "hist_p75_monthly",
     "hist_mean_monthly",
+    "jan_avg_volume",
+    "jan_max_volume",
+    "recent_3m_avg",
+    "ema_3m",
+    "ema_6m",
     "total_volume",
     "hist_std_monthly",
-    "ema_6m",
-    "recent_3m_avg",
-    "jan_max_volume",
 ]
 
 feature_cols = [c for c in df.columns if c not in EXCLUDE_COLS]
