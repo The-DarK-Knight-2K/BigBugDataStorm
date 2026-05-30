@@ -320,3 +320,75 @@ dtype: object
 2026-05-17 05:28:30,841 | INFO     | predict | ==================================================
 2026-05-17 05:28:30,841 | INFO     | predict | PREDICTION PIPELINE — DONE
 2026-05-17 05:28:30,841 | INFO     | predict | ==================================================
+2026-05-30 21:12:30,139 | INFO     | build_catchment_features | ============================================================
+2026-05-30 21:12:30,139 | INFO     | build_catchment_features | BUILD CATCHMENT FEATURES  (Node 2 — Round 2)
+2026-05-30 21:12:30,140 | INFO     | build_catchment_features | ============================================================
+2026-05-30 21:12:31,020 | INFO     | build_catchment_features | Loaded 19960 outlet coordinates from Silver.
+2026-05-30 21:12:31,066 | INFO     | build_catchment_features | Total outlets: 20000 | Valid coords: 19960 | Zero-coord: 40
+2026-05-30 21:12:31,066 | INFO     | build_catchment_features | Building BallTree for 19960 valid-coord outlets...
+2026-05-30 21:12:31,085 | INFO     | build_catchment_features | Querying neighbours within 2000m...
+2026-05-30 21:12:32,686 | INFO     | build_catchment_features |   isolated : 6749 outlets
+2026-05-30 21:12:32,688 | INFO     | build_catchment_features |   moderate : 7461 outlets
+2026-05-30 21:12:32,690 | INFO     | build_catchment_features |   dense    : 5750 outlets
+2026-05-30 21:12:32,690 | INFO     | build_catchment_features | Computed catchment features for 19960 valid-coord outlets.
+2026-05-30 21:12:32,692 | INFO     | build_catchment_features | Appended 40 zero-coord outlets with 0 competitors.
+2026-05-30 21:12:32,698 | INFO     | build_catchment_features | Running data contract assertions...
+2026-05-30 21:12:32,708 | INFO     | build_catchment_features | All assertions passed.
+2026-05-30 21:12:32,735 | INFO     | build_catchment_features | Catchment feature build completed in 2.6s.
+2026-05-30 21:12:32,735 | INFO     | build_catchment_features | --- Summary (all outlets) ---
+2026-05-30 21:12:32,736 | INFO     | build_catchment_features |   competitors_500m      mean=2.3  median=2  max=12
+2026-05-30 21:12:32,737 | INFO     | build_catchment_features |   competitors_1km       mean=9.0  median=7  max=33
+2026-05-30 21:12:32,737 | INFO     | build_catchment_features |   competitors_2km       mean=35.3  median=24  max=95
+2026-05-30 21:12:32,738 | INFO     | build_catchment_features |   competition_density_score  mean=27.1  median=21.2  max=100.0
+2026-05-30 21:13:18,736 | INFO     | build_catchment_features | ============================================================
+2026-05-30 21:13:18,737 | INFO     | build_catchment_features | BUILD CATCHMENT FEATURES  (Node 2 — Round 2)
+2026-05-30 21:13:18,737 | INFO     | build_catchment_features | ============================================================
+2026-05-30 21:13:18,800 | INFO     | build_catchment_features | Loaded 19960 outlet coordinates from Silver.
+2026-05-30 21:13:18,829 | INFO     | build_catchment_features | Total outlets: 20000 | Valid coords: 19960 | Zero-coord: 40
+2026-05-30 21:13:18,829 | INFO     | build_catchment_features | Building BallTree for 19960 valid-coord outlets...
+2026-05-30 21:13:18,845 | INFO     | build_catchment_features | Querying neighbours within 2000m...
+2026-05-30 21:13:20,422 | INFO     | build_catchment_features | Saturation thresholds - isolated: <=4 competitors_1km, dense: >=14
+2026-05-30 21:13:20,425 | INFO     | build_catchment_features |   isolated : 6749 outlets
+2026-05-30 21:13:20,427 | INFO     | build_catchment_features |   moderate : 7461 outlets
+2026-05-30 21:13:20,428 | INFO     | build_catchment_features |   dense    : 5750 outlets
+2026-05-30 21:13:20,428 | INFO     | build_catchment_features | Computed catchment features for 19960 valid-coord outlets.
+2026-05-30 21:13:20,430 | INFO     | build_catchment_features | Appended 40 zero-coord outlets with 0 competitors.
+2026-05-30 21:13:20,434 | INFO     | build_catchment_features | Running data contract assertions...
+2026-05-30 21:13:20,440 | INFO     | build_catchment_features | All assertions passed.
+2026-05-30 21:13:20,462 | INFO     | build_catchment_features | Written 20000 rows x 6 columns -> catchment_features.parquet
+2026-05-30 21:13:20,462 | INFO     | build_catchment_features | Catchment feature build completed in 1.7s.
+2026-05-30 21:13:20,463 | INFO     | build_catchment_features | --- Summary (all outlets) ---
+2026-05-30 21:13:20,465 | INFO     | build_catchment_features |   competitors_500m      mean=2.3  median=2  max=12
+2026-05-30 21:13:20,465 | INFO     | build_catchment_features |   competitors_1km       mean=9.0  median=7  max=33
+2026-05-30 21:13:20,466 | INFO     | build_catchment_features |   competitors_2km       mean=35.3  median=24  max=95
+2026-05-30 21:13:20,467 | INFO     | build_catchment_features |   competition_density_score  mean=27.1  median=21.2  max=100.0
+2026-05-30 21:13:59,565 | INFO     | build_gravity_features | ============================================================
+2026-05-30 21:13:59,567 | INFO     | build_gravity_features | BUILD GRAVITY FEATURES  (Node 1 - Round 2)
+2026-05-30 21:13:59,567 | INFO     | build_gravity_features | ============================================================
+2026-05-30 21:13:59,567 | INFO     | build_gravity_features | Decay function : inverse_square
+2026-05-30 21:13:59,567 | INFO     | build_gravity_features | Epsilon (km)   : 0.05
+2026-05-30 21:13:59,567 | INFO     | build_gravity_features | Max radius (km): 2.0
+2026-05-30 21:13:59,567 | INFO     | build_gravity_features | Weights        : {'transport': 3.0, 'school': 3.0, 'hospitality': 2.0, 'market': 2.0, 'hospital': 1.0, 'worship': 0.5}
+2026-05-30 21:13:59,631 | INFO     | build_gravity_features | Loaded 19960 outlet coordinates from Silver.
+2026-05-30 21:13:59,660 | INFO     | build_gravity_features | Total outlets: 20000 | Valid coords: 19960 | Zero-coord: 40
+2026-05-30 21:14:00,029 | INFO     | build_gravity_features | Loaded 11152 unique POIs across 400 clusters.
+2026-05-30 21:14:00,030 | INFO     | build_gravity_features |   school         : 1819 POIs
+2026-05-30 21:14:00,032 | INFO     | build_gravity_features |   hospital       : 526 POIs
+2026-05-30 21:14:00,033 | INFO     | build_gravity_features |   transport      : 1466 POIs
+2026-05-30 21:14:00,033 | INFO     | build_gravity_features |   market         : 849 POIs
+2026-05-30 21:14:00,034 | INFO     | build_gravity_features |   worship        : 3550 POIs
+2026-05-30 21:14:00,035 | INFO     | build_gravity_features |   hospitality    : 2942 POIs
+2026-05-30 21:14:14,319 | INFO     | build_gravity_features | Computed gravity scores for 19960 valid-coord outlets.
+2026-05-30 21:14:14,322 | INFO     | build_gravity_features | Appended 40 zero-coord outlets with gravity_data_available=False.
+2026-05-30 21:14:14,335 | INFO     | build_gravity_features | Running data contract assertions...
+2026-05-30 21:14:14,344 | INFO     | build_gravity_features | All assertions passed.
+2026-05-30 21:14:14,375 | INFO     | build_gravity_features | Written 20000 rows x 10 columns -> gravity_features.parquet
+2026-05-30 21:14:14,376 | INFO     | build_gravity_features | Gravity feature build completed in 14.8s.
+2026-05-30 21:14:14,378 | INFO     | build_gravity_features | --- Summary (valid-coord outlets only) ---
+2026-05-30 21:14:14,380 | INFO     | build_gravity_features |   school_gravity_score            mean=5.20  median=0.36  max=1426.77
+2026-05-30 21:14:14,380 | INFO     | build_gravity_features |   hospital_gravity_score          mean=1.57  median=0.00  max=328.66
+2026-05-30 21:14:14,382 | INFO     | build_gravity_features |   transport_gravity_score         mean=4.18  median=0.00  max=478.55
+2026-05-30 21:14:14,385 | INFO     | build_gravity_features |   market_gravity_score            mean=2.78  median=0.00  max=677.36
+2026-05-30 21:14:14,386 | INFO     | build_gravity_features |   worship_gravity_score           mean=8.93  median=1.65  max=1258.34
+2026-05-30 21:14:14,387 | INFO     | build_gravity_features |   hospitality_gravity_score       mean=7.99  median=0.00  max=1331.05
+2026-05-30 21:14:14,389 | INFO     | build_gravity_features |   composite_gravity_score         mean=1.25  median=0.12  max=100.00

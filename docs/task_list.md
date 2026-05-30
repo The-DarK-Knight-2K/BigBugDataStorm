@@ -119,14 +119,14 @@
 
 ## Phase 1: Advanced Features & Modeling
 ### `build_gravity_features.py`
-- [ ] Read POI cache and calculate inverse-square gravity scores for 6 categories.
-- [ ] Calculate composite gravity score and normalise.
-- [ ] Output `gravity_features.parquet`.
+- [x] Read POI cache and calculate inverse-square gravity scores for 6 categories.
+- [x] Calculate composite gravity score and normalise.
+- [x] Output `gravity_features.parquet`.
 
 ### `build_catchment_features.py`
-- [ ] Calculate flat competition counts within 500m, 1km, and 2km using BallTree.
-- [ ] Calculate market saturation metrics.
-- [ ] Output `catchment_features.parquet`.
+- [x] Calculate flat competition counts within 500m, 1km, and 2km using BallTree.
+- [x] Calculate market saturation metrics.
+- [x] Output `catchment_features.parquet`.
 
 ### `build_master_features.py` (Update)
 - [ ] Left-join `gravity_features` and `catchment_features`.
