@@ -26,7 +26,7 @@ The five views:
 
 ## Spec files to read (in order)
 
-All spec files live in the team repo under `specs/webapp/`. These are your contracts —
+All spec files live in the team repo under the `specs/` directory (organized into subfolders). These are your contracts —
 treat them like an API spec you cannot change.
 
 | Priority | File | What it covers |
