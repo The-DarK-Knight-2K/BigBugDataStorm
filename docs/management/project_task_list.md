@@ -168,15 +168,15 @@
 
 ### Model Training Scenarios (Execution)
 
-- [ ] **Scenario 1:** Round 1 Baseline (Reference Run) — `round1_baseline` with CatBoost (GPU) (leak features kept)
-- [ ] **Scenario 2:** Strategy A — Remove Target Leakage with CatBoost (GPU)
-- [ ] **Scenario 3:** Strategy A — XGBoost Comparison (GPU)
-- [ ] **Scenario 4:** Strategy A — LightGBM Comparison (GPU)
-- [ ] **Scenario 5:** Strategy C — Feature Interactions with CatBoost (GPU)
-- [ ] **Scenario 6:** Strategy A + Only Gravity Features (No Flat POI Counts) with CatBoost (GPU)
-- [ ] **Scenario 7:** Strategy A + Only Flat POI Counts (No Gravity) with CatBoost (GPU)
+- [x] **Scenario 1:** Round 1 Baseline (Reference Run) — `round1_baseline` with CatBoost (GPU) (leak features kept)
+- [x] **Scenario 2:** Strategy A — Remove Target Leakage with CatBoost (GPU)
+- [x] **Scenario 3:** Strategy A — XGBoost Comparison (GPU)
+- [x] **Scenario 4:** Strategy A — LightGBM Comparison (GPU)
+- [x] **Scenario 5:** Strategy C — Feature Interactions with CatBoost (GPU)
+- [x] **Scenario 6:** Strategy A + Only Gravity Features (No Flat POI Counts) with CatBoost (GPU)
+- [x] **Scenario 7:** Strategy A + Only Flat POI Counts (No Gravity) with CatBoost (GPU)
 - [ ] **Scenario 8:** Strategy A + Tuned Epsilon (ε = 0.02) with CatBoost (GPU) (requires gravity rebuild)
-- [ ] **Scenario 9:** Optuna Hyperparameter Re-tuning (CatBoost GPU) (using `optuna_tune.py`)
+- [x] **Scenario 9:** Optuna Hyperparameter Re-tuning (XGBoost GPU) (using `optuna_tune.py`)
 - [ ] **Scenario 10:** Model Ensemble (Blending) (using `ensemble.py`)
 
 ### `predict.py` (Re-run)

@@ -49,7 +49,7 @@ OUTPUTS_DIR = os.path.join(ROOT_DIR, "outputs")
 with open(os.path.join(ROOT_DIR, "config.yaml"), "r") as f:
     CFG = yaml.safe_load(f)
 
-CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province"]
+CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province", "market_saturation_class"]
 
 # ---------------------------------------------------------------------------
 # Helper functions

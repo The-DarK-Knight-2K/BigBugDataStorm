@@ -142,7 +142,7 @@ STRATEGIES = {
 }
 
 # Categorical features handled natively by CatBoost
-CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province"]
+CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province", "market_saturation_class"]
 
 
 # ---------------------------------------------------------------------------
@@ -197,15 +197,14 @@ def create_model(algorithm: str, params: dict):
         raise ValueError(f"Unknown algorithm: {algorithm}")
 
 
-def get_model_params(algorithm: str) -> dict:
+def get_model_params(algorithm: str, strategy: str = None, use_optuna: bool = False) -> dict:
     """Get model parameters from config, with GPU support."""
     if algorithm == "catboost":
         params = CFG["modelling"]["catboost_params"].copy()
         params.pop("cat_features", None)
-        return params
 
     elif algorithm == "xgboost":
-        return {
+        params = {
             "n_estimators": 1000,
             "learning_rate": 0.05,
             "max_depth": 6,
@@ -214,7 +213,7 @@ def get_model_params(algorithm: str) -> dict:
             "reg_alpha": 0.1,
             "reg_lambda": 1.0,
             "random_state": CFG["modelling"]["random_seed"],
-            "tree_method": "gpu_hist",
+            "tree_method": "hist",
             "device": "cuda",
             "verbosity": 1,
         }
@@ -234,10 +233,22 @@ def get_model_params(algorithm: str) -> dict:
             }
         lgbm_params["random_state"] = CFG["modelling"]["random_seed"]
         lgbm_params["verbose"] = -1
-        return lgbm_params
-
+        params = lgbm_params
     else:
-        raise ValueError(f"Unknown algorithm: {algorithm}")
+        params = {}
+
+    if use_optuna and strategy:
+        import json
+        optuna_file = os.path.join(ARTIFACTS_DIR, "optuna", f"best_params_{algorithm}_{strategy}.json")
+        if os.path.exists(optuna_file):
+            with open(optuna_file, "r") as f:
+                optuna_params = json.load(f)
+            params.update(optuna_params)
+            log.info("Loaded Optuna tuned parameters from %s", optuna_file)
+        else:
+            log.warning("Optuna params requested but file not found: %s. Using defaults.", optuna_file)
+
+    return params
 
 
 def encode_categoricals_for_non_catboost(
@@ -560,6 +571,11 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Extract SHAP values after training (saves to Data/Gold/shap_values.parquet)",
     )
+    parser.add_argument(
+        "--use-optuna-params",
+        action="store_true",
+        help="Use tuned parameters from Optuna run",
+    )
     return parser.parse_args()
 
 
@@ -653,12 +669,12 @@ def main() -> None:
     )
 
     # ------------------------------------------------------------------
-    # Step 5 — Cross-validation
+    # Step 5 — Train / Cross-validate
     # ------------------------------------------------------------------
-    params = get_model_params(algorithm)
+    params = get_model_params(algorithm, strategy_name, args.use_optuna_params)
     gpu_used = "task_type" in params and params.get("task_type") == "GPU"
     if algorithm == "xgboost":
-        gpu_used = params.get("tree_method") == "gpu_hist"
+        gpu_used = params.get("device") == "cuda"
 
     cv_rmse_scores, cv_mae_scores = run_cross_validation(
         X, y, algorithm, params, cat_feature_indices,

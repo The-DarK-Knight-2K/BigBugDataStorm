@@ -41,6 +41,7 @@ modelling:
     depth: 5
     l2_leaf_reg: 1.495
     subsample: 0.713
+    bootstrap_type: "Poisson"
     random_seed: 42
     verbose: 100
     task_type: "GPU"
