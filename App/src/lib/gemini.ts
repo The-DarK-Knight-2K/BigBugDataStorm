@@ -1,0 +1,1 @@
+// src/lib/gemini.ts

@@ -13,6 +13,7 @@
 - **Folder Structure**: Integrated the Next.js `src/` directory seamlessly alongside the existing `data` and `scripts` folders.
 - **Dependencies Installed**: `better-sqlite3`, `react-leaflet`, `leaflet`, `recharts`, `lucide-react`.
 - **Skeleton Pages Built**: Empty placeholder files have been created for all required routes and API endpoints.
+- **Backend Scaffolded**: Created empty `data_access/db.ts`, `data_access/queries.ts`, and `lib/gemini.ts`.
 
 ---
 
@@ -168,8 +169,12 @@ Display on outlet detail page
     /components
       /ui                       ← shadcn/ui components
       Map.tsx                   
+    /data_access
+      db.ts                     ← SQLite Connection
+      queries.ts                ← SQL Queries
     /lib                        
-      db.ts                     ← Database connection
+      gemini.ts                 ← Gemini API Client
+      utils.ts                  ← shadcn utilities
   package.json                  
   tailwind.config.ts            
 ```
