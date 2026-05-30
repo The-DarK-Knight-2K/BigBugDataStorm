@@ -150,7 +150,7 @@ export function getDashboardStats(): DashboardStats {
  */
 export function getOutlets(filters?: OutletFilters): (Outlet & { allocation_tier?: string })[] {
   let query = `
-    SELECT o.*, b.allocation_tier 
+    SELECT o.*, b.allocation_tier, b.trade_spend_allocation_lkr 
     FROM outlets o
     LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
     WHERE 1=1

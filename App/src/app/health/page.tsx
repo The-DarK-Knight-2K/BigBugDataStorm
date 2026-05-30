@@ -1,10 +1,46 @@
-"use client";
-
-import Link from 'next/link';
-import { mockPipelineHealth } from '@/lib/mockData';
+import { getPipelineHealth } from '@/data_access/queries';
 
 export default function PipelineHealthPage() {
-  const healthData = mockPipelineHealth;
+  const rawHealthData = getPipelineHealth();
+
+  let totalChecked = 0;
+  let totalPassed = 0;
+  let totalQuarantined = 0;
+
+  const datasets = rawHealthData.map(d => {
+    let checks: any[] = [];
+    try {
+      if (d.check_details_json) {
+        checks = JSON.parse(d.check_details_json);
+      }
+    } catch (e) {
+      console.error("Failed to parse check_details_json", e);
+    }
+
+    totalChecked += d.records_checked;
+    totalPassed += d.records_passed;
+    totalQuarantined += d.records_quarantined;
+
+    return {
+      dataset: d.dataset,
+      records_checked: d.records_checked,
+      records_passed: d.records_passed,
+      records_quarantined: d.records_quarantined,
+      quarantine_rate: d.quarantine_rate,
+      checks
+    };
+  });
+
+  const overall_pass_rate = totalChecked > 0 ? (totalPassed / totalChecked) : 0;
+  const overall_quarantine_rate = totalChecked > 0 ? (totalQuarantined / totalChecked) : 0;
+
+  const healthData = {
+    overall_pass_rate,
+    overall_quarantine_rate,
+    total_records_checked: totalChecked,
+    total_records_quarantined: totalQuarantined,
+    datasets
+  };
 
   return (
     <div className="space-y-8 animate-fade-in">
@@ -37,10 +73,10 @@ export default function PipelineHealthPage() {
         <div className="glass-panel p-6 rounded-2xl relative overflow-hidden border-l-4 border-l-cyan-500">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Total Rows Audited</p>
           <p className="text-3xl font-heading font-extrabold text-white text-glow-cyan mt-2">
-            2,416,389
+            {healthData.total_records_checked.toLocaleString()}
           </p>
           <span className="text-[10px] text-slate-400 mt-2 block font-mono">
-            Across 3 critical source tables
+            Across {healthData.datasets.length} critical source tables
           </span>
         </div>
 
@@ -48,10 +84,10 @@ export default function PipelineHealthPage() {
         <div className="glass-panel p-6 rounded-2xl relative overflow-hidden border-l-4 border-l-rose-500">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Quarantined Records</p>
           <p className="text-3xl font-heading font-extrabold text-rose-500 mt-2">
-            16,660
+            {healthData.total_records_quarantined.toLocaleString()}
           </p>
           <span className="text-[10px] text-rose-400 mt-2 block font-mono">
-            0.69% total quarantine rate
+            {(healthData.overall_quarantine_rate * 100).toFixed(2)}% total quarantine rate
           </span>
         </div>
       </div>
@@ -61,7 +97,7 @@ export default function PipelineHealthPage() {
         <h3 className="font-heading font-bold text-lg text-white">Source Table Validation Ingestion Logs</h3>
 
         {healthData.datasets.map((data, idx) => {
-          const passPercent = ((data.records_passed / data.records_checked) * 100).toFixed(2);
+          const passPercent = data.records_checked > 0 ? ((data.records_passed / data.records_checked) * 100).toFixed(2) : "0.00";
           const isHealthy = data.quarantine_rate < 0.01;
 
           return (
