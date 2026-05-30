@@ -166,6 +166,16 @@ All rejected record files share the same appended column:
 
 > See `specs/gold/GRAVITY_MODEL.md` for full decay function specification and implementation.
 
+### `catchment_features.parquet` *(Round 2 — NEW)*
+| Column | Type | Nullable | Notes |
+|--------|------|----------|-------|
+| Outlet_ID | string | No | Primary key |
+| competitors_500m | int32 | No | Count of other outlets within 500m |
+| competitors_1km | int32 | No | Count of other outlets within 1km |
+| competitors_2km | int32 | No | Count of other outlets within 2km |
+| competition_density_score | float32 | No | Normalised [0, 100] |
+| market_saturation_class | string | No | One of: isolated, moderate, dense |
+
 ### `sales_features.parquet` *(Round 1 — retained)*
 | Column | Type | Nullable | Notes |
 |--------|------|----------|-------|
@@ -236,6 +246,7 @@ One row per outlet. All 20,000 outlets must be present.
 | All `sales_features` columns | Gold sales | R1 |
 | All `poi_features` columns | Gold POI | R1 |
 | All `gravity_features` columns | Gold gravity | **R2** |
+| All `catchment_features` columns | Gold catchment | **R2** |
 | seasonality_jan_2026 | Silver seasonality | R1 |
 | seasonality_multiplier_jan_2026 | Derived from seasonality | R1 |
 | jan_2026_holiday_count | Silver holidays | R1 |
@@ -287,6 +298,7 @@ One row per outlet. All 20,000 outlets must be present.
 | `transactions_clean` | `Outlet_ID` | `outlet_master_clean` |
 | `transactions_clean` | `Distributor_ID` | known distributor list in `config.yaml` |
 | `gravity_features` | `Outlet_ID` | `outlet_coordinates_clean` (valid coords only) |
+| `catchment_features` | `Outlet_ID` | `outlet_coordinates_clean` (valid coords only) |
 | `shap_values` | `Outlet_ID` | `master_features` |
 | `xai_context` | `Outlet_ID` | `master_features` |
 | `budget_features` | `Outlet_ID` | `master_features` WHERE `province = "Western"` |

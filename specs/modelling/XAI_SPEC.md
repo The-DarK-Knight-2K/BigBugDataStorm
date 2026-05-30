@@ -12,9 +12,9 @@ The XAI module has three components:
 
 1. `pipeline/xai/context_packager.py` — assembles the structured context payload per outlet
 2. `pipeline/xai/prompt_builder.py` — renders the context into the LLM prompt
-3. `app/api/xai_api.py` — FastAPI endpoint that calls the LLM and returns the explanation
+3. `pipeline/xai/xai_service.py` (or Next.js API Route) — calls the LLM and returns the explanation
 
-All three must be implemented by **Member A** in Phase 3. The endpoint spec is
+All three must be implemented by **Member A** in Phase 3 (with JSON data exports for the Next.js app). The endpoint spec is
 defined in `specs/webapp/API_SPEC.md` (section 3).
 
 ---
@@ -252,28 +252,29 @@ def render_budget(context: dict) -> str:
 
 ## Step 4 — LLM API call
 
-`app/api/xai_api.py` handles the FastAPI endpoint. It calls the Anthropic API
-(Claude) using the rendered prompt. Use `claude-sonnet-4-20250514` — it is
-accurate enough for this task and fast enough for interactive use.
+This handles the live explanation generation. It calls the Google Gemini API
+using the rendered prompt. Use `gemini-2.0-flash` — it is accurate enough for
+this task, fast enough for interactive use, and has a generous free tier.
 
 ```python
-import anthropic
+import google.generativeai as genai
+import os
 import json
+from datetime import datetime
 
-client = anthropic.Anthropic()   # reads ANTHROPIC_API_KEY from env
+genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
+model = genai.GenerativeModel("gemini-2.0-flash")
 
 def generate_explanation(outlet_id: str) -> dict:
     context = load_context(outlet_id)           # from xai_context.parquet
     prompt = build_prompt(context)              # from prompt_builder.py
 
-    response = client.messages.create(
-        model="claude-sonnet-4-20250514",
-        max_tokens=600,
-        system=SYSTEM_PROMPT,
-        messages=[{"role": "user", "content": prompt}]
+    response = model.generate_content(
+        [SYSTEM_PROMPT, prompt],
+        generation_config={"response_mime_type": "application/json"}
     )
 
-    raw_text = response.content[0].text.strip()
+    raw_text = response.text.strip()
 
     try:
         explanation = json.loads(raw_text)
@@ -288,8 +289,6 @@ def generate_explanation(outlet_id: str) -> dict:
         "explanation": explanation,
         "model_version": "catboost_r2_v1",
         "generated_at": datetime.utcnow().isoformat() + "Z",
-        "prompt_tokens_used": response.usage.input_tokens,
-        "completion_tokens_used": response.usage.output_tokens,
     }
 ```
 

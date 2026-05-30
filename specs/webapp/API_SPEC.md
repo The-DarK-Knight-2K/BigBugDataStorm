@@ -1,11 +1,9 @@
 # API Spec — Outlet Intelligence Web App
 
-All endpoints are served by `app/api/main.py` (FastAPI).
-Base URL for local dev: `http://localhost:8000`
+> **NOTE (Round 2 Architecture Update):**
+> We have dropped the FastAPI Python backend. All endpoints below are now served by **Next.js API Routes** directly from the web app. The Python pipeline (`export_for_webapp.py`) generates static JSON data files (`outlets.json`, `budget_summary.json`) that the Next.js routes read from disk to fulfill this contract.
 
-Member C must code against this contract from Day 1 using the mock server at
-`app/fixtures/mock_server.py`. The real backend implements the same contract exactly —
-no shape changes between mock and production.
+Member C must code against this contract from Day 1 using Next.js. The JSON payloads defined below are exactly what the Next.js endpoints must return to the frontend components.
 
 ---
 
@@ -395,20 +393,6 @@ All error responses use this shape:
 
 ## 7. Mock server
 
-`app/fixtures/mock_server.py` implements all five endpoints above using the
-static fixture data in `app/fixtures/sample_outlets.json`.
+Member C can mock these Next.js API Routes by having them return static JSON fixtures from `app/data/mock_outlets.json` during early development.
 
-Member C should run this locally during Phases 1 and 2:
-
-```bash
-uvicorn app.fixtures.mock_server:app --reload --port 8000
-```
-
-The real backend (`app/api/main.py`) is a drop-in replacement — same port,
-same routes, same response shapes. Member C switches by changing one env var:
-
-```bash
-# .env
-API_MODE=mock   # Phase 1–2: use mock_server.py
-API_MODE=real   # Phase 3+:  use main.py
-```
+Once Phase 3 is complete and `export_for_webapp.py` has generated the real data files, swap the API routes to read from the real `app/data/outlets.json` instead of the mock fixtures.

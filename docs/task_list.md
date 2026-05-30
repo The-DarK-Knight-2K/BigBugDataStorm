@@ -1,5 +1,7 @@
 # Big Bug Data Storm - Task List
 
+# *ROUND 01*
+
 ## Phase 1: Setup and Bronze Layer (Completed)
 - [x] Initial repository setup and folder structure
 - [x] Create `.gitignore` and clear large tracked files
@@ -111,3 +113,55 @@
 - [ ] Create a sequential execution flow (Bronze -> Silver -> Gold -> Modelling).
 - [ ] Add dependency checks (e.g., don't run Gold if Silver fails).
 - [ ] Implement global logging and error handling.
+
+
+# **ROUND 02**
+
+## Phase 1: Advanced Features & Modeling
+### `build_gravity_features.py`
+- [ ] Read POI cache and calculate inverse-square gravity scores for 6 categories.
+- [ ] Calculate composite gravity score and normalise.
+- [ ] Output `gravity_features.parquet`.
+
+### `build_catchment_features.py`
+- [ ] Calculate flat competition counts within 500m, 1km, and 2km using BallTree.
+- [ ] Calculate market saturation metrics.
+- [ ] Output `catchment_features.parquet`.
+
+### `build_master_features.py` (Update)
+- [ ] Left-join `gravity_features` and `catchment_features`.
+
+### `train.py` (Update)
+- [ ] Remove target leakage features (e.g., `hist_p90_monthly`) from training (Strategy A).
+- [ ] Implement Run Tracking (timestamped folders and `run_registry.csv`).
+- [ ] Enable GPU training (`task_type="GPU"`).
+- [ ] Extract cell-by-cell SHAP values using `TreeExplainer` into `shap_values.parquet`.
+
+### `predict.py` (Re-run)
+- [ ] Generate updated predictions CSV.
+
+## Phase 2: Budget Optimization
+### `optimise_budget.py`
+- [ ] Implement greedy knapsack allocation for 5M LKR budget (Western Province only).
+- [ ] Distribute budget based on ROI composite scores with tier caps.
+- [ ] Output `bigbug_budget_allocations.csv` and `budget_features.parquet`.
+
+## Phase 3: XAI Pipeline & Data Export
+### `context_packager.py`
+- [ ] Assemble outlet identity, prediction, SHAP drivers, and budget data into a JSON context string per outlet.
+- [ ] Output `xai_context.parquet`.
+
+### `prompt_builder.py`
+- [ ] Render context payloads into structured LLM prompts.
+
+### `export_for_webapp.py`
+- [ ] Export parquets into JSON files (`outlets.json`, `budget_summary.json`) for Next.js.
+- [ ] Coordinate payload structure with Next.js frontend.
+
+## Phase 4: Pre-generation & Orchestrator
+### `pregenerate_western.py`
+- [ ] Iterate through Western Province outlets and query Gemini LLM.
+- [ ] Output `xai_pregenerated.parquet`.
+
+### `run_pipeline.py`
+- [ ] Build orchestrator for Round 2 scripts with idempotency logic.
