@@ -88,7 +88,7 @@ export default function OutletDetailPage({ params }: { params: Promise<{ id: str
 
   // Recharts custom label mapping for readability
   const chartData = useMemo(() => {
-    return outlet.shap_values.map(v => ({
+    return outlet.shap_values.map((v: any) => ({
       name: v.feature.replace(/_/, ' ').replace(/score/, '').trim(),
       val: v.shap_value,
       orig: v.feature_value
@@ -239,7 +239,7 @@ export default function OutletDetailPage({ params }: { params: Promise<{ id: str
                 />
                 <ReferenceLine x={0} stroke="#475569" strokeDasharray="3 3" />
                 <Bar dataKey="val">
-                  {chartData.map((entry, index) => (
+                  {chartData.map((entry: any, index: number) => (
                     <Cell 
                       key={`cell-${index}`} 
                       fill={entry.val >= 0 ? 'url(#greenGradient)' : 'url(#redGradient)'} 
