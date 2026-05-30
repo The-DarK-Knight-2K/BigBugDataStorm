@@ -28,7 +28,7 @@ export default function RootLayout({
       lang="en"
       className={`${inter.variable} ${outfit.variable} h-full antialiased dark`}
     >
-      <body className="min-h-full bg-slate-950 text-slate-100 flex font-sans overflow-hidden">
+      <body className="h-full bg-slate-950 text-slate-100 flex font-sans overflow-hidden">
         {/* Navigation Sidebar */}
         <aside className="w-64 border-r border-slate-800 bg-slate-900/60 backdrop-blur-md flex flex-col justify-between shrink-0">
           <div>
