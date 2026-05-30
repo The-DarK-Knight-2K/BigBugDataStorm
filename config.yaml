@@ -17,6 +17,19 @@ poi:
   request_delay_s: 1.0         # polite delay between cluster queries (avoid rate limiting)
   radii_m: [500, 1000, 2000]   # radius bands for counting POIs per outlet (edit here to recompute Phase 2)
 
+gravity_model:
+  decay_epsilon: 0.05          # prevents division by zero (km)
+  max_radius_km: 2.0           # POIs beyond this are excluded
+  decay_function: "inverse_square"   # "inverse_square" | "exponential" | "inverse_linear"
+  exponential_lambda: 1.5      # only used if decay_function = "exponential"
+  weights:
+    transport: 3.0
+    school: 3.0
+    hospitality: 2.0
+    market: 2.0
+    hospital: 1.0
+    worship: 0.5
+
 modelling:
   random_seed: 42
   cv_folds: 5

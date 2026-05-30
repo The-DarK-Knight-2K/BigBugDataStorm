@@ -81,19 +81,17 @@ A single weighted composite normalised to [0, 100]:
 ```
 raw_composite = (
     3.0 × transport_gravity_score    +
-    2.5 × school_gravity_score       +
+    3.0 × school_gravity_score       +
+    2.0 × hospitality_gravity_score  +
     2.0 × market_gravity_score       +
-    1.5 × hospital_gravity_score     +
-    1.0 × worship_gravity_score      +
-    1.0 × hospitality_gravity_score
+    1.0 × hospital_gravity_score     +
+    0.5 × worship_gravity_score
 )
 
 composite_gravity_score = minmax(raw_composite, cohort=all 19,960 outlets with valid coords) × 100
 ```
 
-The weights are identical to the Round 1 `footfall_score` weights — this makes the
-composite gravity score a drop-in replacement for `footfall_score` in the model,
-but with a physically motivated distance weighting.
+The weights have been optimized specifically for beverage sales potential (in litres) rather than using general footfall weights. Highly relevant beverage drivers like transit hubs, schools, and hospitality outlets (restaurants/hotels) are prioritized, while healthcare and places of worship are de-prioritized.
 
 ---
 
@@ -131,8 +129,8 @@ def build_gravity_features(outlets_df, poi_cache):
         "school", "hospital", "transport", "market", "worship", "hospitality"
     ]
     weights = {
-        "transport": 3.0, "school": 2.5, "market": 2.0,
-        "hospital": 1.5, "worship": 1.0, "hospitality": 1.0
+        "transport": 3.0, "school": 3.0, "hospitality": 2.0,
+        "market": 2.0, "hospital": 1.0, "worship": 0.5
     }
 
     results = []
@@ -257,9 +255,9 @@ gravity_model:
   exponential_lambda: 1.5      # only used if decay_function = "exponential"
   weights:
     transport: 3.0
-    school: 2.5
+    school: 3.0
+    hospitality: 2.0
     market: 2.0
-    hospital: 1.5
-    worship: 1.0
-    hospitality: 1.0
+    hospital: 1.0
+    worship: 0.5
 ```

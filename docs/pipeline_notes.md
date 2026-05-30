@@ -92,14 +92,15 @@ graph TD
 
 **Yes, we are generating ALL 6 individual gravity scores** (`school`, `market`, `hospital`, `transport`, `worship`, `hospitality`) as separate columns in `gravity_features.parquet`. These will all be fed into CatBoost so it can independently learn which categories drive sales.
 
-**The weights for the `composite_gravity_score` encode a domain hypothesis:**
+**The weights for the `composite_gravity_score` encode a domain hypothesis optimized for beverage sales:**
 | Category | Weight | Business rationale |
 |:---------|:-------|:-------------------|
 | Transport | **3.0** | Commuters are the #1 driver of impulse beverage purchases. |
-| Schools | **2.5** | High daily, predictable foot traffic. |
-| Markets | **2.0** | Co-location with shopping activity drives top-up purchases. |
-| Hospitals | **1.5** | Steady visitor flow. |
-| Worship/Hospitality | **1.0** | Baseline foot traffic. |
+| Schools | **3.0** | Focuses on the core consumer demographic (youth/students) with high daily demand. |
+| Hospitality | **2.0** | High dining/social activity; beverages are strong food complements. |
+| Markets | **2.0** | Co-location with shopping activity drives top-up and bulk grocery purchases. |
+| Hospitals | **1.0** | Steady flow but wellness-oriented; lower beverage purchase volume. |
+| Worship | **0.5** | Low commercial relevance; highly periodic/isolated foot traffic. |
 
 We calculate this single `composite_gravity_score` mostly for use in the **Web App UI** and the **Budget Optimization ROI score**.
 
