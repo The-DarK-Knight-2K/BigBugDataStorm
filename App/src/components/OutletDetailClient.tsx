@@ -57,16 +57,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
       setXaiExplanation(data.explanation);
     } catch (err: any) {
       console.error(err);
-      const fallbackJson = JSON.stringify({
-        diagnostic_alert: {
-          type: "warning",
-          title: "AI Service Temporarily Unavailable",
-          message: "The AI insights engine is currently experiencing a connection issue or high demand. Please rely on the standard dashboard metrics and try again shortly."
-        },
-        driver_cards: [],
-        action_checklist: []
-      });
-      setXaiExplanation(fallbackJson);
+      setXaiExplanation(`Error: ${err.message}. Please check if the API Key is configured correctly.`);
     } finally {
       setXaiLoading(false);
     }
