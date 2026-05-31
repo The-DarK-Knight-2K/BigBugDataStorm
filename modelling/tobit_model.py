@@ -59,6 +59,15 @@ _EXCLUDE_COLS = [
     "hist_max_monthly",
     "jan_avg_volume",
     "ema_3m",
+    "capacity_utilization_ratio",
+    "cluster_mean_volume",
+    "cluster_p90_volume",
+    # Prevent reading own/other sub-model outputs
+    "tobit_latent_estimate",
+    "tobit_censoring_ratio",
+    "p_active",
+    "hurdle_conditional_volume",
+    "hurdle_estimate",
     # Remove flat POI counts (gravity-only strategy)
     "schools_500m", "schools_1000m", "schools_2000m",
     "hospitals_500m", "hospitals_1000m", "hospitals_2000m",
@@ -169,15 +178,12 @@ def main() -> None:
     X_train, feature_cols = prepare_features(df_train)
     X_all, _ = prepare_features(df)
 
+    from sklearn.model_selection import KFold
+
     # --- Build censoring labels ---
     y_lower, y_upper = build_censoring_labels(df_train)
 
-    # --- Create DMatrix with censoring bounds ---
-    dtrain = xgb.DMatrix(X_train)
-    dtrain.set_float_info("label_lower_bound", y_lower)
-    dtrain.set_float_info("label_upper_bound", y_upper)
-
-    # --- Train AFT model ---
+    # --- Train AFT model with OOF ---
     params = {
         "objective": "survival:aft",
         "eval_metric": "aft-nloglik",
@@ -189,22 +195,55 @@ def main() -> None:
         "colsample_bytree": 0.8,
         "seed": SEED,
         "tree_method": "hist",
-        "verbosity": 1,
+        "verbosity": 0,
     }
 
-    log.info("Training XGBoost AFT model...")
+    log.info("Training XGBoost AFT model with 5-fold OOF predictions...")
     log.info("Params: %s", params)
 
-    model = xgb.train(
-        params,
-        dtrain,
-        num_boost_round=500,
-        verbose_eval=100,
-    )
+    kf = KFold(n_splits=5, shuffle=True, random_state=SEED)
+    
+    oof_predictions = np.zeros(len(X_train))
+    test_predictions = np.zeros(len(X_all))
+    dall = xgb.DMatrix(X_all)
+    
+    X_train_np = X_train.values
+
+    for fold, (train_idx, val_idx) in enumerate(kf.split(X_train_np)):
+        X_tr, X_val = X_train_np[train_idx], X_train_np[val_idx]
+        y_lower_tr, y_lower_val = y_lower[train_idx], y_lower[val_idx]
+        y_upper_tr, y_upper_val = y_upper[train_idx], y_upper[val_idx]
+        
+        dtrain_fold = xgb.DMatrix(X_tr)
+        dtrain_fold.set_float_info("label_lower_bound", y_lower_tr)
+        dtrain_fold.set_float_info("label_upper_bound", y_upper_tr)
+        
+        dval_fold = xgb.DMatrix(X_val)
+        dval_fold.set_float_info("label_lower_bound", y_lower_val)
+        dval_fold.set_float_info("label_upper_bound", y_upper_val)
+        
+        model = xgb.train(
+            params,
+            dtrain_fold,
+            num_boost_round=500,
+            evals=[(dtrain_fold, "train"), (dval_fold, "val")],
+            verbose_eval=False,
+        )
+        
+        oof_predictions[val_idx] = model.predict(dval_fold)
+        test_predictions += model.predict(dall) / 5.0
+        log.info(f"Fold {fold+1} complete.")
 
     # --- Generate predictions for ALL outlets ---
-    dall = xgb.DMatrix(X_all)
-    tobit_predictions = model.predict(dall)
+    train_outlet_ids = df_train["Outlet_ID"].values
+    all_outlet_ids = df["Outlet_ID"].values
+    
+    tobit_predictions = test_predictions.copy()
+    oof_map = dict(zip(train_outlet_ids, oof_predictions))
+    
+    for i, oid in enumerate(all_outlet_ids):
+        if oid in oof_map:
+            tobit_predictions[i] = oof_map[oid]
 
     # Clip to ensure positive predictions
     tobit_predictions = np.clip(tobit_predictions, 0.0, None)

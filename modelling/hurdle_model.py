@@ -65,6 +65,15 @@ _EXCLUDE_COLS = [
     "hist_max_monthly",
     "jan_avg_volume",
     "ema_3m",
+    "capacity_utilization_ratio",
+    "cluster_mean_volume",
+    "cluster_p90_volume",
+    # Prevent reading own/other sub-model outputs
+    "tobit_latent_estimate",
+    "tobit_censoring_ratio",
+    "p_active",
+    "hurdle_conditional_volume",
+    "hurdle_estimate",
     # Flat POI (gravity-only)
     "schools_500m", "schools_1000m", "schools_2000m",
     "hospitals_500m", "hospitals_1000m", "hospitals_2000m",
@@ -187,7 +196,7 @@ def main() -> None:
     # ======================================================================
     # STAGE 2: XGBRegressor — E[volume | active]
     # ======================================================================
-    log.info("--- Stage 2: XGBRegressor (conditional volume) ---")
+    log.info("--- Stage 2: XGBRegressor (conditional volume) with OOF ---")
 
     active_mask = y_volume > 0
     X_active = X_train[active_mask]
@@ -195,23 +204,57 @@ def main() -> None:
 
     log.info("Active outlets for Stage 2 training: %d", len(X_active))
 
-    reg = xgb.XGBRegressor(
-        n_estimators=500,
-        max_depth=6,
-        learning_rate=0.05,
-        subsample=0.8,
-        colsample_bytree=0.8,
-        reg_alpha=0.1,
-        reg_lambda=1.0,
-        random_state=SEED,
-        tree_method="hist",
-        device="cuda",
-        verbosity=1,
-    )
-    reg.fit(X_active, y_active)
+    from sklearn.model_selection import KFold
+    kf = KFold(n_splits=5, shuffle=True, random_state=SEED)
+    
+    oof_cond_vol = np.zeros(len(X_train))
+    test_cond_vol = np.zeros(len(X_all))
+    
+    X_active_np = X_active.values
+    y_active_np = y_active.values
 
-    # Predict conditional volume for ALL outlets
-    conditional_volume_all = reg.predict(X_all)
+    active_indices_in_train = np.where(active_mask.values)[0]
+
+    for fold, (train_idx, val_idx) in enumerate(kf.split(X_active_np)):
+        X_tr, X_val = X_active_np[train_idx], X_active_np[val_idx]
+        y_tr, y_val = y_active_np[train_idx], y_active_np[val_idx]
+        
+        reg = xgb.XGBRegressor(
+            n_estimators=500,
+            max_depth=6,
+            learning_rate=0.05,
+            subsample=0.8,
+            colsample_bytree=0.8,
+            reg_alpha=0.1,
+            reg_lambda=1.0,
+            random_state=SEED,
+            tree_method="hist",
+            device="cuda",
+            verbosity=0,
+        )
+        reg.fit(X_tr, y_tr, eval_set=[(X_tr, y_tr), (X_val, y_val)], verbose=False)
+        
+        val_preds = reg.predict(X_val)
+        original_val_indices = active_indices_in_train[val_idx]
+        oof_cond_vol[original_val_indices] = val_preds
+        
+        test_cond_vol += reg.predict(X_all) / 5.0
+        log.info(f"Stage 2 Fold {fold+1} complete.")
+
+    train_outlet_ids = df_train["Outlet_ID"].values
+    all_outlet_ids = df["Outlet_ID"].values
+    
+    conditional_volume_all = test_cond_vol.copy()
+    
+    active_train_outlets = train_outlet_ids[active_indices_in_train]
+    active_oof_preds = oof_cond_vol[active_indices_in_train]
+    
+    oof_map = dict(zip(active_train_outlets, active_oof_preds))
+    
+    for i, oid in enumerate(all_outlet_ids):
+        if oid in oof_map:
+            conditional_volume_all[i] = oof_map[oid]
+
     conditional_volume_all = np.clip(conditional_volume_all, 0.0, None)
 
     log.info(

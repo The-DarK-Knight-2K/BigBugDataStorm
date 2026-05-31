@@ -92,6 +92,10 @@ _LEAK_FEATURES = [
     "hist_max_monthly",
     "jan_avg_volume",
     "ema_3m",
+    "capacity_utilization_ratio",
+    "cluster_mean_volume",
+    "cluster_p90_volume",
+    "tobit_censoring_ratio",
 ]
 
 # Flat POI count columns (18 columns)

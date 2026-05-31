@@ -2337,3 +2337,971 @@ dtype: object
 2026-05-31 09:01:02,663 | INFO     | predict | ==================================================
 2026-05-31 09:01:02,664 | INFO     | predict | PREDICTION PIPELINE -- DONE
 2026-05-31 09:01:02,664 | INFO     | predict | ==================================================
+2026-05-31 16:22:56,591 | INFO     | build_cooler_features | ============================================================
+2026-05-31 16:22:56,591 | INFO     | build_cooler_features | BUILD COOLER FEATURES  (OPT-3 — Phase 2.5)
+2026-05-31 16:22:56,591 | INFO     | build_cooler_features | ============================================================
+2026-05-31 16:22:56,591 | INFO     | build_cooler_features | Config — litres/cooler=150, replenishment=3d, fill_rate=85%
+2026-05-31 16:22:56,701 | INFO     | build_cooler_features | Loaded 20000 outlets from Silver.
+2026-05-31 16:22:56,732 | INFO     | build_cooler_features | Loaded 20000 rows from sales_features.
+2026-05-31 16:23:11,480 | INFO     | build_cooler_features | ============================================================
+2026-05-31 16:23:11,481 | INFO     | build_cooler_features | BUILD COOLER FEATURES  (OPT-3 — Phase 2.5)
+2026-05-31 16:23:11,481 | INFO     | build_cooler_features | ============================================================
+2026-05-31 16:23:11,481 | INFO     | build_cooler_features | Config — litres/cooler=150, replenishment=3d, fill_rate=85%
+2026-05-31 16:23:11,551 | INFO     | build_cooler_features | Loaded 20000 outlets from Silver.
+2026-05-31 16:23:11,566 | INFO     | build_cooler_features | Loaded 20000 rows from sales_features.
+2026-05-31 16:23:11,581 | INFO     | build_cooler_features | Cooler feature stats — ceiling: mean=1646.0, max=6375.0 | utilization: mean=0.098, max=0.775
+2026-05-31 16:23:11,583 | INFO     | build_cooler_features | Computed cooler features for 20000 outlets.
+2026-05-31 16:23:11,585 | INFO     | build_cooler_features | Running data contract assertions...
+2026-05-31 16:23:11,590 | INFO     | build_cooler_features | All assertions passed.
+2026-05-31 16:23:11,612 | INFO     | build_cooler_features | Written 20000 rows x 5 columns -> cooler_features.parquet (0.1s)
+2026-05-31 16:23:11,612 | INFO     | build_cooler_features | --- Summary ---
+2026-05-31 16:23:11,615 | INFO     | build_cooler_features |   cooler_capacity_litres               mean=193.65  median=150.00  max=750.00
+2026-05-31 16:23:11,615 | INFO     | build_cooler_features |   theoretical_monthly_ceiling          mean=1646.03  median=1275.00  max=6375.00
+2026-05-31 16:23:11,616 | INFO     | build_cooler_features |   capacity_utilization_ratio           mean=0.10  median=0.07  max=0.77
+2026-05-31 16:23:46,120 | INFO     | build_spatial_cluster_features | ============================================================
+2026-05-31 16:23:46,121 | INFO     | build_spatial_cluster_features | BUILD SPATIAL CLUSTER FEATURES  (OPT-4 — Phase 2.5)
+2026-05-31 16:23:46,121 | INFO     | build_spatial_cluster_features | ============================================================
+2026-05-31 16:23:46,184 | INFO     | build_spatial_cluster_features | Loaded 19960 outlet coordinates from Silver.
+2026-05-31 16:23:46,206 | INFO     | build_spatial_cluster_features | Total outlets: 20000 | Valid coords: 19960 | Zero-coord: 40
+2026-05-31 16:23:46,220 | INFO     | build_spatial_cluster_features | Loaded 20000 rows from sales_features.
+2026-05-31 16:23:46,220 | INFO     | build_spatial_cluster_features | Running DBSCAN: eps=1.0 km, min_samples=5 on 19960 outlets...
+2026-05-31 16:23:46,387 | INFO     | build_spatial_cluster_features | DBSCAN found 447 clusters, 2231 noise points (spatial outliers).
+2026-05-31 16:23:46,463 | INFO     | build_spatial_cluster_features | Cluster stats — outlets in clusters: 17729, mean cluster size: 39.7
+2026-05-31 16:23:46,467 | INFO     | build_spatial_cluster_features | Appended 40 zero-coord outlets as spatial outliers.
+2026-05-31 16:23:46,470 | INFO     | build_spatial_cluster_features | Running data contract assertions...
+2026-05-31 16:23:46,474 | INFO     | build_spatial_cluster_features | All assertions passed.
+2026-05-31 16:23:46,489 | INFO     | build_spatial_cluster_features | Written 20000 rows x 6 columns -> spatial_cluster_features.parquet (0.4s)
+2026-05-31 16:23:46,490 | INFO     | build_spatial_cluster_features | --- Summary ---
+2026-05-31 16:23:46,492 | INFO     | build_spatial_cluster_features |   Total clusters          : 447
+2026-05-31 16:23:46,492 | INFO     | build_spatial_cluster_features |   Spatial outliers        : 2271
+2026-05-31 16:23:46,494 | INFO     | build_spatial_cluster_features |   Mean cluster size       : 4614.7
+2026-05-31 16:23:46,495 | INFO     | build_spatial_cluster_features |   Mean cluster volume     : 303.4
+2026-05-31 16:24:29,794 | INFO     | build_master_features | ======================================================================
+2026-05-31 16:24:29,794 | INFO     | build_master_features | BUILD MASTER FEATURES — START
+2026-05-31 16:24:29,795 | INFO     | build_master_features | ======================================================================
+2026-05-31 16:24:29,866 | INFO     | build_master_features | Loaded outlet_master_clean: 20000 rows
+2026-05-31 16:24:29,878 | INFO     | build_master_features | Loaded outlet_coordinates_clean: 19960 rows
+2026-05-31 16:24:29,908 | INFO     | build_master_features | Loaded seasonality_clean: 370 rows
+2026-05-31 16:24:29,927 | INFO     | build_master_features | Loaded sales_features: 20000 rows
+2026-05-31 16:24:29,963 | INFO     | build_master_features | Loaded poi_features: 20000 rows
+2026-05-31 16:24:29,991 | INFO     | build_master_features | Loaded gravity_features: 20000 rows
+2026-05-31 16:24:30,019 | INFO     | build_master_features | Loaded catchment_features: 20000 rows
+2026-05-31 16:24:30,046 | INFO     | build_master_features | Loaded cooler_features: 20000 rows
+2026-05-31 16:24:30,067 | INFO     | build_master_features | Loaded spatial_cluster_features: 20000 rows
+2026-05-31 16:24:30,069 | INFO     | build_master_features | Optional file tobit_features not found — skipping.
+2026-05-31 16:24:30,069 | INFO     | build_master_features | Optional file hurdle_features not found — skipping.
+2026-05-31 16:24:30,069 | INFO     | build_master_features | Loaded jan_2026_trading_days.json: {'jan_2026_trading_days': 20, 'jan_2026_holiday_count': 2}
+2026-05-31 16:24:30,073 | INFO     | build_master_features | Jan 2026 seasonality lookup: 10 distributors
+2026-05-31 16:24:30,073 | INFO     | build_master_features | Base outlets: 20000 rows
+2026-05-31 16:24:30,081 | INFO     | build_master_features | After coords merge: 20000 rows
+2026-05-31 16:24:30,088 | INFO     | build_master_features | After sales_features merge: 20000 rows
+2026-05-31 16:24:30,104 | INFO     | build_master_features | After poi_features merge: 20000 rows
+2026-05-31 16:24:30,121 | INFO     | build_master_features | After gravity_features merge: 20000 rows
+2026-05-31 16:24:30,139 | INFO     | build_master_features | After catchment_features merge: 20000 rows
+2026-05-31 16:24:30,153 | INFO     | build_master_features | After seasonality merge: 20000 rows
+2026-05-31 16:24:30,164 | INFO     | build_master_features | After cooler_features merge: 20000 rows
+2026-05-31 16:24:30,181 | INFO     | build_master_features | After spatial_cluster_features merge: 20000 rows
+2026-05-31 16:24:30,182 | INFO     | build_master_features | Added scalar features: trading_days=20, holiday_count=2
+2026-05-31 16:24:30,192 | INFO     | build_master_features | Filled 40 null coords_swapped with False
+2026-05-31 16:24:30,193 | INFO     | build_master_features | Flagged 40 outlets for exclude_from_training
+2026-05-31 16:24:30,202 | WARNING  | build_master_features | Filled 40 null coordinates with province centroids
+2026-05-31 16:24:30,204 | INFO     | build_master_features | 0 outlets have no transaction history
+2026-05-31 16:24:30,207 | INFO     | build_master_features | Filled 5 nulls in yoy_growth_rate with median -0.0002
+2026-05-31 16:24:30,235 | INFO     | build_master_features | Rounded 33 float columns to 4 decimal places (all float64)
+2026-05-31 16:24:30,238 | INFO     | build_master_features | All assertions passed.
+2026-05-31 16:24:30,361 | INFO     | build_master_features | Written 20000 rows, 77 columns -> master_features.parquet (0.6s)
+2026-05-31 16:24:30,362 | INFO     | build_master_features | Columns: ['Outlet_ID', 'Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_max_monthly', 'hist_p90_monthly', 'hist_p75_monthly', 'hist_mean_monthly', 'hist_std_monthly', 'hist_cv', 'jan_avg_volume', 'jan_max_volume', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'recent_3m_avg', 'trend_slope', 'months_since_last_order', 'total_volume', 'distributor_id', 'ema_3m', 'ema_6m', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_jan_2026', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'jan_2026_holiday_count', 'jan_2026_trading_days', 'province', 'exclude_from_training', 'has_transaction_history']
+2026-05-31 16:24:30,362 | INFO     | build_master_features | ======================================================================
+2026-05-31 16:24:30,362 | INFO     | build_master_features | BUILD MASTER FEATURES — DONE
+2026-05-31 16:24:30,362 | INFO     | build_master_features | ======================================================================
+2026-05-31 16:24:45,177 | INFO     | tobit_model | ======================================================================
+2026-05-31 16:24:45,178 | INFO     | tobit_model | TOBIT MODEL (XGBoost AFT) — START
+2026-05-31 16:24:45,178 | INFO     | tobit_model | ======================================================================
+2026-05-31 16:24:45,276 | INFO     | tobit_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 16:24:45,287 | INFO     | tobit_model | Training set: 19960 outlets
+2026-05-31 16:24:45,323 | INFO     | tobit_model | Censoring: 0 outlets marked as right-censored (utilization >= 0.8), 19960 exact observations.
+2026-05-31 16:24:45,599 | INFO     | tobit_model | Training XGBoost AFT model...
+2026-05-31 16:24:45,599 | INFO     | tobit_model | Params: {'objective': 'survival:aft', 'eval_metric': 'aft-nloglik', 'aft_loss_distribution': 'normal', 'aft_loss_distribution_scale': 1.0, 'learning_rate': 0.05, 'max_depth': 6, 'subsample': 0.8, 'colsample_bytree': 0.8, 'seed': 42, 'tree_method': 'hist', 'verbosity': 1}
+2026-05-31 16:24:47,392 | INFO     | tobit_model | Tobit predictions — min: 13.74, median: 90.04, mean: 301.63, max: 1943.54
+2026-05-31 16:25:00,431 | INFO     | tobit_model | ======================================================================
+2026-05-31 16:25:00,431 | INFO     | tobit_model | TOBIT MODEL (XGBoost AFT) — START
+2026-05-31 16:25:00,432 | INFO     | tobit_model | ======================================================================
+2026-05-31 16:25:00,518 | INFO     | tobit_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 16:25:00,529 | INFO     | tobit_model | Training set: 19960 outlets
+2026-05-31 16:25:00,552 | INFO     | tobit_model | Censoring: 0 outlets marked as right-censored (utilization >= 0.8), 19960 exact observations.
+2026-05-31 16:25:00,764 | INFO     | tobit_model | Training XGBoost AFT model...
+2026-05-31 16:25:00,764 | INFO     | tobit_model | Params: {'objective': 'survival:aft', 'eval_metric': 'aft-nloglik', 'aft_loss_distribution': 'normal', 'aft_loss_distribution_scale': 1.0, 'learning_rate': 0.05, 'max_depth': 6, 'subsample': 0.8, 'colsample_bytree': 0.8, 'seed': 42, 'tree_method': 'hist', 'verbosity': 1}
+2026-05-31 16:25:02,410 | INFO     | tobit_model | Tobit predictions — min: 13.74, median: 90.04, mean: 301.63, max: 1943.54
+2026-05-31 16:25:02,416 | INFO     | tobit_model | Censoring ratio — mean: 0.032, P50: 0.000, P90: 0.087, max: 1.405
+2026-05-31 16:25:02,421 | INFO     | tobit_model | All assertions passed.
+2026-05-31 16:25:02,445 | INFO     | tobit_model | Written 20000 rows x 3 columns -> tobit_features.parquet (2.0s)
+2026-05-31 16:25:02,445 | INFO     | tobit_model | ======================================================================
+2026-05-31 16:25:02,446 | INFO     | tobit_model | TOBIT MODEL — DONE
+2026-05-31 16:25:02,446 | INFO     | tobit_model | ======================================================================
+2026-05-31 16:25:19,970 | INFO     | hurdle_model | ======================================================================
+2026-05-31 16:25:19,970 | INFO     | hurdle_model | HURDLE MODEL (Two-Stage) — START
+2026-05-31 16:25:19,970 | INFO     | hurdle_model | ======================================================================
+2026-05-31 16:25:20,065 | INFO     | hurdle_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 16:25:20,078 | INFO     | hurdle_model | Training set: 19960 outlets
+2026-05-31 16:25:20,107 | INFO     | hurdle_model | Binary target — active: 19960 (100.0%), inactive: 0 (0.0%)
+2026-05-31 16:25:20,107 | INFO     | hurdle_model | --- Stage 1: Logistic Regression (binary classifier) ---
+2026-05-31 16:25:44,202 | INFO     | hurdle_model | ======================================================================
+2026-05-31 16:25:44,202 | INFO     | hurdle_model | HURDLE MODEL (Two-Stage) — START
+2026-05-31 16:25:44,202 | INFO     | hurdle_model | ======================================================================
+2026-05-31 16:25:44,269 | INFO     | hurdle_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 16:25:44,279 | INFO     | hurdle_model | Training set: 19960 outlets
+2026-05-31 16:25:44,301 | INFO     | hurdle_model | Binary target — active: 19960 (100.0%), inactive: 0 (0.0%)
+2026-05-31 16:25:44,301 | INFO     | hurdle_model | --- Stage 1: Logistic Regression (binary classifier) ---
+2026-05-31 16:25:44,374 | INFO     | hurdle_model | Only one class detected in y_binary. Skipping Logistic Regression and setting p_active = has_transaction_history.
+2026-05-31 16:25:44,375 | INFO     | hurdle_model | P(active) — min: 1.0000, median: 1.0000, mean: 1.0000, max: 1.0000
+2026-05-31 16:25:44,379 | INFO     | hurdle_model | Stage 1 — Accuracy: 1.0000, F1: 1.0000
+2026-05-31 16:25:44,379 | INFO     | hurdle_model | --- Stage 2: XGBRegressor (conditional volume) ---
+2026-05-31 16:25:44,381 | INFO     | hurdle_model | Active outlets for Stage 2 training: 19960
+2026-05-31 16:25:46,876 | INFO     | hurdle_model | Conditional volume — min: 15.52, median: 89.97, mean: 283.00, max: 2176.85
+2026-05-31 16:25:46,877 | INFO     | hurdle_model | Hurdle estimate — min: 15.52, median: 89.97, mean: 283.00, max: 2176.85
+2026-05-31 16:25:46,885 | INFO     | hurdle_model | All assertions passed.
+2026-05-31 16:25:46,905 | INFO     | hurdle_model | Written 20000 rows x 4 columns -> hurdle_features.parquet (2.7s)
+2026-05-31 16:25:46,905 | INFO     | hurdle_model | ======================================================================
+2026-05-31 16:25:46,906 | INFO     | hurdle_model | HURDLE MODEL — DONE
+2026-05-31 16:25:46,906 | INFO     | hurdle_model | ======================================================================
+2026-05-31 16:25:56,429 | INFO     | build_master_features | ======================================================================
+2026-05-31 16:25:56,429 | INFO     | build_master_features | BUILD MASTER FEATURES — START
+2026-05-31 16:25:56,430 | INFO     | build_master_features | ======================================================================
+2026-05-31 16:25:56,488 | INFO     | build_master_features | Loaded outlet_master_clean: 20000 rows
+2026-05-31 16:25:56,497 | INFO     | build_master_features | Loaded outlet_coordinates_clean: 19960 rows
+2026-05-31 16:25:56,500 | INFO     | build_master_features | Loaded seasonality_clean: 370 rows
+2026-05-31 16:25:56,515 | INFO     | build_master_features | Loaded sales_features: 20000 rows
+2026-05-31 16:25:56,527 | INFO     | build_master_features | Loaded poi_features: 20000 rows
+2026-05-31 16:25:56,536 | INFO     | build_master_features | Loaded gravity_features: 20000 rows
+2026-05-31 16:25:56,548 | INFO     | build_master_features | Loaded catchment_features: 20000 rows
+2026-05-31 16:25:56,558 | INFO     | build_master_features | Loaded cooler_features: 20000 rows
+2026-05-31 16:25:56,566 | INFO     | build_master_features | Loaded spatial_cluster_features: 20000 rows
+2026-05-31 16:25:56,586 | INFO     | build_master_features | Loaded tobit_features: 20000 rows
+2026-05-31 16:25:56,603 | INFO     | build_master_features | Loaded hurdle_features: 20000 rows
+2026-05-31 16:25:56,604 | INFO     | build_master_features | Loaded jan_2026_trading_days.json: {'jan_2026_trading_days': 20, 'jan_2026_holiday_count': 2}
+2026-05-31 16:25:56,607 | INFO     | build_master_features | Jan 2026 seasonality lookup: 10 distributors
+2026-05-31 16:25:56,607 | INFO     | build_master_features | Base outlets: 20000 rows
+2026-05-31 16:25:56,618 | INFO     | build_master_features | After coords merge: 20000 rows
+2026-05-31 16:25:56,625 | INFO     | build_master_features | After sales_features merge: 20000 rows
+2026-05-31 16:25:56,642 | INFO     | build_master_features | After poi_features merge: 20000 rows
+2026-05-31 16:25:56,657 | INFO     | build_master_features | After gravity_features merge: 20000 rows
+2026-05-31 16:25:56,679 | INFO     | build_master_features | After catchment_features merge: 20000 rows
+2026-05-31 16:25:56,695 | INFO     | build_master_features | After seasonality merge: 20000 rows
+2026-05-31 16:25:56,705 | INFO     | build_master_features | After cooler_features merge: 20000 rows
+2026-05-31 16:25:56,719 | INFO     | build_master_features | After spatial_cluster_features merge: 20000 rows
+2026-05-31 16:25:56,730 | INFO     | build_master_features | After tobit_features merge: 20000 rows
+2026-05-31 16:25:56,738 | INFO     | build_master_features | After hurdle_features merge: 20000 rows
+2026-05-31 16:25:56,739 | INFO     | build_master_features | Added scalar features: trading_days=20, holiday_count=2
+2026-05-31 16:25:56,748 | INFO     | build_master_features | Filled 40 null coords_swapped with False
+2026-05-31 16:25:56,749 | INFO     | build_master_features | Flagged 40 outlets for exclude_from_training
+2026-05-31 16:25:56,756 | WARNING  | build_master_features | Filled 40 null coordinates with province centroids
+2026-05-31 16:25:56,759 | INFO     | build_master_features | 0 outlets have no transaction history
+2026-05-31 16:25:56,761 | INFO     | build_master_features | Filled 5 nulls in yoy_growth_rate with median -0.0002
+2026-05-31 16:25:56,792 | INFO     | build_master_features | Rounded 38 float columns to 4 decimal places (all float64)
+2026-05-31 16:25:56,795 | INFO     | build_master_features | All assertions passed.
+2026-05-31 16:25:56,941 | INFO     | build_master_features | Written 20000 rows, 82 columns -> master_features.parquet (0.5s)
+2026-05-31 16:25:56,942 | INFO     | build_master_features | Columns: ['Outlet_ID', 'Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_max_monthly', 'hist_p90_monthly', 'hist_p75_monthly', 'hist_mean_monthly', 'hist_std_monthly', 'hist_cv', 'jan_avg_volume', 'jan_max_volume', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'recent_3m_avg', 'trend_slope', 'months_since_last_order', 'total_volume', 'distributor_id', 'ema_3m', 'ema_6m', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_jan_2026', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'jan_2026_holiday_count', 'jan_2026_trading_days', 'province', 'exclude_from_training', 'has_transaction_history']
+2026-05-31 16:25:56,942 | INFO     | build_master_features | ======================================================================
+2026-05-31 16:25:56,942 | INFO     | build_master_features | BUILD MASTER FEATURES — DONE
+2026-05-31 16:25:56,942 | INFO     | build_master_features | ======================================================================
+2026-05-31 16:26:03,939 | INFO     | baseline | ======================================================================
+2026-05-31 16:26:03,940 | INFO     | baseline | BASELINE ESTIMATION — START
+2026-05-31 16:26:03,940 | INFO     | baseline | ======================================================================
+2026-05-31 16:26:04,028 | INFO     | baseline | Loaded 20000 rows from master_features.parquet
+2026-05-31 16:26:04,051 | INFO     | baseline | Data-driven cold-start medians by size: {'Extra Large': 1295.9961, 'Large': 482.1064, 'Medium': 95.941, 'Small': 21.8072}
+2026-05-31 16:26:04,051 | INFO     | baseline | Global median fallback: 51.59
+2026-05-31 16:26:04,526 | INFO     | baseline | Baseline statistics:
+2026-05-31 16:26:04,527 | INFO     | baseline |   Min    : 28.05
+2026-05-31 16:26:04,527 | INFO     | baseline |   Median : 161.88
+2026-05-31 16:26:04,528 | INFO     | baseline |   Mean   : 393.93
+2026-05-31 16:26:04,529 | INFO     | baseline |   P90    : 970.75
+2026-05-31 16:26:04,529 | INFO     | baseline |   Max    : 10457.94
+2026-05-31 16:26:04,530 | INFO     | baseline | Estimation paths — January-anchored: 18432, P90 fallback: 1568, Cold-start: 0
+2026-05-31 16:26:04,533 | INFO     | baseline | All assertions passed.
+2026-05-31 16:26:04,546 | INFO     | baseline | Saved 20000 rows -> baseline_predictions.parquet (0.6s)
+2026-05-31 16:26:04,546 | INFO     | baseline | ======================================================================
+2026-05-31 16:26:04,546 | INFO     | baseline | BASELINE ESTIMATION — DONE
+2026-05-31 16:26:04,546 | INFO     | baseline | ======================================================================
+2026-05-31 16:26:25,041 | INFO     | train | ======================================================================
+2026-05-31 16:26:25,042 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 16:26:25,042 | INFO     | train |   Run ID    : run_20260531_162625_xgboost_strategyA_gravity_only
+2026-05-31 16:26:25,042 | INFO     | train |   Algorithm : xgboost
+2026-05-31 16:26:25,042 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 16:26:25,043 | INFO     | train |   Notes     : (none)
+2026-05-31 16:26:25,043 | INFO     | train | ======================================================================
+2026-05-31 16:26:25,128 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 16:26:25,129 | INFO     | train | Training with 45 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 16:26:25,154 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 16:26:25,156 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 16:26:25,156 | INFO     | train | Loaded Optuna tuned parameters from C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\optuna\best_params_xgboost_strategyA_gravity_only.json
+2026-05-31 16:26:26,458 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 16:26:31,775 | INFO     | train | Fold 1 -- RMSE: 5.41  MAE: 2.96
+2026-05-31 16:26:36,601 | INFO     | train | Fold 2 -- RMSE: 5.54  MAE: 2.98
+2026-05-31 16:26:41,207 | INFO     | train | Fold 3 -- RMSE: 5.59  MAE: 3.04
+2026-05-31 16:26:45,713 | INFO     | train | Fold 4 -- RMSE: 5.33  MAE: 3.00
+2026-05-31 16:26:50,146 | INFO     | train | Fold 5 -- RMSE: 5.99  MAE: 3.05
+2026-05-31 16:26:50,147 | INFO     | train | CV RMSE: 5.57 +/- 0.23
+2026-05-31 16:26:50,147 | INFO     | train | CV MAE : 3.01 +/- 0.04
+2026-05-31 16:26:50,167 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 16:26:53,900 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 16:26:53,936 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162625_xgboost_strategyA_gravity_only\model.pkl
+2026-05-31 16:26:53,938 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162625_xgboost_strategyA_gravity_only\cv_results.json
+2026-05-31 16:26:54,429 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162625_xgboost_strategyA_gravity_only
+2026-05-31 16:26:54,432 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162625_xgboost_strategyA_gravity_only\run_config.json
+2026-05-31 16:26:54,597 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162625_xgboost_strategyA_gravity_only\predictions.csv (min: 14.75, median: 95.68, max: 2181.77)
+2026-05-31 16:26:54,599 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 16:26:54,612 | INFO     | train | All assertions passed.
+2026-05-31 16:26:54,612 | INFO     | train | ======================================================================
+2026-05-31 16:26:54,612 | INFO     | train | TRAINING SUMMARY
+2026-05-31 16:26:54,612 | INFO     | train |   Run ID               : run_20260531_162625_xgboost_strategyA_gravity_only
+2026-05-31 16:26:54,612 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 16:26:54,612 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 16:26:54,612 | INFO     | train |   Training samples     : 19960
+2026-05-31 16:26:54,613 | INFO     | train |   Features             : 45 (4 categorical)
+2026-05-31 16:26:54,613 | INFO     | train |   CV RMSE              : 5.57 +/- 0.23
+2026-05-31 16:26:54,613 | INFO     | train |   CV MAE               : 3.01 +/- 0.04
+2026-05-31 16:26:54,613 | INFO     | train |   GPU used             : True
+2026-05-31 16:26:54,613 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162625_xgboost_strategyA_gravity_only
+2026-05-31 16:26:54,613 | INFO     | train |   Duration             : 29.6 seconds
+2026-05-31 16:26:54,614 | INFO     | train | ======================================================================
+2026-05-31 16:26:54,614 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 16:26:54,614 | INFO     | train | ======================================================================
+2026-05-31 16:27:06,119 | INFO     | train | ======================================================================
+2026-05-31 16:27:06,119 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 16:27:06,119 | INFO     | train |   Run ID    : run_20260531_162706_lightgbm_strategyA_gravity_only
+2026-05-31 16:27:06,119 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 16:27:06,119 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 16:27:06,119 | INFO     | train |   Notes     : (none)
+2026-05-31 16:27:06,119 | INFO     | train | ======================================================================
+2026-05-31 16:27:06,207 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 16:27:06,209 | INFO     | train | Training with 45 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 16:27:06,239 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 16:27:06,242 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 16:27:07,817 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 16:27:13,983 | INFO     | train | Fold 1 -- RMSE: 8.25  MAE: 3.18
+2026-05-31 16:27:17,161 | INFO     | train | Fold 2 -- RMSE: 6.82  MAE: 3.02
+2026-05-31 16:27:19,954 | INFO     | train | Fold 3 -- RMSE: 8.01  MAE: 3.19
+2026-05-31 16:27:22,825 | INFO     | train | Fold 4 -- RMSE: 5.56  MAE: 2.96
+2026-05-31 16:27:25,590 | INFO     | train | Fold 5 -- RMSE: 5.29  MAE: 2.90
+2026-05-31 16:27:25,591 | INFO     | train | CV RMSE: 6.79 +/- 1.22
+2026-05-31 16:27:25,591 | INFO     | train | CV MAE : 3.05 +/- 0.12
+2026-05-31 16:27:25,595 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 16:27:28,387 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 16:27:28,490 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162706_lightgbm_strategyA_gravity_only\model.pkl
+2026-05-31 16:27:28,492 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162706_lightgbm_strategyA_gravity_only\cv_results.json
+2026-05-31 16:27:28,885 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162706_lightgbm_strategyA_gravity_only
+2026-05-31 16:27:28,887 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162706_lightgbm_strategyA_gravity_only\run_config.json
+2026-05-31 16:27:29,439 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162706_lightgbm_strategyA_gravity_only\predictions.csv (min: 15.33, median: 95.47, max: 2179.90)
+2026-05-31 16:27:32,843 | INFO     | train | Extracting SHAP values for 20000 outlets...
+2026-05-31 16:28:34,178 | INFO     | train | SHAP values saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\Data\Gold\shap_values.parquet (61.3s)
+2026-05-31 16:28:34,276 | INFO     | train | SHAP values copy saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162706_lightgbm_strategyA_gravity_only\shap_values.parquet
+2026-05-31 16:28:34,278 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 16:28:34,286 | INFO     | train | All assertions passed.
+2026-05-31 16:28:34,286 | INFO     | train | ======================================================================
+2026-05-31 16:28:34,286 | INFO     | train | TRAINING SUMMARY
+2026-05-31 16:28:34,286 | INFO     | train |   Run ID               : run_20260531_162706_lightgbm_strategyA_gravity_only
+2026-05-31 16:28:34,286 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 16:28:34,286 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 16:28:34,286 | INFO     | train |   Training samples     : 19960
+2026-05-31 16:28:34,286 | INFO     | train |   Features             : 45 (4 categorical)
+2026-05-31 16:28:34,286 | INFO     | train |   CV RMSE              : 6.79 +/- 1.22
+2026-05-31 16:28:34,287 | INFO     | train |   CV MAE               : 3.05 +/- 0.12
+2026-05-31 16:28:34,287 | INFO     | train |   GPU used             : False
+2026-05-31 16:28:34,288 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162706_lightgbm_strategyA_gravity_only
+2026-05-31 16:28:34,288 | INFO     | train |   Duration             : 88.2 seconds
+2026-05-31 16:28:34,288 | INFO     | train | ======================================================================
+2026-05-31 16:28:34,288 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 16:28:34,288 | INFO     | train | ======================================================================
+2026-05-31 16:28:46,047 | INFO     | train | ======================================================================
+2026-05-31 16:28:46,048 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 16:28:46,049 | INFO     | train |   Run ID    : run_20260531_162846_randomforest_strategyA_gravity_only
+2026-05-31 16:28:46,049 | INFO     | train |   Algorithm : randomforest
+2026-05-31 16:28:46,050 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 16:28:46,050 | INFO     | train |   Notes     : (none)
+2026-05-31 16:28:46,050 | INFO     | train | ======================================================================
+2026-05-31 16:28:46,142 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 16:28:46,142 | INFO     | train | Training with 45 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 16:28:46,170 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 16:28:46,171 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 16:28:47,738 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 16:29:01,937 | INFO     | train | Fold 1 -- RMSE: 4.78  MAE: 2.28
+2026-05-31 16:29:16,098 | INFO     | train | Fold 2 -- RMSE: 4.91  MAE: 2.31
+2026-05-31 16:29:30,035 | INFO     | train | Fold 3 -- RMSE: 5.44  MAE: 2.38
+2026-05-31 16:29:43,572 | INFO     | train | Fold 4 -- RMSE: 4.33  MAE: 2.33
+2026-05-31 16:29:57,883 | INFO     | train | Fold 5 -- RMSE: 4.46  MAE: 2.33
+2026-05-31 16:29:57,884 | INFO     | train | CV RMSE: 4.78 +/- 0.39
+2026-05-31 16:29:57,884 | INFO     | train | CV MAE : 2.32 +/- 0.03
+2026-05-31 16:29:57,912 | INFO     | train | Training final randomforest model on full training set (19960 samples)...
+2026-05-31 16:30:14,727 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 16:30:15,011 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162846_randomforest_strategyA_gravity_only\model.pkl
+2026-05-31 16:30:15,012 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162846_randomforest_strategyA_gravity_only\cv_results.json
+2026-05-31 16:30:15,522 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162846_randomforest_strategyA_gravity_only
+2026-05-31 16:30:15,523 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162846_randomforest_strategyA_gravity_only\run_config.json
+2026-05-31 16:30:15,846 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162846_randomforest_strategyA_gravity_only\predictions.csv (min: 13.42, median: 95.28, max: 2175.93)
+2026-05-31 16:30:15,848 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 16:30:15,914 | INFO     | train | All assertions passed.
+2026-05-31 16:30:15,914 | INFO     | train | ======================================================================
+2026-05-31 16:30:15,915 | INFO     | train | TRAINING SUMMARY
+2026-05-31 16:30:15,915 | INFO     | train |   Run ID               : run_20260531_162846_randomforest_strategyA_gravity_only
+2026-05-31 16:30:15,915 | INFO     | train |   Algorithm            : randomforest
+2026-05-31 16:30:15,915 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 16:30:15,915 | INFO     | train |   Training samples     : 19960
+2026-05-31 16:30:15,915 | INFO     | train |   Features             : 45 (4 categorical)
+2026-05-31 16:30:15,916 | INFO     | train |   CV RMSE              : 4.78 +/- 0.39
+2026-05-31 16:30:15,916 | INFO     | train |   CV MAE               : 2.32 +/- 0.03
+2026-05-31 16:30:15,916 | INFO     | train |   GPU used             : False
+2026-05-31 16:30:15,916 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_162846_randomforest_strategyA_gravity_only
+2026-05-31 16:30:15,916 | INFO     | train |   Duration             : 89.8 seconds
+2026-05-31 16:30:15,917 | INFO     | train | ======================================================================
+2026-05-31 16:30:15,917 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 16:30:15,917 | INFO     | train | ======================================================================
+2026-05-31 16:30:59,992 | INFO     | predict | ======================================================================
+2026-05-31 16:30:59,993 | INFO     | predict | PREDICTION PIPELINE -- START
+2026-05-31 16:30:59,993 | INFO     | predict | ======================================================================
+2026-05-31 16:31:00,084 | INFO     | predict | Loaded master features: 20000 rows
+2026-05-31 16:31:00,092 | INFO     | predict | Loading model predictions from CSV: modelling/artifacts/runs/ensemble_predictions.csv
+2026-05-31 16:31:00,164 | INFO     | predict | Model predictions -- min: 15.40  median: 95.50  max: 2179.85
+2026-05-31 16:31:00,191 | INFO     | predict | Loaded baseline predictions: 20000 rows
+2026-05-31 16:31:00,212 | INFO     | predict |   P10: 95.77 litres
+2026-05-31 16:31:00,214 | INFO     | predict |   P25: 113.18 litres
+2026-05-31 16:31:00,215 | INFO     | predict |   P50: 161.88 litres
+2026-05-31 16:31:00,215 | INFO     | predict |   P75: 345.37 litres
+2026-05-31 16:31:00,216 | INFO     | predict |   P90: 971.23 litres
+2026-05-31 16:31:00,217 | INFO     | predict |   P95: 1184.73 litres
+2026-05-31 16:31:00,217 | INFO     | predict |   P99: 2094.28 litres
+2026-05-31 16:31:00,223 | INFO     | predict | All assertions passed.
+2026-05-31 16:31:00,255 | INFO     | predict | Written 20000 rows -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\outputs\bigbug_predictions.csv
+2026-05-31 16:31:00,448 | INFO     | predict | Written diagnostics -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\outputs\prediction_diagnostics.csv
+2026-05-31 16:31:00,448 | INFO     | predict | ==================================================
+2026-05-31 16:31:00,448 | INFO     | predict | PREDICTION SUMMARY
+2026-05-31 16:31:00,448 | INFO     | predict |   Total outlets predicted : 20000
+2026-05-31 16:31:00,448 | INFO     | predict |   Min prediction          : 28.05 L
+2026-05-31 16:31:00,449 | INFO     | predict |   Median prediction       : 161.88 L
+2026-05-31 16:31:00,449 | INFO     | predict |   Mean prediction         : 394.01 L
+2026-05-31 16:31:00,449 | INFO     | predict |   Max prediction          : 10457.94 L
+2026-05-31 16:31:00,449 | INFO     | predict |   Baseline-capped (model < baseline): 19943 outlets
+2026-05-31 16:31:00,450 | INFO     | predict |   Model won (model > baseline)      : 57 outlets
+2026-05-31 16:31:00,450 | INFO     | predict |   Duration                : 0.5 seconds
+2026-05-31 16:31:00,451 | INFO     | predict | ==================================================
+2026-05-31 16:31:00,451 | INFO     | predict | PREDICTION PIPELINE -- DONE
+2026-05-31 16:31:00,451 | INFO     | predict | ==================================================
+2026-05-31 17:03:31,047 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:03:31,047 | INFO     | tobit_model | TOBIT MODEL (XGBoost AFT) — START
+2026-05-31 17:03:31,048 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:03:31,133 | INFO     | tobit_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:03:31,145 | INFO     | tobit_model | Training set: 19960 outlets
+2026-05-31 17:03:31,172 | INFO     | tobit_model | Censoring: 0 outlets marked as right-censored (utilization >= 0.8), 19960 exact observations.
+2026-05-31 17:03:31,173 | INFO     | tobit_model | Training XGBoost AFT model with 5-fold OOF predictions...
+2026-05-31 17:03:31,173 | INFO     | tobit_model | Params: {'objective': 'survival:aft', 'eval_metric': 'aft-nloglik', 'aft_loss_distribution': 'normal', 'aft_loss_distribution_scale': 1.0, 'learning_rate': 0.05, 'max_depth': 6, 'subsample': 0.8, 'colsample_bytree': 0.8, 'seed': 42, 'tree_method': 'hist', 'verbosity': 0}
+2026-05-31 17:03:33,505 | INFO     | tobit_model | Fold 1 complete.
+2026-05-31 17:03:35,539 | INFO     | tobit_model | Fold 2 complete.
+2026-05-31 17:03:37,725 | INFO     | tobit_model | Fold 3 complete.
+2026-05-31 17:03:39,807 | INFO     | tobit_model | Fold 4 complete.
+2026-05-31 17:03:41,824 | INFO     | tobit_model | Fold 5 complete.
+2026-05-31 17:03:41,838 | INFO     | tobit_model | Tobit predictions — min: 17.25, median: 93.40, mean: 302.37, max: 1961.06
+2026-05-31 17:03:41,844 | INFO     | tobit_model | Censoring ratio — mean: 0.011, P50: 0.001, P90: 0.030, max: 0.662
+2026-05-31 17:03:41,850 | INFO     | tobit_model | All assertions passed.
+2026-05-31 17:03:41,869 | INFO     | tobit_model | Written 20000 rows x 3 columns -> tobit_features.parquet (10.8s)
+2026-05-31 17:03:41,869 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:03:41,870 | INFO     | tobit_model | TOBIT MODEL — DONE
+2026-05-31 17:03:41,870 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:03:59,605 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:03:59,605 | INFO     | hurdle_model | HURDLE MODEL (Two-Stage) — START
+2026-05-31 17:03:59,606 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:03:59,696 | INFO     | hurdle_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:03:59,706 | INFO     | hurdle_model | Training set: 19960 outlets
+2026-05-31 17:03:59,732 | INFO     | hurdle_model | Binary target — active: 19960 (100.0%), inactive: 0 (0.0%)
+2026-05-31 17:03:59,732 | INFO     | hurdle_model | --- Stage 1: Logistic Regression (binary classifier) ---
+2026-05-31 17:03:59,817 | INFO     | hurdle_model | Only one class detected in y_binary. Skipping Logistic Regression and setting p_active = has_transaction_history.
+2026-05-31 17:03:59,818 | INFO     | hurdle_model | P(active) — min: 1.0000, median: 1.0000, mean: 1.0000, max: 1.0000
+2026-05-31 17:03:59,824 | INFO     | hurdle_model | Stage 1 — Accuracy: 1.0000, F1: 1.0000
+2026-05-31 17:03:59,824 | INFO     | hurdle_model | --- Stage 2: XGBRegressor (conditional volume) with OOF ---
+2026-05-31 17:03:59,826 | INFO     | hurdle_model | Active outlets for Stage 2 training: 19960
+2026-05-31 17:04:02,962 | INFO     | hurdle_model | Stage 2 Fold 1 complete.
+2026-05-31 17:04:05,839 | INFO     | hurdle_model | Stage 2 Fold 2 complete.
+2026-05-31 17:04:08,746 | INFO     | hurdle_model | Stage 2 Fold 3 complete.
+2026-05-31 17:04:11,675 | INFO     | hurdle_model | Stage 2 Fold 4 complete.
+2026-05-31 17:04:14,570 | INFO     | hurdle_model | Stage 2 Fold 5 complete.
+2026-05-31 17:04:14,583 | INFO     | hurdle_model | Conditional volume — min: 18.40, median: 95.43, mean: 282.96, max: 2144.91
+2026-05-31 17:04:14,584 | INFO     | hurdle_model | Hurdle estimate — min: 18.40, median: 95.43, mean: 282.96, max: 2144.91
+2026-05-31 17:04:14,592 | INFO     | hurdle_model | All assertions passed.
+2026-05-31 17:04:14,616 | INFO     | hurdle_model | Written 20000 rows x 4 columns -> hurdle_features.parquet (15.0s)
+2026-05-31 17:04:14,617 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:04:14,617 | INFO     | hurdle_model | HURDLE MODEL — DONE
+2026-05-31 17:04:14,617 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:04:25,865 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:04:25,865 | INFO     | build_master_features | BUILD MASTER FEATURES — START
+2026-05-31 17:04:25,865 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:04:25,935 | INFO     | build_master_features | Loaded outlet_master_clean: 20000 rows
+2026-05-31 17:04:25,946 | INFO     | build_master_features | Loaded outlet_coordinates_clean: 19960 rows
+2026-05-31 17:04:25,948 | INFO     | build_master_features | Loaded seasonality_clean: 370 rows
+2026-05-31 17:04:25,966 | INFO     | build_master_features | Loaded sales_features: 20000 rows
+2026-05-31 17:04:25,980 | INFO     | build_master_features | Loaded poi_features: 20000 rows
+2026-05-31 17:04:25,992 | INFO     | build_master_features | Loaded gravity_features: 20000 rows
+2026-05-31 17:04:26,005 | INFO     | build_master_features | Loaded catchment_features: 20000 rows
+2026-05-31 17:04:26,017 | INFO     | build_master_features | Loaded cooler_features: 20000 rows
+2026-05-31 17:04:26,029 | INFO     | build_master_features | Loaded spatial_cluster_features: 20000 rows
+2026-05-31 17:04:26,056 | INFO     | build_master_features | Loaded tobit_features: 20000 rows
+2026-05-31 17:04:26,081 | INFO     | build_master_features | Loaded hurdle_features: 20000 rows
+2026-05-31 17:04:26,082 | INFO     | build_master_features | Loaded jan_2026_trading_days.json: {'jan_2026_trading_days': 20, 'jan_2026_holiday_count': 2}
+2026-05-31 17:04:26,087 | INFO     | build_master_features | Jan 2026 seasonality lookup: 10 distributors
+2026-05-31 17:04:26,087 | INFO     | build_master_features | Base outlets: 20000 rows
+2026-05-31 17:04:26,098 | INFO     | build_master_features | After coords merge: 20000 rows
+2026-05-31 17:04:26,105 | INFO     | build_master_features | After sales_features merge: 20000 rows
+2026-05-31 17:04:26,123 | INFO     | build_master_features | After poi_features merge: 20000 rows
+2026-05-31 17:04:26,142 | INFO     | build_master_features | After gravity_features merge: 20000 rows
+2026-05-31 17:04:26,159 | INFO     | build_master_features | After catchment_features merge: 20000 rows
+2026-05-31 17:04:26,173 | INFO     | build_master_features | After seasonality merge: 20000 rows
+2026-05-31 17:04:26,183 | INFO     | build_master_features | After cooler_features merge: 20000 rows
+2026-05-31 17:04:26,201 | INFO     | build_master_features | After spatial_cluster_features merge: 20000 rows
+2026-05-31 17:04:26,214 | INFO     | build_master_features | After tobit_features merge: 20000 rows
+2026-05-31 17:04:26,223 | INFO     | build_master_features | After hurdle_features merge: 20000 rows
+2026-05-31 17:04:26,224 | INFO     | build_master_features | Added scalar features: trading_days=20, holiday_count=2
+2026-05-31 17:04:26,234 | INFO     | build_master_features | Filled 40 null coords_swapped with False
+2026-05-31 17:04:26,235 | INFO     | build_master_features | Flagged 40 outlets for exclude_from_training
+2026-05-31 17:04:26,243 | WARNING  | build_master_features | Filled 40 null coordinates with province centroids
+2026-05-31 17:04:26,245 | INFO     | build_master_features | 0 outlets have no transaction history
+2026-05-31 17:04:26,248 | INFO     | build_master_features | Filled 5 nulls in yoy_growth_rate with median -0.0002
+2026-05-31 17:04:26,289 | INFO     | build_master_features | Rounded 38 float columns to 4 decimal places (all float64)
+2026-05-31 17:04:26,294 | INFO     | build_master_features | All assertions passed.
+2026-05-31 17:04:26,438 | INFO     | build_master_features | Written 20000 rows, 82 columns -> master_features.parquet (0.6s)
+2026-05-31 17:04:26,439 | INFO     | build_master_features | Columns: ['Outlet_ID', 'Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_max_monthly', 'hist_p90_monthly', 'hist_p75_monthly', 'hist_mean_monthly', 'hist_std_monthly', 'hist_cv', 'jan_avg_volume', 'jan_max_volume', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'recent_3m_avg', 'trend_slope', 'months_since_last_order', 'total_volume', 'distributor_id', 'ema_3m', 'ema_6m', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_jan_2026', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'jan_2026_holiday_count', 'jan_2026_trading_days', 'province', 'exclude_from_training', 'has_transaction_history']
+2026-05-31 17:04:26,439 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:04:26,439 | INFO     | build_master_features | BUILD MASTER FEATURES — DONE
+2026-05-31 17:04:26,439 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:04:28,277 | INFO     | train | ======================================================================
+2026-05-31 17:04:28,278 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:04:28,278 | INFO     | train |   Run ID    : run_20260531_170428_catboost_strategyA
+2026-05-31 17:04:28,278 | INFO     | train |   Algorithm : catboost
+2026-05-31 17:04:28,278 | INFO     | train |   Strategy  : strategyA
+2026-05-31 17:04:28,278 | INFO     | train |   Notes     : (none)
+2026-05-31 17:04:28,278 | INFO     | train | ======================================================================
+2026-05-31 17:04:28,380 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:04:28,380 | INFO     | train | Training with 64 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:04:28,398 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:04:28,401 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:04:29,848 | INFO     | train | Starting 5-fold cross-validation (catboost)...
+2026-05-31 17:05:51,862 | INFO     | train | ======================================================================
+2026-05-31 17:05:51,863 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:05:51,863 | INFO     | train |   Run ID    : run_20260531_170551_xgboost_strategyA_gravity_only
+2026-05-31 17:05:51,863 | INFO     | train |   Algorithm : xgboost
+2026-05-31 17:05:51,863 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 17:05:51,863 | INFO     | train |   Notes     : (none)
+2026-05-31 17:05:51,863 | INFO     | train | ======================================================================
+2026-05-31 17:05:51,952 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:05:51,953 | INFO     | train | Training with 45 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:05:51,983 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:05:51,984 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:05:53,525 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 17:05:59,378 | INFO     | train | Fold 1 -- RMSE: 4.86  MAE: 2.14
+2026-05-31 17:06:04,805 | INFO     | train | Fold 2 -- RMSE: 5.06  MAE: 2.02
+2026-05-31 17:06:10,253 | INFO     | train | Fold 3 -- RMSE: 5.76  MAE: 2.16
+2026-05-31 17:06:15,640 | INFO     | train | Fold 4 -- RMSE: 4.19  MAE: 2.04
+2026-05-31 17:06:21,197 | INFO     | train | Fold 5 -- RMSE: 4.99  MAE: 2.08
+2026-05-31 17:06:21,198 | INFO     | train | CV RMSE: 4.97 +/- 0.50
+2026-05-31 17:06:21,198 | INFO     | train | CV MAE : 2.09 +/- 0.05
+2026-05-31 17:06:21,218 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 17:06:25,851 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 17:06:25,890 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170551_xgboost_strategyA_gravity_only\model.pkl
+2026-05-31 17:06:25,892 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170551_xgboost_strategyA_gravity_only\cv_results.json
+2026-05-31 17:06:26,321 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170551_xgboost_strategyA_gravity_only
+2026-05-31 17:06:26,323 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170551_xgboost_strategyA_gravity_only\run_config.json
+2026-05-31 17:06:26,490 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170551_xgboost_strategyA_gravity_only\predictions.csv (min: 12.08, median: 95.83, max: 2188.16)
+2026-05-31 17:06:26,492 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 17:06:26,507 | INFO     | train | All assertions passed.
+2026-05-31 17:06:26,507 | INFO     | train | ======================================================================
+2026-05-31 17:06:26,508 | INFO     | train | TRAINING SUMMARY
+2026-05-31 17:06:26,508 | INFO     | train |   Run ID               : run_20260531_170551_xgboost_strategyA_gravity_only
+2026-05-31 17:06:26,508 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 17:06:26,508 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 17:06:26,508 | INFO     | train |   Training samples     : 19960
+2026-05-31 17:06:26,508 | INFO     | train |   Features             : 45 (4 categorical)
+2026-05-31 17:06:26,508 | INFO     | train |   CV RMSE              : 4.97 +/- 0.50
+2026-05-31 17:06:26,508 | INFO     | train |   CV MAE               : 2.09 +/- 0.05
+2026-05-31 17:06:26,509 | INFO     | train |   GPU used             : True
+2026-05-31 17:06:26,509 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170551_xgboost_strategyA_gravity_only
+2026-05-31 17:06:26,509 | INFO     | train |   Duration             : 34.6 seconds
+2026-05-31 17:06:26,510 | INFO     | train | ======================================================================
+2026-05-31 17:06:26,510 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 17:06:26,510 | INFO     | train | ======================================================================
+2026-05-31 17:06:28,619 | INFO     | train | ======================================================================
+2026-05-31 17:06:28,619 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:06:28,619 | INFO     | train |   Run ID    : run_20260531_170628_lightgbm_strategyA_gravity_only
+2026-05-31 17:06:28,619 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 17:06:28,619 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 17:06:28,619 | INFO     | train |   Notes     : (none)
+2026-05-31 17:06:28,619 | INFO     | train | ======================================================================
+2026-05-31 17:06:28,711 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:06:28,712 | INFO     | train | Training with 45 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:06:28,740 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:06:28,742 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:06:30,336 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 17:06:35,307 | INFO     | train | Fold 1 -- RMSE: 5.42  MAE: 2.24
+2026-05-31 17:06:38,449 | INFO     | train | Fold 2 -- RMSE: 5.67  MAE: 2.16
+2026-05-31 17:06:41,588 | INFO     | train | Fold 3 -- RMSE: 7.18  MAE: 2.33
+2026-05-31 17:06:44,959 | INFO     | train | Fold 4 -- RMSE: 4.53  MAE: 2.12
+2026-05-31 17:06:48,149 | INFO     | train | Fold 5 -- RMSE: 4.66  MAE: 2.07
+2026-05-31 17:06:48,150 | INFO     | train | CV RMSE: 5.49 +/- 0.95
+2026-05-31 17:06:48,150 | INFO     | train | CV MAE : 2.18 +/- 0.09
+2026-05-31 17:06:48,155 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 17:06:51,242 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 17:06:51,356 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170628_lightgbm_strategyA_gravity_only\model.pkl
+2026-05-31 17:06:51,358 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170628_lightgbm_strategyA_gravity_only\cv_results.json
+2026-05-31 17:06:51,814 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170628_lightgbm_strategyA_gravity_only
+2026-05-31 17:06:51,815 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170628_lightgbm_strategyA_gravity_only\run_config.json
+2026-05-31 17:06:52,313 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170628_lightgbm_strategyA_gravity_only\predictions.csv (min: 12.09, median: 95.64, max: 2181.08)
+2026-05-31 17:06:52,315 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 17:06:52,320 | INFO     | train | All assertions passed.
+2026-05-31 17:06:52,320 | INFO     | train | ======================================================================
+2026-05-31 17:06:52,320 | INFO     | train | TRAINING SUMMARY
+2026-05-31 17:06:52,320 | INFO     | train |   Run ID               : run_20260531_170628_lightgbm_strategyA_gravity_only
+2026-05-31 17:06:52,320 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 17:06:52,321 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 17:06:52,321 | INFO     | train |   Training samples     : 19960
+2026-05-31 17:06:52,321 | INFO     | train |   Features             : 45 (4 categorical)
+2026-05-31 17:06:52,321 | INFO     | train |   CV RMSE              : 5.49 +/- 0.95
+2026-05-31 17:06:52,321 | INFO     | train |   CV MAE               : 2.18 +/- 0.09
+2026-05-31 17:06:52,321 | INFO     | train |   GPU used             : False
+2026-05-31 17:06:52,322 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170628_lightgbm_strategyA_gravity_only
+2026-05-31 17:06:52,322 | INFO     | train |   Duration             : 23.7 seconds
+2026-05-31 17:06:52,322 | INFO     | train | ======================================================================
+2026-05-31 17:06:52,322 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 17:06:52,322 | INFO     | train | ======================================================================
+2026-05-31 17:09:12,622 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:09:12,623 | INFO     | tobit_model | TOBIT MODEL (XGBoost AFT) — START
+2026-05-31 17:09:12,623 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:09:12,708 | INFO     | tobit_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:09:12,718 | INFO     | tobit_model | Training set: 19960 outlets
+2026-05-31 17:09:12,742 | INFO     | tobit_model | Censoring: 0 outlets marked as right-censored (utilization >= 0.8), 19960 exact observations.
+2026-05-31 17:09:12,742 | INFO     | tobit_model | Training XGBoost AFT model with 5-fold OOF predictions...
+2026-05-31 17:09:12,742 | INFO     | tobit_model | Params: {'objective': 'survival:aft', 'eval_metric': 'aft-nloglik', 'aft_loss_distribution': 'normal', 'aft_loss_distribution_scale': 1.0, 'learning_rate': 0.05, 'max_depth': 6, 'subsample': 0.8, 'colsample_bytree': 0.8, 'seed': 42, 'tree_method': 'hist', 'verbosity': 0}
+2026-05-31 17:09:15,084 | INFO     | tobit_model | Fold 1 complete.
+2026-05-31 17:09:17,311 | INFO     | tobit_model | Fold 2 complete.
+2026-05-31 17:09:19,601 | INFO     | tobit_model | Fold 3 complete.
+2026-05-31 17:09:21,568 | INFO     | tobit_model | Fold 4 complete.
+2026-05-31 17:09:23,704 | INFO     | tobit_model | Fold 5 complete.
+2026-05-31 17:09:23,714 | INFO     | tobit_model | Tobit predictions — min: 14.83, median: 95.90, mean: 302.37, max: 1976.49
+2026-05-31 17:09:23,720 | INFO     | tobit_model | Censoring ratio — mean: 0.006, P50: 0.001, P90: 0.015, max: 0.394
+2026-05-31 17:09:23,726 | INFO     | tobit_model | All assertions passed.
+2026-05-31 17:09:23,745 | INFO     | tobit_model | Written 20000 rows x 3 columns -> tobit_features.parquet (11.1s)
+2026-05-31 17:09:23,745 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:09:23,745 | INFO     | tobit_model | TOBIT MODEL — DONE
+2026-05-31 17:09:23,745 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:09:26,737 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:09:26,737 | INFO     | hurdle_model | HURDLE MODEL (Two-Stage) — START
+2026-05-31 17:09:26,738 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:09:26,821 | INFO     | hurdle_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:09:26,833 | INFO     | hurdle_model | Training set: 19960 outlets
+2026-05-31 17:09:26,855 | INFO     | hurdle_model | Binary target — active: 19960 (100.0%), inactive: 0 (0.0%)
+2026-05-31 17:09:26,856 | INFO     | hurdle_model | --- Stage 1: Logistic Regression (binary classifier) ---
+2026-05-31 17:09:26,935 | INFO     | hurdle_model | Only one class detected in y_binary. Skipping Logistic Regression and setting p_active = has_transaction_history.
+2026-05-31 17:09:26,936 | INFO     | hurdle_model | P(active) — min: 1.0000, median: 1.0000, mean: 1.0000, max: 1.0000
+2026-05-31 17:09:26,941 | INFO     | hurdle_model | Stage 1 — Accuracy: 1.0000, F1: 1.0000
+2026-05-31 17:09:26,942 | INFO     | hurdle_model | --- Stage 2: XGBRegressor (conditional volume) with OOF ---
+2026-05-31 17:09:26,943 | INFO     | hurdle_model | Active outlets for Stage 2 training: 19960
+2026-05-31 17:09:30,015 | INFO     | hurdle_model | Stage 2 Fold 1 complete.
+2026-05-31 17:09:32,665 | INFO     | hurdle_model | Stage 2 Fold 2 complete.
+2026-05-31 17:09:35,437 | INFO     | hurdle_model | Stage 2 Fold 3 complete.
+2026-05-31 17:09:38,188 | INFO     | hurdle_model | Stage 2 Fold 4 complete.
+2026-05-31 17:09:40,937 | INFO     | hurdle_model | Stage 2 Fold 5 complete.
+2026-05-31 17:09:40,952 | INFO     | hurdle_model | Conditional volume — min: 14.69, median: 95.88, mean: 282.93, max: 2163.82
+2026-05-31 17:09:40,953 | INFO     | hurdle_model | Hurdle estimate — min: 14.69, median: 95.88, mean: 282.93, max: 2163.82
+2026-05-31 17:09:40,962 | INFO     | hurdle_model | All assertions passed.
+2026-05-31 17:09:40,987 | INFO     | hurdle_model | Written 20000 rows x 4 columns -> hurdle_features.parquet (14.3s)
+2026-05-31 17:09:40,987 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:09:40,987 | INFO     | hurdle_model | HURDLE MODEL — DONE
+2026-05-31 17:09:40,988 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:09:42,258 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:09:42,259 | INFO     | build_master_features | BUILD MASTER FEATURES — START
+2026-05-31 17:09:42,259 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:09:42,329 | INFO     | build_master_features | Loaded outlet_master_clean: 20000 rows
+2026-05-31 17:09:42,340 | INFO     | build_master_features | Loaded outlet_coordinates_clean: 19960 rows
+2026-05-31 17:09:42,344 | INFO     | build_master_features | Loaded seasonality_clean: 370 rows
+2026-05-31 17:09:42,359 | INFO     | build_master_features | Loaded sales_features: 20000 rows
+2026-05-31 17:09:42,371 | INFO     | build_master_features | Loaded poi_features: 20000 rows
+2026-05-31 17:09:42,380 | INFO     | build_master_features | Loaded gravity_features: 20000 rows
+2026-05-31 17:09:42,390 | INFO     | build_master_features | Loaded catchment_features: 20000 rows
+2026-05-31 17:09:42,400 | INFO     | build_master_features | Loaded cooler_features: 20000 rows
+2026-05-31 17:09:42,411 | INFO     | build_master_features | Loaded spatial_cluster_features: 20000 rows
+2026-05-31 17:09:42,434 | INFO     | build_master_features | Loaded tobit_features: 20000 rows
+2026-05-31 17:09:42,453 | INFO     | build_master_features | Loaded hurdle_features: 20000 rows
+2026-05-31 17:09:42,454 | INFO     | build_master_features | Loaded jan_2026_trading_days.json: {'jan_2026_trading_days': 20, 'jan_2026_holiday_count': 2}
+2026-05-31 17:09:42,456 | INFO     | build_master_features | Jan 2026 seasonality lookup: 10 distributors
+2026-05-31 17:09:42,458 | INFO     | build_master_features | Base outlets: 20000 rows
+2026-05-31 17:09:42,467 | INFO     | build_master_features | After coords merge: 20000 rows
+2026-05-31 17:09:42,476 | INFO     | build_master_features | After sales_features merge: 20000 rows
+2026-05-31 17:09:42,496 | INFO     | build_master_features | After poi_features merge: 20000 rows
+2026-05-31 17:09:42,514 | INFO     | build_master_features | After gravity_features merge: 20000 rows
+2026-05-31 17:09:42,529 | INFO     | build_master_features | After catchment_features merge: 20000 rows
+2026-05-31 17:09:42,544 | INFO     | build_master_features | After seasonality merge: 20000 rows
+2026-05-31 17:09:42,554 | INFO     | build_master_features | After cooler_features merge: 20000 rows
+2026-05-31 17:09:42,569 | INFO     | build_master_features | After spatial_cluster_features merge: 20000 rows
+2026-05-31 17:09:42,579 | INFO     | build_master_features | After tobit_features merge: 20000 rows
+2026-05-31 17:09:42,587 | INFO     | build_master_features | After hurdle_features merge: 20000 rows
+2026-05-31 17:09:42,588 | INFO     | build_master_features | Added scalar features: trading_days=20, holiday_count=2
+2026-05-31 17:09:42,597 | INFO     | build_master_features | Filled 40 null coords_swapped with False
+2026-05-31 17:09:42,598 | INFO     | build_master_features | Flagged 40 outlets for exclude_from_training
+2026-05-31 17:09:42,608 | WARNING  | build_master_features | Filled 40 null coordinates with province centroids
+2026-05-31 17:09:42,610 | INFO     | build_master_features | 0 outlets have no transaction history
+2026-05-31 17:09:42,613 | INFO     | build_master_features | Filled 5 nulls in yoy_growth_rate with median -0.0002
+2026-05-31 17:09:42,646 | INFO     | build_master_features | Rounded 38 float columns to 4 decimal places (all float64)
+2026-05-31 17:09:42,650 | INFO     | build_master_features | All assertions passed.
+2026-05-31 17:09:42,796 | INFO     | build_master_features | Written 20000 rows, 82 columns -> master_features.parquet (0.5s)
+2026-05-31 17:09:42,796 | INFO     | build_master_features | Columns: ['Outlet_ID', 'Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_max_monthly', 'hist_p90_monthly', 'hist_p75_monthly', 'hist_mean_monthly', 'hist_std_monthly', 'hist_cv', 'jan_avg_volume', 'jan_max_volume', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'recent_3m_avg', 'trend_slope', 'months_since_last_order', 'total_volume', 'distributor_id', 'ema_3m', 'ema_6m', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_jan_2026', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'jan_2026_holiday_count', 'jan_2026_trading_days', 'province', 'exclude_from_training', 'has_transaction_history']
+2026-05-31 17:09:42,797 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:09:42,797 | INFO     | build_master_features | BUILD MASTER FEATURES — DONE
+2026-05-31 17:09:42,797 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:09:44,699 | INFO     | train | ======================================================================
+2026-05-31 17:09:44,699 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:09:44,699 | INFO     | train |   Run ID    : run_20260531_170944_xgboost_strategyA_gravity_only
+2026-05-31 17:09:44,699 | INFO     | train |   Algorithm : xgboost
+2026-05-31 17:09:44,700 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 17:09:44,700 | INFO     | train |   Notes     : (none)
+2026-05-31 17:09:44,700 | INFO     | train | ======================================================================
+2026-05-31 17:09:44,796 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:09:44,796 | INFO     | train | Training with 42 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:09:44,825 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:09:44,827 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:09:46,278 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 17:09:52,213 | INFO     | train | Fold 1 -- RMSE: 4.55  MAE: 1.82
+2026-05-31 17:09:57,555 | INFO     | train | Fold 2 -- RMSE: 6.32  MAE: 1.91
+2026-05-31 17:10:02,692 | INFO     | train | Fold 3 -- RMSE: 6.17  MAE: 2.03
+2026-05-31 17:10:08,020 | INFO     | train | Fold 4 -- RMSE: 4.37  MAE: 1.79
+2026-05-31 17:10:13,273 | INFO     | train | Fold 5 -- RMSE: 7.34  MAE: 1.96
+2026-05-31 17:10:13,274 | INFO     | train | CV RMSE: 5.75 +/- 1.13
+2026-05-31 17:10:13,274 | INFO     | train | CV MAE : 1.90 +/- 0.09
+2026-05-31 17:10:13,299 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 17:10:17,687 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 17:10:17,741 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170944_xgboost_strategyA_gravity_only\model.pkl
+2026-05-31 17:10:17,743 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170944_xgboost_strategyA_gravity_only\cv_results.json
+2026-05-31 17:10:18,209 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170944_xgboost_strategyA_gravity_only
+2026-05-31 17:10:18,211 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170944_xgboost_strategyA_gravity_only\run_config.json
+2026-05-31 17:10:18,393 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170944_xgboost_strategyA_gravity_only\predictions.csv (min: 12.65, median: 95.80, max: 2188.28)
+2026-05-31 17:10:18,395 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 17:10:18,409 | INFO     | train | All assertions passed.
+2026-05-31 17:10:18,409 | INFO     | train | ======================================================================
+2026-05-31 17:10:18,409 | INFO     | train | TRAINING SUMMARY
+2026-05-31 17:10:18,409 | INFO     | train |   Run ID               : run_20260531_170944_xgboost_strategyA_gravity_only
+2026-05-31 17:10:18,409 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 17:10:18,409 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 17:10:18,409 | INFO     | train |   Training samples     : 19960
+2026-05-31 17:10:18,409 | INFO     | train |   Features             : 42 (4 categorical)
+2026-05-31 17:10:18,410 | INFO     | train |   CV RMSE              : 5.75 +/- 1.13
+2026-05-31 17:10:18,410 | INFO     | train |   CV MAE               : 1.90 +/- 0.09
+2026-05-31 17:10:18,410 | INFO     | train |   GPU used             : True
+2026-05-31 17:10:18,411 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_170944_xgboost_strategyA_gravity_only
+2026-05-31 17:10:18,411 | INFO     | train |   Duration             : 33.7 seconds
+2026-05-31 17:10:18,411 | INFO     | train | ======================================================================
+2026-05-31 17:10:18,411 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 17:10:18,411 | INFO     | train | ======================================================================
+2026-05-31 17:10:20,426 | INFO     | train | ======================================================================
+2026-05-31 17:10:20,426 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:10:20,427 | INFO     | train |   Run ID    : run_20260531_171020_lightgbm_strategyA_gravity_only
+2026-05-31 17:10:20,427 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 17:10:20,427 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 17:10:20,427 | INFO     | train |   Notes     : (none)
+2026-05-31 17:10:20,427 | INFO     | train | ======================================================================
+2026-05-31 17:10:20,518 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:10:20,519 | INFO     | train | Training with 42 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:10:20,548 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:10:20,550 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:10:22,061 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 17:10:26,936 | INFO     | train | Fold 1 -- RMSE: 5.08  MAE: 1.95
+2026-05-31 17:10:30,122 | INFO     | train | Fold 2 -- RMSE: 6.58  MAE: 2.13
+2026-05-31 17:10:33,295 | INFO     | train | Fold 3 -- RMSE: 8.02  MAE: 2.33
+2026-05-31 17:10:36,602 | INFO     | train | Fold 4 -- RMSE: 5.21  MAE: 1.92
+2026-05-31 17:10:39,656 | INFO     | train | Fold 5 -- RMSE: 7.54  MAE: 1.89
+2026-05-31 17:10:39,657 | INFO     | train | CV RMSE: 6.49 +/- 1.19
+2026-05-31 17:10:39,657 | INFO     | train | CV MAE : 2.04 +/- 0.16
+2026-05-31 17:10:39,663 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 17:10:42,696 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 17:10:42,800 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171020_lightgbm_strategyA_gravity_only\model.pkl
+2026-05-31 17:10:42,803 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171020_lightgbm_strategyA_gravity_only\cv_results.json
+2026-05-31 17:10:43,257 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171020_lightgbm_strategyA_gravity_only
+2026-05-31 17:10:43,259 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171020_lightgbm_strategyA_gravity_only\run_config.json
+2026-05-31 17:10:43,736 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171020_lightgbm_strategyA_gravity_only\predictions.csv (min: 13.24, median: 95.68, max: 2179.19)
+2026-05-31 17:10:43,738 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 17:10:43,743 | INFO     | train | All assertions passed.
+2026-05-31 17:10:43,743 | INFO     | train | ======================================================================
+2026-05-31 17:10:43,743 | INFO     | train | TRAINING SUMMARY
+2026-05-31 17:10:43,743 | INFO     | train |   Run ID               : run_20260531_171020_lightgbm_strategyA_gravity_only
+2026-05-31 17:10:43,743 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 17:10:43,743 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 17:10:43,743 | INFO     | train |   Training samples     : 19960
+2026-05-31 17:10:43,743 | INFO     | train |   Features             : 42 (4 categorical)
+2026-05-31 17:10:43,743 | INFO     | train |   CV RMSE              : 6.49 +/- 1.19
+2026-05-31 17:10:43,744 | INFO     | train |   CV MAE               : 2.04 +/- 0.16
+2026-05-31 17:10:43,744 | INFO     | train |   GPU used             : False
+2026-05-31 17:10:43,744 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171020_lightgbm_strategyA_gravity_only
+2026-05-31 17:10:43,744 | INFO     | train |   Duration             : 23.3 seconds
+2026-05-31 17:10:43,744 | INFO     | train | ======================================================================
+2026-05-31 17:10:43,744 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 17:10:43,744 | INFO     | train | ======================================================================
+2026-05-31 17:10:45,873 | INFO     | train | ======================================================================
+2026-05-31 17:10:45,873 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:10:45,874 | INFO     | train |   Run ID    : run_20260531_171045_randomforest_strategyA_gravity_only
+2026-05-31 17:10:45,874 | INFO     | train |   Algorithm : randomforest
+2026-05-31 17:10:45,874 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 17:10:45,874 | INFO     | train |   Notes     : (none)
+2026-05-31 17:10:45,874 | INFO     | train | ======================================================================
+2026-05-31 17:10:45,964 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:10:45,965 | INFO     | train | Training with 42 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:10:45,994 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:10:45,996 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:10:47,541 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 17:11:00,837 | INFO     | train | Fold 1 -- RMSE: 4.14  MAE: 1.48
+2026-05-31 17:11:13,419 | INFO     | train | Fold 2 -- RMSE: 3.88  MAE: 1.42
+2026-05-31 17:11:25,734 | INFO     | train | Fold 3 -- RMSE: 5.38  MAE: 1.52
+2026-05-31 17:11:37,710 | INFO     | train | Fold 4 -- RMSE: 3.53  MAE: 1.38
+2026-05-31 17:11:49,753 | INFO     | train | Fold 5 -- RMSE: 4.61  MAE: 1.48
+2026-05-31 17:11:49,753 | INFO     | train | CV RMSE: 4.31 +/- 0.64
+2026-05-31 17:11:49,754 | INFO     | train | CV MAE : 1.46 +/- 0.05
+2026-05-31 17:11:49,785 | INFO     | train | Training final randomforest model on full training set (19960 samples)...
+2026-05-31 17:12:55,415 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:12:55,416 | INFO     | tobit_model | TOBIT MODEL (XGBoost AFT) — START
+2026-05-31 17:12:55,416 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:12:55,500 | INFO     | tobit_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:12:55,511 | INFO     | tobit_model | Training set: 19960 outlets
+2026-05-31 17:12:55,536 | INFO     | tobit_model | Censoring: 0 outlets marked as right-censored (utilization >= 0.8), 19960 exact observations.
+2026-05-31 17:12:55,536 | INFO     | tobit_model | Training XGBoost AFT model with 5-fold OOF predictions...
+2026-05-31 17:12:55,536 | INFO     | tobit_model | Params: {'objective': 'survival:aft', 'eval_metric': 'aft-nloglik', 'aft_loss_distribution': 'normal', 'aft_loss_distribution_scale': 1.0, 'learning_rate': 0.05, 'max_depth': 6, 'subsample': 0.8, 'colsample_bytree': 0.8, 'seed': 42, 'tree_method': 'hist', 'verbosity': 0}
+2026-05-31 17:12:57,694 | INFO     | tobit_model | Fold 1 complete.
+2026-05-31 17:12:59,660 | INFO     | tobit_model | Fold 2 complete.
+2026-05-31 17:13:01,546 | INFO     | tobit_model | Fold 3 complete.
+2026-05-31 17:13:03,399 | INFO     | tobit_model | Fold 4 complete.
+2026-05-31 17:13:05,249 | INFO     | tobit_model | Fold 5 complete.
+2026-05-31 17:13:05,260 | INFO     | tobit_model | Tobit predictions — min: 20.08, median: 83.88, mean: 299.51, max: 2015.13
+2026-05-31 17:13:05,266 | INFO     | tobit_model | Censoring ratio — mean: 0.082, P50: 0.000, P90: 0.262, max: 1.957
+2026-05-31 17:13:05,270 | INFO     | tobit_model | All assertions passed.
+2026-05-31 17:13:05,288 | INFO     | tobit_model | Written 20000 rows x 3 columns -> tobit_features.parquet (9.9s)
+2026-05-31 17:13:05,289 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:13:05,289 | INFO     | tobit_model | TOBIT MODEL — DONE
+2026-05-31 17:13:05,289 | INFO     | tobit_model | ======================================================================
+2026-05-31 17:13:08,406 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:13:08,406 | INFO     | hurdle_model | HURDLE MODEL (Two-Stage) — START
+2026-05-31 17:13:08,407 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:13:08,483 | INFO     | hurdle_model | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:13:08,494 | INFO     | hurdle_model | Training set: 19960 outlets
+2026-05-31 17:13:08,524 | INFO     | hurdle_model | Binary target — active: 19960 (100.0%), inactive: 0 (0.0%)
+2026-05-31 17:13:08,524 | INFO     | hurdle_model | --- Stage 1: Logistic Regression (binary classifier) ---
+2026-05-31 17:13:08,591 | INFO     | hurdle_model | Only one class detected in y_binary. Skipping Logistic Regression and setting p_active = has_transaction_history.
+2026-05-31 17:13:08,591 | INFO     | hurdle_model | P(active) — min: 1.0000, median: 1.0000, mean: 1.0000, max: 1.0000
+2026-05-31 17:13:08,596 | INFO     | hurdle_model | Stage 1 — Accuracy: 1.0000, F1: 1.0000
+2026-05-31 17:13:08,596 | INFO     | hurdle_model | --- Stage 2: XGBRegressor (conditional volume) with OOF ---
+2026-05-31 17:13:08,597 | INFO     | hurdle_model | Active outlets for Stage 2 training: 19960
+2026-05-31 17:13:11,437 | INFO     | hurdle_model | Stage 2 Fold 1 complete.
+2026-05-31 17:13:13,795 | INFO     | hurdle_model | Stage 2 Fold 2 complete.
+2026-05-31 17:13:16,352 | INFO     | hurdle_model | Stage 2 Fold 3 complete.
+2026-05-31 17:13:18,880 | INFO     | hurdle_model | Stage 2 Fold 4 complete.
+2026-05-31 17:13:21,343 | INFO     | hurdle_model | Stage 2 Fold 5 complete.
+2026-05-31 17:13:21,354 | INFO     | hurdle_model | Conditional volume — min: 19.16, median: 86.06, mean: 282.86, max: 2143.83
+2026-05-31 17:13:21,355 | INFO     | hurdle_model | Hurdle estimate — min: 19.16, median: 86.06, mean: 282.86, max: 2143.83
+2026-05-31 17:13:21,366 | INFO     | hurdle_model | All assertions passed.
+2026-05-31 17:13:21,393 | INFO     | hurdle_model | Written 20000 rows x 4 columns -> hurdle_features.parquet (13.0s)
+2026-05-31 17:13:21,394 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:13:21,394 | INFO     | hurdle_model | HURDLE MODEL — DONE
+2026-05-31 17:13:21,394 | INFO     | hurdle_model | ======================================================================
+2026-05-31 17:13:22,569 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:13:22,569 | INFO     | build_master_features | BUILD MASTER FEATURES — START
+2026-05-31 17:13:22,569 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:13:22,642 | INFO     | build_master_features | Loaded outlet_master_clean: 20000 rows
+2026-05-31 17:13:22,655 | INFO     | build_master_features | Loaded outlet_coordinates_clean: 19960 rows
+2026-05-31 17:13:22,660 | INFO     | build_master_features | Loaded seasonality_clean: 370 rows
+2026-05-31 17:13:22,679 | INFO     | build_master_features | Loaded sales_features: 20000 rows
+2026-05-31 17:13:22,693 | INFO     | build_master_features | Loaded poi_features: 20000 rows
+2026-05-31 17:13:22,705 | INFO     | build_master_features | Loaded gravity_features: 20000 rows
+2026-05-31 17:13:22,717 | INFO     | build_master_features | Loaded catchment_features: 20000 rows
+2026-05-31 17:13:22,729 | INFO     | build_master_features | Loaded cooler_features: 20000 rows
+2026-05-31 17:13:22,740 | INFO     | build_master_features | Loaded spatial_cluster_features: 20000 rows
+2026-05-31 17:13:22,763 | INFO     | build_master_features | Loaded tobit_features: 20000 rows
+2026-05-31 17:13:22,786 | INFO     | build_master_features | Loaded hurdle_features: 20000 rows
+2026-05-31 17:13:22,787 | INFO     | build_master_features | Loaded jan_2026_trading_days.json: {'jan_2026_trading_days': 20, 'jan_2026_holiday_count': 2}
+2026-05-31 17:13:22,791 | INFO     | build_master_features | Jan 2026 seasonality lookup: 10 distributors
+2026-05-31 17:13:22,792 | INFO     | build_master_features | Base outlets: 20000 rows
+2026-05-31 17:13:22,801 | INFO     | build_master_features | After coords merge: 20000 rows
+2026-05-31 17:13:22,811 | INFO     | build_master_features | After sales_features merge: 20000 rows
+2026-05-31 17:13:22,833 | INFO     | build_master_features | After poi_features merge: 20000 rows
+2026-05-31 17:13:22,848 | INFO     | build_master_features | After gravity_features merge: 20000 rows
+2026-05-31 17:13:22,864 | INFO     | build_master_features | After catchment_features merge: 20000 rows
+2026-05-31 17:13:22,883 | INFO     | build_master_features | After seasonality merge: 20000 rows
+2026-05-31 17:13:22,894 | INFO     | build_master_features | After cooler_features merge: 20000 rows
+2026-05-31 17:13:22,910 | INFO     | build_master_features | After spatial_cluster_features merge: 20000 rows
+2026-05-31 17:13:22,920 | INFO     | build_master_features | After tobit_features merge: 20000 rows
+2026-05-31 17:13:22,928 | INFO     | build_master_features | After hurdle_features merge: 20000 rows
+2026-05-31 17:13:22,929 | INFO     | build_master_features | Added scalar features: trading_days=20, holiday_count=2
+2026-05-31 17:13:22,938 | INFO     | build_master_features | Filled 40 null coords_swapped with False
+2026-05-31 17:13:22,939 | INFO     | build_master_features | Flagged 40 outlets for exclude_from_training
+2026-05-31 17:13:22,948 | WARNING  | build_master_features | Filled 40 null coordinates with province centroids
+2026-05-31 17:13:22,950 | INFO     | build_master_features | 0 outlets have no transaction history
+2026-05-31 17:13:22,953 | INFO     | build_master_features | Filled 5 nulls in yoy_growth_rate with median -0.0002
+2026-05-31 17:13:22,983 | INFO     | build_master_features | Rounded 38 float columns to 4 decimal places (all float64)
+2026-05-31 17:13:22,987 | INFO     | build_master_features | All assertions passed.
+2026-05-31 17:13:23,111 | INFO     | build_master_features | Written 20000 rows, 82 columns -> master_features.parquet (0.5s)
+2026-05-31 17:13:23,111 | INFO     | build_master_features | Columns: ['Outlet_ID', 'Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_max_monthly', 'hist_p90_monthly', 'hist_p75_monthly', 'hist_mean_monthly', 'hist_std_monthly', 'hist_cv', 'jan_avg_volume', 'jan_max_volume', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'recent_3m_avg', 'trend_slope', 'months_since_last_order', 'total_volume', 'distributor_id', 'ema_3m', 'ema_6m', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_jan_2026', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'capacity_utilization_ratio', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'cluster_mean_volume', 'cluster_p90_volume', 'tobit_latent_estimate', 'tobit_censoring_ratio', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'jan_2026_holiday_count', 'jan_2026_trading_days', 'province', 'exclude_from_training', 'has_transaction_history']
+2026-05-31 17:13:23,112 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:13:23,112 | INFO     | build_master_features | BUILD MASTER FEATURES — DONE
+2026-05-31 17:13:23,112 | INFO     | build_master_features | ======================================================================
+2026-05-31 17:13:24,968 | INFO     | train | ======================================================================
+2026-05-31 17:13:24,968 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:13:24,968 | INFO     | train |   Run ID    : run_20260531_171324_xgboost_strategyA_gravity_only
+2026-05-31 17:13:24,969 | INFO     | train |   Algorithm : xgboost
+2026-05-31 17:13:24,969 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 17:13:24,969 | INFO     | train |   Notes     : (none)
+2026-05-31 17:13:24,969 | INFO     | train | ======================================================================
+2026-05-31 17:13:25,085 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:13:25,085 | INFO     | train | Training with 41 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:13:25,111 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:13:25,113 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:13:26,446 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 17:13:31,845 | INFO     | train | Fold 1 -- RMSE: 37.31  MAE: 21.54
+2026-05-31 17:13:36,681 | INFO     | train | Fold 2 -- RMSE: 44.94  MAE: 22.02
+2026-05-31 17:13:41,313 | INFO     | train | Fold 3 -- RMSE: 38.72  MAE: 20.90
+2026-05-31 17:13:45,958 | INFO     | train | Fold 4 -- RMSE: 39.03  MAE: 21.77
+2026-05-31 17:13:50,588 | INFO     | train | Fold 5 -- RMSE: 44.46  MAE: 21.68
+2026-05-31 17:13:50,588 | INFO     | train | CV RMSE: 40.89 +/- 3.17
+2026-05-31 17:13:50,588 | INFO     | train | CV MAE : 21.58 +/- 0.37
+2026-05-31 17:13:50,613 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 17:13:54,708 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 17:13:54,739 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171324_xgboost_strategyA_gravity_only\model.pkl
+2026-05-31 17:13:54,740 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171324_xgboost_strategyA_gravity_only\cv_results.json
+2026-05-31 17:13:55,158 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171324_xgboost_strategyA_gravity_only
+2026-05-31 17:13:55,162 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171324_xgboost_strategyA_gravity_only\run_config.json
+2026-05-31 17:13:55,324 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171324_xgboost_strategyA_gravity_only\predictions.csv (min: 19.82, median: 86.04, max: 2174.04)
+2026-05-31 17:13:55,326 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 17:13:55,338 | INFO     | train | All assertions passed.
+2026-05-31 17:13:55,339 | INFO     | train | ======================================================================
+2026-05-31 17:13:55,339 | INFO     | train | TRAINING SUMMARY
+2026-05-31 17:13:55,339 | INFO     | train |   Run ID               : run_20260531_171324_xgboost_strategyA_gravity_only
+2026-05-31 17:13:55,339 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 17:13:55,339 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 17:13:55,339 | INFO     | train |   Training samples     : 19960
+2026-05-31 17:13:55,339 | INFO     | train |   Features             : 41 (4 categorical)
+2026-05-31 17:13:55,339 | INFO     | train |   CV RMSE              : 40.89 +/- 3.17
+2026-05-31 17:13:55,339 | INFO     | train |   CV MAE               : 21.58 +/- 0.37
+2026-05-31 17:13:55,339 | INFO     | train |   GPU used             : True
+2026-05-31 17:13:55,340 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171324_xgboost_strategyA_gravity_only
+2026-05-31 17:13:55,340 | INFO     | train |   Duration             : 30.4 seconds
+2026-05-31 17:13:55,340 | INFO     | train | ======================================================================
+2026-05-31 17:13:55,340 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 17:13:55,341 | INFO     | train | ======================================================================
+2026-05-31 17:13:57,215 | INFO     | train | ======================================================================
+2026-05-31 17:13:57,215 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:13:57,215 | INFO     | train |   Run ID    : run_20260531_171357_lightgbm_strategyA_gravity_only
+2026-05-31 17:13:57,215 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 17:13:57,215 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 17:13:57,215 | INFO     | train |   Notes     : (none)
+2026-05-31 17:13:57,215 | INFO     | train | ======================================================================
+2026-05-31 17:13:57,283 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:13:57,283 | INFO     | train | Training with 41 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:13:57,307 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:13:57,309 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:13:58,555 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 17:14:02,968 | INFO     | train | Fold 1 -- RMSE: 40.65  MAE: 22.24
+2026-05-31 17:14:05,582 | INFO     | train | Fold 2 -- RMSE: 46.75  MAE: 22.55
+2026-05-31 17:14:08,211 | INFO     | train | Fold 3 -- RMSE: 39.56  MAE: 21.13
+2026-05-31 17:14:11,094 | INFO     | train | Fold 4 -- RMSE: 41.55  MAE: 22.38
+2026-05-31 17:14:13,707 | INFO     | train | Fold 5 -- RMSE: 44.79  MAE: 22.03
+2026-05-31 17:14:13,708 | INFO     | train | CV RMSE: 42.66 +/- 2.69
+2026-05-31 17:14:13,708 | INFO     | train | CV MAE : 22.07 +/- 0.50
+2026-05-31 17:14:13,711 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 17:14:16,198 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 17:14:16,302 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171357_lightgbm_strategyA_gravity_only\model.pkl
+2026-05-31 17:14:16,304 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171357_lightgbm_strategyA_gravity_only\cv_results.json
+2026-05-31 17:14:16,673 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171357_lightgbm_strategyA_gravity_only
+2026-05-31 17:14:16,674 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171357_lightgbm_strategyA_gravity_only\run_config.json
+2026-05-31 17:14:17,145 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171357_lightgbm_strategyA_gravity_only\predictions.csv (min: 20.51, median: 87.69, max: 2174.36)
+2026-05-31 17:14:17,147 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 17:14:17,151 | INFO     | train | All assertions passed.
+2026-05-31 17:14:17,151 | INFO     | train | ======================================================================
+2026-05-31 17:14:17,151 | INFO     | train | TRAINING SUMMARY
+2026-05-31 17:14:17,151 | INFO     | train |   Run ID               : run_20260531_171357_lightgbm_strategyA_gravity_only
+2026-05-31 17:14:17,151 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 17:14:17,151 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 17:14:17,151 | INFO     | train |   Training samples     : 19960
+2026-05-31 17:14:17,151 | INFO     | train |   Features             : 41 (4 categorical)
+2026-05-31 17:14:17,152 | INFO     | train |   CV RMSE              : 42.66 +/- 2.69
+2026-05-31 17:14:17,152 | INFO     | train |   CV MAE               : 22.07 +/- 0.50
+2026-05-31 17:14:17,152 | INFO     | train |   GPU used             : False
+2026-05-31 17:14:17,152 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171357_lightgbm_strategyA_gravity_only
+2026-05-31 17:14:17,152 | INFO     | train |   Duration             : 19.9 seconds
+2026-05-31 17:14:17,152 | INFO     | train | ======================================================================
+2026-05-31 17:14:17,152 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 17:14:17,153 | INFO     | train | ======================================================================
+2026-05-31 17:14:18,901 | INFO     | train | ======================================================================
+2026-05-31 17:14:18,902 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 17:14:18,902 | INFO     | train |   Run ID    : run_20260531_171418_randomforest_strategyA_gravity_only
+2026-05-31 17:14:18,902 | INFO     | train |   Algorithm : randomforest
+2026-05-31 17:14:18,902 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 17:14:18,902 | INFO     | train |   Notes     : (none)
+2026-05-31 17:14:18,902 | INFO     | train | ======================================================================
+2026-05-31 17:14:18,986 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 17:14:18,987 | INFO     | train | Training with 41 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 17:14:19,012 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 17:14:19,013 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 17:14:20,202 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 17:14:33,410 | INFO     | train | Fold 1 -- RMSE: 37.46  MAE: 21.23
+2026-05-31 17:14:46,849 | INFO     | train | Fold 2 -- RMSE: 46.58  MAE: 21.70
+2026-05-31 17:14:59,446 | INFO     | train | Fold 3 -- RMSE: 38.18  MAE: 20.51
+2026-05-31 17:15:12,587 | INFO     | train | Fold 4 -- RMSE: 38.72  MAE: 21.60
+2026-05-31 17:15:25,204 | INFO     | train | Fold 5 -- RMSE: 41.45  MAE: 20.97
+2026-05-31 17:15:25,205 | INFO     | train | CV RMSE: 40.48 +/- 3.34
+2026-05-31 17:15:25,206 | INFO     | train | CV MAE : 21.20 +/- 0.43
+2026-05-31 17:15:25,240 | INFO     | train | Training final randomforest model on full training set (19960 samples)...
+2026-05-31 17:15:41,465 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 17:15:41,720 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171418_randomforest_strategyA_gravity_only\model.pkl
+2026-05-31 17:15:41,723 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171418_randomforest_strategyA_gravity_only\cv_results.json
+2026-05-31 17:15:42,256 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171418_randomforest_strategyA_gravity_only
+2026-05-31 17:15:42,258 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171418_randomforest_strategyA_gravity_only\run_config.json
+2026-05-31 17:15:42,646 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171418_randomforest_strategyA_gravity_only\predictions.csv (min: 16.88, median: 88.42, max: 2150.48)
+2026-05-31 17:15:42,648 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 17:15:42,716 | INFO     | train | All assertions passed.
+2026-05-31 17:15:42,716 | INFO     | train | ======================================================================
+2026-05-31 17:15:42,716 | INFO     | train | TRAINING SUMMARY
+2026-05-31 17:15:42,716 | INFO     | train |   Run ID               : run_20260531_171418_randomforest_strategyA_gravity_only
+2026-05-31 17:15:42,716 | INFO     | train |   Algorithm            : randomforest
+2026-05-31 17:15:42,716 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 17:15:42,717 | INFO     | train |   Training samples     : 19960
+2026-05-31 17:15:42,717 | INFO     | train |   Features             : 41 (4 categorical)
+2026-05-31 17:15:42,717 | INFO     | train |   CV RMSE              : 40.48 +/- 3.34
+2026-05-31 17:15:42,718 | INFO     | train |   CV MAE               : 21.20 +/- 0.43
+2026-05-31 17:15:42,718 | INFO     | train |   GPU used             : False
+2026-05-31 17:15:42,718 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_171418_randomforest_strategyA_gravity_only
+2026-05-31 17:15:42,718 | INFO     | train |   Duration             : 83.7 seconds
+2026-05-31 17:15:42,719 | INFO     | train | ======================================================================
+2026-05-31 17:15:42,719 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 17:15:42,719 | INFO     | train | ======================================================================
+2026-05-31 17:15:55,633 | INFO     | predict | ======================================================================
+2026-05-31 17:15:55,634 | INFO     | predict | PREDICTION PIPELINE -- START
+2026-05-31 17:15:55,634 | INFO     | predict | ======================================================================
+2026-05-31 17:15:55,723 | INFO     | predict | Loaded master features: 20000 rows
+2026-05-31 17:15:55,731 | WARNING  | predict | No --run-id provided. Loading legacy model.pkl.
+2026-05-31 17:26:01,787 | INFO     | predict | ======================================================================
+2026-05-31 17:26:01,787 | INFO     | predict | PREDICTION PIPELINE -- START
+2026-05-31 17:26:01,787 | INFO     | predict | ======================================================================
+2026-05-31 17:26:01,866 | INFO     | predict | Loaded master features: 20000 rows
+2026-05-31 17:26:01,873 | INFO     | predict | Loading model predictions from CSV: modelling\artifacts\runs\phase2_5_ensemble.csv
+2026-05-31 17:26:01,921 | INFO     | predict | Model predictions -- min: 19.57  median: 87.02  max: 2166.47
+2026-05-31 17:26:01,931 | INFO     | predict | Loaded baseline predictions: 20000 rows
+2026-05-31 17:26:01,948 | INFO     | predict |   P10: 95.77 litres
+2026-05-31 17:26:01,949 | INFO     | predict |   P25: 113.18 litres
+2026-05-31 17:26:01,950 | INFO     | predict |   P50: 161.88 litres
+2026-05-31 17:26:01,951 | INFO     | predict |   P75: 345.40 litres
+2026-05-31 17:26:01,952 | INFO     | predict |   P90: 971.17 litres
+2026-05-31 17:26:01,952 | INFO     | predict |   P95: 1184.73 litres
+2026-05-31 17:26:01,953 | INFO     | predict |   P99: 2093.94 litres
+2026-05-31 17:26:01,959 | INFO     | predict | All assertions passed.
+2026-05-31 17:26:01,987 | INFO     | predict | Written 20000 rows -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\outputs\bigbug_predictions.csv
+2026-05-31 17:26:02,185 | INFO     | predict | Written diagnostics -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\outputs\prediction_diagnostics.csv
+2026-05-31 17:26:02,185 | INFO     | predict | ==================================================
+2026-05-31 17:26:02,186 | INFO     | predict | PREDICTION SUMMARY
+2026-05-31 17:26:02,186 | INFO     | predict |   Total outlets predicted : 20000
+2026-05-31 17:26:02,186 | INFO     | predict |   Min prediction          : 28.05 L
+2026-05-31 17:26:02,187 | INFO     | predict |   Median prediction       : 161.88 L
+2026-05-31 17:26:02,188 | INFO     | predict |   Mean prediction         : 394.02 L
+2026-05-31 17:26:02,188 | INFO     | predict |   Max prediction          : 10457.94 L
+2026-05-31 17:26:02,188 | INFO     | predict |   Baseline-capped (model < baseline): 19918 outlets
+2026-05-31 17:26:02,189 | INFO     | predict |   Model won (model > baseline)      : 82 outlets
+2026-05-31 17:26:02,189 | INFO     | predict |   Duration                : 0.4 seconds
+2026-05-31 17:26:02,189 | INFO     | predict | ==================================================
+2026-05-31 17:26:02,189 | INFO     | predict | PREDICTION PIPELINE -- DONE
+2026-05-31 17:26:02,190 | INFO     | predict | ==================================================
