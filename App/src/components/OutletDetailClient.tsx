@@ -3,7 +3,10 @@
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Cell, ReferenceLine } from 'recharts';
+import dynamic from 'next/dynamic';
 import { OutletDetail } from '@/data_access/queries';
+
+const SingleMap = dynamic(() => import('./SingleMap'), { ssr: false });
 
 export default function OutletDetailClient({ outlet }: { outlet: OutletDetail }) {
   // Use parsed context to fill in details structured identically to the mock
@@ -144,6 +147,17 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
             <span className="text-violet-400 font-bold">{(outlet.footfall_score || 0).toFixed(1)}</span>
           </div>
         </div>
+      </div>
+
+      {/* Map View */}
+      <div className="glass-panel p-1 rounded-2xl border border-slate-800 h-[350px]">
+        <SingleMap outlet={{
+          outlet_id: outlet.outlet_id,
+          latitude: outlet.latitude,
+          longitude: outlet.longitude,
+          outlet_type: outlet.outlet_type,
+          allocation_tier: outlet.budget_allocation?.allocation_tier
+        }} />
       </div>
 
       {/* SHAP Chart & spatial scores */}

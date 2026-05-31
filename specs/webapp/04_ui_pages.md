@@ -17,6 +17,7 @@
   2. Recent 3M Avg (L)
   3. Uplift Gap (L)
   4. Composite Gravity Score
+- **Map View:** Display the outlet's location on a Leaflet map.
 - **SHAP Impact Chart:** Recharts horizontal bar chart mapping `shap_values` array.
   - Green bars for Positive direction.
   - Red bars for Negative direction.
