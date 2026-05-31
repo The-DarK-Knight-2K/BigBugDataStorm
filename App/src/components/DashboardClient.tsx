@@ -113,15 +113,28 @@ export default function DashboardClient({ initialOutlets, initialStats }: Dashbo
         </div>
 
         {/* Allocated Budget */}
-        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-emerald-500 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300">
+        <div className={`glass-panel p-6 rounded-2xl border-l-4 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300 ${stats.totalBudget > 0 ? 'border-l-emerald-500' : 'border-l-slate-700'}`}>
           <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">💰</div>
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Western Province Budget</p>
-          <p className="text-3xl font-heading font-extrabold text-white text-glow-emerald mt-2">
-            LKR {Math.round(stats.totalBudget).toLocaleString()}
-          </p>
-          <span className="text-[10px] text-emerald-400 flex items-center gap-1 mt-1 font-mono">
-            <span>↗</span> Trade Spend Allocation
-          </span>
+          {stats.totalBudget > 0 ? (
+            <>
+              <p className="text-3xl font-heading font-extrabold text-white text-glow-emerald mt-2">
+                LKR {Math.round(stats.totalBudget).toLocaleString()}
+              </p>
+              <span className="text-[10px] text-emerald-400 flex items-center gap-1 mt-1 font-mono">
+                <span>↗</span> Trade Spend Allocation
+              </span>
+            </>
+          ) : (
+            <>
+              <p className="text-2xl font-heading font-bold text-slate-500 mt-3">
+                LKR 0
+              </p>
+              <span className="text-[10px] text-amber-500/80 flex items-center gap-1 mt-1.5 font-mono">
+                <span>ⓘ</span> Allocation Restricted to Western Province
+              </span>
+            </>
+          )}
         </div>
 
         {/* High Potential Tier */}

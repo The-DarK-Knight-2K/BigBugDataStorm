@@ -57,7 +57,16 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
       setXaiExplanation(data.explanation);
     } catch (err: any) {
       console.error(err);
-      setXaiExplanation(`Error: ${err.message}. Please check if the API Key is configured correctly.`);
+      const fallbackJson = JSON.stringify({
+        diagnostic_alert: {
+          type: "warning",
+          title: "AI Service Temporarily Unavailable",
+          message: "The AI insights engine is currently experiencing a connection issue or high demand. Please rely on the standard dashboard metrics and try again shortly."
+        },
+        driver_cards: [],
+        action_checklist: []
+      });
+      setXaiExplanation(fallbackJson);
     } finally {
       setXaiLoading(false);
     }
@@ -350,7 +359,11 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
             ) : (
               <div className="my-4 p-4 rounded-xl bg-slate-900/30 border border-slate-800/50 flex flex-col items-center justify-center text-center gap-2">
                 <span className="text-2xl text-slate-600">ⓘ</span>
-                <p className="text-xs text-slate-500">No budget spend recommendation available.</p>
+                {!outlet.province?.includes('Western') ? (
+                  <p className="text-xs text-amber-500/80">Allocation strictly restricted to Western Province.</p>
+                ) : (
+                  <p className="text-xs text-slate-500">Outlet did not qualify for a budget allocation.</p>
+                )}
               </div>
             )}
 
