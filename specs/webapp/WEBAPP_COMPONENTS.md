@@ -191,9 +191,9 @@ user navigates to View 2, the same filter is active.
 │  └────────────────────────────────────────────────────┘ │
 ├─────────────────────────────────────────────────────────┤
 │  POI CONTEXT                │  BUDGET ALLOCATION        │
-│  🚌 Transport  8.75 gravity │  LKR 45,000 — HIGH tier  │
-│  🏫 Schools    3.84 gravity │  Cooler grant             │
-│  🏥 Healthcare 0.41 gravity │  ROI score: 0.89          │
+│  🚌 Transport  8.75 gravity │  LKR 15,000 — High tier   │
+│  🏫 Schools    3.84 gravity │  Cooler Subsidy / Display Rack │
+│  🏥 Healthcare 0.41 gravity │  ROI score: 0.89 (Rank #142) │
 │  🏪 Markets    2.11 gravity │                           │
 │                             │  [View budget dashboard →]│
 └─────────────────────────────┴───────────────────────────┘
@@ -233,7 +233,7 @@ Use a horizontal bar chart (Recharts `BarChart` with `layout="vertical"`).
 ## View 4 — Budget Dashboard
 
 **Route:** `/budget`
-**API:** `GET /budget/summary` + `GET /outlets?province=Western&sort_by=budget_allocation_lkr`
+**API:** `GET /budget/summary` + `GET /outlets?province=Western&sort_by=Trade_Spend_Allocation_LKR`
 
 This view is Western Province only. Show a banner at the top confirming this scope.
 
@@ -254,7 +254,7 @@ This view is Western Province only. Show a banner at the top confirming this sco
 ├─────────────────────────────────────────────────────────┤
 │  TOP 20 OUTLETS BY ALLOCATION                           │
 │  (same table as View 1, filtered to Western, sorted by  │
-│   budget_allocation_lkr desc, showing top 20 only)      │
+│   Trade_Spend_Allocation_LKR desc, showing top 20 only) │
 └─────────────────────────────────────────────────────────┘
 ```
 

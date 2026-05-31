@@ -1,4 +1,4 @@
-# Round 2 (Phase 1) Report: Advanced Features, Modeling, & XAI
+# Round 2 (Phase 1) Report: Advanced Features & Modeling
 
 This document serves as the comprehensive summary of **Round 2, Phase 1**, detailing the strategic decisions, mathematical reasoning, hyperparameter optimizations, and final ensembling logic implemented to push the BigBug DataStorm pipeline to its peak performance.
 

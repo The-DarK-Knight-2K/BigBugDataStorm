@@ -70,16 +70,16 @@ Returns a paginated list of all 20,000 outlets with their top-level prediction.
       "current_avg_monthly_litres": 820.30,
       "uplift_gap_litres": 420.20,
       "footfall_score": 67.40,
-      "has_budget_allocation": true,
-      "budget_allocation_lkr": 45000.00
+      "allocation_tier": "High",
+      "Trade_Spend_Allocation_LKR": 15000.00
     }
   ]
 }
 ```
 
 **Notes for Member C**
-- `has_budget_allocation` is `true` only for Western Province outlets
-- `budget_allocation_lkr` is `null` for non-Western outlets
+- `allocation_tier` is "None" for non-Western Province outlets
+- `Trade_Spend_Allocation_LKR` is `0.00` for non-Western outlets
 - Use this endpoint for the Outlet Explorer table view and the map view
 
 ---
@@ -187,11 +187,11 @@ Returns the full feature profile for a single outlet.
   ],
 
   "budget": {
-    "allocation_lkr": 45000.00,
-    "allocation_tier": "high",
+    "allocation_tier": "High",
+    "recommended_spend_type": "Cooler Subsidy / Display Rack",
     "roi_score": 0.892,
-    "recommended_spend_type": "cooler_grant",
-    "is_western_province": true
+    "roi_rank": 142,
+    "Trade_Spend_Allocation_LKR": 15000.00
   }
 }
 ```
@@ -289,9 +289,9 @@ Returns aggregate budget allocation statistics for the Western Province.
     "filters_applied": { "distributor_id": null, "outlet_type": null, "tier": null }
   },
   "summary_by_tier": [
-    { "tier": "high",   "outlet_count": 812,  "total_allocated_lkr": 2100000.00, "avg_allocation_lkr": 2586.21, "avg_roi_score": 0.88 },
-    { "tier": "medium", "outlet_count": 2430, "total_allocated_lkr": 1900000.00, "avg_allocation_lkr": 782.30,  "avg_roi_score": 0.61 },
-    { "tier": "low",    "outlet_count": 3600, "total_allocated_lkr": 1000000.00, "avg_allocation_lkr": 277.78,  "avg_roi_score": 0.29 }
+    { "tier": "High",   "outlet_count": 1000, "total_allocated_lkr": 2500000.00, "avg_allocation_lkr": 2500.00, "avg_roi_score": 0.88, "recommended_spend_type": "Cooler Subsidy / Display Rack" },
+    { "tier": "Medium", "outlet_count": 1500, "total_allocated_lkr": 1750000.00, "avg_allocation_lkr": 1167.00, "avg_roi_score": 0.61, "recommended_spend_type": "Promotional Discount" },
+    { "tier": "Low",    "outlet_count": 1500, "total_allocated_lkr": 750000.00,  "avg_allocation_lkr": 500.00,  "avg_roi_score": 0.29, "recommended_spend_type": "Light Merchandising" }
   ],
   "summary_by_distributor": [
     { "distributor_id": "DIST_W_01", "outlet_count": 2290, "total_allocated_lkr": 1680000.00, "pct_of_budget": 33.60 },
