@@ -49,9 +49,9 @@ Data/Quarantine/*
 !Data/Bronze/.gitkeep
 !Data/Silver/.gitkeep
 !Data/Gold/.gitkeep
-#!Data/Gold/poi_features.parquet
-#!Data/Gold/master_features.parquet
-#!Data/Gold/sales_features.parquet
+
+!outputs/**/bigbug_predictions.csv
+!outputs/**/prediction_diagnostics.csv
 
 # Model checkpoints and artifacts
 *.pkl

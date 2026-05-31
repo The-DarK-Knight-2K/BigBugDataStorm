@@ -62,7 +62,7 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 ## Phase 1: Advanced Features & Integration
 
 29. **Implemented Gravity Model Feature Engineering (`build_gravity_features.py`)**:
-    - Designed and implemented a spatial gravity model based on inverse-square distance decay ($1/(d + \epsilon)^2$) with a decay epsilon of 0.1km and a maximum radius of 2.0km.
+    - Designed and implemented a spatial gravity model based on inverse-square distance decay ($1/(d + \epsilon)^2$) with a decay epsilon of 0.05km and a maximum radius of 2.0km.
     - Utilized a spatial `BallTree` with the Haversine metric for high-performance query execution across all 20,000 outlets against scrape-cached OpenStreetMap POIs.
     - Generated 6 distinct POI category gravity scores (School, Hospital, Transport, Market, Worship, Hospitality), along with a weighted `raw_composite_gravity` score and min-max normalized `composite_gravity_score` $[0, 100]$.
     - Gracefully handled zero-coordinate / quarantined outlets by setting scores to 0 and tagging `gravity_data_available` as `False`. Output compiled to `data/Gold/gravity_features.parquet`.
@@ -77,4 +77,15 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
     - Resolved Windows console-specific encoding (`UnicodeEncodeError`) issues by replacing special logging indicators (e.g. `≤`, `≥`, `×`, `→`) with clean, fully compatible ASCII equivalents (`<=`, `>=`, `x`, `->`).
     - Successfully generated `data/Gold/master_features.parquet` containing exactly 20,000 rows and 69 columns (representing 55 original features plus 14 newly engineered advanced spatial and competitor features), passing all data contract schema validations.
 
+## Phase 2: Model Training & Ablation Studies
 
+32. Upgraded `train.py` to support multi-algorithm training (XGBoost, LightGBM, Random Forest), configurable feature exclusion strategies, run tracking with timestamped folders and `run_registry.csv`, and optional SHAP extraction via `--shap` flag.
+33. Executed 21 model training scenarios across 4 rounds of ablation studies, testing CatBoost, XGBoost, LightGBM, and Random Forest with 8 different feature strategies (`round1_baseline`, `strategyA`, `strategyC`, `strategyA_gravity_only`, `strategyA_flat_only`, and their `_clean` variants).
+34. Ran Optuna hyperparameter tuning (`optuna_tune.py`) for XGBoost, LightGBM, and Random Forest on the best-performing `strategyA_gravity_only` feature set. XGBoost achieved a new pipeline best CV RMSE of **40.66**.
+35. Extracted cell-by-cell SHAP values via `TreeExplainer` on the Optuna-tuned LightGBM model, saving to `Data/Gold/shap_values.parquet` for downstream XAI dashboard integration.
+
+## Phase 3: Ensemble & Final Predictions
+
+36. Created `ensemble.py` to blend predictions from multiple model runs using configurable weights. Executed with 40% XGBoost, 40% LightGBM, 20% Random Forest split.
+37. Extended `predict.py` with `--predictions-csv` and `--output-path` CLI arguments to support loading pre-blended ensemble predictions and custom output paths.
+38. Generated the final Round 2 submission at `outputs/round2/bigbug_predictions.csv` (20,000 rows) by running the ensemble through the full post-processing pipeline (baseline floor blending, clamping, rounding, assertions).

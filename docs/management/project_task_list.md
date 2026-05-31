@@ -164,7 +164,7 @@
 - [x] Remove target leakage features (e.g., `hist_p90_monthly`) from training (Strategy A).
 - [x] Implement Run Tracking (timestamped folders and `run_registry.csv`).
 - [x] Enable GPU training (`task_type="GPU"`).
-- [ ] Extract cell-by-cell SHAP values using `TreeExplainer` into `shap_values.parquet`.
+- [x] Extract cell-by-cell SHAP values using `TreeExplainer` into `shap_values.parquet`.
 
 ### Model Training Scenarios (Execution)
 
@@ -207,7 +207,7 @@
 
 ### `predict.py` (Re-run)
 
-- [ ] Generate updated predictions CSV.
+- [x] Generate updated predictions CSV.
 
 ## Phase 2: Budget Optimization
 

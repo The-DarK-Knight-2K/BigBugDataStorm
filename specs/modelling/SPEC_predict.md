@@ -1,7 +1,7 @@
 # SPEC: predict.py
 
 > [!IMPORTANT]
-> **Round 2 Architecture Upgrade:** The `predict.py` script has been updated to support Run Tracking via the `--run-id` flag, automatic interaction feature computation, and decoding algorithms dynamically. Please refer to `specs/orchestration/SPEC_run_setup.md` for the latest usage instructions. This spec document describes the core blending logic, but execution should follow the new CLI setup.
+> **Round 2 Architecture Upgrade:** The `predict.py` script supports Run Tracking via `--run-id`, automatic interaction feature computation, multi-algorithm decoding, and ensemble prediction loading via `--predictions-csv`. A custom output path can be specified with `--output-path`.
 
 ## Purpose
 
@@ -189,10 +189,25 @@ assert (submission["Maximum_Monthly_Liters"] > 0).all(), \
 ## CLI usage
 
 ```bash
+# Single model inference (legacy)
 python modelling/predict.py
+
+# Single model from a specific run
+python modelling/predict.py --run-id run_20260531_062548_xgboost_strategyA_gravity_only
+
+# Ensemble: load pre-blended predictions CSV and write to a custom path
+python modelling/predict.py --predictions-csv modelling/artifacts/runs/ensemble_predictions.csv --output-path outputs/round2/bigbug_predictions.csv
 ```
+
+### Arguments
+
+| Flag | Type | Default | Description |
+|------|------|---------|-------------|
+| `--run-id` | str | None | Load model from a specific run folder |
+| `--predictions-csv` | str | None | Path to existing CSV with `Outlet_ID` and `model_prediction` columns (bypasses model loading/inference) |
+| `--output-path` | str | None | Custom output path for the submission CSV (default: `outputs/{team_name}_predictions.csv`) |
 
 ## Dependencies
 
-- pandas, numpy, pyarrow, pyyaml, catboost
-- Standard library: pickle, logging
+- pandas, numpy, pyarrow, pyyaml
+- Standard library: pickle, logging, argparse
