@@ -11,7 +11,7 @@ def main():
     base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     master_features_path = os.path.join(base_dir, 'Data', 'Gold', 'master_features.parquet')
     predictions_path = os.path.join(base_dir, 'outputs', 'round2', 'bigbug_predictions.csv')
-    output_dir = os.path.join(base_dir, 'data', 'optimizations')
+    output_dir = os.path.join(base_dir, 'outputs')
     os.makedirs(output_dir, exist_ok=True)
     
     # Load data
