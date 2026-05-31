@@ -113,6 +113,13 @@ _GRAVITY_COLS = [
     "composite_gravity_score", "raw_composite_gravity",
 ]
 
+_BOOLEAN_NOISE = [
+    "size_imputed",
+    "coords_swapped",
+    "poi_data_available",
+    "gravity_data_available",
+]
+
 STRATEGIES = {
     "round1_baseline": {
         "description": "Round 1 features on updated master_features (with gravity+catchment auto-included). Leak features KEPT.",
@@ -137,6 +144,21 @@ STRATEGIES = {
     "strategyA_flat_only": {
         "description": "Strategy A but drop all gravity scores. Only flat POI counts + catchment + structural.",
         "exclude": _BASE_EXCLUDE + _R1_REDUNDANT + _LEAK_FEATURES + _GRAVITY_COLS,
+        "interaction_features": False,
+    },
+    "strategyC_clean": {
+        "description": "Strategy C (interactions) + remove boolean noise flags.",
+        "exclude": _BASE_EXCLUDE + _R1_REDUNDANT + _LEAK_FEATURES + _BOOLEAN_NOISE,
+        "interaction_features": True,
+    },
+    "strategyA_gravity_clean": {
+        "description": "Gravity-only + remove boolean noise. Cleanest spatial model.",
+        "exclude": _BASE_EXCLUDE + _R1_REDUNDANT + _LEAK_FEATURES + _FLAT_POI_COLS + _BOOLEAN_NOISE,
+        "interaction_features": False,
+    },
+    "strategyA_flat_clean": {
+        "description": "Flat POI only + remove boolean noise.",
+        "exclude": _BASE_EXCLUDE + _R1_REDUNDANT + _LEAK_FEATURES + _GRAVITY_COLS + _BOOLEAN_NOISE,
         "interaction_features": False,
     },
 }
@@ -193,6 +215,10 @@ def create_model(algorithm: str, params: dict):
         import lightgbm as lgb
         return lgb.LGBMRegressor(**params)
 
+    elif algorithm == "randomforest":
+        from sklearn.ensemble import RandomForestRegressor
+        return RandomForestRegressor(**params)
+
     else:
         raise ValueError(f"Unknown algorithm: {algorithm}")
 
@@ -234,6 +260,18 @@ def get_model_params(algorithm: str, strategy: str = None, use_optuna: bool = Fa
         lgbm_params["random_state"] = CFG["modelling"]["random_seed"]
         lgbm_params["verbose"] = -1
         params = lgbm_params
+
+    elif algorithm == "randomforest":
+        params = {
+            "n_estimators": 500,
+            "max_depth": 20,
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "max_features": 0.8,
+            "n_jobs": -1,
+            "random_state": CFG["modelling"]["random_seed"],
+            "verbose": 0,
+        }
     else:
         params = {}
 
@@ -260,7 +298,7 @@ def encode_categoricals_for_non_catboost(
         for col in cat_cols:
             if col in df.columns:
                 df[col] = df[col].astype("category")
-    elif algorithm == "xgboost":
+    elif algorithm in ("xgboost", "randomforest"):
         for col in cat_cols:
             if col in df.columns:
                 df[col] = df[col].astype("category").cat.codes
@@ -312,11 +350,13 @@ def run_cross_validation(
                     eval_set=[(X_val, y_val)],
                     verbose=100,
                 )
-            else:  # lightgbm
+            elif algorithm == "lightgbm":
                 model.fit(
                     X_tr, y_tr,
                     eval_set=[(X_val, y_val)],
                 )
+            else:  # randomforest — no eval_set / early stopping
+                model.fit(X_tr, y_tr)
             preds = model.predict(X_val)
 
         rmse = np.sqrt(np.mean((preds - y_val.values) ** 2))
@@ -400,11 +440,7 @@ def save_feature_importance(
     model, feature_cols: list[str], run_dir: str, algorithm: str
 ) -> None:
     """Save feature importance plot and CSV."""
-    if algorithm == "catboost":
-        importances = model.feature_importances_
-    elif algorithm == "xgboost":
-        importances = model.feature_importances_
-    elif algorithm == "lightgbm":
+    if algorithm in ("catboost", "xgboost", "lightgbm", "randomforest"):
         importances = model.feature_importances_
     else:
         log.warning("Cannot extract feature importances for %s", algorithm)
@@ -557,7 +593,7 @@ def parse_args() -> argparse.Namespace:
         "--algorithm",
         type=str,
         default="catboost",
-        choices=["catboost", "xgboost", "lightgbm"],
+        choices=["catboost", "xgboost", "lightgbm", "randomforest"],
         help="Training algorithm (default: catboost)",
     )
     parser.add_argument(

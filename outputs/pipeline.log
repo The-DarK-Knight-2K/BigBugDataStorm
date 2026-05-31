@@ -1234,3 +1234,1076 @@ dtype: object
 2026-05-31 02:46:38,874 | INFO     | train | ======================================================================
 2026-05-31 02:46:38,874 | INFO     | train | TRAINING PIPELINE -- DONE
 2026-05-31 02:46:38,874 | INFO     | train | ======================================================================
+2026-05-31 04:54:49,044 | INFO     | train | ======================================================================
+2026-05-31 04:54:49,044 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 04:54:49,044 | INFO     | train |   Run ID    : run_20260531_045449_lightgbm_strategyC
+2026-05-31 04:54:49,044 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 04:54:49,044 | INFO     | train |   Strategy  : strategyC
+2026-05-31 04:54:49,045 | INFO     | train |   Notes     : Strategy C with LightGBM
+2026-05-31 04:54:49,045 | INFO     | train | ======================================================================
+2026-05-31 04:54:49,125 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 04:54:49,129 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 04:54:49,129 | INFO     | train | Training with 55 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province', 'gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 04:54:49,166 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 04:54:49,168 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 04:54:50,405 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 04:54:55,850 | INFO     | train | Fold 1 -- RMSE: 41.30  MAE: 23.30
+2026-05-31 04:54:58,863 | INFO     | train | Fold 2 -- RMSE: 49.40  MAE: 23.93
+2026-05-31 04:55:02,094 | INFO     | train | Fold 3 -- RMSE: 41.63  MAE: 22.76
+2026-05-31 04:55:05,461 | INFO     | train | Fold 4 -- RMSE: 41.59  MAE: 23.59
+2026-05-31 04:55:08,890 | INFO     | train | Fold 5 -- RMSE: 44.30  MAE: 22.92
+2026-05-31 04:55:08,890 | INFO     | train | CV RMSE: 43.64 +/- 3.08
+2026-05-31 04:55:08,891 | INFO     | train | CV MAE : 23.30 +/- 0.43
+2026-05-31 04:55:08,898 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 04:55:12,170 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 04:55:12,276 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045449_lightgbm_strategyC\model.pkl
+2026-05-31 04:55:12,278 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045449_lightgbm_strategyC\cv_results.json
+2026-05-31 04:55:12,906 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045449_lightgbm_strategyC
+2026-05-31 04:55:12,908 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045449_lightgbm_strategyC\run_config.json
+2026-05-31 04:55:12,918 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 04:55:13,343 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045449_lightgbm_strategyC\predictions.csv (min: 0.00, median: 87.84, max: 2179.11)
+2026-05-31 04:55:13,346 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 04:55:13,352 | INFO     | train | All assertions passed.
+2026-05-31 04:55:13,353 | INFO     | train | ======================================================================
+2026-05-31 04:55:13,353 | INFO     | train | TRAINING SUMMARY
+2026-05-31 04:55:13,353 | INFO     | train |   Run ID               : run_20260531_045449_lightgbm_strategyC
+2026-05-31 04:55:13,353 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 04:55:13,353 | INFO     | train |   Strategy             : strategyC
+2026-05-31 04:55:13,353 | INFO     | train |   Training samples     : 19960
+2026-05-31 04:55:13,353 | INFO     | train |   Features             : 55 (4 categorical)
+2026-05-31 04:55:13,353 | INFO     | train |   CV RMSE              : 43.64 +/- 3.08
+2026-05-31 04:55:13,354 | INFO     | train |   CV MAE               : 23.30 +/- 0.43
+2026-05-31 04:55:13,354 | INFO     | train |   GPU used             : False
+2026-05-31 04:55:13,354 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045449_lightgbm_strategyC
+2026-05-31 04:55:13,354 | INFO     | train |   Duration             : 24.3 seconds
+2026-05-31 04:55:13,354 | INFO     | train | ======================================================================
+2026-05-31 04:55:13,354 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 04:55:13,354 | INFO     | train | ======================================================================
+2026-05-31 04:57:22,268 | INFO     | train | ======================================================================
+2026-05-31 04:57:22,268 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 04:57:22,268 | INFO     | train |   Run ID    : run_20260531_045722_xgboost_strategyC_clean
+2026-05-31 04:57:22,268 | INFO     | train |   Algorithm : xgboost
+2026-05-31 04:57:22,268 | INFO     | train |   Strategy  : strategyC_clean
+2026-05-31 04:57:22,268 | INFO     | train |   Notes     : Strategy C, boolean noise removed, XGBoost
+2026-05-31 04:57:22,268 | INFO     | train | ======================================================================
+2026-05-31 04:57:22,342 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 04:57:22,345 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 04:57:22,346 | INFO     | train | Training with 51 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'Latitude', 'Longitude', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province', 'gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 04:57:22,381 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 04:57:22,383 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 04:57:23,517 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 04:58:51,839 | INFO     | train | ======================================================================
+2026-05-31 04:58:51,839 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 04:58:51,840 | INFO     | train |   Run ID    : run_20260531_045851_xgboost_strategyC_clean
+2026-05-31 04:58:51,840 | INFO     | train |   Algorithm : xgboost
+2026-05-31 04:58:51,840 | INFO     | train |   Strategy  : strategyC_clean
+2026-05-31 04:58:51,840 | INFO     | train |   Notes     : Strategy C, boolean noise removed, XGBoost
+2026-05-31 04:58:51,840 | INFO     | train | ======================================================================
+2026-05-31 04:58:51,930 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 04:58:51,934 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 04:58:51,934 | INFO     | train | Training with 51 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'Latitude', 'Longitude', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province', 'gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 04:58:51,970 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 04:58:51,971 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 04:58:53,078 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 04:58:59,533 | INFO     | train | Fold 1 -- RMSE: 39.33  MAE: 22.39
+2026-05-31 04:59:04,565 | INFO     | train | Fold 2 -- RMSE: 47.10  MAE: 22.61
+2026-05-31 04:59:09,585 | INFO     | train | Fold 3 -- RMSE: 41.49  MAE: 21.92
+2026-05-31 04:59:14,366 | INFO     | train | Fold 4 -- RMSE: 42.04  MAE: 22.77
+2026-05-31 04:59:19,409 | INFO     | train | Fold 5 -- RMSE: 43.52  MAE: 22.25
+2026-05-31 04:59:19,410 | INFO     | train | CV RMSE: 42.70 +/- 2.58
+2026-05-31 04:59:19,410 | INFO     | train | CV MAE : 22.39 +/- 0.30
+2026-05-31 04:59:19,431 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 04:59:23,685 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 04:59:23,712 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045851_xgboost_strategyC_clean\model.pkl
+2026-05-31 04:59:23,714 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045851_xgboost_strategyC_clean\cv_results.json
+2026-05-31 04:59:24,132 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045851_xgboost_strategyC_clean
+2026-05-31 04:59:24,133 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045851_xgboost_strategyC_clean\run_config.json
+2026-05-31 04:59:24,143 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 04:59:24,307 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045851_xgboost_strategyC_clean\predictions.csv (min: 15.25, median: 86.33, max: 2169.09)
+2026-05-31 04:59:24,310 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 04:59:24,323 | INFO     | train | All assertions passed.
+2026-05-31 04:59:24,324 | INFO     | train | ======================================================================
+2026-05-31 04:59:24,324 | INFO     | train | TRAINING SUMMARY
+2026-05-31 04:59:24,324 | INFO     | train |   Run ID               : run_20260531_045851_xgboost_strategyC_clean
+2026-05-31 04:59:24,324 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 04:59:24,324 | INFO     | train |   Strategy             : strategyC_clean
+2026-05-31 04:59:24,325 | INFO     | train |   Training samples     : 19960
+2026-05-31 04:59:24,325 | INFO     | train |   Features             : 51 (4 categorical)
+2026-05-31 04:59:24,325 | INFO     | train |   CV RMSE              : 42.70 +/- 2.58
+2026-05-31 04:59:24,325 | INFO     | train |   CV MAE               : 22.39 +/- 0.30
+2026-05-31 04:59:24,325 | INFO     | train |   GPU used             : True
+2026-05-31 04:59:24,326 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_045851_xgboost_strategyC_clean
+2026-05-31 04:59:24,326 | INFO     | train |   Duration             : 32.5 seconds
+2026-05-31 04:59:24,326 | INFO     | train | ======================================================================
+2026-05-31 04:59:24,326 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 04:59:24,326 | INFO     | train | ======================================================================
+2026-05-31 05:00:35,096 | INFO     | train | ======================================================================
+2026-05-31 05:00:35,096 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:00:35,097 | INFO     | train |   Run ID    : run_20260531_050035_lightgbm_strategyC_clean
+2026-05-31 05:00:35,097 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 05:00:35,097 | INFO     | train |   Strategy  : strategyC_clean
+2026-05-31 05:00:35,097 | INFO     | train |   Notes     : Strategy C, boolean noise removed, LightGBM
+2026-05-31 05:00:35,097 | INFO     | train | ======================================================================
+2026-05-31 05:00:35,165 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:00:35,168 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 05:00:35,169 | INFO     | train | Training with 51 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'Latitude', 'Longitude', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province', 'gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 05:00:35,195 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:00:35,197 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:00:36,263 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 05:00:41,061 | INFO     | train | Fold 1 -- RMSE: 41.53  MAE: 23.47
+2026-05-31 05:00:44,095 | INFO     | train | Fold 2 -- RMSE: 50.40  MAE: 24.05
+2026-05-31 05:00:47,031 | INFO     | train | Fold 3 -- RMSE: 43.34  MAE: 23.30
+2026-05-31 05:00:49,918 | INFO     | train | Fold 4 -- RMSE: 42.31  MAE: 23.79
+2026-05-31 05:00:52,921 | INFO     | train | Fold 5 -- RMSE: 44.92  MAE: 23.22
+2026-05-31 05:00:52,922 | INFO     | train | CV RMSE: 44.50 +/- 3.16
+2026-05-31 05:00:52,922 | INFO     | train | CV MAE : 23.57 +/- 0.31
+2026-05-31 05:00:52,927 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 05:00:56,081 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:00:56,187 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050035_lightgbm_strategyC_clean\model.pkl
+2026-05-31 05:00:56,188 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050035_lightgbm_strategyC_clean\cv_results.json
+2026-05-31 05:00:56,617 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050035_lightgbm_strategyC_clean
+2026-05-31 05:00:56,627 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050035_lightgbm_strategyC_clean\run_config.json
+2026-05-31 05:00:56,634 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 05:00:57,179 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050035_lightgbm_strategyC_clean\predictions.csv (min: 9.40, median: 88.70, max: 2178.12)
+2026-05-31 05:00:57,181 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:00:57,185 | INFO     | train | All assertions passed.
+2026-05-31 05:00:57,185 | INFO     | train | ======================================================================
+2026-05-31 05:00:57,185 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:00:57,186 | INFO     | train |   Run ID               : run_20260531_050035_lightgbm_strategyC_clean
+2026-05-31 05:00:57,186 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 05:00:57,186 | INFO     | train |   Strategy             : strategyC_clean
+2026-05-31 05:00:57,186 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:00:57,186 | INFO     | train |   Features             : 51 (4 categorical)
+2026-05-31 05:00:57,186 | INFO     | train |   CV RMSE              : 44.50 +/- 3.16
+2026-05-31 05:00:57,186 | INFO     | train |   CV MAE               : 23.57 +/- 0.31
+2026-05-31 05:00:57,186 | INFO     | train |   GPU used             : False
+2026-05-31 05:00:57,186 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050035_lightgbm_strategyC_clean
+2026-05-31 05:00:57,187 | INFO     | train |   Duration             : 22.1 seconds
+2026-05-31 05:00:57,187 | INFO     | train | ======================================================================
+2026-05-31 05:00:57,187 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:00:57,187 | INFO     | train | ======================================================================
+2026-05-31 05:00:58,865 | INFO     | train | ======================================================================
+2026-05-31 05:00:58,866 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:00:58,866 | INFO     | train |   Run ID    : run_20260531_050058_lightgbm_strategyA_gravity_only
+2026-05-31 05:00:58,866 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 05:00:58,866 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 05:00:58,866 | INFO     | train |   Notes     : Gravity-only ablation with LightGBM
+2026-05-31 05:00:58,866 | INFO     | train | ======================================================================
+2026-05-31 05:00:58,953 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:00:58,954 | INFO     | train | Training with 32 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 05:00:58,983 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:00:58,985 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:01:00,170 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 05:01:04,273 | INFO     | train | Fold 1 -- RMSE: 41.16  MAE: 23.16
+2026-05-31 05:01:06,602 | INFO     | train | Fold 2 -- RMSE: 49.00  MAE: 23.66
+2026-05-31 05:01:09,003 | INFO     | train | Fold 3 -- RMSE: 41.52  MAE: 22.76
+2026-05-31 05:01:11,412 | INFO     | train | Fold 4 -- RMSE: 41.93  MAE: 23.87
+2026-05-31 05:01:13,824 | INFO     | train | Fold 5 -- RMSE: 43.71  MAE: 22.93
+2026-05-31 05:01:13,825 | INFO     | train | CV RMSE: 43.46 +/- 2.90
+2026-05-31 05:01:13,825 | INFO     | train | CV MAE : 23.28 +/- 0.43
+2026-05-31 05:01:13,828 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 05:01:16,106 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:01:16,212 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050058_lightgbm_strategyA_gravity_only\model.pkl
+2026-05-31 05:01:16,216 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050058_lightgbm_strategyA_gravity_only\cv_results.json
+2026-05-31 05:01:16,610 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050058_lightgbm_strategyA_gravity_only
+2026-05-31 05:01:16,612 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050058_lightgbm_strategyA_gravity_only\run_config.json
+2026-05-31 05:01:17,138 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050058_lightgbm_strategyA_gravity_only\predictions.csv (min: 17.12, median: 87.45, max: 2174.82)
+2026-05-31 05:01:17,140 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:01:17,145 | INFO     | train | All assertions passed.
+2026-05-31 05:01:17,145 | INFO     | train | ======================================================================
+2026-05-31 05:01:17,145 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:01:17,145 | INFO     | train |   Run ID               : run_20260531_050058_lightgbm_strategyA_gravity_only
+2026-05-31 05:01:17,145 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 05:01:17,145 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 05:01:17,146 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:01:17,146 | INFO     | train |   Features             : 32 (4 categorical)
+2026-05-31 05:01:17,146 | INFO     | train |   CV RMSE              : 43.46 +/- 2.90
+2026-05-31 05:01:17,146 | INFO     | train |   CV MAE               : 23.28 +/- 0.43
+2026-05-31 05:01:17,146 | INFO     | train |   GPU used             : False
+2026-05-31 05:01:17,146 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050058_lightgbm_strategyA_gravity_only
+2026-05-31 05:01:17,146 | INFO     | train |   Duration             : 18.3 seconds
+2026-05-31 05:01:17,147 | INFO     | train | ======================================================================
+2026-05-31 05:01:17,147 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:01:17,147 | INFO     | train | ======================================================================
+2026-05-31 05:01:18,991 | INFO     | train | ======================================================================
+2026-05-31 05:01:18,991 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:01:18,991 | INFO     | train |   Run ID    : run_20260531_050118_xgboost_strategyA_gravity_clean
+2026-05-31 05:01:18,991 | INFO     | train |   Algorithm : xgboost
+2026-05-31 05:01:18,991 | INFO     | train |   Strategy  : strategyA_gravity_clean
+2026-05-31 05:01:18,992 | INFO     | train |   Notes     : Gravity-only, boolean noise removed, XGBoost
+2026-05-31 05:01:18,992 | INFO     | train | ======================================================================
+2026-05-31 05:01:19,069 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:01:19,070 | INFO     | train | Training with 28 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'Latitude', 'Longitude', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 05:01:19,096 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:01:19,098 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:01:20,226 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 05:01:26,414 | INFO     | train | Fold 1 -- RMSE: 38.73  MAE: 22.24
+2026-05-31 05:01:31,254 | INFO     | train | Fold 2 -- RMSE: 48.51  MAE: 22.55
+2026-05-31 05:01:36,225 | INFO     | train | Fold 3 -- RMSE: 41.32  MAE: 21.72
+2026-05-31 05:01:41,137 | INFO     | train | Fold 4 -- RMSE: 38.96  MAE: 22.29
+2026-05-31 05:01:46,009 | INFO     | train | Fold 5 -- RMSE: 42.96  MAE: 22.13
+2026-05-31 05:01:46,009 | INFO     | train | CV RMSE: 42.10 +/- 3.57
+2026-05-31 05:01:46,009 | INFO     | train | CV MAE : 22.18 +/- 0.27
+2026-05-31 05:01:46,032 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 05:01:50,083 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:01:50,133 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050118_xgboost_strategyA_gravity_clean\model.pkl
+2026-05-31 05:01:50,135 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050118_xgboost_strategyA_gravity_clean\cv_results.json
+2026-05-31 05:01:50,607 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050118_xgboost_strategyA_gravity_clean
+2026-05-31 05:01:50,618 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050118_xgboost_strategyA_gravity_clean\run_config.json
+2026-05-31 05:01:50,793 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050118_xgboost_strategyA_gravity_clean\predictions.csv (min: 15.21, median: 86.34, max: 2178.55)
+2026-05-31 05:01:50,795 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:01:50,812 | INFO     | train | All assertions passed.
+2026-05-31 05:01:50,812 | INFO     | train | ======================================================================
+2026-05-31 05:01:50,812 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:01:50,812 | INFO     | train |   Run ID               : run_20260531_050118_xgboost_strategyA_gravity_clean
+2026-05-31 05:01:50,812 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 05:01:50,812 | INFO     | train |   Strategy             : strategyA_gravity_clean
+2026-05-31 05:01:50,812 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:01:50,812 | INFO     | train |   Features             : 28 (4 categorical)
+2026-05-31 05:01:50,813 | INFO     | train |   CV RMSE              : 42.10 +/- 3.57
+2026-05-31 05:01:50,813 | INFO     | train |   CV MAE               : 22.18 +/- 0.27
+2026-05-31 05:01:50,813 | INFO     | train |   GPU used             : True
+2026-05-31 05:01:50,813 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050118_xgboost_strategyA_gravity_clean
+2026-05-31 05:01:50,814 | INFO     | train |   Duration             : 31.8 seconds
+2026-05-31 05:01:50,814 | INFO     | train | ======================================================================
+2026-05-31 05:01:50,814 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:01:50,814 | INFO     | train | ======================================================================
+2026-05-31 05:01:52,689 | INFO     | train | ======================================================================
+2026-05-31 05:01:52,689 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:01:52,689 | INFO     | train |   Run ID    : run_20260531_050152_lightgbm_strategyA_gravity_clean
+2026-05-31 05:01:52,689 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 05:01:52,689 | INFO     | train |   Strategy  : strategyA_gravity_clean
+2026-05-31 05:01:52,689 | INFO     | train |   Notes     : Gravity-only, boolean noise removed, LightGBM
+2026-05-31 05:01:52,689 | INFO     | train | ======================================================================
+2026-05-31 05:01:52,770 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:01:52,770 | INFO     | train | Training with 28 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'Latitude', 'Longitude', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 05:01:52,799 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:01:52,800 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:01:53,913 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 05:01:58,178 | INFO     | train | Fold 1 -- RMSE: 41.55  MAE: 23.54
+2026-05-31 05:02:00,508 | INFO     | train | Fold 2 -- RMSE: 50.91  MAE: 24.46
+2026-05-31 05:02:02,858 | INFO     | train | Fold 3 -- RMSE: 41.93  MAE: 23.03
+2026-05-31 05:02:05,455 | INFO     | train | Fold 4 -- RMSE: 43.07  MAE: 24.13
+2026-05-31 05:02:08,154 | INFO     | train | Fold 5 -- RMSE: 45.04  MAE: 23.55
+2026-05-31 05:02:08,154 | INFO     | train | CV RMSE: 44.50 +/- 3.43
+2026-05-31 05:02:08,154 | INFO     | train | CV MAE : 23.74 +/- 0.50
+2026-05-31 05:02:08,158 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 05:02:10,585 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:02:10,692 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050152_lightgbm_strategyA_gravity_clean\model.pkl
+2026-05-31 05:02:10,694 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050152_lightgbm_strategyA_gravity_clean\cv_results.json
+2026-05-31 05:02:11,078 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050152_lightgbm_strategyA_gravity_clean
+2026-05-31 05:02:11,080 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050152_lightgbm_strategyA_gravity_clean\run_config.json
+2026-05-31 05:02:11,668 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050152_lightgbm_strategyA_gravity_clean\predictions.csv (min: 15.25, median: 88.50, max: 2168.98)
+2026-05-31 05:02:11,670 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:02:11,674 | INFO     | train | All assertions passed.
+2026-05-31 05:02:11,674 | INFO     | train | ======================================================================
+2026-05-31 05:02:11,674 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:02:11,674 | INFO     | train |   Run ID               : run_20260531_050152_lightgbm_strategyA_gravity_clean
+2026-05-31 05:02:11,674 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 05:02:11,675 | INFO     | train |   Strategy             : strategyA_gravity_clean
+2026-05-31 05:02:11,675 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:02:11,675 | INFO     | train |   Features             : 28 (4 categorical)
+2026-05-31 05:02:11,675 | INFO     | train |   CV RMSE              : 44.50 +/- 3.43
+2026-05-31 05:02:11,676 | INFO     | train |   CV MAE               : 23.74 +/- 0.50
+2026-05-31 05:02:11,676 | INFO     | train |   GPU used             : False
+2026-05-31 05:02:11,676 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050152_lightgbm_strategyA_gravity_clean
+2026-05-31 05:02:11,676 | INFO     | train |   Duration             : 19.0 seconds
+2026-05-31 05:02:11,676 | INFO     | train | ======================================================================
+2026-05-31 05:02:11,676 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:02:11,676 | INFO     | train | ======================================================================
+2026-05-31 05:02:13,495 | INFO     | train | ======================================================================
+2026-05-31 05:02:13,495 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:02:13,495 | INFO     | train |   Run ID    : run_20260531_050213_lightgbm_strategyA_flat_only
+2026-05-31 05:02:13,496 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 05:02:13,496 | INFO     | train |   Strategy  : strategyA_flat_only
+2026-05-31 05:02:13,496 | INFO     | train |   Notes     : Flat-only ablation with LightGBM
+2026-05-31 05:02:13,496 | INFO     | train | ======================================================================
+2026-05-31 05:02:13,590 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:02:13,591 | INFO     | train | Training with 43 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 05:02:13,618 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:02:13,619 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:02:14,734 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 05:02:18,848 | INFO     | train | Fold 1 -- RMSE: 40.84  MAE: 23.14
+2026-05-31 05:02:21,494 | INFO     | train | Fold 2 -- RMSE: 48.99  MAE: 23.78
+2026-05-31 05:02:24,080 | INFO     | train | Fold 3 -- RMSE: 41.94  MAE: 22.86
+2026-05-31 05:02:26,487 | INFO     | train | Fold 4 -- RMSE: 41.70  MAE: 23.52
+2026-05-31 05:02:28,724 | INFO     | train | Fold 5 -- RMSE: 44.24  MAE: 22.87
+2026-05-31 05:02:28,724 | INFO     | train | CV RMSE: 43.54 +/- 2.95
+2026-05-31 05:02:28,724 | INFO     | train | CV MAE : 23.23 +/- 0.36
+2026-05-31 05:02:28,728 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 05:02:31,006 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:02:31,115 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050213_lightgbm_strategyA_flat_only\model.pkl
+2026-05-31 05:02:31,119 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050213_lightgbm_strategyA_flat_only\cv_results.json
+2026-05-31 05:02:31,522 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050213_lightgbm_strategyA_flat_only
+2026-05-31 05:02:31,534 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050213_lightgbm_strategyA_flat_only\run_config.json
+2026-05-31 05:02:32,078 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050213_lightgbm_strategyA_flat_only\predictions.csv (min: 0.00, median: 88.03, max: 2173.47)
+2026-05-31 05:02:32,082 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:02:32,086 | INFO     | train | All assertions passed.
+2026-05-31 05:02:32,086 | INFO     | train | ======================================================================
+2026-05-31 05:02:32,086 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:02:32,086 | INFO     | train |   Run ID               : run_20260531_050213_lightgbm_strategyA_flat_only
+2026-05-31 05:02:32,086 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 05:02:32,086 | INFO     | train |   Strategy             : strategyA_flat_only
+2026-05-31 05:02:32,086 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:02:32,086 | INFO     | train |   Features             : 43 (4 categorical)
+2026-05-31 05:02:32,087 | INFO     | train |   CV RMSE              : 43.54 +/- 2.95
+2026-05-31 05:02:32,087 | INFO     | train |   CV MAE               : 23.23 +/- 0.36
+2026-05-31 05:02:32,087 | INFO     | train |   GPU used             : False
+2026-05-31 05:02:32,087 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050213_lightgbm_strategyA_flat_only
+2026-05-31 05:02:32,087 | INFO     | train |   Duration             : 18.6 seconds
+2026-05-31 05:02:32,087 | INFO     | train | ======================================================================
+2026-05-31 05:02:32,087 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:02:32,087 | INFO     | train | ======================================================================
+2026-05-31 05:02:33,903 | INFO     | train | ======================================================================
+2026-05-31 05:02:33,904 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:02:33,904 | INFO     | train |   Run ID    : run_20260531_050233_xgboost_strategyA_flat_clean
+2026-05-31 05:02:33,904 | INFO     | train |   Algorithm : xgboost
+2026-05-31 05:02:33,904 | INFO     | train |   Strategy  : strategyA_flat_clean
+2026-05-31 05:02:33,904 | INFO     | train |   Notes     : Flat-only, boolean noise removed, XGBoost
+2026-05-31 05:02:33,904 | INFO     | train | ======================================================================
+2026-05-31 05:02:33,970 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:02:33,970 | INFO     | train | Training with 39 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'Latitude', 'Longitude', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 05:02:33,994 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:02:33,995 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:02:35,151 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 05:02:41,412 | INFO     | train | Fold 1 -- RMSE: 39.32  MAE: 22.32
+2026-05-31 05:02:46,297 | INFO     | train | Fold 2 -- RMSE: 46.93  MAE: 22.32
+2026-05-31 05:02:51,108 | INFO     | train | Fold 3 -- RMSE: 41.20  MAE: 21.71
+2026-05-31 05:02:56,020 | INFO     | train | Fold 4 -- RMSE: 41.77  MAE: 22.62
+2026-05-31 05:03:00,868 | INFO     | train | Fold 5 -- RMSE: 43.31  MAE: 22.10
+2026-05-31 05:03:00,868 | INFO     | train | CV RMSE: 42.50 +/- 2.55
+2026-05-31 05:03:00,868 | INFO     | train | CV MAE : 22.21 +/- 0.30
+2026-05-31 05:03:00,893 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 05:03:04,785 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:03:04,812 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050233_xgboost_strategyA_flat_clean\model.pkl
+2026-05-31 05:03:04,814 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050233_xgboost_strategyA_flat_clean\cv_results.json
+2026-05-31 05:03:05,288 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050233_xgboost_strategyA_flat_clean
+2026-05-31 05:03:05,290 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050233_xgboost_strategyA_flat_clean\run_config.json
+2026-05-31 05:03:05,467 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050233_xgboost_strategyA_flat_clean\predictions.csv (min: 16.02, median: 86.10, max: 2169.85)
+2026-05-31 05:03:05,469 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:03:05,502 | INFO     | train | All assertions passed.
+2026-05-31 05:03:05,502 | INFO     | train | ======================================================================
+2026-05-31 05:03:05,502 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:03:05,502 | INFO     | train |   Run ID               : run_20260531_050233_xgboost_strategyA_flat_clean
+2026-05-31 05:03:05,503 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 05:03:05,503 | INFO     | train |   Strategy             : strategyA_flat_clean
+2026-05-31 05:03:05,503 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:03:05,504 | INFO     | train |   Features             : 39 (4 categorical)
+2026-05-31 05:03:05,504 | INFO     | train |   CV RMSE              : 42.50 +/- 2.55
+2026-05-31 05:03:05,504 | INFO     | train |   CV MAE               : 22.21 +/- 0.30
+2026-05-31 05:03:05,505 | INFO     | train |   GPU used             : True
+2026-05-31 05:03:05,505 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050233_xgboost_strategyA_flat_clean
+2026-05-31 05:03:05,505 | INFO     | train |   Duration             : 31.6 seconds
+2026-05-31 05:03:05,505 | INFO     | train | ======================================================================
+2026-05-31 05:03:05,506 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:03:05,506 | INFO     | train | ======================================================================
+2026-05-31 05:03:07,736 | INFO     | train | ======================================================================
+2026-05-31 05:03:07,736 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:03:07,736 | INFO     | train |   Run ID    : run_20260531_050307_lightgbm_strategyA_flat_clean
+2026-05-31 05:03:07,736 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 05:03:07,736 | INFO     | train |   Strategy  : strategyA_flat_clean
+2026-05-31 05:03:07,737 | INFO     | train |   Notes     : Flat-only, boolean noise removed, LightGBM
+2026-05-31 05:03:07,737 | INFO     | train | ======================================================================
+2026-05-31 05:03:07,824 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:03:07,825 | INFO     | train | Training with 39 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'Latitude', 'Longitude', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 05:03:07,847 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:03:07,850 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:03:09,008 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 05:03:13,175 | INFO     | train | Fold 1 -- RMSE: 41.77  MAE: 23.60
+2026-05-31 05:03:15,578 | INFO     | train | Fold 2 -- RMSE: 49.82  MAE: 24.02
+2026-05-31 05:03:17,937 | INFO     | train | Fold 3 -- RMSE: 42.85  MAE: 23.38
+2026-05-31 05:03:20,410 | INFO     | train | Fold 4 -- RMSE: 41.60  MAE: 23.78
+2026-05-31 05:03:22,840 | INFO     | train | Fold 5 -- RMSE: 44.57  MAE: 23.13
+2026-05-31 05:03:22,841 | INFO     | train | CV RMSE: 44.12 +/- 3.04
+2026-05-31 05:03:22,841 | INFO     | train | CV MAE : 23.58 +/- 0.31
+2026-05-31 05:03:22,850 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 05:03:25,516 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:03:25,625 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050307_lightgbm_strategyA_flat_clean\model.pkl
+2026-05-31 05:03:25,627 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050307_lightgbm_strategyA_flat_clean\cv_results.json
+2026-05-31 05:03:26,046 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050307_lightgbm_strategyA_flat_clean
+2026-05-31 05:03:26,047 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050307_lightgbm_strategyA_flat_clean\run_config.json
+2026-05-31 05:03:26,516 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050307_lightgbm_strategyA_flat_clean\predictions.csv (min: 8.25, median: 88.52, max: 2175.76)
+2026-05-31 05:03:26,519 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:03:26,524 | INFO     | train | All assertions passed.
+2026-05-31 05:03:26,524 | INFO     | train | ======================================================================
+2026-05-31 05:03:26,524 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:03:26,524 | INFO     | train |   Run ID               : run_20260531_050307_lightgbm_strategyA_flat_clean
+2026-05-31 05:03:26,524 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 05:03:26,524 | INFO     | train |   Strategy             : strategyA_flat_clean
+2026-05-31 05:03:26,524 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:03:26,525 | INFO     | train |   Features             : 39 (4 categorical)
+2026-05-31 05:03:26,525 | INFO     | train |   CV RMSE              : 44.12 +/- 3.04
+2026-05-31 05:03:26,525 | INFO     | train |   CV MAE               : 23.58 +/- 0.31
+2026-05-31 05:03:26,525 | INFO     | train |   GPU used             : False
+2026-05-31 05:03:26,526 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_050307_lightgbm_strategyA_flat_clean
+2026-05-31 05:03:26,526 | INFO     | train |   Duration             : 18.8 seconds
+2026-05-31 05:03:26,526 | INFO     | train | ======================================================================
+2026-05-31 05:03:26,526 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:03:26,526 | INFO     | train | ======================================================================
+2026-05-31 05:26:30,265 | INFO     | train | ======================================================================
+2026-05-31 05:26:30,265 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:26:30,265 | INFO     | train |   Run ID    : run_20260531_052630_randomforest_strategyA_gravity_only
+2026-05-31 05:26:30,265 | INFO     | train |   Algorithm : randomforest
+2026-05-31 05:26:30,265 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 05:26:30,265 | INFO     | train |   Notes     : S19: Gravity-only with Random Forest (XAI focus)
+2026-05-31 05:26:30,265 | INFO     | train | ======================================================================
+2026-05-31 05:26:30,350 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:26:30,350 | INFO     | train | Training with 32 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 05:26:30,381 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:26:30,382 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:26:31,506 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 05:26:43,621 | INFO     | train | Fold 1 -- RMSE: 38.99  MAE: 21.45
+2026-05-31 05:26:54,275 | INFO     | train | Fold 2 -- RMSE: 43.57  MAE: 21.67
+2026-05-31 05:27:05,015 | INFO     | train | Fold 3 -- RMSE: 38.91  MAE: 20.89
+2026-05-31 05:27:15,824 | INFO     | train | Fold 4 -- RMSE: 40.80  MAE: 22.03
+2026-05-31 05:27:26,711 | INFO     | train | Fold 5 -- RMSE: 44.84  MAE: 21.54
+2026-05-31 05:27:26,712 | INFO     | train | CV RMSE: 41.42 +/- 2.40
+2026-05-31 05:27:26,712 | INFO     | train | CV MAE : 21.52 +/- 0.37
+2026-05-31 05:27:26,742 | INFO     | train | Training final randomforest model on full training set (19960 samples)...
+2026-05-31 05:27:41,070 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:27:41,321 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052630_randomforest_strategyA_gravity_only\model.pkl
+2026-05-31 05:27:41,324 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052630_randomforest_strategyA_gravity_only\cv_results.json
+2026-05-31 05:27:41,860 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052630_randomforest_strategyA_gravity_only
+2026-05-31 05:27:41,862 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052630_randomforest_strategyA_gravity_only\run_config.json
+2026-05-31 05:27:42,234 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052630_randomforest_strategyA_gravity_only\predictions.csv (min: 17.24, median: 88.59, max: 2150.51)
+2026-05-31 05:27:42,236 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:27:42,319 | INFO     | train | All assertions passed.
+2026-05-31 05:27:42,319 | INFO     | train | ======================================================================
+2026-05-31 05:27:42,320 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:27:42,320 | INFO     | train |   Run ID               : run_20260531_052630_randomforest_strategyA_gravity_only
+2026-05-31 05:27:42,321 | INFO     | train |   Algorithm            : randomforest
+2026-05-31 05:27:42,321 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 05:27:42,321 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:27:42,321 | INFO     | train |   Features             : 32 (4 categorical)
+2026-05-31 05:27:42,321 | INFO     | train |   CV RMSE              : 41.42 +/- 2.40
+2026-05-31 05:27:42,322 | INFO     | train |   CV MAE               : 21.52 +/- 0.37
+2026-05-31 05:27:42,322 | INFO     | train |   GPU used             : False
+2026-05-31 05:27:42,322 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052630_randomforest_strategyA_gravity_only
+2026-05-31 05:27:42,322 | INFO     | train |   Duration             : 72.0 seconds
+2026-05-31 05:27:42,322 | INFO     | train | ======================================================================
+2026-05-31 05:27:42,322 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:27:42,322 | INFO     | train | ======================================================================
+2026-05-31 05:27:44,235 | INFO     | train | ======================================================================
+2026-05-31 05:27:44,235 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:27:44,235 | INFO     | train |   Run ID    : run_20260531_052744_randomforest_strategyC
+2026-05-31 05:27:44,236 | INFO     | train |   Algorithm : randomforest
+2026-05-31 05:27:44,236 | INFO     | train |   Strategy  : strategyC
+2026-05-31 05:27:44,236 | INFO     | train |   Notes     : S20: Strategy C with Random Forest (XAI focus)
+2026-05-31 05:27:44,236 | INFO     | train | ======================================================================
+2026-05-31 05:27:44,304 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:27:44,308 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 05:27:44,309 | INFO     | train | Training with 55 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province', 'gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 05:27:44,334 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:27:44,335 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:27:45,422 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 05:28:00,597 | INFO     | train | Fold 1 -- RMSE: 39.59  MAE: 21.58
+2026-05-31 05:28:15,468 | INFO     | train | Fold 2 -- RMSE: 44.12  MAE: 21.69
+2026-05-31 05:28:29,784 | INFO     | train | Fold 3 -- RMSE: 38.77  MAE: 20.97
+2026-05-31 05:28:43,712 | INFO     | train | Fold 4 -- RMSE: 41.05  MAE: 22.02
+2026-05-31 05:28:58,219 | INFO     | train | Fold 5 -- RMSE: 45.24  MAE: 21.65
+2026-05-31 05:28:58,220 | INFO     | train | CV RMSE: 41.76 +/- 2.52
+2026-05-31 05:28:58,220 | INFO     | train | CV MAE : 21.58 +/- 0.34
+2026-05-31 05:28:58,252 | INFO     | train | Training final randomforest model on full training set (19960 samples)...
+2026-05-31 05:29:16,095 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:29:16,431 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052744_randomforest_strategyC\model.pkl
+2026-05-31 05:29:16,432 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052744_randomforest_strategyC\cv_results.json
+2026-05-31 05:29:16,978 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052744_randomforest_strategyC
+2026-05-31 05:29:16,979 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052744_randomforest_strategyC\run_config.json
+2026-05-31 05:29:16,988 | INFO     | train | Added 4 interaction features: ['gravity_x_cooler', 'gravity_x_active_months', 'catchment_x_cooler', 'transport_x_school']
+2026-05-31 05:29:17,362 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052744_randomforest_strategyC\predictions.csv (min: 17.11, median: 88.55, max: 2147.99)
+2026-05-31 05:29:17,364 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:29:17,425 | INFO     | train | All assertions passed.
+2026-05-31 05:29:17,426 | INFO     | train | ======================================================================
+2026-05-31 05:29:17,426 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:29:17,426 | INFO     | train |   Run ID               : run_20260531_052744_randomforest_strategyC
+2026-05-31 05:29:17,426 | INFO     | train |   Algorithm            : randomforest
+2026-05-31 05:29:17,426 | INFO     | train |   Strategy             : strategyC
+2026-05-31 05:29:17,427 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:29:17,427 | INFO     | train |   Features             : 55 (4 categorical)
+2026-05-31 05:29:17,427 | INFO     | train |   CV RMSE              : 41.76 +/- 2.52
+2026-05-31 05:29:17,428 | INFO     | train |   CV MAE               : 21.58 +/- 0.34
+2026-05-31 05:29:17,428 | INFO     | train |   GPU used             : False
+2026-05-31 05:29:17,428 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052744_randomforest_strategyC
+2026-05-31 05:29:17,428 | INFO     | train |   Duration             : 93.1 seconds
+2026-05-31 05:29:17,428 | INFO     | train | ======================================================================
+2026-05-31 05:29:17,428 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:29:17,428 | INFO     | train | ======================================================================
+2026-05-31 05:29:19,478 | INFO     | train | ======================================================================
+2026-05-31 05:29:19,478 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 05:29:19,478 | INFO     | train |   Run ID    : run_20260531_052919_randomforest_strategyA_flat_only
+2026-05-31 05:29:19,478 | INFO     | train |   Algorithm : randomforest
+2026-05-31 05:29:19,478 | INFO     | train |   Strategy  : strategyA_flat_only
+2026-05-31 05:29:19,479 | INFO     | train |   Notes     : S21: Flat-only with Random Forest (XAI focus)
+2026-05-31 05:29:19,479 | INFO     | train | ======================================================================
+2026-05-31 05:29:19,551 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 05:29:19,551 | INFO     | train | Training with 43 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'schools_500m', 'schools_1000m', 'schools_2000m', 'hospitals_500m', 'hospitals_1000m', 'hospitals_2000m', 'transport_500m', 'transport_1000m', 'transport_2000m', 'markets_500m', 'markets_1000m', 'markets_2000m', 'worship_500m', 'worship_1000m', 'worship_2000m', 'hospitality_500m', 'hospitality_1000m', 'hospitality_2000m', 'footfall_score', 'poi_data_available', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 05:29:19,572 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 05:29:19,574 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 05:29:20,604 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 05:29:30,690 | INFO     | train | Fold 1 -- RMSE: 39.02  MAE: 21.36
+2026-05-31 05:29:40,495 | INFO     | train | Fold 2 -- RMSE: 43.99  MAE: 21.57
+2026-05-31 05:29:49,754 | INFO     | train | Fold 3 -- RMSE: 39.01  MAE: 20.93
+2026-05-31 05:29:59,002 | INFO     | train | Fold 4 -- RMSE: 40.42  MAE: 21.81
+2026-05-31 05:30:08,387 | INFO     | train | Fold 5 -- RMSE: 44.77  MAE: 21.53
+2026-05-31 05:30:08,387 | INFO     | train | CV RMSE: 41.44 +/- 2.47
+2026-05-31 05:30:08,387 | INFO     | train | CV MAE : 21.44 +/- 0.29
+2026-05-31 05:30:08,417 | INFO     | train | Training final randomforest model on full training set (19960 samples)...
+2026-05-31 05:30:19,480 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 05:30:19,712 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052919_randomforest_strategyA_flat_only\model.pkl
+2026-05-31 05:30:19,723 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052919_randomforest_strategyA_flat_only\cv_results.json
+2026-05-31 05:30:20,268 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052919_randomforest_strategyA_flat_only
+2026-05-31 05:30:20,270 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052919_randomforest_strategyA_flat_only\run_config.json
+2026-05-31 05:30:20,604 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052919_randomforest_strategyA_flat_only\predictions.csv (min: 17.40, median: 88.61, max: 2149.14)
+2026-05-31 05:30:20,605 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 05:30:20,673 | INFO     | train | All assertions passed.
+2026-05-31 05:30:20,673 | INFO     | train | ======================================================================
+2026-05-31 05:30:20,673 | INFO     | train | TRAINING SUMMARY
+2026-05-31 05:30:20,674 | INFO     | train |   Run ID               : run_20260531_052919_randomforest_strategyA_flat_only
+2026-05-31 05:30:20,674 | INFO     | train |   Algorithm            : randomforest
+2026-05-31 05:30:20,674 | INFO     | train |   Strategy             : strategyA_flat_only
+2026-05-31 05:30:20,674 | INFO     | train |   Training samples     : 19960
+2026-05-31 05:30:20,674 | INFO     | train |   Features             : 43 (4 categorical)
+2026-05-31 05:30:20,675 | INFO     | train |   CV RMSE              : 41.44 +/- 2.47
+2026-05-31 05:30:20,675 | INFO     | train |   CV MAE               : 21.44 +/- 0.29
+2026-05-31 05:30:20,675 | INFO     | train |   GPU used             : False
+2026-05-31 05:30:20,676 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_052919_randomforest_strategyA_flat_only
+2026-05-31 05:30:20,676 | INFO     | train |   Duration             : 61.1 seconds
+2026-05-31 05:30:20,676 | INFO     | train | ======================================================================
+2026-05-31 05:30:20,676 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 05:30:20,676 | INFO     | train | ======================================================================
+2026-05-31 06:04:26,200 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:04:29,650 | INFO     | train | Fold 1 -- RMSE: 40.15  MAE: 22.67
+2026-05-31 06:04:31,700 | INFO     | train | Fold 2 -- RMSE: 48.02  MAE: 22.81
+2026-05-31 06:04:33,754 | INFO     | train | Fold 3 -- RMSE: 39.54  MAE: 21.86
+2026-05-31 06:04:35,765 | INFO     | train | Fold 4 -- RMSE: 39.48  MAE: 22.35
+2026-05-31 06:04:37,755 | INFO     | train | Fold 5 -- RMSE: 44.05  MAE: 22.00
+2026-05-31 06:04:37,755 | INFO     | train | CV RMSE: 42.25 +/- 3.34
+2026-05-31 06:04:37,755 | INFO     | train | CV MAE : 22.34 +/- 0.37
+2026-05-31 06:04:37,777 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:04:43,834 | INFO     | train | Fold 1 -- RMSE: 39.58  MAE: 22.78
+2026-05-31 06:04:49,930 | INFO     | train | Fold 2 -- RMSE: 47.03  MAE: 23.36
+2026-05-31 06:04:56,185 | INFO     | train | Fold 3 -- RMSE: 40.83  MAE: 22.17
+2026-05-31 06:05:02,527 | INFO     | train | Fold 4 -- RMSE: 39.51  MAE: 23.18
+2026-05-31 06:05:08,859 | INFO     | train | Fold 5 -- RMSE: 43.83  MAE: 22.68
+2026-05-31 06:05:08,859 | INFO     | train | CV RMSE: 42.16 +/- 2.90
+2026-05-31 06:05:08,860 | INFO     | train | CV MAE : 22.83 +/- 0.41
+2026-05-31 06:05:08,892 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:05:12,595 | INFO     | train | Fold 1 -- RMSE: 43.91  MAE: 24.74
+2026-05-31 06:05:16,358 | INFO     | train | Fold 2 -- RMSE: 50.06  MAE: 25.20
+2026-05-31 06:05:20,228 | INFO     | train | Fold 3 -- RMSE: 43.07  MAE: 23.78
+2026-05-31 06:05:23,966 | INFO     | train | Fold 4 -- RMSE: 42.96  MAE: 24.52
+2026-05-31 06:05:27,749 | INFO     | train | Fold 5 -- RMSE: 46.96  MAE: 24.10
+2026-05-31 06:05:27,750 | INFO     | train | CV RMSE: 45.39 +/- 2.75
+2026-05-31 06:05:27,750 | INFO     | train | CV MAE : 24.47 +/- 0.50
+2026-05-31 06:05:27,782 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:05:31,915 | INFO     | train | Fold 1 -- RMSE: 39.10  MAE: 22.24
+2026-05-31 06:05:36,098 | INFO     | train | Fold 2 -- RMSE: 47.76  MAE: 22.67
+2026-05-31 06:05:40,035 | INFO     | train | Fold 3 -- RMSE: 38.44  MAE: 21.54
+2026-05-31 06:05:43,901 | INFO     | train | Fold 4 -- RMSE: 39.38  MAE: 22.28
+2026-05-31 06:05:48,053 | INFO     | train | Fold 5 -- RMSE: 43.74  MAE: 21.84
+2026-05-31 06:05:48,054 | INFO     | train | CV RMSE: 41.68 +/- 3.57
+2026-05-31 06:05:48,054 | INFO     | train | CV MAE : 22.11 +/- 0.39
+2026-05-31 06:05:48,076 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:05:58,746 | INFO     | train | Fold 1 -- RMSE: 41.97  MAE: 23.55
+2026-05-31 06:06:09,641 | INFO     | train | Fold 2 -- RMSE: 48.12  MAE: 23.97
+2026-05-31 06:06:20,604 | INFO     | train | Fold 3 -- RMSE: 41.08  MAE: 22.64
+2026-05-31 06:06:31,361 | INFO     | train | Fold 4 -- RMSE: 40.87  MAE: 23.71
+2026-05-31 06:06:42,234 | INFO     | train | Fold 5 -- RMSE: 44.36  MAE: 23.18
+2026-05-31 06:06:42,235 | INFO     | train | CV RMSE: 43.28 +/- 2.72
+2026-05-31 06:06:42,235 | INFO     | train | CV MAE : 23.41 +/- 0.46
+2026-05-31 06:06:42,265 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:06:52,988 | INFO     | train | Fold 1 -- RMSE: 41.94  MAE: 23.78
+2026-05-31 06:07:04,054 | INFO     | train | Fold 2 -- RMSE: 49.08  MAE: 24.19
+2026-05-31 06:07:15,505 | INFO     | train | Fold 3 -- RMSE: 41.18  MAE: 22.84
+2026-05-31 06:07:26,825 | INFO     | train | Fold 4 -- RMSE: 40.72  MAE: 23.66
+2026-05-31 06:07:38,358 | INFO     | train | Fold 5 -- RMSE: 45.59  MAE: 23.64
+2026-05-31 06:07:38,358 | INFO     | train | CV RMSE: 43.70 +/- 3.19
+2026-05-31 06:07:38,358 | INFO     | train | CV MAE : 23.62 +/- 0.44
+2026-05-31 06:07:38,389 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:07:43,981 | INFO     | train | Fold 1 -- RMSE: 38.62  MAE: 21.96
+2026-05-31 06:07:49,558 | INFO     | train | Fold 2 -- RMSE: 47.07  MAE: 22.45
+2026-05-31 06:07:54,800 | INFO     | train | Fold 3 -- RMSE: 39.56  MAE: 21.33
+2026-05-31 06:08:00,163 | INFO     | train | Fold 4 -- RMSE: 38.93  MAE: 22.46
+2026-05-31 06:08:05,511 | INFO     | train | Fold 5 -- RMSE: 43.79  MAE: 21.79
+2026-05-31 06:08:05,511 | INFO     | train | CV RMSE: 41.59 +/- 3.31
+2026-05-31 06:08:05,511 | INFO     | train | CV MAE : 22.00 +/- 0.42
+2026-05-31 06:08:05,534 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:08:07,806 | INFO     | train | Fold 1 -- RMSE: 45.44  MAE: 25.22
+2026-05-31 06:08:10,180 | INFO     | train | Fold 2 -- RMSE: 51.03  MAE: 25.09
+2026-05-31 06:08:12,554 | INFO     | train | Fold 3 -- RMSE: 45.39  MAE: 24.28
+2026-05-31 06:08:14,904 | INFO     | train | Fold 4 -- RMSE: 43.76  MAE: 24.58
+2026-05-31 06:08:17,283 | INFO     | train | Fold 5 -- RMSE: 48.14  MAE: 24.39
+2026-05-31 06:08:17,284 | INFO     | train | CV RMSE: 46.75 +/- 2.56
+2026-05-31 06:08:17,284 | INFO     | train | CV MAE : 24.71 +/- 0.38
+2026-05-31 06:08:17,299 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:08:19,569 | INFO     | train | Fold 1 -- RMSE: 39.22  MAE: 22.78
+2026-05-31 06:08:21,866 | INFO     | train | Fold 2 -- RMSE: 45.97  MAE: 23.14
+2026-05-31 06:08:24,126 | INFO     | train | Fold 3 -- RMSE: 40.41  MAE: 22.23
+2026-05-31 06:08:26,408 | INFO     | train | Fold 4 -- RMSE: 40.70  MAE: 22.66
+2026-05-31 06:08:28,622 | INFO     | train | Fold 5 -- RMSE: 43.79  MAE: 22.16
+2026-05-31 06:08:28,623 | INFO     | train | CV RMSE: 42.02 +/- 2.49
+2026-05-31 06:08:28,623 | INFO     | train | CV MAE : 22.59 +/- 0.36
+2026-05-31 06:08:28,646 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:08:32,531 | INFO     | train | Fold 1 -- RMSE: 39.79  MAE: 22.12
+2026-05-31 06:08:36,559 | INFO     | train | Fold 2 -- RMSE: 46.27  MAE: 22.69
+2026-05-31 06:08:40,552 | INFO     | train | Fold 3 -- RMSE: 40.89  MAE: 21.54
+2026-05-31 06:08:44,672 | INFO     | train | Fold 4 -- RMSE: 39.01  MAE: 22.47
+2026-05-31 06:08:48,636 | INFO     | train | Fold 5 -- RMSE: 43.68  MAE: 22.05
+2026-05-31 06:08:48,637 | INFO     | train | CV RMSE: 41.93 +/- 2.69
+2026-05-31 06:08:48,637 | INFO     | train | CV MAE : 22.17 +/- 0.40
+2026-05-31 06:08:48,682 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:09:03,628 | INFO     | train | Fold 1 -- RMSE: 43.66  MAE: 23.72
+2026-05-31 06:09:18,710 | INFO     | train | Fold 2 -- RMSE: 48.49  MAE: 23.49
+2026-05-31 06:09:33,264 | INFO     | train | Fold 3 -- RMSE: 41.94  MAE: 22.30
+2026-05-31 06:09:47,970 | INFO     | train | Fold 4 -- RMSE: 41.76  MAE: 23.52
+2026-05-31 06:10:03,082 | INFO     | train | Fold 5 -- RMSE: 47.26  MAE: 23.73
+2026-05-31 06:10:03,082 | INFO     | train | CV RMSE: 44.62 +/- 2.76
+2026-05-31 06:10:03,082 | INFO     | train | CV MAE : 23.35 +/- 0.54
+2026-05-31 06:10:03,129 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:10:08,884 | INFO     | train | Fold 1 -- RMSE: 37.33  MAE: 21.27
+2026-05-31 06:10:14,812 | INFO     | train | Fold 2 -- RMSE: 45.43  MAE: 21.84
+2026-05-31 06:10:20,426 | INFO     | train | Fold 3 -- RMSE: 39.87  MAE: 20.98
+2026-05-31 06:10:26,656 | INFO     | train | Fold 4 -- RMSE: 38.31  MAE: 21.66
+2026-05-31 06:10:32,747 | INFO     | train | Fold 5 -- RMSE: 43.51  MAE: 21.35
+2026-05-31 06:10:32,747 | INFO     | train | CV RMSE: 40.89 +/- 3.09
+2026-05-31 06:10:32,748 | INFO     | train | CV MAE : 21.42 +/- 0.30
+2026-05-31 06:10:32,789 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:10:40,406 | INFO     | train | Fold 1 -- RMSE: 37.60  MAE: 21.49
+2026-05-31 06:10:48,003 | INFO     | train | Fold 2 -- RMSE: 46.39  MAE: 21.97
+2026-05-31 06:10:55,351 | INFO     | train | Fold 3 -- RMSE: 40.75  MAE: 21.10
+2026-05-31 06:11:02,566 | INFO     | train | Fold 4 -- RMSE: 38.75  MAE: 21.68
+2026-05-31 06:11:10,115 | INFO     | train | Fold 5 -- RMSE: 42.64  MAE: 21.58
+2026-05-31 06:11:10,116 | INFO     | train | CV RMSE: 41.22 +/- 3.10
+2026-05-31 06:11:10,116 | INFO     | train | CV MAE : 21.56 +/- 0.28
+2026-05-31 06:11:10,153 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:11:17,612 | INFO     | train | Fold 1 -- RMSE: 37.63  MAE: 21.39
+2026-05-31 06:11:24,998 | INFO     | train | Fold 2 -- RMSE: 46.55  MAE: 21.83
+2026-05-31 06:11:32,438 | INFO     | train | Fold 3 -- RMSE: 42.12  MAE: 21.12
+2026-05-31 06:11:39,755 | INFO     | train | Fold 4 -- RMSE: 39.07  MAE: 21.73
+2026-05-31 06:11:47,039 | INFO     | train | Fold 5 -- RMSE: 42.54  MAE: 21.42
+2026-05-31 06:11:47,039 | INFO     | train | CV RMSE: 41.58 +/- 3.09
+2026-05-31 06:11:47,039 | INFO     | train | CV MAE : 21.50 +/- 0.25
+2026-05-31 06:11:47,081 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:11:52,576 | INFO     | train | Fold 1 -- RMSE: 39.23  MAE: 22.32
+2026-05-31 06:11:58,001 | INFO     | train | Fold 2 -- RMSE: 45.88  MAE: 22.57
+2026-05-31 06:12:03,457 | INFO     | train | Fold 3 -- RMSE: 39.60  MAE: 21.67
+2026-05-31 06:12:08,521 | INFO     | train | Fold 4 -- RMSE: 39.35  MAE: 22.44
+2026-05-31 06:12:13,792 | INFO     | train | Fold 5 -- RMSE: 43.57  MAE: 22.27
+2026-05-31 06:12:13,793 | INFO     | train | CV RMSE: 41.52 +/- 2.71
+2026-05-31 06:12:13,793 | INFO     | train | CV MAE : 22.25 +/- 0.31
+2026-05-31 06:12:13,832 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:12:19,691 | INFO     | train | Fold 1 -- RMSE: 37.49  MAE: 21.56
+2026-05-31 06:12:25,480 | INFO     | train | Fold 2 -- RMSE: 46.68  MAE: 22.34
+2026-05-31 06:12:31,377 | INFO     | train | Fold 3 -- RMSE: 39.98  MAE: 21.25
+2026-05-31 06:12:37,183 | INFO     | train | Fold 4 -- RMSE: 38.78  MAE: 21.92
+2026-05-31 06:12:42,933 | INFO     | train | Fold 5 -- RMSE: 43.26  MAE: 21.60
+2026-05-31 06:12:42,933 | INFO     | train | CV RMSE: 41.24 +/- 3.33
+2026-05-31 06:12:42,934 | INFO     | train | CV MAE : 21.73 +/- 0.37
+2026-05-31 06:12:42,971 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:12:52,513 | INFO     | train | Fold 1 -- RMSE: 40.95  MAE: 23.67
+2026-05-31 06:13:02,207 | INFO     | train | Fold 2 -- RMSE: 48.66  MAE: 24.17
+2026-05-31 06:13:11,967 | INFO     | train | Fold 3 -- RMSE: 43.53  MAE: 23.37
+2026-05-31 06:13:21,856 | INFO     | train | Fold 4 -- RMSE: 42.39  MAE: 24.01
+2026-05-31 06:13:31,833 | INFO     | train | Fold 5 -- RMSE: 46.31  MAE: 24.16
+2026-05-31 06:13:31,833 | INFO     | train | CV RMSE: 44.37 +/- 2.78
+2026-05-31 06:13:31,833 | INFO     | train | CV MAE : 23.88 +/- 0.31
+2026-05-31 06:13:31,869 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:13:36,642 | INFO     | train | Fold 1 -- RMSE: 37.56  MAE: 21.62
+2026-05-31 06:13:41,407 | INFO     | train | Fold 2 -- RMSE: 45.20  MAE: 22.16
+2026-05-31 06:13:46,059 | INFO     | train | Fold 3 -- RMSE: 38.50  MAE: 21.25
+2026-05-31 06:13:50,835 | INFO     | train | Fold 4 -- RMSE: 38.82  MAE: 21.96
+2026-05-31 06:13:55,646 | INFO     | train | Fold 5 -- RMSE: 43.21  MAE: 21.75
+2026-05-31 06:13:55,647 | INFO     | train | CV RMSE: 40.66 +/- 2.99
+2026-05-31 06:13:55,647 | INFO     | train | CV MAE : 21.75 +/- 0.31
+2026-05-31 06:13:55,677 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:14:10,866 | INFO     | train | Fold 1 -- RMSE: 43.72  MAE: 24.01
+2026-05-31 06:14:25,682 | INFO     | train | Fold 2 -- RMSE: 49.91  MAE: 24.13
+2026-05-31 06:14:41,086 | INFO     | train | Fold 3 -- RMSE: 41.53  MAE: 22.60
+2026-05-31 06:14:56,347 | INFO     | train | Fold 4 -- RMSE: 42.31  MAE: 23.66
+2026-05-31 06:15:11,564 | INFO     | train | Fold 5 -- RMSE: 47.19  MAE: 23.78
+2026-05-31 06:15:11,565 | INFO     | train | CV RMSE: 44.93 +/- 3.16
+2026-05-31 06:15:11,565 | INFO     | train | CV MAE : 23.64 +/- 0.54
+2026-05-31 06:15:11,607 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:15:16,179 | INFO     | train | Fold 1 -- RMSE: 37.82  MAE: 21.70
+2026-05-31 06:15:20,951 | INFO     | train | Fold 2 -- RMSE: 46.01  MAE: 22.09
+2026-05-31 06:15:25,555 | INFO     | train | Fold 3 -- RMSE: 39.09  MAE: 21.36
+2026-05-31 06:15:30,204 | INFO     | train | Fold 4 -- RMSE: 38.57  MAE: 21.97
+2026-05-31 06:15:34,819 | INFO     | train | Fold 5 -- RMSE: 43.56  MAE: 21.96
+2026-05-31 06:15:34,820 | INFO     | train | CV RMSE: 41.01 +/- 3.20
+2026-05-31 06:15:34,820 | INFO     | train | CV MAE : 21.82 +/- 0.26
+2026-05-31 06:15:38,096 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:15:43,543 | INFO     | train | Fold 1 -- RMSE: 44.58  MAE: 24.96
+2026-05-31 06:15:44,935 | INFO     | train | Fold 2 -- RMSE: 50.52  MAE: 25.63
+2026-05-31 06:15:46,196 | INFO     | train | Fold 3 -- RMSE: 44.06  MAE: 24.42
+2026-05-31 06:15:47,440 | INFO     | train | Fold 4 -- RMSE: 42.93  MAE: 25.00
+2026-05-31 06:15:48,819 | INFO     | train | Fold 5 -- RMSE: 47.50  MAE: 24.78
+2026-05-31 06:15:48,821 | INFO     | train | CV RMSE: 45.92 +/- 2.75
+2026-05-31 06:15:48,821 | INFO     | train | CV MAE : 24.96 +/- 0.39
+2026-05-31 06:15:48,828 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:15:51,815 | INFO     | train | Fold 1 -- RMSE: 47.82  MAE: 27.53
+2026-05-31 06:15:54,949 | INFO     | train | Fold 2 -- RMSE: 52.24  MAE: 27.39
+2026-05-31 06:15:57,743 | INFO     | train | Fold 3 -- RMSE: 46.02  MAE: 26.06
+2026-05-31 06:16:00,760 | INFO     | train | Fold 4 -- RMSE: 45.99  MAE: 27.23
+2026-05-31 06:16:03,490 | INFO     | train | Fold 5 -- RMSE: 48.73  MAE: 26.33
+2026-05-31 06:16:03,490 | INFO     | train | CV RMSE: 48.16 +/- 2.29
+2026-05-31 06:16:03,490 | INFO     | train | CV MAE : 26.91 +/- 0.59
+2026-05-31 06:16:03,499 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:16:05,304 | INFO     | train | Fold 1 -- RMSE: 46.42  MAE: 25.20
+2026-05-31 06:16:07,010 | INFO     | train | Fold 2 -- RMSE: 52.28  MAE: 25.45
+2026-05-31 06:16:08,456 | INFO     | train | Fold 3 -- RMSE: 43.24  MAE: 24.22
+2026-05-31 06:16:10,171 | INFO     | train | Fold 4 -- RMSE: 45.68  MAE: 24.96
+2026-05-31 06:16:11,874 | INFO     | train | Fold 5 -- RMSE: 48.64  MAE: 24.83
+2026-05-31 06:16:11,875 | INFO     | train | CV RMSE: 47.25 +/- 3.05
+2026-05-31 06:16:11,875 | INFO     | train | CV MAE : 24.93 +/- 0.42
+2026-05-31 06:16:11,880 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:16:14,526 | INFO     | train | Fold 1 -- RMSE: 48.98  MAE: 27.67
+2026-05-31 06:16:17,522 | INFO     | train | Fold 2 -- RMSE: 53.13  MAE: 27.95
+2026-05-31 06:16:20,129 | INFO     | train | Fold 3 -- RMSE: 46.77  MAE: 26.56
+2026-05-31 06:16:23,715 | INFO     | train | Fold 4 -- RMSE: 46.58  MAE: 27.41
+2026-05-31 06:16:26,639 | INFO     | train | Fold 5 -- RMSE: 50.00  MAE: 27.10
+2026-05-31 06:16:26,640 | INFO     | train | CV RMSE: 49.09 +/- 2.40
+2026-05-31 06:16:26,640 | INFO     | train | CV MAE : 27.34 +/- 0.48
+2026-05-31 06:16:26,643 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:16:28,008 | INFO     | train | Fold 1 -- RMSE: 46.09  MAE: 24.38
+2026-05-31 06:16:29,456 | INFO     | train | Fold 2 -- RMSE: 51.69  MAE: 24.85
+2026-05-31 06:16:30,891 | INFO     | train | Fold 3 -- RMSE: 44.70  MAE: 23.80
+2026-05-31 06:16:32,396 | INFO     | train | Fold 4 -- RMSE: 44.56  MAE: 24.36
+2026-05-31 06:16:33,881 | INFO     | train | Fold 5 -- RMSE: 48.20  MAE: 23.72
+2026-05-31 06:16:33,881 | INFO     | train | CV RMSE: 47.05 +/- 2.66
+2026-05-31 06:16:33,881 | INFO     | train | CV MAE : 24.22 +/- 0.42
+2026-05-31 06:16:33,887 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:16:35,834 | INFO     | train | Fold 1 -- RMSE: 43.69  MAE: 24.03
+2026-05-31 06:16:37,731 | INFO     | train | Fold 2 -- RMSE: 51.63  MAE: 24.67
+2026-05-31 06:16:39,677 | INFO     | train | Fold 3 -- RMSE: 44.67  MAE: 23.11
+2026-05-31 06:16:41,542 | INFO     | train | Fold 4 -- RMSE: 44.53  MAE: 24.00
+2026-05-31 06:16:43,353 | INFO     | train | Fold 5 -- RMSE: 47.19  MAE: 23.56
+2026-05-31 06:16:43,354 | INFO     | train | CV RMSE: 46.34 +/- 2.89
+2026-05-31 06:16:43,354 | INFO     | train | CV MAE : 23.87 +/- 0.52
+2026-05-31 06:16:43,357 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:16:45,903 | INFO     | train | Fold 1 -- RMSE: 41.44  MAE: 23.95
+2026-05-31 06:16:48,555 | INFO     | train | Fold 2 -- RMSE: 47.42  MAE: 24.63
+2026-05-31 06:16:51,182 | INFO     | train | Fold 3 -- RMSE: 42.31  MAE: 23.47
+2026-05-31 06:16:53,910 | INFO     | train | Fold 4 -- RMSE: 43.69  MAE: 24.97
+2026-05-31 06:16:56,563 | INFO     | train | Fold 5 -- RMSE: 45.65  MAE: 23.73
+2026-05-31 06:16:56,564 | INFO     | train | CV RMSE: 44.10 +/- 2.18
+2026-05-31 06:16:56,564 | INFO     | train | CV MAE : 24.15 +/- 0.56
+2026-05-31 06:16:56,575 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:16:58,774 | INFO     | train | Fold 1 -- RMSE: 42.81  MAE: 23.45
+2026-05-31 06:17:00,869 | INFO     | train | Fold 2 -- RMSE: 50.25  MAE: 24.21
+2026-05-31 06:17:02,950 | INFO     | train | Fold 3 -- RMSE: 40.83  MAE: 22.72
+2026-05-31 06:17:05,098 | INFO     | train | Fold 4 -- RMSE: 42.23  MAE: 24.09
+2026-05-31 06:17:07,276 | INFO     | train | Fold 5 -- RMSE: 45.40  MAE: 23.08
+2026-05-31 06:17:07,276 | INFO     | train | CV RMSE: 44.31 +/- 3.32
+2026-05-31 06:17:07,276 | INFO     | train | CV MAE : 23.51 +/- 0.57
+2026-05-31 06:17:07,282 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:17:12,338 | INFO     | train | Fold 1 -- RMSE: 41.70  MAE: 23.87
+2026-05-31 06:17:17,040 | INFO     | train | Fold 2 -- RMSE: 48.44  MAE: 24.38
+2026-05-31 06:17:22,326 | INFO     | train | Fold 3 -- RMSE: 41.63  MAE: 23.26
+2026-05-31 06:17:27,672 | INFO     | train | Fold 4 -- RMSE: 41.92  MAE: 24.51
+2026-05-31 06:17:32,950 | INFO     | train | Fold 5 -- RMSE: 45.88  MAE: 23.75
+2026-05-31 06:17:32,951 | INFO     | train | CV RMSE: 43.91 +/- 2.77
+2026-05-31 06:17:32,951 | INFO     | train | CV MAE : 23.95 +/- 0.45
+2026-05-31 06:17:32,954 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:17:37,053 | INFO     | train | Fold 1 -- RMSE: 42.10  MAE: 23.75
+2026-05-31 06:17:41,143 | INFO     | train | Fold 2 -- RMSE: 50.23  MAE: 24.29
+2026-05-31 06:17:45,224 | INFO     | train | Fold 3 -- RMSE: 40.78  MAE: 22.73
+2026-05-31 06:17:49,351 | INFO     | train | Fold 4 -- RMSE: 41.72  MAE: 23.80
+2026-05-31 06:17:53,543 | INFO     | train | Fold 5 -- RMSE: 44.66  MAE: 23.52
+2026-05-31 06:17:53,543 | INFO     | train | CV RMSE: 43.90 +/- 3.42
+2026-05-31 06:17:53,544 | INFO     | train | CV MAE : 23.62 +/- 0.51
+2026-05-31 06:17:53,564 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:17:59,596 | INFO     | train | Fold 1 -- RMSE: 40.28  MAE: 22.63
+2026-05-31 06:18:05,780 | INFO     | train | Fold 2 -- RMSE: 47.15  MAE: 22.98
+2026-05-31 06:18:11,790 | INFO     | train | Fold 3 -- RMSE: 38.97  MAE: 21.56
+2026-05-31 06:18:18,699 | INFO     | train | Fold 4 -- RMSE: 45.13  MAE: 23.16
+2026-05-31 06:18:24,936 | INFO     | train | Fold 5 -- RMSE: 43.95  MAE: 22.45
+2026-05-31 06:18:24,936 | INFO     | train | CV RMSE: 43.09 +/- 3.04
+2026-05-31 06:18:24,936 | INFO     | train | CV MAE : 22.56 +/- 0.56
+2026-05-31 06:18:24,959 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:18:31,304 | INFO     | train | Fold 1 -- RMSE: 40.32  MAE: 22.67
+2026-05-31 06:18:37,695 | INFO     | train | Fold 2 -- RMSE: 46.91  MAE: 22.92
+2026-05-31 06:18:44,170 | INFO     | train | Fold 3 -- RMSE: 38.53  MAE: 21.64
+2026-05-31 06:18:50,854 | INFO     | train | Fold 4 -- RMSE: 44.81  MAE: 23.01
+2026-05-31 06:18:57,366 | INFO     | train | Fold 5 -- RMSE: 44.10  MAE: 22.63
+2026-05-31 06:18:57,366 | INFO     | train | CV RMSE: 42.93 +/- 3.06
+2026-05-31 06:18:57,366 | INFO     | train | CV MAE : 22.58 +/- 0.49
+2026-05-31 06:18:57,386 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:19:03,899 | INFO     | train | Fold 1 -- RMSE: 40.18  MAE: 22.54
+2026-05-31 06:19:10,507 | INFO     | train | Fold 2 -- RMSE: 47.21  MAE: 22.95
+2026-05-31 06:19:19,244 | INFO     | train | Fold 3 -- RMSE: 38.73  MAE: 21.58
+2026-05-31 06:19:26,653 | INFO     | train | Fold 4 -- RMSE: 44.62  MAE: 22.84
+2026-05-31 06:19:34,354 | INFO     | train | Fold 5 -- RMSE: 44.23  MAE: 22.54
+2026-05-31 06:19:34,355 | INFO     | train | CV RMSE: 42.99 +/- 3.10
+2026-05-31 06:19:34,355 | INFO     | train | CV MAE : 22.49 +/- 0.48
+2026-05-31 06:19:34,380 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:19:39,925 | INFO     | train | Fold 1 -- RMSE: 38.51  MAE: 21.88
+2026-05-31 06:19:45,128 | INFO     | train | Fold 2 -- RMSE: 47.28  MAE: 22.58
+2026-05-31 06:19:50,702 | INFO     | train | Fold 3 -- RMSE: 39.37  MAE: 21.56
+2026-05-31 06:19:55,969 | INFO     | train | Fold 4 -- RMSE: 39.85  MAE: 22.39
+2026-05-31 06:20:01,588 | INFO     | train | Fold 5 -- RMSE: 42.71  MAE: 21.97
+2026-05-31 06:20:01,589 | INFO     | train | CV RMSE: 41.55 +/- 3.20
+2026-05-31 06:20:01,589 | INFO     | train | CV MAE : 22.08 +/- 0.37
+2026-05-31 06:20:01,613 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:20:06,223 | INFO     | train | Fold 1 -- RMSE: 40.64  MAE: 22.87
+2026-05-31 06:20:10,937 | INFO     | train | Fold 2 -- RMSE: 48.54  MAE: 23.44
+2026-05-31 06:20:15,864 | INFO     | train | Fold 3 -- RMSE: 43.01  MAE: 22.84
+2026-05-31 06:20:20,385 | INFO     | train | Fold 4 -- RMSE: 41.62  MAE: 23.37
+2026-05-31 06:20:25,240 | INFO     | train | Fold 5 -- RMSE: 44.09  MAE: 22.62
+2026-05-31 06:20:25,240 | INFO     | train | CV RMSE: 43.58 +/- 2.74
+2026-05-31 06:20:25,240 | INFO     | train | CV MAE : 23.03 +/- 0.32
+2026-05-31 06:20:25,259 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:20:29,864 | INFO     | train | Fold 1 -- RMSE: 40.48  MAE: 22.74
+2026-05-31 06:20:34,335 | INFO     | train | Fold 2 -- RMSE: 49.60  MAE: 23.46
+2026-05-31 06:20:38,856 | INFO     | train | Fold 3 -- RMSE: 41.28  MAE: 22.43
+2026-05-31 06:20:43,324 | INFO     | train | Fold 4 -- RMSE: 41.75  MAE: 23.06
+2026-05-31 06:20:47,938 | INFO     | train | Fold 5 -- RMSE: 44.19  MAE: 22.55
+2026-05-31 06:20:47,939 | INFO     | train | CV RMSE: 43.46 +/- 3.31
+2026-05-31 06:20:47,939 | INFO     | train | CV MAE : 22.85 +/- 0.37
+2026-05-31 06:20:47,957 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:20:51,044 | INFO     | train | Fold 1 -- RMSE: 40.47  MAE: 22.99
+2026-05-31 06:20:54,080 | INFO     | train | Fold 2 -- RMSE: 50.23  MAE: 23.98
+2026-05-31 06:20:57,174 | INFO     | train | Fold 3 -- RMSE: 40.47  MAE: 22.64
+2026-05-31 06:21:00,216 | INFO     | train | Fold 4 -- RMSE: 42.88  MAE: 23.84
+2026-05-31 06:21:03,441 | INFO     | train | Fold 5 -- RMSE: 46.34  MAE: 23.37
+2026-05-31 06:21:03,442 | INFO     | train | CV RMSE: 44.08 +/- 3.75
+2026-05-31 06:21:03,442 | INFO     | train | CV MAE : 23.36 +/- 0.50
+2026-05-31 06:21:03,460 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:21:08,296 | INFO     | train | Fold 1 -- RMSE: 39.27  MAE: 22.40
+2026-05-31 06:21:13,270 | INFO     | train | Fold 2 -- RMSE: 48.53  MAE: 22.95
+2026-05-31 06:21:18,627 | INFO     | train | Fold 3 -- RMSE: 39.76  MAE: 22.00
+2026-05-31 06:21:23,170 | INFO     | train | Fold 4 -- RMSE: 41.62  MAE: 22.77
+2026-05-31 06:21:28,344 | INFO     | train | Fold 5 -- RMSE: 43.40  MAE: 22.30
+2026-05-31 06:21:28,345 | INFO     | train | CV RMSE: 42.52 +/- 3.34
+2026-05-31 06:21:28,345 | INFO     | train | CV MAE : 22.48 +/- 0.34
+2026-05-31 06:21:28,367 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:21:31,433 | INFO     | train | Fold 1 -- RMSE: 41.33  MAE: 23.00
+2026-05-31 06:21:34,791 | INFO     | train | Fold 2 -- RMSE: 49.63  MAE: 23.60
+2026-05-31 06:21:38,091 | INFO     | train | Fold 3 -- RMSE: 41.91  MAE: 22.47
+2026-05-31 06:21:41,285 | INFO     | train | Fold 4 -- RMSE: 41.12  MAE: 23.04
+2026-05-31 06:21:44,644 | INFO     | train | Fold 5 -- RMSE: 44.00  MAE: 22.65
+2026-05-31 06:21:44,645 | INFO     | train | CV RMSE: 43.60 +/- 3.18
+2026-05-31 06:21:44,645 | INFO     | train | CV MAE : 22.95 +/- 0.39
+2026-05-31 06:21:44,670 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:21:49,723 | INFO     | train | Fold 1 -- RMSE: 41.25  MAE: 23.01
+2026-05-31 06:21:54,467 | INFO     | train | Fold 2 -- RMSE: 47.24  MAE: 23.29
+2026-05-31 06:21:59,056 | INFO     | train | Fold 3 -- RMSE: 41.85  MAE: 22.11
+2026-05-31 06:22:03,523 | INFO     | train | Fold 4 -- RMSE: 41.81  MAE: 23.34
+2026-05-31 06:22:08,304 | INFO     | train | Fold 5 -- RMSE: 43.91  MAE: 22.51
+2026-05-31 06:22:08,305 | INFO     | train | CV RMSE: 43.21 +/- 2.21
+2026-05-31 06:22:08,305 | INFO     | train | CV MAE : 22.85 +/- 0.47
+2026-05-31 06:22:24,251 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:23:08,158 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:23:17,655 | INFO     | train | Fold 1 -- RMSE: 42.30  MAE: 22.85
+2026-05-31 06:23:27,175 | INFO     | train | Fold 2 -- RMSE: 49.12  MAE: 23.21
+2026-05-31 06:23:36,964 | INFO     | train | Fold 3 -- RMSE: 43.07  MAE: 22.29
+2026-05-31 06:23:46,752 | INFO     | train | Fold 4 -- RMSE: 43.74  MAE: 23.12
+2026-05-31 06:23:56,357 | INFO     | train | Fold 5 -- RMSE: 46.80  MAE: 22.67
+2026-05-31 06:23:56,358 | INFO     | train | CV RMSE: 45.01 +/- 2.56
+2026-05-31 06:23:56,358 | INFO     | train | CV MAE : 22.83 +/- 0.33
+2026-05-31 06:23:56,365 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:24:18,156 | INFO     | train | Fold 1 -- RMSE: 40.14  MAE: 21.65
+2026-05-31 06:24:39,462 | INFO     | train | Fold 2 -- RMSE: 50.25  MAE: 22.22
+2026-05-31 06:25:03,045 | INFO     | train | Fold 3 -- RMSE: 42.56  MAE: 21.30
+2026-05-31 06:25:25,052 | INFO     | train | Fold 4 -- RMSE: 41.86  MAE: 22.21
+2026-05-31 06:25:48,809 | INFO     | train | ======================================================================
+2026-05-31 06:25:48,810 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 06:25:48,810 | INFO     | train |   Run ID    : run_20260531_062548_xgboost_strategyA_gravity_only
+2026-05-31 06:25:48,810 | INFO     | train |   Algorithm : xgboost
+2026-05-31 06:25:48,810 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 06:25:48,810 | INFO     | train |   Notes     : S6 Optuna Tuned
+2026-05-31 06:25:48,810 | INFO     | train | ======================================================================
+2026-05-31 06:25:48,926 | INFO     | train | Fold 5 -- RMSE: 45.62  MAE: 21.58
+2026-05-31 06:25:48,926 | INFO     | train | CV RMSE: 44.09 +/- 3.56
+2026-05-31 06:25:48,927 | INFO     | train | CV MAE : 21.79 +/- 0.36
+2026-05-31 06:25:48,933 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 06:25:48,933 | INFO     | train | Training with 32 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 06:25:48,945 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:25:48,962 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 06:25:48,964 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 06:25:48,967 | INFO     | train | Loaded Optuna tuned parameters from C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\optuna\best_params_xgboost_strategyA_gravity_only.json
+2026-05-31 06:25:51,250 | INFO     | train | Fold 1 -- RMSE: 47.32  MAE: 24.73
+2026-05-31 06:25:52,761 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 06:25:53,574 | INFO     | train | Fold 2 -- RMSE: 51.43  MAE: 25.00
+2026-05-31 06:25:55,976 | INFO     | train | Fold 3 -- RMSE: 45.46  MAE: 23.98
+2026-05-31 06:25:58,502 | INFO     | train | Fold 4 -- RMSE: 45.10  MAE: 24.17
+2026-05-31 06:26:00,821 | INFO     | train | Fold 1 -- RMSE: 37.56  MAE: 21.62
+2026-05-31 06:26:00,825 | INFO     | train | Fold 5 -- RMSE: 49.98  MAE: 24.57
+2026-05-31 06:26:00,826 | INFO     | train | CV RMSE: 47.86 +/- 2.49
+2026-05-31 06:26:00,826 | INFO     | train | CV MAE : 24.49 +/- 0.37
+2026-05-31 06:26:00,831 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:26:06,459 | INFO     | train | Fold 1 -- RMSE: 45.32  MAE: 23.73
+2026-05-31 06:26:08,291 | INFO     | train | Fold 2 -- RMSE: 45.20  MAE: 22.16
+2026-05-31 06:26:11,968 | INFO     | train | Fold 2 -- RMSE: 49.73  MAE: 24.10
+2026-05-31 06:26:16,113 | INFO     | train | Fold 3 -- RMSE: 38.50  MAE: 21.25
+2026-05-31 06:26:17,650 | INFO     | train | Fold 3 -- RMSE: 43.93  MAE: 22.89
+2026-05-31 06:26:23,217 | INFO     | train | Fold 4 -- RMSE: 42.96  MAE: 23.34
+2026-05-31 06:26:23,436 | INFO     | train | Fold 4 -- RMSE: 38.82  MAE: 21.96
+2026-05-31 06:26:29,639 | INFO     | train | Fold 5 -- RMSE: 48.35  MAE: 23.61
+2026-05-31 06:26:29,640 | INFO     | train | CV RMSE: 46.06 +/- 2.59
+2026-05-31 06:26:29,640 | INFO     | train | CV MAE : 23.53 +/- 0.40
+2026-05-31 06:26:29,657 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:26:31,819 | INFO     | train | Fold 5 -- RMSE: 43.21  MAE: 21.75
+2026-05-31 06:26:31,828 | INFO     | train | CV RMSE: 40.66 +/- 2.99
+2026-05-31 06:26:31,828 | INFO     | train | CV MAE : 21.75 +/- 0.31
+2026-05-31 06:26:31,917 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 06:26:38,784 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 06:26:38,918 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062548_xgboost_strategyA_gravity_only\model.pkl
+2026-05-31 06:26:38,919 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062548_xgboost_strategyA_gravity_only\cv_results.json
+2026-05-31 06:26:39,430 | INFO     | train | Fold 1 -- RMSE: 43.28  MAE: 22.88
+2026-05-31 06:26:39,636 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062548_xgboost_strategyA_gravity_only
+2026-05-31 06:26:39,639 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062548_xgboost_strategyA_gravity_only\run_config.json
+2026-05-31 06:26:40,053 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062548_xgboost_strategyA_gravity_only\predictions.csv (min: 25.35, median: 84.62, max: 2147.41)
+2026-05-31 06:26:40,056 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 06:26:40,181 | INFO     | train | All assertions passed.
+2026-05-31 06:26:40,181 | INFO     | train | ======================================================================
+2026-05-31 06:26:40,181 | INFO     | train | TRAINING SUMMARY
+2026-05-31 06:26:40,181 | INFO     | train |   Run ID               : run_20260531_062548_xgboost_strategyA_gravity_only
+2026-05-31 06:26:40,181 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 06:26:40,183 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 06:26:40,183 | INFO     | train |   Training samples     : 19960
+2026-05-31 06:26:40,183 | INFO     | train |   Features             : 32 (4 categorical)
+2026-05-31 06:26:40,183 | INFO     | train |   CV RMSE              : 40.66 +/- 2.99
+2026-05-31 06:26:40,183 | INFO     | train |   CV MAE               : 21.75 +/- 0.31
+2026-05-31 06:26:40,183 | INFO     | train |   GPU used             : True
+2026-05-31 06:26:40,186 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062548_xgboost_strategyA_gravity_only
+2026-05-31 06:26:40,186 | INFO     | train |   Duration             : 51.2 seconds
+2026-05-31 06:26:40,186 | INFO     | train | ======================================================================
+2026-05-31 06:26:40,187 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 06:26:40,187 | INFO     | train | ======================================================================
+2026-05-31 06:26:46,755 | INFO     | train | ======================================================================
+2026-05-31 06:26:46,755 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 06:26:46,755 | INFO     | train |   Run ID    : run_20260531_062646_lightgbm_strategyA_gravity_only
+2026-05-31 06:26:46,755 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 06:26:46,755 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 06:26:46,756 | INFO     | train |   Notes     : S13 Optuna Tuned
+2026-05-31 06:26:46,756 | INFO     | train | ======================================================================
+2026-05-31 06:26:46,973 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 06:26:46,974 | INFO     | train | Training with 32 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 06:26:47,019 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 06:26:47,022 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 06:26:47,023 | INFO     | train | Loaded Optuna tuned parameters from C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\optuna\best_params_lightgbm_strategyA_gravity_only.json
+2026-05-31 06:26:48,574 | INFO     | train | Fold 2 -- RMSE: 48.35  MAE: 23.12
+2026-05-31 06:26:49,911 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 06:26:57,441 | INFO     | train | Fold 3 -- RMSE: 43.63  MAE: 22.33
+2026-05-31 06:27:06,035 | INFO     | train | Fold 4 -- RMSE: 42.98  MAE: 22.87
+2026-05-31 06:27:13,885 | INFO     | train | Fold 5 -- RMSE: 47.52  MAE: 22.79
+2026-05-31 06:27:13,887 | INFO     | train | CV RMSE: 45.15 +/- 2.30
+2026-05-31 06:27:13,887 | INFO     | train | CV MAE : 22.80 +/- 0.26
+2026-05-31 06:27:13,897 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:27:21,031 | INFO     | train | Fold 1 -- RMSE: 44.45  MAE: 23.63
+2026-05-31 06:27:28,124 | INFO     | train | Fold 2 -- RMSE: 51.22  MAE: 23.86
+2026-05-31 06:27:35,906 | INFO     | train | Fold 3 -- RMSE: 44.71  MAE: 23.11
+2026-05-31 06:27:43,107 | INFO     | train | Fold 4 -- RMSE: 47.47  MAE: 23.96
+2026-05-31 06:27:50,671 | INFO     | train | Fold 5 -- RMSE: 49.02  MAE: 23.40
+2026-05-31 06:27:50,671 | INFO     | train | CV RMSE: 47.38 +/- 2.57
+2026-05-31 06:27:50,672 | INFO     | train | CV MAE : 23.59 +/- 0.31
+2026-05-31 06:27:50,690 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:27:55,492 | INFO     | train | Fold 1 -- RMSE: 43.93  MAE: 23.65
+2026-05-31 06:28:00,256 | INFO     | train | Fold 2 -- RMSE: 47.64  MAE: 23.86
+2026-05-31 06:28:01,168 | INFO     | train | Fold 1 -- RMSE: 38.51  MAE: 21.88
+2026-05-31 06:28:05,220 | INFO     | train | Fold 3 -- RMSE: 42.60  MAE: 22.95
+2026-05-31 06:28:09,904 | INFO     | train | Fold 4 -- RMSE: 43.39  MAE: 23.55
+2026-05-31 06:28:14,662 | INFO     | train | Fold 5 -- RMSE: 47.10  MAE: 23.35
+2026-05-31 06:28:14,663 | INFO     | train | CV RMSE: 44.93 +/- 2.04
+2026-05-31 06:28:14,663 | INFO     | train | CV MAE : 23.47 +/- 0.31
+2026-05-31 06:28:14,666 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:28:29,487 | INFO     | train | Fold 1 -- RMSE: 40.31  MAE: 21.76
+2026-05-31 06:28:44,053 | INFO     | train | Fold 2 -- RMSE: 47.88  MAE: 22.29
+2026-05-31 06:28:59,037 | INFO     | train | Fold 3 -- RMSE: 41.62  MAE: 21.37
+2026-05-31 06:29:14,976 | INFO     | train | Fold 4 -- RMSE: 42.87  MAE: 22.28
+2026-05-31 06:29:31,668 | INFO     | train | Fold 5 -- RMSE: 45.85  MAE: 21.95
+2026-05-31 06:29:31,669 | INFO     | train | CV RMSE: 43.71 +/- 2.78
+2026-05-31 06:29:31,669 | INFO     | train | CV MAE : 21.93 +/- 0.35
+2026-05-31 06:29:31,684 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:29:38,209 | INFO     | train | Fold 1 -- RMSE: 39.21  MAE: 21.57
+2026-05-31 06:29:45,043 | INFO     | train | Fold 2 -- RMSE: 45.01  MAE: 21.86
+2026-05-31 06:29:50,719 | INFO     | train | Fold 3 -- RMSE: 40.07  MAE: 21.04
+2026-05-31 06:29:56,274 | INFO     | train | Fold 4 -- RMSE: 39.71  MAE: 22.01
+2026-05-31 06:29:56,655 | INFO     | train | Fold 2 -- RMSE: 47.28  MAE: 22.58
+2026-05-31 06:30:01,768 | INFO     | train | Fold 5 -- RMSE: 44.62  MAE: 21.63
+2026-05-31 06:30:01,769 | INFO     | train | CV RMSE: 41.72 +/- 2.54
+2026-05-31 06:30:01,769 | INFO     | train | CV MAE : 21.62 +/- 0.33
+2026-05-31 06:30:01,781 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:30:25,769 | INFO     | train | Fold 1 -- RMSE: 40.18  MAE: 21.63
+2026-05-31 06:30:50,391 | INFO     | train | Fold 2 -- RMSE: 49.52  MAE: 22.11
+2026-05-31 06:31:14,641 | INFO     | train | Fold 3 -- RMSE: 41.38  MAE: 21.16
+2026-05-31 06:31:38,232 | INFO     | train | Fold 4 -- RMSE: 42.88  MAE: 22.30
+2026-05-31 06:32:01,643 | INFO     | train | Fold 5 -- RMSE: 45.83  MAE: 21.57
+2026-05-31 06:32:01,645 | INFO     | train | CV RMSE: 43.96 +/- 3.36
+2026-05-31 06:32:01,646 | INFO     | train | CV MAE : 21.75 +/- 0.41
+2026-05-31 06:32:02,813 | INFO     | train | Fold 3 -- RMSE: 39.37  MAE: 21.56
+2026-05-31 06:32:09,050 | INFO     | train | Fold 4 -- RMSE: 39.85  MAE: 22.39
+2026-05-31 06:32:14,514 | INFO     | train | Fold 5 -- RMSE: 42.71  MAE: 21.97
+2026-05-31 06:32:14,515 | INFO     | train | CV RMSE: 41.55 +/- 3.20
+2026-05-31 06:32:14,515 | INFO     | train | CV MAE : 22.08 +/- 0.37
+2026-05-31 06:32:14,524 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 06:32:20,346 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 06:32:20,567 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062646_lightgbm_strategyA_gravity_only\model.pkl
+2026-05-31 06:32:20,569 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062646_lightgbm_strategyA_gravity_only\cv_results.json
+2026-05-31 06:32:21,030 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062646_lightgbm_strategyA_gravity_only
+2026-05-31 06:32:21,032 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062646_lightgbm_strategyA_gravity_only\run_config.json
+2026-05-31 06:32:21,661 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062646_lightgbm_strategyA_gravity_only\predictions.csv (min: 23.27, median: 85.42, max: 2162.90)
+2026-05-31 06:32:24,760 | INFO     | train | ======================================================================
+2026-05-31 06:32:24,760 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 06:32:24,760 | INFO     | train |   Run ID    : run_20260531_063224_randomforest_strategyA_gravity_only
+2026-05-31 06:32:24,761 | INFO     | train |   Algorithm : randomforest
+2026-05-31 06:32:24,761 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 06:32:24,761 | INFO     | train |   Notes     : S19 Optuna Tuned
+2026-05-31 06:32:24,761 | INFO     | train | ======================================================================
+2026-05-31 06:32:24,851 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 06:32:24,851 | INFO     | train | Training with 32 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'province']
+2026-05-31 06:32:24,877 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 06:32:24,878 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 06:32:24,879 | INFO     | train | Loaded Optuna tuned parameters from C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\optuna\best_params_randomforest_strategyA_gravity_only.json
+2026-05-31 06:32:25,327 | INFO     | train | Extracting SHAP values for 20000 outlets...
+2026-05-31 06:32:26,628 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 06:32:33,442 | INFO     | train | Fold 1 -- RMSE: 39.21  MAE: 21.57
+2026-05-31 06:32:44,933 | INFO     | train | Fold 2 -- RMSE: 45.01  MAE: 21.86
+2026-05-31 06:32:56,947 | INFO     | train | Fold 3 -- RMSE: 40.07  MAE: 21.04
+2026-05-31 06:33:08,938 | INFO     | train | Fold 4 -- RMSE: 39.71  MAE: 22.01
+2026-05-31 06:33:21,709 | INFO     | train | Fold 5 -- RMSE: 44.62  MAE: 21.63
+2026-05-31 06:33:21,711 | INFO     | train | CV RMSE: 41.72 +/- 2.54
+2026-05-31 06:33:21,711 | INFO     | train | CV MAE : 21.62 +/- 0.33
+2026-05-31 06:33:21,725 | INFO     | train | Training final randomforest model on full training set (19960 samples)...
+2026-05-31 06:33:36,589 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 06:33:36,761 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_063224_randomforest_strategyA_gravity_only\model.pkl
+2026-05-31 06:33:36,763 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_063224_randomforest_strategyA_gravity_only\cv_results.json
+2026-05-31 06:33:38,319 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_063224_randomforest_strategyA_gravity_only
+2026-05-31 06:33:38,321 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_063224_randomforest_strategyA_gravity_only\run_config.json
+2026-05-31 06:33:39,132 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_063224_randomforest_strategyA_gravity_only\predictions.csv (min: 20.08, median: 87.19, max: 2130.07)
+2026-05-31 06:33:39,134 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 06:33:39,739 | INFO     | train | All assertions passed.
+2026-05-31 06:33:39,739 | INFO     | train | ======================================================================
+2026-05-31 06:33:39,739 | INFO     | train | TRAINING SUMMARY
+2026-05-31 06:33:39,739 | INFO     | train |   Run ID               : run_20260531_063224_randomforest_strategyA_gravity_only
+2026-05-31 06:33:39,740 | INFO     | train |   Algorithm            : randomforest
+2026-05-31 06:33:39,740 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 06:33:39,740 | INFO     | train |   Training samples     : 19960
+2026-05-31 06:33:39,740 | INFO     | train |   Features             : 32 (4 categorical)
+2026-05-31 06:33:39,740 | INFO     | train |   CV RMSE              : 41.72 +/- 2.54
+2026-05-31 06:33:39,740 | INFO     | train |   CV MAE               : 21.62 +/- 0.33
+2026-05-31 06:33:39,741 | INFO     | train |   GPU used             : False
+2026-05-31 06:33:39,741 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_063224_randomforest_strategyA_gravity_only
+2026-05-31 06:33:39,741 | INFO     | train |   Duration             : 74.4 seconds
+2026-05-31 06:33:39,741 | INFO     | train | ======================================================================
+2026-05-31 06:33:39,741 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 06:33:39,741 | INFO     | train | ======================================================================
+2026-05-31 06:35:02,126 | INFO     | train | SHAP values saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\Data\Gold\shap_values.parquet (156.8s)
+2026-05-31 06:35:02,217 | INFO     | train | SHAP values copy saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062646_lightgbm_strategyA_gravity_only\shap_values.parquet
+2026-05-31 06:35:02,219 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 06:35:02,234 | INFO     | train | All assertions passed.
+2026-05-31 06:35:02,235 | INFO     | train | ======================================================================
+2026-05-31 06:35:02,235 | INFO     | train | TRAINING SUMMARY
+2026-05-31 06:35:02,235 | INFO     | train |   Run ID               : run_20260531_062646_lightgbm_strategyA_gravity_only
+2026-05-31 06:35:02,235 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 06:35:02,235 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 06:35:02,235 | INFO     | train |   Training samples     : 19960
+2026-05-31 06:35:02,235 | INFO     | train |   Features             : 32 (4 categorical)
+2026-05-31 06:35:02,236 | INFO     | train |   CV RMSE              : 41.55 +/- 3.20
+2026-05-31 06:35:02,236 | INFO     | train |   CV MAE               : 22.08 +/- 0.37
+2026-05-31 06:35:02,236 | INFO     | train |   GPU used             : False
+2026-05-31 06:35:02,236 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_062646_lightgbm_strategyA_gravity_only
+2026-05-31 06:35:02,236 | INFO     | train |   Duration             : 495.5 seconds
+2026-05-31 06:35:02,237 | INFO     | train | ======================================================================
+2026-05-31 06:35:02,237 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 06:35:02,237 | INFO     | train | ======================================================================

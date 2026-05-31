@@ -182,21 +182,27 @@
 
 #### Round 3 — Boolean Noise Removal + Algorithm Expansion (Pending)
 
-- [ ] **Scenario 10:** Strategy C — LightGBM (original features)
-- [ ] **Scenario 11:** Strategy C Clean — XGBoost (boolean noise removed)
-- [ ] **Scenario 12:** Strategy C Clean — LightGBM (boolean noise removed)
-- [ ] **Scenario 13:** Gravity-Only — LightGBM (original features)
-- [ ] **Scenario 14:** Gravity-Only Clean — XGBoost (boolean noise removed) ⭐
-- [ ] **Scenario 15:** Gravity-Only Clean — LightGBM (boolean noise removed)
-- [ ] **Scenario 16:** Flat-Only — LightGBM (original features)
-- [ ] **Scenario 17:** Flat-Only Clean — XGBoost (boolean noise removed)
-- [ ] **Scenario 18:** Flat-Only Clean — LightGBM (boolean noise removed)
+- [x] **Scenario 10:** Strategy C — LightGBM (original features) — RMSE 43.64
+- [x] **Scenario 11:** Strategy C Clean — XGBoost (boolean noise removed) — RMSE 42.70
+- [x] **Scenario 12:** Strategy C Clean — LightGBM (boolean noise removed) — RMSE 44.50
+- [x] **Scenario 13:** Gravity-Only — LightGBM (original features) — RMSE 43.46
+- [x] **Scenario 14:** Gravity-Only Clean — XGBoost (boolean noise removed) ⭐ — RMSE 42.10
+- [x] **Scenario 15:** Gravity-Only Clean — LightGBM (boolean noise removed) — RMSE 44.50
+- [x] **Scenario 16:** Flat-Only — LightGBM (original features) — RMSE 43.54
+- [x] **Scenario 17:** Flat-Only Clean — XGBoost (boolean noise removed) — RMSE 42.50
+- [x] **Scenario 18:** Flat-Only Clean — LightGBM (boolean noise removed) — RMSE 44.12
 
-#### Future Scenarios (Pending Round 3 Results)
+#### Round 4 — Random Forest for XAI (Pending)
 
-- [ ] Optuna tuning on best Round 3 strategy (trial count TBD)
+- [x] **Scenario 19:** Gravity-Only — Random Forest (XAI focus) — RMSE 41.42
+- [x] **Scenario 20:** Strategy C — Random Forest (XAI focus) — RMSE 41.76
+- [x] **Scenario 21:** Flat-Only — Random Forest (XAI focus) — RMSE 41.44
+
+#### Future Scenarios (Round 5)
+
+- [x] Optuna tuning on best strategy (`strategyA_gravity_only`) for XGBoost, LightGBM, and Random Forest.
 - [ ] Strategy C v2 — improved interaction features
-- [ ] Model Ensemble (Blending) — `ensemble.py`
+- [x] Model Ensemble (Blending) — `ensemble.py` created (ready to run)
 
 
 ### `predict.py` (Re-run)

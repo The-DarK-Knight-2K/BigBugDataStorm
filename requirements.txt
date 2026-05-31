@@ -24,8 +24,12 @@ pyarrow==16.1.0          # parquet read/write (used by pandas .to_parquet / .rea
 # Machine learning
 # ----------------------------
 lightgbm==4.3.0          # primary gradient boosting model
-scikit-learn==1.5.0      # KMeans (POI clustering), KFold (cross-validation)
+xgboost==3.2.0           # alternative gradient boosting model (champion model)
+catboost==1.2.10         # alternative gradient boosting model (GPU baseline)
+scikit-learn==1.5.0      # KMeans (POI clustering), KFold (cross-validation), RandomForest (XAI)
 scipy==1.13.1            # linregress (trend slope feature)
+optuna==4.8.0            # hyperparameter optimization framework
+shap==0.51.0             # SHAP (SHapley Additive exPlanations) for model interpretability
 
 # ----------------------------
 # Geospatial / POI scraping

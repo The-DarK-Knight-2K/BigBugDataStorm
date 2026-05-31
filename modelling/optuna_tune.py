@@ -68,7 +68,7 @@ def load_data(strategy_name: str, algorithm: str):
         for col in cat_cols:
             if col in X.columns:
                 X[col] = X[col].astype("category")
-    elif algorithm == "xgboost":
+    elif algorithm in ["xgboost", "randomforest"]:
         for col in cat_cols:
             if col in X.columns:
                 X[col] = X[col].astype("category").cat.codes
@@ -99,6 +99,27 @@ def objective(trial, X, y, cat_feature_indices, algorithm):
             "l2_leaf_reg": trial.suggest_float("l2_leaf_reg", 1e-3, 10.0, log=True),
             "subsample": trial.suggest_float("subsample", 0.5, 1.0),
         })
+    elif algorithm == "lightgbm":
+        params = base_params.copy()
+        params.update({
+            "learning_rate": trial.suggest_float("learning_rate", 0.01, 0.2, log=True),
+            "num_leaves": trial.suggest_int("num_leaves", 15, 127),
+            "min_child_samples": trial.suggest_int("min_child_samples", 5, 50),
+            "subsample": trial.suggest_float("subsample", 0.5, 1.0),
+            "colsample_bytree": trial.suggest_float("colsample_bytree", 0.5, 1.0),
+            "reg_alpha": trial.suggest_float("reg_alpha", 1e-3, 10.0, log=True),
+            "reg_lambda": trial.suggest_float("reg_lambda", 1e-3, 10.0, log=True),
+            "n_estimators": trial.suggest_int("n_estimators", 500, 1500, step=100),
+        })
+    elif algorithm == "randomforest":
+        params = base_params.copy()
+        params.update({
+            "n_estimators": trial.suggest_int("n_estimators", 200, 1000, step=100),
+            "max_depth": trial.suggest_int("max_depth", 5, 30),
+            "min_samples_split": trial.suggest_int("min_samples_split", 2, 20),
+            "min_samples_leaf": trial.suggest_int("min_samples_leaf", 1, 10),
+            "max_features": trial.suggest_float("max_features", 0.3, 1.0),
+        })
     else:
         raise ValueError(f"Algorithm {algorithm} not supported for tuning yet.")
         
@@ -112,7 +133,7 @@ def objective(trial, X, y, cat_feature_indices, algorithm):
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument("--strategy", type=str, default="strategyC", choices=list(STRATEGIES.keys()))
-    parser.add_argument("--algorithm", type=str, default="xgboost", choices=["catboost", "xgboost", "lightgbm"])
+    parser.add_argument("--algorithm", type=str, default="xgboost", choices=["catboost", "xgboost", "lightgbm", "randomforest"])
     parser.add_argument("--n-trials", type=int, default=50)
     return parser.parse_args()
 

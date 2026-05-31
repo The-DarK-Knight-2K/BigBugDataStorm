@@ -315,3 +315,29 @@ Push gravity-clean further by dropping features with <0.05% importance:
 | Log-transform target?                  | **Deferred.** Will decide after Tier 1 results.                                                                                                                                            |
 | Optuna trial count?                    | **Deferred.** Will decide after Tier 1 results.                                                                                                                                            |
 | K-Means clustering?                    | **Clarified.** Not used anywhere currently — it was a new proposal for a `location_cluster` feature. Deferred to future scenarios.                                                         |
+
+---
+
+## TIER 2: Random Forest for XAI (Scenarios 19-21)
+
+While XGBoost gives the best RMSE, its feature importance is extremely concentrated (Outlet_Size = 78%). Random Forest, due to its bagging nature and unpruned trees, distributes importance much more evenly. This makes it far superior for **eXplainable AI (XAI)** and SHAP analysis down the line, as it will highlight the marginal contributions of gravity and POI features much better than XGBoost.
+
+We run RF across our three main architectures (keeping boolean fields, as we proved they are signal):
+
+#### Scenario 19: Gravity-Only — Random Forest (XAI focus)
+```bash
+python modelling/train.py --strategy strategyA_gravity_only --algorithm randomforest --notes "S19: Gravity-only with Random Forest (XAI focus)"
+```
+- **Rationale:** This is our champion feature set. If RF can achieve ~42-43 RMSE here, it becomes our primary XAI model.
+
+#### Scenario 20: Strategy C — Random Forest (XAI focus)
+```bash
+python modelling/train.py --strategy strategyC --algorithm randomforest --notes "S20: Strategy C with Random Forest (XAI focus)"
+```
+- **Rationale:** Tests how RF handles interaction features compared to tree-boosting algorithms.
+
+#### Scenario 21: Flat-Only — Random Forest (XAI focus)
+```bash
+python modelling/train.py --strategy strategyA_flat_only --algorithm randomforest --notes "S21: Flat-only with Random Forest (XAI focus)"
+```
+- **Rationale:** Completes the ablation study across algorithms.

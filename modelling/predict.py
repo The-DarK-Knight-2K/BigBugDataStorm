@@ -90,6 +90,18 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Run ID to load from modelling/artifacts/runs/ (e.g. run_20260531_XXXX)",
     )
+    parser.add_argument(
+        "--predictions-csv",
+        type=str,
+        default=None,
+        help="Path to an existing predictions CSV containing model_prediction",
+    )
+    parser.add_argument(
+        "--output-path",
+        type=str,
+        default=None,
+        help="Optional custom output path for the predictions CSV",
+    )
     return parser.parse_args()
 
 # ---------------------------------------------------------------------------
@@ -111,42 +123,51 @@ def main() -> None:
     # Pre-compute all potential interaction features
     df = add_interaction_features(df)
 
-    if args.run_id:
-        model_path = os.path.join(RUNS_DIR, args.run_id, "model.pkl")
-        log.info("Loading model from specific run: %s", args.run_id)
+    if args.predictions_csv:
+        log.info("Loading model predictions from CSV: %s", args.predictions_csv)
+        pred_df = pd.read_csv(args.predictions_csv)
+        assert "Outlet_ID" in pred_df.columns, "CSV must contain Outlet_ID"
+        assert "model_prediction" in pred_df.columns, "CSV must contain model_prediction"
+        df = df.merge(pred_df[["Outlet_ID", "model_prediction"]], on="Outlet_ID", how="left")
+        assert df["model_prediction"].isnull().sum() == 0, "Missing predictions in CSV"
     else:
-        model_path = os.path.join(ARTIFACTS_DIR, "model.pkl")
-        log.warning("No --run-id provided. Loading legacy model.pkl.")
+        if args.run_id:
+            model_path = os.path.join(RUNS_DIR, args.run_id, "model.pkl")
+            log.info("Loading model from specific run: %s", args.run_id)
+        else:
+            model_path = os.path.join(ARTIFACTS_DIR, "model.pkl")
+            log.warning("No --run-id provided. Loading legacy model.pkl.")
 
-    with open(model_path, "rb") as f:
-        saved = pickle.load(f)
-    
-    model = saved["model"]
-    feature_cols = saved["feature_cols"]
-    algorithm = saved.get("algorithm", "catboost")
-    
-    log.info("Loaded %s model with %d features", algorithm, len(feature_cols))
-
-    baseline_df = pd.read_parquet(
-        os.path.join(GOLD_DIR, "baseline_predictions.parquet")
-    )
-    log.info("Loaded baseline predictions: %d rows", len(baseline_df))
-
-    # ------------------------------------------------------------------
-    # Step 2 — Generate model predictions for all 20,000 outlets
-    # ------------------------------------------------------------------
-    X_all = df[feature_cols].copy()
-    
-    if algorithm != "catboost":
-        X_all = encode_categoricals_for_non_catboost(X_all, CAT_FEATURES, algorithm)
+        with open(model_path, "rb") as f:
+            saved = pickle.load(f)
         
-    df["model_prediction"] = model.predict(X_all)
+        model = saved["model"]
+        feature_cols = saved["feature_cols"]
+        algorithm = saved.get("algorithm", "catboost")
+        
+        log.info("Loaded %s model with %d features", algorithm, len(feature_cols))
+
+        # ------------------------------------------------------------------
+        # Step 2 — Generate model predictions for all 20,000 outlets
+        # ------------------------------------------------------------------
+        X_all = df[feature_cols].copy()
+        
+        if algorithm != "catboost":
+            X_all = encode_categoricals_for_non_catboost(X_all, CAT_FEATURES, algorithm)
+            
+        df["model_prediction"] = model.predict(X_all)
+
     log.info(
         "Model predictions -- min: %.2f  median: %.2f  max: %.2f",
         df["model_prediction"].min(),
         df["model_prediction"].median(),
         df["model_prediction"].max(),
     )
+
+    baseline_df = pd.read_parquet(
+        os.path.join(GOLD_DIR, "baseline_predictions.parquet")
+    )
+    log.info("Loaded baseline predictions: %d rows", len(baseline_df))
 
     # ------------------------------------------------------------------
     # Step 3 — Merge baseline predictions
@@ -218,10 +239,14 @@ def main() -> None:
     # ------------------------------------------------------------------
     # Step 6 — Write submission CSV
     # ------------------------------------------------------------------
-    os.makedirs(OUTPUTS_DIR, exist_ok=True)
-
-    team_name = CFG["team_name"]
-    output_path = os.path.join(OUTPUTS_DIR, f"{team_name}_predictions.csv")
+    if args.output_path:
+        output_path = args.output_path
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+    else:
+        os.makedirs(OUTPUTS_DIR, exist_ok=True)
+        team_name = CFG["team_name"]
+        output_path = os.path.join(OUTPUTS_DIR, f"{team_name}_predictions.csv")
+        
     submission.to_csv(output_path, index=False)
     log.info("Written %d rows -> %s", len(submission), output_path)
 

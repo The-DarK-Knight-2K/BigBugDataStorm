@@ -52,3 +52,8 @@ Data/Quarantine/*
 #!Data/Gold/poi_features.parquet
 #!Data/Gold/master_features.parquet
 #!Data/Gold/sales_features.parquet
+
+# Model checkpoints and artifacts
+*.pkl
+modelling/artifacts/runs/**/*.pkl
+
