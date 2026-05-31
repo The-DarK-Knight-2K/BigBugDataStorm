@@ -113,29 +113,75 @@ export interface OutletFilters {
   tier?: string;
 }
 
+export interface FilterOptions {
+  provinces: string[];
+  distributors: string[];
+  types: string[];
+  tiers: string[];
+}
+
 // --- Queries ---
 
 /**
  * Get aggregated stats for the main dashboard.
  */
-export function getDashboardStats(): DashboardStats {
-  const outletsRow = db.prepare(`
+export function getDashboardStats(filters?: OutletFilters): DashboardStats {
+  let baseWhere = 'WHERE 1=1';
+  let budgetWhere = 'WHERE 1=1';
+  const params: any[] = [];
+  
+  if (filters) {
+    if (filters.province) {
+      baseWhere += ` AND o.province = ?`;
+      budgetWhere += ` AND o.province = ?`;
+      params.push(filters.province);
+    }
+    if (filters.distributor_id) {
+      baseWhere += ` AND o.distributor_id = ?`;
+      budgetWhere += ` AND o.distributor_id = ?`;
+      params.push(filters.distributor_id);
+    }
+    if (filters.outlet_type) {
+      baseWhere += ` AND o.outlet_type = ?`;
+      budgetWhere += ` AND o.outlet_type = ?`;
+      params.push(filters.outlet_type);
+    }
+    if (filters.tier) {
+      // Need to join budget_allocations to filter base by tier
+      baseWhere += ` AND b.allocation_tier = ?`;
+      budgetWhere += ` AND b.allocation_tier = ?`;
+      params.push(filters.tier);
+    }
+  }
+
+  // Duplicate params for the three queries below
+  
+  let outletsQuery = `
     SELECT 
-      COUNT(outlet_id) as total_outlets, 
-      SUM(predicted_potential_litres) as total_predicted_volume 
-    FROM outlets
-  `).get() as { total_outlets: number; total_predicted_volume: number };
+      COUNT(o.outlet_id) as total_outlets, 
+      SUM(o.predicted_potential_litres) as total_predicted_volume 
+    FROM outlets o
+  `;
+  if (filters?.tier) outletsQuery += ` LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id`;
+  outletsQuery += ` ${baseWhere}`;
 
-  const budgetRow = db.prepare(`
-    SELECT SUM(trade_spend_allocation_lkr) as total_budget 
-    FROM budget_allocations
-  `).get() as { total_budget: number | null };
+  let budgetQuery = `
+    SELECT SUM(b.trade_spend_allocation_lkr) as total_budget 
+    FROM budget_allocations b
+    JOIN outlets o ON b.outlet_id = o.outlet_id
+    ${budgetWhere}
+  `;
 
-  const highPotentialRow = db.prepare(`
-    SELECT COUNT(outlet_id) as high_potential_outlets 
-    FROM budget_allocations 
-    WHERE allocation_tier = 'high'
-  `).get() as { high_potential_outlets: number };
+  let highPotentialQuery = `
+    SELECT COUNT(b.outlet_id) as high_potential_outlets 
+    FROM budget_allocations b
+    JOIN outlets o ON b.outlet_id = o.outlet_id
+    ${budgetWhere} AND b.allocation_tier = 'high'
+  `;
+
+  const outletsRow = db.prepare(outletsQuery).get(...params) as { total_outlets: number; total_predicted_volume: number };
+  const budgetRow = db.prepare(budgetQuery).get(...params) as { total_budget: number | null };
+  const highPotentialRow = db.prepare(highPotentialQuery).get(...params) as { high_potential_outlets: number };
 
   return {
     total_outlets: outletsRow?.total_outlets || 0,
@@ -146,38 +192,112 @@ export function getDashboardStats(): DashboardStats {
 }
 
 /**
- * Get outlets for the map and table views, optionally filtered.
+ * Get distinct filter options from the database
  */
-export function getOutlets(filters?: OutletFilters): (Outlet & { allocation_tier?: string })[] {
-  let query = `
-    SELECT o.*, b.allocation_tier, b.trade_spend_allocation_lkr 
-    FROM outlets o
-    LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
-    WHERE 1=1
-  `;
+export function getFilterOptions(): FilterOptions {
+  const provinces = (db.prepare('SELECT DISTINCT province FROM outlets WHERE province IS NOT NULL').all() as any[]).map(r => r.province);
+  const distributors = (db.prepare('SELECT DISTINCT distributor_id FROM outlets WHERE distributor_id IS NOT NULL').all() as any[]).map(r => r.distributor_id);
+  const types = (db.prepare('SELECT DISTINCT outlet_type FROM outlets WHERE outlet_type IS NOT NULL').all() as any[]).map(r => r.outlet_type);
+  const tiers = (db.prepare("SELECT DISTINCT allocation_tier FROM budget_allocations WHERE allocation_tier IS NOT NULL AND allocation_tier != 'none'").all() as any[]).map(r => r.allocation_tier);
+  
+  return { provinces, distributors, types, tiers };
+}
+
+/**
+ * Get paginated outlets for the data table, optionally filtered.
+ */
+export function getPaginatedOutlets(filters: OutletFilters | undefined, page: number, limit: number): { outlets: (Outlet & { allocation_tier?: string })[], total: number } {
+  let baseWhere = 'WHERE 1=1';
   const params: any[] = [];
 
   if (filters) {
     if (filters.province) {
-      query += ` AND o.province = ?`;
+      baseWhere += ` AND o.province = ?`;
       params.push(filters.province);
     }
     if (filters.distributor_id) {
-      query += ` AND o.distributor_id = ?`;
+      baseWhere += ` AND o.distributor_id = ?`;
       params.push(filters.distributor_id);
     }
     if (filters.outlet_type) {
-      query += ` AND o.outlet_type = ?`;
+      baseWhere += ` AND o.outlet_type = ?`;
       params.push(filters.outlet_type);
     }
     if (filters.tier) {
-      query += ` AND b.allocation_tier = ?`;
+      baseWhere += ` AND b.allocation_tier = ?`;
       params.push(filters.tier);
     }
   }
 
+  // Count query
+  const countQuery = `
+    SELECT COUNT(*) as count
+    FROM outlets o
+    LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
+    ${baseWhere}
+  `;
+  const countRow = db.prepare(countQuery).get(...params) as { count: number };
+
+  // Data query
+  const dataQuery = `
+    SELECT o.*, b.allocation_tier, b.trade_spend_allocation_lkr 
+    FROM outlets o
+    LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
+    ${baseWhere}
+    LIMIT ? OFFSET ?
+  `;
+  const dataParams = [...params, limit, (page - 1) * limit];
+  const outlets = db.prepare(dataQuery).all(...dataParams) as (Outlet & { allocation_tier?: string })[];
+
+  return { outlets, total: countRow.count };
+}
+
+/**
+ * Get map points efficiently (stripped down properties).
+ */
+export function getMapPoints(filters?: OutletFilters): any[][] {
+  let baseWhere = 'WHERE 1=1';
+  const params: any[] = [];
+
+  if (filters) {
+    if (filters.province) {
+      baseWhere += ` AND o.province = ?`;
+      params.push(filters.province);
+    }
+    if (filters.distributor_id) {
+      baseWhere += ` AND o.distributor_id = ?`;
+      params.push(filters.distributor_id);
+    }
+    if (filters.outlet_type) {
+      baseWhere += ` AND o.outlet_type = ?`;
+      params.push(filters.outlet_type);
+    }
+    if (filters.tier) {
+      baseWhere += ` AND b.allocation_tier = ?`;
+      params.push(filters.tier);
+    }
+  }
+
+  const query = `
+    SELECT o.outlet_id, o.latitude, o.longitude, o.outlet_type, o.predicted_potential_litres, b.allocation_tier
+    FROM outlets o
+    LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
+    ${baseWhere}
+  `;
+  
   const stmt = db.prepare(query);
-  return stmt.all(...params) as (Outlet & { allocation_tier?: string })[];
+  const rows = stmt.all(...params) as any[];
+  
+  // Convert to array of arrays to minimize JSON size:
+  // [id, lat, lng, type, vol, tier]
+  return rows.map(r => [
+    r.outlet_id, 
+    r.latitude, 
+    r.longitude, 
+    r.outlet_type, 
+    r.predicted_potential_litres, 
+    r.allocation_tier
+  ]);
 }
 
 /**

@@ -8,14 +8,7 @@ import Link from 'next/link';
 import MarkerClusterGroup from 'react-leaflet-cluster';
 
 interface MapProps {
-  outlets: Array<{
-    outlet_id: string;
-    latitude: number;
-    longitude: number;
-    outlet_type: string;
-    Maximum_Monthly_Liters: number;
-    allocation_tier: string;
-  }>;
+  outlets: any[][]; // [outlet_id, latitude, longitude, outlet_type, predicted_potential_litres, allocation_tier]
 }
 
 export default function MapComponent({ outlets }: MapProps) {
@@ -82,42 +75,45 @@ export default function MapComponent({ outlets }: MapProps) {
           maxClusterRadius={60}
           iconCreateFunction={createCustomClusterIcon}
         >
-          {outlets.map((outlet) => (
-            <Marker 
-              key={outlet.outlet_id} 
-              position={[outlet.latitude, outlet.longitude]}
-              icon={createGlowingIcon(outlet.allocation_tier)}
-            >
-              <Popup className="custom-popup">
-                <div className="p-2 text-slate-100 font-sans min-w-[150px]">
-                  <h4 className="font-bold text-sm tracking-tight text-white mb-1 flex items-center gap-1.5">
-                    <span className="text-xs">🏪</span> {outlet.outlet_id}
-                  </h4>
-                  <div className="space-y-1 text-[11px] text-slate-300">
-                    <p><span className="text-slate-400 font-semibold">Type:</span> {outlet.outlet_type}</p>
-                    <p><span className="text-slate-400 font-semibold">Prediction:</span> {outlet.Maximum_Monthly_Liters.toLocaleString()} L</p>
-                    <p className="flex items-center gap-1.5 mt-2">
-                      <span className="text-slate-400">Tier:</span> 
-                      <span className={`px-1.5 py-0.5 rounded text-[9px] uppercase font-bold tracking-wider ${
-                        outlet.allocation_tier === 'high' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' :
-                        outlet.allocation_tier === 'medium' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
-                        outlet.allocation_tier === 'low' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' :
-                        'bg-slate-700/20 text-slate-300'
-                      }`}>{outlet.allocation_tier || 'N/A'}</span>
-                    </p>
+          {outlets.map((outlet, idx) => {
+            const [id, lat, lng, type, vol, tier] = outlet;
+            return (
+              <Marker 
+                key={id || idx} 
+                position={[lat, lng]}
+                icon={createGlowingIcon(tier)}
+              >
+                <Popup className="custom-popup">
+                  <div className="p-2 text-slate-100 font-sans min-w-[150px]">
+                    <h4 className="font-bold text-sm tracking-tight text-white mb-1 flex items-center gap-1.5">
+                      <span className="text-xs">🏪</span> {id}
+                    </h4>
+                    <div className="space-y-1 text-[11px] text-slate-300">
+                      <p><span className="text-slate-400 font-semibold">Type:</span> {type}</p>
+                      <p><span className="text-slate-400 font-semibold">Prediction:</span> {vol?.toLocaleString()} L</p>
+                      <p className="flex items-center gap-1.5 mt-2">
+                        <span className="text-slate-400">Tier:</span> 
+                        <span className={`px-1.5 py-0.5 rounded text-[9px] uppercase font-bold tracking-wider ${
+                          tier === 'high' ? 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30' :
+                          tier === 'medium' ? 'bg-amber-500/20 text-amber-300 border border-amber-500/30' :
+                          tier === 'low' ? 'bg-rose-500/20 text-rose-300 border border-rose-500/30' :
+                          'bg-slate-700/20 text-slate-300'
+                        }`}>{tier || 'N/A'}</span>
+                      </p>
+                    </div>
+                    <div className="mt-3 pt-2 border-t border-slate-700/50 flex justify-end">
+                      <Link 
+                        href={`/outlets/${id}`}
+                        className="text-[10px] text-cyan-400 font-semibold hover:text-cyan-300 transition-colors uppercase tracking-wider"
+                      >
+                        View Details &rarr;
+                      </Link>
+                    </div>
                   </div>
-                  <div className="mt-3 pt-2 border-t border-slate-700/50 flex justify-end">
-                    <Link 
-                      href={`/outlets/${outlet.outlet_id}`}
-                      className="text-[10px] text-cyan-400 font-semibold hover:text-cyan-300 transition-colors uppercase tracking-wider"
-                    >
-                      View Details &rarr;
-                    </Link>
-                  </div>
-                </div>
-              </Popup>
-            </Marker>
-          ))}
+                </Popup>
+              </Marker>
+            );
+          })}
         </MarkerClusterGroup>
       </MapContainer>
 

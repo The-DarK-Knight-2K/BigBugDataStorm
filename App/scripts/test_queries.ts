@@ -1,27 +1,24 @@
-import { getDashboardStats, getOutlets, getOutletDetails, getBudgetAllocations, getPipelineHealth } from '../src/data_access/queries';
+import { getDashboardStats, getPaginatedOutlets, getOutletDetails, getBudgetAllocations, getPipelineHealth } from '../src/data_access/queries';
 
 async function test() {
   console.log("=== Testing DB Queries ===");
   try {
     const stats = getDashboardStats();
-    console.log("Stats:", stats);
+    console.log("Dashboard Stats:", stats);
 
-    const outlets = getOutlets({ tier: 'high' });
-    console.log(`Found ${outlets.length} high tier outlets`);
+    const { outlets } = getPaginatedOutlets(undefined, 1, 5);
+    console.log(`Outlets (first ${outlets.length}):`, outlets);
 
     if (outlets.length > 0) {
       const details = getOutletDetails(outlets[0].outlet_id);
-      console.log(`Details for ${outlets[0].outlet_id}:`, {
-        parsed_context: details?.parsed_context ? "SUCCESS" : "FAIL",
-        budget: details?.budget_allocation ? "SUCCESS" : "FAIL"
-      });
+      console.log(`Details for ${outlets[0].outlet_id}:`, details ? "Found" : "Not Found");
     }
 
-    const allocations = getBudgetAllocations();
-    console.log(`Found ${allocations.length} budget allocations`);
+    const budgets = getBudgetAllocations();
+    console.log(`Budget Allocations count: ${budgets.length}`);
 
     const health = getPipelineHealth();
-    console.log(`Found ${health.length} pipeline health records`);
+    console.log(`Pipeline Health checks: ${health.length}`);
     
     console.log("ALL SUCCESS!");
   } catch (e) {
