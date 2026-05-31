@@ -186,7 +186,7 @@
 - [x] **Scenario 11:** Strategy C Clean — XGBoost (boolean noise removed) — RMSE 42.70
 - [x] **Scenario 12:** Strategy C Clean — LightGBM (boolean noise removed) — RMSE 44.50
 - [x] **Scenario 13:** Gravity-Only — LightGBM (original features) — RMSE 43.46
-- [x] **Scenario 14:** Gravity-Only Clean — XGBoost (boolean noise removed) ⭐ — RMSE 42.10
+- [x] **Scenario 14:** Gravity-Only Clean — XGBoost (boolean noise removed) — RMSE 42.10
 - [x] **Scenario 15:** Gravity-Only Clean — LightGBM (boolean noise removed) — RMSE 44.50
 - [x] **Scenario 16:** Flat-Only — LightGBM (original features) — RMSE 43.54
 - [x] **Scenario 17:** Flat-Only Clean — XGBoost (boolean noise removed) — RMSE 42.50
@@ -203,7 +203,6 @@
 - [x] Optuna tuning on best strategy (`strategyA_gravity_only`) for XGBoost, LightGBM, and Random Forest.
 - [ ] Strategy C v2 — improved interaction features
 - [x] Model Ensemble (Blending) — `ensemble.py` created (ready to run)
-
 
 ### `predict.py` (Re-run)
 
@@ -222,14 +221,17 @@
 ## Phase 2.5: Gap Filling Advanced Optimizations
 
 ### Feature Engineering (Gold Layer)
+
 - [x] `pipeline/gold/build_cooler_features.py`: Generate physics-based cooler capacity ceiling features.
 - [x] `pipeline/gold/build_spatial_cluster_features.py`: Use DBSCAN to generate micro-market clusters and density features.
 
 ### Statistical Modeling
+
 - [x] `modelling/tobit_model.py`: Implement Tobit regression for censored demand.
 - [x] `modelling/hurdle_model.py`: Implement Hurdle model for two-stage zero-inflated demand.
 
 ### Re-integration & Re-training
+
 - [x] `pipeline/gold/build_master_features.py`: Re-merge Tobit, Hurdle, Cooler, and DBSCAN features into `master_features.parquet`.
 - [x] `modelling/baseline.py`: Re-compute baseline using the new physics-based cooler capacity ceiling.
 - [x] `modelling/train.py`: Re-train XGBoost, LightGBM, and Random Forest with the expanded feature set.
