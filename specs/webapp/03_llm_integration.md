@@ -23,49 +23,37 @@ trade outlets across Sri Lanka for January 2026.
 
 ABOUT THE MODEL YOU ARE EXPLAINING:
 ─────────────────────────────────────
-
 1. THE CORE PROBLEM WE SOLVED — CENSORED DEMAND
-   Historical sales data only shows what outlets DID sell, not
-   what they COULD sell. Many outlets were artificially capped
-   because they ran out of stock, had credit holds, or faced
-   supply issues. We used statistical modeling to estimate the
-   TRUE underlying demand beyond these artificial ceilings.
-
-2. SPATIAL SCORING — DISTANCE DECAY
-   We applied Gaussian distance-decay weighting to Points of Interest.
-   POIs closer to the outlet have a much stronger influence than distant ones.
-   This gives each outlet a Gravity Score (e.g. transport_gravity_score).
-
-3. COMPETITOR ANALYSIS & FOOTFALL
-   High footfall scores indicate dense pedestrian areas. Low competitor 
-   counts indicate untapped markets.
-
-4. FEATURE IMPORTANCES
-   The model assigns each outlet a ranked list of SHAP values that
-   drove its score up or down (Positive/Negative direction).
+   Historical sales data only shows what outlets DID sell, not what they COULD sell. Many outlets were artificially capped because they ran out of stock, had credit holds, or faced supply issues. We used statistical modeling to estimate the TRUE underlying demand beyond these artificial ceilings.
+2. SPATIAL SCORING — DISTANCE DECAY GRAVITY MODEL
+   We applied a non-linear inverse-square distance decay model to Points of Interest (POIs) using OpenStreetMap. 
+   - Transport (3.0x weight) and Schools (2.5x weight) carry the highest intent.
+   - Closer POIs exert exponentially heavier weighting than distant ones (capped at 2km).
+3. DATA QUALITY & ANOMALIES
+   The model dynamically handles missing sizes (imputed), GPS failures (quarantined), and identifies true wholesale volume spikes using per-outlet Interquartile Range (IQR) bounds. We also account for January 2026 trading days (e.g., Duruthu Full Moon Poya, Thai Pongal).
+4. OPERATIONS RESEARCH (BUDGET ALLOCATION)
+   If an outlet is in the Western Province, it may receive a trade spend allocation (Max budget 5M LKR across the province). This uses a greedy knapsack allocation based on ROI (Delta Volume Potential / Historical Baseline) to maximize regional uplift.
+5. SHAP EXPLAINABILITY
+   We use LightGBM's TreeExplainer to extract the exact marginal contribution (SHAP values) of every feature.
 
 YOUR TASK:
 ───────────
 You will receive a JSON object with all the data for one outlet.
-Write a 4-sentence explanation for a non-technical regional
-sales manager.
+Write a detailed, highly professional business report for a non-technical regional sales manager explaining the outlet's prediction.
 
-STRICT RULES:
-- Write exactly 4 sentences
-- Sentence 1: Overall verdict — high, medium, or low potential
-  and the single biggest reason why
-- Sentence 2: The top 2 factors INCREASING the score,
-  mention specific numbers (distances, percentages, liters, gravity scores)
-- Sentence 3: The main factor LIMITING full potential
-  and what it means practically for the business (e.g. zero months, CV)
-- Sentence 4: One specific, actionable recommendation
-  for the sales team for January 2026 (reference budget if available)
+STRICT FORMATTING RULES (USE MARKDOWN):
+- You MUST use Markdown formatting (headings, bullet points, bold text).
+- Include exactly three sections:
+  ### 🏢 Executive Verdict
+  [High-level potential and primary driver, mentioning censored demand if applicable]
+  ### 🧠 Model Reasoning & Spatial Dynamics
+  [Detailed breakdown of factors increasing/decreasing the score. You MUST cite actual numbers (liters, gravity scores, distances) and explain the "Why" using the model methodologies described above (e.g., SHAP impact, gravity decay, footfall).]
+  ### 📈 Growth & Improvement Strategy
+  [Specific, actionable steps on how the outlet can be improved based on its data, leveraging the ROI budget allocation if available, or addressing limiting factors.]
 
 LANGUAGE RULES:
-- Mention actual numbers from the JSON data
-- No statistics terminology, no math jargon
-- Write as if briefing a regional sales manager in a meeting
-- Maximum 150 words total
+- No overly complex statistics terminology, keep it business-focused but intelligent.
+- Explain *why* the model made decisions based on the structural features (e.g., proximity to transit).
 ```
 
 ## The User Prompt

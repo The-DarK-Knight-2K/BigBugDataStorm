@@ -4,6 +4,7 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Cell, ReferenceLine } from 'recharts';
 import dynamic from 'next/dynamic';
+import ReactMarkdown from 'react-markdown';
 import { OutletDetail } from '@/data_access/queries';
 
 const SingleMap = dynamic(() => import('./SingleMap'), { ssr: false });
@@ -291,8 +292,20 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
               </div>
             ) : xaiExplanation ? (
               <div className="bg-slate-900/50 rounded-xl border border-slate-800/60 p-5 space-y-3 leading-relaxed text-sm text-slate-200">
-                <p className="font-sans text-[13px]">{xaiExplanation}</p>
-                <div className="flex justify-end pt-1">
+                <div className="text-[13px]">
+                  <ReactMarkdown
+                    components={{
+                      h3: ({node, ...props}) => <h3 className="font-heading font-bold text-lg text-white mt-4 mb-2 border-b border-slate-700/50 pb-1" {...props} />,
+                      p: ({node, ...props}) => <p className="mb-3 text-slate-300" {...props} />,
+                      ul: ({node, ...props}) => <ul className="list-disc pl-5 mb-3 space-y-1 text-slate-300" {...props} />,
+                      li: ({node, ...props}) => <li {...props} />,
+                      strong: ({node, ...props}) => <strong className="font-bold text-white" {...props} />,
+                    }}
+                  >
+                    {xaiExplanation}
+                  </ReactMarkdown>
+                </div>
+                <div className="flex justify-end pt-1 border-t border-slate-800/60 mt-4">
                   <span className="text-[9px] font-mono text-emerald-400">✓ Cached securely in SQLite local database</span>
                 </div>
               </div>
