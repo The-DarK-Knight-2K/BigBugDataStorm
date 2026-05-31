@@ -80,27 +80,50 @@ def main():
     
     if current_budget < target_budget:
         diff = target_budget - current_budget
-        while diff > 0.01:
+        for _ in range(500):
+            if diff <= 0.01:
+                break
+            
+            made_change = False
+            # Try to add to Tier 1 first
             for idx in range(tier1_cutoff):
                 if diff <= 0.01:
                     break
-                add_amt = min(100.0, diff)
-                if df_w.at[idx, 'Trade_Spend_Allocation_LKR'] + add_amt <= max_cap:
-                    df_w.at[idx, 'Trade_Spend_Allocation_LKR'] += add_amt
-                    diff -= add_amt
+                current_val = df_w.at[idx, 'Trade_Spend_Allocation_LKR']
+                headroom = max_cap - current_val
+                if headroom > 0:
+                    add_amt = min(100.0, diff, headroom)
+                    if add_amt > 0:
+                        df_w.at[idx, 'Trade_Spend_Allocation_LKR'] += add_amt
+                        diff -= add_amt
+                        made_change = True
+            
+            # If Tier 1 is maxed out or not enough, spill over to Tier 2
             if diff > 0.01 and all(df_w.loc[:tier1_cutoff-1, 'Trade_Spend_Allocation_LKR'] >= max_cap - 0.01):
-                # Spill over to Tier 2 if Tier 1 maxes out
                 for idx in range(tier1_cutoff, tier2_cutoff):
                     if diff <= 0.01:
                         break
-                    add_amt = min(100.0, diff)
-                    if df_w.at[idx, 'Trade_Spend_Allocation_LKR'] + add_amt <= max_cap:
-                        df_w.at[idx, 'Trade_Spend_Allocation_LKR'] += add_amt
-                        diff -= add_amt
+                    current_val = df_w.at[idx, 'Trade_Spend_Allocation_LKR']
+                    headroom = max_cap - current_val
+                    if headroom > 0:
+                        add_amt = min(100.0, diff, headroom)
+                        if add_amt > 0:
+                            df_w.at[idx, 'Trade_Spend_Allocation_LKR'] += add_amt
+                            diff -= add_amt
+                            made_change = True
+                            
+            if not made_change:
+                print("Warning: Budget balancing stopped because no more headroom is available.")
+                break
                         
     elif current_budget > target_budget:
         diff = current_budget - target_budget
-        while diff > 0.01:
+        for _ in range(500):
+            if diff <= 0.01:
+                break
+                
+            made_change = False
+            # Reduce Tier 3 first
             for idx in range(tier3_cutoff-1, tier2_cutoff-1, -1):
                 if diff <= 0.01:
                     break
@@ -110,9 +133,30 @@ def main():
                     if current_alloc - reduce_amt < min_cap:
                         reduce_amt = current_alloc # Drop to 0 if below min actionable
                         df_w.at[idx, 'allocation_tier'] = 'None'
-                        
+                    
                     df_w.at[idx, 'Trade_Spend_Allocation_LKR'] -= reduce_amt
                     diff -= reduce_amt
+                    made_change = True
+            
+            # If Tier 3 is fully exhausted and we still need to reduce, reduce Tier 2
+            if diff > 0.01 and all(df_w.loc[tier2_cutoff:tier3_cutoff-1, 'Trade_Spend_Allocation_LKR'] <= 0.01):
+                for idx in range(tier2_cutoff-1, tier1_cutoff-1, -1):
+                    if diff <= 0.01:
+                        break
+                    current_alloc = df_w.at[idx, 'Trade_Spend_Allocation_LKR']
+                    if current_alloc > 0:
+                        reduce_amt = min(100.0, diff)
+                        if current_alloc - reduce_amt < min_cap:
+                            reduce_amt = current_alloc
+                            df_w.at[idx, 'allocation_tier'] = 'None'
+                        
+                        df_w.at[idx, 'Trade_Spend_Allocation_LKR'] -= reduce_amt
+                        diff -= reduce_amt
+                        made_change = True
+            
+            if not made_change:
+                print("Warning: Budget balancing stopped because no more allocations can be reduced.")
+                break
                     
     # Map Spend Types
     spend_mapping = {

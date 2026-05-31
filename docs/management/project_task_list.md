@@ -216,8 +216,8 @@
 - [x] Implement greedy knapsack allocation for 5M LKR budget (Western Province only).
 - [x] Distribute budget based on ROI composite scores with tier caps.
 - [x] Assign Sri Lankan specific trade spend packages (Cooler Subsidy, Promotional Discount, etc.).
-- [ ] Output `bigbug_budget_allocations.csv`, `budget_diagnostics.csv` and `budget_features.parquet`.
-- [ ] Generate `roi_distribution.png` (Frequency vs ROI Score).
+- [x] Output `bigbug_budget_allocations.csv`, `budget_diagnostics.csv` and `budget_features.parquet`.
+- [x] Generate `roi_distribution.png` (Frequency vs ROI Score).
 
 ## Phase 2.5: Gap Filling Advanced Optimizations
 
