@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Link from 'next/link';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Cell, ReferenceLine } from 'recharts';
 import dynamic from 'next/dynamic';
@@ -16,6 +16,32 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
   // Dynamic interactive simulation state for the Gemini XAI Generator
   const [xaiLoading, setXaiLoading] = useState(false);
   const [xaiExplanation, setXaiExplanation] = useState<string | null>(outlet.xai_explanation);
+  
+  // Rotating loading messages
+  const loadingSteps = useMemo(() => [
+    "Initializing Gemini 2.0 Flash engine...",
+    "Compiling contextual JSON payload...",
+    "Analyzing historical volume constraints...",
+    "Calculating Spatial Distance Decay algorithms...",
+    "Evaluating SHAP marginal contributions...",
+    "Formulating Field Rep Negotiation Plan...",
+    "Finalizing executive insights..."
+  ], []);
+  
+  const [loadingStepIdx, setLoadingStepIdx] = useState(0);
+
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+    if (xaiLoading) {
+      setLoadingStepIdx(0);
+      interval = setInterval(() => {
+        setLoadingStepIdx((prev) => (prev < loadingSteps.length - 1 ? prev + 1 : prev));
+      }, 1500);
+    }
+    return () => {
+      if (interval) clearInterval(interval);
+    };
+  }, [xaiLoading, loadingSteps]);
 
   const generateXaiInsight = async (force: boolean = false) => {
     setXaiLoading(true);
@@ -350,9 +376,18 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
         {/* Dynamic Content state */}
         <div className="my-6 flex-1 flex flex-col justify-center">
           {xaiLoading ? (
-            <div className="flex flex-col items-center gap-3 my-12">
-              <div className="w-10 h-10 rounded-full border-4 border-cyan-500 border-t-transparent animate-spin"></div>
-              <p className="text-xs text-slate-400 font-mono animate-pulse">Invoking Gemini model. Compiling context JSON...</p>
+            <div className="flex flex-col items-center justify-center my-12 gap-5 min-h-[200px]">
+              <div className="relative">
+                <div className="w-16 h-16 rounded-full border-4 border-slate-800 absolute top-0 left-0"></div>
+                <div className="w-16 h-16 rounded-full border-4 border-cyan-500 border-t-transparent animate-spin relative z-10"></div>
+                <div className="absolute inset-0 flex items-center justify-center text-xl animate-pulse">🤖</div>
+              </div>
+              <div className="text-center h-12 flex flex-col items-center justify-center">
+                <p className="text-sm font-bold text-white tracking-widest uppercase mb-1">Thinking...</p>
+                <p className="text-xs text-cyan-400 font-mono transition-all duration-300 ease-in-out">
+                  {loadingSteps[loadingStepIdx]}
+                </p>
+              </div>
             </div>
           ) : parsedExplanation ? (
             <div className="space-y-6">
@@ -382,12 +417,12 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
 
               {/* 2. Driver Cards */}
               {parsedExplanation.driver_cards && parsedExplanation.driver_cards.length > 0 && (
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {parsedExplanation.driver_cards.map((card: any, i: number) => (
-                    <div key={i} className="bg-slate-900/50 border border-slate-800/60 rounded-xl p-5 flex flex-col gap-3 shadow-md">
-                      <div className="text-3xl">{card.icon}</div>
-                      <h4 className="font-bold text-sm text-white leading-tight">{card.title}</h4>
-                      <p className="text-[13px] text-slate-300 leading-relaxed">{card.description}</p>
+                    <div key={i} className="bg-slate-900/40 border border-slate-800/60 rounded-2xl p-6 flex flex-col gap-3 shadow-lg hover:border-slate-700 hover:bg-slate-900/60 transition-all">
+                      <div className="text-4xl mb-1">{card.icon}</div>
+                      <h4 className="font-bold text-base text-white leading-tight">{card.title}</h4>
+                      <p className="text-[15px] text-slate-300 leading-relaxed">{card.description}</p>
                     </div>
                   ))}
                 </div>
@@ -395,15 +430,15 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
 
               {/* 3. Action Checklist */}
               {parsedExplanation.action_checklist && parsedExplanation.action_checklist.length > 0 && (
-                <div className="bg-slate-900/50 border border-slate-800/60 rounded-xl p-6 shadow-md">
-                  <h4 className="font-bold text-sm text-white mb-5 flex items-center gap-2">
-                    <span>📋</span> Field Rep Negotiation Plan
+                <div className="bg-gradient-to-br from-slate-900/80 to-slate-900/30 border border-slate-800/60 border-l-4 border-l-cyan-500 rounded-xl p-8 shadow-xl mt-4">
+                  <h4 className="font-bold text-base text-white mb-6 flex items-center gap-3">
+                    <span className="text-xl">📋</span> Field Rep Negotiation Plan
                   </h4>
-                  <div className="space-y-4">
+                  <div className="space-y-5">
                     {parsedExplanation.action_checklist.map((action: string, i: number) => (
-                      <label key={i} className="flex items-start gap-3 cursor-pointer group">
-                        <input type="checkbox" className="mt-1 rounded border-slate-700 bg-slate-800 text-cyan-500 focus:ring-cyan-500 focus:ring-offset-slate-900" />
-                        <span className="text-sm text-slate-300 group-hover:text-white transition-colors leading-relaxed">{action}</span>
+                      <label key={i} className="flex items-start gap-4 cursor-pointer group bg-slate-900/30 p-4 rounded-lg border border-slate-800/50 hover:bg-slate-800/60 transition-colors">
+                        <input type="checkbox" className="mt-0.5 w-5 h-5 rounded border-slate-600 bg-slate-800 text-cyan-500 focus:ring-cyan-500 focus:ring-offset-slate-900 cursor-pointer" />
+                        <span className="text-[15px] text-slate-300 group-hover:text-white transition-colors leading-relaxed">{action}</span>
                       </label>
                     ))}
                   </div>
@@ -437,7 +472,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
             onClick={() => generateXaiInsight(true)}
             className="w-full py-3 rounded-xl border border-slate-800 bg-slate-900/40 text-slate-400 font-medium text-xs hover:text-white hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
           >
-            <span>🔄</span> Force Regenerate Insight
+            <span>🔄</span> Regenerate Insight
           </button>
         )}
       </div>
