@@ -30,6 +30,11 @@ gravity_model:
     hospital: 1.0
     worship: 0.5
 
+cooler_constraints:
+  litres_per_cooler: 150          # Standard FMCG cooler capacity in Sri Lanka (litres)
+  replenishment_cycle_days: 3     # Typical distributor delivery cycle (days)
+  fills_per_cycle: 0.85           # Coolers aren't refilled to 100% capacity
+
 modelling:
   random_seed: 42
   cv_folds: 5

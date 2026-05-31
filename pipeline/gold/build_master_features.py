@@ -63,6 +63,17 @@ PROVINCE_CENTROIDS = {
 # Helper functions
 # ---------------------------------------------------------------------------
 
+def _try_load_parquet(path: str, name: str):
+    """Try to load a parquet file; return None if it doesn't exist."""
+    if os.path.exists(path):
+        df = pd.read_parquet(path)
+        log.info("Loaded %s: %d rows", name, len(df))
+        return df
+    else:
+        log.info("Optional file %s not found — skipping.", name)
+        return None
+
+
 def load_inputs() -> dict:
     """Step 1 — Load all input files and return them in a dict."""
     outlets = pd.read_parquet(os.path.join(SILVER_DIR, "outlet_master_clean.parquet"))
@@ -86,6 +97,20 @@ def load_inputs() -> dict:
     catch_ft = pd.read_parquet(os.path.join(GOLD_DIR, "catchment_features.parquet"))
     log.info("Loaded catchment_features: %d rows", len(catch_ft))
 
+    # --- Optional Phase 2.5 feature files ---
+    cooler_ft = _try_load_parquet(
+        os.path.join(GOLD_DIR, "cooler_features.parquet"), "cooler_features"
+    )
+    spatial_ft = _try_load_parquet(
+        os.path.join(GOLD_DIR, "spatial_cluster_features.parquet"), "spatial_cluster_features"
+    )
+    tobit_ft = _try_load_parquet(
+        os.path.join(GOLD_DIR, "tobit_features.parquet"), "tobit_features"
+    )
+    hurdle_ft = _try_load_parquet(
+        os.path.join(GOLD_DIR, "hurdle_features.parquet"), "hurdle_features"
+    )
+
     json_path = os.path.join(SILVER_DIR, "jan_2026_trading_days.json")
     with open(json_path) as f:
         trading_days_info = json.load(f)
@@ -99,6 +124,10 @@ def load_inputs() -> dict:
         "poi_ft": poi_ft,
         "grav_ft": grav_ft,
         "catch_ft": catch_ft,
+        "cooler_ft": cooler_ft,
+        "spatial_ft": spatial_ft,
+        "tobit_ft": tobit_ft,
+        "hurdle_ft": hurdle_ft,
         "jan_2026_trading_days": trading_days_info["jan_2026_trading_days"],
         "jan_2026_holiday_count": trading_days_info["jan_2026_holiday_count"],
     }
@@ -127,6 +156,10 @@ def merge_all_datasets(
     grav_ft: pd.DataFrame,
     catch_ft: pd.DataFrame,
     jan_2026_season: pd.DataFrame,
+    cooler_ft: pd.DataFrame = None,
+    spatial_ft: pd.DataFrame = None,
+    tobit_ft: pd.DataFrame = None,
+    hurdle_ft: pd.DataFrame = None,
 ) -> pd.DataFrame:
     """Step 4 — LEFT JOIN all datasets onto the outlet master base."""
     df = outlets.copy()
@@ -163,6 +196,25 @@ def merge_all_datasets(
         how="left"
     ).drop(columns=["Distributor_ID"])
     log.info("After seasonality merge: %d rows", len(df))
+
+    # --- Optional Phase 2.5 feature merges ---
+    if cooler_ft is not None:
+        # Drop Cooler_Count from cooler_ft to avoid duplicate column
+        merge_cols = [c for c in cooler_ft.columns if c != "Cooler_Count"]
+        df = df.merge(cooler_ft[merge_cols], on="Outlet_ID", how="left")
+        log.info("After cooler_features merge: %d rows", len(df))
+
+    if spatial_ft is not None:
+        df = df.merge(spatial_ft, on="Outlet_ID", how="left")
+        log.info("After spatial_cluster_features merge: %d rows", len(df))
+
+    if tobit_ft is not None:
+        df = df.merge(tobit_ft, on="Outlet_ID", how="left")
+        log.info("After tobit_features merge: %d rows", len(df))
+
+    if hurdle_ft is not None:
+        df = df.merge(hurdle_ft, on="Outlet_ID", how="left")
+        log.info("After hurdle_features merge: %d rows", len(df))
 
     return df
 
@@ -329,6 +381,10 @@ def main():
         grav_ft=inputs["grav_ft"],
         catch_ft=inputs["catch_ft"],
         jan_2026_season=jan_2026_season,
+        cooler_ft=inputs.get("cooler_ft"),
+        spatial_ft=inputs.get("spatial_ft"),
+        tobit_ft=inputs.get("tobit_ft"),
+        hurdle_ft=inputs.get("hurdle_ft"),
     )
 
     # Step 5 — Add scalar features

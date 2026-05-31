@@ -58,12 +58,24 @@ def _estimate_cold_start_potential(
 ) -> float:
     """
     For outlets with no transaction history, estimate demand using the median
-    January volume of outlets with the same Outlet_Size. A Cooler_Count
-    multiplier is applied as a capacity proxy.
+    January volume of outlets with the same Outlet_Size.
+
+    If the physics-based theoretical_monthly_ceiling is available (from
+    build_cooler_features.py), use it as a capacity-aware multiplier.
+    Otherwise, fall back to the original crude Cooler_Count heuristic.
     """
     base = size_medians.get(row["Outlet_Size"], global_median)
-    cooler_multiplier = 1.0 + (row["Cooler_Count"] * 0.15)
-    return base * cooler_multiplier
+
+    if "theoretical_monthly_ceiling" in row.index and row["theoretical_monthly_ceiling"] > 0:
+        # Physics-based: scale by ratio of ceiling to a baseline ceiling
+        # (a "medium" outlet with 2 coolers ≈ 2550 L/month ceiling)
+        baseline_ceiling = 2550.0
+        capacity_factor = min(row["theoretical_monthly_ceiling"] / baseline_ceiling, 2.0)
+        return base * max(capacity_factor, 0.5)  # Clamp between 0.5x and 2.0x
+    else:
+        # Fallback: original heuristic
+        cooler_multiplier = 1.0 + (row["Cooler_Count"] * 0.15)
+        return base * cooler_multiplier
 
 
 def _compute_recency_factor(row: pd.Series) -> float:
