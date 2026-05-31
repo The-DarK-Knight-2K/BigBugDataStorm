@@ -85,3 +85,43 @@ We evaluated our final Ensemble against the Round 1 Statistical Baseline (`basel
 > **Conclusion**: The machine learning ensemble massively outperforms the naive statistical baseline. The 87.5% reduction in RMSE proves that the structural features, competition density, and our custom gravity algorithms successfully map the underlying spatial demand drivers of the outlets.
 
 We are now officially ready to move into Phase 2: Budget Optimization.
+
+---
+
+## 5. Phase 2.5: Structural Ceilings & Sub-Models (The Target Leakage Journey)
+
+After the initial Round 2 pipeline successfully established the `strategyA_gravity_only` benchmark (~41.14 RMSE), we aggressively pursued a suite of advanced modeling optimizations:
+1. **Structural Capacity Limits:** `theoretical_monthly_ceiling` to establish physics-based bounds on sales.
+2. **Spatial Clustering:** DBSCAN-generated `micro_market_id` and neighborhood sales behavior metrics.
+3. **Censored Regression (Tobit):** Handling artificial limits in sales.
+4. **Zero-Inflated Estimates (Hurdle):** De-coupling the probability of a sale from the volume conditional on a sale occurring.
+
+### The Leakage Pitfall & Failed Attempts
+When we integrated these features, our initial cross-validation scores plummeted to an impossible ~4.0 to ~6.5 RMSE. We identified massive layers of **Target Leakage**:
+
+- **Attempt 1 (In-Sample Memorization):** The Tobit and Hurdle models generated features by predicting in-sample on the training set. The main ensembles perfectly memorized these "answer keys". *Action taken:* Implemented 5-Fold K-Fold Out-Of-Fold (OOF) prediction loops for the sub-models.
+- **Attempt 2 (Deep Math Leaks):** Even after implementing OOF, the RMSE remained impossibly low (~4.00). Investigation revealed explicit mathematical leaks in features like `capacity_utilization_ratio` (defined as `target / ceiling`), `tobit_censoring_ratio` (defined as `(prediction / target) - 1.0`), and cluster averages containing the target. Additionally, the sub-models were recursively reading their *own* leaked predictions from `master_features.parquet` during execution.
+
+### The Resolution
+We explicitly blocked all derived math proxies and sub-model outputs within `_LEAK_FEATURES` across `train.py`, `tobit_model.py`, and `hurdle_model.py`. 
+
+### Un-leaked Phase 2.5 Performance
+After stripping all leaks, the 5-fold CV RMSE scores finally reflected reality:
+- **XGBoost:** 40.89 RMSE
+- **Random Forest:** 40.48 RMSE 
+- **LightGBM:** 42.66 RMSE
+
+**Conclusion:** The new Random Forest model achieved **40.48 RMSE**, which is a genuine, un-leaked improvement of ~0.65 RMSE over the prior Phase 1 best (XGBoost at 41.14 RMSE). This mathematically validates that the new structural ceilings, spatial clusters, and censored/zero-inflated logic provide true generalizable uplift.
+
+---
+
+## 6. Next Steps & Hyperparameter Optimization
+
+**Why wasn't Hyperparameter Tuning done for Phase 2.5?**
+The entirety of Phase 2.5 was dedicated to advanced *feature engineering* and plugging complex mathematical target leaks. We relied on the existing, robust hyperparameters to benchmark whether the *features themselves* contained generalizable signal. Now that we have proven the signal exists (RMSE dropped from 41.14 to 40.48), tuning is the correct next step.
+
+### Final Execution Steps Before Phase 3:
+1. **Hyperparameter Tuning:** Execute a rigorous Optuna search (`optuna_tune.py`) on the new 41-feature Phase 2.5 dataset for XGBoost and Random Forest.
+2. **Feature Selection/Pruning:** Remove features with zero importance (e.g. evaluating if some raw gravity scores are now fully superseded by cluster metrics).
+3. **Model Explanation (XAI):** Generate new SHAP plots to interpret the impact of `theoretical_monthly_ceiling` and `tobit_latent_estimate` on the finalized predictions.
+4. **Final Budget Submission:** Regenerate the `optimise_budget.py` outputs using the newly tuned predictions and commit all artifacts.

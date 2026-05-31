@@ -3305,3 +3305,1368 @@ dtype: object
 2026-05-31 17:26:02,189 | INFO     | predict | ==================================================
 2026-05-31 17:26:02,189 | INFO     | predict | PREDICTION PIPELINE -- DONE
 2026-05-31 17:26:02,190 | INFO     | predict | ==================================================
+2026-05-31 18:06:51,597 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:07:05,283 | INFO     | train | Fold 1 -- RMSE: 39.01  MAE: 22.53
+2026-05-31 18:07:17,734 | INFO     | train | Fold 2 -- RMSE: 48.39  MAE: 22.85
+2026-05-31 18:07:30,354 | INFO     | train | Fold 3 -- RMSE: 39.33  MAE: 21.39
+2026-05-31 18:07:42,761 | INFO     | train | Fold 4 -- RMSE: 39.59  MAE: 22.42
+2026-05-31 18:07:54,745 | INFO     | train | Fold 5 -- RMSE: 45.76  MAE: 22.42
+2026-05-31 18:07:54,746 | INFO     | train | CV RMSE: 42.42 +/- 3.90
+2026-05-31 18:07:54,746 | INFO     | train | CV MAE : 22.32 +/- 0.49
+2026-05-31 18:07:54,777 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:07:58,587 | INFO     | train | Fold 1 -- RMSE: 38.42  MAE: 21.96
+2026-05-31 18:08:02,438 | INFO     | train | Fold 2 -- RMSE: 45.68  MAE: 22.13
+2026-05-31 18:08:06,196 | INFO     | train | Fold 3 -- RMSE: 38.82  MAE: 21.14
+2026-05-31 18:08:10,044 | INFO     | train | Fold 4 -- RMSE: 40.92  MAE: 22.11
+2026-05-31 18:08:13,783 | INFO     | train | Fold 5 -- RMSE: 43.18  MAE: 21.64
+2026-05-31 18:08:13,784 | INFO     | train | CV RMSE: 41.40 +/- 2.73
+2026-05-31 18:08:13,784 | INFO     | train | CV MAE : 21.80 +/- 0.37
+2026-05-31 18:08:13,810 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:08:18,627 | INFO     | train | Fold 1 -- RMSE: 39.07  MAE: 22.49
+2026-05-31 18:08:23,513 | INFO     | train | Fold 2 -- RMSE: 47.24  MAE: 23.02
+2026-05-31 18:08:28,972 | INFO     | train | Fold 3 -- RMSE: 40.56  MAE: 21.82
+2026-05-31 18:08:34,527 | INFO     | train | Fold 4 -- RMSE: 42.12  MAE: 23.07
+2026-05-31 18:08:39,657 | INFO     | train | Fold 5 -- RMSE: 45.95  MAE: 22.68
+2026-05-31 18:08:39,657 | INFO     | train | CV RMSE: 42.99 +/- 3.12
+2026-05-31 18:08:39,657 | INFO     | train | CV MAE : 22.61 +/- 0.45
+2026-05-31 18:08:39,679 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:08:49,172 | INFO     | train | Fold 1 -- RMSE: 39.21  MAE: 22.07
+2026-05-31 18:08:58,616 | INFO     | train | Fold 2 -- RMSE: 43.83  MAE: 22.28
+2026-05-31 18:09:07,800 | INFO     | train | Fold 3 -- RMSE: 38.72  MAE: 21.22
+2026-05-31 18:09:16,794 | INFO     | train | Fold 4 -- RMSE: 40.25  MAE: 22.39
+2026-05-31 18:09:25,975 | INFO     | train | Fold 5 -- RMSE: 44.63  MAE: 22.02
+2026-05-31 18:09:25,976 | INFO     | train | CV RMSE: 41.33 +/- 2.43
+2026-05-31 18:09:25,976 | INFO     | train | CV MAE : 21.99 +/- 0.41
+2026-05-31 18:09:26,000 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:09:32,260 | INFO     | train | Fold 1 -- RMSE: 36.98  MAE: 21.18
+2026-05-31 18:09:38,527 | INFO     | train | Fold 2 -- RMSE: 46.69  MAE: 21.64
+2026-05-31 18:09:44,830 | INFO     | train | Fold 3 -- RMSE: 38.10  MAE: 20.55
+2026-05-31 18:09:51,099 | INFO     | train | Fold 4 -- RMSE: 39.38  MAE: 21.54
+2026-05-31 18:09:57,349 | INFO     | train | Fold 5 -- RMSE: 43.74  MAE: 21.40
+2026-05-31 18:09:57,350 | INFO     | train | CV RMSE: 40.98 +/- 3.66
+2026-05-31 18:09:57,350 | INFO     | train | CV MAE : 21.26 +/- 0.39
+2026-05-31 18:09:57,378 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:10:03,717 | INFO     | train | Fold 1 -- RMSE: 36.91  MAE: 21.12
+2026-05-31 18:10:10,130 | INFO     | train | Fold 2 -- RMSE: 45.26  MAE: 21.59
+2026-05-31 18:10:16,424 | INFO     | train | Fold 3 -- RMSE: 37.94  MAE: 20.52
+2026-05-31 18:10:22,661 | INFO     | train | Fold 4 -- RMSE: 39.45  MAE: 21.56
+2026-05-31 18:10:28,923 | INFO     | train | Fold 5 -- RMSE: 43.75  MAE: 21.40
+2026-05-31 18:10:28,924 | INFO     | train | CV RMSE: 40.66 +/- 3.27
+2026-05-31 18:10:28,924 | INFO     | train | CV MAE : 21.24 +/- 0.39
+2026-05-31 18:10:28,954 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:10:31,762 | INFO     | train | Fold 1 -- RMSE: 39.17  MAE: 22.05
+2026-05-31 18:10:34,599 | INFO     | train | Fold 2 -- RMSE: 45.18  MAE: 22.13
+2026-05-31 18:10:37,358 | INFO     | train | Fold 3 -- RMSE: 38.56  MAE: 21.08
+2026-05-31 18:10:40,161 | INFO     | train | Fold 4 -- RMSE: 40.41  MAE: 22.03
+2026-05-31 18:10:42,931 | INFO     | train | Fold 5 -- RMSE: 43.00  MAE: 21.70
+2026-05-31 18:10:42,944 | INFO     | train | CV RMSE: 41.26 +/- 2.48
+2026-05-31 18:10:42,944 | INFO     | train | CV MAE : 21.80 +/- 0.38
+2026-05-31 18:10:42,962 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:10:56,237 | INFO     | train | Fold 1 -- RMSE: 37.04  MAE: 21.61
+2026-05-31 18:11:09,704 | INFO     | train | Fold 2 -- RMSE: 44.88  MAE: 22.36
+2026-05-31 18:11:22,789 | INFO     | train | Fold 3 -- RMSE: 39.55  MAE: 21.16
+2026-05-31 18:11:36,010 | INFO     | train | Fold 4 -- RMSE: 39.34  MAE: 21.97
+2026-05-31 18:11:49,904 | INFO     | train | Fold 5 -- RMSE: 43.95  MAE: 21.70
+2026-05-31 18:11:49,905 | INFO     | train | CV RMSE: 40.95 +/- 2.98
+2026-05-31 18:11:49,905 | INFO     | train | CV MAE : 21.76 +/- 0.40
+2026-05-31 18:11:49,948 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:11:54,634 | INFO     | train | Fold 1 -- RMSE: 37.05  MAE: 21.55
+2026-05-31 18:11:59,293 | INFO     | train | Fold 2 -- RMSE: 44.49  MAE: 21.93
+2026-05-31 18:12:04,041 | INFO     | train | Fold 3 -- RMSE: 38.77  MAE: 20.95
+2026-05-31 18:12:08,800 | INFO     | train | Fold 4 -- RMSE: 38.73  MAE: 21.73
+2026-05-31 18:12:13,716 | INFO     | train | Fold 5 -- RMSE: 44.16  MAE: 21.74
+2026-05-31 18:12:13,716 | INFO     | train | CV RMSE: 40.64 +/- 3.07
+2026-05-31 18:12:13,716 | INFO     | train | CV MAE : 21.58 +/- 0.34
+2026-05-31 18:12:13,740 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:12:17,471 | INFO     | train | Fold 1 -- RMSE: 36.89  MAE: 21.30
+2026-05-31 18:12:21,324 | INFO     | train | Fold 2 -- RMSE: 46.75  MAE: 21.81
+2026-05-31 18:12:25,102 | INFO     | train | Fold 3 -- RMSE: 38.80  MAE: 20.85
+2026-05-31 18:12:28,887 | INFO     | train | Fold 4 -- RMSE: 40.22  MAE: 21.70
+2026-05-31 18:12:32,668 | INFO     | train | Fold 5 -- RMSE: 42.91  MAE: 21.29
+2026-05-31 18:12:32,669 | INFO     | train | CV RMSE: 41.12 +/- 3.44
+2026-05-31 18:12:32,669 | INFO     | train | CV MAE : 21.39 +/- 0.34
+2026-05-31 18:12:32,710 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:12:35,519 | INFO     | train | Fold 1 -- RMSE: 36.88  MAE: 21.46
+2026-05-31 18:12:38,358 | INFO     | train | Fold 2 -- RMSE: 45.94  MAE: 21.86
+2026-05-31 18:12:41,082 | INFO     | train | Fold 3 -- RMSE: 38.62  MAE: 20.69
+2026-05-31 18:12:43,954 | INFO     | train | Fold 4 -- RMSE: 39.92  MAE: 21.65
+2026-05-31 18:12:46,719 | INFO     | train | Fold 5 -- RMSE: 44.32  MAE: 21.68
+2026-05-31 18:12:46,720 | INFO     | train | CV RMSE: 41.13 +/- 3.44
+2026-05-31 18:12:46,720 | INFO     | train | CV MAE : 21.47 +/- 0.41
+2026-05-31 18:12:46,752 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:12:51,608 | INFO     | train | Fold 1 -- RMSE: 36.88  MAE: 21.06
+2026-05-31 18:12:56,437 | INFO     | train | Fold 2 -- RMSE: 44.90  MAE: 21.42
+2026-05-31 18:13:01,299 | INFO     | train | Fold 3 -- RMSE: 37.91  MAE: 20.45
+2026-05-31 18:13:05,736 | INFO     | train | Fold 4 -- RMSE: 38.52  MAE: 21.34
+2026-05-31 18:13:10,446 | INFO     | train | Fold 5 -- RMSE: 43.79  MAE: 21.34
+2026-05-31 18:13:10,447 | INFO     | train | CV RMSE: 40.40 +/- 3.28
+2026-05-31 18:13:10,447 | INFO     | train | CV MAE : 21.12 +/- 0.36
+2026-05-31 18:13:10,479 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:13:15,146 | INFO     | train | Fold 1 -- RMSE: 37.50  MAE: 21.48
+2026-05-31 18:13:19,919 | INFO     | train | Fold 2 -- RMSE: 44.99  MAE: 21.92
+2026-05-31 18:13:24,710 | INFO     | train | Fold 3 -- RMSE: 39.25  MAE: 20.85
+2026-05-31 18:13:29,556 | INFO     | train | Fold 4 -- RMSE: 39.10  MAE: 21.73
+2026-05-31 18:13:34,386 | INFO     | train | Fold 5 -- RMSE: 43.45  MAE: 21.51
+2026-05-31 18:13:34,387 | INFO     | train | CV RMSE: 40.86 +/- 2.86
+2026-05-31 18:13:34,387 | INFO     | train | CV MAE : 21.50 +/- 0.36
+2026-05-31 18:13:34,420 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:13:41,586 | INFO     | train | Fold 1 -- RMSE: 37.69  MAE: 22.11
+2026-05-31 18:13:48,913 | INFO     | train | Fold 2 -- RMSE: 46.70  MAE: 22.42
+2026-05-31 18:13:56,267 | INFO     | train | Fold 3 -- RMSE: 38.98  MAE: 21.26
+2026-05-31 18:14:03,578 | INFO     | train | Fold 4 -- RMSE: 39.52  MAE: 22.04
+2026-05-31 18:14:10,775 | INFO     | train | Fold 5 -- RMSE: 45.08  MAE: 22.35
+2026-05-31 18:14:10,776 | INFO     | train | CV RMSE: 41.60 +/- 3.60
+2026-05-31 18:14:10,776 | INFO     | train | CV MAE : 22.04 +/- 0.41
+2026-05-31 18:14:10,805 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:14:15,480 | INFO     | train | Fold 1 -- RMSE: 38.82  MAE: 22.34
+2026-05-31 18:14:20,446 | INFO     | train | Fold 2 -- RMSE: 45.89  MAE: 22.52
+2026-05-31 18:14:25,135 | INFO     | train | Fold 3 -- RMSE: 39.72  MAE: 21.68
+2026-05-31 18:14:29,969 | INFO     | train | Fold 4 -- RMSE: 41.28  MAE: 22.70
+2026-05-31 18:14:34,778 | INFO     | train | Fold 5 -- RMSE: 45.47  MAE: 22.38
+2026-05-31 18:14:34,779 | INFO     | train | CV RMSE: 42.23 +/- 2.92
+2026-05-31 18:14:34,779 | INFO     | train | CV MAE : 22.32 +/- 0.35
+2026-05-31 18:14:34,815 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:14:38,257 | INFO     | train | Fold 1 -- RMSE: 40.98  MAE: 23.31
+2026-05-31 18:14:41,534 | INFO     | train | Fold 2 -- RMSE: 47.65  MAE: 23.82
+2026-05-31 18:14:44,916 | INFO     | train | Fold 3 -- RMSE: 39.82  MAE: 22.36
+2026-05-31 18:14:48,283 | INFO     | train | Fold 4 -- RMSE: 42.95  MAE: 23.41
+2026-05-31 18:14:51,554 | INFO     | train | Fold 5 -- RMSE: 47.59  MAE: 23.36
+2026-05-31 18:14:51,554 | INFO     | train | CV RMSE: 43.80 +/- 3.28
+2026-05-31 18:14:51,554 | INFO     | train | CV MAE : 23.25 +/- 0.48
+2026-05-31 18:14:51,593 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:14:56,757 | INFO     | train | Fold 1 -- RMSE: 37.56  MAE: 21.19
+2026-05-31 18:15:01,823 | INFO     | train | Fold 2 -- RMSE: 44.93  MAE: 21.36
+2026-05-31 18:15:06,841 | INFO     | train | Fold 3 -- RMSE: 38.25  MAE: 20.42
+2026-05-31 18:15:11,924 | INFO     | train | Fold 4 -- RMSE: 38.01  MAE: 21.31
+2026-05-31 18:15:16,907 | INFO     | train | Fold 5 -- RMSE: 44.20  MAE: 21.26
+2026-05-31 18:15:16,907 | INFO     | train | CV RMSE: 40.59 +/- 3.26
+2026-05-31 18:15:16,907 | INFO     | train | CV MAE : 21.11 +/- 0.35
+2026-05-31 18:15:16,946 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:15:20,540 | INFO     | train | Fold 1 -- RMSE: 37.39  MAE: 21.11
+2026-05-31 18:15:24,179 | INFO     | train | Fold 2 -- RMSE: 44.53  MAE: 21.35
+2026-05-31 18:15:27,804 | INFO     | train | Fold 3 -- RMSE: 38.29  MAE: 20.46
+2026-05-31 18:15:31,449 | INFO     | train | Fold 4 -- RMSE: 37.82  MAE: 21.28
+2026-05-31 18:15:35,052 | INFO     | train | Fold 5 -- RMSE: 44.23  MAE: 21.35
+2026-05-31 18:15:35,052 | INFO     | train | CV RMSE: 40.45 +/- 3.22
+2026-05-31 18:15:35,052 | INFO     | train | CV MAE : 21.11 +/- 0.34
+2026-05-31 18:15:35,078 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:15:42,423 | INFO     | train | Fold 1 -- RMSE: 38.35  MAE: 21.59
+2026-05-31 18:15:49,939 | INFO     | train | Fold 2 -- RMSE: 45.57  MAE: 21.99
+2026-05-31 18:15:57,299 | INFO     | train | Fold 3 -- RMSE: 38.79  MAE: 20.81
+2026-05-31 18:16:04,579 | INFO     | train | Fold 4 -- RMSE: 38.77  MAE: 21.81
+2026-05-31 18:16:11,797 | INFO     | train | Fold 5 -- RMSE: 44.39  MAE: 21.58
+2026-05-31 18:16:11,798 | INFO     | train | CV RMSE: 41.17 +/- 3.13
+2026-05-31 18:16:11,798 | INFO     | train | CV MAE : 21.55 +/- 0.40
+2026-05-31 18:16:11,829 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:16:17,120 | INFO     | train | Fold 1 -- RMSE: 37.75  MAE: 21.28
+2026-05-31 18:16:22,687 | INFO     | train | Fold 2 -- RMSE: 45.56  MAE: 21.48
+2026-05-31 18:16:28,061 | INFO     | train | Fold 3 -- RMSE: 38.11  MAE: 20.62
+2026-05-31 18:16:33,277 | INFO     | train | Fold 4 -- RMSE: 39.36  MAE: 21.58
+2026-05-31 18:16:38,646 | INFO     | train | Fold 5 -- RMSE: 44.13  MAE: 21.64
+2026-05-31 18:16:38,647 | INFO     | train | CV RMSE: 40.99 +/- 3.23
+2026-05-31 18:16:38,647 | INFO     | train | CV MAE : 21.32 +/- 0.37
+2026-05-31 18:16:38,678 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:16:40,896 | INFO     | train | Fold 1 -- RMSE: 36.79  MAE: 21.05
+2026-05-31 18:16:43,158 | INFO     | train | Fold 2 -- RMSE: 45.89  MAE: 21.45
+2026-05-31 18:16:45,367 | INFO     | train | Fold 3 -- RMSE: 38.41  MAE: 20.48
+2026-05-31 18:16:47,720 | INFO     | train | Fold 4 -- RMSE: 39.64  MAE: 21.22
+2026-05-31 18:16:50,138 | INFO     | train | Fold 5 -- RMSE: 43.40  MAE: 21.27
+2026-05-31 18:16:50,139 | INFO     | train | CV RMSE: 40.83 +/- 3.34
+2026-05-31 18:16:50,139 | INFO     | train | CV MAE : 21.10 +/- 0.33
+2026-05-31 18:16:50,167 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:16:55,304 | INFO     | train | Fold 1 -- RMSE: 37.52  MAE: 21.16
+2026-05-31 18:17:00,388 | INFO     | train | Fold 2 -- RMSE: 45.35  MAE: 21.40
+2026-05-31 18:17:05,362 | INFO     | train | Fold 3 -- RMSE: 38.42  MAE: 20.44
+2026-05-31 18:17:10,409 | INFO     | train | Fold 4 -- RMSE: 38.24  MAE: 21.39
+2026-05-31 18:17:15,464 | INFO     | train | Fold 5 -- RMSE: 44.28  MAE: 21.33
+2026-05-31 18:17:15,464 | INFO     | train | CV RMSE: 40.76 +/- 3.34
+2026-05-31 18:17:15,464 | INFO     | train | CV MAE : 21.14 +/- 0.36
+2026-05-31 18:17:15,495 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:17:20,487 | INFO     | train | Fold 1 -- RMSE: 37.39  MAE: 21.19
+2026-05-31 18:17:25,766 | INFO     | train | Fold 2 -- RMSE: 44.90  MAE: 21.42
+2026-05-31 18:17:30,827 | INFO     | train | Fold 3 -- RMSE: 38.63  MAE: 20.54
+2026-05-31 18:17:35,901 | INFO     | train | Fold 4 -- RMSE: 37.74  MAE: 21.37
+2026-05-31 18:17:40,926 | INFO     | train | Fold 5 -- RMSE: 43.92  MAE: 21.37
+2026-05-31 18:17:40,926 | INFO     | train | CV RMSE: 40.52 +/- 3.22
+2026-05-31 18:17:40,926 | INFO     | train | CV MAE : 21.18 +/- 0.33
+2026-05-31 18:17:40,958 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:17:45,989 | INFO     | train | Fold 1 -- RMSE: 36.88  MAE: 21.06
+2026-05-31 18:17:51,066 | INFO     | train | Fold 2 -- RMSE: 44.05  MAE: 21.34
+2026-05-31 18:17:56,198 | INFO     | train | Fold 3 -- RMSE: 38.52  MAE: 20.52
+2026-05-31 18:18:01,390 | INFO     | train | Fold 4 -- RMSE: 38.28  MAE: 21.40
+2026-05-31 18:18:06,446 | INFO     | train | Fold 5 -- RMSE: 43.62  MAE: 21.30
+2026-05-31 18:18:06,447 | INFO     | train | CV RMSE: 40.27 +/- 2.97
+2026-05-31 18:18:06,447 | INFO     | train | CV MAE : 21.12 +/- 0.32
+2026-05-31 18:18:06,478 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:18:10,528 | INFO     | train | Fold 1 -- RMSE: 36.83  MAE: 21.11
+2026-05-31 18:18:14,560 | INFO     | train | Fold 2 -- RMSE: 43.79  MAE: 21.44
+2026-05-31 18:18:18,545 | INFO     | train | Fold 3 -- RMSE: 38.59  MAE: 20.61
+2026-05-31 18:18:22,632 | INFO     | train | Fold 4 -- RMSE: 38.58  MAE: 21.58
+2026-05-31 18:18:26,658 | INFO     | train | Fold 5 -- RMSE: 43.83  MAE: 21.28
+2026-05-31 18:18:26,659 | INFO     | train | CV RMSE: 40.32 +/- 2.92
+2026-05-31 18:18:26,659 | INFO     | train | CV MAE : 21.20 +/- 0.34
+2026-05-31 18:18:26,700 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:18:30,842 | INFO     | train | Fold 1 -- RMSE: 36.83  MAE: 21.10
+2026-05-31 18:18:35,087 | INFO     | train | Fold 2 -- RMSE: 43.34  MAE: 21.44
+2026-05-31 18:18:39,278 | INFO     | train | Fold 3 -- RMSE: 38.29  MAE: 20.58
+2026-05-31 18:18:43,397 | INFO     | train | Fold 4 -- RMSE: 38.88  MAE: 21.57
+2026-05-31 18:18:47,640 | INFO     | train | Fold 5 -- RMSE: 43.40  MAE: 21.32
+2026-05-31 18:18:47,641 | INFO     | train | CV RMSE: 40.15 +/- 2.71
+2026-05-31 18:18:47,641 | INFO     | train | CV MAE : 21.20 +/- 0.35
+2026-05-31 18:18:47,676 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:18:52,108 | INFO     | train | Fold 1 -- RMSE: 36.74  MAE: 21.12
+2026-05-31 18:18:56,649 | INFO     | train | Fold 2 -- RMSE: 42.83  MAE: 21.41
+2026-05-31 18:19:01,065 | INFO     | train | Fold 3 -- RMSE: 38.50  MAE: 20.70
+2026-05-31 18:19:05,637 | INFO     | train | Fold 4 -- RMSE: 38.90  MAE: 21.57
+2026-05-31 18:19:10,162 | INFO     | train | Fold 5 -- RMSE: 43.94  MAE: 21.34
+2026-05-31 18:19:10,163 | INFO     | train | CV RMSE: 40.18 +/- 2.74
+2026-05-31 18:19:10,163 | INFO     | train | CV MAE : 21.23 +/- 0.30
+2026-05-31 18:19:10,199 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:19:13,250 | INFO     | train | Fold 1 -- RMSE: 37.16  MAE: 21.38
+2026-05-31 18:19:16,194 | INFO     | train | Fold 2 -- RMSE: 45.05  MAE: 21.75
+2026-05-31 18:19:19,209 | INFO     | train | Fold 3 -- RMSE: 38.24  MAE: 20.70
+2026-05-31 18:19:22,242 | INFO     | train | Fold 4 -- RMSE: 40.42  MAE: 21.77
+2026-05-31 18:19:25,219 | INFO     | train | Fold 5 -- RMSE: 43.14  MAE: 21.44
+2026-05-31 18:19:25,221 | INFO     | train | CV RMSE: 40.80 +/- 2.95
+2026-05-31 18:19:25,221 | INFO     | train | CV MAE : 21.41 +/- 0.39
+2026-05-31 18:19:25,251 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:19:29,772 | INFO     | train | Fold 1 -- RMSE: 37.43  MAE: 21.54
+2026-05-31 18:19:34,363 | INFO     | train | Fold 2 -- RMSE: 46.58  MAE: 21.89
+2026-05-31 18:19:38,970 | INFO     | train | Fold 3 -- RMSE: 38.93  MAE: 20.92
+2026-05-31 18:19:43,578 | INFO     | train | Fold 4 -- RMSE: 40.38  MAE: 21.96
+2026-05-31 18:19:48,227 | INFO     | train | Fold 5 -- RMSE: 43.98  MAE: 21.68
+2026-05-31 18:19:48,227 | INFO     | train | CV RMSE: 41.46 +/- 3.36
+2026-05-31 18:19:48,227 | INFO     | train | CV MAE : 21.60 +/- 0.37
+2026-05-31 18:19:48,254 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:19:51,537 | INFO     | train | Fold 1 -- RMSE: 36.49  MAE: 21.09
+2026-05-31 18:19:54,965 | INFO     | train | Fold 2 -- RMSE: 45.53  MAE: 21.60
+2026-05-31 18:19:58,335 | INFO     | train | Fold 3 -- RMSE: 38.20  MAE: 20.50
+2026-05-31 18:20:01,645 | INFO     | train | Fold 4 -- RMSE: 39.03  MAE: 21.36
+2026-05-31 18:20:05,066 | INFO     | train | Fold 5 -- RMSE: 43.87  MAE: 21.32
+2026-05-31 18:20:05,067 | INFO     | train | CV RMSE: 40.62 +/- 3.47
+2026-05-31 18:20:05,067 | INFO     | train | CV MAE : 21.17 +/- 0.37
+2026-05-31 18:20:05,106 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:20:08,479 | INFO     | train | Fold 1 -- RMSE: 37.25  MAE: 21.38
+2026-05-31 18:20:11,766 | INFO     | train | Fold 2 -- RMSE: 43.45  MAE: 21.54
+2026-05-31 18:20:15,045 | INFO     | train | Fold 3 -- RMSE: 38.00  MAE: 20.59
+2026-05-31 18:20:18,368 | INFO     | train | Fold 4 -- RMSE: 40.19  MAE: 21.60
+2026-05-31 18:20:21,736 | INFO     | train | Fold 5 -- RMSE: 42.87  MAE: 21.34
+2026-05-31 18:20:21,737 | INFO     | train | CV RMSE: 40.35 +/- 2.49
+2026-05-31 18:20:21,737 | INFO     | train | CV MAE : 21.29 +/- 0.36
+2026-05-31 18:20:21,767 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:20:25,721 | INFO     | train | Fold 1 -- RMSE: 36.73  MAE: 21.07
+2026-05-31 18:20:29,886 | INFO     | train | Fold 2 -- RMSE: 43.71  MAE: 21.46
+2026-05-31 18:20:33,861 | INFO     | train | Fold 3 -- RMSE: 38.53  MAE: 20.61
+2026-05-31 18:20:37,888 | INFO     | train | Fold 4 -- RMSE: 38.46  MAE: 21.51
+2026-05-31 18:20:42,211 | INFO     | train | Fold 5 -- RMSE: 43.70  MAE: 21.36
+2026-05-31 18:20:42,211 | INFO     | train | CV RMSE: 40.22 +/- 2.91
+2026-05-31 18:20:42,211 | INFO     | train | CV MAE : 21.20 +/- 0.33
+2026-05-31 18:20:42,243 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:20:47,005 | INFO     | train | Fold 1 -- RMSE: 37.03  MAE: 21.33
+2026-05-31 18:20:51,891 | INFO     | train | Fold 2 -- RMSE: 43.75  MAE: 21.60
+2026-05-31 18:20:56,557 | INFO     | train | Fold 3 -- RMSE: 38.41  MAE: 20.62
+2026-05-31 18:21:01,065 | INFO     | train | Fold 4 -- RMSE: 39.45  MAE: 21.73
+2026-05-31 18:21:05,789 | INFO     | train | Fold 5 -- RMSE: 44.23  MAE: 21.49
+2026-05-31 18:21:05,789 | INFO     | train | CV RMSE: 40.57 +/- 2.90
+2026-05-31 18:21:05,789 | INFO     | train | CV MAE : 21.36 +/- 0.39
+2026-05-31 18:21:05,818 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:21:11,011 | INFO     | train | Fold 1 -- RMSE: 37.28  MAE: 21.58
+2026-05-31 18:21:16,286 | INFO     | train | Fold 2 -- RMSE: 46.82  MAE: 22.05
+2026-05-31 18:21:21,473 | INFO     | train | Fold 3 -- RMSE: 39.35  MAE: 21.00
+2026-05-31 18:21:26,815 | INFO     | train | Fold 4 -- RMSE: 39.33  MAE: 21.91
+2026-05-31 18:21:32,289 | INFO     | train | Fold 5 -- RMSE: 44.68  MAE: 21.72
+2026-05-31 18:21:32,291 | INFO     | train | CV RMSE: 41.49 +/- 3.62
+2026-05-31 18:21:32,291 | INFO     | train | CV MAE : 21.65 +/- 0.36
+2026-05-31 18:21:32,323 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:21:37,798 | INFO     | train | Fold 1 -- RMSE: 36.87  MAE: 21.12
+2026-05-31 18:21:43,256 | INFO     | train | Fold 2 -- RMSE: 44.62  MAE: 21.45
+2026-05-31 18:21:48,716 | INFO     | train | Fold 3 -- RMSE: 38.32  MAE: 20.57
+2026-05-31 18:21:54,056 | INFO     | train | Fold 4 -- RMSE: 39.47  MAE: 21.65
+2026-05-31 18:21:59,631 | INFO     | train | Fold 5 -- RMSE: 43.63  MAE: 21.32
+2026-05-31 18:21:59,632 | INFO     | train | CV RMSE: 40.58 +/- 3.03
+2026-05-31 18:21:59,632 | INFO     | train | CV MAE : 21.22 +/- 0.37
+2026-05-31 18:21:59,665 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:22:03,752 | INFO     | train | Fold 1 -- RMSE: 36.43  MAE: 21.12
+2026-05-31 18:22:07,777 | INFO     | train | Fold 2 -- RMSE: 43.18  MAE: 21.51
+2026-05-31 18:22:11,724 | INFO     | train | Fold 3 -- RMSE: 38.23  MAE: 20.55
+2026-05-31 18:22:15,741 | INFO     | train | Fold 4 -- RMSE: 39.49  MAE: 21.53
+2026-05-31 18:22:19,687 | INFO     | train | Fold 5 -- RMSE: 43.80  MAE: 21.38
+2026-05-31 18:22:19,688 | INFO     | train | CV RMSE: 40.23 +/- 2.84
+2026-05-31 18:22:19,688 | INFO     | train | CV MAE : 21.22 +/- 0.37
+2026-05-31 18:22:19,719 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:22:24,568 | INFO     | train | Fold 1 -- RMSE: 36.78  MAE: 21.28
+2026-05-31 18:22:29,191 | INFO     | train | Fold 2 -- RMSE: 44.62  MAE: 21.71
+2026-05-31 18:22:34,128 | INFO     | train | Fold 3 -- RMSE: 38.37  MAE: 20.69
+2026-05-31 18:22:38,836 | INFO     | train | Fold 4 -- RMSE: 40.24  MAE: 21.73
+2026-05-31 18:22:43,541 | INFO     | train | Fold 5 -- RMSE: 44.11  MAE: 21.42
+2026-05-31 18:22:43,542 | INFO     | train | CV RMSE: 40.82 +/- 3.09
+2026-05-31 18:22:43,542 | INFO     | train | CV MAE : 21.37 +/- 0.38
+2026-05-31 18:22:43,574 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:22:46,869 | INFO     | train | Fold 1 -- RMSE: 37.25  MAE: 21.41
+2026-05-31 18:22:50,189 | INFO     | train | Fold 2 -- RMSE: 44.13  MAE: 21.76
+2026-05-31 18:22:53,477 | INFO     | train | Fold 3 -- RMSE: 38.10  MAE: 20.67
+2026-05-31 18:22:56,743 | INFO     | train | Fold 4 -- RMSE: 40.24  MAE: 21.67
+2026-05-31 18:23:00,013 | INFO     | train | Fold 5 -- RMSE: 43.23  MAE: 21.43
+2026-05-31 18:23:00,013 | INFO     | train | CV RMSE: 40.59 +/- 2.72
+2026-05-31 18:23:00,013 | INFO     | train | CV MAE : 21.39 +/- 0.38
+2026-05-31 18:23:00,049 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:23:03,709 | INFO     | train | Fold 1 -- RMSE: 37.29  MAE: 21.52
+2026-05-31 18:23:07,430 | INFO     | train | Fold 2 -- RMSE: 46.13  MAE: 21.85
+2026-05-31 18:23:11,156 | INFO     | train | Fold 3 -- RMSE: 39.27  MAE: 21.02
+2026-05-31 18:23:14,887 | INFO     | train | Fold 4 -- RMSE: 39.77  MAE: 21.62
+2026-05-31 18:23:18,498 | INFO     | train | Fold 5 -- RMSE: 44.23  MAE: 21.59
+2026-05-31 18:23:18,499 | INFO     | train | CV RMSE: 41.34 +/- 3.30
+2026-05-31 18:23:18,499 | INFO     | train | CV MAE : 21.52 +/- 0.27
+2026-05-31 18:23:18,532 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:23:21,267 | INFO     | train | Fold 1 -- RMSE: 38.29  MAE: 21.91
+2026-05-31 18:23:24,199 | INFO     | train | Fold 2 -- RMSE: 43.94  MAE: 22.03
+2026-05-31 18:23:26,915 | INFO     | train | Fold 3 -- RMSE: 38.80  MAE: 21.07
+2026-05-31 18:23:29,667 | INFO     | train | Fold 4 -- RMSE: 40.80  MAE: 22.04
+2026-05-31 18:23:32,458 | INFO     | train | Fold 5 -- RMSE: 43.09  MAE: 21.56
+2026-05-31 18:23:32,459 | INFO     | train | CV RMSE: 40.98 +/- 2.25
+2026-05-31 18:23:32,459 | INFO     | train | CV MAE : 21.72 +/- 0.37
+2026-05-31 18:23:32,486 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:23:39,224 | INFO     | train | Fold 1 -- RMSE: 37.07  MAE: 21.31
+2026-05-31 18:23:46,295 | INFO     | train | Fold 2 -- RMSE: 44.58  MAE: 21.74
+2026-05-31 18:23:53,240 | INFO     | train | Fold 3 -- RMSE: 38.26  MAE: 20.60
+2026-05-31 18:24:00,024 | INFO     | train | Fold 4 -- RMSE: 39.39  MAE: 21.69
+2026-05-31 18:24:06,932 | INFO     | train | Fold 5 -- RMSE: 43.92  MAE: 21.48
+2026-05-31 18:24:06,933 | INFO     | train | CV RMSE: 40.64 +/- 3.04
+2026-05-31 18:24:06,933 | INFO     | train | CV MAE : 21.36 +/- 0.41
+2026-05-31 18:24:06,972 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:24:10,939 | INFO     | train | Fold 1 -- RMSE: 36.60  MAE: 20.98
+2026-05-31 18:24:15,001 | INFO     | train | Fold 2 -- RMSE: 43.92  MAE: 21.34
+2026-05-31 18:24:19,142 | INFO     | train | Fold 3 -- RMSE: 38.39  MAE: 20.48
+2026-05-31 18:24:23,325 | INFO     | train | Fold 4 -- RMSE: 38.75  MAE: 21.47
+2026-05-31 18:24:27,436 | INFO     | train | Fold 5 -- RMSE: 43.64  MAE: 21.27
+2026-05-31 18:24:27,437 | INFO     | train | CV RMSE: 40.26 +/- 2.97
+2026-05-31 18:24:27,438 | INFO     | train | CV MAE : 21.11 +/- 0.35
+2026-05-31 18:24:27,474 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:24:32,008 | INFO     | train | Fold 1 -- RMSE: 36.95  MAE: 21.11
+2026-05-31 18:24:36,640 | INFO     | train | Fold 2 -- RMSE: 45.43  MAE: 21.51
+2026-05-31 18:24:41,223 | INFO     | train | Fold 3 -- RMSE: 38.11  MAE: 20.55
+2026-05-31 18:24:45,760 | INFO     | train | Fold 4 -- RMSE: 39.32  MAE: 21.62
+2026-05-31 18:24:50,278 | INFO     | train | Fold 5 -- RMSE: 43.54  MAE: 21.34
+2026-05-31 18:24:50,279 | INFO     | train | CV RMSE: 40.67 +/- 3.26
+2026-05-31 18:24:50,279 | INFO     | train | CV MAE : 21.22 +/- 0.38
+2026-05-31 18:24:50,311 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:24:54,686 | INFO     | train | Fold 1 -- RMSE: 37.28  MAE: 21.31
+2026-05-31 18:24:59,126 | INFO     | train | Fold 2 -- RMSE: 46.57  MAE: 21.69
+2026-05-31 18:25:03,439 | INFO     | train | Fold 3 -- RMSE: 38.46  MAE: 20.75
+2026-05-31 18:25:07,840 | INFO     | train | Fold 4 -- RMSE: 39.26  MAE: 21.84
+2026-05-31 18:25:12,252 | INFO     | train | Fold 5 -- RMSE: 43.24  MAE: 21.33
+2026-05-31 18:25:12,253 | INFO     | train | CV RMSE: 40.96 +/- 3.45
+2026-05-31 18:25:12,253 | INFO     | train | CV MAE : 21.38 +/- 0.38
+2026-05-31 18:25:12,289 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:25:16,396 | INFO     | train | Fold 1 -- RMSE: 36.82  MAE: 21.00
+2026-05-31 18:25:20,460 | INFO     | train | Fold 2 -- RMSE: 42.61  MAE: 21.32
+2026-05-31 18:25:24,498 | INFO     | train | Fold 3 -- RMSE: 38.32  MAE: 20.57
+2026-05-31 18:25:28,628 | INFO     | train | Fold 4 -- RMSE: 39.19  MAE: 21.57
+2026-05-31 18:25:32,925 | INFO     | train | Fold 5 -- RMSE: 43.88  MAE: 21.39
+2026-05-31 18:25:32,925 | INFO     | train | CV RMSE: 40.16 +/- 2.66
+2026-05-31 18:25:32,941 | INFO     | train | CV MAE : 21.17 +/- 0.35
+2026-05-31 18:25:32,973 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:25:36,722 | INFO     | train | Fold 1 -- RMSE: 36.95  MAE: 21.09
+2026-05-31 18:25:40,459 | INFO     | train | Fold 2 -- RMSE: 46.10  MAE: 21.54
+2026-05-31 18:25:44,103 | INFO     | train | Fold 3 -- RMSE: 38.64  MAE: 20.52
+2026-05-31 18:25:47,894 | INFO     | train | Fold 4 -- RMSE: 38.31  MAE: 21.42
+2026-05-31 18:25:51,695 | INFO     | train | Fold 5 -- RMSE: 44.22  MAE: 21.42
+2026-05-31 18:25:51,696 | INFO     | train | CV RMSE: 40.84 +/- 3.62
+2026-05-31 18:25:51,696 | INFO     | train | CV MAE : 21.20 +/- 0.37
+2026-05-31 18:25:51,731 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:25:57,958 | INFO     | train | Fold 1 -- RMSE: 37.13  MAE: 21.11
+2026-05-31 18:26:04,526 | INFO     | train | Fold 2 -- RMSE: 45.77  MAE: 21.55
+2026-05-31 18:26:10,994 | INFO     | train | Fold 3 -- RMSE: 38.43  MAE: 20.50
+2026-05-31 18:26:17,282 | INFO     | train | Fold 4 -- RMSE: 38.64  MAE: 21.43
+2026-05-31 18:26:23,607 | INFO     | train | Fold 5 -- RMSE: 44.35  MAE: 21.43
+2026-05-31 18:26:23,607 | INFO     | train | CV RMSE: 40.86 +/- 3.49
+2026-05-31 18:26:23,607 | INFO     | train | CV MAE : 21.20 +/- 0.38
+2026-05-31 18:26:23,641 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:26:28,425 | INFO     | train | Fold 1 -- RMSE: 37.17  MAE: 21.42
+2026-05-31 18:26:33,105 | INFO     | train | Fold 2 -- RMSE: 45.91  MAE: 21.82
+2026-05-31 18:26:37,885 | INFO     | train | Fold 3 -- RMSE: 38.24  MAE: 20.92
+2026-05-31 18:26:42,722 | INFO     | train | Fold 4 -- RMSE: 40.58  MAE: 21.92
+2026-05-31 18:26:47,429 | INFO     | train | Fold 5 -- RMSE: 44.29  MAE: 21.75
+2026-05-31 18:26:47,430 | INFO     | train | CV RMSE: 41.24 +/- 3.38
+2026-05-31 18:26:47,430 | INFO     | train | CV MAE : 21.57 +/- 0.37
+2026-05-31 18:26:47,462 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:26:52,032 | INFO     | train | Fold 1 -- RMSE: 37.49  MAE: 21.37
+2026-05-31 18:26:56,622 | INFO     | train | Fold 2 -- RMSE: 45.53  MAE: 21.61
+2026-05-31 18:27:01,197 | INFO     | train | Fold 3 -- RMSE: 38.43  MAE: 20.65
+2026-05-31 18:27:05,648 | INFO     | train | Fold 4 -- RMSE: 39.12  MAE: 21.65
+2026-05-31 18:27:10,276 | INFO     | train | Fold 5 -- RMSE: 43.77  MAE: 21.46
+2026-05-31 18:27:10,277 | INFO     | train | CV RMSE: 40.87 +/- 3.18
+2026-05-31 18:27:10,277 | INFO     | train | CV MAE : 21.35 +/- 0.37
+2026-05-31 18:27:10,309 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 18:27:13,626 | INFO     | train | Fold 1 -- RMSE: 36.69  MAE: 21.14
+2026-05-31 18:27:17,015 | INFO     | train | Fold 2 -- RMSE: 43.03  MAE: 21.37
+2026-05-31 18:27:20,268 | INFO     | train | Fold 3 -- RMSE: 38.38  MAE: 20.52
+2026-05-31 18:27:23,555 | INFO     | train | Fold 4 -- RMSE: 38.95  MAE: 21.41
+2026-05-31 18:27:26,853 | INFO     | train | Fold 5 -- RMSE: 43.48  MAE: 21.27
+2026-05-31 18:27:26,855 | INFO     | train | CV RMSE: 40.11 +/- 2.68
+2026-05-31 18:27:26,855 | INFO     | train | CV MAE : 21.14 +/- 0.32
+2026-05-31 18:51:59,753 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 18:53:18,607 | INFO     | train | Fold 1 -- RMSE: 41.35  MAE: 22.97
+2026-05-31 18:54:13,497 | INFO     | train | Fold 2 -- RMSE: 47.64  MAE: 23.29
+2026-05-31 18:55:06,070 | INFO     | train | Fold 3 -- RMSE: 39.04  MAE: 21.37
+2026-05-31 18:55:59,335 | INFO     | train | Fold 4 -- RMSE: 41.52  MAE: 23.16
+2026-05-31 18:56:51,587 | INFO     | train | Fold 5 -- RMSE: 44.37  MAE: 22.45
+2026-05-31 18:56:51,587 | INFO     | train | CV RMSE: 42.79 +/- 2.96
+2026-05-31 18:56:51,588 | INFO     | train | CV MAE : 22.65 +/- 0.70
+2026-05-31 18:56:51,598 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 18:57:30,018 | INFO     | train | Fold 1 -- RMSE: 41.79  MAE: 22.14
+2026-05-31 18:58:06,169 | INFO     | train | Fold 2 -- RMSE: 47.23  MAE: 22.02
+2026-05-31 18:58:42,086 | INFO     | train | Fold 3 -- RMSE: 38.56  MAE: 20.71
+2026-05-31 18:59:18,403 | INFO     | train | Fold 4 -- RMSE: 42.69  MAE: 21.78
+2026-05-31 18:59:53,818 | INFO     | train | Fold 5 -- RMSE: 42.93  MAE: 21.10
+2026-05-31 18:59:53,819 | INFO     | train | CV RMSE: 42.64 +/- 2.78
+2026-05-31 18:59:53,819 | INFO     | train | CV MAE : 21.55 +/- 0.55
+2026-05-31 18:59:53,824 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:00:21,466 | INFO     | train | Fold 1 -- RMSE: 39.83  MAE: 22.63
+2026-05-31 19:00:49,376 | INFO     | train | Fold 2 -- RMSE: 47.43  MAE: 23.32
+2026-05-31 19:01:17,013 | INFO     | train | Fold 3 -- RMSE: 38.89  MAE: 21.69
+2026-05-31 19:01:45,194 | INFO     | train | Fold 4 -- RMSE: 42.08  MAE: 22.93
+2026-05-31 19:02:13,636 | INFO     | train | Fold 5 -- RMSE: 44.28  MAE: 22.84
+2026-05-31 19:02:13,636 | INFO     | train | CV RMSE: 42.50 +/- 3.09
+2026-05-31 19:02:13,636 | INFO     | train | CV MAE : 22.68 +/- 0.54
+2026-05-31 19:02:13,641 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:02:37,479 | INFO     | train | Fold 1 -- RMSE: 40.59  MAE: 21.83
+2026-05-31 19:03:00,719 | INFO     | train | Fold 2 -- RMSE: 46.25  MAE: 21.73
+2026-05-31 19:03:24,381 | INFO     | train | Fold 3 -- RMSE: 38.37  MAE: 20.60
+2026-05-31 19:03:47,975 | INFO     | train | Fold 4 -- RMSE: 41.63  MAE: 21.55
+2026-05-31 19:04:11,175 | INFO     | train | Fold 5 -- RMSE: 42.83  MAE: 21.17
+2026-05-31 19:04:11,176 | INFO     | train | CV RMSE: 41.93 +/- 2.61
+2026-05-31 19:04:11,176 | INFO     | train | CV MAE : 21.38 +/- 0.45
+2026-05-31 19:04:11,179 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:04:20,917 | INFO     | train | Fold 1 -- RMSE: 39.84  MAE: 22.41
+2026-05-31 19:04:30,788 | INFO     | train | Fold 2 -- RMSE: 47.31  MAE: 22.65
+2026-05-31 19:04:40,835 | INFO     | train | Fold 3 -- RMSE: 38.12  MAE: 21.33
+2026-05-31 19:04:50,776 | INFO     | train | Fold 4 -- RMSE: 42.94  MAE: 22.61
+2026-05-31 19:05:00,464 | INFO     | train | Fold 5 -- RMSE: 44.33  MAE: 22.17
+2026-05-31 19:05:00,465 | INFO     | train | CV RMSE: 42.51 +/- 3.26
+2026-05-31 19:05:00,465 | INFO     | train | CV MAE : 22.23 +/- 0.48
+2026-05-31 19:05:00,469 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:05:30,543 | INFO     | train | Fold 1 -- RMSE: 41.18  MAE: 22.14
+2026-05-31 19:05:59,556 | INFO     | train | Fold 2 -- RMSE: 47.25  MAE: 22.06
+2026-05-31 19:06:29,351 | INFO     | train | Fold 3 -- RMSE: 39.94  MAE: 20.94
+2026-05-31 19:06:58,783 | INFO     | train | Fold 4 -- RMSE: 42.87  MAE: 21.88
+2026-05-31 19:07:28,587 | INFO     | train | Fold 5 -- RMSE: 43.86  MAE: 21.47
+2026-05-31 19:07:28,587 | INFO     | train | CV RMSE: 43.02 +/- 2.51
+2026-05-31 19:07:28,587 | INFO     | train | CV MAE : 21.70 +/- 0.44
+2026-05-31 19:07:28,591 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:07:45,047 | INFO     | train | Fold 1 -- RMSE: 40.46  MAE: 23.10
+2026-05-31 19:08:01,129 | INFO     | train | Fold 2 -- RMSE: 47.44  MAE: 23.87
+2026-05-31 19:08:17,779 | INFO     | train | Fold 3 -- RMSE: 39.62  MAE: 21.95
+2026-05-31 19:08:34,167 | INFO     | train | Fold 4 -- RMSE: 42.34  MAE: 23.49
+2026-05-31 19:08:50,630 | INFO     | train | Fold 5 -- RMSE: 44.94  MAE: 23.20
+2026-05-31 19:08:50,630 | INFO     | train | CV RMSE: 42.96 +/- 2.89
+2026-05-31 19:08:50,630 | INFO     | train | CV MAE : 23.12 +/- 0.65
+2026-05-31 19:08:50,633 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:09:06,521 | INFO     | train | Fold 1 -- RMSE: 40.58  MAE: 21.99
+2026-05-31 19:09:22,277 | INFO     | train | Fold 2 -- RMSE: 45.99  MAE: 21.80
+2026-05-31 19:09:38,313 | INFO     | train | Fold 3 -- RMSE: 38.35  MAE: 20.69
+2026-05-31 19:09:53,950 | INFO     | train | Fold 4 -- RMSE: 41.99  MAE: 21.82
+2026-05-31 19:10:09,500 | INFO     | train | Fold 5 -- RMSE: 43.17  MAE: 21.36
+2026-05-31 19:10:09,501 | INFO     | train | CV RMSE: 42.02 +/- 2.56
+2026-05-31 19:10:09,501 | INFO     | train | CV MAE : 21.53 +/- 0.47
+2026-05-31 19:10:09,504 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:10:31,346 | INFO     | train | Fold 1 -- RMSE: 40.47  MAE: 22.92
+2026-05-31 19:10:52,602 | INFO     | train | Fold 2 -- RMSE: 47.70  MAE: 23.67
+2026-05-31 19:11:14,820 | INFO     | train | Fold 3 -- RMSE: 39.57  MAE: 21.96
+2026-05-31 19:11:36,601 | INFO     | train | Fold 4 -- RMSE: 42.01  MAE: 23.19
+2026-05-31 19:11:59,038 | INFO     | train | Fold 5 -- RMSE: 43.91  MAE: 22.67
+2026-05-31 19:11:59,038 | INFO     | train | CV RMSE: 42.73 +/- 2.89
+2026-05-31 19:11:59,038 | INFO     | train | CV MAE : 22.88 +/- 0.57
+2026-05-31 19:11:59,042 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:12:06,284 | INFO     | train | Fold 1 -- RMSE: 41.85  MAE: 22.79
+2026-05-31 19:12:13,422 | INFO     | train | Fold 2 -- RMSE: 47.08  MAE: 22.94
+2026-05-31 19:12:20,575 | INFO     | train | Fold 3 -- RMSE: 39.08  MAE: 21.29
+2026-05-31 19:12:27,675 | INFO     | train | Fold 4 -- RMSE: 41.63  MAE: 22.68
+2026-05-31 19:12:34,837 | INFO     | train | Fold 5 -- RMSE: 44.77  MAE: 22.35
+2026-05-31 19:12:34,838 | INFO     | train | CV RMSE: 42.88 +/- 2.77
+2026-05-31 19:12:34,838 | INFO     | train | CV MAE : 22.41 +/- 0.59
+2026-05-31 19:12:34,859 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:12:44,628 | INFO     | train | Fold 1 -- RMSE: 40.65  MAE: 21.89
+2026-05-31 19:12:54,461 | INFO     | train | Fold 2 -- RMSE: 46.07  MAE: 22.15
+2026-05-31 19:13:04,352 | INFO     | train | Fold 3 -- RMSE: 38.44  MAE: 20.74
+2026-05-31 19:13:14,340 | INFO     | train | Fold 4 -- RMSE: 39.68  MAE: 21.37
+2026-05-31 19:13:24,164 | INFO     | train | Fold 5 -- RMSE: 43.40  MAE: 21.87
+2026-05-31 19:13:24,165 | INFO     | train | CV RMSE: 41.65 +/- 2.75
+2026-05-31 19:13:24,165 | INFO     | train | CV MAE : 21.60 +/- 0.50
+2026-05-31 19:13:24,180 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:13:49,462 | INFO     | train | Fold 1 -- RMSE: 40.00  MAE: 22.01
+2026-05-31 19:14:14,473 | INFO     | train | Fold 2 -- RMSE: 45.97  MAE: 22.38
+2026-05-31 19:14:40,047 | INFO     | train | Fold 3 -- RMSE: 38.18  MAE: 20.71
+2026-05-31 19:15:05,752 | INFO     | train | Fold 4 -- RMSE: 39.81  MAE: 21.65
+2026-05-31 19:15:31,421 | INFO     | train | Fold 5 -- RMSE: 42.94  MAE: 21.85
+2026-05-31 19:15:31,421 | INFO     | train | CV RMSE: 41.38 +/- 2.76
+2026-05-31 19:15:31,421 | INFO     | train | CV MAE : 21.72 +/- 0.56
+2026-05-31 19:15:31,442 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:15:44,129 | INFO     | train | Fold 1 -- RMSE: 40.00  MAE: 22.19
+2026-05-31 19:15:56,528 | INFO     | train | Fold 2 -- RMSE: 46.22  MAE: 22.67
+2026-05-31 19:16:08,892 | INFO     | train | Fold 3 -- RMSE: 38.53  MAE: 20.96
+2026-05-31 19:16:21,272 | INFO     | train | Fold 4 -- RMSE: 40.03  MAE: 21.95
+2026-05-31 19:16:33,560 | INFO     | train | Fold 5 -- RMSE: 43.59  MAE: 22.20
+2026-05-31 19:16:33,560 | INFO     | train | CV RMSE: 41.67 +/- 2.82
+2026-05-31 19:16:33,560 | INFO     | train | CV MAE : 21.99 +/- 0.57
+2026-05-31 19:16:33,575 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:16:56,564 | INFO     | train | Fold 1 -- RMSE: 40.25  MAE: 22.08
+2026-05-31 19:17:19,504 | INFO     | train | Fold 2 -- RMSE: 46.05  MAE: 22.45
+2026-05-31 19:17:43,133 | INFO     | train | Fold 3 -- RMSE: 38.29  MAE: 20.86
+2026-05-31 19:18:06,027 | INFO     | train | Fold 4 -- RMSE: 39.91  MAE: 21.74
+2026-05-31 19:18:28,797 | INFO     | train | Fold 5 -- RMSE: 42.98  MAE: 21.89
+2026-05-31 19:18:28,797 | INFO     | train | CV RMSE: 41.50 +/- 2.73
+2026-05-31 19:18:28,797 | INFO     | train | CV MAE : 21.80 +/- 0.53
+2026-05-31 19:18:28,814 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:18:49,946 | INFO     | train | Fold 1 -- RMSE: 40.65  MAE: 22.37
+2026-05-31 19:19:10,799 | INFO     | train | Fold 2 -- RMSE: 46.79  MAE: 22.96
+2026-05-31 19:19:32,015 | INFO     | train | Fold 3 -- RMSE: 38.79  MAE: 21.25
+2026-05-31 19:19:53,094 | INFO     | train | Fold 4 -- RMSE: 41.01  MAE: 22.35
+2026-05-31 19:20:14,970 | INFO     | train | Fold 5 -- RMSE: 43.86  MAE: 22.28
+2026-05-31 19:20:14,971 | INFO     | train | CV RMSE: 42.22 +/- 2.80
+2026-05-31 19:20:14,971 | INFO     | train | CV MAE : 22.24 +/- 0.55
+2026-05-31 19:20:14,988 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:20:51,396 | INFO     | train | Fold 1 -- RMSE: 39.74  MAE: 22.01
+2026-05-31 19:21:27,019 | INFO     | train | Fold 2 -- RMSE: 46.77  MAE: 22.41
+2026-05-31 19:22:02,944 | INFO     | train | Fold 3 -- RMSE: 38.29  MAE: 20.79
+2026-05-31 19:22:38,509 | INFO     | train | Fold 4 -- RMSE: 39.59  MAE: 21.90
+2026-05-31 19:23:14,297 | INFO     | train | Fold 5 -- RMSE: 43.95  MAE: 21.98
+2026-05-31 19:23:14,297 | INFO     | train | CV RMSE: 41.67 +/- 3.18
+2026-05-31 19:23:14,298 | INFO     | train | CV MAE : 21.82 +/- 0.54
+2026-05-31 19:23:14,317 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:23:34,296 | INFO     | train | Fold 1 -- RMSE: 40.43  MAE: 22.35
+2026-05-31 19:23:54,520 | INFO     | train | Fold 2 -- RMSE: 46.54  MAE: 22.70
+2026-05-31 19:24:14,582 | INFO     | train | Fold 3 -- RMSE: 38.59  MAE: 21.12
+2026-05-31 19:24:34,135 | INFO     | train | Fold 4 -- RMSE: 40.67  MAE: 22.14
+2026-05-31 19:24:56,088 | INFO     | train | Fold 5 -- RMSE: 43.72  MAE: 22.25
+2026-05-31 19:24:56,089 | INFO     | train | CV RMSE: 41.99 +/- 2.81
+2026-05-31 19:24:56,089 | INFO     | train | CV MAE : 22.11 +/- 0.53
+2026-05-31 19:24:56,110 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:25:06,588 | INFO     | train | Fold 1 -- RMSE: 40.95  MAE: 22.51
+2026-05-31 19:25:16,092 | INFO     | train | Fold 2 -- RMSE: 47.02  MAE: 23.06
+2026-05-31 19:25:25,695 | INFO     | train | Fold 3 -- RMSE: 39.51  MAE: 21.44
+2026-05-31 19:25:35,262 | INFO     | train | Fold 4 -- RMSE: 40.52  MAE: 22.43
+2026-05-31 19:25:45,007 | INFO     | train | Fold 5 -- RMSE: 43.40  MAE: 22.29
+2026-05-31 19:25:45,008 | INFO     | train | CV RMSE: 42.28 +/- 2.69
+2026-05-31 19:25:45,008 | INFO     | train | CV MAE : 22.34 +/- 0.52
+2026-05-31 19:25:45,028 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:26:26,632 | INFO     | train | Fold 1 -- RMSE: 40.66  MAE: 21.90
+2026-05-31 19:27:09,349 | INFO     | train | Fold 2 -- RMSE: 47.00  MAE: 22.19
+2026-05-31 19:27:48,830 | INFO     | train | Fold 3 -- RMSE: 37.76  MAE: 20.58
+2026-05-31 19:28:27,914 | INFO     | train | Fold 4 -- RMSE: 40.62  MAE: 21.70
+2026-05-31 19:29:07,958 | INFO     | train | Fold 5 -- RMSE: 43.07  MAE: 21.33
+2026-05-31 19:29:07,959 | INFO     | train | CV RMSE: 41.82 +/- 3.09
+2026-05-31 19:29:07,959 | INFO     | train | CV MAE : 21.54 +/- 0.56
+2026-05-31 19:29:07,981 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:29:36,129 | INFO     | train | Fold 1 -- RMSE: 40.97  MAE: 22.26
+2026-05-31 19:30:01,299 | INFO     | train | Fold 2 -- RMSE: 46.65  MAE: 22.66
+2026-05-31 19:30:25,914 | INFO     | train | Fold 3 -- RMSE: 38.15  MAE: 20.91
+2026-05-31 19:30:50,322 | INFO     | train | Fold 4 -- RMSE: 40.95  MAE: 22.15
+2026-05-31 19:31:14,983 | INFO     | train | Fold 5 -- RMSE: 43.71  MAE: 21.96
+2026-05-31 19:31:14,984 | INFO     | train | CV RMSE: 42.09 +/- 2.88
+2026-05-31 19:31:14,984 | INFO     | train | CV MAE : 21.99 +/- 0.59
+2026-05-31 19:31:15,002 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:31:42,612 | INFO     | train | Fold 1 -- RMSE: 40.22  MAE: 22.12
+2026-05-31 19:32:10,349 | INFO     | train | Fold 2 -- RMSE: 46.25  MAE: 22.46
+2026-05-31 19:32:38,555 | INFO     | train | Fold 3 -- RMSE: 37.98  MAE: 20.77
+2026-05-31 19:33:07,141 | INFO     | train | Fold 4 -- RMSE: 39.97  MAE: 21.79
+2026-05-31 19:33:35,013 | INFO     | train | Fold 5 -- RMSE: 43.32  MAE: 21.92
+2026-05-31 19:33:35,014 | INFO     | train | CV RMSE: 41.55 +/- 2.91
+2026-05-31 19:33:35,014 | INFO     | train | CV MAE : 21.81 +/- 0.57
+2026-05-31 19:33:35,033 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:34:01,260 | INFO     | train | Fold 1 -- RMSE: 40.06  MAE: 22.09
+2026-05-31 19:34:27,593 | INFO     | train | Fold 2 -- RMSE: 46.16  MAE: 22.54
+2026-05-31 19:34:53,986 | INFO     | train | Fold 3 -- RMSE: 38.30  MAE: 20.90
+2026-05-31 19:35:20,284 | INFO     | train | Fold 4 -- RMSE: 40.00  MAE: 21.84
+2026-05-31 19:35:47,206 | INFO     | train | Fold 5 -- RMSE: 43.44  MAE: 21.95
+2026-05-31 19:35:47,206 | INFO     | train | CV RMSE: 41.59 +/- 2.83
+2026-05-31 19:35:47,206 | INFO     | train | CV MAE : 21.86 +/- 0.54
+2026-05-31 19:35:47,223 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:36:19,499 | INFO     | train | Fold 1 -- RMSE: 40.07  MAE: 22.07
+2026-05-31 19:36:51,837 | INFO     | train | Fold 2 -- RMSE: 46.11  MAE: 22.40
+2026-05-31 19:37:23,386 | INFO     | train | Fold 3 -- RMSE: 38.22  MAE: 20.88
+2026-05-31 19:37:55,194 | INFO     | train | Fold 4 -- RMSE: 39.84  MAE: 21.79
+2026-05-31 19:38:26,766 | INFO     | train | Fold 5 -- RMSE: 43.18  MAE: 21.82
+2026-05-31 19:38:26,768 | INFO     | train | CV RMSE: 41.48 +/- 2.81
+2026-05-31 19:38:26,768 | INFO     | train | CV MAE : 21.79 +/- 0.50
+2026-05-31 19:38:26,788 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:39:19,514 | INFO     | train | Fold 1 -- RMSE: 39.97  MAE: 22.13
+2026-05-31 19:40:13,122 | INFO     | train | Fold 2 -- RMSE: 46.12  MAE: 22.59
+2026-05-31 19:41:05,968 | INFO     | train | Fold 3 -- RMSE: 38.28  MAE: 20.95
+2026-05-31 19:41:59,989 | INFO     | train | Fold 4 -- RMSE: 39.93  MAE: 21.89
+2026-05-31 19:42:52,594 | INFO     | train | Fold 5 -- RMSE: 42.97  MAE: 21.96
+2026-05-31 19:42:52,595 | INFO     | train | CV RMSE: 41.46 +/- 2.78
+2026-05-31 19:42:52,595 | INFO     | train | CV MAE : 21.91 +/- 0.53
+2026-05-31 19:42:52,612 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:43:34,856 | INFO     | train | Fold 1 -- RMSE: 39.35  MAE: 21.94
+2026-05-31 19:44:16,853 | INFO     | train | Fold 2 -- RMSE: 46.49  MAE: 22.65
+2026-05-31 19:44:59,104 | INFO     | train | Fold 3 -- RMSE: 38.54  MAE: 20.93
+2026-05-31 19:45:42,344 | INFO     | train | Fold 4 -- RMSE: 39.99  MAE: 21.83
+2026-05-31 19:46:28,675 | INFO     | train | Fold 5 -- RMSE: 43.31  MAE: 21.83
+2026-05-31 19:46:28,675 | INFO     | train | CV RMSE: 41.53 +/- 2.96
+2026-05-31 19:46:28,675 | INFO     | train | CV MAE : 21.83 +/- 0.55
+2026-05-31 19:46:28,695 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:47:11,246 | INFO     | train | Fold 1 -- RMSE: 39.92  MAE: 22.10
+2026-05-31 19:47:52,273 | INFO     | train | Fold 2 -- RMSE: 46.61  MAE: 22.55
+2026-05-31 19:48:33,518 | INFO     | train | Fold 3 -- RMSE: 38.16  MAE: 20.89
+2026-05-31 19:49:14,410 | INFO     | train | Fold 4 -- RMSE: 40.01  MAE: 21.89
+2026-05-31 19:49:55,811 | INFO     | train | Fold 5 -- RMSE: 43.69  MAE: 22.11
+2026-05-31 19:49:55,811 | INFO     | train | CV RMSE: 41.68 +/- 3.05
+2026-05-31 19:49:55,811 | INFO     | train | CV MAE : 21.91 +/- 0.55
+2026-05-31 19:49:55,836 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:50:40,827 | INFO     | train | Fold 1 -- RMSE: 39.75  MAE: 22.44
+2026-05-31 19:51:25,990 | INFO     | train | Fold 2 -- RMSE: 46.58  MAE: 22.91
+2026-05-31 19:52:10,567 | INFO     | train | Fold 3 -- RMSE: 38.68  MAE: 21.31
+2026-05-31 19:52:54,690 | INFO     | train | Fold 4 -- RMSE: 40.55  MAE: 22.26
+2026-05-31 19:53:38,814 | INFO     | train | Fold 5 -- RMSE: 43.39  MAE: 22.32
+2026-05-31 19:53:38,815 | INFO     | train | CV RMSE: 41.79 +/- 2.86
+2026-05-31 19:53:38,815 | INFO     | train | CV MAE : 22.25 +/- 0.52
+2026-05-31 19:53:38,833 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:54:18,602 | INFO     | train | Fold 1 -- RMSE: 39.08  MAE: 22.01
+2026-05-31 19:54:58,727 | INFO     | train | Fold 2 -- RMSE: 46.22  MAE: 22.45
+2026-05-31 19:55:38,861 | INFO     | train | Fold 3 -- RMSE: 38.30  MAE: 20.93
+2026-05-31 19:56:19,984 | INFO     | train | Fold 4 -- RMSE: 39.92  MAE: 22.00
+2026-05-31 19:57:00,068 | INFO     | train | Fold 5 -- RMSE: 43.32  MAE: 21.91
+2026-05-31 19:57:00,069 | INFO     | train | CV RMSE: 41.37 +/- 2.97
+2026-05-31 19:57:00,069 | INFO     | train | CV MAE : 21.86 +/- 0.50
+2026-05-31 19:57:00,088 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 19:57:30,843 | INFO     | train | Fold 1 -- RMSE: 39.08  MAE: 21.92
+2026-05-31 19:58:02,246 | INFO     | train | Fold 2 -- RMSE: 46.18  MAE: 22.52
+2026-05-31 19:58:33,233 | INFO     | train | Fold 3 -- RMSE: 38.36  MAE: 20.79
+2026-05-31 19:59:05,279 | INFO     | train | Fold 4 -- RMSE: 39.78  MAE: 21.92
+2026-05-31 19:59:38,988 | INFO     | train | Fold 5 -- RMSE: 43.41  MAE: 21.85
+2026-05-31 19:59:38,989 | INFO     | train | CV RMSE: 41.36 +/- 2.97
+2026-05-31 19:59:38,989 | INFO     | train | CV MAE : 21.80 +/- 0.56
+2026-05-31 19:59:39,007 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:00:13,103 | INFO     | train | Fold 1 -- RMSE: 39.74  MAE: 21.97
+2026-05-31 20:00:47,751 | INFO     | train | Fold 2 -- RMSE: 46.72  MAE: 22.15
+2026-05-31 20:01:20,889 | INFO     | train | Fold 3 -- RMSE: 38.16  MAE: 20.69
+2026-05-31 20:01:51,983 | INFO     | train | Fold 4 -- RMSE: 39.69  MAE: 22.03
+2026-05-31 20:02:22,466 | INFO     | train | Fold 5 -- RMSE: 43.61  MAE: 21.78
+2026-05-31 20:02:22,467 | INFO     | train | CV RMSE: 41.59 +/- 3.14
+2026-05-31 20:02:22,467 | INFO     | train | CV MAE : 21.72 +/- 0.53
+2026-05-31 20:02:22,487 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:02:57,796 | INFO     | train | Fold 1 -- RMSE: 39.91  MAE: 22.47
+2026-05-31 20:03:34,451 | INFO     | train | Fold 2 -- RMSE: 46.87  MAE: 22.79
+2026-05-31 20:04:10,947 | INFO     | train | Fold 3 -- RMSE: 39.03  MAE: 21.46
+2026-05-31 20:04:45,780 | INFO     | train | Fold 4 -- RMSE: 41.12  MAE: 22.75
+2026-05-31 20:05:20,200 | INFO     | train | Fold 5 -- RMSE: 43.16  MAE: 22.26
+2026-05-31 20:05:20,201 | INFO     | train | CV RMSE: 42.02 +/- 2.79
+2026-05-31 20:05:20,201 | INFO     | train | CV MAE : 22.34 +/- 0.49
+2026-05-31 20:05:20,219 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:05:53,391 | INFO     | train | Fold 1 -- RMSE: 39.67  MAE: 21.93
+2026-05-31 20:06:26,016 | INFO     | train | Fold 2 -- RMSE: 46.03  MAE: 22.23
+2026-05-31 20:06:58,831 | INFO     | train | Fold 3 -- RMSE: 38.32  MAE: 20.62
+2026-05-31 20:07:32,138 | INFO     | train | Fold 4 -- RMSE: 39.41  MAE: 21.75
+2026-05-31 20:08:06,177 | INFO     | train | Fold 5 -- RMSE: 43.81  MAE: 21.58
+2026-05-31 20:08:06,178 | INFO     | train | CV RMSE: 41.45 +/- 2.96
+2026-05-31 20:08:06,178 | INFO     | train | CV MAE : 21.62 +/- 0.55
+2026-05-31 20:08:06,197 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:08:38,654 | INFO     | train | Fold 1 -- RMSE: 39.73  MAE: 21.99
+2026-05-31 20:09:10,884 | INFO     | train | Fold 2 -- RMSE: 46.56  MAE: 22.19
+2026-05-31 20:09:43,214 | INFO     | train | Fold 3 -- RMSE: 38.36  MAE: 20.69
+2026-05-31 20:10:16,357 | INFO     | train | Fold 4 -- RMSE: 39.65  MAE: 21.91
+2026-05-31 20:10:48,781 | INFO     | train | Fold 5 -- RMSE: 43.69  MAE: 21.78
+2026-05-31 20:10:48,782 | INFO     | train | CV RMSE: 41.60 +/- 3.06
+2026-05-31 20:10:48,782 | INFO     | train | CV MAE : 21.71 +/- 0.53
+2026-05-31 20:10:48,800 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:11:26,316 | INFO     | train | Fold 1 -- RMSE: 40.18  MAE: 22.06
+2026-05-31 20:12:04,093 | INFO     | train | Fold 2 -- RMSE: 46.89  MAE: 22.42
+2026-05-31 20:12:40,838 | INFO     | train | Fold 3 -- RMSE: 38.34  MAE: 20.84
+2026-05-31 20:13:16,769 | INFO     | train | Fold 4 -- RMSE: 40.38  MAE: 22.00
+2026-05-31 20:13:53,570 | INFO     | train | Fold 5 -- RMSE: 43.52  MAE: 21.73
+2026-05-31 20:13:53,571 | INFO     | train | CV RMSE: 41.86 +/- 3.01
+2026-05-31 20:13:53,571 | INFO     | train | CV MAE : 21.81 +/- 0.53
+2026-05-31 20:13:53,589 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:14:21,141 | INFO     | train | Fold 1 -- RMSE: 39.78  MAE: 21.97
+2026-05-31 20:14:49,169 | INFO     | train | Fold 2 -- RMSE: 46.26  MAE: 22.24
+2026-05-31 20:15:17,748 | INFO     | train | Fold 3 -- RMSE: 37.82  MAE: 20.56
+2026-05-31 20:15:48,392 | INFO     | train | Fold 4 -- RMSE: 39.63  MAE: 21.83
+2026-05-31 20:16:17,149 | INFO     | train | Fold 5 -- RMSE: 43.93  MAE: 21.74
+2026-05-31 20:16:17,150 | INFO     | train | CV RMSE: 41.48 +/- 3.12
+2026-05-31 20:16:17,150 | INFO     | train | CV MAE : 21.67 +/- 0.58
+2026-05-31 20:16:17,175 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:16:56,695 | INFO     | train | Fold 1 -- RMSE: 40.35  MAE: 22.21
+2026-05-31 20:17:36,248 | INFO     | train | Fold 2 -- RMSE: 46.99  MAE: 22.37
+2026-05-31 20:18:15,606 | INFO     | train | Fold 3 -- RMSE: 37.91  MAE: 21.01
+2026-05-31 20:18:55,451 | INFO     | train | Fold 4 -- RMSE: 41.84  MAE: 21.99
+2026-05-31 20:19:35,877 | INFO     | train | Fold 5 -- RMSE: 43.89  MAE: 21.80
+2026-05-31 20:19:35,878 | INFO     | train | CV RMSE: 42.20 +/- 3.09
+2026-05-31 20:19:35,878 | INFO     | train | CV MAE : 21.88 +/- 0.48
+2026-05-31 20:19:35,895 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:19:58,294 | INFO     | train | Fold 1 -- RMSE: 39.03  MAE: 21.85
+2026-05-31 20:20:21,459 | INFO     | train | Fold 2 -- RMSE: 46.33  MAE: 22.46
+2026-05-31 20:20:43,879 | INFO     | train | Fold 3 -- RMSE: 38.36  MAE: 20.83
+2026-05-31 20:21:06,599 | INFO     | train | Fold 4 -- RMSE: 39.60  MAE: 21.84
+2026-05-31 20:21:28,505 | INFO     | train | Fold 5 -- RMSE: 43.18  MAE: 21.79
+2026-05-31 20:21:28,505 | INFO     | train | CV RMSE: 41.30 +/- 3.02
+2026-05-31 20:21:28,505 | INFO     | train | CV MAE : 21.75 +/- 0.52
+2026-05-31 20:21:28,531 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:21:51,714 | INFO     | train | Fold 1 -- RMSE: 39.77  MAE: 22.12
+2026-05-31 20:22:15,236 | INFO     | train | Fold 2 -- RMSE: 46.47  MAE: 22.62
+2026-05-31 20:22:38,545 | INFO     | train | Fold 3 -- RMSE: 38.49  MAE: 21.07
+2026-05-31 20:23:01,962 | INFO     | train | Fold 4 -- RMSE: 40.79  MAE: 22.23
+2026-05-31 20:23:25,486 | INFO     | train | Fold 5 -- RMSE: 43.31  MAE: 22.03
+2026-05-31 20:23:25,487 | INFO     | train | CV RMSE: 41.77 +/- 2.84
+2026-05-31 20:23:25,487 | INFO     | train | CV MAE : 22.02 +/- 0.51
+2026-05-31 20:23:25,504 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:23:48,735 | INFO     | train | Fold 1 -- RMSE: 40.79  MAE: 22.16
+2026-05-31 20:24:12,084 | INFO     | train | Fold 2 -- RMSE: 47.03  MAE: 22.41
+2026-05-31 20:24:35,446 | INFO     | train | Fold 3 -- RMSE: 37.80  MAE: 20.57
+2026-05-31 20:25:00,584 | INFO     | train | Fold 4 -- RMSE: 39.89  MAE: 21.86
+2026-05-31 20:25:23,673 | INFO     | train | Fold 5 -- RMSE: 43.16  MAE: 21.54
+2026-05-31 20:25:23,674 | INFO     | train | CV RMSE: 41.73 +/- 3.16
+2026-05-31 20:25:23,674 | INFO     | train | CV MAE : 21.71 +/- 0.64
+2026-05-31 20:25:23,694 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:26:00,033 | INFO     | train | Fold 1 -- RMSE: 40.39  MAE: 22.76
+2026-05-31 20:26:35,313 | INFO     | train | Fold 2 -- RMSE: 47.42  MAE: 23.05
+2026-05-31 20:27:10,232 | INFO     | train | Fold 3 -- RMSE: 38.49  MAE: 21.62
+2026-05-31 20:27:45,386 | INFO     | train | Fold 4 -- RMSE: 41.79  MAE: 23.04
+2026-05-31 20:28:20,001 | INFO     | train | Fold 5 -- RMSE: 44.00  MAE: 22.61
+2026-05-31 20:28:20,001 | INFO     | train | CV RMSE: 42.42 +/- 3.08
+2026-05-31 20:28:20,001 | INFO     | train | CV MAE : 22.62 +/- 0.53
+2026-05-31 20:28:20,016 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:28:33,690 | INFO     | train | Fold 1 -- RMSE: 39.78  MAE: 22.26
+2026-05-31 20:28:47,189 | INFO     | train | Fold 2 -- RMSE: 46.35  MAE: 22.74
+2026-05-31 20:29:00,916 | INFO     | train | Fold 3 -- RMSE: 38.74  MAE: 21.21
+2026-05-31 20:29:14,823 | INFO     | train | Fold 4 -- RMSE: 40.56  MAE: 22.25
+2026-05-31 20:29:28,298 | INFO     | train | Fold 5 -- RMSE: 43.70  MAE: 22.19
+2026-05-31 20:29:28,298 | INFO     | train | CV RMSE: 41.83 +/- 2.80
+2026-05-31 20:29:28,298 | INFO     | train | CV MAE : 22.13 +/- 0.50
+2026-05-31 20:29:28,317 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:29:55,986 | INFO     | train | Fold 1 -- RMSE: 39.89  MAE: 21.99
+2026-05-31 20:30:23,442 | INFO     | train | Fold 2 -- RMSE: 46.25  MAE: 22.20
+2026-05-31 20:30:51,796 | INFO     | train | Fold 3 -- RMSE: 38.07  MAE: 20.57
+2026-05-31 20:31:20,314 | INFO     | train | Fold 4 -- RMSE: 39.46  MAE: 21.81
+2026-05-31 20:31:48,598 | INFO     | train | Fold 5 -- RMSE: 43.87  MAE: 21.64
+2026-05-31 20:31:48,599 | INFO     | train | CV RMSE: 41.51 +/- 3.06
+2026-05-31 20:31:48,599 | INFO     | train | CV MAE : 21.64 +/- 0.57
+2026-05-31 20:31:48,618 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:32:17,087 | INFO     | train | Fold 1 -- RMSE: 40.46  MAE: 22.22
+2026-05-31 20:32:44,787 | INFO     | train | Fold 2 -- RMSE: 46.85  MAE: 22.52
+2026-05-31 20:33:11,815 | INFO     | train | Fold 3 -- RMSE: 38.17  MAE: 20.88
+2026-05-31 20:33:39,124 | INFO     | train | Fold 4 -- RMSE: 39.97  MAE: 21.98
+2026-05-31 20:34:06,007 | INFO     | train | Fold 5 -- RMSE: 44.00  MAE: 22.01
+2026-05-31 20:34:06,008 | INFO     | train | CV RMSE: 41.89 +/- 3.12
+2026-05-31 20:34:06,008 | INFO     | train | CV MAE : 21.92 +/- 0.56
+2026-05-31 20:34:06,027 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:34:39,350 | INFO     | train | Fold 1 -- RMSE: 39.81  MAE: 21.93
+2026-05-31 20:35:12,282 | INFO     | train | Fold 2 -- RMSE: 46.19  MAE: 22.05
+2026-05-31 20:35:45,621 | INFO     | train | Fold 3 -- RMSE: 38.20  MAE: 20.63
+2026-05-31 20:36:18,282 | INFO     | train | Fold 4 -- RMSE: 39.07  MAE: 21.63
+2026-05-31 20:36:51,073 | INFO     | train | Fold 5 -- RMSE: 44.10  MAE: 21.69
+2026-05-31 20:36:51,073 | INFO     | train | CV RMSE: 41.47 +/- 3.11
+2026-05-31 20:36:51,074 | INFO     | train | CV MAE : 21.58 +/- 0.50
+2026-05-31 20:36:51,098 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:37:21,637 | INFO     | train | Fold 1 -- RMSE: 40.36  MAE: 21.94
+2026-05-31 20:37:51,004 | INFO     | train | Fold 2 -- RMSE: 46.67  MAE: 22.01
+2026-05-31 20:38:20,653 | INFO     | train | Fold 3 -- RMSE: 37.96  MAE: 20.66
+2026-05-31 20:38:50,592 | INFO     | train | Fold 4 -- RMSE: 41.69  MAE: 21.83
+2026-05-31 20:39:20,617 | INFO     | train | Fold 5 -- RMSE: 43.61  MAE: 21.48
+2026-05-31 20:39:20,618 | INFO     | train | CV RMSE: 42.06 +/- 2.95
+2026-05-31 20:39:20,618 | INFO     | train | CV MAE : 21.58 +/- 0.49
+2026-05-31 20:39:20,637 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:39:38,857 | INFO     | train | Fold 1 -- RMSE: 39.53  MAE: 21.99
+2026-05-31 20:39:57,027 | INFO     | train | Fold 2 -- RMSE: 46.26  MAE: 22.49
+2026-05-31 20:40:15,332 | INFO     | train | Fold 3 -- RMSE: 38.38  MAE: 20.80
+2026-05-31 20:40:33,298 | INFO     | train | Fold 4 -- RMSE: 40.00  MAE: 21.78
+2026-05-31 20:40:51,632 | INFO     | train | Fold 5 -- RMSE: 43.05  MAE: 21.72
+2026-05-31 20:40:51,632 | INFO     | train | CV RMSE: 41.44 +/- 2.86
+2026-05-31 20:40:51,633 | INFO     | train | CV MAE : 21.76 +/- 0.55
+2026-05-31 20:40:51,655 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:41:11,370 | INFO     | train | Fold 1 -- RMSE: 39.47  MAE: 21.96
+2026-05-31 20:41:31,377 | INFO     | train | Fold 2 -- RMSE: 46.43  MAE: 22.53
+2026-05-31 20:41:51,177 | INFO     | train | Fold 3 -- RMSE: 38.50  MAE: 20.77
+2026-05-31 20:42:10,334 | INFO     | train | Fold 4 -- RMSE: 39.93  MAE: 21.83
+2026-05-31 20:42:29,988 | INFO     | train | Fold 5 -- RMSE: 43.18  MAE: 21.71
+2026-05-31 20:42:29,988 | INFO     | train | CV RMSE: 41.50 +/- 2.92
+2026-05-31 20:42:29,988 | INFO     | train | CV MAE : 21.76 +/- 0.57
+2026-05-31 20:42:30,009 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:42:44,989 | INFO     | train | Fold 1 -- RMSE: 39.81  MAE: 22.06
+2026-05-31 20:43:00,305 | INFO     | train | Fold 2 -- RMSE: 46.46  MAE: 22.45
+2026-05-31 20:43:15,778 | INFO     | train | Fold 3 -- RMSE: 38.26  MAE: 20.72
+2026-05-31 20:43:31,133 | INFO     | train | Fold 4 -- RMSE: 39.80  MAE: 21.74
+2026-05-31 20:43:46,533 | INFO     | train | Fold 5 -- RMSE: 44.07  MAE: 21.98
+2026-05-31 20:43:46,534 | INFO     | train | CV RMSE: 41.68 +/- 3.07
+2026-05-31 20:43:46,534 | INFO     | train | CV MAE : 21.79 +/- 0.58
+2026-05-31 20:43:46,559 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:44:02,881 | INFO     | train | Fold 1 -- RMSE: 39.81  MAE: 21.88
+2026-05-31 20:44:19,115 | INFO     | train | Fold 2 -- RMSE: 46.24  MAE: 22.37
+2026-05-31 20:44:35,226 | INFO     | train | Fold 3 -- RMSE: 38.40  MAE: 20.74
+2026-05-31 20:44:51,282 | INFO     | train | Fold 4 -- RMSE: 39.53  MAE: 21.66
+2026-05-31 20:45:10,191 | INFO     | train | Fold 5 -- RMSE: 42.83  MAE: 21.58
+2026-05-31 20:45:10,193 | INFO     | train | CV RMSE: 41.36 +/- 2.84
+2026-05-31 20:45:10,193 | INFO     | train | CV MAE : 21.65 +/- 0.53
+2026-05-31 20:45:10,216 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 20:45:23,736 | INFO     | train | Fold 1 -- RMSE: 39.92  MAE: 21.62
+2026-05-31 20:45:36,985 | INFO     | train | Fold 2 -- RMSE: 46.18  MAE: 22.01
+2026-05-31 20:45:51,042 | INFO     | train | Fold 3 -- RMSE: 37.43  MAE: 20.42
+2026-05-31 20:46:02,898 | INFO     | train | Fold 4 -- RMSE: 39.15  MAE: 21.35
+2026-05-31 20:46:14,833 | INFO     | train | Fold 5 -- RMSE: 42.64  MAE: 21.35
+2026-05-31 20:46:14,834 | INFO     | train | CV RMSE: 41.06 +/- 3.06
+2026-05-31 20:46:14,834 | INFO     | train | CV MAE : 21.35 +/- 0.52
+2026-05-31 20:46:32,225 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:46:40,980 | INFO     | train | Fold 1 -- RMSE: 37.19  MAE: 20.91
+2026-05-31 20:46:47,501 | INFO     | train | Fold 2 -- RMSE: 45.57  MAE: 21.34
+2026-05-31 20:46:54,202 | INFO     | train | Fold 3 -- RMSE: 37.79  MAE: 20.37
+2026-05-31 20:47:00,482 | INFO     | train | Fold 4 -- RMSE: 36.25  MAE: 20.86
+2026-05-31 20:47:07,327 | INFO     | train | Fold 5 -- RMSE: 41.28  MAE: 20.87
+2026-05-31 20:47:07,329 | INFO     | train | CV RMSE: 39.62 +/- 3.43
+2026-05-31 20:47:07,329 | INFO     | train | CV MAE : 20.87 +/- 0.31
+2026-05-31 20:47:07,338 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:47:13,282 | INFO     | train | Fold 1 -- RMSE: 37.48  MAE: 21.02
+2026-05-31 20:47:18,543 | INFO     | train | Fold 2 -- RMSE: 46.11  MAE: 21.42
+2026-05-31 20:47:23,845 | INFO     | train | Fold 3 -- RMSE: 38.15  MAE: 20.37
+2026-05-31 20:47:29,445 | INFO     | train | Fold 4 -- RMSE: 37.85  MAE: 21.26
+2026-05-31 20:47:35,016 | INFO     | train | Fold 5 -- RMSE: 41.43  MAE: 20.83
+2026-05-31 20:47:35,017 | INFO     | train | CV RMSE: 40.20 +/- 3.27
+2026-05-31 20:47:35,017 | INFO     | train | CV MAE : 20.98 +/- 0.36
+2026-05-31 20:47:35,025 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:47:36,595 | INFO     | train | Fold 1 -- RMSE: 37.61  MAE: 21.18
+2026-05-31 20:47:37,939 | INFO     | train | Fold 2 -- RMSE: 45.93  MAE: 21.53
+2026-05-31 20:47:39,450 | INFO     | train | Fold 3 -- RMSE: 38.68  MAE: 20.76
+2026-05-31 20:47:40,896 | INFO     | train | Fold 4 -- RMSE: 36.90  MAE: 21.06
+2026-05-31 20:47:42,295 | INFO     | train | Fold 5 -- RMSE: 41.56  MAE: 21.01
+2026-05-31 20:47:42,296 | INFO     | train | CV RMSE: 40.14 +/- 3.31
+2026-05-31 20:47:42,296 | INFO     | train | CV MAE : 21.11 +/- 0.25
+2026-05-31 20:47:42,298 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:47:54,037 | INFO     | train | Fold 1 -- RMSE: 37.60  MAE: 21.03
+2026-05-31 20:48:05,820 | INFO     | train | Fold 2 -- RMSE: 45.73  MAE: 21.43
+2026-05-31 20:48:17,724 | INFO     | train | Fold 3 -- RMSE: 37.89  MAE: 20.36
+2026-05-31 20:48:29,781 | INFO     | train | Fold 4 -- RMSE: 36.28  MAE: 20.97
+2026-05-31 20:48:42,259 | INFO     | train | Fold 5 -- RMSE: 41.40  MAE: 20.88
+2026-05-31 20:48:42,260 | INFO     | train | CV RMSE: 39.78 +/- 3.42
+2026-05-31 20:48:42,260 | INFO     | train | CV MAE : 20.93 +/- 0.35
+2026-05-31 20:48:42,274 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:48:49,214 | INFO     | train | Fold 1 -- RMSE: 37.23  MAE: 20.91
+2026-05-31 20:48:56,157 | INFO     | train | Fold 2 -- RMSE: 45.63  MAE: 21.36
+2026-05-31 20:49:02,886 | INFO     | train | Fold 3 -- RMSE: 37.79  MAE: 20.29
+2026-05-31 20:49:09,683 | INFO     | train | Fold 4 -- RMSE: 36.35  MAE: 20.91
+2026-05-31 20:49:16,487 | INFO     | train | Fold 5 -- RMSE: 41.38  MAE: 20.87
+2026-05-31 20:49:16,488 | INFO     | train | CV RMSE: 39.68 +/- 3.43
+2026-05-31 20:49:16,488 | INFO     | train | CV MAE : 20.87 +/- 0.34
+2026-05-31 20:49:16,500 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:49:28,130 | INFO     | train | Fold 1 -- RMSE: 37.29  MAE: 20.97
+2026-05-31 20:49:39,550 | INFO     | train | Fold 2 -- RMSE: 45.55  MAE: 21.34
+2026-05-31 20:49:51,261 | INFO     | train | Fold 3 -- RMSE: 38.71  MAE: 20.38
+2026-05-31 20:50:03,080 | INFO     | train | Fold 4 -- RMSE: 37.97  MAE: 21.20
+2026-05-31 20:50:15,520 | INFO     | train | Fold 5 -- RMSE: 41.18  MAE: 20.83
+2026-05-31 20:50:15,520 | INFO     | train | CV RMSE: 40.14 +/- 3.01
+2026-05-31 20:50:15,521 | INFO     | train | CV MAE : 20.95 +/- 0.33
+2026-05-31 20:50:15,529 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:50:18,485 | INFO     | train | Fold 1 -- RMSE: 37.53  MAE: 21.10
+2026-05-31 20:50:21,103 | INFO     | train | Fold 2 -- RMSE: 45.32  MAE: 21.45
+2026-05-31 20:50:23,729 | INFO     | train | Fold 3 -- RMSE: 37.92  MAE: 20.40
+2026-05-31 20:50:26,305 | INFO     | train | Fold 4 -- RMSE: 36.33  MAE: 21.01
+2026-05-31 20:50:29,058 | INFO     | train | Fold 5 -- RMSE: 41.39  MAE: 20.98
+2026-05-31 20:50:29,059 | INFO     | train | CV RMSE: 39.70 +/- 3.28
+2026-05-31 20:50:29,059 | INFO     | train | CV MAE : 20.99 +/- 0.34
+2026-05-31 20:50:29,063 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:50:39,644 | INFO     | train | Fold 1 -- RMSE: 37.05  MAE: 20.96
+2026-05-31 20:50:50,409 | INFO     | train | Fold 2 -- RMSE: 45.84  MAE: 21.51
+2026-05-31 20:51:00,609 | INFO     | train | Fold 3 -- RMSE: 37.76  MAE: 20.32
+2026-05-31 20:51:10,581 | INFO     | train | Fold 4 -- RMSE: 36.97  MAE: 21.11
+2026-05-31 20:51:20,343 | INFO     | train | Fold 5 -- RMSE: 41.52  MAE: 20.97
+2026-05-31 20:51:20,345 | INFO     | train | CV RMSE: 39.83 +/- 3.44
+2026-05-31 20:51:20,345 | INFO     | train | CV MAE : 20.97 +/- 0.38
+2026-05-31 20:51:20,376 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:51:25,553 | INFO     | train | Fold 1 -- RMSE: 37.23  MAE: 21.00
+2026-05-31 20:51:30,932 | INFO     | train | Fold 2 -- RMSE: 45.72  MAE: 21.41
+2026-05-31 20:51:36,019 | INFO     | train | Fold 3 -- RMSE: 37.94  MAE: 20.52
+2026-05-31 20:51:41,224 | INFO     | train | Fold 4 -- RMSE: 36.42  MAE: 20.88
+2026-05-31 20:51:46,479 | INFO     | train | Fold 5 -- RMSE: 41.27  MAE: 20.90
+2026-05-31 20:51:46,479 | INFO     | train | CV RMSE: 39.72 +/- 3.43
+2026-05-31 20:51:46,479 | INFO     | train | CV MAE : 20.94 +/- 0.29
+2026-05-31 20:51:46,485 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:51:55,250 | INFO     | train | Fold 1 -- RMSE: 37.37  MAE: 21.03
+2026-05-31 20:52:04,339 | INFO     | train | Fold 2 -- RMSE: 45.92  MAE: 21.48
+2026-05-31 20:52:13,277 | INFO     | train | Fold 3 -- RMSE: 37.87  MAE: 20.33
+2026-05-31 20:52:23,270 | INFO     | train | Fold 4 -- RMSE: 36.62  MAE: 21.07
+2026-05-31 20:52:33,487 | INFO     | train | Fold 5 -- RMSE: 41.42  MAE: 20.93
+2026-05-31 20:52:33,487 | INFO     | train | CV RMSE: 39.84 +/- 3.46
+2026-05-31 20:52:33,487 | INFO     | train | CV MAE : 20.97 +/- 0.37
+2026-05-31 20:52:33,500 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:52:42,681 | INFO     | train | Fold 1 -- RMSE: 37.54  MAE: 21.06
+2026-05-31 20:52:51,649 | INFO     | train | Fold 2 -- RMSE: 46.19  MAE: 21.47
+2026-05-31 20:53:00,728 | INFO     | train | Fold 3 -- RMSE: 37.92  MAE: 20.36
+2026-05-31 20:53:10,224 | INFO     | train | Fold 4 -- RMSE: 36.60  MAE: 21.07
+2026-05-31 20:53:19,656 | INFO     | train | Fold 5 -- RMSE: 41.40  MAE: 20.90
+2026-05-31 20:53:19,657 | INFO     | train | CV RMSE: 39.93 +/- 3.53
+2026-05-31 20:53:19,657 | INFO     | train | CV MAE : 20.97 +/- 0.36
+2026-05-31 20:53:19,676 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:53:26,639 | INFO     | train | Fold 1 -- RMSE: 37.21  MAE: 20.90
+2026-05-31 20:53:33,683 | INFO     | train | Fold 2 -- RMSE: 45.71  MAE: 21.37
+2026-05-31 20:53:40,601 | INFO     | train | Fold 3 -- RMSE: 37.88  MAE: 20.32
+2026-05-31 20:53:47,848 | INFO     | train | Fold 4 -- RMSE: 36.39  MAE: 20.88
+2026-05-31 20:53:54,958 | INFO     | train | Fold 5 -- RMSE: 41.35  MAE: 20.87
+2026-05-31 20:53:54,958 | INFO     | train | CV RMSE: 39.71 +/- 3.45
+2026-05-31 20:53:54,959 | INFO     | train | CV MAE : 20.87 +/- 0.33
+2026-05-31 20:53:54,976 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:54:08,147 | INFO     | train | Fold 1 -- RMSE: 37.59  MAE: 21.11
+2026-05-31 20:54:20,873 | INFO     | train | Fold 2 -- RMSE: 46.62  MAE: 21.51
+2026-05-31 20:54:33,417 | INFO     | train | Fold 3 -- RMSE: 37.89  MAE: 20.32
+2026-05-31 20:54:46,395 | INFO     | train | Fold 4 -- RMSE: 36.54  MAE: 21.08
+2026-05-31 20:54:59,001 | INFO     | train | Fold 5 -- RMSE: 41.39  MAE: 20.87
+2026-05-31 20:54:59,002 | INFO     | train | CV RMSE: 40.01 +/- 3.69
+2026-05-31 20:54:59,002 | INFO     | train | CV MAE : 20.98 +/- 0.39
+2026-05-31 20:54:59,013 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:55:09,695 | INFO     | train | Fold 1 -- RMSE: 37.36  MAE: 21.01
+2026-05-31 20:55:20,229 | INFO     | train | Fold 2 -- RMSE: 45.57  MAE: 21.44
+2026-05-31 20:55:30,815 | INFO     | train | Fold 3 -- RMSE: 37.92  MAE: 20.37
+2026-05-31 20:55:42,350 | INFO     | train | Fold 4 -- RMSE: 36.42  MAE: 20.99
+2026-05-31 20:55:54,562 | INFO     | train | Fold 5 -- RMSE: 41.48  MAE: 20.93
+2026-05-31 20:55:54,563 | INFO     | train | CV RMSE: 39.75 +/- 3.38
+2026-05-31 20:55:54,563 | INFO     | train | CV MAE : 20.95 +/- 0.34
+2026-05-31 20:55:54,593 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:55:57,970 | INFO     | train | Fold 1 -- RMSE: 37.09  MAE: 20.92
+2026-05-31 20:56:01,403 | INFO     | train | Fold 2 -- RMSE: 45.56  MAE: 21.37
+2026-05-31 20:56:04,936 | INFO     | train | Fold 3 -- RMSE: 37.79  MAE: 20.43
+2026-05-31 20:56:08,576 | INFO     | train | Fold 4 -- RMSE: 36.24  MAE: 20.85
+2026-05-31 20:56:12,034 | INFO     | train | Fold 5 -- RMSE: 41.27  MAE: 20.91
+2026-05-31 20:56:12,035 | INFO     | train | CV RMSE: 39.59 +/- 3.44
+2026-05-31 20:56:12,035 | INFO     | train | CV MAE : 20.90 +/- 0.30
+2026-05-31 20:56:12,048 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:56:16,808 | INFO     | train | Fold 1 -- RMSE: 36.99  MAE: 20.89
+2026-05-31 20:56:21,303 | INFO     | train | Fold 2 -- RMSE: 45.58  MAE: 21.34
+2026-05-31 20:56:25,753 | INFO     | train | Fold 3 -- RMSE: 37.81  MAE: 20.40
+2026-05-31 20:56:30,103 | INFO     | train | Fold 4 -- RMSE: 36.40  MAE: 20.88
+2026-05-31 20:56:34,641 | INFO     | train | Fold 5 -- RMSE: 41.23  MAE: 20.88
+2026-05-31 20:56:34,642 | INFO     | train | CV RMSE: 39.60 +/- 3.43
+2026-05-31 20:56:34,642 | INFO     | train | CV MAE : 20.88 +/- 0.30
+2026-05-31 20:56:34,656 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:56:40,840 | INFO     | train | Fold 1 -- RMSE: 37.18  MAE: 20.97
+2026-05-31 20:56:47,365 | INFO     | train | Fold 2 -- RMSE: 45.53  MAE: 21.46
+2026-05-31 20:56:53,867 | INFO     | train | Fold 3 -- RMSE: 37.77  MAE: 20.37
+2026-05-31 20:57:00,438 | INFO     | train | Fold 4 -- RMSE: 36.57  MAE: 21.04
+2026-05-31 20:57:06,881 | INFO     | train | Fold 5 -- RMSE: 41.41  MAE: 20.96
+2026-05-31 20:57:06,881 | INFO     | train | CV RMSE: 39.69 +/- 3.37
+2026-05-31 20:57:06,882 | INFO     | train | CV MAE : 20.96 +/- 0.35
+2026-05-31 20:57:06,908 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:57:20,324 | INFO     | train | Fold 1 -- RMSE: 37.16  MAE: 20.97
+2026-05-31 20:57:32,933 | INFO     | train | Fold 2 -- RMSE: 46.24  MAE: 21.46
+2026-05-31 20:57:45,776 | INFO     | train | Fold 3 -- RMSE: 37.92  MAE: 20.33
+2026-05-31 20:57:58,346 | INFO     | train | Fold 4 -- RMSE: 37.43  MAE: 21.18
+2026-05-31 20:58:11,171 | INFO     | train | Fold 5 -- RMSE: 41.44  MAE: 20.87
+2026-05-31 20:58:11,172 | INFO     | train | CV RMSE: 40.04 +/- 3.46
+2026-05-31 20:58:11,172 | INFO     | train | CV MAE : 20.96 +/- 0.37
+2026-05-31 20:58:11,187 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:58:13,203 | INFO     | train | Fold 1 -- RMSE: 37.98  MAE: 21.49
+2026-05-31 20:58:15,210 | INFO     | train | Fold 2 -- RMSE: 45.87  MAE: 21.76
+2026-05-31 20:58:17,161 | INFO     | train | Fold 3 -- RMSE: 38.94  MAE: 21.11
+2026-05-31 20:58:19,063 | INFO     | train | Fold 4 -- RMSE: 36.49  MAE: 21.14
+2026-05-31 20:58:21,021 | INFO     | train | Fold 5 -- RMSE: 41.63  MAE: 21.27
+2026-05-31 20:58:21,022 | INFO     | train | CV RMSE: 40.18 +/- 3.30
+2026-05-31 20:58:21,022 | INFO     | train | CV MAE : 21.36 +/- 0.24
+2026-05-31 20:58:21,040 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:58:27,953 | INFO     | train | Fold 1 -- RMSE: 37.11  MAE: 20.98
+2026-05-31 20:58:35,166 | INFO     | train | Fold 2 -- RMSE: 45.89  MAE: 21.48
+2026-05-31 20:58:42,435 | INFO     | train | Fold 3 -- RMSE: 37.76  MAE: 20.34
+2026-05-31 20:58:49,551 | INFO     | train | Fold 4 -- RMSE: 36.79  MAE: 21.07
+2026-05-31 20:58:56,901 | INFO     | train | Fold 5 -- RMSE: 41.47  MAE: 20.96
+2026-05-31 20:58:56,902 | INFO     | train | CV RMSE: 39.81 +/- 3.47
+2026-05-31 20:58:56,902 | INFO     | train | CV MAE : 20.97 +/- 0.36
+2026-05-31 20:58:56,922 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 20:59:11,622 | INFO     | train | Fold 1 -- RMSE: 37.58  MAE: 21.19
+2026-05-31 20:59:26,239 | INFO     | train | Fold 2 -- RMSE: 45.50  MAE: 21.49
+2026-05-31 20:59:41,166 | INFO     | train | Fold 3 -- RMSE: 38.68  MAE: 20.48
+2026-05-31 20:59:55,660 | INFO     | train | Fold 4 -- RMSE: 37.72  MAE: 21.37
+2026-05-31 21:00:10,636 | INFO     | train | Fold 5 -- RMSE: 41.42  MAE: 20.93
+2026-05-31 21:00:10,637 | INFO     | train | CV RMSE: 40.18 +/- 3.00
+2026-05-31 21:00:10,637 | INFO     | train | CV MAE : 21.09 +/- 0.36
+2026-05-31 21:00:10,663 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:00:16,080 | INFO     | train | Fold 1 -- RMSE: 37.03  MAE: 20.88
+2026-05-31 21:00:21,518 | INFO     | train | Fold 2 -- RMSE: 45.55  MAE: 21.34
+2026-05-31 21:00:26,972 | INFO     | train | Fold 3 -- RMSE: 37.76  MAE: 20.36
+2026-05-31 21:00:32,549 | INFO     | train | Fold 4 -- RMSE: 36.38  MAE: 20.87
+2026-05-31 21:00:38,159 | INFO     | train | Fold 5 -- RMSE: 41.22  MAE: 20.85
+2026-05-31 21:00:38,160 | INFO     | train | CV RMSE: 39.59 +/- 3.42
+2026-05-31 21:00:38,161 | INFO     | train | CV MAE : 20.86 +/- 0.31
+2026-05-31 21:00:38,174 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:00:44,110 | INFO     | train | Fold 1 -- RMSE: 37.08  MAE: 20.88
+2026-05-31 21:00:49,941 | INFO     | train | Fold 2 -- RMSE: 45.70  MAE: 21.34
+2026-05-31 21:00:55,835 | INFO     | train | Fold 3 -- RMSE: 37.72  MAE: 20.37
+2026-05-31 21:01:01,742 | INFO     | train | Fold 4 -- RMSE: 36.25  MAE: 20.85
+2026-05-31 21:01:07,664 | INFO     | train | Fold 5 -- RMSE: 41.25  MAE: 20.85
+2026-05-31 21:01:07,665 | INFO     | train | CV RMSE: 39.60 +/- 3.49
+2026-05-31 21:01:07,665 | INFO     | train | CV MAE : 20.86 +/- 0.31
+2026-05-31 21:01:07,678 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:01:16,366 | INFO     | train | Fold 1 -- RMSE: 37.03  MAE: 20.89
+2026-05-31 21:01:25,119 | INFO     | train | Fold 2 -- RMSE: 45.71  MAE: 21.40
+2026-05-31 21:01:33,793 | INFO     | train | Fold 3 -- RMSE: 37.83  MAE: 20.34
+2026-05-31 21:01:42,424 | INFO     | train | Fold 4 -- RMSE: 36.44  MAE: 20.93
+2026-05-31 21:01:51,247 | INFO     | train | Fold 5 -- RMSE: 41.50  MAE: 20.92
+2026-05-31 21:01:51,248 | INFO     | train | CV RMSE: 39.70 +/- 3.48
+2026-05-31 21:01:51,249 | INFO     | train | CV MAE : 20.90 +/- 0.34
+2026-05-31 21:01:51,267 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:01:58,137 | INFO     | train | Fold 1 -- RMSE: 37.09  MAE: 20.89
+2026-05-31 21:02:04,964 | INFO     | train | Fold 2 -- RMSE: 45.84  MAE: 21.36
+2026-05-31 21:02:11,642 | INFO     | train | Fold 3 -- RMSE: 37.86  MAE: 20.34
+2026-05-31 21:02:18,059 | INFO     | train | Fold 4 -- RMSE: 36.34  MAE: 20.87
+2026-05-31 21:02:24,953 | INFO     | train | Fold 5 -- RMSE: 41.35  MAE: 20.87
+2026-05-31 21:02:24,954 | INFO     | train | CV RMSE: 39.69 +/- 3.52
+2026-05-31 21:02:24,954 | INFO     | train | CV MAE : 20.87 +/- 0.32
+2026-05-31 21:02:24,980 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:02:33,520 | INFO     | train | Fold 1 -- RMSE: 37.08  MAE: 20.89
+2026-05-31 21:02:42,976 | INFO     | train | Fold 2 -- RMSE: 45.92  MAE: 21.36
+2026-05-31 21:02:52,078 | INFO     | train | Fold 3 -- RMSE: 37.72  MAE: 20.24
+2026-05-31 21:03:01,901 | INFO     | train | Fold 4 -- RMSE: 36.48  MAE: 20.92
+2026-05-31 21:03:11,664 | INFO     | train | Fold 5 -- RMSE: 41.45  MAE: 20.86
+2026-05-31 21:03:11,666 | INFO     | train | CV RMSE: 39.73 +/- 3.55
+2026-05-31 21:03:11,666 | INFO     | train | CV MAE : 20.86 +/- 0.36
+2026-05-31 21:03:11,685 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:03:21,148 | INFO     | train | Fold 1 -- RMSE: 37.00  MAE: 20.92
+2026-05-31 21:03:30,695 | INFO     | train | Fold 2 -- RMSE: 45.78  MAE: 21.46
+2026-05-31 21:03:40,076 | INFO     | train | Fold 3 -- RMSE: 37.72  MAE: 20.33
+2026-05-31 21:03:49,437 | INFO     | train | Fold 4 -- RMSE: 36.93  MAE: 21.06
+2026-05-31 21:03:58,988 | INFO     | train | Fold 5 -- RMSE: 41.44  MAE: 20.91
+2026-05-31 21:03:58,988 | INFO     | train | CV RMSE: 39.78 +/- 3.43
+2026-05-31 21:03:58,988 | INFO     | train | CV MAE : 20.94 +/- 0.36
+2026-05-31 21:03:59,015 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:04:10,914 | INFO     | train | Fold 1 -- RMSE: 37.17  MAE: 20.91
+2026-05-31 21:04:22,954 | INFO     | train | Fold 2 -- RMSE: 46.10  MAE: 21.35
+2026-05-31 21:04:33,853 | INFO     | train | Fold 3 -- RMSE: 37.88  MAE: 20.30
+2026-05-31 21:04:44,319 | INFO     | train | Fold 4 -- RMSE: 36.50  MAE: 20.92
+2026-05-31 21:04:55,422 | INFO     | train | Fold 5 -- RMSE: 41.27  MAE: 20.83
+2026-05-31 21:04:55,423 | INFO     | train | CV RMSE: 39.78 +/- 3.56
+2026-05-31 21:04:55,423 | INFO     | train | CV MAE : 20.86 +/- 0.33
+2026-05-31 21:04:55,435 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:04:59,799 | INFO     | train | Fold 1 -- RMSE: 37.86  MAE: 21.18
+2026-05-31 21:05:04,367 | INFO     | train | Fold 2 -- RMSE: 45.78  MAE: 21.50
+2026-05-31 21:05:09,109 | INFO     | train | Fold 3 -- RMSE: 38.44  MAE: 20.72
+2026-05-31 21:05:13,696 | INFO     | train | Fold 4 -- RMSE: 36.15  MAE: 20.89
+2026-05-31 21:05:18,417 | INFO     | train | Fold 5 -- RMSE: 41.58  MAE: 21.05
+2026-05-31 21:05:18,417 | INFO     | train | CV RMSE: 39.96 +/- 3.40
+2026-05-31 21:05:18,417 | INFO     | train | CV MAE : 21.07 +/- 0.26
+2026-05-31 21:05:18,431 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:05:21,916 | INFO     | train | Fold 1 -- RMSE: 37.21  MAE: 20.93
+2026-05-31 21:05:25,021 | INFO     | train | Fold 2 -- RMSE: 45.46  MAE: 21.37
+2026-05-31 21:05:28,049 | INFO     | train | Fold 3 -- RMSE: 37.81  MAE: 20.41
+2026-05-31 21:05:31,251 | INFO     | train | Fold 4 -- RMSE: 36.18  MAE: 20.85
+2026-05-31 21:05:34,332 | INFO     | train | Fold 5 -- RMSE: 41.28  MAE: 20.90
+2026-05-31 21:05:34,332 | INFO     | train | CV RMSE: 39.59 +/- 3.40
+2026-05-31 21:05:34,332 | INFO     | train | CV MAE : 20.89 +/- 0.31
+2026-05-31 21:05:34,342 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:05:36,683 | INFO     | train | Fold 1 -- RMSE: 37.12  MAE: 20.93
+2026-05-31 21:05:38,985 | INFO     | train | Fold 2 -- RMSE: 45.30  MAE: 21.38
+2026-05-31 21:05:41,404 | INFO     | train | Fold 3 -- RMSE: 37.92  MAE: 20.39
+2026-05-31 21:05:43,604 | INFO     | train | Fold 4 -- RMSE: 36.39  MAE: 20.92
+2026-05-31 21:05:45,991 | INFO     | train | Fold 5 -- RMSE: 41.44  MAE: 20.95
+2026-05-31 21:05:45,991 | INFO     | train | CV RMSE: 39.64 +/- 3.32
+2026-05-31 21:05:45,991 | INFO     | train | CV MAE : 20.91 +/- 0.31
+2026-05-31 21:05:46,008 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:05:49,543 | INFO     | train | Fold 1 -- RMSE: 37.05  MAE: 20.88
+2026-05-31 21:05:53,173 | INFO     | train | Fold 2 -- RMSE: 45.41  MAE: 21.35
+2026-05-31 21:05:56,873 | INFO     | train | Fold 3 -- RMSE: 37.71  MAE: 20.35
+2026-05-31 21:06:00,476 | INFO     | train | Fold 4 -- RMSE: 36.25  MAE: 20.85
+2026-05-31 21:06:04,027 | INFO     | train | Fold 5 -- RMSE: 41.27  MAE: 20.85
+2026-05-31 21:06:04,027 | INFO     | train | CV RMSE: 39.54 +/- 3.40
+2026-05-31 21:06:04,028 | INFO     | train | CV MAE : 20.86 +/- 0.32
+2026-05-31 21:06:04,038 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:06:08,775 | INFO     | train | Fold 1 -- RMSE: 37.23  MAE: 20.94
+2026-05-31 21:06:13,562 | INFO     | train | Fold 2 -- RMSE: 45.37  MAE: 21.39
+2026-05-31 21:06:18,416 | INFO     | train | Fold 3 -- RMSE: 37.88  MAE: 20.35
+2026-05-31 21:06:23,138 | INFO     | train | Fold 4 -- RMSE: 36.52  MAE: 20.97
+2026-05-31 21:06:27,729 | INFO     | train | Fold 5 -- RMSE: 41.37  MAE: 20.90
+2026-05-31 21:06:27,729 | INFO     | train | CV RMSE: 39.67 +/- 3.30
+2026-05-31 21:06:27,730 | INFO     | train | CV MAE : 20.91 +/- 0.33
+2026-05-31 21:06:27,741 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:06:30,571 | INFO     | train | Fold 1 -- RMSE: 37.31  MAE: 20.99
+2026-05-31 21:06:33,407 | INFO     | train | Fold 2 -- RMSE: 45.42  MAE: 21.45
+2026-05-31 21:06:36,130 | INFO     | train | Fold 3 -- RMSE: 38.03  MAE: 20.41
+2026-05-31 21:06:38,849 | INFO     | train | Fold 4 -- RMSE: 36.37  MAE: 20.98
+2026-05-31 21:06:41,687 | INFO     | train | Fold 5 -- RMSE: 41.43  MAE: 20.97
+2026-05-31 21:06:41,687 | INFO     | train | CV RMSE: 39.71 +/- 3.33
+2026-05-31 21:06:41,688 | INFO     | train | CV MAE : 20.96 +/- 0.33
+2026-05-31 21:06:41,702 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:06:44,611 | INFO     | train | Fold 1 -- RMSE: 36.72  MAE: 20.80
+2026-05-31 21:06:47,533 | INFO     | train | Fold 2 -- RMSE: 45.57  MAE: 21.34
+2026-05-31 21:06:50,658 | INFO     | train | Fold 3 -- RMSE: 37.72  MAE: 20.32
+2026-05-31 21:06:53,562 | INFO     | train | Fold 4 -- RMSE: 36.61  MAE: 20.91
+2026-05-31 21:06:56,548 | INFO     | train | Fold 5 -- RMSE: 41.29  MAE: 20.86
+2026-05-31 21:06:56,549 | INFO     | train | CV RMSE: 39.58 +/- 3.44
+2026-05-31 21:06:56,549 | INFO     | train | CV MAE : 20.85 +/- 0.33
+2026-05-31 21:06:56,559 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:07:00,502 | INFO     | train | Fold 1 -- RMSE: 36.86  MAE: 20.82
+2026-05-31 21:07:04,784 | INFO     | train | Fold 2 -- RMSE: 45.49  MAE: 21.32
+2026-05-31 21:07:08,973 | INFO     | train | Fold 3 -- RMSE: 37.67  MAE: 20.31
+2026-05-31 21:07:13,201 | INFO     | train | Fold 4 -- RMSE: 36.93  MAE: 20.99
+2026-05-31 21:07:17,268 | INFO     | train | Fold 5 -- RMSE: 41.26  MAE: 20.85
+2026-05-31 21:07:17,269 | INFO     | train | CV RMSE: 39.64 +/- 3.34
+2026-05-31 21:07:17,269 | INFO     | train | CV MAE : 20.86 +/- 0.33
+2026-05-31 21:07:17,280 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:07:21,529 | INFO     | train | Fold 1 -- RMSE: 36.84  MAE: 20.84
+2026-05-31 21:07:25,455 | INFO     | train | Fold 2 -- RMSE: 45.89  MAE: 21.38
+2026-05-31 21:07:29,272 | INFO     | train | Fold 3 -- RMSE: 37.76  MAE: 20.28
+2026-05-31 21:07:33,241 | INFO     | train | Fold 4 -- RMSE: 37.04  MAE: 21.03
+2026-05-31 21:07:37,123 | INFO     | train | Fold 5 -- RMSE: 41.44  MAE: 20.87
+2026-05-31 21:07:37,124 | INFO     | train | CV RMSE: 39.80 +/- 3.47
+2026-05-31 21:07:37,124 | INFO     | train | CV MAE : 20.88 +/- 0.36
+2026-05-31 21:07:37,153 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:07:42,274 | INFO     | train | Fold 1 -- RMSE: 36.93  MAE: 20.93
+2026-05-31 21:07:47,187 | INFO     | train | Fold 2 -- RMSE: 45.95  MAE: 21.49
+2026-05-31 21:07:52,170 | INFO     | train | Fold 3 -- RMSE: 37.68  MAE: 20.32
+2026-05-31 21:07:57,540 | INFO     | train | Fold 4 -- RMSE: 37.28  MAE: 21.14
+2026-05-31 21:08:02,630 | INFO     | train | Fold 5 -- RMSE: 41.56  MAE: 20.99
+2026-05-31 21:08:02,631 | INFO     | train | CV RMSE: 39.88 +/- 3.46
+2026-05-31 21:08:02,632 | INFO     | train | CV MAE : 20.98 +/- 0.38
+2026-05-31 21:08:02,646 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:08:08,001 | INFO     | train | Fold 1 -- RMSE: 37.88  MAE: 21.18
+2026-05-31 21:08:13,131 | INFO     | train | Fold 2 -- RMSE: 46.26  MAE: 21.50
+2026-05-31 21:08:18,559 | INFO     | train | Fold 3 -- RMSE: 38.68  MAE: 20.72
+2026-05-31 21:08:23,682 | INFO     | train | Fold 4 -- RMSE: 36.53  MAE: 20.97
+2026-05-31 21:08:28,657 | INFO     | train | Fold 5 -- RMSE: 41.72  MAE: 20.99
+2026-05-31 21:08:28,657 | INFO     | train | CV RMSE: 40.21 +/- 3.47
+2026-05-31 21:08:28,658 | INFO     | train | CV MAE : 21.07 +/- 0.26
+2026-05-31 21:08:28,671 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:08:29,898 | INFO     | train | Fold 1 -- RMSE: 36.71  MAE: 20.77
+2026-05-31 21:08:31,059 | INFO     | train | Fold 2 -- RMSE: 46.02  MAE: 21.44
+2026-05-31 21:08:32,259 | INFO     | train | Fold 3 -- RMSE: 37.66  MAE: 20.29
+2026-05-31 21:08:33,660 | INFO     | train | Fold 4 -- RMSE: 36.75  MAE: 20.94
+2026-05-31 21:08:34,949 | INFO     | train | Fold 5 -- RMSE: 41.25  MAE: 20.85
+2026-05-31 21:08:34,950 | INFO     | train | CV RMSE: 39.68 +/- 3.58
+2026-05-31 21:08:34,950 | INFO     | train | CV MAE : 20.86 +/- 0.37
+2026-05-31 21:08:34,959 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:08:40,321 | INFO     | train | Fold 1 -- RMSE: 37.20  MAE: 20.90
+2026-05-31 21:08:46,124 | INFO     | train | Fold 2 -- RMSE: 45.46  MAE: 21.37
+2026-05-31 21:08:51,978 | INFO     | train | Fold 3 -- RMSE: 37.89  MAE: 20.36
+2026-05-31 21:08:57,619 | INFO     | train | Fold 4 -- RMSE: 36.31  MAE: 20.91
+2026-05-31 21:09:03,321 | INFO     | train | Fold 5 -- RMSE: 41.31  MAE: 20.89
+2026-05-31 21:09:03,322 | INFO     | train | CV RMSE: 39.63 +/- 3.37
+2026-05-31 21:09:03,322 | INFO     | train | CV MAE : 20.89 +/- 0.32
+2026-05-31 21:09:03,334 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:09:07,450 | INFO     | train | Fold 1 -- RMSE: 36.80  MAE: 20.83
+2026-05-31 21:09:11,106 | INFO     | train | Fold 2 -- RMSE: 45.62  MAE: 21.35
+2026-05-31 21:09:14,538 | INFO     | train | Fold 3 -- RMSE: 37.69  MAE: 20.32
+2026-05-31 21:09:17,974 | INFO     | train | Fold 4 -- RMSE: 36.90  MAE: 20.98
+2026-05-31 21:09:21,236 | INFO     | train | Fold 5 -- RMSE: 41.09  MAE: 20.85
+2026-05-31 21:09:21,236 | INFO     | train | CV RMSE: 39.62 +/- 3.38
+2026-05-31 21:09:21,236 | INFO     | train | CV MAE : 20.87 +/- 0.33
+2026-05-31 21:09:21,255 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:09:24,662 | INFO     | train | Fold 1 -- RMSE: 37.25  MAE: 21.02
+2026-05-31 21:09:27,974 | INFO     | train | Fold 2 -- RMSE: 45.55  MAE: 21.41
+2026-05-31 21:09:31,454 | INFO     | train | Fold 3 -- RMSE: 38.02  MAE: 20.55
+2026-05-31 21:09:35,088 | INFO     | train | Fold 4 -- RMSE: 36.26  MAE: 20.87
+2026-05-31 21:09:38,672 | INFO     | train | Fold 5 -- RMSE: 41.24  MAE: 20.91
+2026-05-31 21:09:38,672 | INFO     | train | CV RMSE: 39.66 +/- 3.39
+2026-05-31 21:09:38,673 | INFO     | train | CV MAE : 20.95 +/- 0.28
+2026-05-31 21:09:38,686 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:09:40,582 | INFO     | train | Fold 1 -- RMSE: 37.40  MAE: 21.06
+2026-05-31 21:09:42,504 | INFO     | train | Fold 2 -- RMSE: 45.56  MAE: 21.44
+2026-05-31 21:09:44,423 | INFO     | train | Fold 3 -- RMSE: 37.99  MAE: 20.59
+2026-05-31 21:09:46,223 | INFO     | train | Fold 4 -- RMSE: 36.38  MAE: 20.90
+2026-05-31 21:09:47,946 | INFO     | train | Fold 5 -- RMSE: 41.24  MAE: 20.94
+2026-05-31 21:09:47,946 | INFO     | train | CV RMSE: 39.71 +/- 3.35
+2026-05-31 21:09:47,947 | INFO     | train | CV MAE : 20.98 +/- 0.27
+2026-05-31 21:09:47,956 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:09:51,979 | INFO     | train | Fold 1 -- RMSE: 37.32  MAE: 20.95
+2026-05-31 21:09:55,930 | INFO     | train | Fold 2 -- RMSE: 45.54  MAE: 21.35
+2026-05-31 21:09:59,927 | INFO     | train | Fold 3 -- RMSE: 37.89  MAE: 20.38
+2026-05-31 21:10:03,979 | INFO     | train | Fold 4 -- RMSE: 36.27  MAE: 20.89
+2026-05-31 21:10:07,993 | INFO     | train | Fold 5 -- RMSE: 41.27  MAE: 20.88
+2026-05-31 21:10:07,993 | INFO     | train | CV RMSE: 39.66 +/- 3.39
+2026-05-31 21:10:07,993 | INFO     | train | CV MAE : 20.89 +/- 0.31
+2026-05-31 21:10:08,004 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:10:13,211 | INFO     | train | Fold 1 -- RMSE: 37.28  MAE: 20.93
+2026-05-31 21:10:18,401 | INFO     | train | Fold 2 -- RMSE: 45.77  MAE: 21.38
+2026-05-31 21:10:23,556 | INFO     | train | Fold 3 -- RMSE: 37.74  MAE: 20.28
+2026-05-31 21:10:28,637 | INFO     | train | Fold 4 -- RMSE: 36.50  MAE: 20.94
+2026-05-31 21:10:33,670 | INFO     | train | Fold 5 -- RMSE: 41.40  MAE: 20.89
+2026-05-31 21:10:33,670 | INFO     | train | CV RMSE: 39.74 +/- 3.45
+2026-05-31 21:10:33,672 | INFO     | train | CV MAE : 20.89 +/- 0.35
+2026-05-31 21:10:33,683 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:10:36,967 | INFO     | train | Fold 1 -- RMSE: 36.95  MAE: 20.91
+2026-05-31 21:10:40,239 | INFO     | train | Fold 2 -- RMSE: 46.05  MAE: 21.45
+2026-05-31 21:10:43,470 | INFO     | train | Fold 3 -- RMSE: 37.84  MAE: 20.25
+2026-05-31 21:10:46,727 | INFO     | train | Fold 4 -- RMSE: 36.85  MAE: 20.98
+2026-05-31 21:10:49,933 | INFO     | train | Fold 5 -- RMSE: 41.60  MAE: 20.96
+2026-05-31 21:10:49,934 | INFO     | train | CV RMSE: 39.86 +/- 3.55
+2026-05-31 21:10:49,935 | INFO     | train | CV MAE : 20.91 +/- 0.38
+2026-05-31 21:10:49,945 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:10:55,334 | INFO     | train | Fold 1 -- RMSE: 37.31  MAE: 20.95
+2026-05-31 21:11:00,726 | INFO     | train | Fold 2 -- RMSE: 45.86  MAE: 21.39
+2026-05-31 21:11:05,894 | INFO     | train | Fold 3 -- RMSE: 37.97  MAE: 20.46
+2026-05-31 21:11:11,537 | INFO     | train | Fold 4 -- RMSE: 36.34  MAE: 20.89
+2026-05-31 21:11:16,961 | INFO     | train | Fold 5 -- RMSE: 41.38  MAE: 20.89
+2026-05-31 21:11:16,961 | INFO     | train | CV RMSE: 39.77 +/- 3.48
+2026-05-31 21:11:16,962 | INFO     | train | CV MAE : 20.92 +/- 0.29
+2026-05-31 21:11:16,972 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:11:27,500 | INFO     | train | Fold 1 -- RMSE: 37.35  MAE: 20.93
+2026-05-31 21:11:38,148 | INFO     | train | Fold 2 -- RMSE: 46.41  MAE: 21.36
+2026-05-31 21:11:48,689 | INFO     | train | Fold 3 -- RMSE: 37.87  MAE: 20.24
+2026-05-31 21:11:59,028 | INFO     | train | Fold 4 -- RMSE: 36.32  MAE: 20.89
+2026-05-31 21:12:09,055 | INFO     | train | Fold 5 -- RMSE: 41.29  MAE: 20.81
+2026-05-31 21:12:09,056 | INFO     | train | CV RMSE: 39.85 +/- 3.68
+2026-05-31 21:12:09,056 | INFO     | train | CV MAE : 20.84 +/- 0.36
+2026-05-31 21:12:09,070 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:12:14,461 | INFO     | train | Fold 1 -- RMSE: 37.22  MAE: 21.01
+2026-05-31 21:12:19,909 | INFO     | train | Fold 2 -- RMSE: 45.67  MAE: 21.45
+2026-05-31 21:12:25,470 | INFO     | train | Fold 3 -- RMSE: 37.70  MAE: 20.30
+2026-05-31 21:12:30,610 | INFO     | train | Fold 4 -- RMSE: 36.82  MAE: 21.05
+2026-05-31 21:12:35,825 | INFO     | train | Fold 5 -- RMSE: 41.45  MAE: 20.96
+2026-05-31 21:12:35,826 | INFO     | train | CV RMSE: 39.77 +/- 3.38
+2026-05-31 21:12:35,826 | INFO     | train | CV MAE : 20.95 +/- 0.37
+2026-05-31 21:19:03,218 | INFO     | train | ======================================================================
+2026-05-31 21:19:03,219 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 21:19:03,219 | INFO     | train |   Run ID    : run_20260531_211903_xgboost_strategyA_gravity_only
+2026-05-31 21:19:03,219 | INFO     | train |   Algorithm : xgboost
+2026-05-31 21:19:03,219 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 21:19:03,220 | INFO     | train |   Notes     : Phase 2.5 Tuned XGBoost
+2026-05-31 21:19:03,220 | INFO     | train | ======================================================================
+2026-05-31 21:19:03,307 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 21:19:03,308 | INFO     | train | Training with 41 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 21:19:03,338 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 21:19:03,340 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 21:19:03,341 | INFO     | train | Loaded Optuna tuned parameters from C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\optuna\best_params_xgboost_strategyA_gravity_only.json
+2026-05-31 21:19:04,891 | INFO     | train | Starting 5-fold cross-validation (xgboost)...
+2026-05-31 21:19:09,254 | INFO     | train | Fold 1 -- RMSE: 36.69  MAE: 21.14
+2026-05-31 21:19:12,791 | INFO     | train | Fold 2 -- RMSE: 43.03  MAE: 21.37
+2026-05-31 21:19:16,360 | INFO     | train | Fold 3 -- RMSE: 38.38  MAE: 20.52
+2026-05-31 21:19:19,893 | INFO     | train | Fold 4 -- RMSE: 38.95  MAE: 21.41
+2026-05-31 21:19:23,397 | INFO     | train | Fold 5 -- RMSE: 43.48  MAE: 21.27
+2026-05-31 21:19:23,398 | INFO     | train | CV RMSE: 40.11 +/- 2.68
+2026-05-31 21:19:23,398 | INFO     | train | CV MAE : 21.14 +/- 0.32
+2026-05-31 21:19:23,419 | INFO     | train | Training final xgboost model on full training set (19960 samples)...
+2026-05-31 21:19:26,368 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 21:19:26,414 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211903_xgboost_strategyA_gravity_only\model.pkl
+2026-05-31 21:19:26,416 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211903_xgboost_strategyA_gravity_only\cv_results.json
+2026-05-31 21:19:26,981 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211903_xgboost_strategyA_gravity_only
+2026-05-31 21:19:26,983 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211903_xgboost_strategyA_gravity_only\run_config.json
+2026-05-31 21:19:27,165 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211903_xgboost_strategyA_gravity_only\predictions.csv (min: 29.70, median: 85.34, max: 2151.99)
+2026-05-31 21:19:27,166 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 21:19:27,179 | INFO     | train | All assertions passed.
+2026-05-31 21:19:27,180 | INFO     | train | ======================================================================
+2026-05-31 21:19:27,181 | INFO     | train | TRAINING SUMMARY
+2026-05-31 21:19:27,181 | INFO     | train |   Run ID               : run_20260531_211903_xgboost_strategyA_gravity_only
+2026-05-31 21:19:27,181 | INFO     | train |   Algorithm            : xgboost
+2026-05-31 21:19:27,181 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 21:19:27,181 | INFO     | train |   Training samples     : 19960
+2026-05-31 21:19:27,182 | INFO     | train |   Features             : 41 (4 categorical)
+2026-05-31 21:19:27,182 | INFO     | train |   CV RMSE              : 40.11 +/- 2.68
+2026-05-31 21:19:27,182 | INFO     | train |   CV MAE               : 21.14 +/- 0.32
+2026-05-31 21:19:27,182 | INFO     | train |   GPU used             : True
+2026-05-31 21:19:27,183 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211903_xgboost_strategyA_gravity_only
+2026-05-31 21:19:27,183 | INFO     | train |   Duration             : 23.9 seconds
+2026-05-31 21:19:27,183 | INFO     | train | ======================================================================
+2026-05-31 21:19:27,183 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 21:19:27,184 | INFO     | train | ======================================================================
+2026-05-31 21:19:51,593 | INFO     | train | ======================================================================
+2026-05-31 21:19:51,593 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 21:19:51,593 | INFO     | train |   Run ID    : run_20260531_211951_lightgbm_strategyA_gravity_only
+2026-05-31 21:19:51,594 | INFO     | train |   Algorithm : lightgbm
+2026-05-31 21:19:51,594 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 21:19:51,594 | INFO     | train |   Notes     : Phase 2.5 Tuned LightGBM + SHAP
+2026-05-31 21:19:51,594 | INFO     | train | ======================================================================
+2026-05-31 21:19:51,682 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 21:19:51,683 | INFO     | train | Training with 41 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 21:19:51,713 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 21:19:51,714 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 21:19:51,715 | INFO     | train | Loaded Optuna tuned parameters from C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\optuna\best_params_lightgbm_strategyA_gravity_only.json
+2026-05-31 21:19:53,216 | INFO     | train | Starting 5-fold cross-validation (lightgbm)...
+2026-05-31 21:20:09,262 | INFO     | train | Fold 1 -- RMSE: 39.86  MAE: 21.60
+2026-05-31 21:20:22,626 | INFO     | train | Fold 2 -- RMSE: 46.19  MAE: 22.01
+2026-05-31 21:20:35,726 | INFO     | train | Fold 3 -- RMSE: 37.42  MAE: 20.42
+2026-05-31 21:20:48,619 | INFO     | train | Fold 4 -- RMSE: 39.02  MAE: 21.29
+2026-05-31 21:21:00,427 | INFO     | train | Fold 5 -- RMSE: 42.60  MAE: 21.34
+2026-05-31 21:21:00,428 | INFO     | train | CV RMSE: 41.02 +/- 3.08
+2026-05-31 21:21:00,428 | INFO     | train | CV MAE : 21.33 +/- 0.52
+2026-05-31 21:21:00,431 | INFO     | train | Training final lightgbm model on full training set (19960 samples)...
+2026-05-31 21:21:12,156 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 21:21:12,213 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211951_lightgbm_strategyA_gravity_only\model.pkl
+2026-05-31 21:21:12,214 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211951_lightgbm_strategyA_gravity_only\cv_results.json
+2026-05-31 21:21:12,611 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211951_lightgbm_strategyA_gravity_only
+2026-05-31 21:21:12,613 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211951_lightgbm_strategyA_gravity_only\run_config.json
+2026-05-31 21:21:12,932 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211951_lightgbm_strategyA_gravity_only\predictions.csv (min: 34.89, median: 85.34, max: 2132.09)
+2026-05-31 21:21:15,478 | INFO     | train | Extracting SHAP values for 20000 outlets...
+2026-05-31 21:21:48,187 | INFO     | train | SHAP values saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\Data\Gold\shap_values.parquet (32.7s)
+2026-05-31 21:21:48,276 | INFO     | train | SHAP values copy saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211951_lightgbm_strategyA_gravity_only\shap_values.parquet
+2026-05-31 21:21:48,278 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 21:21:48,286 | INFO     | train | All assertions passed.
+2026-05-31 21:21:48,286 | INFO     | train | ======================================================================
+2026-05-31 21:21:48,286 | INFO     | train | TRAINING SUMMARY
+2026-05-31 21:21:48,286 | INFO     | train |   Run ID               : run_20260531_211951_lightgbm_strategyA_gravity_only
+2026-05-31 21:21:48,286 | INFO     | train |   Algorithm            : lightgbm
+2026-05-31 21:21:48,286 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 21:21:48,286 | INFO     | train |   Training samples     : 19960
+2026-05-31 21:21:48,286 | INFO     | train |   Features             : 41 (4 categorical)
+2026-05-31 21:21:48,287 | INFO     | train |   CV RMSE              : 41.02 +/- 3.08
+2026-05-31 21:21:48,287 | INFO     | train |   CV MAE               : 21.33 +/- 0.52
+2026-05-31 21:21:48,287 | INFO     | train |   GPU used             : True
+2026-05-31 21:21:48,287 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_211951_lightgbm_strategyA_gravity_only
+2026-05-31 21:21:48,287 | INFO     | train |   Duration             : 116.7 seconds
+2026-05-31 21:21:48,287 | INFO     | train | ======================================================================
+2026-05-31 21:21:48,288 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 21:21:48,288 | INFO     | train | ======================================================================
+2026-05-31 21:22:04,723 | INFO     | train | ======================================================================
+2026-05-31 21:22:04,724 | INFO     | train | TRAINING PIPELINE -- START
+2026-05-31 21:22:04,724 | INFO     | train |   Run ID    : run_20260531_212204_randomforest_strategyA_gravity_only
+2026-05-31 21:22:04,724 | INFO     | train |   Algorithm : randomforest
+2026-05-31 21:22:04,724 | INFO     | train |   Strategy  : strategyA_gravity_only
+2026-05-31 21:22:04,724 | INFO     | train |   Notes     : Phase 2.5 Tuned RF
+2026-05-31 21:22:04,724 | INFO     | train | ======================================================================
+2026-05-31 21:22:04,810 | INFO     | train | Loaded 20000 rows from master_features.parquet
+2026-05-31 21:22:04,811 | INFO     | train | Training with 41 features (4 categorical): ['Outlet_Size', 'Cooler_Count', 'Outlet_Type', 'size_imputed', 'Latitude', 'Longitude', 'coords_swapped', 'hist_cv', 'jan_count', 'active_months', 'active_months_pct', 'consecutive_zero_months_max', 'yoy_growth_rate', 'trend_slope', 'months_since_last_order', 'poi_data_available', 'school_gravity_score', 'hospital_gravity_score', 'transport_gravity_score', 'market_gravity_score', 'worship_gravity_score', 'hospitality_gravity_score', 'raw_composite_gravity', 'composite_gravity_score', 'gravity_data_available', 'competitors_500m', 'competitors_1km', 'competitors_2km', 'competition_density_score', 'market_saturation_class', 'seasonality_multiplier_jan_2026', 'cooler_capacity_litres', 'theoretical_monthly_ceiling', 'micro_market_id', 'is_spatial_outlier', 'cluster_outlet_count', 'tobit_latent_estimate', 'p_active', 'hurdle_conditional_volume', 'hurdle_estimate', 'province']
+2026-05-31 21:22:04,840 | INFO     | train | Training set: 19960 outlets (excluded 0 with no history, 40 with bad coords)
+2026-05-31 21:22:04,842 | INFO     | train | Training target — min: 10.75, median: 96.21, max: 2189.00
+2026-05-31 21:22:04,857 | INFO     | train | Loaded Optuna tuned parameters from C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\optuna\best_params_randomforest_strategyA_gravity_only.json
+2026-05-31 21:22:06,391 | INFO     | train | Starting 5-fold cross-validation (randomforest)...
+2026-05-31 21:22:10,924 | INFO     | train | Fold 1 -- RMSE: 37.05  MAE: 20.88
+2026-05-31 21:22:15,164 | INFO     | train | Fold 2 -- RMSE: 45.41  MAE: 21.35
+2026-05-31 21:22:19,161 | INFO     | train | Fold 3 -- RMSE: 37.71  MAE: 20.35
+2026-05-31 21:22:23,075 | INFO     | train | Fold 4 -- RMSE: 36.25  MAE: 20.85
+2026-05-31 21:22:26,774 | INFO     | train | Fold 5 -- RMSE: 41.27  MAE: 20.85
+2026-05-31 21:22:26,774 | INFO     | train | CV RMSE: 39.54 +/- 3.40
+2026-05-31 21:22:26,774 | INFO     | train | CV MAE : 20.86 +/- 0.32
+2026-05-31 21:22:26,778 | INFO     | train | Training final randomforest model on full training set (19960 samples)...
+2026-05-31 21:22:31,497 | INFO     | train | Final model trained on 19960 samples
+2026-05-31 21:22:31,541 | INFO     | train | Model saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_212204_randomforest_strategyA_gravity_only\model.pkl
+2026-05-31 21:22:31,543 | INFO     | train | CV results saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_212204_randomforest_strategyA_gravity_only\cv_results.json
+2026-05-31 21:22:32,045 | INFO     | train | Feature importance saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_212204_randomforest_strategyA_gravity_only
+2026-05-31 21:22:32,046 | INFO     | train | Run config saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_212204_randomforest_strategyA_gravity_only\run_config.json
+2026-05-31 21:22:32,262 | INFO     | train | Predictions saved -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_212204_randomforest_strategyA_gravity_only\predictions.csv (min: 25.39, median: 85.05, max: 2122.29)
+2026-05-31 21:22:32,265 | INFO     | train | Run registered -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\run_registry.csv
+2026-05-31 21:22:32,334 | INFO     | train | All assertions passed.
+2026-05-31 21:22:32,334 | INFO     | train | ======================================================================
+2026-05-31 21:22:32,334 | INFO     | train | TRAINING SUMMARY
+2026-05-31 21:22:32,335 | INFO     | train |   Run ID               : run_20260531_212204_randomforest_strategyA_gravity_only
+2026-05-31 21:22:32,335 | INFO     | train |   Algorithm            : randomforest
+2026-05-31 21:22:32,335 | INFO     | train |   Strategy             : strategyA_gravity_only
+2026-05-31 21:22:32,335 | INFO     | train |   Training samples     : 19960
+2026-05-31 21:22:32,336 | INFO     | train |   Features             : 41 (4 categorical)
+2026-05-31 21:22:32,336 | INFO     | train |   CV RMSE              : 39.54 +/- 3.40
+2026-05-31 21:22:32,336 | INFO     | train |   CV MAE               : 20.86 +/- 0.32
+2026-05-31 21:22:32,336 | INFO     | train |   GPU used             : False
+2026-05-31 21:22:32,336 | INFO     | train |   Artifacts saved to   : C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\modelling\artifacts\runs\run_20260531_212204_randomforest_strategyA_gravity_only
+2026-05-31 21:22:32,336 | INFO     | train |   Duration             : 27.5 seconds
+2026-05-31 21:22:32,337 | INFO     | train | ======================================================================
+2026-05-31 21:22:32,337 | INFO     | train | TRAINING PIPELINE -- DONE
+2026-05-31 21:22:32,337 | INFO     | train | ======================================================================
+2026-05-31 21:23:09,440 | INFO     | predict | ======================================================================
+2026-05-31 21:23:09,441 | INFO     | predict | PREDICTION PIPELINE -- START
+2026-05-31 21:23:09,441 | INFO     | predict | ======================================================================
+2026-05-31 21:23:09,534 | INFO     | predict | Loaded master features: 20000 rows
+2026-05-31 21:23:09,540 | INFO     | predict | Loading model predictions from CSV: modelling/artifacts/runs/ensemble_predictions.csv
+2026-05-31 21:23:09,589 | INFO     | predict | Model predictions -- min: 31.31  median: 85.22  max: 2134.71
+2026-05-31 21:23:09,611 | INFO     | predict | Loaded baseline predictions: 20000 rows
+2026-05-31 21:23:09,631 | INFO     | predict |   P10: 95.77 litres
+2026-05-31 21:23:09,632 | INFO     | predict |   P25: 113.19 litres
+2026-05-31 21:23:09,633 | INFO     | predict |   P50: 161.93 litres
+2026-05-31 21:23:09,634 | INFO     | predict |   P75: 345.63 litres
+2026-05-31 21:23:09,634 | INFO     | predict |   P90: 970.94 litres
+2026-05-31 21:23:09,635 | INFO     | predict |   P95: 1187.70 litres
+2026-05-31 21:23:09,636 | INFO     | predict |   P99: 2094.25 litres
+2026-05-31 21:23:09,642 | INFO     | predict | All assertions passed.
+2026-05-31 21:23:09,684 | INFO     | predict | Written 20000 rows -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\outputs\bigbug_predictions.csv
+2026-05-31 21:23:09,875 | INFO     | predict | Written diagnostics -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\outputs\prediction_diagnostics.csv
+2026-05-31 21:23:09,876 | INFO     | predict | ==================================================
+2026-05-31 21:23:09,876 | INFO     | predict | PREDICTION SUMMARY
+2026-05-31 21:23:09,876 | INFO     | predict |   Total outlets predicted : 20000
+2026-05-31 21:23:09,877 | INFO     | predict |   Min prediction          : 31.98 L
+2026-05-31 21:23:09,877 | INFO     | predict |   Median prediction       : 161.93 L
+2026-05-31 21:23:09,878 | INFO     | predict |   Mean prediction         : 394.19 L
+2026-05-31 21:23:09,878 | INFO     | predict |   Max prediction          : 10457.94 L
+2026-05-31 21:23:09,878 | INFO     | predict |   Baseline-capped (model < baseline): 19856 outlets
+2026-05-31 21:23:09,878 | INFO     | predict |   Model won (model > baseline)      : 144 outlets
+2026-05-31 21:23:09,878 | INFO     | predict |   Duration                : 0.4 seconds
+2026-05-31 21:23:09,879 | INFO     | predict | ==================================================
+2026-05-31 21:23:09,879 | INFO     | predict | PREDICTION PIPELINE -- DONE
+2026-05-31 21:23:09,879 | INFO     | predict | ==================================================

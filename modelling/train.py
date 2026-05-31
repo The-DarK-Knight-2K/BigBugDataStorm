@@ -263,6 +263,7 @@ def get_model_params(algorithm: str, strategy: str = None, use_optuna: bool = Fa
             }
         lgbm_params["random_state"] = CFG["modelling"]["random_seed"]
         lgbm_params["verbose"] = -1
+        lgbm_params["device"] = "gpu"
         params = lgbm_params
 
     elif algorithm == "randomforest":
@@ -715,6 +716,8 @@ def main() -> None:
     gpu_used = "task_type" in params and params.get("task_type") == "GPU"
     if algorithm == "xgboost":
         gpu_used = params.get("device") == "cuda"
+    elif algorithm == "lightgbm":
+        gpu_used = params.get("device") == "gpu"
 
     cv_rmse_scores, cv_mae_scores = run_cross_validation(
         X, y, algorithm, params, cat_feature_indices,

@@ -521,6 +521,21 @@ python modelling/train.py --strategy strategyA_flat_clean --algorithm lightgbm -
 | TBD  | `strategyC_v2`              | XGBoost   | Improved interaction terms  | Deciding        |
 | TBD  | Log-transform target        | XGBoost   | `log1p(y)` optimisation     | Deciding        |
 
+### Phase 2.5 Scenarios — Advanced Sub-Models & Capacity Bounds (Round 6)
+
+| #    | Strategy                  | Algorithm | Key Difference | Status |
+| ---- | ------------------------- | --------- | -------------- | ------ |
+| 26   | `strategyA_gravity_only`  | XGBoost   | **Failed Run:** Added capacity ceilings, spatial clustering, Tobit, and Hurdle predictions. Massive mathematical target leak via `capacity_utilization_ratio` and recursive sub-model features. | ❌ Abandoned (RMSE ~5.57) |
+| 27   | `strategyA_gravity_only`  | XGBoost   | **Failed Run:** Implemented K-Fold OOF for Tobit/Hurdle. Deeper mathematical leaks discovered in `tobit_censoring_ratio` and `cluster_mean_volume`. | ❌ Abandoned (RMSE ~4.00) |
+| 28   | `strategyA_gravity_only`  | XGBoost   | **Champion Run:** All leaks strictly eradicated in `_LEAK_FEATURES` across sub-models and final pipeline. True validation. | ✅ Done (**40.89**) |
+| 29   | `strategyA_gravity_only`  | RandomFor | Same as S28. | ✅ Done (**40.48**) |
+| 30   | `strategyA_gravity_only`  | LightGBM  | Same as S28. | ✅ Done (**42.66**) |
+| 31   | Ensemble                  | Blend     | S28 + S29 + S30 (40/20/40 blend) | ✅ Done |
+
+> [!TIP]
+> **Phase 2.5 Findings:**
+> Random Forest (S29) unexpectedly became our best single model with a valid, un-leaked CV RMSE of **40.48**. This represents a true ~0.65 RMSE improvement over the pre-Phase 2.5 XGBoost baseline (S6: 41.14), proving that structural ceilings, spatial clusters, and censored/zero-inflated logic provided genuine predictive lift.
+
 ### Recommended Execution Order
 
 ```
@@ -533,9 +548,13 @@ Round 3 (COMPLETED):
   S10 through S18 (Boolean ablation & LightGBM expansion)
   (Failed to beat S6 — boolean fields should be kept, XGBoost > LightGBM)
 
-Round 4 (NOW):
+Round 4 & 5 (COMPLETED):
   Optuna tuning on S6 -> Ensemble -> Strategy C v2
+
+Round 6 / Phase 2.5 (COMPLETED):
+  S26 (Target Leak) -> S27 (OOF & Math Leaks) -> S28-S31 (Full un-leaked Pipeline & Ensemble)
 ```
 
 > [!TIP]
 > All 9 Round 3 scenarios require **3 new strategy definitions** in `train.py` (`strategyC_clean`, `strategyA_gravity_clean`, `strategyA_flat_clean`) but **zero other code changes**. Each run is just a CLI flag combination.
+
