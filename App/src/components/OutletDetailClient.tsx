@@ -4,7 +4,6 @@ import { useState, useMemo } from 'react';
 import Link from 'next/link';
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, Tooltip, Cell, ReferenceLine } from 'recharts';
 import dynamic from 'next/dynamic';
-import ReactMarkdown from 'react-markdown';
 import { OutletDetail } from '@/data_access/queries';
 
 const SingleMap = dynamic(() => import('./SingleMap'), { ssr: false });
@@ -46,6 +45,24 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
       orig: v.feature_value
     }));
   }, [shapValues]);
+
+  // Parse GenAI JSON
+  const parsedExplanation = useMemo(() => {
+    if (!xaiExplanation) return null;
+    try {
+      // Remove any markdown code block wrappers if Gemini accidentally includes them
+      const cleanedJson = xaiExplanation.replace(/```json\n?|\n?```/g, '').trim();
+      return JSON.parse(cleanedJson);
+    } catch (e) {
+      // Fallback for older cached markdown strings or parse errors
+      return {
+        diagnostic_alert: null,
+        driver_cards: [],
+        action_checklist: [],
+        raw_fallback: xaiExplanation
+      };
+    }
+  }, [xaiExplanation]);
 
   return (
     <div className="space-y-8 animate-fade-in">
@@ -164,12 +181,12 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
       {/* SHAP Chart & spatial scores */}
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
         {/* SHAP impact chart panel */}
-        <div className="glass-panel p-6 rounded-2xl border border-slate-800 lg:col-span-2 space-y-4">
-          <div>
+        <div className="glass-panel p-6 rounded-2xl border border-slate-800 lg:col-span-2 flex flex-col">
+          <div className="mb-4">
             <h3 className="font-heading font-bold text-lg text-white">SHAP Prediction Drivers Impact</h3>
             <p className="text-slate-400 text-[11px] mt-0.5">Quantifying the impact of model features pushing the volume prediction up or down.</p>
           </div>
-          <div className="h-[280px] w-full text-xs">
+          <div className="flex-1 min-h-[280px] w-full text-xs">
             {chartData.length > 0 ? (
               <ResponsiveContainer width="100%" height="100%">
                 <BarChart
@@ -228,161 +245,201 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
           </div>
         </div>
 
-        {/* Spatial scores panel */}
-        <div className="glass-panel p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
-          <div className="space-y-4">
-            <div>
-              <h3 className="font-heading font-bold text-lg text-white">Spatial Analysis Scorecard</h3>
-              <p className="text-slate-400 text-[11px] mt-0.5">POI Distance Decay Gravity calculations.</p>
+        {/* Right side panels */}
+        <div className="space-y-6 flex flex-col">
+          {/* Spatial scores panel */}
+          <div className="glass-panel p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
+            <div className="space-y-4">
+              <div>
+                <h3 className="font-heading font-bold text-lg text-white">Spatial Analysis Scorecard</h3>
+                <p className="text-slate-400 text-[11px] mt-0.5">POI Distance Decay Gravity calculations.</p>
+              </div>
+              
+              <div className="space-y-3 font-mono text-xs">
+                {/* Transport Gravity */}
+                <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
+                  <span className="text-slate-400">🚍 Transport Gravity</span>
+                  <span className="text-white font-bold text-sm">{(context?.gravity_features?.transport_gravity_score || 0).toFixed(2)}</span>
+                </div>
+
+                {/* School Gravity */}
+                <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
+                  <span className="text-slate-400">🏫 School Gravity</span>
+                  <span className="text-white font-bold text-sm">{(context?.gravity_features?.school_gravity_score || 0).toFixed(2)}</span>
+                </div>
+
+                {/* Worship Gravity */}
+                <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
+                  <span className="text-slate-400">🛕 Worship Gravity</span>
+                  <span className="text-white font-bold text-sm">{((context?.gravity_features as any)?.worship_gravity_score || 0).toFixed(2)}</span>
+                </div>
+
+                {/* Hospitality Gravity */}
+                <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
+                  <span className="text-slate-400">🏨 Hospitality Gravity</span>
+                  <span className="text-white font-bold text-sm">{((context?.gravity_features as any)?.hospitality_gravity_score || 0).toFixed(2)}</span>
+                </div>
+              </div>
             </div>
-            
-            <div className="space-y-3 font-mono text-xs">
-              {/* Transport Gravity */}
-              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
-                <span className="text-slate-400">🚍 Transport Gravity</span>
-                <span className="text-white font-bold text-sm">{(context?.gravity_features?.transport_gravity_score || 0).toFixed(2)}</span>
-              </div>
 
-              {/* School Gravity */}
-              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
-                <span className="text-slate-400">🏫 School Gravity</span>
-                <span className="text-white font-bold text-sm">{(context?.gravity_features?.school_gravity_score || 0).toFixed(2)}</span>
-              </div>
-
-              {/* Worship Gravity */}
-              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
-                <span className="text-slate-400">🛕 Worship Gravity</span>
-                <span className="text-white font-bold text-sm">{((context?.gravity_features as any)?.worship_gravity_score || 0).toFixed(2)}</span>
-              </div>
-
-              {/* Hospitality Gravity */}
-              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
-                <span className="text-slate-400">🏨 Hospitality Gravity</span>
-                <span className="text-white font-bold text-sm">{((context?.gravity_features as any)?.hospitality_gravity_score || 0).toFixed(2)}</span>
-              </div>
+            <div className="text-[10px] text-slate-500 font-sans italic border-t border-slate-800/60 pt-3 mt-4">
+              💡 Gravity scores calculated via distance decay algorithm. Closer features carry exponentially heavier weighting.
             </div>
           </div>
 
-          <div className="text-[10px] text-slate-500 font-sans italic border-t border-slate-800/60 pt-3 mt-4">
-            💡 Gravity scores calculated via distance decay algorithm. Closer features carry exponentially heavier weighting.
+          {/* Budget spend details (Moved to right column) */}
+          <div className="glass-panel p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
+            <div>
+              <h3 className="font-heading font-bold text-lg text-white">💰 WP Budget spend</h3>
+              <p className="text-slate-400 text-[11px] mt-0.5">ROI spending allocations calculated for Western Province trade programs.</p>
+            </div>
+
+            {outlet.budget_allocation ? (
+              <div className="my-4 space-y-3">
+                <div className="grid grid-cols-2 gap-3">
+                  <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <span className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest">Rec. Spend</span>
+                    <span className="text-sm font-extrabold text-white mt-1 block font-mono">
+                      LKR {outlet.budget_allocation.trade_spend_allocation_lkr.toLocaleString()}
+                    </span>
+                  </div>
+                  <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                    <span className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest">ROI Score</span>
+                    <span className="text-sm font-extrabold text-emerald-400 mt-1 block font-mono text-glow-emerald">
+                      {outlet.budget_allocation.roi_score.toFixed(3)}
+                    </span>
+                  </div>
+                </div>
+
+                <div className="p-3 rounded-xl bg-slate-950/40 border border-slate-800 flex items-center justify-between">
+                  <div>
+                    <span className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest"> spend activity type</span>
+                    <span className="text-xs font-semibold text-slate-200 mt-0.5 block capitalize">
+                      {outlet.budget_allocation.recommended_spend_type.replace(/_/g, ' ')}
+                    </span>
+                  </div>
+                  <span className="text-lg">⚡</span>
+                </div>
+              </div>
+            ) : (
+              <div className="my-4 p-4 rounded-xl bg-slate-900/30 border border-slate-800/50 flex flex-col items-center justify-center text-center gap-2">
+                <span className="text-2xl text-slate-600">ⓘ</span>
+                <p className="text-xs text-slate-500">No budget spend recommendation available.</p>
+              </div>
+            )}
+
+            <div className="text-[10px] text-slate-500 font-sans italic border-t border-slate-800/60 pt-3">
+              💡 Spend types: cooler grants, discount vouchers, or POS support.
+            </div>
           </div>
         </div>
       </div>
 
-      {/* Business XAI explanation & budget allocation */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Business XAI block */}
-        <div className="glass-panel p-8 rounded-2xl border border-slate-800/80 flex flex-col justify-between min-h-[300px]">
-          <div>
-            <div className="flex items-center justify-between">
-              <h3 className="font-heading font-bold text-xl text-white flex items-center gap-2">
-                🤖 AI-Powered Explanations
-              </h3>
-              <span className="text-[9px] bg-cyan-500/20 text-cyan-400 px-2 py-0.5 rounded font-mono uppercase tracking-wider">Gemini 2.0 Flash</span>
-            </div>
-            <p className="text-slate-400 text-xs mt-1">Generate dynamic, non-technical briefings detailing models prediction drivers.</p>
+      {/* Business XAI explanation (Full Width) */}
+      <div className="glass-panel p-8 rounded-2xl border border-slate-800/80 flex flex-col justify-between">
+        <div>
+          <div className="flex items-center justify-between">
+            <h3 className="font-heading font-bold text-xl text-white flex items-center gap-2">
+              🤖 AI-Powered Explanations
+            </h3>
+            <span className="text-[9px] bg-cyan-500/20 text-cyan-400 px-2 py-0.5 rounded font-mono uppercase tracking-wider">Gemini 2.0 Flash</span>
           </div>
-
-          {/* Dynamic Content state */}
-          <div className="my-6 flex-1 flex items-center justify-center">
-            {xaiLoading ? (
-              <div className="flex flex-col items-center gap-3">
-                <div className="w-10 h-10 rounded-full border-4 border-cyan-500 border-t-transparent animate-spin"></div>
-                <p className="text-xs text-slate-400 font-mono animate-pulse">Invoking Gemini model. Compiling context JSON...</p>
-              </div>
-            ) : xaiExplanation ? (
-              <div className="bg-slate-900/50 rounded-xl border border-slate-800/60 p-5 space-y-3 leading-relaxed text-sm text-slate-200">
-                <div className="text-[13px]">
-                  <ReactMarkdown
-                    components={{
-                      h3: ({node, ...props}) => <h3 className="font-heading font-bold text-lg text-white mt-4 mb-2 border-b border-slate-700/50 pb-1" {...props} />,
-                      p: ({node, ...props}) => <p className="mb-3 text-slate-300" {...props} />,
-                      ul: ({node, ...props}) => <ul className="list-disc pl-5 mb-3 space-y-1 text-slate-300" {...props} />,
-                      li: ({node, ...props}) => <li {...props} />,
-                      strong: ({node, ...props}) => <strong className="font-bold text-white" {...props} />,
-                    }}
-                  >
-                    {xaiExplanation}
-                  </ReactMarkdown>
-                </div>
-                <div className="flex justify-end pt-1 border-t border-slate-800/60 mt-4">
-                  <span className="text-[9px] font-mono text-emerald-400">✓ Cached securely in SQLite local database</span>
-                </div>
-              </div>
-            ) : (
-              <div className="text-center space-y-2">
-                <p className="text-sm text-slate-500">No cached explanation found for this outlet.</p>
-                <p className="text-xs text-slate-600">First-time generation requires calling the model on-demand.</p>
-              </div>
-            )}
-          </div>
-
-          {/* Action button */}
-          {!xaiExplanation && !xaiLoading && (
-            <button
-              onClick={() => generateXaiInsight()}
-              className="w-full py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-violet-600 text-white font-semibold text-sm hover:scale-[1.01] hover:shadow-lg hover:shadow-cyan-500/10 active:scale-95 transition-all flex items-center justify-center gap-2"
-            >
-              <span>⚡</span> Generate Explanatory Briefing
-            </button>
-          )}
-
-          {xaiExplanation && !xaiLoading && (
-            <button
-              onClick={() => generateXaiInsight(true)}
-              className="w-full py-3 rounded-xl border border-slate-800 bg-slate-900/40 text-slate-400 font-medium text-xs hover:text-white hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
-            >
-              <span>🔄</span> Force Regenerate Insight
-            </button>
-          )}
+          <p className="text-slate-400 text-xs mt-1">Generate dynamic, non-technical briefings detailing models prediction drivers.</p>
         </div>
 
-        {/* Budget spend details */}
-        <div className="glass-panel p-8 rounded-2xl border border-slate-800/80 flex flex-col justify-between min-h-[300px]">
-          <div>
-            <h3 className="font-heading font-bold text-xl text-white">💰 WP Budget spend recommendation</h3>
-            <p className="text-slate-400 text-xs mt-1">ROI spending allocations calculated for Western Province trade programs.</p>
-          </div>
+        {/* Dynamic Content state */}
+        <div className="my-6 flex-1 flex flex-col justify-center">
+          {xaiLoading ? (
+            <div className="flex flex-col items-center gap-3 my-12">
+              <div className="w-10 h-10 rounded-full border-4 border-cyan-500 border-t-transparent animate-spin"></div>
+              <p className="text-xs text-slate-400 font-mono animate-pulse">Invoking Gemini model. Compiling context JSON...</p>
+            </div>
+          ) : parsedExplanation ? (
+            <div className="space-y-6">
+              {/* 1. Diagnostic Alert */}
+              {parsedExplanation.diagnostic_alert ? (
+                <div className={`p-5 rounded-xl border flex items-start gap-4 shadow-lg ${
+                  parsedExplanation.diagnostic_alert.type === 'warning' ? 'bg-amber-900/20 border-amber-500/50 text-amber-200' :
+                  parsedExplanation.diagnostic_alert.type === 'critical' ? 'bg-rose-900/20 border-rose-500/50 text-rose-200' :
+                  parsedExplanation.diagnostic_alert.type === 'success' ? 'bg-emerald-900/20 border-emerald-500/50 text-emerald-200' :
+                  'bg-cyan-900/20 border-cyan-500/50 text-cyan-200'
+                }`}>
+                  <div className="text-2xl shrink-0 mt-0.5">
+                    {parsedExplanation.diagnostic_alert.type === 'warning' ? '⚠️' : 
+                     parsedExplanation.diagnostic_alert.type === 'critical' ? '🚨' : 
+                     parsedExplanation.diagnostic_alert.type === 'success' ? '✅' : 'ℹ️'}
+                  </div>
+                  <div>
+                    <h4 className="font-bold text-base">{parsedExplanation.diagnostic_alert.title}</h4>
+                    <p className="text-sm mt-1.5 opacity-90 leading-relaxed">{parsedExplanation.diagnostic_alert.message}</p>
+                  </div>
+                </div>
+              ) : parsedExplanation.raw_fallback ? (
+                <div className="bg-slate-900/50 rounded-xl border border-slate-800/60 p-5 text-sm text-slate-300">
+                   <p>{parsedExplanation.raw_fallback}</p>
+                </div>
+              ) : null}
 
-          {outlet.budget_allocation ? (
-            <div className="my-6 space-y-4">
-              <div className="grid grid-cols-2 gap-4">
-                <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
-                  <span className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest">Recommended Spend</span>
-                  <span className="text-lg font-extrabold text-white mt-1 block font-mono">
-                    LKR {outlet.budget_allocation.trade_spend_allocation_lkr.toLocaleString()}
-                  </span>
+              {/* 2. Driver Cards */}
+              {parsedExplanation.driver_cards && parsedExplanation.driver_cards.length > 0 && (
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+                  {parsedExplanation.driver_cards.map((card: any, i: number) => (
+                    <div key={i} className="bg-slate-900/50 border border-slate-800/60 rounded-xl p-5 flex flex-col gap-3 shadow-md">
+                      <div className="text-3xl">{card.icon}</div>
+                      <h4 className="font-bold text-sm text-white leading-tight">{card.title}</h4>
+                      <p className="text-[13px] text-slate-300 leading-relaxed">{card.description}</p>
+                    </div>
+                  ))}
                 </div>
-                <div className="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
-                  <span className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest">ROI Efficiency Score</span>
-                  <span className="text-lg font-extrabold text-emerald-400 mt-1 block font-mono text-glow-emerald">
-                    {outlet.budget_allocation.roi_score.toFixed(3)}
-                  </span>
-                </div>
-              </div>
+              )}
 
-              <div className="p-4 rounded-xl bg-slate-950/40 border border-slate-800 flex items-center justify-between">
-                <div>
-                  <span className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest"> spend activity type</span>
-                  <span className="text-sm font-semibold text-slate-200 mt-0.5 block capitalize">
-                    {outlet.budget_allocation.recommended_spend_type.replace(/_/g, ' ')}
-                  </span>
+              {/* 3. Action Checklist */}
+              {parsedExplanation.action_checklist && parsedExplanation.action_checklist.length > 0 && (
+                <div className="bg-slate-900/50 border border-slate-800/60 rounded-xl p-6 shadow-md">
+                  <h4 className="font-bold text-sm text-white mb-5 flex items-center gap-2">
+                    <span>📋</span> Field Rep Negotiation Plan
+                  </h4>
+                  <div className="space-y-4">
+                    {parsedExplanation.action_checklist.map((action: string, i: number) => (
+                      <label key={i} className="flex items-start gap-3 cursor-pointer group">
+                        <input type="checkbox" className="mt-1 rounded border-slate-700 bg-slate-800 text-cyan-500 focus:ring-cyan-500 focus:ring-offset-slate-900" />
+                        <span className="text-sm text-slate-300 group-hover:text-white transition-colors leading-relaxed">{action}</span>
+                      </label>
+                    ))}
+                  </div>
                 </div>
-                <span className="text-2xl">⚡</span>
+              )}
+
+              <div className="flex justify-end pt-2 border-t border-slate-800/60 mt-4">
+                <span className="text-[9px] font-mono text-emerald-400">✓ Cached securely in SQLite local database</span>
               </div>
             </div>
           ) : (
-            <div className="my-6 p-6 rounded-xl bg-slate-900/30 border border-slate-800/50 flex flex-col items-center justify-center text-center gap-2">
-              <span className="text-3xl text-slate-600">ⓘ</span>
-              <p className="text-sm text-slate-500">No budget spend recommendation available.</p>
-              <p className="text-xs text-slate-600">Trade spends allocations are strictly mapped for Western Province trade programs only.</p>
+            <div className="text-center space-y-2 py-12">
+              <p className="text-sm text-slate-500">No cached explanation found for this outlet.</p>
+              <p className="text-xs text-slate-600">First-time generation requires calling the model on-demand.</p>
             </div>
           )}
-
-          <div className="text-[10px] text-slate-500 font-sans italic border-t border-slate-800/60 pt-3">
-            💡 Spend types include: cooler grants (high storage capacity), discount vouchers, or local POS brand support.
-          </div>
         </div>
+
+        {/* Action button */}
+        {!xaiExplanation && !xaiLoading && (
+          <button
+            onClick={() => generateXaiInsight()}
+            className="w-full py-3.5 rounded-xl bg-gradient-to-r from-cyan-500 to-violet-600 text-white font-semibold text-sm hover:scale-[1.01] hover:shadow-lg hover:shadow-cyan-500/10 active:scale-95 transition-all flex items-center justify-center gap-2"
+          >
+            <span>⚡</span> Generate Explanatory Briefing
+          </button>
+        )}
+
+        {xaiExplanation && !xaiLoading && (
+          <button
+            onClick={() => generateXaiInsight(true)}
+            className="w-full py-3 rounded-xl border border-slate-800 bg-slate-900/40 text-slate-400 font-medium text-xs hover:text-white hover:bg-slate-800 transition-all flex items-center justify-center gap-2"
+          >
+            <span>🔄</span> Force Regenerate Insight
+          </button>
+        )}
       </div>
     </div>
   );

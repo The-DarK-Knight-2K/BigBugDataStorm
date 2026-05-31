@@ -21,9 +21,11 @@
 - **SHAP Impact Chart:** Recharts horizontal bar chart mapping `shap_values` array.
   - Green bars for Positive direction.
   - Red bars for Negative direction.
-- **Business Insight:** Interactive XAI explanation block powered by the Gemini API. 
+- **Business Insight (Structured JSON UI):** Interactive XAI explanation block powered by the Gemini API. 
   - Displays a spinner and button on first generation.
-  - Displays cached text gracefully on subsequent visits.
+  - Renders a Diagnostic Alert Box (e.g. Censored Demand).
+  - Renders side-by-side Driver Cards (The "Why") with icons.
+  - Renders an Action Checklist for Field Sales Reps.
 - **Budget Section:** Display allocations if the outlet exists in `budget_allocations` (trade spend, tier, ROI score, recommended activity).
 - **Spatial Analysis:** Display Footfall score and individual gravity scores.
 
