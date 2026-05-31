@@ -536,6 +536,23 @@ python modelling/train.py --strategy strategyA_flat_clean --algorithm lightgbm -
 > **Phase 2.5 Findings:**
 > Random Forest (S29) unexpectedly became our best single model with a valid, un-leaked CV RMSE of **40.48**. This represents a true ~0.65 RMSE improvement over the pre-Phase 2.5 XGBoost baseline (S6: 41.14), proving that structural ceilings, spatial clusters, and censored/zero-inflated logic provided genuine predictive lift.
 
+### Phase 2.5 Hyperparameter Tuning & Finalization (Round 7)
+
+| #    | Strategy                  | Algorithm | Key Difference | Status |
+| ---- | ------------------------- | --------- | -------------- | ------ |
+| 32   | `strategyA_gravity_only`  | XGBoost   | Optuna tuned (50 trials, GPU) on un-leaked Phase 2.5 features | ✅ Done (**40.11**) |
+| 33   | `strategyA_gravity_only`  | LightGBM  | Optuna tuned (50 trials, GPU) on un-leaked Phase 2.5 features | ✅ Done (**41.02**) |
+| 34   | `strategyA_gravity_only`  | RandomFor | Optuna tuned (50 trials, CPU multi-threaded) | ✅ Done (**39.54**) |
+| 35   | Ensemble                  | Blend     | Blended S32 (40%) + S33 (40%) + S34 (20%) floor-capped predictions | ✅ Done |
+
+> [!TIP]
+> **Round 7 Findings:**
+> Hyperparameter tuning successfully unlocked an extra ~1.0 RMSE reduction across all algorithms:
+> - **Random Forest (S34)** achieved **39.54 RMSE** (the best single-model score in the entire project history).
+> - **XGBoost (S32)** scored a highly robust **40.11 RMSE**.
+> - **LightGBM (S33)** dropped from 42.66 to **41.02 RMSE** (and successfully extracted SHAP values).
+> The ensembled and baseline floor-capped predictions won over baseline on **144 outlets** (up from 82 in the untuned run), indicating a 75% boost in confident high-potential spatial predictions.
+
 ### Recommended Execution Order
 
 ```
@@ -553,6 +570,9 @@ Round 4 & 5 (COMPLETED):
 
 Round 6 / Phase 2.5 (COMPLETED):
   S26 (Target Leak) -> S27 (OOF & Math Leaks) -> S28-S31 (Full un-leaked Pipeline & Ensemble)
+
+Round 7 / Phase 2.5 Tuning (COMPLETED):
+  S32 -> S33 -> S34 -> S35 (Optuna Tuning, Retrain, SHAP XAI, and Capped Blend Ensemble)
 ```
 
 > [!TIP]

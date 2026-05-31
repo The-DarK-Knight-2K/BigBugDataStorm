@@ -57,3 +57,9 @@ Data/Quarantine/*
 *.pkl
 modelling/artifacts/runs/**/*.pkl
 
+# Keep selected round 2 models and their related files in the repo
+!modelling/artifacts/round2/xgboost/**
+!modelling/artifacts/round2/lightGBM/**
+!modelling/artifacts/round2/random_forest/**
+
+
