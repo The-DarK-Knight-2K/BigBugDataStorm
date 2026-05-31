@@ -222,20 +222,20 @@
 ## Phase 2.5: Gap Filling Advanced Optimizations
 
 ### Feature Engineering (Gold Layer)
-- [ ] `pipeline/gold/build_cooler_features.py`: Generate physics-based cooler capacity ceiling features.
-- [ ] `pipeline/gold/build_spatial_cluster_features.py`: Use DBSCAN to generate micro-market clusters and density features.
+- [x] `pipeline/gold/build_cooler_features.py`: Generate physics-based cooler capacity ceiling features.
+- [x] `pipeline/gold/build_spatial_cluster_features.py`: Use DBSCAN to generate micro-market clusters and density features.
 
 ### Statistical Modeling
-- [ ] `modelling/tobit_model.py`: Implement Tobit regression for censored demand.
-- [ ] `modelling/hurdle_model.py`: Implement Hurdle model for two-stage zero-inflated demand.
+- [x] `modelling/tobit_model.py`: Implement Tobit regression for censored demand.
+- [x] `modelling/hurdle_model.py`: Implement Hurdle model for two-stage zero-inflated demand.
 
 ### Re-integration & Re-training
-- [ ] `pipeline/gold/build_master_features.py`: Re-merge Tobit, Hurdle, Cooler, and DBSCAN features into `master_features.parquet`.
-- [ ] `modelling/baseline.py`: Re-compute baseline using the new physics-based cooler capacity ceiling.
-- [ ] `modelling/train.py`: Re-train XGBoost, LightGBM, and Random Forest with the expanded feature set.
-- [ ] `modelling/ensemble.py`: Re-generate the 40/40/20 ensemble blending.
-- [ ] `modelling/predict.py`: Generate updated final submission predictions.
-- [ ] `pipeline/optimizations/optimise_budget.py`: Re-run budget optimization with the updated predictions.
+- [x] `pipeline/gold/build_master_features.py`: Re-merge Tobit, Hurdle, Cooler, and DBSCAN features into `master_features.parquet`.
+- [x] `modelling/baseline.py`: Re-compute baseline using the new physics-based cooler capacity ceiling.
+- [x] `modelling/train.py`: Re-train XGBoost, LightGBM, and Random Forest with the expanded feature set.
+- [x] `modelling/ensemble.py`: Re-generate the 40/40/20 ensemble blending.
+- [x] `modelling/predict.py`: Generate updated final submission predictions.
+- [x] `pipeline/optimizations/optimise_budget.py`: Re-run budget optimization with the updated predictions.
 
 ## Phase 3: XAI Pipeline & Data Export
 

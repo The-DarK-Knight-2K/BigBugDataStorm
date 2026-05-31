@@ -70,7 +70,7 @@ def compute_cooler_features(
         df["hist_p90_monthly"] = 0.0
 
     # --- Cooler capacity (litres) ---
-    df["cooler_capacity_litres"] = df["Cooler_Count"] * LITRES_PER_COOLER
+    df["cooler_capacity_litres"] = df["Cooler_Count"].astype("int32") * LITRES_PER_COOLER
 
     # --- Theoretical monthly ceiling ---
     # How many litres can pass through all coolers in a 30-day month

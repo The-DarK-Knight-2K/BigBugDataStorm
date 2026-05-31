@@ -226,9 +226,9 @@ def main() -> None:
     # Censoring ratio: how much higher the Tobit estimate is vs observed P90
     observed_p90 = df["hist_p90_monthly"].values.copy()
     observed_p90 = np.clip(observed_p90, 1e-3, None)
-    df_out["tobit_censoring_ratio"] = (
-        (tobit_predictions / observed_p90) - 1.0
-    ).clip(lower=0.0).round(4)
+    df_out["tobit_censoring_ratio"] = np.clip(
+        (tobit_predictions / observed_p90) - 1.0, 0.0, None
+    ).round(4)
 
     log.info(
         "Censoring ratio — mean: %.3f, P50: %.3f, P90: %.3f, max: %.3f",
