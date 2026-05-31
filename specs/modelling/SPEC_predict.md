@@ -5,7 +5,7 @@
 
 ## Purpose
 
-Generate the final submission CSV by blending the CatBoost model predictions with
+Generate the final submission CSV by blending the model predictions (supports all 4 algorithms) with
 the statistical baseline. The final prediction for every outlet is the maximum of
 the two approaches, ensuring we never predict below the statistically grounded
 floor. Output is `outputs/teamname_predictions.csv`.
@@ -140,7 +140,7 @@ diag_cols = [
     "Cooler_Count", "hist_p90_monthly", "hist_max_monthly",
     "jan_avg_volume", "has_transaction_history",
     "seasonality_jan_2026", "seasonality_multiplier_jan_2026",
-    "footfall_score", "poi_total_1km",
+    "footfall_score", "composite_gravity_score",
     "model_prediction", "baseline_potential_litres",
     "Maximum_Monthly_Liters",
 ]

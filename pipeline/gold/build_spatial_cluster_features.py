@@ -143,7 +143,7 @@ def add_cluster_statistics(
 def main() -> None:
     start = time.time()
     log.info("=" * 60)
-    log.info("BUILD SPATIAL CLUSTER FEATURES  (OPT-4 — Phase 2.5)")
+    log.info("BUILD SPATIAL CLUSTER FEATURES  (OPT-4 — Round 2)")
     log.info("=" * 60)
 
     # --- Load outlet coordinates (valid only) ---

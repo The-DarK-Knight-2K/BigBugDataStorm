@@ -26,7 +26,7 @@ files_to_ingest = [
 ]
 
 def ingest_raw_to_bronze():
-    log = setup_logger("01_raw_to_bronze")
+    log = setup_logger("ingest")
     
     log.info("========================================")
     log.info("Starting Raw to Bronze Ingestion...")

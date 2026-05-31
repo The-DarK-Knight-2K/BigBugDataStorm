@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Transform the CatBoost model's SHAP-level technical output into a clear,
+Transform the model's SHAP-level technical output into a clear,
 human-readable business narrative for each outlet. The explanation must be
 accurate (grounded in real feature values and SHAP contributions), localised
 (incorporating POI and geographic context), and non-technical (legible to a
@@ -21,7 +21,7 @@ defined in `specs/webapp/API_SPEC.md` (section 3).
 
 ## Step 1 — SHAP value extraction (during model training)
 
-After `modelling/train.py` trains the final CatBoost model, extract SHAP values
+After `modelling/train.py` trains the final tree-based model, extract SHAP values
 for all 20,000 outlets immediately:
 
 ```python
@@ -47,7 +47,7 @@ up, negative means it pulled it down. The magnitude indicates contribution stren
 - `data/gold/master_features.parquet`
 - `data/gold/gravity_features.parquet`
 - `data/gold/budget_features.parquet`
-- `outputs/teamname_predictions.csv`
+- `outputs/bigbug_predictions.csv`
 
 For a given `outlet_id`, it assembles a `context` dict that the prompt builder
 consumes. This dict must be serialisable as JSON and stored in
@@ -162,7 +162,8 @@ xai:
       label: "Year-on-year growth"
       template: "{value:.1%} growth vs prior year"
     recent_3m_avg:
-      label: "Operating in an isolated local market with only 2 competitors within 1km."
+      label: "Recent 3-month sales trend"
+      template: "Average volume of {value:.0f} L over the last 3 months"
 ```
 
 ---
@@ -287,7 +288,7 @@ def generate_explanation(outlet_id: str) -> dict:
     return {
         "outlet_id": outlet_id,
         "explanation": explanation,
-        "model_version": "catboost_r2_v1",
+        "model_version": "xgboost_r2_v1",
         "generated_at": datetime.utcnow().isoformat() + "Z",
     }
 ```

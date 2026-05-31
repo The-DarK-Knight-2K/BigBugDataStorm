@@ -48,10 +48,13 @@ the corresponding script in `pipeline/` or `modelling/`.
 ### Gold layer
 | File | Script |
 |------|--------|
-| `gold/SPEC_scrape_poi.md` | `pipeline/gold/scrape_poi.py` |
+| `gold/SPEC_scrape_poi.md` | `pipeline/gold/scrape_poi_raw.py` & `pipeline/gold/build_poi_features.py` |
 | `gold/SPEC_build_sales_features.md` | `pipeline/gold/build_sales_features.py` |
 | `gold/SPEC_build_master_features.md` | `pipeline/gold/build_master_features.py` |
-| `gold/GRAVITY_MODEL.md` | `pipeline/gold/build_gravity_features.py` |
+| `gold/SPEC_gravity_model.md` | `pipeline/gold/build_gravity_features.py` |
+| `gold/SPEC_catchment_features.md` | `pipeline/gold/build_catchment_features.py` |
+| `gold/SPEC_cooler_features.md` | `pipeline/gold/build_cooler_features.py` |
+| `gold/SPEC_spatial_cluster.md` | `pipeline/gold/build_spatial_cluster_features.py` |
 
 ### Modelling
 | File | Script |
@@ -59,8 +62,8 @@ the corresponding script in `pipeline/` or `modelling/`.
 | `modelling/SPEC_baseline.md` | `modelling/baseline.py` |
 | `modelling/SPEC_train.md` | `modelling/train.py` |
 | `modelling/SPEC_predict.md` | `modelling/predict.py` |
-| `modelling/BUDGET_OPTIMIZATION.md` | `modelling/optimise_budget.py` |
-| `modelling/XAI_SPEC.md` | `pipeline/xai/` (context packager/prompt builder) & `app/api/xai_api.py` |
+| `modelling/SPEC_budget_optimization.md` | `pipeline/optimizations/optimise_budget.py` |
+| `modelling/SPEC_xai.md` | `pipeline/xai/` (context packager/prompt builder) & `app/api/xai_api.py` |
 
 ### Web App & API
 | File | Description / Component |

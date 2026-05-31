@@ -66,11 +66,11 @@ A weighted composite score is calculated using **only the 500m radius counts**, 
 | POI Category | Weight | OSM Tags Included | Business Rationale for Weighting |
 | :--- | :---: | :--- | :--- |
 | **Transport** | **3.0** | `bus_stop`, `station` | **Highest Weight:** Public transit hubs drive the most intense, consistent daily volume of commuters. |
-| **Schools** | **2.5** | `school`, `university` | **High Weight:** Generates concentrated bursts of footfall during morning drop-offs and afternoon pick-ups. |
+| **Schools** | **3.0** | `school`, `university` | **Highest Weight:** Generates concentrated bursts of footfall during morning drop-offs and afternoon pick-ups. |
+| **Hospitality** | **2.0** | `hotel`, `restaurant` | **Medium-High Weight:** Attracts tourists and dining crowds, highly relevant for beverage sales. |
 | **Markets** | **2.0** | `supermarket`, `marketplace` | **Medium-High Weight:** Shoppers are already in a commercial area with the intent to purchase. |
-| **Hospitals** | **1.5** | `hospital`, `clinic` | **Medium Weight:** Provides a steady, predictable stream of staff, patients, and visitors. |
-| **Worship** | **1.0** | `place_of_worship` | **Base Weight:** Generates large crowds, but highly concentrated to specific days (e.g., Poya days). |
-| **Hospitality** | **1.0** | `hotel`, `restaurant` | **Base Weight:** Attracts tourists and dining crowds, but traffic is more variable. |
+| **Hospitals** | **1.0** | `hospital`, `clinic` | **Medium Weight:** Provides a steady, predictable stream of staff, patients, and visitors. |
+| **Worship** | **0.5** | `place_of_worship` | **Base Weight:** Generates large crowds, but highly concentrated to specific days (e.g., Poya days). |
 
 #### Normalization
 The raw weighted sum is normalized across all 20,000 outlets using Min-Max scaling to produce a clean `0.00` to `100.00` `footfall_score`.

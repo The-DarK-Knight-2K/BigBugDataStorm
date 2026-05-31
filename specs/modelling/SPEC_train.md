@@ -5,15 +5,13 @@
 
 ## Purpose
 
-Train a CatBoost gradient boosting model to predict outlet-level maximum monthly
+Train a gradient boosting model (supports CatBoost, XGBoost, LightGBM, RandomForest via `--algorithm` flag) to predict outlet-level maximum monthly
 purchase potential. Since there is no labelled target variable, a pseudo-label is
 constructed from the 90th percentile historical monthly volume adjusted for
-seasonality. The trained model is saved to `modelling/artifacts/model.pkl`.
+seasonality. The trained model is saved to `modelling/artifacts/runs/{run_id}/model.pkl`.
 
-> **Algorithm Decision (from Colab Experiments):** CatBoost was selected over
-> LightGBM based on 5-fold CV (RMSE 40.38 vs 40.96). CatBoost's native categorical
-> handling of `Outlet_Type`, `Outlet_Size`, and `province` eliminates the need for
-> manual encoding. Hyperparameters were tuned via Optuna (20 trials).
+> **Algorithm Decision (from Colab Experiments):** XGBoost is the current champion (RMSE ~41.14 with tuned parameters).
+> CatBoost was abandoned due to poor GPU performance (RMSE ~329.00). LightGBM and RandomForest are available as alternatives.
 
 ## Layer
 
@@ -29,9 +27,10 @@ Modelling
 
 | File                   | Path                                         |
 | ---------------------- | -------------------------------------------- |
-| model.pkl              | `modelling/artifacts/model.pkl`              |
-| feature_importance.png | `modelling/artifacts/feature_importance.png` |
-| cv_results.json        | `modelling/artifacts/cv_results.json`        |
+| model.pkl              | `modelling/artifacts/runs/{run_id}/model.pkl`              |
+| feature_importance.png | `modelling/artifacts/runs/{run_id}/feature_importance.png` |
+| cv_results.json        | `modelling/artifacts/runs/{run_id}/cv_results.json`        |
+| run_registry.csv       | `modelling/artifacts/run_registry.csv`       |
 
 ---
 
@@ -84,42 +83,15 @@ df = pd.read_parquet(GOLD / "master_features.parquet")
 
 ### Step 2 — Define feature columns
 
-CatBoost handles categorical columns natively via `cat_features`. We include
-`Outlet_Type`, `Outlet_Size`, and `province` as features (unlike LightGBM which
-would require encoding them).
+Code supports 4 algorithms and uses a dynamic strategy registry with 8 strategies to define exclusion columns. Categorical encoding is handled natively by CatBoost, and via label/category encoding for XGBoost/LightGBM.
 
 ```python
-# Exclude non-feature / metadata columns
-EXCLUDE_COLS = [
-    "Outlet_ID",
-    "seasonality_jan_2026", "distributor_id",
-    "target",                        # will be added
-    "has_transaction_history",        # filter flag, not a feature
-    "exclude_from_training",          # filter flag, not a feature
-    "baseline_potential_litres",      # baseline floor, not a training feature
-    "jan_2026_holiday_count",         # constant across all rows (zero variance)
-    "jan_2026_trading_days",          # constant across all rows (zero variance)
+# The strategy defines which columns to exclude from training
+exclude_cols = strategy["exclude"]
+feature_cols = [c for c in df.columns if c not in exclude_cols]
 
-    # STRATEGY A: Remove Target Leaks
-    # We must exclude historical sales volumes that are directly correlated
-    # with the pseudo-label, forcing the model to rely on structural/spatial features.
-    "hist_max_monthly",
-    "hist_p90_monthly",
-    "hist_p75_monthly",
-    "hist_mean_monthly",
-    "jan_avg_volume",
-    "jan_max_volume",
-    "recent_3m_avg",
-    "ema_3m",
-    "ema_6m",
-    "total_volume",
-    "hist_std_monthly",
-]
-
-feature_cols = [c for c in df.columns if c not in EXCLUDE_COLS]
-
-# Identify categorical features for CatBoost
-CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province"]
+# Identify categorical features if needed
+CAT_FEATURES = ["Outlet_Type", "Outlet_Size", "province", "market_saturation_class"]
 cat_feature_indices = [feature_cols.index(c) for c in CAT_FEATURES if c in feature_cols]
 log.info("Training with %d features (%d categorical): %s",
          len(feature_cols), len(cat_feature_indices), feature_cols)
@@ -152,11 +124,10 @@ Split on `Outlet_ID` (not time-based — this is a cross-sectional problem).
 
 ```python
 from sklearn.model_selection import KFold
-from catboost import CatBoostRegressor, Pool
 import numpy as np
 
-cb_params = CFG["modelling"]["catboost_params"].copy()
-cb_cat_features = cb_params.pop("cat_features", [])
+# Model params fetched dynamically based on selected algorithm (e.g., XGBoost, LightGBM)
+params = get_model_params(algorithm, strategy_name, use_optuna_params)
 
 kf = KFold(
     n_splits=CFG["modelling"]["cv_folds"],
@@ -206,14 +177,14 @@ log.info("Final model trained on %d samples", len(X))
 
 ```python
 import pickle
-from pathlib import Path
+import os
 
-ARTIFACTS = Path(__file__).parent / "artifacts"
-ARTIFACTS.mkdir(exist_ok=True)
+run_dir = os.path.join(RUNS_DIR, run_id)
+os.makedirs(run_dir, exist_ok=True)
 
-with open(ARTIFACTS / "model.pkl", "wb") as f:
-    pickle.dump({"model": final_model, "feature_cols": feature_cols}, f)
-log.info("Model saved → modelling/artifacts/model.pkl")
+with open(os.path.join(run_dir, "model.pkl"), "wb") as f:
+    pickle.dump({"model": final_model, "feature_cols": feature_cols, "algorithm": algorithm}, f)
+log.info("Model saved → %s", run_dir)
 ```
 
 ### Step 7 — Feature importance plot
@@ -229,9 +200,9 @@ importance_df = pd.DataFrame({
 fig, ax = plt.subplots(figsize=(10, 12))
 ax.barh(importance_df["feature"][::-1], importance_df["importance"][::-1])
 ax.set_xlabel("Feature Importance (gain)")
-ax.set_title("Top 30 Feature Importances — CatBoost")
+ax.set_title(f"Top 30 Feature Importances — {algorithm.upper()}")
 plt.tight_layout()
-plt.savefig(ARTIFACTS / "feature_importance.png", dpi=150)
+plt.savefig(os.path.join(run_dir, "feature_importance.png"), dpi=150)
 plt.close()
 log.info("Feature importance plot saved")
 ```
@@ -250,7 +221,7 @@ cv_results = {
     "n_features":      len(feature_cols),
     "n_train_samples": len(X),
 }
-with open(ARTIFACTS / "cv_results.json", "w") as f:
+with open(os.path.join(run_dir, "cv_results.json"), "w") as f:
     json.dump(cv_results, f, indent=2)
 ```
 
@@ -259,7 +230,7 @@ with open(ARTIFACTS / "cv_results.json", "w") as f:
 ## Assertions
 
 ```python
-assert (ARTIFACTS / "model.pkl").exists()
+assert os.path.exists(os.path.join(run_dir, "model.pkl"))
 # Spot-check: model can make predictions
 sample = X.head(5)
 preds  = final_model.predict(sample)
@@ -272,7 +243,7 @@ assert all(p > 0 for p in preds), "Model predicting non-positive values"
 ## CLI usage
 
 ```bash
-python modelling/train.py
+python modelling/train.py --strategy strategyA --algorithm xgboost --shap --notes "Initial run"
 ```
 
 ## Dependencies

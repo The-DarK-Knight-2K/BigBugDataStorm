@@ -85,4 +85,4 @@ Best trial (#13): **RMSE 40.38**
 
 ### Decision
 
-**CatBoost** selected as the production algorithm. Config and specs updated accordingly.
+**XGBoost** selected as the production algorithm (RMSE 40.11 with tuned parameters). CatBoost was abandoned due to heavy over-regularization in GPU mode (RMSE ~329.00). Config and specs updated accordingly.

@@ -1,13 +1,13 @@
-# Phase 2.5 Model Evaluation: Target Leakage Analysis
+# Round 2 Model Evaluation: Target Leakage Analysis
 
 ## Overview
-During the execution of the Phase 2.5 Advanced Optimizations, we observed an unprecedented and mathematically impossible drop in our 5-fold cross-validation RMSE across all modeling algorithms.
+During the execution of the Round 2 Advanced Optimizations, we observed an unprecedented and mathematically impossible drop in our 5-fold cross-validation RMSE across all modeling algorithms.
 
 ### RMSE Drop Comparison:
-- **Baseline (Before Phase 2.5):** ~41.14 RMSE (XGBoost Gravity Only)
-- **XGBoost (Phase 2.5):** 5.57 RMSE
-- **Random Forest (Phase 2.5):** 4.78 RMSE
-- **LightGBM (Phase 2.5):** 6.79 RMSE
+- **Baseline (Before Round 2):** ~41.14 RMSE (XGBoost Gravity Only)
+- **XGBoost (Round 2):** 5.57 RMSE
+- **Random Forest (Round 2):** 4.78 RMSE
+- **LightGBM (Round 2):** 6.79 RMSE
 
 While a reduction in RMSE was expected due to the introduction of powerful physics-based capacity ceilings, DBSCAN spatial micro-markets, Tobit censored regression, and Hurdle zero-inflated estimation, an RMSE of ~5.0 is indicative of **massive target leakage and overfitting**.
 
@@ -47,9 +47,9 @@ Upon implementing OOF predictions, we observed that the RMSE remained artificial
 ### Final Resolution
 We explicitly appended all these features (`capacity_utilization_ratio`, `tobit_censoring_ratio`, `cluster_mean_volume`, `cluster_p90_volume`) along with the sub-models' own outputs to the `_LEAK_FEATURES` exclusion list across `train.py`, `tobit_model.py`, and `hurdle_model.py`. 
 
-**Final Verified Cross-Validation Scores (Phase 2.5):**
+**Final Verified Cross-Validation Scores (Round 2):**
 - **XGBoost:** ~40.89 RMSE
 - **Random Forest:** ~40.48 RMSE
 - **LightGBM:** ~42.66 RMSE
 
-Compared to the pre-Phase 2.5 baseline (`strategyA_gravity_only`: ~41.14 RMSE), this represents a genuine, un-leaked improvement of ~0.65 RMSE, proving that the structural capacity, spatial clustering, and Tobit/Hurdle formulations provide real generalized uplift.
+Compared to the pre-Round 2 baseline (`strategyA_gravity_only`: ~41.14 RMSE), this represents a genuine, un-leaked improvement of ~0.65 RMSE, proving that the structural capacity, spatial clustering, and Tobit/Hurdle formulations provide real generalized uplift.

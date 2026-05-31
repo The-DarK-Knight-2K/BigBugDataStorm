@@ -88,7 +88,7 @@ We are now officially ready to move into Phase 2: Budget Optimization.
 
 ---
 
-## 5. Phase 2.5: Structural Ceilings & Sub-Models (The Target Leakage Journey)
+## 5. Structural Ceilings & Sub-Models (The Target Leakage Journey)
 
 After the initial Round 2 pipeline successfully established the `strategyA_gravity_only` benchmark (~41.14 RMSE), we aggressively pursued a suite of advanced modeling optimizations:
 1. **Structural Capacity Limits:** `theoretical_monthly_ceiling` to establish physics-based bounds on sales.
@@ -105,7 +105,7 @@ When we integrated these features, our initial cross-validation scores plummeted
 ### The Resolution
 We explicitly blocked all derived math proxies and sub-model outputs within `_LEAK_FEATURES` across `train.py`, `tobit_model.py`, and `hurdle_model.py`. 
 
-### Un-leaked Phase 2.5 Performance
+### Un-leaked Round 2 Performance
 After stripping all leaks, the 5-fold CV RMSE scores finally reflected reality:
 - **XGBoost:** 40.89 RMSE
 - **Random Forest:** 40.48 RMSE 
@@ -117,11 +117,11 @@ After stripping all leaks, the 5-fold CV RMSE scores finally reflected reality:
 
 ## 6. Next Steps & Hyperparameter Optimization
 
-**Why wasn't Hyperparameter Tuning done for Phase 2.5?**
-The entirety of Phase 2.5 was dedicated to advanced *feature engineering* and plugging complex mathematical target leaks. We relied on the existing, robust hyperparameters to benchmark whether the *features themselves* contained generalizable signal. Now that we have proven the signal exists (RMSE dropped from 41.14 to 40.48), tuning is the correct next step.
+**Why wasn't Hyperparameter Tuning done for Round 2?**
+The entirety of Round 2 was dedicated to advanced *feature engineering* and plugging complex mathematical target leaks. We relied on the existing, robust hyperparameters to benchmark whether the *features themselves* contained generalizable signal. Now that we have proven the signal exists (RMSE dropped from 41.14 to 40.48), tuning is the correct next step.
 
 ### Final Execution Steps Before Phase 3:
-1. **Hyperparameter Tuning:** Execute a rigorous Optuna search (`optuna_tune.py`) on the new 41-feature Phase 2.5 dataset for XGBoost and Random Forest.
+1. **Hyperparameter Tuning:** Execute a rigorous Optuna search (`optuna_tune.py`) on the new 41-feature Round 2 dataset for XGBoost and Random Forest.
 2. **Feature Selection/Pruning:** Remove features with zero importance (e.g. evaluating if some raw gravity scores are now fully superseded by cluster metrics).
 3. **Model Explanation (XAI):** Generate new SHAP plots to interpret the impact of `theoretical_monthly_ceiling` and `tobit_latent_estimate` on the finalized predictions.
 4. **Final Budget Submission:** Regenerate the `optimise_budget.py` outputs using the newly tuned predictions and commit all artifacts.

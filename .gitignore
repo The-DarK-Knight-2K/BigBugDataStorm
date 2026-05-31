@@ -50,6 +50,7 @@ Data/Quarantine/*
 !Data/Silver/.gitkeep
 !Data/Gold/.gitkeep
 
+!outputs/**/ensemble_predictions.csv
 !outputs/**/bigbug_predictions.csv
 !outputs/**/prediction_diagnostics.csv
 !outputs/**/budget_diagnostics.csv
@@ -63,5 +64,7 @@ modelling/artifacts/runs/**/*.pkl
 !modelling/artifacts/round2/xgboost/**
 !modelling/artifacts/round2/lightGBM/**
 !modelling/artifacts/round2/random_forest/**
+!modelling/artifacts/round1/catboost/**
+!modelling/artifacts/run_registry.csv
 
 

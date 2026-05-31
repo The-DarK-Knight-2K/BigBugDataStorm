@@ -26,7 +26,7 @@ BigBugDataStorm/
 │
 ├── pipeline/
 │   ├── bronze/
-│   │   └── 01_raw_to_bronze.py      # CSV → Parquet ingestion
+│   │   └── ingest.py                # CSV → Parquet ingestion
 │   ├── silver/
 │   │   ├── dq_checks.py            # Reusable data quality engine
 │   │   ├── clean_outlets.py         # Outlet master cleaning + size imputation
@@ -38,6 +38,11 @@ BigBugDataStorm/
 │   │   ├── scrape_poi_raw.py        # Phase 1: KMeans clustering + Overpass API scraping
 │   │   ├── build_poi_features.py    # Phase 2: Geodesic distance + footfall scoring
 │   │   └── build_sales_features.py  # Vectorized historical sales aggregation
+│   ├── optimizations/
+│   │   └── optimise_budget.py       # Budget optimization logic
+│   ├── xai/
+│   │   ├── context_packager.py      # Prepares XAI context
+│   │   └── prompt_builder.py        # Generates LLM prompts
 │   └── utils/
 │       └── logger.py                # Centralized logging (console + file)
 │
@@ -61,7 +66,13 @@ BigBugDataStorm/
 │   └── bigbug_predictions.csv       # Final predictions
 │
 ├── docs/
-│   └── worksummary.md               # Chronological work log
+│   ├── reference/                   # Project briefs and external requirements
+│   ├── setup/                       # Setup and installation guides
+│   ├── modelling/                   # Modelling and optimization strategies
+│   ├── planning/                    # Project plans and task lists
+│   ├── management/                  # Work summaries and tracking logs
+│   ├── report/                      # Final reports and findings
+│   └── advanced_features/           # Deep-dive analyses on advanced features
 │
 ├── config.yaml                      # Centralized pipeline configuration
 ├── requirements.txt                 # Python dependencies (pinned versions)
@@ -106,7 +117,7 @@ These files are provided by the competition organizers and are **not** included 
 ### Step 1: Bronze Layer — Raw Ingestion
 
 ```bash
-python pipeline/bronze/01_raw_to_bronze.py
+python pipeline/bronze/ingest.py
 ```
 
 Converts 5 raw CSV files into schema-preserved `.parquet` files in `Data/Bronze/`.
@@ -167,7 +178,7 @@ Joins cleaned outlets, POI features, and sales features into the final analysis-
 
 ### Step 4: Modelling (Training and Prediction)
 
-Our modelling workflow uses CatBoost as the final model, blending with a statistical baseline floor (Jan 2026 Seasonality * Dec 2025 Volume).
+Our modelling workflow uses XGBoost as the final model, blending with a statistical baseline floor (Jan 2026 Seasonality * Dec 2025 Volume).
 
 #### 4a. Calculate Baseline
 
@@ -183,7 +194,7 @@ Computes the naive statistical baseline using cleaned transactions and seasonali
 $env:PYTHONPATH="."; python modelling/train.py
 ```
 
-Trains the CatBoost regression model using hyperparameters defined in `config.yaml`. Performs an 80/20 chronological split, evaluates RMSE, calculates permutation feature importance, and saves the trained model artifact to `modelling/artifacts/`.
+Trains the XGBoost regression model using hyperparameters defined in `config.yaml`. Performs an 80/20 chronological split, evaluates RMSE, calculates permutation feature importance, and saves the trained model artifact to `modelling/artifacts/`.
 
 #### 4c. Generate Predictions
 
@@ -232,5 +243,5 @@ See `requirements.txt` for pinned versions. Core libraries:
 - `scikit-learn` — KMeans spatial clustering
 - `scipy` — linear regression for trend features
 - `requests`, `geopy` — API scraping and geodesic distance math
-- `lightgbm` — gradient boosting model
+- `xgboost`, `lightgbm` — gradient boosting models
 - `tqdm` — progress tracking

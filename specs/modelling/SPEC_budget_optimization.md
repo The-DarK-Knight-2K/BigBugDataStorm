@@ -6,10 +6,10 @@ Allocate a fixed budget of **LKR 5,000,000** across Western Province outlets to
 maximise total projected volume uplift (litres). Only the ~6,842 outlets serviced
 by `DIST_W_01`, `DIST_W_02`, and `DIST_W_03` are eligible for allocation.
 
-The output is `outputs/teamname_budget_allocations.csv` with columns:
+The output is `outputs/bigbug_budget_allocations.csv` with columns:
 `Outlet_ID`, `Trade_Spend_Allocation_LKR`.
 
-All logic lives in `modelling/optimise_budget.py`.
+All logic lives in `pipeline/optimizations/optimise_budget.py`.
 
 ---
 
@@ -194,7 +194,7 @@ budget_output["Trade_Spend_Allocation_LKR"] = allocations
 budget_output["Trade_Spend_Allocation_LKR"] = budget_output[
     "Trade_Spend_Allocation_LKR"
 ].round(2)
-budget_output.to_csv("outputs/teamname_budget_allocations.csv", index=False)
+budget_output.to_csv("outputs/bigbug_budget_allocations.csv", index=False)
 ```
 
 Additionally, write `data/gold/budget_features.parquet` with the full intermediate

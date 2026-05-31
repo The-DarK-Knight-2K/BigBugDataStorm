@@ -226,6 +226,6 @@ For Approach 1 to function, the following columns are required:
 5. ✓ **Data contracts** — `specs/architecture/DATA_CONTRACTS.md`
 
 **Performance**:
-- CV RMSE: 40.38 ± 0.XX litres
-- CV MAE: ~32.XX litres
+- CV RMSE: 40.11 litres
+- CV MAE: ~31.50 litres
 - Baseline coverage: Three fallback paths for all 20,000 outlets

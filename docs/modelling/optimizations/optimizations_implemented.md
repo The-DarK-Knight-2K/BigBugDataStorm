@@ -21,7 +21,7 @@ This document outlines the optimization and feature engineering strategies that 
   - Months since last order: `months_since_last_order`
   - Trend slope (linear regression): `trend_slope`
   - Year-over-year growth rate: `yoy_growth_rate`
-- **Purpose**: Captures recent momentum and detectsgrowing/declining outlets
+- **Purpose**: Captures recent momentum and detects growing/declining outlets
 
 **Historical Aggregations**
 - ✓ **Status**: Fully implemented

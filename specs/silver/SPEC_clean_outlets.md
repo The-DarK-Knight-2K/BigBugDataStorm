@@ -14,14 +14,14 @@ Silver
 
 | File | Path |
 |------|------|
-| outlet_master.parquet | `data/bronze/outlet_master.parquet` |
+| outlet_master.parquet | `Data/Bronze/outlet_master.parquet` |
 
 ## Outputs
 
 | File | Path |
 |------|------|
-| outlet_master_clean.parquet | `data/silver/outlet_master_clean.parquet` |
-| rejected_outlet_master.parquet | `data/quarantine/rejected_outlet_master.parquet` |
+| outlet_master_clean.parquet | `Data/Silver/outlet_master_clean.parquet` |
+| rejected_outlet_master.parquet | `Data/Quarantine/rejected_outlet_master.parquet` |
 | dq_report rows | Appended to `outputs/dq_report.csv` |
 
 ---
@@ -133,7 +133,7 @@ all values are canonical. If either check fails here, it is a logic bug — rais
 
 ### Step 7 — Write outputs
 
-1. Write `data/silver/outlet_master_clean.parquet` with columns:
+1. Write `Data/Silver/outlet_master_clean.parquet` with columns:
    `[Outlet_ID, Outlet_Size, Cooler_Count, Outlet_Type, size_imputed]`
 2. Write quarantine file.
 3. Append DQ report rows.
@@ -178,4 +178,4 @@ python pipeline/silver/clean_outlets.py
 ## Dependencies
 
 - pandas, pyarrow, pyyaml
-- `pipeline.silver.dq_checks` (local import)
+- `silver.dq_checks` (local import)

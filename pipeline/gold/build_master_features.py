@@ -97,7 +97,7 @@ def load_inputs() -> dict:
     catch_ft = pd.read_parquet(os.path.join(GOLD_DIR, "catchment_features.parquet"))
     log.info("Loaded catchment_features: %d rows", len(catch_ft))
 
-    # --- Optional Phase 2.5 feature files ---
+    # --- Optional Round 2 feature files ---
     cooler_ft = _try_load_parquet(
         os.path.join(GOLD_DIR, "cooler_features.parquet"), "cooler_features"
     )
@@ -197,7 +197,7 @@ def merge_all_datasets(
     ).drop(columns=["Distributor_ID"])
     log.info("After seasonality merge: %d rows", len(df))
 
-    # --- Optional Phase 2.5 feature merges ---
+    # --- Optional Round 2 feature merges ---
     if cooler_ft is not None:
         # Drop Cooler_Count from cooler_ft to avoid duplicate column
         merge_cols = [c for c in cooler_ft.columns if c != "Cooler_Count"]

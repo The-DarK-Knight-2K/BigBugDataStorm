@@ -114,7 +114,7 @@ def compute_cooler_features(
 def main() -> None:
     start = time.time()
     log.info("=" * 60)
-    log.info("BUILD COOLER FEATURES  (OPT-3 — Phase 2.5)")
+    log.info("BUILD COOLER FEATURES  (OPT-3 — Round 2)")
     log.info("=" * 60)
     log.info(
         "Config — litres/cooler=%d, replenishment=%dd, fill_rate=%.0f%%",
