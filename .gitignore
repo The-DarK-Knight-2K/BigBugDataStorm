@@ -52,6 +52,8 @@ Data/Quarantine/*
 
 !outputs/**/bigbug_predictions.csv
 !outputs/**/prediction_diagnostics.csv
+!outputs/**/budget_diagnostics.csv
+!outputs/**/bigbug_budget_allocations.csv
 
 # Model checkpoints and artifacts
 *.pkl
