@@ -24,46 +24,79 @@ export default function BudgetClient({
   budgetSummary: BudgetSummaryData 
 }) {
   const [selectedDistributor, setSelectedDistributor] = useState('');
+  const [selectedTier, setSelectedTier] = useState('');
+  const [selectedOutletType, setSelectedOutletType] = useState('');
 
   // Clean, premium colors matching our cyberpunk theme
   const COLOR_PALETTE = ['#06b6d4', '#8b5cf6', '#3b82f6'];
 
-  // Total WP budget spend aggregates from summary data
-  const totalBudget = budgetSummary.total_trade_spend_allocation_lkr;
-  const expectedLift = budgetSummary.projected_volume_uplift_litres;
-  const avgROI = allocations.length > 0 ? (allocations.reduce((sum, a) => sum + (a.roi_score || 0), 0) / allocations.length) : 0;
-
-  // Donut chart: Budget per Distributor
-  const donutData = useMemo(() => {
-    return budgetSummary.summary_by_distributor.map((d, index) => ({
-      name: d.distributor_id,
-      value: d.total_spend,
-      percentage: d.pct_of_budget,
-      color: COLOR_PALETTE[index % COLOR_PALETTE.length]
-    }));
-  }, [budgetSummary]);
-
-  // Bar chart: Expected Volume Lift by Distributor
-  const barData = useMemo(() => {
-    return budgetSummary.summary_by_distributor.map(d => ({
-      name: d.distributor_id,
-      litres: d.lift,
-      spend: d.total_spend
-    }));
-  }, [budgetSummary]);
-
-  // Budget allocations table (filtering by distributor and sorting by spend)
+  // Budget allocations table (filtering by distributor, tier, outlet type)
   const allocationOutlets = useMemo(() => {
     let result = [...allocations];
     if (selectedDistributor) {
       result = result.filter(o => o.distributor_id === selectedDistributor);
     }
+    if (selectedTier) {
+      result = result.filter(o => o.allocation_tier === selectedTier);
+    }
+    if (selectedOutletType) {
+      result = result.filter(o => o.outlet_type === selectedOutletType);
+    }
     return result.sort((a, b) => (b.trade_spend_allocation_lkr || 0) - (a.trade_spend_allocation_lkr || 0));
-  }, [selectedDistributor, allocations]);
+  }, [selectedDistributor, selectedTier, selectedOutletType, allocations]);
+
+  // Total WP budget spend aggregates dynamically calculated from filtered data
+  const totalBudget = useMemo(() => allocationOutlets.reduce((sum, a) => sum + (a.trade_spend_allocation_lkr || 0), 0), [allocationOutlets]);
+  const expectedLift = useMemo(() => allocationOutlets.reduce((sum, a) => sum + (a.projected_volume_uplift_litres || 0), 0), [allocationOutlets]);
+  const avgROI = useMemo(() => allocationOutlets.length > 0 ? (allocationOutlets.reduce((sum, a) => sum + (a.roi_score || 0), 0) / allocationOutlets.length) : 0, [allocationOutlets]);
+
+  // Dynamic summary by distributor for charts
+  const dynamicSummaryByDistributor = useMemo(() => {
+    const distributorMap = new Map<string, { lift: number, total_spend: number }>();
+    allocationOutlets.forEach(a => {
+      if (!distributorMap.has(a.distributor_id)) {
+        distributorMap.set(a.distributor_id, { lift: 0, total_spend: 0 });
+      }
+      const d = distributorMap.get(a.distributor_id)!;
+      d.lift += (a.projected_volume_uplift_litres || 0);
+      d.total_spend += (a.trade_spend_allocation_lkr || 0);
+    });
+
+    return Array.from(distributorMap.entries()).map(([id, data]) => ({
+      distributor_id: id,
+      lift: data.lift,
+      total_spend: data.total_spend,
+      pct_of_budget: totalBudget > 0 ? Number(((data.total_spend / totalBudget) * 100).toFixed(1)) : 0
+    })).sort((a, b) => b.total_spend - a.total_spend);
+  }, [allocationOutlets, totalBudget]);
+
+  // Donut chart: Budget per Distributor
+  const donutData = useMemo(() => {
+    return dynamicSummaryByDistributor.map((d, index) => ({
+      name: d.distributor_id,
+      value: d.total_spend,
+      percentage: d.pct_of_budget,
+      color: COLOR_PALETTE[index % COLOR_PALETTE.length]
+    }));
+  }, [dynamicSummaryByDistributor, COLOR_PALETTE]);
+
+  // Bar chart: Expected Volume Lift by Distributor
+  const barData = useMemo(() => {
+    return dynamicSummaryByDistributor.map(d => ({
+      name: d.distributor_id,
+      litres: d.lift,
+      spend: d.total_spend
+    }));
+  }, [dynamicSummaryByDistributor]);
 
   // Extract unique distributors for the filter dropdown
   const uniqueDistributors = useMemo(() => {
     return Array.from(new Set(allocations.map(a => a.distributor_id))).filter(Boolean);
+  }, [allocations]);
+
+  // Extract unique outlet types for the filter dropdown
+  const uniqueOutletTypes = useMemo(() => {
+    return Array.from(new Set(allocations.map(a => a.outlet_type))).filter(Boolean);
   }, [allocations]);
 
   // Activity mapping for outlet list items
@@ -235,19 +268,49 @@ export default function BudgetClient({
             <p className="text-slate-400 text-[11px] mt-0.5">Filter specific trade programs and outlet-level spend.</p>
           </div>
           
-          {/* Interactive filter dropdown */}
-          <div className="flex items-center gap-2">
-            <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Territory:</span>
-            <select
-              value={selectedDistributor}
-              onChange={(e) => setSelectedDistributor(e.target.value)}
-              className="bg-slate-900 border border-slate-800 text-slate-200 text-xs rounded-xl p-2 outline-none focus:border-cyan-500 transition-colors"
-            >
-              <option value="">All WP Distributors</option>
-              {uniqueDistributors.map(d => (
-                <option key={d} value={d}>{d}</option>
-              ))}
-            </select>
+          {/* Interactive filter dropdowns */}
+          <div className="flex flex-wrap items-center gap-4">
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Territory:</span>
+              <select
+                value={selectedDistributor}
+                onChange={(e) => setSelectedDistributor(e.target.value)}
+                className="bg-slate-900 border border-slate-800 text-slate-200 text-xs rounded-xl p-2 outline-none focus:border-cyan-500 transition-colors"
+              >
+                <option value="">All WP Distributors</option>
+                {uniqueDistributors.map(d => (
+                  <option key={d} value={d}>{d}</option>
+                ))}
+              </select>
+            </div>
+            
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Tier:</span>
+              <select
+                value={selectedTier}
+                onChange={(e) => setSelectedTier(e.target.value)}
+                className="bg-slate-900 border border-slate-800 text-slate-200 text-xs rounded-xl p-2 outline-none focus:border-amber-500 transition-colors"
+              >
+                <option value="">All Tiers</option>
+                <option value="high">High</option>
+                <option value="medium">Medium</option>
+                <option value="low">Low</option>
+              </select>
+            </div>
+
+            <div className="flex items-center gap-2">
+              <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Outlet Type:</span>
+              <select
+                value={selectedOutletType}
+                onChange={(e) => setSelectedOutletType(e.target.value)}
+                className="bg-slate-900 border border-slate-800 text-slate-200 text-xs rounded-xl p-2 outline-none focus:border-emerald-500 transition-colors"
+              >
+                <option value="">All Types</option>
+                {uniqueOutletTypes.map(t => (
+                  <option key={t} value={t}>{t}</option>
+                ))}
+              </select>
+            </div>
           </div>
         </div>
 
