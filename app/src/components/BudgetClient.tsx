@@ -52,10 +52,13 @@ export default function BudgetClient({
     }));
   }, [budgetSummary]);
 
-  // Budget allocations table (filtering by distributor)
+  // Budget allocations table (filtering by distributor and sorting by spend)
   const allocationOutlets = useMemo(() => {
-    if (!selectedDistributor) return allocations;
-    return allocations.filter(o => o.distributor_id === selectedDistributor);
+    let result = [...allocations];
+    if (selectedDistributor) {
+      result = result.filter(o => o.distributor_id === selectedDistributor);
+    }
+    return result.sort((a, b) => (b.trade_spend_allocation_lkr || 0) - (a.trade_spend_allocation_lkr || 0));
   }, [selectedDistributor, allocations]);
 
   // Extract unique distributors for the filter dropdown
@@ -75,7 +78,10 @@ export default function BudgetClient({
       {/* Title section */}
       <div>
         <h2 className="font-heading font-extrabold text-3xl tracking-tight text-white">💰 WP Spend Recommendations</h2>
-        <p className="text-slate-400 text-sm mt-1">Geospatial ROI spend distribution modeling across distributor territories in Western Province.</p>
+        <p className="text-slate-400 text-sm mt-1">Data-driven trade spend recommendations across Western Province territories.</p>
+        <div className="mt-3 inline-flex items-center gap-2 px-3 py-1.5 rounded-lg bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs">
+          <span className="text-sm">ℹ️</span> Note: AI spend recommendations are currently active only for Western Province.
+        </div>
       </div>
 
       {/* KPI Stats cards */}
@@ -109,7 +115,7 @@ export default function BudgetClient({
             {avgROI.toFixed(3)}
           </p>
           <span className="text-[10px] text-slate-400 mt-2 block font-mono">
-            Optimized via CatBoost marginal return
+            Based on predictive AI data models
           </span>
         </div>
       </div>
@@ -177,7 +183,7 @@ export default function BudgetClient({
         <div className="glass-panel p-6 rounded-2xl border border-slate-800 space-y-4">
           <div>
             <h3 className="font-heading font-bold text-lg text-white">Expected Volume Lift by Territory</h3>
-            <p className="text-slate-400 text-[11px] mt-0.5">Projected liter demand growth from allocation spending.</p>
+            <p className="text-slate-400 text-[11px] mt-0.5">Expected sales volume growth from recommended spending.</p>
           </div>
           
           <div className="h-[250px] w-full text-xs">
@@ -226,7 +232,7 @@ export default function BudgetClient({
         <div className="p-6 border-b border-slate-800 flex flex-wrap gap-4 justify-between items-center">
           <div>
             <h3 className="font-heading font-bold text-lg text-white">Spend Recommendation Accounts</h3>
-            <p className="text-slate-400 text-[11px] mt-0.5">Filter specific trade programs and micro allocations.</p>
+            <p className="text-slate-400 text-[11px] mt-0.5">Filter specific trade programs and outlet-level spend.</p>
           </div>
           
           {/* Interactive filter dropdown */}
@@ -252,7 +258,7 @@ export default function BudgetClient({
                 <th className="px-6 py-4">Outlet ID</th>
                 <th className="px-6 py-4">Territory</th>
                 <th className="px-6 py-4">Type</th>
-                <th className="px-6 py-4 text-right">Uplift Volume Gap</th>
+                <th className="px-6 py-4 text-right">Projected Sales Lift</th>
                 <th className="px-6 py-4 text-right">Trade Spends Recommendation</th>
                 <th className="px-6 py-4 text-center">ROI Priority Tier</th>
                 <th className="px-6 py-4">Spend Activity Type</th>
