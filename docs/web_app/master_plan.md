@@ -40,7 +40,7 @@ The exhaustive implementation plan for Phase 2 has been refactored into its own 
 
 ### 📋 Phase 2 Implementation Tasks
 - [x] **Data Ingestion**: Build `App/scripts/populate_real_db.py` to parse parquets, CSVs, and `poi_raw_cache` JSONs into the new SQLite schema. *(Completed: Script successfully generated `outlets.db` including dynamic data quality computation from the Quarantine folder)*
-- [ ] **DB Access**: Update `App/src/data_access/queries.ts` to support the new schema and the new `getOutletPOIs` spatial query.
+- [ ] **DB Access**: Update `App/src/data_access/queries.ts` to support the new schema, the new `getOutletPOIs` spatial query, and expand the `getMapPoints` payload to support market saturation color-coding.
 - [ ] **UI - Dashboard**: Add the 5th KPI card, Saturation column, and Market Saturation filter in `/`.
 - [ ] **UI - Details**: Add the Cooler Capacity and Market Catchment panels in `/outlets/[id]`.
 - [ ] **UI - Map**: Upgrade `SingleMap.tsx` to render the 2km radius competitors and footfall POIs.

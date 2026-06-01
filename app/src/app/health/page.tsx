@@ -73,7 +73,7 @@ export default function PipelineHealthPage() {
         <div className="glass-panel p-6 rounded-2xl relative overflow-hidden border-l-4 border-l-cyan-500">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Total Rows Audited</p>
           <p className="text-3xl font-heading font-extrabold text-white text-glow-cyan mt-2">
-            {healthData.total_records_checked.toLocaleString()}
+            {(healthData.total_records_checked || 0).toLocaleString()}
           </p>
           <span className="text-[10px] text-slate-400 mt-2 block font-mono">
             Across {healthData.datasets.length} critical source tables
@@ -84,7 +84,7 @@ export default function PipelineHealthPage() {
         <div className="glass-panel p-6 rounded-2xl relative overflow-hidden border-l-4 border-l-rose-500">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Quarantined Records</p>
           <p className="text-3xl font-heading font-extrabold text-rose-500 mt-2">
-            {healthData.total_records_quarantined.toLocaleString()}
+            {(healthData.total_records_quarantined || 0).toLocaleString()}
           </p>
           <span className="text-[10px] text-rose-400 mt-2 block font-mono">
             {(healthData.overall_quarantine_rate * 100).toFixed(2)}% total quarantine rate
@@ -115,7 +115,7 @@ export default function PipelineHealthPage() {
                     </span>
                   </div>
                   <p className="text-[10px] text-slate-400 font-mono">
-                    Total checked: {data.records_checked.toLocaleString()} rows
+                    Total checked: {(data.records_checked || 0).toLocaleString()} rows
                   </p>
                 </div>
 
@@ -128,8 +128,8 @@ export default function PipelineHealthPage() {
               {/* Progress bar visualizer */}
               <div className="px-6 py-4 border-b border-slate-800/40 bg-slate-950/20">
                 <div className="flex justify-between items-center text-[10px] text-slate-400 mb-1.5 font-mono">
-                  <span>Passed: {data.records_passed.toLocaleString()}</span>
-                  <span>Quarantined: {data.records_quarantined.toLocaleString()} ({ (data.quarantine_rate * 100).toFixed(2) }%)</span>
+                  <span>Passed: {(data.records_passed || 0).toLocaleString()}</span>
+                  <span>Quarantined: {(data.records_quarantined || 0).toLocaleString()} ({ ((data.quarantine_rate || 0) * 100).toFixed(2) }%)</span>
                 </div>
                 <div className="w-full h-2 rounded-full bg-slate-800 overflow-hidden flex">
                   <div className="h-full bg-emerald-500" style={{ width: `${passPercent}%` }}></div>
@@ -156,8 +156,8 @@ export default function PipelineHealthPage() {
                       return (
                         <tr key={cIdx} className="hover:bg-slate-900/20 transition-colors text-[11px]">
                           <td className="px-6 py-3.5 text-slate-300 font-semibold">{check.check_name}</td>
-                          <td className="px-6 py-3.5 text-right text-slate-400">{check.passed.toLocaleString()}</td>
-                          <td className="px-6 py-3.5 text-right text-rose-400">{check.quarantined.toLocaleString()}</td>
+                          <td className="px-6 py-3.5 text-right text-slate-400">{(check.passed || 0).toLocaleString()}</td>
+                          <td className="px-6 py-3.5 text-right text-rose-400">{(check.quarantined || 0).toLocaleString()}</td>
                           <td className="px-6 py-3.5 text-slate-400 max-w-[200px] truncate">
                             {check.failure_reason || <span className="text-slate-600 font-sans italic">None</span>}
                           </td>

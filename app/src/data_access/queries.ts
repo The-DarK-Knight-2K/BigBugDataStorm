@@ -17,6 +17,16 @@ export interface Outlet {
   has_transaction_history: number;
   composite_gravity_score: number;
   footfall_score: number;
+  cooler_capacity_litres: number;
+  theoretical_monthly_ceiling: number;
+  capacity_utilization_ratio: number;
+  competitors_500m: number;
+  competitors_1km: number;
+  competition_density_score: number;
+  market_saturation_class: string;
+  tobit_latent_estimate: number;
+  tobit_censoring_ratio: number;
+  hurdle_estimate: number;
 }
 
 export interface BudgetAllocation {
@@ -104,6 +114,7 @@ export interface DashboardStats {
   total_predicted_volume: number;
   total_budget: number;
   high_potential_outlets: number;
+  avg_capacity_utilization: number;
 }
 
 export interface OutletFilters {
@@ -111,6 +122,7 @@ export interface OutletFilters {
   distributor_id?: string;
   outlet_type?: string;
   tier?: string;
+  market_saturation_class?: string;
 }
 
 export interface FilterOptions {
@@ -118,6 +130,7 @@ export interface FilterOptions {
   distributors: string[];
   types: string[];
   tiers: string[];
+  saturation_classes: string[];
 }
 
 // --- Queries ---
@@ -152,6 +165,11 @@ export function getDashboardStats(filters?: OutletFilters): DashboardStats {
       budgetWhere += ` AND b.allocation_tier = ?`;
       params.push(filters.tier);
     }
+    if (filters.market_saturation_class) {
+      baseWhere += ` AND o.market_saturation_class = ?`;
+      budgetWhere += ` AND o.market_saturation_class = ?`;
+      params.push(filters.market_saturation_class);
+    }
   }
 
   // Duplicate params for the three queries below
@@ -159,7 +177,8 @@ export function getDashboardStats(filters?: OutletFilters): DashboardStats {
   let outletsQuery = `
     SELECT 
       COUNT(o.outlet_id) as total_outlets, 
-      SUM(o.predicted_potential_litres) as total_predicted_volume 
+      SUM(o.predicted_potential_litres) as total_predicted_volume,
+      AVG(o.capacity_utilization_ratio) as avg_capacity_utilization
     FROM outlets o
   `;
   if (filters?.tier) outletsQuery += ` LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id`;
@@ -179,7 +198,7 @@ export function getDashboardStats(filters?: OutletFilters): DashboardStats {
     ${budgetWhere} AND b.allocation_tier = 'high'
   `;
 
-  const outletsRow = db.prepare(outletsQuery).get(...params) as { total_outlets: number; total_predicted_volume: number };
+  const outletsRow = db.prepare(outletsQuery).get(...params) as { total_outlets: number; total_predicted_volume: number; avg_capacity_utilization: number | null };
   const budgetRow = db.prepare(budgetQuery).get(...params) as { total_budget: number | null };
   const highPotentialRow = db.prepare(highPotentialQuery).get(...params) as { high_potential_outlets: number };
 
@@ -188,6 +207,7 @@ export function getDashboardStats(filters?: OutletFilters): DashboardStats {
     total_predicted_volume: outletsRow?.total_predicted_volume || 0,
     total_budget: budgetRow?.total_budget || 0,
     high_potential_outlets: highPotentialRow?.high_potential_outlets || 0,
+    avg_capacity_utilization: outletsRow?.avg_capacity_utilization || 0,
   };
 }
 
@@ -199,8 +219,9 @@ export function getFilterOptions(): FilterOptions {
   const distributors = (db.prepare('SELECT DISTINCT distributor_id FROM outlets WHERE distributor_id IS NOT NULL').all() as any[]).map(r => r.distributor_id);
   const types = (db.prepare('SELECT DISTINCT outlet_type FROM outlets WHERE outlet_type IS NOT NULL').all() as any[]).map(r => r.outlet_type);
   const tiers = (db.prepare("SELECT DISTINCT allocation_tier FROM budget_allocations WHERE allocation_tier IS NOT NULL AND allocation_tier != 'none'").all() as any[]).map(r => r.allocation_tier);
+  const saturation_classes = (db.prepare("SELECT DISTINCT market_saturation_class FROM outlets WHERE market_saturation_class IS NOT NULL").all() as any[]).map(r => r.market_saturation_class);
   
-  return { provinces, distributors, types, tiers };
+  return { provinces, distributors, types, tiers, saturation_classes };
 }
 
 /**
@@ -226,6 +247,10 @@ export function getPaginatedOutlets(filters: OutletFilters | undefined, page: nu
     if (filters.tier) {
       baseWhere += ` AND b.allocation_tier = ?`;
       params.push(filters.tier);
+    }
+    if (filters.market_saturation_class) {
+      baseWhere += ` AND o.market_saturation_class = ?`;
+      params.push(filters.market_saturation_class);
     }
   }
 
@@ -276,10 +301,14 @@ export function getMapPoints(filters?: OutletFilters): any[][] {
       baseWhere += ` AND b.allocation_tier = ?`;
       params.push(filters.tier);
     }
+    if (filters.market_saturation_class) {
+      baseWhere += ` AND o.market_saturation_class = ?`;
+      params.push(filters.market_saturation_class);
+    }
   }
 
   const query = `
-    SELECT o.outlet_id, o.latitude, o.longitude, o.outlet_type, o.predicted_potential_litres, b.allocation_tier
+    SELECT o.outlet_id, o.latitude, o.longitude, o.outlet_type, o.predicted_potential_litres, o.market_saturation_class, b.allocation_tier
     FROM outlets o
     LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
     ${baseWhere}
@@ -289,14 +318,15 @@ export function getMapPoints(filters?: OutletFilters): any[][] {
   const rows = stmt.all(...params) as any[];
   
   // Convert to array of arrays to minimize JSON size:
-  // [id, lat, lng, type, vol, tier]
+  // [id, lat, lng, type, vol, tier, saturation]
   return rows.map(r => [
     r.outlet_id, 
     r.latitude, 
     r.longitude, 
     r.outlet_type, 
     r.predicted_potential_litres, 
-    r.allocation_tier
+    r.allocation_tier,
+    r.market_saturation_class
   ]);
 }
 
@@ -357,6 +387,16 @@ export function getOutletDetails(outletId: string): OutletDetail | null {
     has_transaction_history: row.has_transaction_history,
     composite_gravity_score: row.composite_gravity_score,
     footfall_score: row.footfall_score,
+    cooler_capacity_litres: row.cooler_capacity_litres,
+    theoretical_monthly_ceiling: row.theoretical_monthly_ceiling,
+    capacity_utilization_ratio: row.capacity_utilization_ratio,
+    competitors_500m: row.competitors_500m,
+    competitors_1km: row.competitors_1km,
+    competition_density_score: row.competition_density_score,
+    market_saturation_class: row.market_saturation_class,
+    tobit_latent_estimate: row.tobit_latent_estimate,
+    tobit_censoring_ratio: row.tobit_censoring_ratio,
+    hurdle_estimate: row.hurdle_estimate,
     context_json: row.context_json,
     xai_explanation: row.xai_explanation,
     parsed_context,
@@ -406,4 +446,72 @@ export function getBudgetAllocations(): (BudgetAllocation & { distributor_id: st
 export function getPipelineHealth(): PipelineHealth[] {
   const stmt = db.prepare(`SELECT * FROM pipeline_health`);
   return stmt.all() as PipelineHealth[];
+}
+
+// --- Spatial Queries ---
+
+export interface POI {
+  id: number;
+  cluster_id: number;
+  lat: number;
+  lon: number;
+  poi_type: string;
+  name: string;
+  tags_json: string;
+  distance_meters?: number;
+}
+
+/**
+ * Calculate the great circle distance between two points on the earth in meters.
+ * Uses the Haversine formula.
+ */
+function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: number): number {
+  const R = 6371e3; // Earth's radius in meters
+  const toRadians = (deg: number) => deg * Math.PI / 180;
+  const φ1 = toRadians(lat1);
+  const φ2 = toRadians(lat2);
+  const Δφ = toRadians(lat2 - lat1);
+  const Δλ = toRadians(lon2 - lon1);
+
+  const a = Math.sin(Δφ / 2) * Math.sin(Δφ / 2) +
+            Math.cos(φ1) * Math.cos(φ2) *
+            Math.sin(Δλ / 2) * Math.sin(Δλ / 2);
+  const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+
+  return R * c;
+}
+
+/**
+ * Get all POIs within a 2km radius of a specific outlet.
+ */
+export function getOutletPOIs(outletId: string): POI[] {
+  // 1. Get outlet lat/lon and cluster_id
+  const outletRow = db.prepare(`
+    SELECT o.latitude, o.longitude, c.cluster_id
+    FROM outlets o
+    JOIN outlet_clusters c ON o.outlet_id = c.outlet_id
+    WHERE o.outlet_id = ?
+  `).get(outletId) as { latitude: number, longitude: number, cluster_id: number } | undefined;
+
+  if (!outletRow) return [];
+
+  // 2. Fetch all POIs for the cluster
+  const pois = db.prepare(`
+    SELECT * FROM cluster_pois WHERE cluster_id = ?
+  `).all(outletRow.cluster_id) as POI[];
+
+  // 3. Calculate distance and filter to 2km (2000 meters)
+  const result: POI[] = [];
+  for (const poi of pois) {
+    const dist = calculateDistance(outletRow.latitude, outletRow.longitude, poi.lat, poi.lon);
+    if (dist <= 2000) {
+      poi.distance_meters = Math.round(dist);
+      result.push(poi);
+    }
+  }
+
+  // Sort by distance ascending
+  result.sort((a, b) => (a.distance_meters || 0) - (b.distance_meters || 0));
+
+  return result;
 }
