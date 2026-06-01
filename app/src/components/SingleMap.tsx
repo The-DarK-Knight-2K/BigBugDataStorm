@@ -1,8 +1,19 @@
 "use client";
 
 import { useEffect, useState } from 'react';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Popup, Circle } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+
+interface POI {
+  id: number;
+  cluster_id: number;
+  lat: number;
+  lon: number;
+  poi_type: string;
+  name: string;
+  tags_json: string;
+  distance_meters?: number;
+}
 
 interface SingleMapProps {
   outlet: {
@@ -16,10 +27,19 @@ interface SingleMapProps {
 
 export default function SingleMap({ outlet }: SingleMapProps) {
   const [isMounted, setIsMounted] = useState(false);
+  const [pois, setPois] = useState<POI[]>([]);
 
   useEffect(() => {
     setIsMounted(true);
-  }, []);
+    
+    // Fetch POIs for the 2km radius
+    fetch(`/api/outlets/${outlet.outlet_id}/pois`)
+      .then(res => res.json())
+      .then(data => {
+        if (data.pois) setPois(data.pois);
+      })
+      .catch(err => console.error("Failed to fetch POIs", err));
+  }, [outlet.outlet_id]);
 
   if (!isMounted) {
     return (
@@ -52,11 +72,48 @@ export default function SingleMap({ outlet }: SingleMapProps) {
     });
   };
 
+  const createPoiIcon = (type: string) => {
+    // eslint-disable-next-line @typescript-eslint/no-require-imports
+    const L = require('leaflet');
+    
+    // Competitors -> Red/Orange
+    const competitors = ['supermarket', 'marketplace', 'convenience', 'mall'];
+    // Footfall Drivers -> Green/Blue
+    const drivers = ['school', 'hospital', 'place_of_worship', 'bus_station', 'university', 'college'];
+    
+    let bgColor = 'bg-slate-700/80';
+    let borderColor = 'border-slate-500';
+    let iconChar = '📍';
+    
+    if (competitors.includes(type)) {
+      bgColor = 'bg-rose-500/80';
+      borderColor = 'border-rose-400';
+      iconChar = '🛒';
+    } else if (drivers.includes(type)) {
+      bgColor = 'bg-blue-500/80';
+      borderColor = 'border-blue-400';
+      
+      if (['school', 'university', 'college'].includes(type)) iconChar = '🏫';
+      else if (type === 'hospital') iconChar = '🏥';
+      else if (type === 'place_of_worship') iconChar = '🛕';
+      else if (type === 'bus_station') iconChar = '🚍';
+    }
+
+    return L.divIcon({
+      className: 'custom-poi-icon',
+      html: `<div class="w-5 h-5 flex items-center justify-center rounded-full ${bgColor} border ${borderColor} shadow-lg text-[10px] leading-none text-white backdrop-blur-sm">
+        ${iconChar}
+      </div>`,
+      iconSize: [20, 20],
+      iconAnchor: [10, 10]
+    });
+  };
+
   return (
     <div className="w-full h-full min-h-[300px] rounded-xl border border-slate-800/80 overflow-hidden shadow-2xl relative z-10">
       <MapContainer 
         center={[outlet.latitude, outlet.longitude]} 
-        zoom={15} 
+        zoom={14} 
         style={{ height: '100%', width: '100%', background: '#090d16' }}
         scrollWheelZoom={true}
       >
@@ -66,9 +123,18 @@ export default function SingleMap({ outlet }: SingleMapProps) {
           url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
         />
         
+        {/* Render 2km catchment area circle */}
+        <Circle 
+          center={[outlet.latitude, outlet.longitude]} 
+          radius={2000} 
+          pathOptions={{ color: '#38bdf8', weight: 1, dashArray: '4 4', fillOpacity: 0.03, fill: true }} 
+        />
+
+        {/* Render the Central Store */}
         <Marker 
           position={[outlet.latitude, outlet.longitude]}
           icon={createGlowingIcon(outlet.allocation_tier)}
+          zIndexOffset={1000}
         >
           <Popup className="custom-popup">
             <div className="p-2 text-slate-100 font-sans min-w-[120px]">
@@ -92,7 +158,45 @@ export default function SingleMap({ outlet }: SingleMapProps) {
             </div>
           </Popup>
         </Marker>
+
+        {/* Render the POIs */}
+        {pois.map(poi => {
+          let tags = {};
+          try { tags = JSON.parse(poi.tags_json || '{}'); } catch(e) {}
+          
+          return (
+            <Marker 
+              key={poi.id}
+              position={[poi.lat, poi.lon]}
+              icon={createPoiIcon(poi.poi_type)}
+            >
+              <Popup className="custom-popup">
+                <div className="p-2 text-slate-100 font-sans min-w-[160px]">
+                  <h4 className="font-bold text-[11px] tracking-tight text-white mb-1.5 capitalize border-b border-slate-700 pb-1 flex items-center gap-1">
+                    <span className="text-[10px]">📌</span> {poi.name || poi.poi_type.replace(/_/g, ' ')}
+                  </h4>
+                  <div className="space-y-1 text-[10px] text-slate-300">
+                    <p className="flex justify-between"><span className="text-slate-400 font-semibold">Category:</span> <span className="capitalize">{poi.poi_type.replace(/_/g, ' ')}</span></p>
+                    <p className="flex justify-between"><span className="text-slate-400 font-semibold">Distance:</span> <span className="font-mono text-cyan-400 font-bold">{poi.distance_meters}m</span></p>
+                    
+                    {/* Display up to 3 notable metadata tags */}
+                    {Object.entries(tags)
+                      .filter(([key, val]) => key !== 'name' && key !== 'amenity' && typeof val === 'string')
+                      .slice(0, 3)
+                      .map(([key, val]) => (
+                      <p key={key} className="flex justify-between">
+                        <span className="text-slate-400 font-semibold capitalize">{key.replace(/_/g, ' ')}:</span> 
+                        <span className="truncate max-w-[80px] ml-2 text-right" title={val as string}>{val as string}</span>
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              </Popup>
+            </Marker>
+          );
+        })}
       </MapContainer>
     </div>
   );
 }
+

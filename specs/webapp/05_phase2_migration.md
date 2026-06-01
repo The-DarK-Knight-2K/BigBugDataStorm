@@ -124,7 +124,7 @@ We will gracefully expand the Next.js UI to incorporate the new dimensions of da
 
 #### B. Outlet Details Enhancements (`OutletDetailClient.tsx`)
 1. **Cooler & Capacity Ceiling Panel**: A new visual card showing the physical cooler capacity in litres, the theoretical mathematical ceiling, and a progress bar showing their current utilization ratio.
-2. **Market & Catchment Panel**: A card visualizing their `competition_density_score`, their `market_saturation_class`, and the statistical Hurdle/Tobit demand estimates.
+2. **Market & Catchment Panel**: A card visualizing their `competition_density_score`, their `market_saturation_class`, and the statistical Hurdle/Tobit demand estimates. *(Note: Labels were refactored for C-Suite readability, e.g., 'True Demand Est.' instead of 'Tobit Latent' and 'Footfall Impact' instead of 'Gravity')*.
 
 #### C. The 2km Interactive Spatial Map (`SingleMap.tsx` & API)
 This is the flagship UI upgrade.
