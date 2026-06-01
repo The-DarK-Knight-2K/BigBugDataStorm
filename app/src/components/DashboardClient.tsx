@@ -67,7 +67,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
     return params.toString();
   }, [selectedProvince, selectedDistributor, selectedType, selectedTier]);
 
-  // Fetch Table Data & Stats when filters or page change
+  // Fetch Table Data when filters or page change
   useEffect(() => {
     if (isInitialMount.current) {
       isInitialMount.current = false;
@@ -78,19 +78,11 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
       setIsLoadingTable(true);
       const qs = buildQueryString(page);
       try {
-        const [outletsRes, statsRes] = await Promise.all([
-          fetch(`/api/outlets?${qs}`),
-          fetch(`/api/stats?${qs}`)
-        ]);
-        
+        const outletsRes = await fetch(`/api/outlets?${qs}`);
         if (outletsRes.ok) {
           const data = await outletsRes.json();
           setOutlets(data.outlets);
           setTotalOutlets(data.total);
-        }
-        if (statsRes.ok) {
-          const statsData = await statsRes.json();
-          setStats(statsData);
         }
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -102,25 +94,33 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
     fetchTableData();
   }, [buildQueryString, page]);
 
-  // Fetch Map Data (on mount and when filters change)
+  // Fetch Map Data and Stats (on mount and when filters change)
   useEffect(() => {
-    const fetchMapData = async () => {
+    const fetchMapAndStats = async () => {
       setIsLoadingMap(true);
       const qs = buildQueryString(1, false); // Map doesn't care about page
       try {
-        const res = await fetch(`/api/map?${qs}`);
-        if (res.ok) {
-          const data = await res.json();
+        const [mapRes, statsRes] = await Promise.all([
+          fetch(`/api/map?${qs}`),
+          fetch(`/api/stats?${qs}`)
+        ]);
+        
+        if (mapRes.ok) {
+          const data = await mapRes.json();
           setMapPoints(data);
         }
+        if (statsRes.ok) {
+          const data = await statsRes.json();
+          setStats(data);
+        }
       } catch (error) {
-        console.error("Error fetching map points:", error);
+        console.error("Error fetching map/stats points:", error);
       } finally {
         setIsLoadingMap(false);
       }
     };
     
-    fetchMapData();
+    fetchMapAndStats();
   }, [selectedProvince, selectedDistributor, selectedType, selectedTier, buildQueryString]);
 
   // Reset page to 1 when filters change (except first load)
