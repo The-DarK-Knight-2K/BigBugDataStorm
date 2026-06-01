@@ -217,7 +217,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
           <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">⚙️</div>
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Avg Capacity Utilization</p>
           <p className="text-3xl font-heading font-extrabold text-white mt-2">
-            {Math.round((stats.avg_capacity_utilization || 0) * 100)}%
+            {stats.total_outlets > 0 ? `${Math.round((stats.avg_capacity_utilization || 0) * 100)}%` : <span className="text-2xl text-slate-500">N/A</span>}
           </p>
           <span className="text-[10px] text-pink-400 flex items-center gap-1 mt-1 font-mono">
             <span>📈</span> Physics-based Ceiling
