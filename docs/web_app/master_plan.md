@@ -20,7 +20,7 @@ The detailed project requirements are located in the `specs/webapp/` folder:
 
 ---
 
-## 📋 Implementation Tasks
+## ✅ Phase 1: Implementation Tasks (Completed)
 - [x] **Architecture**: Review `01_architecture.md` and start dev server.
 - [x] **Database**: Build `src/data_access/db.ts` and SQL queries according to `02_database.md`.
 - [x] **GenAI API**: Connect Gemini and implement caching in `xai_contexts` according to `03_llm_integration.md`.
@@ -28,3 +28,20 @@ The detailed project requirements are located in the `specs/webapp/` folder:
 - [x] **UI - Details**: Build SHAP charts and XAI component in `/outlets/[id]` based on `04_ui_pages.md`.
 - [x] **UI - Budget**: Build allocation charts in `/budget` based on `04_ui_pages.md`.
 - [x] **UI - Health**: Display validation states in `/health` based on `04_ui_pages.md`.
+
+---
+
+## 🚀 Phase 2: Real Data Migration (Current Active Phase)
+
+Phase 1 is now **COMPLETED and FROZEN**. AI agents and developers must exclusively focus their efforts on Phase 2.
+
+The exhaustive implementation plan for Phase 2 has been refactored into its own dedicated specification file:
+- **[Spec 05: Phase 2 Migration Plan](file:///c:/Users/USER/Desktop/BigBugDataStorm/specs/webapp/05_phase2_migration.md)** — Contains the full database architecture (including spatial POI mapping), ETL data ingestion steps, and UI upgrades.
+
+### 📋 Phase 2 Implementation Tasks
+- [ ] **Data Ingestion**: Build `App/scripts/populate_real_db.py` to parse parquets, CSVs, and `poi_raw_cache` JSONs into the new SQLite schema.
+- [ ] **DB Access**: Update `App/src/data_access/queries.ts` to support the new schema and the new `getOutletPOIs` spatial query.
+- [ ] **UI - Dashboard**: Add the 5th KPI card, Saturation column, and Market Saturation filter in `/`.
+- [ ] **UI - Details**: Add the Cooler Capacity and Market Catchment panels in `/outlets/[id]`.
+- [ ] **UI - Map**: Upgrade `SingleMap.tsx` to render the 2km radius competitors and footfall POIs.
+- [ ] **GenAI API**: Update the `SYSTEM_PROMPT` in `route.ts` to explain the new Tobit/Hurdle and DBSCAN features.
