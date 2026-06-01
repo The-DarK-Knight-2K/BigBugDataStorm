@@ -39,7 +39,7 @@ The exhaustive implementation plan for Phase 2 has been refactored into its own 
 - **[Spec 05: Phase 2 Migration Plan](file:///c:/Users/USER/Desktop/BigBugDataStorm/specs/webapp/05_phase2_migration.md)** — Contains the full database architecture (including spatial POI mapping), ETL data ingestion steps, and UI upgrades.
 
 ### 📋 Phase 2 Implementation Tasks
-- [x] **Data Ingestion**: Build `App/scripts/populate_real_db.py` to parse parquets, CSVs, and `poi_raw_cache` JSONs into the new SQLite schema.
+- [x] **Data Ingestion**: Build `App/scripts/populate_real_db.py` to parse parquets, CSVs, and `poi_raw_cache` JSONs into the new SQLite schema. *(Completed: Script successfully generated `outlets.db` including dynamic data quality computation from the Quarantine folder)*
 - [ ] **DB Access**: Update `App/src/data_access/queries.ts` to support the new schema and the new `getOutletPOIs` spatial query.
 - [ ] **UI - Dashboard**: Add the 5th KPI card, Saturation column, and Market Saturation filter in `/`.
 - [ ] **UI - Details**: Add the Cooler Capacity and Market Catchment panels in `/outlets/[id]`.

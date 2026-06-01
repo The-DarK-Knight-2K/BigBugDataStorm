@@ -1,6 +1,9 @@
 # Spec 04: UI & Pages (Fully Documented Implementation)
 
-This document reflects the exact components, state, layouts, and styles currently implemented in the React codebase (`App/src/components` and `App/src/app`).
+> [!WARNING]
+> **PHASE 1 BASELINE**: This document reflects the baseline components, state, layouts, and styles from Phase 1. For Phase 2 modifications (e.g., adding the 5th KPI card, Market Saturation filters, and Cooler Capacity panels), refer strictly to `05_phase2_migration.md`.
+
+This document reflects the foundational components currently implemented in the React codebase (`App/src/components` and `App/src/app`).
 
 ## Global Layout (`layout.tsx`)
 The application is wrapped in a full-height, dark-themed dashboard shell.

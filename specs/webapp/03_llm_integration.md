@@ -1,5 +1,7 @@
 # Spec 03: LLM & XAI Integration
 
+> [!WARNING]
+> **PHASE 2 UPGRADE IN PROGRESS**: This document outlines the Phase 1 Baseline integration. In Phase 2, the System Prompt below must be upgraded to explain Tobit/Hurdle metrics, DBSCAN spatial context, and Cooler capacity constraints (See Spec 05).
 ## Caching Strategy
 1. The `xai_contexts` table stores a pre-computed `context_json` string for every outlet.
 2. The `xai_explanation` column is initialized as `NULL`.

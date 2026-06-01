@@ -95,7 +95,7 @@ erDiagram
 3. **`xai_contexts` table**: Feeds context directly to the Gemini LLM. 
    - *Source*: `Data/Gold/shap_values.parquet` serialized into JSON.
 4. **`pipeline_health` table**: Feeds the Data Quality page.
-   - *Source*: `outputs/dq_report.csv`.
+   - *Source*: Dynamically calculated by parsing `Data/Quarantine/rejected_outlet_coordinates.parquet` and `Data/Quarantine/rejected_transactions.parquet` against the master features.
 5. **`outlet_clusters` & `cluster_pois` tables (NEW)**: The engine for the Interactive Spatial Mapping.
    - *Source*: Parsing the `elements` array inside all 400 JSON files located in `Data/Gold/poi_raw_cache/`.
 

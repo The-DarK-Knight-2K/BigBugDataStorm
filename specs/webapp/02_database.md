@@ -9,19 +9,29 @@ Stores the core outlet attributes and predicted metrics.
 ```sql
 CREATE TABLE outlets (
     outlet_id TEXT PRIMARY KEY,
-    outlet_type TEXT NOT NULL,
-    outlet_size TEXT NOT NULL,
-    province TEXT NOT NULL,
-    distributor_id TEXT NOT NULL,
-    latitude REAL NOT NULL,
-    longitude REAL NOT NULL,
-    cooler_count INTEGER NOT NULL,
-    predicted_potential_litres REAL NOT NULL,
-    recent_3m_avg REAL NOT NULL,
-    hist_p90_monthly REAL NOT NULL,
-    has_transaction_history INTEGER NOT NULL,
-    composite_gravity_score REAL NOT NULL,
-    footfall_score REAL NOT NULL
+    outlet_type TEXT,
+    outlet_size TEXT,
+    province TEXT,
+    distributor_id TEXT,
+    latitude REAL,
+    longitude REAL,
+    cooler_count INTEGER,
+    predicted_potential_litres REAL,
+    recent_3m_avg REAL,
+    hist_p90_monthly REAL,
+    has_transaction_history INTEGER,
+    composite_gravity_score REAL,
+    footfall_score REAL,
+    cooler_capacity_litres REAL,
+    theoretical_monthly_ceiling REAL,
+    capacity_utilization_ratio REAL,
+    competitors_500m INTEGER,
+    competitors_1km INTEGER,
+    competition_density_score REAL,
+    market_saturation_class TEXT,
+    tobit_latent_estimate REAL,
+    tobit_censoring_ratio REAL,
+    hurdle_estimate REAL
 )
 ```
 
@@ -61,6 +71,30 @@ CREATE TABLE pipeline_health (
     records_quarantined INTEGER NOT NULL,
     quarantine_rate REAL NOT NULL,
     check_details_json TEXT NOT NULL
+)
+```
+
+### 5. outlet_clusters
+Stores the mapping of an outlet to its spatial cluster.
+```sql
+CREATE TABLE outlet_clusters (
+    outlet_id TEXT PRIMARY KEY,
+    cluster_id INTEGER,
+    FOREIGN KEY (outlet_id) REFERENCES outlets(outlet_id) ON DELETE CASCADE
+)
+```
+
+### 6. cluster_pois
+Stores the raw Overpass/OSM points of interest for rendering on the 2km map.
+```sql
+CREATE TABLE cluster_pois (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    cluster_id INTEGER,
+    lat REAL,
+    lon REAL,
+    poi_type TEXT,
+    name TEXT,
+    tags_json TEXT
 )
 ```
 
