@@ -130,6 +130,29 @@ venv\Scripts\activate            # Windows
 pip install -r requirements.txt
 ```
 
+### Using the Orchestrator (Recommended)
+
+The recommended way to run the entire system is via the master orchestrator script. This script sequentially executes all phases (Bronze -> Silver -> Gold -> Modelling -> Optimization) and handles global logging (to `outputs/pipeline.log`).
+
+```bash
+# Fast Path (Default): Skips POI scraping and model training, uses cached/pre-trained models.
+python pipeline/run_pipeline.py
+
+# Full Run: Forces live POI scraping and trains fresh models
+python pipeline/run_pipeline.py --run-scraping --train-models
+```
+
+**Available Flags:**
+- `--run-scraping`: Triggers live POI scraping via OpenStreetMap (Time-consuming).
+- `--tune-hyperparameters`: Runs Optuna hyperparameter tuning before training.
+- `--train-models`: Trains fresh XGBoost, LightGBM, and Random Forest models instead of using the cached `round2` models.
+
+---
+
+### Step-by-Step Manual Execution
+
+If you prefer to run the pipeline steps individually for debugging or development:
+
 ### Step 0: Place Raw Data
 
 Place the 5 original competition CSV files into the `Data/Raw/` directory:
