@@ -4670,3 +4670,33 @@ dtype: object
 2026-05-31 21:23:09,879 | INFO     | predict | ==================================================
 2026-05-31 21:23:09,879 | INFO     | predict | PREDICTION PIPELINE -- DONE
 2026-05-31 21:23:09,879 | INFO     | predict | ==================================================
+2026-06-01 03:25:18,534 | INFO     | predict | ======================================================================
+2026-06-01 03:25:18,534 | INFO     | predict | PREDICTION PIPELINE -- START
+2026-06-01 03:25:18,535 | INFO     | predict | ======================================================================
+2026-06-01 03:25:18,608 | INFO     | predict | Loaded master features: 20000 rows
+2026-06-01 03:25:18,615 | INFO     | predict | Loading model predictions from CSV: modelling/artifacts/runs/ensemble_predictions.csv
+2026-06-01 03:25:18,645 | INFO     | predict | Model predictions -- min: 31.31  median: 85.22  max: 2134.71
+2026-06-01 03:25:18,665 | INFO     | predict | Loaded baseline predictions: 20000 rows
+2026-06-01 03:25:18,683 | INFO     | predict |   P10: 95.77 litres
+2026-06-01 03:25:18,684 | INFO     | predict |   P25: 113.19 litres
+2026-06-01 03:25:18,685 | INFO     | predict |   P50: 161.93 litres
+2026-06-01 03:25:18,686 | INFO     | predict |   P75: 345.63 litres
+2026-06-01 03:25:18,686 | INFO     | predict |   P90: 970.94 litres
+2026-06-01 03:25:18,687 | INFO     | predict |   P95: 1187.70 litres
+2026-06-01 03:25:18,688 | INFO     | predict |   P99: 2094.25 litres
+2026-06-01 03:25:18,693 | INFO     | predict | All assertions passed.
+2026-06-01 03:25:18,719 | INFO     | predict | Written 20000 rows -> outputs/round2_final/bigbug_predictions.csv
+2026-06-01 03:25:18,893 | INFO     | predict | Written diagnostics -> C:\Users\sithu\My Works\My Softwares\Competitions\DataStorm3_ML_DS\BigBugDataStorm\outputs\prediction_diagnostics.csv
+2026-06-01 03:25:18,893 | INFO     | predict | ==================================================
+2026-06-01 03:25:18,893 | INFO     | predict | PREDICTION SUMMARY
+2026-06-01 03:25:18,894 | INFO     | predict |   Total outlets predicted : 20000
+2026-06-01 03:25:18,894 | INFO     | predict |   Min prediction          : 31.98 L
+2026-06-01 03:25:18,895 | INFO     | predict |   Median prediction       : 161.93 L
+2026-06-01 03:25:18,895 | INFO     | predict |   Mean prediction         : 394.19 L
+2026-06-01 03:25:18,895 | INFO     | predict |   Max prediction          : 10457.94 L
+2026-06-01 03:25:18,896 | INFO     | predict |   Baseline-capped (model < baseline): 19856 outlets
+2026-06-01 03:25:18,897 | INFO     | predict |   Model won (model > baseline)      : 144 outlets
+2026-06-01 03:25:18,898 | INFO     | predict |   Duration                : 0.4 seconds
+2026-06-01 03:25:18,898 | INFO     | predict | ==================================================
+2026-06-01 03:25:18,898 | INFO     | predict | PREDICTION PIPELINE -- DONE
+2026-06-01 03:25:18,898 | INFO     | predict | ==================================================

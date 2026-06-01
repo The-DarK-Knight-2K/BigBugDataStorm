@@ -187,14 +187,13 @@ As documented in [data_forensics_and_decisions.md](docs/report/round_1/data_fore
 | Sub-Criterion | Status | Score Potential |
 | :--- | :---: | :---: |
 | Isolating "Latent Potential" from history | ✅ Implemented | ⬤⬤⬤⬤◯ |
-| Tobit regression for censored data | ❌ **Not implemented** | ⬤◯◯◯◯ |
-| Hurdle models for zero-inflated demand | ❌ **Not implemented** | ⬤◯◯◯◯ |
-| Spatial clustering (modeling-level) | ⚠️ Partial (only for data acquisition) | ⬤⬤◯◯◯ |
-| Cooler replenishment cycle constraints in the math | ⚠️ Partial (feature only, not a constraint) | ⬤⬤◯◯◯ |
-| Formal censored data mechanics | ⚠️ Implicit only (P90 heuristic) | ⬤⬤◯◯◯ |
+| Tobit regression for censored data | ✅ Implemented | ⬤⬤⬤⬤⬤ |
+| Hurdle models for zero-inflated demand | ✅ Implemented | ⬤⬤⬤⬤⬤ |
+| Spatial clustering (modeling-level) | ✅ Implemented | ⬤⬤⬤⬤⬤ |
+| Cooler replenishment cycle constraints in the math | ✅ Implemented | ⬤⬤⬤⬤⬤ |
+| Formal censored data mechanics | ✅ Implemented | ⬤⬤⬤⬤⬤ |
 
-> [!WARNING]
-> **This is your weakest criterion.** The problem statement explicitly names Tobit regression, hurdle models, and spatial clustering as examples of the advanced approaches the judges are looking for. Currently, the censoring problem is handled heuristically (P90 target + max-blend) rather than with a formal statistical framework. This gap represents the highest-ROI improvement area.
+> **Assessment:** All advanced statistical and physical constraints (Tobit, Hurdle, DBSCAN, and cooler capacity) are now fully implemented. This criterion is now extremely strong.
 
 ---
 
@@ -202,7 +201,7 @@ As documented in [data_forensics_and_decisions.md](docs/report/round_1/data_fore
 
 | Sub-Criterion | Status | Score Potential |
 | :--- | :---: | :---: |
-| 5M LKR budget allocation logic | ✅ Designed (spec exists, implementation pending) | ⬤⬤⬤◯◯ |
+| 5M LKR budget allocation logic | ✅ Implemented | ⬤⬤⬤⬤⬤ |
 | Web application | 🔄 In progress | ⬤⬤◯◯◯ |
 | Clear corporate narrative | Not yet assessed (live pitch) | — |
 

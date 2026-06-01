@@ -3,15 +3,21 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
+from itertools import product
 
 def main():
-    print("Starting Budget Optimization Phase...")
+    print("Starting Budget Optimization Phase with Grid Search...")
     
     # Setup paths
     base_dir = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
     master_features_path = os.path.join(base_dir, 'Data', 'Gold', 'master_features.parquet')
-    predictions_path = os.path.join(base_dir, 'outputs', 'round2', 'bigbug_predictions.csv')
-    output_dir = os.path.join(base_dir, 'outputs')
+    predictions_path = os.path.join(base_dir, 'outputs', 'round2_final', 'bigbug_predictions.csv')
+    
+    # We need to gracefully fallback if round2_final doesn't exist
+    if not os.path.exists(predictions_path):
+        predictions_path = os.path.join(base_dir, 'outputs', 'round2', 'bigbug_predictions.csv')
+        
+    output_dir = os.path.join(base_dir, 'data', 'Optimizations')
     os.makedirs(output_dir, exist_ok=True)
     
     # Load data
@@ -51,27 +57,102 @@ def main():
     df_w = df_w.sort_values(by='roi_score', ascending=False).reset_index(drop=True)
     df_w['roi_rank'] = df_w.index + 1
     
-    # Define Tiers based on percentiles
-    total_w = len(df_w)
-    tier1_cutoff = int(total_w * 0.15)
-    tier2_cutoff = int(total_w * 0.40)
-    tier3_cutoff = int(total_w * 0.65)
+    print("Running Grid Search Optimization for Tier Percentiles...")
     
-    # Assign Base Tiers and Base Allocations
-    df_w['allocation_tier'] = 'None'
-    df_w['Trade_Spend_Allocation_LKR'] = 0.0
+    # Percentages to test for Tier 1, Tier 2, Tier 3
+    # They must sum to <= 1.0
+    t1_pcts = np.arange(0.05, 0.25, 0.05)
+    t2_pcts = np.arange(0.10, 0.45, 0.05)
+    t3_pcts = np.arange(0.10, 0.45, 0.05)
     
-    df_w.loc[:tier1_cutoff-1, 'allocation_tier'] = 'High'
-    df_w.loc[:tier1_cutoff-1, 'Trade_Spend_Allocation_LKR'] = 2500.0
+    best_profit = -np.inf
+    best_config = None
+    best_df = None
     
-    df_w.loc[tier1_cutoff:tier2_cutoff-1, 'allocation_tier'] = 'Medium'
-    df_w.loc[tier1_cutoff:tier2_cutoff-1, 'Trade_Spend_Allocation_LKR'] = 1167.0
-    
-    df_w.loc[tier2_cutoff:tier3_cutoff-1, 'allocation_tier'] = 'Low'
-    df_w.loc[tier2_cutoff:tier3_cutoff-1, 'Trade_Spend_Allocation_LKR'] = 500.0
-    
-    # Greedy balancing to exactly 5,000,000
     target_budget = 5000000.0
+    
+    for t1, t2, t3 in product(t1_pcts, t2_pcts, t3_pcts):
+        if t1 + t2 + t3 > 1.0:
+            continue
+            
+        temp_df = df_w.copy()
+        total_w = len(temp_df)
+        
+        c1 = int(total_w * t1)
+        c2 = c1 + int(total_w * t2)
+        c3 = c2 + int(total_w * t3)
+        
+        temp_df['allocation_tier'] = 'None'
+        temp_df['Trade_Spend_Allocation_LKR'] = 0.0
+        
+        temp_df.loc[:c1-1, 'allocation_tier'] = 'High'
+        temp_df.loc[:c1-1, 'Trade_Spend_Allocation_LKR'] = 2500.0
+        
+        temp_df.loc[c1:c2-1, 'allocation_tier'] = 'Medium'
+        temp_df.loc[c1:c2-1, 'Trade_Spend_Allocation_LKR'] = 1167.0
+        
+        temp_df.loc[c2:c3-1, 'allocation_tier'] = 'Low'
+        temp_df.loc[c2:c3-1, 'Trade_Spend_Allocation_LKR'] = 500.0
+        
+        current_budget = temp_df['Trade_Spend_Allocation_LKR'].sum()
+        
+        # Penalize severely if budget is grossly over
+        if current_budget > target_budget * 1.1:
+            continue
+            
+        # If under budget, we pretend we can balance it to 5M by adding to High tier
+        # (which gives 20% conversion)
+        diff = target_budget - current_budget
+        
+        # Expected lift calculation
+        temp_df['expected_lift'] = 0.0
+        temp_df.loc[temp_df['allocation_tier'] == 'High', 'expected_lift'] = temp_df['uplift_gap_litres'] * 0.20
+        temp_df.loc[temp_df['allocation_tier'] == 'Medium', 'expected_lift'] = temp_df['uplift_gap_litres'] * 0.10
+        temp_df.loc[temp_df['allocation_tier'] == 'Low', 'expected_lift'] = temp_df['uplift_gap_litres'] * 0.03
+        
+        total_lift = temp_df['expected_lift'].sum()
+        
+        # If we have leftover budget, we'll assign it to High tier outlets, giving extra lift.
+        # But for grid search ranking, we just want to find a good baseline.
+        # Let's approximate the final profit
+        profit_margin = 50.0
+        projected_profit = (total_lift * profit_margin) - current_budget
+        
+        if current_budget <= target_budget and projected_profit > best_profit:
+            best_profit = projected_profit
+            best_config = (t1, t2, t3)
+            best_df = temp_df
+            
+    if best_config is None:
+        print("Grid search failed to find a valid configuration under budget. Reverting to safe defaults.")
+        # Safe defaults
+        best_config = (0.10, 0.20, 0.20)
+        t1, t2, t3 = best_config
+        temp_df = df_w.copy()
+        total_w = len(temp_df)
+        c1 = int(total_w * t1)
+        c2 = c1 + int(total_w * t2)
+        c3 = c2 + int(total_w * t3)
+        temp_df['allocation_tier'] = 'None'
+        temp_df['Trade_Spend_Allocation_LKR'] = 0.0
+        temp_df.loc[:c1-1, 'allocation_tier'] = 'High'
+        temp_df.loc[:c1-1, 'Trade_Spend_Allocation_LKR'] = 2500.0
+        temp_df.loc[c1:c2-1, 'allocation_tier'] = 'Medium'
+        temp_df.loc[c1:c2-1, 'Trade_Spend_Allocation_LKR'] = 1167.0
+        temp_df.loc[c2:c3-1, 'allocation_tier'] = 'Low'
+        temp_df.loc[c2:c3-1, 'Trade_Spend_Allocation_LKR'] = 500.0
+        best_df = temp_df
+        
+    print(f"Optimal Configuration Found: Top {best_config[0]*100}% Tier 1, Next {best_config[1]*100}% Tier 2, Next {best_config[2]*100}% Tier 3")
+    df_w = best_df.copy()
+    
+    # Identify cutoffs for balancing logic
+    total_w = len(df_w)
+    tier1_cutoff = int(total_w * best_config[0])
+    tier2_cutoff = tier1_cutoff + int(total_w * best_config[1])
+    tier3_cutoff = tier2_cutoff + int(total_w * best_config[2])
+
+    # Greedy balancing to exactly 5,000,000
     current_budget = df_w['Trade_Spend_Allocation_LKR'].sum()
     print(f"Base allocation sum: {current_budget:,.2f} LKR. Balancing to {target_budget:,.2f} LKR...")
     
@@ -80,7 +161,7 @@ def main():
     
     if current_budget < target_budget:
         diff = target_budget - current_budget
-        for _ in range(500):
+        for _ in range(2000): # Increased iterations to ensure balancing
             if diff <= 0.01:
                 break
             
@@ -118,7 +199,7 @@ def main():
                         
     elif current_budget > target_budget:
         diff = current_budget - target_budget
-        for _ in range(500):
+        for _ in range(2000):
             if diff <= 0.01:
                 break
                 
@@ -221,6 +302,8 @@ def main():
     print(f"Budget Optimization Complete!")
     print(f"Total Budget Allocated: {final_budget:,.2f} LKR")
     print(f"Total Outlets Processed: {len(df_final)}")
+    
+    # Small tolerance for floating point summation
     assert abs(final_budget - 5000000.0) < 1.0, f"Budget mismatch: {final_budget}"
 
 if __name__ == '__main__':
