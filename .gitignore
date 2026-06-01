@@ -49,13 +49,14 @@ Data/Quarantine/*
 !Data/Raw/.gitkeep
 !Data/Bronze/.gitkeep
 !Data/Silver/.gitkeep
-!Data/Gold/.gitkeep
+#!Data/Gold/.gitkeep
 
 !outputs/**/ensemble_predictions.csv
 !outputs/**/bigbug_predictions.csv
 !outputs/**/prediction_diagnostics.csv
 !outputs/**/budget_diagnostics.csv
 !outputs/**/bigbug_budget_allocations.csv
+!Data/Optimizations/budget_features.parquet
 
 # Model checkpoints and artifacts
 *.pkl
@@ -70,4 +71,5 @@ modelling/artifacts/runs/**/*.pkl
 !data/Gold/poi_scrape_log.json
 !data/Gold/poi_raw_cache/
 !data/Gold/poi_raw_cache/**
-
+!data/Gold/*.parquet
+!data/Quarantine/*.parquet
