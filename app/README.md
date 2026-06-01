@@ -12,20 +12,20 @@ This is the interactive decision-support engine for the Data Storm v7.0 Final Ro
 
 ### 1. Generate the Local Database
 
-The web app relies on a local, highly-optimized SQLite database (`outlets.db`). You must generate it first from the provided CSV data.
+The web app relies on a local, highly-optimized SQLite database (`outlets.db`). You must generate it first from the provided data.
 
 ```bash
 # Navigate to the App directory (if you aren't already there)
 cd App
 
-# Install Python dependencies (pandas, sqlite3 is built-in)
-pip install pandas
+# Install Python dependencies (pyarrow is required to read parquet files)
+pip install pandas pyarrow
 
-# Run the database generation script
-python scripts/setup_db.py
+# Run the database generation script to build the full 20,000 outlet DB
+python scripts/populate_real_db.py
 ```
 
-This will parse the data files in `data/` and generate `data/outlets.db`.
+This will parse the data files across the `Data/` and `outputs/` pipeline folders and generate `App/data/outlets.db`.
 
 ### 2. Environment Variables
 
