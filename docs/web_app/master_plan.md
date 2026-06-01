@@ -44,7 +44,7 @@ Phase 1 is now **COMPLETED and FROZEN**. The exhaustive implementation plan for 
 - [x] **UI - Dashboard**: Add the 5th KPI card, Saturation column, and Market Saturation filter in `/`. *(Completed)*
 - [x] **UI - Details**: Add the Cooler Capacity and Market Catchment panels in `/outlets/[id]`. *(Completed, and refactored ML jargon to C-Suite friendly business terms like 'True Demand Est.' and 'Footfall Impact')*
 - [x] **UI - Map**: Upgrade `SingleMap.tsx` to render the 2km radius competitors and footfall POIs.
-- [ ] **GenAI API**: Update the `SYSTEM_PROMPT` in `route.ts` to explain the new Tobit/Hurdle and DBSCAN features.
+- [x] **GenAI API**: Update the `SYSTEM_PROMPT` in `route.ts` to explain the new Tobit/Hurdle and DBSCAN features. *(Completed: enriched context pipeline + C-Suite SYSTEM_PROMPT rewrite)*
 
 ---
 

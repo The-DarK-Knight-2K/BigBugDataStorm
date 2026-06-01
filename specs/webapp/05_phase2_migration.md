@@ -161,7 +161,7 @@ Upon completion of the code, the following verification steps were executed:
 3. ✅ Test the "Market Saturation" filter on the Dashboard.
 4. ✅ Click into an Outlet and visually confirm the new Capacity and Catchment panels.
 5. ✅ Verify the `SingleMap.tsx` correctly plots surrounding POI markers (including bus stops and hotels) and that the 2km radius filtering functions perfectly.
-6. ⬜ Click the "Generate Explanation" button to ensure the LLM gracefully handles the new context. *(Pending: SYSTEM_PROMPT upgrade not yet implemented)*
+6. ✅ Click the "Generate Explanation" button to ensure the LLM gracefully handles the new context. *(Completed: enriched context pipeline + C-Suite SYSTEM_PROMPT rewrite)*
 
 ### 6. Post-Implementation Audit Fixes
 

@@ -1,7 +1,6 @@
 # Spec 03: LLM & XAI Integration
 
-> [!WARNING]
-> **PENDING UPGRADE**: Phase 2 migration and audit are complete, but the `SYSTEM_PROMPT` below has **not yet been updated** to explain the new Tobit/Hurdle metrics, DBSCAN spatial context, and Cooler capacity constraints. This is the only remaining Phase 2 task. See [Spec 05](file:///c:/Users/USER/Desktop/BigBugDataStorm/specs/webapp/05_phase2_migration.md) § 4D for requirements.
+
 ## Caching Strategy
 1. The `xai_contexts` table stores a pre-computed `context_json` string for every outlet.
 2. The `xai_explanation` column is initialized as `NULL`.

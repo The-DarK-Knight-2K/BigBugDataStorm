@@ -138,6 +138,9 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
     }
   }, [xaiExplanation]);
 
+  const calculatedGap = Math.max(0, (outlet.predicted_potential_litres || context?.prediction?.Maximum_Monthly_Liters || 0) - (outlet.recent_3m_avg || context?.prediction?.recent_3m_avg || 0));
+  const upliftGap = outlet.budget_allocation?.uplift_gap_litres ?? context?.prediction?.uplift_gap_litres ?? calculatedGap;
+
   return (
     <div className="space-y-8 animate-fade-in">
       {/* Header breadcrumb & back button */}
@@ -218,12 +221,12 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
         <div className="glass-panel p-6 rounded-2xl relative overflow-hidden group hover:border-slate-700 transition-colors">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Uplift volume gap</p>
           <p className="text-3xl font-heading font-extrabold text-emerald-400 text-glow-emerald mt-2">
-            {outlet.budget_allocation?.uplift_gap_litres || context?.prediction?.uplift_gap_litres ? `${Math.round(outlet.budget_allocation?.uplift_gap_litres || context?.prediction?.uplift_gap_litres || 0).toLocaleString()} L` : '0 L'}
+            {upliftGap > 0 ? `${Math.round(upliftGap).toLocaleString()} L` : '0 L'}
           </p>
           <div className="text-[10px] text-slate-400 mt-2 font-mono flex items-center gap-1">
             <span>Growth Space:</span>
             <span className="text-emerald-400 font-bold">
-              {(outlet.budget_allocation?.uplift_gap_litres || context?.prediction?.uplift_gap_litres) && outlet.recent_3m_avg ? `+${Math.round(((outlet.budget_allocation?.uplift_gap_litres || context?.prediction?.uplift_gap_litres || 0) / outlet.recent_3m_avg) * 100)}%` : '0%'}
+              {upliftGap > 0 && (outlet.recent_3m_avg || context?.prediction?.recent_3m_avg) ? `+${Math.round((upliftGap / (outlet.recent_3m_avg || context?.prediction?.recent_3m_avg || 1)) * 100)}%` : '0%'}
             </span>
           </div>
         </div>
