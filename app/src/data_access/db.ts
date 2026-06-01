@@ -14,7 +14,8 @@ const globalForDb = globalThis as unknown as {
 
 // Initialize the connection or reuse the existing one
 const db = globalForDb.db ?? new Database(dbPath, { 
-  verbose: process.env.NODE_ENV !== 'production' ? console.log : undefined 
+  // Disable verbose logging to avoid terminal output corruption
+  verbose: undefined 
 });
 
 if (process.env.NODE_ENV !== 'production') {

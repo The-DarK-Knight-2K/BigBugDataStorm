@@ -388,7 +388,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
           </div>
           <div className="flex-1 min-h-[280px] w-full text-xs">
             {chartData.length > 0 ? (
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%" minHeight={280}>
                 <BarChart
                   data={chartData}
                   layout="vertical"

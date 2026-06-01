@@ -125,7 +125,7 @@ export default function BudgetClient({
           
           <div className="h-[250px] w-full flex items-center justify-center relative">
             {donutData.length > 0 ? (
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%" minHeight={250}>
                 <PieChart>
                   <Pie
                     data={donutData}
@@ -182,7 +182,7 @@ export default function BudgetClient({
           
           <div className="h-[250px] w-full text-xs">
             {barData.length > 0 ? (
-              <ResponsiveContainer width="100%" height="100%">
+              <ResponsiveContainer width="100%" height="100%" minHeight={250}>
                 <BarChart data={barData} margin={{ top: 10, right: 10, left: 10, bottom: 5 }}>
                   <XAxis dataKey="name" stroke="#94a3b8" fontSize={10} tickLine={false} />
                   <YAxis stroke="#94a3b8" fontSize={10} tickLine={false} />
