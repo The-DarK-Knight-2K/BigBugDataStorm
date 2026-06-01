@@ -79,7 +79,7 @@ export default function SingleMap({ outlet }: SingleMapProps) {
     // Competitors -> Red/Orange
     const competitors = ['supermarket', 'marketplace', 'convenience', 'mall'];
     // Footfall Drivers -> Green/Blue
-    const drivers = ['school', 'hospital', 'place_of_worship', 'bus_station', 'university', 'college'];
+    const drivers = ['school', 'hospital', 'place_of_worship', 'bus_station', 'university', 'college', 'bus_stop', 'station', 'platform', 'hotel', 'guest_house', 'hostel'];
     
     let bgColor = 'bg-slate-700/80';
     let borderColor = 'border-slate-500';
@@ -96,7 +96,8 @@ export default function SingleMap({ outlet }: SingleMapProps) {
       if (['school', 'university', 'college'].includes(type)) iconChar = '🏫';
       else if (type === 'hospital') iconChar = '🏥';
       else if (type === 'place_of_worship') iconChar = '🛕';
-      else if (type === 'bus_station') iconChar = '🚍';
+      else if (['bus_station', 'bus_stop', 'station', 'platform'].includes(type)) iconChar = '🚍';
+      else if (['hotel', 'guest_house', 'hostel'].includes(type)) iconChar = '🏨';
     }
 
     return L.divIcon({

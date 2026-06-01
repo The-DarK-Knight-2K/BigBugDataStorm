@@ -17,6 +17,12 @@ export interface Outlet {
   has_transaction_history: number;
   composite_gravity_score: number;
   footfall_score: number;
+  school_gravity_score: number;
+  transport_gravity_score: number;
+  worship_gravity_score: number;
+  hospitality_gravity_score: number;
+  active_months: number;
+  seasonality_multiplier_jan_2026: number;
   cooler_capacity_litres: number;
   theoretical_monthly_ceiling: number;
   capacity_utilization_ratio: number;
@@ -387,6 +393,12 @@ export function getOutletDetails(outletId: string): OutletDetail | null {
     has_transaction_history: row.has_transaction_history,
     composite_gravity_score: row.composite_gravity_score,
     footfall_score: row.footfall_score,
+    school_gravity_score: row.school_gravity_score,
+    transport_gravity_score: row.transport_gravity_score,
+    worship_gravity_score: row.worship_gravity_score,
+    hospitality_gravity_score: row.hospitality_gravity_score,
+    active_months: row.active_months,
+    seasonality_multiplier_jan_2026: row.seasonality_multiplier_jan_2026,
     cooler_capacity_litres: row.cooler_capacity_litres,
     theoretical_monthly_ceiling: row.theoretical_monthly_ceiling,
     capacity_utilization_ratio: row.capacity_utilization_ratio,

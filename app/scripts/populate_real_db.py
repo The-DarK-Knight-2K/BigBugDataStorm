@@ -52,6 +52,12 @@ def populate_real_db():
         has_transaction_history INTEGER,
         composite_gravity_score REAL,
         footfall_score REAL,
+        school_gravity_score REAL,
+        transport_gravity_score REAL,
+        worship_gravity_score REAL,
+        hospitality_gravity_score REAL,
+        active_months INTEGER,
+        seasonality_multiplier_jan_2026 REAL,
         cooler_capacity_litres REAL,
         theoretical_monthly_ceiling REAL,
         capacity_utilization_ratio REAL,
@@ -172,6 +178,12 @@ def populate_real_db():
             has_history,
             float(row.get('composite_gravity_score', 0.0)),
             float(row.get('footfall_score', 0.0)),
+            float(row.get('school_gravity_score', 0.0)),
+            float(row.get('transport_gravity_score', 0.0)),
+            float(row.get('worship_gravity_score', 0.0)),
+            float(row.get('hospitality_gravity_score', 0.0)),
+            int(row.get('active_months', 0)),
+            float(row.get('seasonality_multiplier_jan_2026', 1.0)),
             float(row.get('cooler_capacity_litres', 0.0)),
             float(row.get('theoretical_monthly_ceiling', 0.0)),
             float(row.get('capacity_utilization_ratio', 0.0)),
@@ -189,11 +201,14 @@ def populate_real_db():
             outlet_id, outlet_type, outlet_size, province, distributor_id,
             latitude, longitude, cooler_count, predicted_potential_litres,
             recent_3m_avg, hist_p90_monthly, has_transaction_history,
-            composite_gravity_score, footfall_score, cooler_capacity_litres,
+            composite_gravity_score, footfall_score, 
+            school_gravity_score, transport_gravity_score, worship_gravity_score, hospitality_gravity_score,
+            active_months, seasonality_multiplier_jan_2026,
+            cooler_capacity_litres,
             theoretical_monthly_ceiling, capacity_utilization_ratio, competitors_500m,
             competitors_1km, competition_density_score, market_saturation_class,
             tobit_latent_estimate, tobit_censoring_ratio, hurdle_estimate
-        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
     ''', outlets_data)
     
     # 2. Budget Allocations
@@ -261,12 +276,22 @@ def populate_real_db():
             (
                 "outlet_coordinates",
                 total_outlets, passed_coords, quarantine_coords, float(coords_q_rate),
-                json.dumps([{"check": "Invalid Lat/Lon", "failed": quarantine_coords}])
+                json.dumps([{
+                    "check_name": "Valid Lat/Lon Coordinates", 
+                    "passed": passed_coords,
+                    "quarantined": quarantine_coords,
+                    "failure_reason": "Missing or out-of-bounds coordinates"
+                }])
             ),
             (
                 "transactions",
                 total_tx, passed_tx, quarantine_tx, float(tx_q_rate),
-                json.dumps([{"check": "Negative Volume", "failed": quarantine_tx}])
+                json.dumps([{
+                    "check_name": "Non-negative Volume Integrity", 
+                    "passed": passed_tx,
+                    "quarantined": quarantine_tx,
+                    "failure_reason": "Negative returns exceeded threshold"
+                }])
             )
         ]
         
@@ -303,7 +328,7 @@ def populate_real_db():
                 lat = element.get('lat')
                 lon = element.get('lon')
                 tags = element.get('tags', {})
-                poi_type = tags.get('amenity') or tags.get('shop') or tags.get('leisure') or 'unknown'
+                poi_type = tags.get('amenity') or tags.get('shop') or tags.get('leisure') or tags.get('tourism') or tags.get('highway') or tags.get('public_transport') or 'unknown'
                 name = tags.get('name', '')
                 
                 # If lat/lon missing but it's a way with center

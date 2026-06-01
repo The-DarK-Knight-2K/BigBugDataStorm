@@ -1,6 +1,6 @@
 # Spec 05: Phase 2 - Real Data Migration & Feature Upgrade Master Plan
 
-This specification outlines the exhaustive, step-by-step master plan to transition the BigBugDataStorm web application from using static, mock JSON data to rendering live, production-grade ML models and geospatial data (Round 2 outputs).
+This specification outlines the exhaustive, step-by-step master plan that was executed to transition the BigBugDataStorm web application from using static, mock JSON data to rendering live, production-grade ML models and geospatial data (Round 2 outputs). **This phase is now COMPLETED.**
 
 By the end of this implementation, the dashboard will cater specifically to Sales Managers and C-Suite executives, highlighting advanced analytics (Physics-based Cooler Ceilings, Censored Tobit Demand, and Spatial Market Saturation) while strictly preserving all existing Budget Allocation components.
 
@@ -33,6 +33,12 @@ erDiagram
         INTEGER has_transaction_history
         REAL composite_gravity_score "Decay function score for POIs"
         REAL footfall_score
+        REAL school_gravity_score "Individual POI gravity (Audit Fix)"
+        REAL transport_gravity_score "Individual POI gravity (Audit Fix)"
+        REAL worship_gravity_score "Individual POI gravity (Audit Fix)"
+        REAL hospitality_gravity_score "Individual POI gravity (Audit Fix)"
+        INTEGER active_months "Trading history months (Audit Fix)"
+        REAL seasonality_multiplier_jan_2026 "Jan 2026 seasonal factor (Audit Fix)"
         REAL cooler_capacity_litres "Physics-based ceiling"
         REAL theoretical_monthly_ceiling
         REAL capacity_utilization_ratio
@@ -75,7 +81,7 @@ erDiagram
         INTEGER cluster_id
         REAL lat
         REAL lon
-        TEXT poi_type "e.g., supermarket, hospital, school"
+        TEXT poi_type "e.g., supermarket, hospital, school, bus_stop, hotel"
         TEXT name
         TEXT tags_json "Full OSM details"
     }
@@ -111,7 +117,9 @@ A new Python script will be engineered to perform the ETL (Extract, Transform, L
 5. **Parse POI JSON Cache**: Iterate through `poi_raw_cache/*.json`. For each file:
    - Extract `cluster_id`.
    - Map every `outlet_id` in that file to the `cluster_id` and insert into `outlet_clusters`.
-   - Loop through the `elements` array. Extract `lat`, `lon`, and `tags`. Insert them into `cluster_pois`.
+   - Loop through the `elements` array. Extract `lat`, `lon`, and `tags`. Determine `poi_type` by checking tags in priority order: `amenity` → `shop` → `leisure` → `tourism` → `highway` → `public_transport` → `'unknown'`. Insert into `cluster_pois`.
+
+> **Note (Audit Fix):** The original parser only checked `amenity`, `shop`, and `leisure`, causing bus stops (`highway: bus_stop`) and hotels (`tourism: hotel`) to be silently classified as `unknown` and excluded from map rendering.
 
 ### 4. Frontend Web App Upgrades
 
@@ -130,20 +138,38 @@ We will gracefully expand the Next.js UI to incorporate the new dimensions of da
 This is the flagship UI upgrade.
 1. **API Endpoint (`/api/outlets/[id]/pois`)**: We will create a new backend route. When called, it looks up the outlet's `cluster_id`, fetches all POIs for that cluster, calculates the geodesic distance from the outlet, and returns **only the POIs within a 2,000-meter (2km) radius**.
 2. **Map Rendering (`SingleMap.tsx`)**: 
-   - The map will render the central store as a pulsing marker.
-   - It will render surrounding **Competitors** (Supermarkets/Markets) using distinct red/orange icons.
-   - It will render **Footfall Drivers** (Schools, Hospitals, Temples, Transport) using distinct green/blue icons.
-3. **Interactive Popups**: Clicking on any POI marker will open a tooltip displaying its name and metadata (e.g., Religion, School type, Market name) derived from the `tags_json` field.
+   - The map renders the central store as a pulsing marker.
+   - It renders surrounding **Competitors** (Supermarkets, Marketplaces, Convenience stores, Malls) using distinct red/orange 🛒 icons.
+   - It renders **Footfall Drivers** using distinct blue icons:
+     - Schools/Universities/Colleges → 🏫
+     - Hospitals → 🏥
+     - Places of Worship → 🛕
+     - Bus Stops/Stations/Platforms → 🚍
+     - Hotels/Guest Houses/Hostels → 🏨
+3. **Interactive Popups**: Clicking on any POI marker opens a tooltip displaying its name and metadata (e.g., Religion, School type, Market name) derived from the `tags_json` field.
+
+> **Note (Audit Fix):** The original `SingleMap.tsx` only mapped `bus_station` to 🚍 and had no icon for hospitality POIs. After the audit, we expanded the driver list to also recognize `bus_stop`, `station`, `platform`, `hotel`, `guest_house`, and `hostel`.
 
 #### D. AI Explanation Prompt (`route.ts`)
 The `SYSTEM_PROMPT` provided to the Gemini LLM will be upgraded. It will be instructed to analyze and explain the new Tobit/Hurdle metrics, the DBSCAN spatial context, and the Cooler capacity constraints in plain, business-friendly English to support Sales Managers in decision-making.
 
 ### 5. Verification & Testing
 
-Upon completion of the code, we will execute the following verification steps:
-1. Run `python App/scripts/populate_real_db.py`. Verify it completes without error and that the database file is populated.
-2. Run `npm run dev`. Verify the web app compiles and the Dashboard loads real data with the new 5th KPI.
-3. Test the "Market Saturation" filter on the Dashboard.
-4. Click into an Outlet and visually confirm the new Capacity and Catchment panels.
-5. Verify the `SingleMap.tsx` correctly plots surrounding POI markers and that the 2km radius filtering functions perfectly.
-6. Click the "Generate Explanation" button to ensure the LLM gracefully handles the new context.
+Upon completion of the code, the following verification steps were executed:
+1. ✅ Run `python App/scripts/populate_real_db.py`. Verified: 20,000 outlets, 9,000 budgets, 20,000 XAI contexts, ~20,000 cluster links, ~38,000 POIs.
+2. ✅ Run `npm run dev`. Verified the web app compiles and the Dashboard loads real data with the new 5th KPI.
+3. ✅ Test the "Market Saturation" filter on the Dashboard.
+4. ✅ Click into an Outlet and visually confirm the new Capacity and Catchment panels.
+5. ✅ Verify the `SingleMap.tsx` correctly plots surrounding POI markers (including bus stops and hotels) and that the 2km radius filtering functions perfectly.
+6. ⬜ Click the "Generate Explanation" button to ensure the LLM gracefully handles the new context. *(Pending: SYSTEM_PROMPT upgrade not yet implemented)*
+
+### 6. Post-Implementation Audit Fixes
+
+After Phase 2 implementation, a comprehensive system audit identified and resolved 4 critical data-pipeline bugs:
+
+| # | Bug | Root Cause | Fix |
+|---|-----|------------|-----|
+| 1 | Spatial gravity scores were all `NULL` in DB | `populate_real_db.py` did not extract 6 columns from `master_features.parquet` | Added `school_gravity_score`, `transport_gravity_score`, `worship_gravity_score`, `hospitality_gravity_score`, `active_months`, `seasonality_multiplier_jan_2026` to schema and ETL |
+| 2 | Spatial Scorecard showed SHAP values instead of business metrics | `OutletDetailClient.tsx` read from `context` (SHAP) instead of `outlet` (DB record) | Refactored to read directly from `outlet` prop |
+| 3 | Pipeline Health validation logs showed blank rows | `check_details_json` used `{"check", "failed"}` keys instead of `{"check_name", "passed", "quarantined", "failure_reason"}` | Fixed JSON schema in `populate_real_db.py` |
+| 4 | Bus stops and hotels missing from 2km map | POI parser only checked `amenity`/`shop`/`leisure` tags | Extended to also check `tourism`/`highway`/`public_transport`; updated `SingleMap.tsx` icon mappings |

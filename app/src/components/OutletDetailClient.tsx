@@ -197,7 +197,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
           </p>
           <div className="text-[10px] text-slate-400 mt-2 font-mono flex items-center gap-1">
             <span>Multiplier:</span>
-            <span className="text-cyan-400 font-bold">{context?.prediction?.seasonality_multiplier_jan_2026 || 1.0}x</span>
+            <span className="text-cyan-400 font-bold">{outlet.seasonality_multiplier_jan_2026 || context?.prediction?.seasonality_multiplier_jan_2026 || 1.0}x</span>
             <span>(January)</span>
           </div>
         </div>
@@ -210,7 +210,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
           </p>
           <div className="text-[10px] text-slate-400 mt-2 font-mono flex items-center gap-1">
             <span>Active Months:</span>
-            <span className="text-slate-300 font-bold">{context?.sales_history?.active_months || 0}m</span>
+            <span className="text-slate-300 font-bold">{outlet.active_months || context?.sales_history?.active_months || 0}m</span>
           </div>
         </div>
 
@@ -415,25 +415,25 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                 {/* Transport Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                   <span className="text-slate-400">🚍 Transport Footfall Impact</span>
-                  <span className="text-white font-bold text-sm">{((context as any)?.transport_gravity_score || context?.gravity_features?.transport_gravity_score || 0).toFixed(2)}</span>
+                  <span className="text-white font-bold text-sm">{(outlet.transport_gravity_score || context?.gravity_features?.transport_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* School Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                   <span className="text-slate-400">🏫 School Footfall Impact</span>
-                  <span className="text-white font-bold text-sm">{((context as any)?.school_gravity_score || context?.gravity_features?.school_gravity_score || 0).toFixed(2)}</span>
+                  <span className="text-white font-bold text-sm">{(outlet.school_gravity_score || context?.gravity_features?.school_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* Worship Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                   <span className="text-slate-400">🛕 Worship Footfall Impact</span>
-                  <span className="text-white font-bold text-sm">{((context as any)?.worship_gravity_score || (context?.gravity_features as any)?.worship_gravity_score || 0).toFixed(2)}</span>
+                  <span className="text-white font-bold text-sm">{(outlet.worship_gravity_score || (context?.gravity_features as any)?.worship_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* Hospitality Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                   <span className="text-slate-400">🏨 Hospitality Footfall Impact</span>
-                  <span className="text-white font-bold text-sm">{((context as any)?.hospitality_gravity_score || (context?.gravity_features as any)?.hospitality_gravity_score || 0).toFixed(2)}</span>
+                  <span className="text-white font-bold text-sm">{(outlet.hospitality_gravity_score || (context?.gravity_features as any)?.hospitality_gravity_score || 0).toFixed(2)}</span>
                 </div>
               </div>
             </div>

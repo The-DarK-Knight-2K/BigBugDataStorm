@@ -1,7 +1,7 @@
 # Spec 04: UI & Pages (Fully Documented Implementation)
 
 > [!WARNING]
-> **PHASE 1 BASELINE**: This document reflects the baseline components, state, layouts, and styles from Phase 1. For Phase 2 modifications (e.g., adding the 5th KPI card, Market Saturation filters, and Cooler Capacity panels), refer strictly to `05_phase2_migration.md`.
+> **LIVING DOCUMENT**: This document has been updated to reflect the current production state after Phase 1, Phase 2, and the Phase 2 Audit. It covers all components as they exist in the codebase today.
 
 This document reflects the foundational components currently implemented in the React codebase (`App/src/components` and `App/src/app`).
 
@@ -22,20 +22,21 @@ The application is wrapped in a full-height, dark-themed dashboard shell.
 ## Page 1: Dashboard (`/`) -> `DashboardClient.tsx`
 The primary landing page for exploring the 20,000 outlets.
 
-- **KPI Cards Grid (4 Cards)**: Features glass-panel styling, bottom-right watermark emojis, hover scale effects, and distinct colored left-borders.
+- **KPI Cards Grid (5 Cards)**: Features glass-panel styling, bottom-right watermark emojis, hover scale effects, and distinct colored left-borders.
   1. **Total Outlets**: Cyan border. Shows total count.
   2. **Max Monthly Potential**: Violet border. Shows total predicted litres for January 2026.
   3. **Western Province Budget**: Emerald border if > 0, otherwise slate. Shows total allocated LKR.
   4. **High Potential Outlets**: Amber border. Shows count of Tier 1 targets.
+  5. **Avg Capacity Utilization**: Pink border. Shows physics-based ceiling percentage. *(Added in Phase 2)*
 - **Interactive Filter Toolbar**: 
-  - Dropdowns for Province, Distributor, Outlet Type, and Spend Tier.
+  - Dropdowns for Province, Distributor, Outlet Type, Spend Tier, and Market Saturation *(Added in Phase 2)*.
   - **Clear Filters Button**: Red-styled (`text-rose-400`) button that appears only when a filter is active.
 - **Geospatial Map Grid (`Map.tsx`)**:
   - Uses `react-leaflet` to plot circular markers for outlets. 
   - **Loading State**: Displays a spinning cyan ring with "Loading Map Coordinates..." while fetching data.
 - **Data Table**:
   - Displays paginated records (50 per page).
-  - **Columns**: Outlet ID, Province, Outlet Type, Distributor ID, Potential (L), Recent 3M Avg (L), T1 Potential Tier (Color-coded badges: Emerald for High, Amber for Medium, Rose for Low), and an Actions column.
+  - **Columns**: Outlet ID, Province, Outlet Type, Distributor ID, Potential (L), Recent 3M Avg (L), T1 Potential Tier (Color-coded badges: Emerald for High, Amber for Medium, Rose for Low), Saturation (Color-coded badges) *(Added in Phase 2)*, and an Actions column.
   - **Action Button**: A cyan-styled "Details &rarr;" button linking to `/outlets/[id]`.
   - **Loading State**: Shows a spinning cyan ring overlay when changing pages or filtering.
 
@@ -50,11 +51,14 @@ A deep-dive view into a single outlet's prediction, SHAP values, and XAI busines
   - Secondary attributes: Province, Type, Distributor, Size.
   - Info blocks (Right-aligned): Cooler count and precise GPS coordinates.
 - **Metrics Grid (4 Cards)**:
-  - **Max monthly potential**: Shows total L with seasonality multiplier note.
-  - **Recent 3M average**: Shows historical average and active months.
+  - **Max monthly potential**: Shows total L with seasonality multiplier note. *(Reads `seasonality_multiplier_jan_2026` from `outlet` prop — Audit Fix)*
+  - **Recent 3M average**: Shows historical average and active months. *(Reads `active_months` from `outlet` prop — Audit Fix)*
   - **Uplift volume gap**: Emphasized in emerald glow, shows the absolute gap and percentage growth space.
   - **Composite gravity score**: Shows the overall score and the individual footfall score.
-- **Map View (`SingleMap.tsx`)**: A smaller Leaflet map zoomed in on the specific outlet.
+- **Cooler & Capacity Ceiling Panel** *(Phase 2)*: Shows cooler capacity (L), theoretical ceiling (L), and a progress bar for utilization ratio.
+- **Market & Catchment Panel** *(Phase 2)*: Shows competition density score, market saturation class badge, Tobit ("True Demand Est.") and Hurdle estimates.
+- **Map View (`SingleMap.tsx`)**: A Leaflet map zoomed to the outlet with a 2km catchment radius circle. Plots nearby POIs from the `cluster_pois` table, color-coded by category (competitors in red, footfall drivers in blue).
+- **Spatial Analysis Scorecard**: Lists individual gravity scores (Transport 🚆, School 🏫, Worship 🛕, Hospitality 🍽️) with distinct emojis. *(Reads directly from `outlet` prop, NOT from SHAP `context_json` — Audit Fix)*
 - **SHAP Impact Chart**: 
   - Uses `Recharts` for a vertical BarChart mapping `shap_values`.
   - Positive impacts use a green gradient (`#059669` to `#10b981`).
