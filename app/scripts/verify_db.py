@@ -15,7 +15,7 @@ def verify_db():
     cursor = conn.cursor()
     
     # 1. Count verification
-    tables = ["outlets", "budget_allocations", "xai_contexts", "pipeline_health"]
+    tables = ["outlets", "budget_allocations", "xai_contexts", "pipeline_health", "outlet_clusters", "cluster_pois"]
     print("\n--- Row Counts ---")
     for t in tables:
         try:
