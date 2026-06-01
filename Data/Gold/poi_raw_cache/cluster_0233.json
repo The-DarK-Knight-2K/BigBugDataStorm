@@ -1,0 +1,871 @@
+{
+  "cluster_id": 233,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.383255,
+    "lat_max": 7.4691089999999996,
+    "lon_min": 80.573896,
+    "lon_max": 80.653424
+  },
+  "outlet_ids": [
+    "OUT_09109",
+    "OUT_09236",
+    "OUT_09344",
+    "OUT_09582",
+    "OUT_09669",
+    "OUT_09682",
+    "OUT_09790",
+    "OUT_09823",
+    "OUT_09829",
+    "OUT_09972",
+    "OUT_09994",
+    "OUT_10035",
+    "OUT_10257",
+    "OUT_10340",
+    "OUT_10571",
+    "OUT_10729",
+    "OUT_10809",
+    "OUT_10953",
+    "OUT_10962",
+    "OUT_11070",
+    "OUT_11146",
+    "OUT_11160",
+    "OUT_11187",
+    "OUT_11224",
+    "OUT_11239",
+    "OUT_11317",
+    "OUT_11323",
+    "OUT_11346",
+    "OUT_11467",
+    "OUT_11476",
+    "OUT_11487",
+    "OUT_11668",
+    "OUT_11704",
+    "OUT_11873",
+    "OUT_11906",
+    "OUT_12029",
+    "OUT_12250",
+    "OUT_12356",
+    "OUT_12367",
+    "OUT_12474",
+    "OUT_12639",
+    "OUT_12694",
+    "OUT_12717",
+    "OUT_12855",
+    "OUT_12947",
+    "OUT_12969"
+  ],
+  "n_outlets": 46,
+  "n_pois_returned": 95,
+  "scraped_at": "2026-05-16T20:59:24.674261",
+  "elements": [
+    {
+      "lat": 7.4203771,
+      "lon": 80.634167,
+      "tags": {
+        "name": "Ukuwela",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.467966,
+      "lon": 80.6248632,
+      "tags": {
+        "name": "Matale",
+        "railway": "station",
+        "wikidata": "Q30621471"
+      }
+    },
+    {
+      "lat": 7.4416745,
+      "lon": 80.6321344,
+      "tags": {
+        "name": "Elwala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.4013001,
+      "lon": 80.6133508,
+      "tags": {
+        "addr:city": "Alawathugoda",
+        "amenity": "school",
+        "name": "Alawathugoda National School"
+      }
+    },
+    {
+      "lat": 7.3870429,
+      "lon": 80.6071399,
+      "tags": {
+        "addr:street": "Neeralla Melchena Rd",
+        "amenity": "place_of_worship",
+        "name": "Dippitiya Chandrajothi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4220117,
+      "lon": 80.6447981,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Weligala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4597786,
+      "lon": 80.6437708,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4593849,
+      "lon": 80.6263258,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.453669,
+      "lon": 80.6338284,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4217335,
+      "lon": 80.6268768,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4233459,
+      "lon": 80.5943672,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.409432,
+      "lon": 80.6093376,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Alawatugoda"
+      }
+    },
+    {
+      "lat": 7.4092505,
+      "lon": 80.6095582,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Alawatugoda"
+      }
+    },
+    {
+      "lat": 7.4076892,
+      "lon": 80.6101242,
+      "tags": {
+        "addr:street": "Kandy-Jaffna Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Visuddharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4030026,
+      "lon": 80.6123907,
+      "tags": {
+        "addr:street": "Kandy-Jaffna Road",
+        "name": "Power Zone Guest Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.397634,
+      "lon": 80.6125604,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Garakmadilla Rajamaha Viharaya,Arambepola",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3935261,
+      "lon": 80.6189685,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Konakalagala Sri Vijitha Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.396688,
+      "lon": 80.6326666,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Malgamandeniya"
+      }
+    },
+    {
+      "lat": 7.389852,
+      "lon": 80.6351798,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pangollamada"
+      }
+    },
+    {
+      "lat": 7.388721,
+      "lon": 80.6022982,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nuga Gaha Handiya"
+      }
+    },
+    {
+      "lat": 7.3869389,
+      "lon": 80.6040926,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "dippitiya janapadaya gunannanda temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4171896,
+      "lon": 80.6379065,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Manamboda Jummah Masjid"
+      }
+    },
+    {
+      "lat": 7.4058823,
+      "lon": 80.6109104,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4025147,
+      "lon": 80.612867,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4122488,
+      "lon": 80.608038,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.4166085,
+      "lon": 80.6117647,
+      "tags": {
+        "bench": "yes",
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.4188903,
+      "lon": 80.6084062,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.424369,
+      "lon": 80.6155069,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4277299,
+      "lon": 80.6200361,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4378164,
+      "lon": 80.6236887,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4403366,
+      "lon": 80.6319671,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4311612,
+      "lon": 80.6210305,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4336443,
+      "lon": 80.622077,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4511517,
+      "lon": 80.63095,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4627222,
+      "lon": 80.6258349,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4541958,
+      "lon": 80.629635,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4599365,
+      "lon": 80.6279207,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4654502,
+      "lon": 80.6240519,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4678011,
+      "lon": 80.6227683,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4671623,
+      "lon": 80.6097554,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4605723,
+      "lon": 80.6155713,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4251074,
+      "lon": 80.6318139,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Samagi Mawatha Bus Stop"
+      }
+    },
+    {
+      "lat": 7.425897,
+      "lon": 80.6337694,
+      "tags": {
+        "addr:postcode": "21300",
+        "addr:street": "Dematagolla",
+        "amenity": "place_of_worship",
+        "name:en": "Siri Sumana Sama Viharaya",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 7.4213597,
+      "lon": 80.6335965,
+      "tags": {
+        "addr:street": "Ukuwela",
+        "amenity": "place_of_worship",
+        "name:en": "Bodimalu Viharaya",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 7.4314516,
+      "lon": 80.5746057,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhigodella Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4247657,
+      "lon": 80.5761667,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Welgala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3926955,
+      "lon": 80.5803633,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pabbatharama Viharaya Dolapihilla",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4313861,
+      "lon": 80.5833072,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uggala Kovila",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.3999425,
+      "lon": 80.5788187,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Godahena Rural Hospital"
+      }
+    },
+    {
+      "lat": 7.3902141,
+      "lon": 80.57891,
+      "tags": {
+        "amenity": "school",
+        "name": "Dolapihilla Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4378396,
+      "lon": 80.6028163,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4367092,
+      "lon": 80.5985141,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dambagasdeniya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4612119,
+      "lon": 80.58734,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Owilikanda Hospital"
+      }
+    },
+    {
+      "lat": 7.4554992,
+      "lon": 80.5767855,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4539487,
+      "lon": 80.5788535,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Owilikanda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4576375,
+      "lon": 80.5866641,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4579566,
+      "lon": 80.5867633,
+      "tags": {
+        "amenity": "school",
+        "name": "Owilikanda Primary School"
+      }
+    },
+    {
+      "lat": 7.4014342,
+      "lon": 80.607128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Delgasgoda Purana Piriwen Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4559336,
+      "lon": 80.6281598,
+      "tags": {
+        "addr:city": "Matale",
+        "addr:street": "Rohana Dissanayake Mawatha",
+        "internet_access": "yes",
+        "name": "The Grand Mountain Hotel",
+        "stars": "4",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4683118,
+      "lon": 80.6238028,
+      "tags": {
+        "addr:street": "Jaffna - Kandy Road",
+        "amenity": "restaurant",
+        "name:en": "New Rajeswarie Bhawan"
+      }
+    },
+    {
+      "lat": 7.3970438,
+      "lon": 80.5887271,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3921536,
+      "lon": 80.5910201,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4099789,
+      "lon": 80.5852666,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4417268,
+      "lon": 80.5748429,
+      "tags": {
+        "addr:city": "Ankumbura",
+        "addr:street": "Ankumbura - Owilikanda Road",
+        "amenity": "restaurant",
+        "name": "Grand Piyol Reception Hall"
+      }
+    },
+    {
+      "lat": 7.4419229,
+      "lon": 80.5784307,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mithsewana",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4066879,
+      "lon": 80.6520967,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raithalawela Sub Post Office"
+      }
+    },
+    {
+      "lat": 7.4074859,
+      "lon": 80.6507073,
+      "tags": {
+        "name": "ACM Store Raithalawela",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4398509,
+      "lon": 80.6316596,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "New Ransiri Restaurant & Bakehouse"
+      }
+    },
+    {
+      "lat": 7.4549998,
+      "lon": 80.5816433,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "supuni resturant"
+      }
+    },
+    {
+      "lat": 7.4554191,
+      "lon": 80.5811398,
+      "tags": {
+        "name": "lilananda store",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4558033,
+      "lon": 80.5811836,
+      "tags": {
+        "name": "sarath shop",
+        "operator": "sarath",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4571519,
+      "lon": 80.5865417,
+      "tags": {
+        "amenity": "school",
+        "name": "owilikanda school ground"
+      }
+    },
+    {
+      "lat": 7.4218552,
+      "lon": 80.6269562,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4619973,
+      "lon": 80.6252308,
+      "tags": {
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "Matale Base Hospital"
+      }
+    },
+    {
+      "lat": 7.4634445,
+      "lon": 80.6254703,
+      "tags": {
+        "amenity": "school",
+        "name": "Govt. Science College"
+      }
+    },
+    {
+      "lat": 7.4623967,
+      "lon": 80.6252611,
+      "tags": {
+        "amenity": "hospital",
+        "name": "District Hospital"
+      }
+    },
+    {
+      "lat": 7.46437,
+      "lon": 80.62703,
+      "tags": {
+        "amenity": "school",
+        "name": "Sirimavo Bandaranayake Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4416216,
+      "lon": 80.5977416,
+      "tags": {
+        "amenity": "school",
+        "name": "Thibbotuwawa Primary School"
+      }
+    },
+    {
+      "lat": 7.4597159,
+      "lon": 80.5888166,
+      "tags": {
+        "amenity": "school",
+        "name": "Owilikanda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4057717,
+      "lon": 80.6075364,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Alawathugoda Maha Saman Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4679484,
+      "lon": 80.6201555,
+      "tags": {
+        "amenity": "school",
+        "name": "Christ Church National School"
+      }
+    },
+    {
+      "lat": 7.4675198,
+      "lon": 80.6222008,
+      "tags": {
+        "amenity": "school",
+        "name": "Pakkiyam National college"
+      }
+    },
+    {
+      "lat": 7.4091006,
+      "lon": 80.6482673,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.4227835,
+      "lon": 80.5853118,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Uggala Tamil School"
+      }
+    },
+    {
+      "lat": 7.4678913,
+      "lon": 80.6232806,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "pillayar kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.4049462,
+      "lon": 80.6530126,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "masjidul Hudha Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.4118949,
+      "lon": 80.6438577,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "place_of_worship",
+        "name": "Masjidul Noor Jummah Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.4184081,
+      "lon": 80.6421997,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "place_of_worship",
+        "name": "Maberiya Jummah Masjidh",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.4213023,
+      "lon": 80.6349901,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ukuwela Town Masjidh",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.4550117,
+      "lon": 80.5816467,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "supuni resturant"
+      }
+    },
+    {
+      "lat": 7.4539549,
+      "lon": 80.5788971,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "owilikanda temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4576324,
+      "lon": 80.5866539,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4568646,
+      "lon": 80.5866101,
+      "tags": {
+        "amenity": "school",
+        "name": "owiliknda school ground"
+      }
+    },
+    {
+      "lat": 7.4554144,
+      "lon": 80.5811445,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4557342,
+      "lon": 80.5811669,
+      "tags": {
+        "building": "yes",
+        "name": "sarath shop",
+        "operator": "sarath",
+        "shop": "supermarket"
+      }
+    }
+  ]
+}

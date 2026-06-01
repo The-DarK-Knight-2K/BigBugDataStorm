@@ -1,0 +1,691 @@
+{
+  "cluster_id": 273,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.682126,
+    "lat_max": 6.745723,
+    "lon_min": 80.006472,
+    "lon_max": 80.083889
+  },
+  "outlet_ids": [
+    "OUT_00059",
+    "OUT_00123",
+    "OUT_00128",
+    "OUT_00566",
+    "OUT_00577",
+    "OUT_00819",
+    "OUT_00912",
+    "OUT_01152",
+    "OUT_01199",
+    "OUT_01313",
+    "OUT_01402",
+    "OUT_01418",
+    "OUT_01465",
+    "OUT_01558",
+    "OUT_01646",
+    "OUT_01873",
+    "OUT_01962",
+    "OUT_02113",
+    "OUT_02268",
+    "OUT_02493",
+    "OUT_02506",
+    "OUT_02596",
+    "OUT_02628",
+    "OUT_02896",
+    "OUT_02904",
+    "OUT_03090",
+    "OUT_03159",
+    "OUT_03328",
+    "OUT_03466",
+    "OUT_03476",
+    "OUT_03527",
+    "OUT_04161",
+    "OUT_04184",
+    "OUT_04395",
+    "OUT_05035",
+    "OUT_05107",
+    "OUT_05358",
+    "OUT_05385",
+    "OUT_06029",
+    "OUT_06049",
+    "OUT_06301",
+    "OUT_06363",
+    "OUT_06605",
+    "OUT_06700",
+    "OUT_06714",
+    "OUT_06715",
+    "OUT_06945",
+    "OUT_07356",
+    "OUT_07373",
+    "OUT_07385",
+    "OUT_07754",
+    "OUT_07903",
+    "OUT_08014",
+    "OUT_08216",
+    "OUT_08390",
+    "OUT_08576",
+    "OUT_08743",
+    "OUT_08910"
+  ],
+  "n_outlets": 58,
+  "n_pois_returned": 64,
+  "scraped_at": "2026-05-16T22:04:38.504391",
+  "elements": [
+    {
+      "lat": 6.7120268,
+      "lon": 80.0619358,
+      "tags": {
+        "addr:street": "Horana-Anguruwathota-Aluthgama Road",
+        "amenity": "school",
+        "created_by": "Potlatch 0.8",
+        "name": "Thakshila Central College",
+        "name:en": "Taxila Central College , Horana"
+      }
+    },
+    {
+      "lat": 6.7176012,
+      "lon": 80.0597184,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.722502,
+      "lon": 80.0774387,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-01",
+        "name": "Bhodirukkaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.707453,
+      "lon": 80.068539,
+      "tags": {
+        "amenity": "school",
+        "name": "Sripalee Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7139662,
+      "lon": 80.0705634,
+      "tags": {
+        "amenity": "school",
+        "created_by": "Potlatch 0.8a",
+        "name": "Thakshila primary"
+      }
+    },
+    {
+      "lat": 6.7168268,
+      "lon": 80.0693193,
+      "tags": {
+        "amenity": "school",
+        "name": "Rajakeeya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7233581,
+      "lon": 80.0803549,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "City French Corner"
+      }
+    },
+    {
+      "lat": 6.7211265,
+      "lon": 80.0653521,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.720922,
+      "lon": 80.0488773,
+      "tags": {
+        "addr:city": "Horana",
+        "addr:postcode": "12400",
+        "addr:street": "Panadura-Rathnapura",
+        "amenity": "place_of_worship",
+        "name": "St. Martin De Porres",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7167683,
+      "lon": 80.0723871,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Narthanagala Monestry",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7252975,
+      "lon": 80.0296158,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7283966,
+      "lon": 80.0349665,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Vinayalankaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7253739,
+      "lon": 80.0344736,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kithsirimewan Raja Maha viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7161253,
+      "lon": 80.0619208,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Horana market"
+      }
+    },
+    {
+      "lat": 6.7214626,
+      "lon": 80.0132274,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raigama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7198164,
+      "lon": 80.0561052,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-01",
+        "name": "Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7201397,
+      "lon": 80.0566461,
+      "tags": {
+        "amenity": "school",
+        "name": "Vidyaratanaya"
+      }
+    },
+    {
+      "lat": 6.7091779,
+      "lon": 80.0664575,
+      "tags": {
+        "name": "Ananda Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7208825,
+      "lon": 80.056492,
+      "tags": {
+        "amenity": "school",
+        "name": "Ashoka College"
+      }
+    },
+    {
+      "lat": 6.707532,
+      "lon": 80.07014,
+      "tags": {
+        "amenity": "university",
+        "name": "Sripali Campus",
+        "operator": "University of Colombo"
+      }
+    },
+    {
+      "lat": 6.6898143,
+      "lon": 80.0750674,
+      "tags": {
+        "amenity": "school",
+        "name": "Ballapitiya Kanishta Vidyalaya",
+        "name:en": "Bellapitiya Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.712256,
+      "lon": 80.064257,
+      "tags": {
+        "atm": "no",
+        "delivery": "no",
+        "internet_access": "no",
+        "name": "Malwanna grocery",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.723611,
+      "lon": 80.069794,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahamewna Asapuwa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.728419,
+      "lon": 80.066807,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7087274,
+      "lon": 80.0616135,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Isipathanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.6957034,
+      "lon": 80.0307313,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Lenawara Raja Maha Viharaya",
+        "religion": "buddhist",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.7241677,
+      "lon": 80.0343166,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pokunuvita Rajamaha viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7098669,
+      "lon": 80.0658698,
+      "tags": {
+        "name": "Seven Super City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7168767,
+      "lon": 80.0659028,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.720924,
+      "lon": 80.074441,
+      "tags": {
+        "addr:city": "Horana",
+        "addr:postcode": "12400",
+        "addr:street": "Rathnapura road",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Madura reception hall"
+      }
+    },
+    {
+      "lat": 6.7201113,
+      "lon": 80.0556764,
+      "tags": {
+        "addr:city": "Horana",
+        "addr:postcode": "12400",
+        "addr:street": "Panadura Road",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Fat Mamas",
+        "phone": "+94 (0)726351902-3",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.718964,
+      "lon": 80.057532,
+      "tags": {
+        "addr:city": "Horana",
+        "addr:postcode": "12400",
+        "addr:street": "Panadura road",
+        "amenity": "restaurant",
+        "name": "Zizygy family",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.6844232,
+      "lon": 80.0482806,
+      "tags": {
+        "amenity": "school",
+        "name": "Labugama Vijitha Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7011205,
+      "lon": 80.0682817,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hansa Rest"
+      }
+    },
+    {
+      "lat": 6.6942754,
+      "lon": 80.0758668,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Athukorala Food Centre",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.68965,
+      "lon": 80.0759095,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Walpita Road"
+      }
+    },
+    {
+      "lat": 6.7009618,
+      "lon": 80.0474716,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thibbotugoda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.6944282,
+      "lon": 80.0299909,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.7211841,
+      "lon": 80.0743544,
+      "tags": {
+        "amenity": "restaurant",
+        "capacity": "20",
+        "name": "Kalana Food Cabin",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.6830058,
+      "lon": 80.0215268,
+      "tags": {
+        "addr:postcode": "12412",
+        "amenity": "place_of_worship",
+        "name": "Dewarakshith Viharaya",
+        "name:en": "Dewarakshith Viharaya",
+        "name:si": "\u0daf\u0dd9\u0dc0\u0dbb\u0d9a\u0dca\u0dc2\u0dd2\u0dad \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7185924,
+      "lon": 80.0766541,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ABC HOSPITAL"
+      }
+    },
+    {
+      "lat": 6.6843352,
+      "lon": 80.0411158,
+      "tags": {
+        "covered": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7259653,
+      "lon": 80.0553232,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Mhedankara Vidyala"
+      }
+    },
+    {
+      "lat": 6.7112399,
+      "lon": 80.0669863,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Base Hospital -Horana"
+      }
+    },
+    {
+      "lat": 6.7257099,
+      "lon": 80.0334323,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.715714,
+      "lon": 80.080521,
+      "tags": {
+        "amenity": "school",
+        "name": "Prajapathee Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7158559,
+      "lon": 80.0620596,
+      "tags": {
+        "building": "yes",
+        "building:levels": "3",
+        "height": "9",
+        "name": "Horana Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.6885947,
+      "lon": 80.0526857,
+      "tags": {
+        "addr:city": "Horana",
+        "amenity": "place_of_worship",
+        "name": "Dhammarakkhitharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.6978169,
+      "lon": 80.0721512,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bellapitiya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7102044,
+      "lon": 80.0655858,
+      "tags": {
+        "addr:city": "Horana",
+        "addr:postcode": "12400",
+        "addr:street": "Horana-Anguruwathota-Aluthgama Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "New Medihelp"
+      }
+    },
+    {
+      "lat": 6.7412702,
+      "lon": 80.0507079,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kadanhena Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7365736,
+      "lon": 80.0580113,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7116271,
+      "lon": 80.0620565,
+      "tags": {
+        "amenity": "school",
+        "name": "Thakshila Central College"
+      }
+    },
+    {
+      "lat": 6.6843122,
+      "lon": 80.0219512,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.6849799,
+      "lon": 80.0665752,
+      "tags": {
+        "contact:email": "info@lotusgrandviewhotel.com",
+        "contact:phone": "+94 342 267 477",
+        "contact:website": "http://www.lotusgrandviewhotel.com/",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Lotus Grandview",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.6979084,
+      "lon": 80.0718953,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7005919,
+      "lon": 80.0737586,
+      "tags": {
+        "amenity": "school",
+        "name": "Sripalee Primary"
+      }
+    },
+    {
+      "lat": 6.7147123,
+      "lon": 80.0637821,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "building:levels": "1",
+        "height": "5",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7107244,
+      "lon": 80.0692636,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7171183,
+      "lon": 80.0699395,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.6826502,
+      "lon": 80.0471827,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.718552,
+      "lon": 80.0687314,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.7213638,
+      "lon": 80.044459,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "source": "microsoft/BuildingFootprints"
+      }
+    },
+    {
+      "lat": 6.7192326,
+      "lon": 80.0576535,
+      "tags": {
+        "addr:city": "Horana",
+        "addr:housenumber": "268",
+        "addr:postcode": "12400",
+        "addr:street": "Panadura Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Awinvo Restaurent"
+      }
+    }
+  ]
+}

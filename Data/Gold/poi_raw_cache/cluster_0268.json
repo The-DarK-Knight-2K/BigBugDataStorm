@@ -1,0 +1,508 @@
+{
+  "cluster_id": 268,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.084466,
+    "lat_max": 7.17906,
+    "lon_min": 80.74584899999999,
+    "lon_max": 80.817952
+  },
+  "outlet_ids": [
+    "OUT_09335",
+    "OUT_09447",
+    "OUT_09491",
+    "OUT_09729",
+    "OUT_09766",
+    "OUT_09806",
+    "OUT_09873",
+    "OUT_09980",
+    "OUT_09997",
+    "OUT_10343",
+    "OUT_10504",
+    "OUT_10619",
+    "OUT_10636",
+    "OUT_10639",
+    "OUT_10685",
+    "OUT_10715",
+    "OUT_11079",
+    "OUT_11149",
+    "OUT_11349",
+    "OUT_11359",
+    "OUT_11564",
+    "OUT_11617",
+    "OUT_11759",
+    "OUT_11819",
+    "OUT_11845",
+    "OUT_12074",
+    "OUT_12118",
+    "OUT_12230",
+    "OUT_12237",
+    "OUT_12343",
+    "OUT_12459",
+    "OUT_12535",
+    "OUT_12840",
+    "OUT_12843",
+    "OUT_12885"
+  ],
+  "n_outlets": 35,
+  "n_pois_returned": 54,
+  "scraped_at": "2026-05-16T22:04:11.910998",
+  "elements": [
+    {
+      "lat": 7.1238008,
+      "lon": 80.8177847,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.1447195,
+      "lon": 80.7676385,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sugatha Munindaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1117787,
+      "lon": 80.7632929,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hewaheta",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0903207,
+      "lon": 80.7985121,
+      "tags": {
+        "addr:city": "Padiyapelella",
+        "addr:street": "Ragala - Thannnakubura Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhirukkharama Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1542216,
+      "lon": 80.758134,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1485974,
+      "lon": 80.7542887,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1320266,
+      "lon": 80.7588566,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1407303,
+      "lon": 80.7535136,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1422285,
+      "lon": 80.7931606,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1634262,
+      "lon": 80.8154726,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udagalauda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1379326,
+      "lon": 80.7991032,
+      "tags": {
+        "amenity": "school",
+        "name": "Bogamuwa School"
+      }
+    },
+    {
+      "lat": 7.1298266,
+      "lon": 80.8039352,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1260205,
+      "lon": 80.7741103,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1125106,
+      "lon": 80.7703686,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1156166,
+      "lon": 80.7655513,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0990521,
+      "lon": 80.8016659,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0955701,
+      "lon": 80.801397,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.145393,
+      "lon": 80.7822782,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rikillagaskada Hospital"
+      }
+    },
+    {
+      "lat": 7.1770792,
+      "lon": 80.7757462,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hanguranketha Pothgul Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0913152,
+      "lon": 80.7973879,
+      "tags": {
+        "addr:city": "Padiyapelella",
+        "addr:street": "Ragala - Rikillagaskada - Thennekumbura Road",
+        "amenity": "school",
+        "name": "Padiyapelella Primary School"
+      }
+    },
+    {
+      "lat": 7.1055051,
+      "lon": 80.8066574,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1778793,
+      "lon": 80.7841149,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1547437,
+      "lon": 80.7957114,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.097276,
+      "lon": 80.7986279,
+      "tags": {
+        "amenity": "school",
+        "name": "Padiyapelella Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0897591,
+      "lon": 80.8033586,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ukuthule Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0886429,
+      "lon": 80.8055674,
+      "tags": {
+        "amenity": "school",
+        "name": "Ukuthule Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1282548,
+      "lon": 80.7498832,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Karamindula Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.10163,
+      "lon": 80.8110188,
+      "tags": {
+        "amenity": "school",
+        "name": "Landupita School"
+      }
+    },
+    {
+      "lat": 7.1507138,
+      "lon": 80.7606409,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.1631468,
+      "lon": 80.8163564,
+      "tags": {
+        "amenity": "school",
+        "name": "Udagalauda School"
+      }
+    },
+    {
+      "lat": 7.1384934,
+      "lon": 80.7991094,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bogamuwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1466333,
+      "lon": 80.8170081,
+      "tags": {
+        "amenity": "school",
+        "name": "Moragolla School"
+      }
+    },
+    {
+      "lat": 7.1334329,
+      "lon": 80.8026246,
+      "tags": {
+        "amenity": "school",
+        "name": "Pallewela Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1332249,
+      "lon": 80.7878672,
+      "tags": {
+        "building": "yes",
+        "name": "Waduge stores",
+        "opening_hours": "08:00-20:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1788813,
+      "lon": 80.768475,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Aratthana Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0926646,
+      "lon": 80.8150532,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1192599,
+      "lon": 80.7916096,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1239046,
+      "lon": 80.7842544,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wilawala Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1238911,
+      "lon": 80.7827724,
+      "tags": {
+        "amenity": "school",
+        "name": "Wilawala Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1215268,
+      "lon": 80.7840554,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1140472,
+      "lon": 80.7930947,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.1176881,
+      "lon": 80.7979878,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.1169207,
+      "lon": 80.7981154,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1369374,
+      "lon": 80.7883121,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1332997,
+      "lon": 80.7775355,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1264264,
+      "lon": 80.7970298,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.1719388,
+      "lon": 80.7720978,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1565664,
+      "lon": 80.7852199,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.1134927,
+      "lon": 80.7667651,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.1431555,
+      "lon": 80.8085599,
+      "tags": {
+        "building": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1315705,
+      "lon": 80.7842536,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "buddhist",
+        "name": "welamphagoda purana viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1344042,
+      "lon": 80.7859601,
+      "tags": {
+        "amenity": "school",
+        "name": "denike primary school"
+      }
+    },
+    {
+      "lat": 7.1342402,
+      "lon": 80.7868127,
+      "tags": {
+        "amenity": "school",
+        "name": "Denike secondary school"
+      }
+    },
+    {
+      "lat": 7.1462954,
+      "lon": 80.7851913,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "rikillagaskada pola",
+        "opening_hours": "saturday"
+      }
+    }
+  ]
+}

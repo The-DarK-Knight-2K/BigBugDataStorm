@@ -1,0 +1,3833 @@
+{
+  "cluster_id": 103,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.864234000000001,
+    "lat_max": 6.9384879999999995,
+    "lon_min": 79.78241,
+    "lon_max": 79.854566
+  },
+  "outlet_ids": [
+    "OUT_00028",
+    "OUT_00057",
+    "OUT_00270",
+    "OUT_00312",
+    "OUT_00314",
+    "OUT_00467",
+    "OUT_00527",
+    "OUT_00537",
+    "OUT_00586",
+    "OUT_00670",
+    "OUT_00712",
+    "OUT_00860",
+    "OUT_00892",
+    "OUT_00988",
+    "OUT_01005",
+    "OUT_01127",
+    "OUT_01185",
+    "OUT_01582",
+    "OUT_01614",
+    "OUT_01623",
+    "OUT_01694",
+    "OUT_01761",
+    "OUT_02032",
+    "OUT_02271",
+    "OUT_02292",
+    "OUT_02449",
+    "OUT_02511",
+    "OUT_02512",
+    "OUT_02791",
+    "OUT_02953",
+    "OUT_03029",
+    "OUT_03143",
+    "OUT_03146",
+    "OUT_03266",
+    "OUT_03380",
+    "OUT_03701",
+    "OUT_03814",
+    "OUT_03942",
+    "OUT_03969",
+    "OUT_04212",
+    "OUT_04365",
+    "OUT_04474",
+    "OUT_04541",
+    "OUT_04662",
+    "OUT_04784",
+    "OUT_05261",
+    "OUT_05268",
+    "OUT_05285",
+    "OUT_05305",
+    "OUT_05317",
+    "OUT_05325",
+    "OUT_05431",
+    "OUT_05456",
+    "OUT_05473",
+    "OUT_05549",
+    "OUT_05639",
+    "OUT_05864",
+    "OUT_05952",
+    "OUT_06111",
+    "OUT_06233",
+    "OUT_06261",
+    "OUT_06369",
+    "OUT_06710",
+    "OUT_06788",
+    "OUT_06814",
+    "OUT_06848",
+    "OUT_06973",
+    "OUT_07045",
+    "OUT_07099",
+    "OUT_07166",
+    "OUT_07197",
+    "OUT_07277",
+    "OUT_07286",
+    "OUT_07570",
+    "OUT_07733",
+    "OUT_07835",
+    "OUT_07839",
+    "OUT_07854",
+    "OUT_07890",
+    "OUT_07922",
+    "OUT_08034",
+    "OUT_08063",
+    "OUT_08076",
+    "OUT_08230",
+    "OUT_08287",
+    "OUT_08584",
+    "OUT_08898"
+  ],
+  "n_outlets": 87,
+  "n_pois_returned": 305,
+  "scraped_at": "2026-05-16T20:36:05.085993",
+  "elements": [
+    {
+      "lat": 6.9314456,
+      "lon": 79.8460198,
+      "tags": {
+        "abbr_name": "SCR",
+        "name": "Secretariat Halt",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.9291227,
+      "lon": 79.8493786,
+      "tags": {
+        "addr:city": "Colombo",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "check_date": "2022-11-29",
+        "internet_access:fee": "no",
+        "name": "Cinnamon Lakeside Hotel",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "yes",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "https://www.cinnamonhotels.com/cinnamonlakesidecolombo",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9211657,
+      "lon": 79.8476483,
+      "tags": {
+        "addr:city": "Colombo City Limit",
+        "brand": "Ramada",
+        "brand:wikidata": "Q1502859",
+        "name": "Ramada Colombo",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9340332,
+      "lon": 79.8502961,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Fort Bus Stop",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9054542,
+      "lon": 79.8538312,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "R.A. De Mel Mawatha",
+        "amenity": "school",
+        "name": "Mahanama College",
+        "wikidata": "Q13645958",
+        "wikipedia": "en:Mahanama College"
+      }
+    },
+    {
+      "lat": 6.9118581,
+      "lon": 79.8511941,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Srimath Anagarika Dharmapala Mawatha",
+        "check_date": "2022-12-22",
+        "internet_access": "wlan",
+        "name": "Liberty Plaza",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9168028,
+      "lon": 79.8475967,
+      "tags": {
+        "amenity": "school",
+        "name": "St.Thomas Preparatory School",
+        "wikidata": "Q7387949",
+        "wikipedia": "en:S. Thomas' Preparatory School"
+      }
+    },
+    {
+      "lat": 6.9097418,
+      "lon": 79.8515739,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "name": "Sea View Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9137171,
+      "lon": 79.8533097,
+      "tags": {
+        "amenity": "school",
+        "name": "St Mary's Girl School"
+      }
+    },
+    {
+      "lat": 6.9136106,
+      "lon": 79.8527947,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Micheals College"
+      }
+    },
+    {
+      "lat": 6.9089987,
+      "lon": 79.8509336,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "amenity": "restaurant",
+        "name": "168 Seafood Palace"
+      }
+    },
+    {
+      "lat": 6.9205897,
+      "lon": 79.8468691,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2025-11-05",
+        "cuisine": "german",
+        "name": "The Bavarian"
+      }
+    },
+    {
+      "lat": 6.9020806,
+      "lon": 79.85174,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sakura"
+      }
+    },
+    {
+      "lat": 6.9145596,
+      "lon": 79.8531046,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Margerets convent"
+      }
+    },
+    {
+      "lat": 6.9200252,
+      "lon": 79.8472876,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Nihonbashi"
+      }
+    },
+    {
+      "lat": 6.9249896,
+      "lon": 79.8525544,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sive Subramaniya Kovil Slave Island",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9245156,
+      "lon": 79.8530785,
+      "tags": {
+        "addr:city": "Colombo02",
+        "addr:street": "Kew Lane",
+        "amenity": "place_of_worship",
+        "name": "Masjidul Akbar Jumma Mosque Slave Island",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9211999,
+      "lon": 79.8522443,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhiraja Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9076913,
+      "lon": 79.8542371,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Anthony's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9367886,
+      "lon": 79.8481559,
+      "tags": {
+        "addr:city": "Colombo 11",
+        "addr:street": "Sir Baron Jayathilaka Mawatha",
+        "amenity": "place_of_worship",
+        "check_date": "2024-12-26",
+        "name": "Sri Bodhiraja Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9356618,
+      "lon": 79.8447967,
+      "tags": {
+        "alt_name": "Kentucky Fried Chicken",
+        "alt_name:en": "Kentucky Fried Chicken",
+        "alt_name:hi": "\u0915\u0947\u0902\u091f\u0941\u0915\u0940 \u092b\u094d\u0930\u093e\u0907\u0921 \u091a\u093f\u0915\u0928",
+        "alt_name:pa": "\u0a15\u0a48\u0a02\u0a1f\u0a41\u0a15\u0a40 \u0a2b\u0a4d\u0a30\u0a3e\u0a08\u0a21 \u0a1a\u0a3f\u0a15\u0a28",
+        "alt_name:pnb": "\u06a9\u06cc\u0646\u0679\u06a9\u06cc \u0641\u0631\u0627\u0626\u06cc\u0688 \u0686\u06a9\u0646",
+        "alt_name:ur": "\u06a9\u06cc\u0646\u0679\u06a9\u06cc \u0641\u0631\u0627\u0626\u06cc\u0688 \u0686\u06a9\u0646",
+        "amenity": "fast_food",
+        "brand": "KFC",
+        "brand:en": "KFC",
+        "brand:hi": "\u0915\u0947\u090f\u092b\u0938\u0940",
+        "brand:pa": "\u0a15\u0a47\u0a10\u0a2b\u0a38\u0a40",
+        "brand:pnb": "\u06a9\u06d2 \u0627\u06cc\u0641 \u0633\u06cc",
+        "brand:ur": "\u06a9\u06d2 \u0627\u06cc\u0641 \u0633\u06cc",
+        "brand:wikidata": "Q524757",
+        "cuisine": "chicken",
+        "name": "KFC",
+        "name:en": "KFC",
+        "name:hi": "\u0915\u0947\u090f\u092b\u0938\u0940",
+        "name:pa": "\u0a15\u0a47\u0a10\u0a2b\u0a38\u0a40",
+        "name:pnb": "\u06a9\u06d2 \u0627\u06cc\u0641 \u0633\u06cc",
+        "name:ur": "\u06a9\u06d2 \u0627\u06cc\u0641 \u0633\u06cc",
+        "shop": "supermarket",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.904686,
+      "lon": 79.8528498,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Walukarama Road",
+        "amenity": "restaurant",
+        "name": "The Sizzle"
+      }
+    },
+    {
+      "lat": 6.9047218,
+      "lon": 79.8527914,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Walukarama Road",
+        "amenity": "restaurant",
+        "name": "Eastern Wok"
+      }
+    },
+    {
+      "lat": 6.9087632,
+      "lon": 79.8522377,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Sunlight Garden Chinese Seafood Restaurant"
+      }
+    },
+    {
+      "lat": 6.9155325,
+      "lon": 79.8480881,
+      "tags": {
+        "name": "Ranmuthu Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.912542,
+      "lon": 79.8527816,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Srimath Anagarika Dharmapala Mawatha",
+        "amenity": "restaurant",
+        "name": "Dinermore"
+      }
+    },
+    {
+      "lat": 6.9348835,
+      "lon": 79.8524089,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Norris Hotel"
+      }
+    },
+    {
+      "lat": 6.934822,
+      "lon": 79.8522136,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jayapura Hotel"
+      }
+    },
+    {
+      "lat": 6.8940284,
+      "lon": 79.854465,
+      "tags": {
+        "branch": "Majestic City",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "check_date": "2024-02-23",
+        "level": "0",
+        "name": "Cargills Food City",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket",
+        "website": "https://www.cargillsfoodcity.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.926897,
+      "lon": 79.8505675,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2024-12-26",
+        "name": "Defence Service College"
+      }
+    },
+    {
+      "lat": 6.9090556,
+      "lon": 79.8499652,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "name": "Juliana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8959215,
+      "lon": 79.8541271,
+      "tags": {
+        "amenity": "school",
+        "name": "Lindsay Girls College"
+      }
+    },
+    {
+      "lat": 6.9085057,
+      "lon": 79.8502478,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "name": "Renuka City Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8971936,
+      "lon": 79.8523099,
+      "tags": {
+        "name": "Sun Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8945884,
+      "lon": 79.8531736,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Borah Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9335488,
+      "lon": 79.8433051,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:street": "Dutch Hospital",
+        "amenity": "restaurant",
+        "check_date": "2025-01-15",
+        "name": "Ministry of Crab",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "yes",
+        "toilets": "yes"
+      }
+    },
+    {
+      "lat": 6.9353839,
+      "lon": 79.8447372,
+      "tags": {
+        "name": "Millers Fort",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9109058,
+      "lon": 79.8516315,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "amenity": "restaurant",
+        "branch": "Liberty Plaza",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.9070901,
+      "lon": 79.8521653,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Saint Anthony's Mawatha",
+        "name": "Lucky Plaza",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9085573,
+      "lon": 79.8503628,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "amenity": "restaurant",
+        "name": "Palmyrah"
+      }
+    },
+    {
+      "lat": 6.9088902,
+      "lon": 79.8510495,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Mile Post Av",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Amaravathi"
+      }
+    },
+    {
+      "lat": 6.9042596,
+      "lon": 79.8542359,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Indian Kitchen"
+      }
+    },
+    {
+      "lat": 6.9046537,
+      "lon": 79.8502448,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "China town"
+      }
+    },
+    {
+      "lat": 6.9314341,
+      "lon": 79.847143,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Regal Cinema bus stop",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9312621,
+      "lon": 79.8461515,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Seafish"
+      }
+    },
+    {
+      "lat": 6.8893104,
+      "lon": 79.8543553,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:housenumber": "35",
+        "addr:street": "Upatissa Road",
+        "air_conditioning": "yes",
+        "branch": "Marine Drive",
+        "brand": "Keells",
+        "check_date": "2023-06-02",
+        "name": "Keells Super",
+        "opening_hours": "PH,Mo-Su 08:30-21:30",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 555 375",
+        "shop": "supermarket",
+        "stroller": "limited",
+        "website": "https://www.keellssuper.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.9326714,
+      "lon": 79.847868,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9181902,
+      "lon": 79.8477491,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Echo"
+      }
+    },
+    {
+      "lat": 6.9340158,
+      "lon": 79.8483186,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Makrin Colombo"
+      }
+    },
+    {
+      "lat": 6.9171294,
+      "lon": 79.8481163,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sugar Bistro & Wine Bar"
+      }
+    },
+    {
+      "lat": 6.9082767,
+      "lon": 79.8494265,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Sellamuttu Av",
+        "name": "Comfort @15",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9057946,
+      "lon": 79.8505771,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Galle Road",
+        "name": "Cinnamon Village Eco Tourism Hotel & Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9181678,
+      "lon": 79.8473204,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Galle Road",
+        "name": "Samudra Hotel",
+        "operator": "Sri Lanka Tourist Board",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9337998,
+      "lon": 79.8441932,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:street": "Hospital Street",
+        "name": "City Rest Fort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9320693,
+      "lon": 79.8466171,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:housenumber": "20 1/2",
+        "addr:street": "Sir Chittamapalam A Gardiner Mawatha",
+        "name": "City Beds - The Regent",
+        "phone": "+94777733747",
+        "tourism": "hotel",
+        "website": "https://citybedssrilanka.com/"
+      }
+    },
+    {
+      "lat": 6.9150324,
+      "lon": 79.8542302,
+      "tags": {
+        "addr:city": "Colombo",
+        "name": "Lake Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9051452,
+      "lon": 79.8540373,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Walukarama Road",
+        "name": "Boutique Colombo",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9010126,
+      "lon": 79.8517252,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "name": "Talibah Boutique Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8984119,
+      "lon": 79.8520947,
+      "tags": {
+        "addr:city": "Colombo",
+        "check_date": "2024-02-25",
+        "name": "Hotel Lazaani",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8970291,
+      "lon": 79.8528786,
+      "tags": {
+        "addr:city": "Colombo",
+        "name": "Palmyrah Holiday Homes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8969598,
+      "lon": 79.8525835,
+      "tags": {
+        "addr:city": "Colombo",
+        "name": "Aqua Marine Holiday Homes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8975137,
+      "lon": 79.8524012,
+      "tags": {
+        "addr:city": "Colombo",
+        "name": "C J Villas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8975297,
+      "lon": 79.8522778,
+      "tags": {
+        "addr:city": "Colombo",
+        "name": "Ocean Conclave Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8974324,
+      "lon": 79.854441,
+      "tags": {
+        "addr:city": "Colombo",
+        "name": "Clock Inn Colombo",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9352935,
+      "lon": 79.8539143,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9359837,
+      "lon": 79.8467864,
+      "tags": {
+        "addr:street": "Lotus Road",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Ruhunu Foods"
+      }
+    },
+    {
+      "lat": 6.9169034,
+      "lon": 79.8482164,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.8988104,
+      "lon": 79.8536024,
+      "tags": {
+        "addr:housenumber": "646",
+        "addr:street": "Galle Road",
+        "name": "Drift B&B",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.926001,
+      "lon": 79.8493987,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-12-26",
+        "name": "Java Lane Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9234746,
+      "lon": 79.8505449,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Tholappu Garden Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.922571,
+      "lon": 79.8483247,
+      "tags": {
+        "amenity": "school",
+        "name": "Al- Ameen Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.915121,
+      "lon": 79.851438,
+      "tags": {
+        "amenity": "school",
+        "name": "Jinaraja Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.895493,
+      "lon": 79.853278,
+      "tags": {
+        "amenity": "school",
+        "name": "Lindsay Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9121155,
+      "lon": 79.8489682,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Methodist College"
+      }
+    },
+    {
+      "lat": 6.913866,
+      "lon": 79.853343,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Mary's Girls' School"
+      }
+    },
+    {
+      "lat": 6.914536,
+      "lon": 79.853053,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Mary's Girls' School"
+      }
+    },
+    {
+      "lat": 6.913678,
+      "lon": 79.85279,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Michael's Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.919536,
+      "lon": 79.851964,
+      "tags": {
+        "amenity": "school",
+        "name": "Wekanda Pre School"
+      }
+    },
+    {
+      "lat": 6.9343064,
+      "lon": 79.8489576,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Fort Bus Stop",
+        "public_transport": "platform",
+        "route_ref": "187 Airport Katunayake",
+        "route_ref_1": "101;102;104;106;107;108;",
+        "shelter": "no",
+        "toilets:wheelchair": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9341343,
+      "lon": 79.8433155,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Steuart"
+      }
+    },
+    {
+      "lat": 6.9377546,
+      "lon": 79.8506467,
+      "tags": {
+        "addr:housenumber": "141",
+        "addr:street": "1st Cross Street",
+        "amenity": "place_of_worship",
+        "image": "https://photos.app.goo.gl/7DhmkhX8xgD4E2gw9",
+        "name": "Sammangodu Sri Kathirvelayutha Swamy Kovil",
+        "religion": "hindu",
+        "url": "https://youtu.be/UbfYHmkWmxU?si=IKIpYQ-g-cIT3gSu&t=389"
+      }
+    },
+    {
+      "lat": 6.8909917,
+      "lon": 79.8539634,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "Don's Deli",
+        "shop": "bakery"
+      }
+    },
+    {
+      "lat": 6.8909906,
+      "lon": 79.8540141,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "level": "1",
+        "name": "The Fat Crab"
+      }
+    },
+    {
+      "lat": 6.8909379,
+      "lon": 79.8539554,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "noodle",
+        "level": "0",
+        "name": "The Noodle Monkey"
+      }
+    },
+    {
+      "lat": 6.9102489,
+      "lon": 79.8511193,
+      "tags": {
+        "name": "Colombo Haven ",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9337447,
+      "lon": 79.844004,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:street": "Canal Row",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "delivery": "yes",
+        "name": "Chinese Dragon Cafe",
+        "opening_hours": "Mo-Su 11:00-15:00, 18:00-23:00",
+        "phone": "+94 117 808080",
+        "takeaway": "yes",
+        "website": "https://www.chinesedragoncafe.com/"
+      }
+    },
+    {
+      "lat": 6.9347378,
+      "lon": 79.8438484,
+      "tags": {
+        "addr:street": "Chatham Street",
+        "amenity": "place_of_worship",
+        "check_date": "2025-01-15",
+        "name": "Fort Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9339339,
+      "lon": 79.8433808,
+      "tags": {
+        "name": "The Steuart BY Citrus n Co pub",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9320567,
+      "lon": 79.8449394,
+      "tags": {
+        "addr:city": "Colombo 02",
+        "addr:street": "Lotus Road",
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "Cury Leaf",
+        "website": "https://www.hiltoncolombo1.com/restaurant/curry-leaf"
+      }
+    },
+    {
+      "lat": 6.9070014,
+      "lon": 79.8531331,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tenderfresh"
+      }
+    },
+    {
+      "lat": 6.9072024,
+      "lon": 79.8509243,
+      "tags": {
+        "amenity": "school",
+        "name": "Mercury Institute"
+      }
+    },
+    {
+      "lat": 6.9067293,
+      "lon": 79.853212,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bars Caf\u00e9"
+      }
+    },
+    {
+      "lat": 6.9201848,
+      "lon": 79.8466617,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "In\u2026 on the Green"
+      }
+    },
+    {
+      "lat": 6.9021501,
+      "lon": 79.8526253,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Galle Road",
+        "name": "Ivy Lane",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8983333,
+      "lon": 79.8539245,
+      "tags": {
+        "addr:city": "Kollupitiya",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name": "Acropol Restaurant"
+      }
+    },
+    {
+      "lat": 6.9043107,
+      "lon": 79.852333,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:housenumber": "377",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name": "Arabian Knights",
+        "phone": "+94 11 2301031"
+      }
+    },
+    {
+      "lat": 6.9188556,
+      "lon": 79.8483754,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Lagoon"
+      }
+    },
+    {
+      "lat": 6.9101096,
+      "lon": 79.8531129,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:housenumber": "10",
+        "addr:street": "Palm Grove",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Dao Krua Thai",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "077 960 3760"
+      }
+    },
+    {
+      "lat": 6.910605,
+      "lon": 79.8521614,
+      "tags": {
+        "name:en": "Premasiri Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.934377,
+      "lon": 79.8442219,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:street": "Chatham Street",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.9346015,
+      "lon": 79.8440753,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:street": "Chatham Street",
+        "amenity": "restaurant",
+        "cuisine": "local;curry",
+        "name": "Pagoda Tea Room"
+      }
+    },
+    {
+      "lat": 6.9351329,
+      "lon": 79.8531291,
+      "tags": {
+        "addr:housenumber": "237",
+        "addr:street": "Olcott Mawatha",
+        "amenity": "restaurant",
+        "name": "new palm leaf hotel"
+      }
+    },
+    {
+      "lat": 6.901052,
+      "lon": 79.8511736,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Marine Drive",
+        "amenity": "restaurant",
+        "cuisine": "arab",
+        "name": "HAZARI'S"
+      }
+    },
+    {
+      "lat": 6.9029427,
+      "lon": 79.8543721,
+      "tags": {
+        "addr:city": "Colombo 3",
+        "addr:street": "Charles Drive",
+        "amenity": "restaurant",
+        "name": "Chinese Juchunyuan"
+      }
+    },
+    {
+      "lat": 6.9123638,
+      "lon": 79.8533572,
+      "tags": {
+        "addr:street": "Dharmapala Mawatha",
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name:en": "Grand Beijing Chinese Restaurant",
+        "name:zh": "\u5927\u5317\u4eac\u4e2d\u56fd\u9910\u5385"
+      }
+    },
+    {
+      "lat": 6.923703,
+      "lon": 79.8510897,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:postcode": "00200",
+        "facebook": "https://www.facebook.com/people/Metro-City-Hotel/100064830470484/",
+        "internet_access": "wlan",
+        "name": "Metro City",
+        "name:en": "Metro City Hotel",
+        "name:es": "Hotel Metro City",
+        "phone": "+94 (112) 321-133;+94 (112) 321-155;+ 94767321133",
+        "tourism": "hotel",
+        "website": "https://www.metrocityhotel.com/"
+      }
+    },
+    {
+      "lat": 6.8948981,
+      "lon": 79.8530941,
+      "tags": {
+        "addr:street": "Glen Aber Place",
+        "amenity": "school",
+        "name:en": "Burhani Serandib International School",
+        "opening_hours": "Mo-Fr 07:30-13:30"
+      }
+    },
+    {
+      "lat": 6.9017271,
+      "lon": 79.8530752,
+      "tags": {
+        "addr:housenumber": "423",
+        "addr:street": "Galle Road",
+        "amenity": "hospital",
+        "check_date": "2022-10-18",
+        "email": "vcare@vasanhealthcare.lk",
+        "healthcare": "hospital",
+        "name": "Vasan Eye Care",
+        "opening_hours": "Mo-Fr 07:00-18:30; Sa 08:00-15:00; Su 08:00-13:00",
+        "operator:type": "private",
+        "phone": "+94 117 564 500",
+        "website": "https://www.vasanhealthcare.lk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8939771,
+      "lon": 79.8529609,
+      "tags": {
+        "name": "Bambalapitiya",
+        "public_transport": "stop_position",
+        "railway": "station",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9210873,
+      "lon": 79.8529974,
+      "tags": {
+        "amenity": "school",
+        "name": "Al Ikbal Girls College"
+      }
+    },
+    {
+      "lat": 6.9343411,
+      "lon": 79.8486168,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Route 187 Airport",
+        "name:ru": "\u0410\u0432\u0442\u043e\u0431\u0443\u0441 \u0432 \u0410\u044d\u0440\u043e\u043f\u043e\u0440\u0442 (187)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9223634,
+      "lon": 79.847943,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Christ Church of Galle",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9042232,
+      "lon": 79.8505044,
+      "tags": {
+        "name:en": "Zen rooms sea adventure marine drive",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8956241,
+      "lon": 79.8526475,
+      "tags": {
+        "amenity": "school",
+        "name:en": "Liendesay girls school"
+      }
+    },
+    {
+      "lat": 6.9231681,
+      "lon": 79.8519031,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9244458,
+      "lon": 79.8506663,
+      "tags": {
+        "addr:street": "Malay Street",
+        "amenity": "restaurant",
+        "name:en": "Devil's Restaurant"
+      }
+    },
+    {
+      "lat": 6.9226113,
+      "lon": 79.853847,
+      "tags": {
+        "addr:street": "Union Place",
+        "name": "Jan Rich",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9251847,
+      "lon": 79.8518198,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9226857,
+      "lon": 79.8532476,
+      "tags": {
+        "addr:street": "Union Place",
+        "name": "Jan rich hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9178774,
+      "lon": 79.8544548,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9084134,
+      "lon": 79.8506209,
+      "tags": {
+        "addr:street": "Galle Road",
+        "name": "Renuka City Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9068437,
+      "lon": 79.8531233,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Deal Place",
+        "amenity": "restaurant",
+        "cuisine": "thai",
+        "name": "Nara Thai",
+        "outdoor_seating": "yes",
+        "website": "http://www.narathai.com.sg/"
+      }
+    },
+    {
+      "lat": 6.9227947,
+      "lon": 79.8533349,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Nawaloka bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9227909,
+      "lon": 79.8532068,
+      "tags": {
+        "addr:street": "Union Place",
+        "name": "Asine hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9052854,
+      "lon": 79.854187,
+      "tags": {
+        "addr:housenumber": "54",
+        "addr:street": "Walukarama Road",
+        "amenity": "restaurant",
+        "description": "Very good authentic local food like rice and curry.",
+        "name": "Little Food Cabin"
+      }
+    },
+    {
+      "lat": 6.9132667,
+      "lon": 79.8513025,
+      "tags": {
+        "addr:street": "St. Michael's Road",
+        "amenity": "restaurant",
+        "name": "Gunasiri Hotel"
+      }
+    },
+    {
+      "lat": 6.9353666,
+      "lon": 79.8542544,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Route 240 - Negombo",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9343772,
+      "lon": 79.8445005,
+      "tags": {
+        "addr:housenumber": "100",
+        "addr:street": "Chatham Street",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name:en": "FORT PILLAWOOS"
+      }
+    },
+    {
+      "lat": 6.8980737,
+      "lon": 79.8540971,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Green Cabin"
+      }
+    },
+    {
+      "lat": 6.91643,
+      "lon": 79.8528048,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese;thai",
+        "name:en": "Chinaman Delivery",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "0117364364"
+      }
+    },
+    {
+      "lat": 6.9320689,
+      "lon": 79.8448456,
+      "tags": {
+        "addr:housenumber": "2",
+        "addr:street": "Sir Chittampalam A Gardiner Mawatha",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2023-02-20",
+        "cuisine": "international;italian;chinese;indian;asian",
+        "delivery": "no",
+        "diet:gluten_free": "yes",
+        "diet:halal": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Graze Kitchen",
+        "name:en": "Graze Kitchen",
+        "opening_hours": "06:30-23:00",
+        "operator": "Hilton Colombo",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 492 492",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "no",
+        "website": "https://www.hiltoncolombo1.com/restaurant/graze-kitchen"
+      }
+    },
+    {
+      "lat": 6.933731,
+      "lon": 79.8444971,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:housenumber": "108",
+        "addr:place": "Negris",
+        "addr:street": "York Street",
+        "name": "Lanka Sathosa",
+        "phone": "+94 112478696",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9349191,
+      "lon": 79.8540663,
+      "tags": {
+        "name:en": "For mkt",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9171691,
+      "lon": 79.8483491,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shanmugas Vegetarian Restaurant"
+      }
+    },
+    {
+      "lat": 6.9321998,
+      "lon": 79.852906,
+      "tags": {
+        "addr:street": "D. R. Wijewardene Mawatha",
+        "name:en": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9340201,
+      "lon": 79.8503843,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Colombo Fort Railway Station halt",
+        "public_transport": "platform",
+        "ref": "274",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9053287,
+      "lon": 79.8540301,
+      "tags": {
+        "addr:housenumber": "43",
+        "addr:street": "Walukarama Road",
+        "amenity": "restaurant",
+        "cuisine": "regional;local",
+        "name:en": "Little Corner Restaurants",
+        "phone": "+94774620125"
+      }
+    },
+    {
+      "lat": 6.9333316,
+      "lon": 79.8442646,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:housenumber": "45",
+        "addr:street": "Canal Row",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "fixme": "position not accurate, from memory",
+        "name": "Ratnagiri Hotel",
+        "note": "address according to bill. Street mapped as Canal Row",
+        "phone": "+94 112 431984"
+      }
+    },
+    {
+      "lat": 6.9334757,
+      "lon": 79.844498,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Caf\u00e9 Fort",
+        "name:zh": "\u798f\u7279\u5496\u5561\u5ef3",
+        "name:zh-Hans": "\u798f\u7279\u5496\u5561\u5385",
+        "name:zh-Hant": "\u798f\u7279\u5496\u5561\u5ef3"
+      }
+    },
+    {
+      "lat": 6.9047736,
+      "lon": 79.8521848,
+      "tags": {
+        "addr:housenumber": "353",
+        "addr:postcode": "00300",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "cuisine": "steak_house;international",
+        "name": "FREGO Steak House",
+        "opening_hours": "Mo-Su 12:00-23:55",
+        "phone": "0112574482",
+        "website": "http://fregosteakhouse.com"
+      }
+    },
+    {
+      "lat": 6.9366059,
+      "lon": 79.8542524,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Street Market"
+      }
+    },
+    {
+      "lat": 6.9211524,
+      "lon": 79.8542916,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "City Hotel Colombo 2",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9070778,
+      "lon": 79.850973,
+      "tags": {
+        "check_date": "2024-08-09",
+        "name": "The Capsule Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9125087,
+      "lon": 79.8494923,
+      "tags": {
+        "name": "Wonder",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9310534,
+      "lon": 79.8456658,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "name:en": "Il Ponte"
+      }
+    },
+    {
+      "lat": 6.931808,
+      "lon": 79.8463619,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.9383673,
+      "lon": 79.8515752,
+      "tags": {
+        "name": "215 Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9336723,
+      "lon": 79.8433115,
+      "tags": {
+        "addr:housenumber": "62/6",
+        "addr:postcode": "00100",
+        "addr:street": "Hospital Lane",
+        "amenity": "restaurant",
+        "name": "Black Pepper"
+      }
+    },
+    {
+      "lat": 6.9009834,
+      "lon": 79.8516402,
+      "tags": {
+        "addr:housenumber": "562/16",
+        "addr:street": "Lower Bagatalle Road",
+        "amenity": "school",
+        "email": "info@turnkey.lk",
+        "name": "Turnkey IT Training",
+        "phone": "+94 011 258 1581; +94 077 228 6988",
+        "website": "http://turnkey.lk/"
+      }
+    },
+    {
+      "lat": 6.9061477,
+      "lon": 79.8530302,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese"
+      }
+    },
+    {
+      "lat": 6.9063894,
+      "lon": 79.853615,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Chinese"
+      }
+    },
+    {
+      "lat": 6.9059963,
+      "lon": 79.8544966,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Li jing"
+      }
+    },
+    {
+      "lat": 6.900316,
+      "lon": 79.8531438,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "no Chinese"
+      }
+    },
+    {
+      "lat": 6.8968413,
+      "lon": 79.8522741,
+      "tags": {
+        "addr:housenumber": "37",
+        "addr:street": "Marine Drive",
+        "amenity": "restaurant",
+        "name:en": "Hua Xiang Ju"
+      }
+    },
+    {
+      "lat": 6.8970974,
+      "lon": 79.8522654,
+      "tags": {
+        "addr:street": "Marine Drive",
+        "amenity": "restaurant",
+        "name": "Jade Dragon"
+      }
+    },
+    {
+      "lat": 6.9029666,
+      "lon": 79.8542044,
+      "tags": {
+        "addr:street": "Charles Drive",
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.911839,
+      "lon": 79.851215,
+      "tags": {
+        "addr:street": "R. A. De Mel Mawatha",
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.8999171,
+      "lon": 79.8514974,
+      "tags": {
+        "addr:housenumber": "590",
+        "addr:street": "Marine Drive",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "check_date": "2024-04-12",
+        "email": "info@marinobeach.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Marino Beach Colombo",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 375 375",
+        "reservation": "yes",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.marinobeach.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9176932,
+      "lon": 79.8477365,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Richardson",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9121086,
+      "lon": 79.8527099,
+      "tags": {
+        "addr:city": "Colombo 07",
+        "addr:housenumber": "41",
+        "addr:postcode": "00700",
+        "addr:street": "Ananda Coomaraswami Mawatha",
+        "amenity": "place_of_worship",
+        "denomination": "pentecostal",
+        "name": "Ceylon Pentecostal Mission - Colpetty",
+        "name:en": "Union Bank",
+        "name:ta": "\u0b87\u0bb2\u0b99\u0bcd\u0b95\u0bc8 \u0baa\u0bc6\u0ba8\u0bcd\u0ba4\u0b95\u0bcb\u0bb8\u0bcd\u0ba4\u0bc7 \u0b9a\u0baa\u0bc8 -",
+        "religion": "christian",
+        "wikidata": "Q6325573",
+        "wikipedia": "en:The Pentecostal Mission"
+      }
+    },
+    {
+      "lat": 6.9321557,
+      "lon": 79.8479562,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Water Garden"
+      }
+    },
+    {
+      "lat": 6.912491,
+      "lon": 79.8496164,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Kyoto Mirai"
+      }
+    },
+    {
+      "lat": 6.9230404,
+      "lon": 79.8496524,
+      "tags": {
+        "name": "Kompannavidiya",
+        "network": "Coastal Line",
+        "note": "Station name corrected based on Sri Lanka Railways Website",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q7539149",
+        "wikipedia": "en:Kompannavidiya Railway Station"
+      }
+    },
+    {
+      "lat": 6.9342691,
+      "lon": 79.8434661,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local;seafood",
+        "name": "Black Pepper"
+      }
+    },
+    {
+      "lat": 6.9170919,
+      "lon": 79.8482317,
+      "tags": {
+        "level": "-2",
+        "name": "Keells",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9321209,
+      "lon": 79.8426092,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Ginza Hohsen"
+      }
+    },
+    {
+      "lat": 6.9120293,
+      "lon": 79.8501955,
+      "tags": {
+        "level": "2",
+        "name": "Branas",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9121269,
+      "lon": 79.8502676,
+      "tags": {
+        "level": "2",
+        "name": "Chinese Lanka",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9120412,
+      "lon": 79.8502584,
+      "tags": {
+        "level": "2",
+        "name": "Beemas",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9174605,
+      "lon": 79.8497672,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Nuga Gama"
+      }
+    },
+    {
+      "lat": 6.893674,
+      "lon": 79.8529894,
+      "tags": {
+        "name": "Bambalapitiya",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.9113228,
+      "lon": 79.8481929,
+      "tags": {
+        "name": "Kollupitiya",
+        "name:ta": "\u0b95\u0bca\u0bb3\u0bcd\u0bb3\u0bc1\u0baa\u0bbf\u0b9f\u0bcd\u0b9f\u0bbf",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.9202245,
+      "lon": 79.8535362,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2022-11-13",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Nawaloka specialist centre",
+        "opening_hours": "24/7",
+        "operator:type": "private",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9108902,
+      "lon": 79.8491887,
+      "tags": {
+        "amenity": "school",
+        "name": "Methodist College Primary School"
+      }
+    },
+    {
+      "lat": 6.9101524,
+      "lon": 79.8500587,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kollupitiya Junction halt",
+        "public_transport": "platform",
+        "ref": "266",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8971163,
+      "lon": 79.8543228,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bambalapitiya Cargills Bank halt",
+        "public_transport": "stop_position",
+        "ref": "262",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9006474,
+      "lon": 79.8532054,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kollupitiya Marino Mall halt",
+        "network": "263",
+        "public_transport": "stop_position",
+        "ref": "263",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.931527,
+      "lon": 79.8451236,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Galadari Hotel halt",
+        "public_transport": "platform",
+        "ref": "271",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9216076,
+      "lon": 79.8462335,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Galle face halt 1",
+        "public_transport": "platform",
+        "ref": "268",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9255892,
+      "lon": 79.8447457,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Galle Face Halt 2",
+        "name:zh": "\u52a0\u52d2\u83f2\u65af2\u53f7\u7ad9",
+        "public_transport": "platform",
+        "ref": "269",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9027987,
+      "lon": 79.8525133,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kollupitiya Vogue Jewellers halt",
+        "public_transport": "platform",
+        "ref": "264",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9170186,
+      "lon": 79.8477979,
+      "tags": {
+        "bus": "yes",
+        "check_date:shelter": "2025-11-05",
+        "highway": "bus_stop",
+        "name": "Kollupitiya Crescat halt",
+        "public_transport": "platform",
+        "ref": "267",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9051245,
+      "lon": 79.8517288,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kollupitiya ACBT halt",
+        "public_transport": "platform",
+        "ref": "265",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9309075,
+      "lon": 79.8422325,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "President's Office Halt",
+        "public_transport": "platform",
+        "ref": "270",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9174392,
+      "lon": 79.8477299,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kollupitiya Crescat halt",
+        "public_transport": "platform",
+        "ref": "290",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9296444,
+      "lon": 79.8427211,
+      "tags": {
+        "bench": "yes",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "President's Office Halt",
+        "name:zh": "\u603b\u7edf\u5e9c\u7ad9",
+        "public_transport": "platform",
+        "ref": "288",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9200288,
+      "lon": 79.8468512,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Galle face halt 1",
+        "public_transport": "platform",
+        "ref": "289",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9133187,
+      "lon": 79.8490755,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9099082,
+      "lon": 79.8522311,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Liberty plaze",
+        "public_transport": "platform",
+        "ref": "292",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9253013,
+      "lon": 79.8453837,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:housenumber": "21",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "check_date": "2025-01-15",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "ITC Ratnadipa Colombo",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "yes",
+        "stars": "5",
+        "tourism": "hotel",
+        "wheelchair": "yes",
+        "wikidata": "Q124632531",
+        "wikipedia": "en:ITC Ratnadipa"
+      }
+    },
+    {
+      "lat": 6.8981918,
+      "lon": 79.8538011,
+      "tags": {
+        "addr:city": "Kollupitiya",
+        "addr:street": "Schofield Place",
+        "amenity": "restaurant",
+        "name": "Arcopol"
+      }
+    },
+    {
+      "lat": 6.9252122,
+      "lon": 79.8490506,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:street": "Glenie Street",
+        "amenity": "restaurant",
+        "name": "Cinnamon life"
+      }
+    },
+    {
+      "lat": 6.9056749,
+      "lon": 79.8512826,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "Galle Road",
+        "name": "Spring and Summer",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9103726,
+      "lon": 79.8519764,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:street": "R. A. De Mel Mawatha",
+        "amenity": "restaurant",
+        "name": "Cleopatra Nightclub"
+      }
+    },
+    {
+      "lat": 6.9329303,
+      "lon": 79.8419082,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:housenumber": "48",
+        "addr:street": "Janadhipathi Mawatha",
+        "amenity": "restaurant",
+        "check_date": "2022-11-27",
+        "cuisine": "japanese",
+        "level": "11",
+        "name": "Tenk\u016b Japanese Restaurant",
+        "opening_hours": "07:00-23:00",
+        "outdoor_seating": "no",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 77 135 7971",
+        "reservation": "yes",
+        "website": "https://www.thekingsburyhotel.com/dining/tenku.html"
+      }
+    },
+    {
+      "lat": 6.9330767,
+      "lon": 79.8422731,
+      "tags": {
+        "addr:housenumber": "48",
+        "addr:street": "Janadhipathi Mawatha",
+        "amenity": "restaurant",
+        "check_date": "2022-12-26",
+        "cuisine": "chinese",
+        "name": "Yue Chuan",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "website": "https://www.thekingsburyhotel.com/dining/yue-chuan.html"
+      }
+    },
+    {
+      "lat": 6.935615,
+      "lon": 79.8415683,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name:en": "Yue Chuan"
+      }
+    },
+    {
+      "lat": 6.9353114,
+      "lon": 79.8537941,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.9354352,
+      "lon": 79.8445066,
+      "tags": {
+        "check_date": "2024-12-25",
+        "name": "C1 Colombo Fort Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9319631,
+      "lon": 79.8497896,
+      "tags": {
+        "amenity": "place_of_worship",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9274575,
+      "lon": 79.8445759,
+      "tags": {
+        "addr:floor": "G",
+        "addr:housenumber": "1A",
+        "addr:street": "Galle Road",
+        "addr:unit": "L1-21/22",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "branch": "One GallFace",
+        "brand": "Chili's",
+        "brand:wikidata": "Q1072948",
+        "brewery": "yes",
+        "check_date": "2023-01-07",
+        "cuisine": "tex-mex",
+        "email": "upasak@mukundhospitality.com",
+        "highchair": "yes",
+        "level": "0",
+        "name": "Chili's",
+        "official_name": "Chili's Grill & Bar",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 76 281 4487",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://chilis.lk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9211938,
+      "lon": 79.8461544,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-04-12",
+        "cuisine": "asian",
+        "name": "Breeze Barracuda",
+        "website": "http://barracuda.lk/"
+      }
+    },
+    {
+      "lat": 6.9271318,
+      "lon": 79.8448975,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:housenumber": "6th Floor",
+        "addr:street": "One Galle Face Mall",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "pizza;pasta",
+        "level": "6",
+        "name": "The Pizza Bakery",
+        "website": "https://www.instagram.com/thepizzabakery.lk/?hl=en"
+      }
+    },
+    {
+      "lat": 6.9267309,
+      "lon": 79.8447059,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "0",
+        "name": "db Indian Bar and Eatery"
+      }
+    },
+    {
+      "lat": 6.9072085,
+      "lon": 79.8511568,
+      "tags": {
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "The Manhattan Fish Market",
+        "website": "https://www.manhattanfishmarket.com/srilanka/"
+      }
+    },
+    {
+      "lat": 6.9272534,
+      "lon": 79.8447185,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "One GalleFace",
+        "brand": "The Manhattan Fish Market",
+        "check_date": "2022-12-21",
+        "cuisine": "seafood",
+        "name": "The Manhattan Fish Market",
+        "outdoor_seating": "no",
+        "payment:american_express": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.manhattanfishmarket.com/srilanka/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9280215,
+      "lon": 79.8446528,
+      "tags": {
+        "addr:floor": "3",
+        "addr:housenumber": "1",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2022-11-27",
+        "cuisine": "international",
+        "email": "central.slcb@shangri-la.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "3",
+        "name": "Central Restaurant",
+        "opening_hours": "PH,Mo-Su 06:30-10:30,18:30-22:30, Sa,Su 12:30-15:30",
+        "operator": "Shangri-La Colombo",
+        "payment:american_express": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 117 888 288",
+        "reservation": "yes",
+        "smoking": "no",
+        "website": "https://www.shangri-la.com/colombo/shangrila/dining/restaurants/central/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9281388,
+      "lon": 79.8446145,
+      "tags": {
+        "addr:floor": "3",
+        "addr:housenumber": "1",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2022-11-27",
+        "cuisine": "chinese",
+        "email": "shangpalace.slcb@shangri-la.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "level": "3",
+        "name": "Shang Palace",
+        "opening_hours": "PH,Mo-Su 12:00-15:00,18:30-23:00",
+        "operator": "Shangri-La Colombo",
+        "payment:american_express": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 117 888 288",
+        "reservation": "yes",
+        "smoking": "no",
+        "website": "https://www.shangri-la.com/colombo/shangrila/dining/restaurants/shang-palace/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9327112,
+      "lon": 79.841886,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Harbour Court",
+        "operator": "The Kingsbury",
+        "phone": "+94 77 108 7720",
+        "website": "https://www.thekingsburyhotel.com/dining/harbour-court.html"
+      }
+    },
+    {
+      "lat": 6.8957775,
+      "lon": 79.85257,
+      "tags": {
+        "addr:housenumber": "31",
+        "addr:street": "St.Kildas Lane",
+        "air_conditioning": "yes",
+        "check_date": "2024-02-25",
+        "email": "sales@maradha.lk",
+        "internet_access:fee": "customers",
+        "name": "Hotel MaRadha Colombo",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 550 136",
+        "reservation": "yes",
+        "tourism": "hotel",
+        "website": "https://maradha.lk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8957681,
+      "lon": 79.852678,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2023-01-07",
+        "cuisine": "international",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Royal Code",
+        "opening_hours": "07:00-10:30,12:00-15:00,19:00-23:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 550 136",
+        "reservation": "yes",
+        "website": "https://maradha.lk/royal-code/"
+      }
+    },
+    {
+      "lat": 6.9119251,
+      "lon": 79.8505475,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kollupitiya Market Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9126109,
+      "lon": 79.8539891,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dharmapala Mawatha Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9213764,
+      "lon": 79.8529387,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nawaloka Bus stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9254348,
+      "lon": 79.8504157,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9285643,
+      "lon": 79.8486542,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cinnamon Lakeside Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9313543,
+      "lon": 79.8469491,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Regal Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9340921,
+      "lon": 79.8460338,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pettah SLT Halt",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9349534,
+      "lon": 79.8528805,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Colombo Central Bus Stand",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9223793,
+      "lon": 79.8539816,
+      "tags": {
+        "name": "Thilhara Days Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9340037,
+      "lon": 79.847429,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9333247,
+      "lon": 79.8465008,
+      "tags": {
+        "bus": "yes",
+        "fixme": "verify its existence",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9302774,
+      "lon": 79.8474707,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9283732,
+      "lon": 79.8489897,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cinnamon Lakeside Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9225624,
+      "lon": 79.8532848,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nawaloka Bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9111202,
+      "lon": 79.8490613,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kollupitiya Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.934517,
+      "lon": 79.8470818,
+      "tags": {
+        "bus": "yes",
+        "description": "You\u2019ll have to walk 500m to the terminal.",
+        "highway": "bus_stop",
+        "name": "Fort-Airport (#187)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9124563,
+      "lon": 79.8506146,
+      "tags": {
+        "amenity": "university",
+        "check_date": "2023-03-21",
+        "level": "13",
+        "name": "SLIIT Academy",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.9272713,
+      "lon": 79.8446099,
+      "tags": {
+        "branch": "One Gallface",
+        "brand": "Keels",
+        "check_date": "2023-06-02",
+        "name": "Keels",
+        "opening_hours": "08:00-22:00",
+        "payment:american_express": "yes",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 118 378",
+        "shop": "supermarket",
+        "website": "https://www.keellssuper.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9252065,
+      "lon": 79.8440696,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Nana\u2019s Restaurant"
+      }
+    },
+    {
+      "lat": 6.9123192,
+      "lon": 79.8523758,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Budair diagnostic centre"
+      }
+    },
+    {
+      "lat": 6.8965728,
+      "lon": 79.8524163,
+      "tags": {
+        "addr:housenumber": "32",
+        "addr:street": "8th Lane",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "no",
+        "branch": "Kollupitiya",
+        "brand": "Big Plate",
+        "check_date": "2024-02-25",
+        "cuisine": "indian;chinese;burger;sandwich",
+        "diet:halal": "yes",
+        "name": "Big Plate",
+        "opening_hours": "Mo-Th 11:30-24:30; Fr-Su 11:30-01:30",
+        "outdoor_seating": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 77 779 9400",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "toilets:wheelchair": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9020251,
+      "lon": 79.8508751,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "branch": "Kollupitiya",
+        "brand": "Crepe Runner",
+        "check_date": "2024-04-12",
+        "contact:facebook": "https://www.facebook.com/creperunner",
+        "name": "Crepe Runner",
+        "opening_hours": "Mo-Th 14:00-22:00; Fr-Su 14:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 77 226 0037",
+        "takeaway": "yes",
+        "website": "https://creperunner.lk/",
+        "website:menu": "https://creperunner.lk/menu/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8998031,
+      "lon": 79.8536402,
+      "tags": {
+        "amenity": "university",
+        "check_date": "2024-05-04",
+        "name": "IIT School Of Computing - Spencer Building"
+      }
+    },
+    {
+      "lat": 6.8961474,
+      "lon": 79.8544085,
+      "tags": {
+        "check_date": "2024-08-20",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Taprobane House",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "tourism": "hotel",
+        "website": "https://taprobanehouse.lk"
+      }
+    },
+    {
+      "lat": 6.9077573,
+      "lon": 79.8509842,
+      "tags": {
+        "name": "Sofia Colombo City Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9256622,
+      "lon": 79.849425,
+      "tags": {
+        "brand": "Cargills Food City",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9334177,
+      "lon": 79.843414,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "check_date": "2025-01-15",
+        "cuisine": "indian",
+        "name": "Ceylon Curry Club",
+        "operator": "Citrus Silver Ltd",
+        "outdoor_seating": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "yes",
+        "toilets": "yes",
+        "toilets:handwashing": "yes",
+        "toilets:num_chambers": "2"
+      }
+    },
+    {
+      "lat": 6.910336,
+      "lon": 79.8541385,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Isle Amore",
+        "website": "https://www.isleamore.com/"
+      }
+    },
+    {
+      "lat": 6.9056869,
+      "lon": 79.8533537,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Astoria Towers",
+        "cuisine": "asian",
+        "level": "1",
+        "name": "U Life Supermarket",
+        "operator": "ULife Supermarkets",
+        "origin": "asian",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.905724,
+      "lon": 79.8533446,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "chinese;ramen;noodle",
+        "level": "1",
+        "name": "We Ai Family"
+      }
+    },
+    {
+      "lat": 6.9371107,
+      "lon": 79.8541665,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 6.9096501,
+      "lon": 79.8502907,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9373244,
+      "lon": 79.8542061,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Vegetables and Fruits Market"
+      }
+    },
+    {
+      "lat": 6.9319502,
+      "lon": 79.8462974,
+      "tags": {
+        "name": "Regent Residencies -Colombo",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9257986,
+      "lon": 79.8456976,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Yi Jing"
+      }
+    },
+    {
+      "lat": 6.9258535,
+      "lon": 79.845624,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "north_indian;indian",
+        "name": "Peshawri"
+      }
+    },
+    {
+      "lat": 6.9258971,
+      "lon": 79.8455555,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "fine_dining;indian;sri_lankan",
+        "name": "Avarthana"
+      }
+    },
+    {
+      "lat": 6.9334211,
+      "lon": 79.8435711,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "indian",
+        "name": "Masala Island"
+      }
+    },
+    {
+      "lat": 6.9339587,
+      "lon": 79.8510865,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.934061,
+      "lon": 79.8512075,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.9312222,
+      "lon": 79.8330607,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9304026,
+      "lon": 79.842373,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9266835,
+      "lon": 79.8280795,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shark"
+      }
+    },
+    {
+      "lat": 6.9204257,
+      "lon": 79.8458866,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-12-28",
+        "name": "Galle Face Hotel"
+      }
+    },
+    {
+      "lat": 6.9333986,
+      "lon": 79.8503417,
+      "tags": {
+        "image": "https://photos.app.goo.gl/2T66uuMWyTFmz7pE8",
+        "name": "Colombo Fort",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.9340125,
+      "lon": 79.8482727,
+      "tags": {
+        "amenity": "restaurant",
+        "level": "1",
+        "name": "Oldfort Cafe"
+      }
+    },
+    {
+      "lat": 6.9168206,
+      "lon": 79.8546118,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "image": "https://photos.app.goo.gl/ki13q4gbxeXMc7JW9",
+        "name": "Gangarama Sima Malaka",
+        "place": "islet",
+        "religion": "buddhist",
+        "url": "https://youtu.be/kNb5I3Box0A",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8876949,
+      "lon": 79.8558976,
+      "tags": {
+        "addr:street": "Nimal Road",
+        "amenity": "school",
+        "check_date": "2022-11-28",
+        "denomination": "roman_catholic",
+        "email": "info@hfcb.lk",
+        "fax": "011-2595550",
+        "grades": "1-13",
+        "name": "Holy Family Convent",
+        "opening_hours": "Mo-Fr 07:30-13:30; Sa-Su off",
+        "phone": "011-2587261",
+        "religion": "christian",
+        "website": "https://hfcb.lk/"
+      }
+    },
+    {
+      "lat": 6.9321682,
+      "lon": 79.8449265,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:housenumber": "2",
+        "addr:postcode": "00200",
+        "addr:street": "Sir Chittampalam A Gardiner Mawatha",
+        "air_conditioning": "yes",
+        "brand": "Hilton",
+        "brand:wikidata": "Q598884",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/HiltonColombo",
+        "contact:instagram": "https://instagram.com/hiltoncolombo",
+        "contact:twitter": "https://twitter.com/ColomboHilton",
+        "email": "colombo.reservations@hilton.com",
+        "fax": "+94-11-254-4657",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "Hilton Colombo",
+        "operator": "Hilton",
+        "pets": "no",
+        "phone": "+94-11-2 492 492",
+        "rooms": "332",
+        "smoking": "yes",
+        "stars": "5",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel",
+        "website": "https://www.hilton.com/en/hotels/colhitw-hilton-colombo/?WT.mc_id=zELWAKN0APAC1HI2DMH3LocalSearch4DGGenericx6COLHITW",
+        "wheelchair": "yes",
+        "wikidata": "Q64859000"
+      }
+    },
+    {
+      "lat": 6.9322352,
+      "lon": 79.8459604,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:street": "Lotus Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2024-08-09",
+        "image": "https://photos.app.goo.gl/JtVGofxpKt5VWBLz9",
+        "name": "Sri Sambuddaloka Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9366373,
+      "lon": 79.841448,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Light House Galley"
+      }
+    },
+    {
+      "lat": 6.9189831,
+      "lon": 79.8476733,
+      "tags": {
+        "alt_name:en": "St. Andrew's Scots Kirk",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "presbyterian",
+        "name": "St. Andrew's Presbyterian Church",
+        "religion": "christian",
+        "wikidata": "Q7586888",
+        "wikipedia": "en:St. Andrew's Presbyterian Church, Colombo"
+      }
+    },
+    {
+      "lat": 6.9337266,
+      "lon": 79.8500802,
+      "tags": {
+        "building": "train_station",
+        "image": "https://photos.app.goo.gl/tjUynWZ51Yme3Y7i9",
+        "layer": "1",
+        "name": "Colombo Fort",
+        "name:ml": "\u0d15\u0d4a\u0d33\u0d02\u0d2c\u0d4b \u0d15\u0d4b\u0d1f\u0d4d\u0d1f",
+        "name:ta": "\u0b95\u0bca\u0bb4\u0bc1\u0bae\u0bcd\u0baa\u0bc1 \u0b95\u0bcb\u0b9f\u0bcd\u0b9f\u0bc8",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "url": "https://youtu.be/lRgZrUcZMCA?si=dVP_ZkNbjPQgruJ9",
+        "wikidata": "Q5471883",
+        "wikipedia": "en:Fort railway station"
+      }
+    },
+    {
+      "lat": 6.937363,
+      "lon": 79.8449394,
+      "tags": {
+        "building": "yes",
+        "check_date": "2024-12-25",
+        "name": "Grand Oriental Hotel",
+        "tourism": "hotel",
+        "wikidata": "Q28401591",
+        "wikimedia_commons": "Category:Grand Oriental Hotel",
+        "wikipedia": "en:Grand Oriental Hotel"
+      }
+    },
+    {
+      "lat": 6.9316905,
+      "lon": 79.8431359,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:housenumber": "64",
+        "addr:postcode": "00100",
+        "addr:street": "Lotus Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "building": "yes",
+        "building:levels": "16",
+        "building:material": "traditional",
+        "building:obm": "263768173",
+        "check_date": "2024-04-12",
+        "height": "48",
+        "name": "Galadari Hotel",
+        "opening_hours": "24/7",
+        "payment:american_express": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "phone": "+94 11 2 544544",
+        "reservation": "yes",
+        "roof:colour": "#333333",
+        "roof:material": "asbestos",
+        "roof:shape": "flat",
+        "smoking": "separated",
+        "start_date": "1984",
+        "tourism": "hotel",
+        "website": "https://www.galadarihotel.lk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9181716,
+      "lon": 79.848783,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:housenumber": "77",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "brand": "Cinnamon Hotels & Resorts",
+        "building": "yes",
+        "building:levels": "8",
+        "building:obm": "300950810",
+        "check_date": "2022-11-29",
+        "height": "30",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Cinnamon Grand Colombo",
+        "old_name": "Hotel Lanka Oberoi",
+        "opening_hours": "24/7",
+        "operator": "John Keells Holdings",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 437 437",
+        "reservation": "yes",
+        "rooms": "475",
+        "start_date": "1975",
+        "tourism": "hotel",
+        "website": "https://www.cinnamonhotels.com/cinnamongrandcolombo",
+        "wheelchair": "yes",
+        "wikidata": "Q63247983",
+        "wikimedia_commons": "Category:Cinnamon Grand Hotel",
+        "wikipedia": "en:Cinnamon Grand Colombo"
+      }
+    },
+    {
+      "lat": 6.9080946,
+      "lon": 79.8493201,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:housenumber": "17th Lane",
+        "addr:street": "Marine Drive",
+        "branch": "Marine Drive",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9022576,
+      "lon": 79.8533673,
+      "tags": {
+        "addr:city": "Kollupitiya - Colombo 03",
+        "addr:street": "Alfred Place",
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "10",
+        "check_date": "2022-10-18",
+        "email": "contactus@durdans.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "height": "50",
+        "name": "Durdans Hospital",
+        "opening_hours": "24/7",
+        "operator:type": "private",
+        "phone": "+94 112 140 000;+94 112 140 040",
+        "website": "https://www.durdans.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9024523,
+      "lon": 79.8545046,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su,PH 08:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9028116,
+      "lon": 79.8527325,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "check_date": "2024-09-21",
+        "name": "Cargills Food City",
+        "name:si": "\u0dc6\u0dd6\u0da9\u0dca \u0dc3\u0dd2\u0da7\u0dd3",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9065129,
+      "lon": 79.851439,
+      "tags": {
+        "addr:housenumber": "329",
+        "addr:street": "Galle Road",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2024-04-13",
+        "cuisine": "local;indian",
+        "diet:halal": "yes",
+        "email": "hoteldeplaza.lk@gmail.com",
+        "name": "Hotel De Plaza",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 77 759 6979",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9068241,
+      "lon": 79.8504616,
+      "tags": {
+        "building": "yes",
+        "name": "Casino Star Dust",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9066886,
+      "lon": 79.8502568,
+      "tags": {
+        "building": "yes",
+        "name": "Casino Star Dust",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9341735,
+      "lon": 79.8431183,
+      "tags": {
+        "building": "yes",
+        "building:levels": "10",
+        "image": "https://photos.app.goo.gl/JQEcV6DDSQhr5Vhn9",
+        "name": "The Steuart",
+        "operator": "Citrus",
+        "tourism": "hotel",
+        "website": "https://www.citrusleisure.com/thesteuart/"
+      }
+    },
+    {
+      "lat": 6.9225931,
+      "lon": 79.8466816,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:housenumber": "25",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "brand": "Taj",
+        "brand:wikidata": "Q1521893",
+        "building": "hotel",
+        "building:levels": "10",
+        "building:obm": "341944267",
+        "check_date": "2024-04-12",
+        "email": "reservations.samudra@tajhotels.com",
+        "height": "50",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Taj Samudra Hotel",
+        "official_name": "Taj Hotels",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 446 622",
+        "reservation": "yes",
+        "start_date": "1984",
+        "tourism": "hotel",
+        "website": "https://www.tajhotels.com/en-in/taj/taj-samudra-colombo/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9115163,
+      "lon": 79.8508457,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:housenumber": "24",
+        "addr:street": "Srimath Anagarika Dharmapala Mawatha",
+        "brand": "M\u00f6venpick",
+        "brand:wikidata": "Q691162",
+        "building": "hotel",
+        "building:levels": "25",
+        "name": "M\u00f6venpick Hotel Colombo",
+        "start_date": "2016",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9103829,
+      "lon": 79.8504246,
+      "tags": {
+        "brand": "Sheraton",
+        "brand:wikidata": "Q634831",
+        "building": "yes",
+        "building:levels": "21",
+        "name": "Sheraton Colombo Hotel",
+        "start_date": "2022",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9334836,
+      "lon": 79.8441263,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "building": "yes",
+        "check_date": "2024-12-25",
+        "image": "https://photos.app.goo.gl/SCxU82eQDPXgE94z9",
+        "name": "Colombo City Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9157831,
+      "lon": 79.8475625,
+      "tags": {
+        "air_conditioning": "yes",
+        "brand": "Grand Hyatt",
+        "brand:wikidata": "Q115794899",
+        "building": "hotel",
+        "building:levels": "10",
+        "height": "35",
+        "image": "https://photos.app.goo.gl/rKZJ72kqDU4z5trt9",
+        "name": "Grand Hyatt Colombo",
+        "stars": "5",
+        "tourism": "hotel",
+        "wikidata": "Q18019549",
+        "wikimedia_commons": "Category:Grand Hyatt Colombo",
+        "wikipedia": "si:\u0d9c\u0dca\u200d\u0dbb\u0dd1\u0db1\u0dca\u0da9\u0dca \u0dc4\u0dba\u0da7\u0dca \u0d9a\u0dbd\u0db8\u0dca\u0db6\u0dd4"
+      }
+    },
+    {
+      "lat": 6.9341378,
+      "lon": 79.8438924,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:housenumber": "7",
+        "addr:postcode": "00100",
+        "addr:street": "Hospital Street",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "building": "yes",
+        "building:levels": "8",
+        "check_date": "2024-04-12;2024-12-24",
+        "contact:facebook": "https://www.facebook.com/FairwayColombo/",
+        "description": "under construction 02/16",
+        "email": "info@fairwaycolombo.com",
+        "image": "https://photos.app.goo.gl/5g8FCvWBfTAJG2a89",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Fairway Colombo",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 153 153",
+        "reservation": "yes",
+        "stars": "4",
+        "start_date": "2017",
+        "tourism": "hotel",
+        "website": "https://www.fairwaycolombo.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8937206,
+      "lon": 79.8529671,
+      "tags": {
+        "building": "train_station",
+        "name": "Bambalapitiya",
+        "network": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9356545,
+      "lon": 79.8437614,
+      "tags": {
+        "addr:housenumber": "1/15",
+        "addr:street": "Mudalige Mawatha",
+        "building": "yes",
+        "name": "Star Anise",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9207023,
+      "lon": 79.8535747,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2022-11-13",
+        "email": "nawaloka@slt.lk",
+        "emergency": "yes",
+        "fax": "+94 11 2430393",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Nawaloka Hospital",
+        "opening_hours": "24/7",
+        "operator:type": "private",
+        "phone": "+94 115 577 111",
+        "website": "https://www.nawaloka.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9224273,
+      "lon": 79.8516106,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Wekanfa Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9216694,
+      "lon": 79.8530957,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/USwf1aBLFJiB6FVy7",
+        "name": "The Salvation Army Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.920422,
+      "lon": 79.8524745,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/fnSv2E5TMa7MufEk8",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9375236,
+      "lon": 79.8447316,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2024-12-25",
+        "name": "St.Peter's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.938301,
+      "lon": 79.8419916,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:street": "Chaithya Road",
+        "amenity": "place_of_worship",
+        "building:min_level": "10",
+        "building:part": "yes",
+        "height": "48",
+        "man_made": "stupa",
+        "name": "Sambodhi Chaitya",
+        "religion": "buddhist",
+        "roof:shape": "dome"
+      }
+    },
+    {
+      "lat": 6.9235495,
+      "lon": 79.8519252,
+      "tags": {
+        "addr:city": "Colombo02",
+        "addr:street": "Justice Akbar Mawatha",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "image": "https://photos.app.goo.gl/75D9ngBhtYPwi3Hy5",
+        "name": "Church of Holy Rosary",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9205989,
+      "lon": 79.8495296,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Shahul Hameedhiya Jumma Musjidh",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9134501,
+      "lon": 79.8521232,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name:en": "Church of St. Michael & All angels",
+        "religion": "christian",
+        "wikidata": "Q7594870",
+        "wikimedia_commons": "Category:St. Michael and All Angels Church, Colombo",
+        "wikipedia": "en:St Michael and All Angels Church, Polwatte"
+      }
+    },
+    {
+      "lat": 6.911936,
+      "lon": 79.8491082,
+      "tags": {
+        "addr:housenumber": "253",
+        "addr:street": "Galle Road",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:levels": "1",
+        "contact:phone": "+94 11 2573280",
+        "denomination": "methodist",
+        "name": "Methodist Church Kollupitiya",
+        "religion": "christian",
+        "roof:colour": "#b22222",
+        "roof:levels": "2",
+        "roof:shape": "gabled",
+        "service_times:en": "Su 08:45,17:30",
+        "service_times:si": "Su 10:15",
+        "service_times:ta": "Su 07:00"
+      }
+    },
+    {
+      "lat": 6.9284818,
+      "lon": 79.8444322,
+      "tags": {
+        "addr:city": "Colombo 02",
+        "addr:housenumber": "1",
+        "addr:postcode": "00200",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "brand": "Shangri-La Hotels & Resorts",
+        "building:levels": "39",
+        "building:min_level": "7",
+        "building:part": "hotel",
+        "check_date": "2022-11-27",
+        "email": "slcb@shangri-la.com",
+        "height": "134",
+        "image": "https://photos.app.goo.gl/HF2vryqufVESDrwbA",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "layer": "1",
+        "name": "Shangri-La Hotel Colombo",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 117 888 288",
+        "reservation": "yes",
+        "roof:shape": "flat",
+        "rooms": "541",
+        "stars": "5",
+        "start_date": "2017",
+        "tourism": "hotel",
+        "website": "https://www.shangri-la.com/colombo/shangrila/",
+        "wheelchair": "yes",
+        "wikidata": "Q39048411",
+        "wikipedia": "en:Shangri-La Colombo"
+      }
+    },
+    {
+      "lat": 6.8965293,
+      "lon": 79.854647,
+      "tags": {
+        "addr:housenumber": "471-4/1",
+        "addr:street": "Galle Road",
+        "building": "hotel",
+        "building:levels": "5",
+        "tourism": "hotel",
+        "website": "http://www.theresidence.lk/"
+      }
+    },
+    {
+      "lat": 6.9329723,
+      "lon": 79.8418243,
+      "tags": {
+        "addr:city": "Colombo 01",
+        "addr:housenumber": "48",
+        "addr:street": "Janadhipathi Mawatha",
+        "check_date": "2025-12-22",
+        "check_date:internet_access": "2025-12-22",
+        "internet_access": "wlan",
+        "name": "The Kingsbury",
+        "official_name": "The Kingsbury PLC",
+        "old_name": "Ceylon Intercontinental",
+        "opening_hours": "24/7",
+        "operator": "Hotel Services (Ceylon) PLC",
+        "payment:american_express": "yes",
+        "payment:cards": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "phone": "+94 112 421 221",
+        "reservation": "yes",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "https://www.thekingsburyhotel.com/",
+        "wheelchair": "yes",
+        "wikidata": "Q4036011",
+        "wikipedia": "en:The Kingsbury"
+      }
+    },
+    {
+      "lat": 6.9000335,
+      "lon": 79.8536507,
+      "tags": {
+        "addr:housenumber": "433",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "building": "yes",
+        "building:levels": "11",
+        "check_date": "2024-04-12",
+        "email": "sales@mandarinacolombo.com",
+        "height": "50",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Mandarina Colombo",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 550 660",
+        "reservation": "yes",
+        "stars": "5",
+        "start_date": "2016",
+        "tourism": "hotel",
+        "website": "https://www.mandarinacolombo.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9049552,
+      "lon": 79.8527833,
+      "tags": {
+        "addr:city": "Colombo 03",
+        "addr:housenumber": "19",
+        "addr:postcode": "00300",
+        "addr:street": "Walukarama Rd, Colombo 00300",
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Como Colombo",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "payment:lightning": "yes",
+        "payment:onchain": "yes",
+        "phone": "0117505900",
+        "website": "https://www.comocolombo.com/"
+      }
+    },
+    {
+      "lat": 6.9349237,
+      "lon": 79.8517951,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "image": "https://photos.app.goo.gl/qs17aAX4jVzjgPxh7",
+        "name": "St Phillip Neri Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9132479,
+      "lon": 79.8507813,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Jumma Mosque Kollupitiya",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9251571,
+      "lon": 79.8477704,
+      "tags": {
+        "addr:city": "Colombo 02",
+        "addr:housenumber": "01",
+        "addr:postcode": "00200",
+        "addr:street": "Justice Akbar Mawatha",
+        "brand": "Cinnamon Hotels",
+        "building": "commercial",
+        "building:levels": "8",
+        "email": "hello@cinnamonhotels.com",
+        "height": "40",
+        "image": "https://photos.app.goo.gl/vN484MRYiKCagJj3A",
+        "internet_access": "yes",
+        "name": "Cinnamon Life at City of Dreams",
+        "phone": "+94112220000",
+        "tourism": "hotel",
+        "website": "https://cinnamonhotels.com/cinnamonlife"
+      }
+    },
+    {
+      "lat": 6.9201213,
+      "lon": 79.8461345,
+      "tags": {
+        "addr:city": "Colombo 003",
+        "addr:housenumber": "2",
+        "addr:postcode": "00300",
+        "addr:street": "Galle Road",
+        "bar": "yes",
+        "email": "information@gallefacehotel.com",
+        "internet_access": "yes",
+        "name": "Galle Face Hotel",
+        "phone": "+94 11 254 1010",
+        "rooms": "156",
+        "tourism": "hotel",
+        "website": "https://www.gallefacehotel.com/",
+        "wikidata": "Q4039225",
+        "wikimedia_commons": "Category:Galle Face Hotel",
+        "wikipedia": "en:Galle Face Hotel"
+      }
+    },
+    {
+      "lat": 6.9195647,
+      "lon": 79.8535403,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "sandwich"
+      }
+    },
+    {
+      "lat": 6.9229273,
+      "lon": 79.8496464,
+      "tags": {
+        "building": "roof",
+        "name": "Kompannavidiya",
+        "note": "Train Station name updated based on Sri Lanka Railways Website",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "type": "multipolygon",
+        "wikipedia": "en:Kompannavidiya Railway Station"
+      }
+    },
+    {
+      "lat": 6.9384328,
+      "lon": 79.8518944,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:country": "LK",
+        "addr:street": "2nd Cross Street",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "historic": "yes",
+        "image": "https://photos.app.goo.gl/uHAbsjFHxURsAWkv7",
+        "name": "Jami Ul Alfar Mosque",
+        "name:en": "Red Mosque",
+        "name:pl": "Czerwony Meczet",
+        "opening_hours": "Mo-Th, Sa, Su 10:30-12:00, 13:00-15:00, 16:15-17:30",
+        "religion": "muslim",
+        "tourism": "attraction",
+        "type": "multipolygon",
+        "url": "https://youtu.be/UbfYHmkWmxU?si=ZNk_ddRrpWPIvgm1&t=624",
+        "website": "http://www.redmasjid.com",
+        "wikidata": "Q2667449",
+        "wikimedia_commons": "Category:Jami Ul-Alfar Mosque",
+        "wikipedia": "en:Jami Ul-Alfar Mosque"
+      }
+    }
+  ]
+}

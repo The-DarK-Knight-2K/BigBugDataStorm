@@ -1,0 +1,532 @@
+{
+  "cluster_id": 28,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.682515,
+    "lat_max": 6.756594,
+    "lon_min": 79.823206,
+    "lon_max": 79.903602
+  },
+  "outlet_ids": [
+    "OUT_00198",
+    "OUT_00245",
+    "OUT_00404",
+    "OUT_00465",
+    "OUT_00533",
+    "OUT_00716",
+    "OUT_00757",
+    "OUT_00888",
+    "OUT_00898",
+    "OUT_00953",
+    "OUT_01358",
+    "OUT_01414",
+    "OUT_01433",
+    "OUT_01483",
+    "OUT_01626",
+    "OUT_01736",
+    "OUT_01791",
+    "OUT_02049",
+    "OUT_02097",
+    "OUT_02221",
+    "OUT_02286",
+    "OUT_02347",
+    "OUT_02469",
+    "OUT_02495",
+    "OUT_02516",
+    "OUT_02545",
+    "OUT_02876",
+    "OUT_02952",
+    "OUT_03050",
+    "OUT_03107",
+    "OUT_03185",
+    "OUT_03335",
+    "OUT_03599",
+    "OUT_03619",
+    "OUT_03985",
+    "OUT_04072",
+    "OUT_04152",
+    "OUT_04244",
+    "OUT_04358",
+    "OUT_04450",
+    "OUT_04584",
+    "OUT_04651",
+    "OUT_04672",
+    "OUT_04710",
+    "OUT_05059",
+    "OUT_05123",
+    "OUT_05136",
+    "OUT_05534",
+    "OUT_05547",
+    "OUT_05586",
+    "OUT_05630",
+    "OUT_05715",
+    "OUT_05718",
+    "OUT_05789",
+    "OUT_05819",
+    "OUT_05923",
+    "OUT_05950",
+    "OUT_05958",
+    "OUT_06223",
+    "OUT_06501",
+    "OUT_06678",
+    "OUT_06747",
+    "OUT_06885",
+    "OUT_07128",
+    "OUT_07249",
+    "OUT_07252",
+    "OUT_07479",
+    "OUT_07737",
+    "OUT_07774",
+    "OUT_08170",
+    "OUT_08172",
+    "OUT_08241",
+    "OUT_08278",
+    "OUT_08373",
+    "OUT_08481",
+    "OUT_08579",
+    "OUT_08656",
+    "OUT_08726",
+    "OUT_08853",
+    "OUT_08944"
+  ],
+  "n_outlets": 80,
+  "n_pois_returned": 42,
+  "scraped_at": "2026-05-16T20:24:10.130510",
+  "elements": [
+    {
+      "lat": 6.713496,
+      "lon": 79.9023228,
+      "tags": {
+        "name": "Navro Beach Hotel",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "http://www.navrobeachhotel.com/"
+      }
+    },
+    {
+      "lat": 6.741579,
+      "lon": 79.8947381,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sunandopananda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7447861,
+      "lon": 79.8942553,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Mary's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7429318,
+      "lon": 79.8916572,
+      "tags": {
+        "name": "Egoda Uyana",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.752501,
+      "lon": 79.8994105,
+      "tags": {
+        "addr:city": "Gorakana",
+        "addr:postcode": "12500",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Anne's Church",
+        "note": "This church known locally as Sarikkamulla Church (since it is situated in Sarikkamulla) belongs to the Parish of Panadura.",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7372011,
+      "lon": 79.8976467,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "anglican",
+        "name": "St. James' Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7278364,
+      "lon": 79.9006463,
+      "tags": {
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "place_of_worship",
+        "name": "Bodhirajaramaya"
+      }
+    },
+    {
+      "lat": 6.7307238,
+      "lon": 79.89935,
+      "tags": {
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "place_of_worship",
+        "name": "Vidarshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7299698,
+      "lon": 79.8995048,
+      "tags": {
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "school",
+        "name:en": "Egodauyana Junior School"
+      }
+    },
+    {
+      "lat": 6.7301133,
+      "lon": 79.8983047,
+      "tags": {
+        "addr:street": "Dinasiri Mawatha",
+        "amenity": "place_of_worship",
+        "name:en": "Jinendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7421975,
+      "lon": 79.9006666,
+      "tags": {
+        "addr:city": "Pallimulla",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Walukaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7279846,
+      "lon": 79.9030856,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Mahanama Road",
+        "amenity": "school",
+        "name": "Mahanama Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7090463,
+      "lon": 79.9034238,
+      "tags": {
+        "addr:housenumber": "24/10",
+        "addr:street": "Sri Gunananda Road",
+        "email": "milanfernando@hotmail.com",
+        "internet_access": "wlan",
+        "name": "Milan Beach Villa",
+        "name:en": "Milan Beach Villa",
+        "name:ru": "\u0412\u0438\u043b\u043b\u0430 \u041c\u0438\u043b\u0430\u043d\u0430 \u043d\u0430 \u0431\u0435\u0440\u0435\u0433\u0443",
+        "opening_hours": "24/7",
+        "operator": "Milan Fernando",
+        "phone": "+94776559591",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7092358,
+      "lon": 79.9032391,
+      "tags": {
+        "addr:housenumber": "24/10",
+        "addr:postcode": "12500",
+        "addr:street": "Sri Gunananda Road",
+        "email": "milanfernando@hotmail.com",
+        "internet_access": "wlan",
+        "name:en": "Milan Beach Villa",
+        "name:ru": "Milan Beach Villa",
+        "opening_hours": "24/7",
+        "operator": "Milan Fernando",
+        "phone": "+94776559591",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7409611,
+      "lon": 79.8954432,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7554862,
+      "lon": 79.9005964,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nandana Pirivena (Temple)",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7565937,
+      "lon": 79.9021862,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nakshabandiya Jummah Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.7555473,
+      "lon": 79.9028117,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Waves Cafe"
+      }
+    },
+    {
+      "lat": 6.7545378,
+      "lon": 79.8994019,
+      "tags": {
+        "amenity": "school",
+        "name": "Ikra International College",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7533034,
+      "lon": 79.8997015,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "\u0dc3\u0dd2\u0dad\u0dd4\u0db8\u0dca \u0dc4\u0ddc\u0da7\u0dd9\u0dbd\u0dca"
+      }
+    },
+    {
+      "lat": 6.7531762,
+      "lon": 79.8999575,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Charith's"
+      }
+    },
+    {
+      "lat": 6.7526188,
+      "lon": 79.9007978,
+      "tags": {
+        "amenity": "school",
+        "name": "Mount Hira International School",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7528422,
+      "lon": 79.9027427,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Thaksala Maha Vidyalaya",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7524676,
+      "lon": 79.8988037,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St Anne's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7508517,
+      "lon": 79.897716,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gangathilaka Pirivana, Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7502995,
+      "lon": 79.9002501,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Keselwattha Bus Stop",
+        "operator": "dilshan",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7498779,
+      "lon": 79.8987903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dheeniya masjid \u0645\u0633\u062c\u062f",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.7499765,
+      "lon": 79.9002682,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Old Galle Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator": "dilshan",
+        "operator:wikidata": "Q5039260",
+        "operator:wikipedia": "en:Cargills (Ceylon)",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7505407,
+      "lon": 79.8934152,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Randiya hotel"
+      }
+    },
+    {
+      "lat": 6.7360729,
+      "lon": 79.9013955,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Old Galle Road",
+        "amenity": "restaurant",
+        "name": "Aknara hotel"
+      }
+    },
+    {
+      "lat": 6.7319432,
+      "lon": 79.8958746,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Galle Road New Deviation",
+        "amenity": "restaurant",
+        "name": "Oruwa Restaurant"
+      }
+    },
+    {
+      "lat": 6.7560593,
+      "lon": 79.8913115,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Bolgoda queens villa"
+      }
+    },
+    {
+      "lat": 6.7489075,
+      "lon": 79.900812,
+      "tags": {
+        "name": "Public Market Building",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7546797,
+      "lon": 79.8992517,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paratta junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7556663,
+      "lon": 79.8989303,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paratta junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7115338,
+      "lon": 79.9028169,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:housenumber": "40",
+        "addr:postcode": "12500",
+        "addr:street": "Beach Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "delivery": "no",
+        "name": "Street Food Outlets",
+        "opening_hours": "15:00-21:00",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.7117075,
+      "lon": 79.9029762,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Kinro Food Corner"
+      }
+    },
+    {
+      "lat": 6.7490545,
+      "lon": 79.8994772,
+      "tags": {
+        "addr:city": "Old Galle Road",
+        "addr:street": "School Lane",
+        "amenity": "school",
+        "name": "WP/KL/ Jeelan National College"
+      }
+    },
+    {
+      "lat": 6.7487872,
+      "lon": 79.900967,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dentistry",
+        "name": "Keselwatta Dental Clinic"
+      }
+    },
+    {
+      "lat": 6.7476123,
+      "lon": 79.9008526,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Safety Firts",
+        "operator": "Dr, Imthiyas",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.7133266,
+      "lon": 79.9015797,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Navro Seafood"
+      }
+    },
+    {
+      "lat": 6.7495703,
+      "lon": 79.9009201,
+      "tags": {
+        "building": "yes",
+        "name": "Arafath Hotel",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

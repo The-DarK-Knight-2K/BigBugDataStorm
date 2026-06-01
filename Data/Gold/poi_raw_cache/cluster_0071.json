@@ -1,0 +1,455 @@
+{
+  "cluster_id": 71,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.156359,
+    "lat_max": 7.23236,
+    "lon_min": 80.482843,
+    "lon_max": 80.564385
+  },
+  "outlet_ids": [
+    "OUT_09079",
+    "OUT_09091",
+    "OUT_09147",
+    "OUT_09155",
+    "OUT_09288",
+    "OUT_09298",
+    "OUT_09644",
+    "OUT_09824",
+    "OUT_09838",
+    "OUT_09899",
+    "OUT_09934",
+    "OUT_09989",
+    "OUT_10055",
+    "OUT_10239",
+    "OUT_10260",
+    "OUT_10497",
+    "OUT_10554",
+    "OUT_10587",
+    "OUT_10626",
+    "OUT_10796",
+    "OUT_11112",
+    "OUT_11153",
+    "OUT_11235",
+    "OUT_11284",
+    "OUT_11484",
+    "OUT_11544",
+    "OUT_11550",
+    "OUT_11783",
+    "OUT_12427",
+    "OUT_12667",
+    "OUT_12686",
+    "OUT_12764",
+    "OUT_12927"
+  ],
+  "n_outlets": 33,
+  "n_pois_returned": 44,
+  "scraped_at": "2026-05-16T20:30:43.447021",
+  "elements": [
+    {
+      "lat": 7.173322,
+      "lon": 80.5003072,
+      "tags": {
+        "addr:city": "Hemmathagama",
+        "amenity": "school",
+        "name": "Nagaragiri School"
+      }
+    },
+    {
+      "lat": 7.1733007,
+      "lon": 80.5015841,
+      "tags": {
+        "addr:city": "Hemmathagama",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hemmathagama Hospital"
+      }
+    },
+    {
+      "lat": 7.1719437,
+      "lon": 80.5115013,
+      "tags": {
+        "addr:city": "Hemmathagama",
+        "amenity": "school",
+        "name": "Zahira Arabic College"
+      }
+    },
+    {
+      "lat": 7.1603406,
+      "lon": 80.5569004,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:postcode": "20500",
+        "addr:street": "Mawanella-Hemmathagama-Singhapitiya Road",
+        "amenity": "school",
+        "name": "Jinaraja Boys College",
+        "opening_hours": "Mo-Fr 07:30-13:30"
+      }
+    },
+    {
+      "lat": 7.1577112,
+      "lon": 80.5566858,
+      "tags": {
+        "amenity": "school",
+        "name": "Devi Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2056134,
+      "lon": 80.4944587,
+      "tags": {
+        "amenity": "school",
+        "name": "Balawathgama Central College"
+      }
+    },
+    {
+      "lat": 7.227344,
+      "lon": 80.4855921,
+      "tags": {
+        "addr:city": "Aluthnuwara",
+        "amenity": "place_of_worship",
+        "name": "Aluthnuwara Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2056525,
+      "lon": 80.5642344,
+      "tags": {
+        "addr:city": "Galkaduva",
+        "amenity": "place_of_worship",
+        "name": "Sri Gautama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1591443,
+      "lon": 80.4943274,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mediliya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1611161,
+      "lon": 80.547108,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ambuluwawa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2011401,
+      "lon": 80.5624348,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gamhatha"
+      }
+    },
+    {
+      "lat": 7.156932,
+      "lon": 80.5593928,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Kudamake Rd",
+        "amenity": "place_of_worship",
+        "name": "Wijayarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1608389,
+      "lon": 80.5596541,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sinhapitiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.168548,
+      "lon": 80.5622601,
+      "tags": {
+        "addr:city": "Unambuwa",
+        "addr:street": "Kadugannawa-Gampola Road",
+        "amenity": "place_of_worship",
+        "name": "Wana Vasala Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1687686,
+      "lon": 80.5557525,
+      "tags": {
+        "addr:city": "Rathmalkaduwa",
+        "addr:street": "Rathmalkaduwa Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhirukkaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1641484,
+      "lon": 80.554729,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1598304,
+      "lon": 80.5625064,
+      "tags": {
+        "addr:street": "Mawanella-Hemmathagama-Singhapitiya Road",
+        "amenity": "restaurant",
+        "cuisine": "curry;asian",
+        "name:en": "LaPinchi"
+      }
+    },
+    {
+      "lat": 7.2269903,
+      "lon": 80.4834272,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Aluthnuwara"
+      }
+    },
+    {
+      "lat": 7.2277579,
+      "lon": 80.4852873,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dedimunda Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1641064,
+      "lon": 80.5533783,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jamboo Hotel & Restaurant"
+      }
+    },
+    {
+      "lat": 7.1590431,
+      "lon": 80.5225003,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.225156,
+      "lon": 80.5474882,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Watapola ganhata road",
+        "amenity": "restaurant",
+        "name": "Athulya villa"
+      }
+    },
+    {
+      "lat": 7.1743493,
+      "lon": 80.5002362,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.2305232,
+      "lon": 80.4992634,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1925285,
+      "lon": 80.5509301,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Watadeniya town Jumma Mosque"
+      }
+    },
+    {
+      "lat": 7.1597713,
+      "lon": 80.5640184,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Golden Pearl"
+      }
+    },
+    {
+      "lat": 7.1946788,
+      "lon": 80.5529203,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pearls of paradise"
+      }
+    },
+    {
+      "lat": 7.1619366,
+      "lon": 80.5623866,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Golden Pearl Reception hall"
+      }
+    },
+    {
+      "lat": 7.1590143,
+      "lon": 80.5625181,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1784045,
+      "lon": 80.5008289,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Hemmathagama Grand Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.186654,
+      "lon": 80.4841512,
+      "tags": {
+        "addr:city": "Hemmathagama",
+        "addr:postcode": "71530",
+        "addr:street": "Meepitiya",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Sudharshanarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1866249,
+      "lon": 80.4874803,
+      "tags": {
+        "addr:city": "Hemmathagama",
+        "addr:street": "Waduwawala",
+        "amenity": "school",
+        "name": "Waduwawala Junior School"
+      }
+    },
+    {
+      "lat": 7.1918036,
+      "lon": 80.5007601,
+      "tags": {
+        "addr:city": "Hemmathagama",
+        "addr:postcode": "71530",
+        "addr:street": "Eraminigammana",
+        "amenity": "place_of_worship",
+        "name": "Sri Susilaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2030455,
+      "lon": 80.4945477,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Alpitiya Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2086922,
+      "lon": 80.4928036,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kumbalgama Sri Bodhirajarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2130961,
+      "lon": 80.489615,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rukulgama Sri Bodhirajaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.231128,
+      "lon": 80.4979077,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.2305312,
+      "lon": 80.499261,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.175041,
+      "lon": 80.5007148,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.175287,
+      "lon": 80.5007645,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.172568,
+      "lon": 80.5062388,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Jameul Hairath Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1741003,
+      "lon": 80.5000748,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Town Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1747505,
+      "lon": 80.5006527,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.1557723,
+      "lon": 80.564403,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Gampola-Nawalapitiya Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Gampola Base Hospital",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

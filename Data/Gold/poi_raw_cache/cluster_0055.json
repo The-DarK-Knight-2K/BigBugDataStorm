@@ -1,0 +1,527 @@
+{
+  "cluster_id": 55,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.878275,
+    "lat_max": 6.974184999999999,
+    "lon_min": 80.608202,
+    "lon_max": 80.691211
+  },
+  "outlet_ids": [
+    "OUT_09024",
+    "OUT_09188",
+    "OUT_09394",
+    "OUT_09484",
+    "OUT_09513",
+    "OUT_09524",
+    "OUT_09702",
+    "OUT_09960",
+    "OUT_09982",
+    "OUT_10051",
+    "OUT_10110",
+    "OUT_10147",
+    "OUT_10175",
+    "OUT_10236",
+    "OUT_10255",
+    "OUT_10264",
+    "OUT_10285",
+    "OUT_10466",
+    "OUT_10477",
+    "OUT_10529",
+    "OUT_10585",
+    "OUT_10606",
+    "OUT_10700",
+    "OUT_10939",
+    "OUT_10989",
+    "OUT_11010",
+    "OUT_11161",
+    "OUT_11174",
+    "OUT_11230",
+    "OUT_11373",
+    "OUT_11460",
+    "OUT_11465",
+    "OUT_11479",
+    "OUT_11623",
+    "OUT_11716",
+    "OUT_11740",
+    "OUT_11970",
+    "OUT_11993",
+    "OUT_12012",
+    "OUT_12061",
+    "OUT_12092",
+    "OUT_12121",
+    "OUT_12205",
+    "OUT_12292",
+    "OUT_12410",
+    "OUT_12522",
+    "OUT_12607",
+    "OUT_12672",
+    "OUT_12966",
+    "OUT_12979"
+  ],
+  "n_outlets": 50,
+  "n_pois_returned": 51,
+  "scraped_at": "2026-05-16T20:28:59.890424",
+  "elements": [
+    {
+      "lat": 6.9688843,
+      "lon": 80.6528447,
+      "tags": {
+        "name": "Watagoda",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9572412,
+      "lon": 80.6891016,
+      "tags": {
+        "alt:MSL": "1464",
+        "name": "Great Western",
+        "railway": "station",
+        "wikipedia": "en:Great Western railway station"
+      }
+    },
+    {
+      "lat": 6.9400481,
+      "lon": 80.6609908,
+      "tags": {
+        "name": "Talawakele",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8904719,
+      "lon": 80.6330012,
+      "tags": {
+        "addr:city": "Hatton",
+        "addr:street": "Ottery Factory Road",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Governor's Mansion",
+        "tourism": "hotel",
+        "website": "http://www.governorsmansion.com"
+      }
+    },
+    {
+      "lat": 6.9495344,
+      "lon": 80.6384543,
+      "tags": {
+        "addr:city": "Talawakele",
+        "addr:street": "Hatton - Nuwara Eliya Road",
+        "name": "The Waterfall Villas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9508987,
+      "lon": 80.6365855,
+      "tags": {
+        "addr:city": "Talawakele",
+        "addr:street": "Hatton - Nuwara Eliya Road",
+        "name": "Devon Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8860221,
+      "lon": 80.6279991,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ottery Junction"
+      }
+    },
+    {
+      "lat": 6.9140321,
+      "lon": 80.6890158,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hindu Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9384537,
+      "lon": 80.6896039,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rathnagiriya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.946011,
+      "lon": 80.6527032,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9227984,
+      "lon": 80.6888528,
+      "tags": {
+        "covered": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9508407,
+      "lon": 80.6332208,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Temple with view",
+        "name:fr": "Temple avec vue"
+      }
+    },
+    {
+      "lat": 6.9685345,
+      "lon": 80.6108308,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bogahawaththa Bodhirukkharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9265267,
+      "lon": 80.6870894,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lindula Summer View"
+      }
+    },
+    {
+      "lat": 6.937224,
+      "lon": 80.6616944,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9365451,
+      "lon": 80.6610078,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.93591,
+      "lon": 80.6631428,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9465343,
+      "lon": 80.636592,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9487532,
+      "lon": 80.6495419,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9479856,
+      "lon": 80.6504274,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9468782,
+      "lon": 80.6517705,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.943807,
+      "lon": 80.653805,
+      "tags": {
+        "name": "Royal mount guest & rest",
+        "phone": "077 004 6030",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.947463,
+      "lon": 80.6456487,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.9517345,
+      "lon": 80.6361429,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "St Clair Tea Center"
+      }
+    },
+    {
+      "lat": 6.9253287,
+      "lon": 80.6085923,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9250065,
+      "lon": 80.6096249,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "kotagala school bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9264496,
+      "lon": 80.6148257,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "rosita bazzar bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.926881,
+      "lon": 80.6167838,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9256009,
+      "lon": 80.6089297,
+      "tags": {
+        "addr:city": "Kotagala",
+        "addr:housenumber": "WJG5 + 5H3",
+        "addr:postcode": "22080",
+        "addr:street": "Kotagala Railway Station Road",
+        "amenity": "place_of_worship",
+        "name": "Muthuvinayagar kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9272131,
+      "lon": 80.6126419,
+      "tags": {
+        "addr:city": "kotagala",
+        "addr:housenumber": "WJG7 + V32",
+        "addr:postcode": "22080",
+        "amenity": "place_of_worship",
+        "name": "Shri Muthumariamman temple, wooton hills",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9283117,
+      "lon": 80.6086713,
+      "tags": {
+        "addr:city": "Kotagala",
+        "addr:postcode": "22080",
+        "name": "Kotagala",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.9382954,
+      "lon": 80.6612982,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Victory hotel"
+      }
+    },
+    {
+      "lat": 6.93853,
+      "lon": 80.6612917,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shree Lakshana's kitchen"
+      }
+    },
+    {
+      "lat": 6.9031639,
+      "lon": 80.6580745,
+      "tags": {
+        "addr:city": "Nuwaraeliya",
+        "addr:housenumber": "17",
+        "addr:street": "Lindula",
+        "brand": "Chaza Oddington",
+        "email": "sedirisinghe.edirisinghe@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Chaza Oddington",
+        "phone": "+94713510649",
+        "rooms": "7",
+        "tourism": "hotel",
+        "website": "https://chazaoddington.com/"
+      }
+    },
+    {
+      "lat": 6.9698,
+      "lon": 80.6525871,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dilakshan Hotel"
+      }
+    },
+    {
+      "lat": 6.921923,
+      "lon": 80.686964,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Lindula Divisional Hospital"
+      }
+    },
+    {
+      "lat": 6.924135,
+      "lon": 80.609954,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kotagala Pabbatharama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9255741,
+      "lon": 80.6096144,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2024-05-19",
+        "grades": "1-13",
+        "name": "Kotagala Tamil Vidyalaya",
+        "operator:type": "government",
+        "religion": "all"
+      }
+    },
+    {
+      "lat": 6.9268394,
+      "lon": 80.6178517,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nuwara Eliya Pradeshiya Sabha",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9392193,
+      "lon": 80.6610441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kathiresan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.933576,
+      "lon": 80.6649671,
+      "tags": {
+        "amenity": "school",
+        "name": "CP/N/Talawakele T.M.V"
+      }
+    },
+    {
+      "lat": 6.9338237,
+      "lon": 80.6647605,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9222202,
+      "lon": 80.6490135,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8795685,
+      "lon": 80.6323512,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9508492,
+      "lon": 80.6819013,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9685765,
+      "lon": 80.6101394,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9078408,
+      "lon": 80.6795992,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9050338,
+      "lon": 80.6784832,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9242061,
+      "lon": 80.6107462,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9465454,
+      "lon": 80.6369718,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9352926,
+      "lon": 80.665347,
+      "tags": {
+        "addr:full": "DAYAGAMA WEST 2ND DIVISION",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "school",
+        "name": "Dell Tamil Vidyayam"
+      }
+    }
+  ]
+}

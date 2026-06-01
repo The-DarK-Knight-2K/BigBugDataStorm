@@ -1,0 +1,362 @@
+{
+  "cluster_id": 201,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.1541820000000005,
+    "lat_max": 7.21795,
+    "lon_min": 80.011315,
+    "lon_max": 80.087912
+  },
+  "outlet_ids": [
+    "OUT_00216",
+    "OUT_00228",
+    "OUT_00711",
+    "OUT_00998",
+    "OUT_01044",
+    "OUT_01262",
+    "OUT_01263",
+    "OUT_01326",
+    "OUT_01470",
+    "OUT_01505",
+    "OUT_01532",
+    "OUT_01695",
+    "OUT_01749",
+    "OUT_01909",
+    "OUT_02088",
+    "OUT_02093",
+    "OUT_02195",
+    "OUT_02399",
+    "OUT_02408",
+    "OUT_02438",
+    "OUT_02477",
+    "OUT_02610",
+    "OUT_02818",
+    "OUT_02886",
+    "OUT_02949",
+    "OUT_02967",
+    "OUT_03121",
+    "OUT_03413",
+    "OUT_03656",
+    "OUT_03863",
+    "OUT_03865",
+    "OUT_03912",
+    "OUT_03968",
+    "OUT_04071",
+    "OUT_04224",
+    "OUT_04439",
+    "OUT_04519",
+    "OUT_04555",
+    "OUT_04565",
+    "OUT_04778",
+    "OUT_04834",
+    "OUT_05102",
+    "OUT_05144",
+    "OUT_05169",
+    "OUT_05183",
+    "OUT_05186",
+    "OUT_05191",
+    "OUT_05192",
+    "OUT_05272",
+    "OUT_05348",
+    "OUT_05664",
+    "OUT_05802",
+    "OUT_05983",
+    "OUT_06107",
+    "OUT_06431",
+    "OUT_06451",
+    "OUT_06741",
+    "OUT_06946",
+    "OUT_07007",
+    "OUT_07175",
+    "OUT_07263",
+    "OUT_07272",
+    "OUT_07293",
+    "OUT_07320",
+    "OUT_07370",
+    "OUT_07588",
+    "OUT_07597",
+    "OUT_07702",
+    "OUT_07989",
+    "OUT_08207",
+    "OUT_08279",
+    "OUT_08285",
+    "OUT_08762",
+    "OUT_08770",
+    "OUT_08965"
+  ],
+  "n_outlets": 75,
+  "n_pois_returned": 29,
+  "scraped_at": "2026-05-16T20:50:41.722383",
+  "elements": [
+    {
+      "lat": 7.1854854,
+      "lon": 80.0743794,
+      "tags": {
+        "name": "Keenawala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1551359,
+      "lon": 80.0579516,
+      "tags": {
+        "addr:city": "Veyangoda",
+        "addr:street": "By Pass Road",
+        "amenity": "marketplace",
+        "name": "Veyangoda Market"
+      }
+    },
+    {
+      "lat": 7.1697697,
+      "lon": 80.0209169,
+      "tags": {
+        "addr:housenumber": "227 pathahena",
+        "addr:street": "Katunayake-Veyangoda Road",
+        "email": "priyamanigroups@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "priyamani\u3000",
+        "name:ja": "\u30d4\u30ea\u30e4\u30de\u30cb",
+        "phone": "94-770493631",
+        "tourism": "hotel",
+        "website": "http://www.hghg.jp/hotelpriyamani/"
+      }
+    },
+    {
+      "lat": 7.2028282,
+      "lon": 80.0767136,
+      "tags": {
+        "addr:city": "Pallewela",
+        "addr:street": "Borukgamuwa Temple Road",
+        "amenity": "place_of_worship",
+        "historic": "yes",
+        "name": "Borukgamuwa Alokarama Ancient Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1989409,
+      "lon": 80.084591,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Walbolana Wickramashila Widarshana Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2030225,
+      "lon": 80.0761837,
+      "tags": {
+        "name": "Lucky Stores",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.167838,
+      "lon": 80.0660584,
+      "tags": {
+        "internet_access": "no",
+        "name": "Wadurawa Railway Station",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1980859,
+      "lon": 80.0675012,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Viradagala,Sri Sayilathrarama Viharasthanaya,",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2132698,
+      "lon": 80.0714781,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gaspe Sri Jayawardanaramaya Rajayama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.213476,
+      "lon": 80.0570717,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Muddaragama Chethiyaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2157945,
+      "lon": 80.0579324,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "operator": "CTB",
+        "public_transport": "platform",
+        "ref": "985"
+      }
+    },
+    {
+      "lat": 7.1618255,
+      "lon": 80.0144738,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2160191,
+      "lon": 80.0113727,
+      "tags": {
+        "addr:street": "Minuwangoda-Diwulapitiya Road",
+        "amenity": "hospital",
+        "name:en": "Government Hospital"
+      }
+    },
+    {
+      "lat": 7.1557854,
+      "lon": 80.0567306,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1563323,
+      "lon": 80.0558553,
+      "tags": {
+        "name": "Somawathi Traders",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1564903,
+      "lon": 80.0555715,
+      "tags": {
+        "amenity": "school",
+        "name": "Veyangoda Primary College"
+      }
+    },
+    {
+      "lat": 7.1544958,
+      "lon": 80.057717,
+      "tags": {
+        "name": "Tharushi Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1565059,
+      "lon": 80.0549802,
+      "tags": {
+        "amenity": "school",
+        "name": "Hiripitiya  Primary School"
+      }
+    },
+    {
+      "lat": 7.1561624,
+      "lon": 80.055014,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Michail church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1545455,
+      "lon": 80.0565683,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nagendrarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2034492,
+      "lon": 80.0779263,
+      "tags": {
+        "building": "yes",
+        "name": "Grocery Outlet",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.200337,
+      "lon": 80.0837169,
+      "tags": {
+        "addr:city": "Pallewela",
+        "addr:postcode": "11150",
+        "addr:street": "Kaleliya - Pallewela - Medagampitiya Road",
+        "amenity": "school",
+        "name": "Walbolana Primary School",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2092471,
+      "lon": 80.0601746,
+      "tags": {
+        "amenity": "school",
+        "name": "Muddaragama Primary School"
+      }
+    },
+    {
+      "lat": 7.2170651,
+      "lon": 80.0611563,
+      "tags": {
+        "amenity": "school",
+        "name": "Kappitiwalana Primary School"
+      }
+    },
+    {
+      "lat": 7.1557656,
+      "lon": 80.0567362,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1545909,
+      "lon": 80.0577479,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1600398,
+      "lon": 80.0537739,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1566387,
+      "lon": 80.0297039,
+      "tags": {
+        "amenity": "school",
+        "name": "Marapola Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1654544,
+      "lon": 80.06425,
+      "tags": {
+        "addr:city": "Veyangoda",
+        "amenity": "school",
+        "name": "Bandaranayake Central College Veyangoda",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

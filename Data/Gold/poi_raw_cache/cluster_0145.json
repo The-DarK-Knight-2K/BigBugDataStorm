@@ -1,0 +1,169 @@
+{
+  "cluster_id": 145,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.652921,
+    "lat_max": 7.734025,
+    "lon_min": 80.21384,
+    "lon_max": 80.316958
+  },
+  "outlet_ids": [
+    "OUT_13075",
+    "OUT_13518",
+    "OUT_13546",
+    "OUT_13937",
+    "OUT_14029",
+    "OUT_14335",
+    "OUT_14357",
+    "OUT_14503",
+    "OUT_14531",
+    "OUT_14733",
+    "OUT_14743",
+    "OUT_14948",
+    "OUT_15057",
+    "OUT_15297",
+    "OUT_15302",
+    "OUT_15355",
+    "OUT_15386",
+    "OUT_15690",
+    "OUT_15824",
+    "OUT_15992",
+    "OUT_16019",
+    "OUT_16078",
+    "OUT_16113",
+    "OUT_16140",
+    "OUT_16343",
+    "OUT_16639",
+    "OUT_16732",
+    "OUT_16783",
+    "OUT_16876",
+    "OUT_16937"
+  ],
+  "n_outlets": 30,
+  "n_pois_returned": 13,
+  "scraped_at": "2026-05-16T20:41:10.228263",
+  "elements": [
+    {
+      "lat": 7.7118895,
+      "lon": 80.3080425,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6554066,
+      "lon": 80.2206105,
+      "tags": {
+        "addr:city": "Paadeniya",
+        "amenity": "place_of_worship",
+        "name": "Paadeniya Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6569231,
+      "lon": 80.2198588,
+      "tags": {
+        "addr:city": "Paadeniya",
+        "amenity": "school",
+        "name": "Sri Sunanda Maha Vidyalaya, Paadeniya"
+      }
+    },
+    {
+      "lat": 7.6626423,
+      "lon": 80.2241688,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "16kanuwa bus stop"
+      }
+    },
+    {
+      "lat": 7.6553943,
+      "lon": 80.2211229,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "kurunegala bus stop"
+      }
+    },
+    {
+      "lat": 7.6673021,
+      "lon": 80.2262444,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "werella bus stop"
+      }
+    },
+    {
+      "lat": 7.6664193,
+      "lon": 80.2258049,
+      "tags": {
+        "addr:postcode": "60461",
+        "addr:street": "Anuradhapura-Padeniya Road",
+        "name": "pawana hotel",
+        "opening_hours": "24/7",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.6557982,
+      "lon": 80.2210067,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Anuradhapura bus stop"
+      }
+    },
+    {
+      "lat": 7.7319766,
+      "lon": 80.2426668,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rideebendiella Eyyanayake Devalaya"
+      }
+    },
+    {
+      "lat": 7.6899238,
+      "lon": 80.2272426,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6667889,
+      "lon": 80.2776213,
+      "tags": {
+        "amenity": "school",
+        "name": "Malagane Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.6653317,
+      "lon": 80.2776085,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Galebandara Dewalaya",
+        "religion": "buddhist",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 7.6653303,
+      "lon": 80.2771855,
+      "tags": {
+        "addr:street": "Natiya Malagane Road",
+        "alt_name": "Walagamba Rajamaha Viharaya",
+        "amenity": "place_of_worship",
+        "description": "Gale bandara dewalaya",
+        "name": "Malagane Rajamaha Viharaya",
+        "phone": "+94771117988",
+        "religion": "buddhist",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,591 @@
+{
+  "cluster_id": 317,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.978330000000001,
+    "lat_max": 8.067037000000001,
+    "lon_min": 80.228107,
+    "lon_max": 80.317909
+  },
+  "outlet_ids": [
+    "OUT_13020",
+    "OUT_13170",
+    "OUT_13191",
+    "OUT_13216",
+    "OUT_13361",
+    "OUT_13538",
+    "OUT_13852",
+    "OUT_13928",
+    "OUT_14135",
+    "OUT_14194",
+    "OUT_14212",
+    "OUT_14234",
+    "OUT_14402",
+    "OUT_14637",
+    "OUT_14720",
+    "OUT_14822",
+    "OUT_15056",
+    "OUT_15120",
+    "OUT_15133",
+    "OUT_15653",
+    "OUT_15743",
+    "OUT_15855",
+    "OUT_15934",
+    "OUT_16038",
+    "OUT_16052",
+    "OUT_16072",
+    "OUT_16316",
+    "OUT_16480",
+    "OUT_16535",
+    "OUT_16586",
+    "OUT_16742",
+    "OUT_16749",
+    "OUT_16894",
+    "OUT_16945",
+    "OUT_16954",
+    "OUT_16963"
+  ],
+  "n_outlets": 36,
+  "n_pois_returned": 62,
+  "scraped_at": "2026-05-16T22:10:25.626406",
+  "elements": [
+    {
+      "lat": 8.0021635,
+      "lon": 80.2715285,
+      "tags": {
+        "name": "Galgamuwa",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 8.0351789,
+      "lon": 80.2767427,
+      "tags": {
+        "amenity": "school",
+        "name": "Buduruvakanda MV",
+        "opening_hours": "Mo-Fr 07:00-14:00"
+      }
+    },
+    {
+      "lat": 8.0346598,
+      "lon": 80.273753,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buduruwakanda Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0000146,
+      "lon": 80.2763435,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "SuwaSewana Chenneling Center"
+      }
+    },
+    {
+      "lat": 7.9996814,
+      "lon": 80.2727893,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pillair Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.9954195,
+      "lon": 80.2709046,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Benedict's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.9908498,
+      "lon": 80.2682363,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Galgamuwa Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9926674,
+      "lon": 80.2685011,
+      "tags": {
+        "amenity": "school",
+        "name": "Galgamuwa Model Muslim School"
+      }
+    },
+    {
+      "lat": 7.9982689,
+      "lon": 80.2720067,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Town Thakkiya Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 8.001782,
+      "lon": 80.2709364,
+      "tags": {
+        "name": "Mega Stores",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0023945,
+      "lon": 80.270358,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Vijaya Dahampasala"
+      }
+    },
+    {
+      "lat": 8.0019405,
+      "lon": 80.2710888,
+      "tags": {
+        "amenity": "school",
+        "name": "The vision lanka computer school"
+      }
+    },
+    {
+      "lat": 8.004194,
+      "lon": 80.2573067,
+      "tags": {
+        "amenity": "school",
+        "name": "Wayamba Janadhipathi primary school"
+      }
+    },
+    {
+      "lat": 8.0039864,
+      "lon": 80.2556236,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Palukandewa temple"
+      }
+    },
+    {
+      "lat": 8.0623545,
+      "lon": 80.2804265,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bo Sewana Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9954572,
+      "lon": 80.2696754,
+      "tags": {
+        "name": "Cop-OP Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.9962581,
+      "lon": 80.2676367,
+      "tags": {
+        "amenity": "school",
+        "name": "UB Wanninayaka National College"
+      }
+    },
+    {
+      "lat": 8.0041043,
+      "lon": 80.2510965,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Palukandewa temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0041563,
+      "lon": 80.253829,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jumma Masjid Palukandewa",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9983785,
+      "lon": 80.2462524,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rambottukulama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.995693,
+      "lon": 80.2699322,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City Express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0007619,
+      "lon": 80.2808496,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Assembly of God Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 8.0016269,
+      "lon": 80.2818257,
+      "tags": {
+        "amenity": "school",
+        "name": "Neth Academiy"
+      }
+    },
+    {
+      "lat": 8.0065236,
+      "lon": 80.2896302,
+      "tags": {
+        "amenity": "school",
+        "name": "Discovery School of International Education"
+      }
+    },
+    {
+      "lat": 8.0062133,
+      "lon": 80.289911,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kankaniyagama Viharasthanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0016381,
+      "lon": 80.2848458,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kithu Sevana Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 8.0066063,
+      "lon": 80.2915114,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sambodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0057514,
+      "lon": 80.3014536,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wetakeluwagama Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 8.0000896,
+      "lon": 80.3092462,
+      "tags": {
+        "amenity": "school",
+        "name": "Makalanegama Premary School"
+      }
+    },
+    {
+      "lat": 7.9881815,
+      "lon": 80.2654442,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Aluth Herathgama Old Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0140577,
+      "lon": 80.3175973,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ehetugalayaya Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0606008,
+      "lon": 80.3084553,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0526133,
+      "lon": 80.2976998,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sambodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9954005,
+      "lon": 80.2709432,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 8.0351889,
+      "lon": 80.2767338,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 8.0062153,
+      "lon": 80.2899285,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.006528,
+      "lon": 80.2896242,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 8.0040918,
+      "lon": 80.2511047,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0041952,
+      "lon": 80.2573318,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 8.0041654,
+      "lon": 80.2538184,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9881881,
+      "lon": 80.2654504,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9982763,
+      "lon": 80.2719814,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9954828,
+      "lon": 80.2696358,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0017931,
+      "lon": 80.2710533,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0019438,
+      "lon": 80.2710307,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.992661,
+      "lon": 80.2684988,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 8.0021665,
+      "lon": 80.2715477,
+      "tags": {
+        "building": "yes",
+        "name": "Galgamuwa",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 8.0016253,
+      "lon": 80.2848846,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 8.0016266,
+      "lon": 80.2818311,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.9983815,
+      "lon": 80.2462598,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9957268,
+      "lon": 80.2699173,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.9999903,
+      "lon": 80.2763257,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 7.9996894,
+      "lon": 80.2727294,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.9908494,
+      "lon": 80.2682037,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 8.0140684,
+      "lon": 80.317623,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0606019,
+      "lon": 80.3084545,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0004148,
+      "lon": 80.2775048,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Dilusha Hotel"
+      }
+    },
+    {
+      "lat": 8.0007642,
+      "lon": 80.2808472,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Assembly of God Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 8.0623503,
+      "lon": 80.280422,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0066134,
+      "lon": 80.2915057,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0526156,
+      "lon": 80.2977107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0015597,
+      "lon": 80.2771043,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Galgamuwa Base Hospital"
+      }
+    }
+  ]
+}

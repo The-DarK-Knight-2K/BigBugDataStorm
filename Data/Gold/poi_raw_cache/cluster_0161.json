@@ -1,0 +1,579 @@
+{
+  "cluster_id": 161,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.034953,
+    "lat_max": 7.134431,
+    "lon_min": 80.63529199999999,
+    "lon_max": 80.712121
+  },
+  "outlet_ids": [
+    "OUT_09161",
+    "OUT_09183",
+    "OUT_09193",
+    "OUT_09197",
+    "OUT_09274",
+    "OUT_09333",
+    "OUT_09358",
+    "OUT_09433",
+    "OUT_09488",
+    "OUT_09646",
+    "OUT_09885",
+    "OUT_10029",
+    "OUT_10095",
+    "OUT_10139",
+    "OUT_10316",
+    "OUT_10422",
+    "OUT_10425",
+    "OUT_10490",
+    "OUT_10516",
+    "OUT_10599",
+    "OUT_10662",
+    "OUT_10743",
+    "OUT_10757",
+    "OUT_10774",
+    "OUT_11016",
+    "OUT_11045",
+    "OUT_11069",
+    "OUT_11074",
+    "OUT_11192",
+    "OUT_11358",
+    "OUT_11511",
+    "OUT_11514",
+    "OUT_11593",
+    "OUT_11719",
+    "OUT_11756",
+    "OUT_11865",
+    "OUT_11957",
+    "OUT_11961",
+    "OUT_12013",
+    "OUT_12054",
+    "OUT_12145",
+    "OUT_12164",
+    "OUT_12201",
+    "OUT_12220",
+    "OUT_12273",
+    "OUT_12324",
+    "OUT_12341",
+    "OUT_12446",
+    "OUT_12468",
+    "OUT_12543",
+    "OUT_12689",
+    "OUT_12701",
+    "OUT_12847",
+    "OUT_12943",
+    "OUT_12978"
+  ],
+  "n_outlets": 55,
+  "n_pois_returned": 57,
+  "scraped_at": "2026-05-16T20:43:35.417276",
+  "elements": [
+    {
+      "lat": 7.0769833,
+      "lon": 80.6756314,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.0683131,
+      "lon": 80.6861652,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Thawalanthanna",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.1001736,
+      "lon": 80.6417578,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nawakadadora"
+      }
+    },
+    {
+      "lat": 7.1003492,
+      "lon": 80.6432759,
+      "tags": {
+        "amenity": "school",
+        "name": "Delta Gemunupura College"
+      }
+    },
+    {
+      "lat": 7.1072519,
+      "lon": 80.6370455,
+      "tags": {
+        "addr:city": "Pussellawa CP",
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Manthindaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1329743,
+      "lon": 80.6377661,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Dunukeulla"
+      }
+    },
+    {
+      "lat": 7.0572107,
+      "lon": 80.6954875,
+      "tags": {
+        "name": "Tea Bush Ramboda Hotel by Oak Ray",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.061472,
+      "lon": 80.6903921,
+      "tags": {
+        "name": "Ramboda Falls Hotels",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.062514,
+      "lon": 80.6854689,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Divisional Hospital Kothmale"
+      }
+    },
+    {
+      "lat": 7.0507993,
+      "lon": 80.662839,
+      "tags": {
+        "amenity": "school",
+        "name": "Niyamgamdora School"
+      }
+    },
+    {
+      "lat": 7.0560459,
+      "lon": 80.6998656,
+      "tags": {
+        "addr:city": "Ramboda",
+        "addr:street": "Peradeniya-Nuwara Eliya-Badulla Road",
+        "name": "Ramboda Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0560148,
+      "lon": 80.6985072,
+      "tags": {
+        "addr:city": "Ramboda",
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Ramboda Falls Hotel",
+        "rooms": "15",
+        "tourism": "hotel",
+        "website": "https://www.rambodafalls.com/"
+      }
+    },
+    {
+      "lat": 7.0600395,
+      "lon": 80.6923863,
+      "tags": {
+        "addr:city": "Ramboda",
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "restaurant",
+        "name": "Natural View Point & Restaurant"
+      }
+    },
+    {
+      "lat": 7.0752334,
+      "lon": 80.6752056,
+      "tags": {
+        "bus": "yes",
+        "description": "All buses stop at this location for a refreshing break, small road side restaurant open 24/7.  best place to catch a bus.",
+        "highway": "bus_stop",
+        "name": "BUS STOP - refreshing point",
+        "operator": "Private & government own busses",
+        "public_transport": "platform",
+        "restaurant": "yes",
+        "toilets": "yes"
+      }
+    },
+    {
+      "lat": 7.0988516,
+      "lon": 80.6438876,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.0753267,
+      "lon": 80.6754276,
+      "tags": {
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "place_of_worship",
+        "name": "Sugatharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0792332,
+      "lon": 80.6581843,
+      "tags": {
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "school",
+        "name": "Weerasekara collge"
+      }
+    },
+    {
+      "lat": 7.0499786,
+      "lon": 80.661673,
+      "tags": {
+        "alt_name": "Niyangandora Rajamaha Viharaya",
+        "amenity": "place_of_worship",
+        "name": "Niyangamdora Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0683414,
+      "lon": 80.6853635,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Thawalanthenne"
+      }
+    },
+    {
+      "lat": 7.041604,
+      "lon": 80.7069477,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Wedamulla \u0dc0\u0dd9\u0daf\u0db8\u0dd4\u0dbd\u0dca\u0dbd",
+        "name:en": "Wedamulla",
+        "name:si": "\u0dc0\u0dd9\u0daf\u0db8\u0dd4\u0dbd\u0dca\u0dbd"
+      }
+    },
+    {
+      "lat": 7.0805056,
+      "lon": 80.6603307,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Helbodagama"
+      }
+    },
+    {
+      "lat": 7.0790136,
+      "lon": 80.6634111,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Abagahamula"
+      }
+    },
+    {
+      "lat": 7.0448561,
+      "lon": 80.6485422,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0552434,
+      "lon": 80.6483431,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pusulpitiya Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0571505,
+      "lon": 80.6508464,
+      "tags": {
+        "amenity": "school",
+        "name": "Hadunuwewa Central Collage"
+      }
+    },
+    {
+      "lat": 7.0739827,
+      "lon": 80.6805935,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shri Bhakta Hanuman Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.0796499,
+      "lon": 80.67323,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.0801783,
+      "lon": 80.671811,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0712926,
+      "lon": 80.7110906,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Perettasi"
+      }
+    },
+    {
+      "lat": 7.0548106,
+      "lon": 80.7006004,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.1131878,
+      "lon": 80.635371,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Church of God",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0784514,
+      "lon": 80.6791093,
+      "tags": {
+        "name": "The view at glenloch",
+        "phone": "077 881 2833",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.106457,
+      "lon": 80.6374999,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0997369,
+      "lon": 80.6425157,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0680674,
+      "lon": 80.6741194,
+      "tags": {
+        "addr:city": "Katukitula",
+        "amenity": "place_of_worship",
+        "name": "Puwakmal pidugoda viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.068005,
+      "lon": 80.6820693,
+      "tags": {
+        "addr:city": "Tawalantenna",
+        "addr:street": "Tawalantenna-Talawakele Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhirukkarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0482617,
+      "lon": 80.6983387,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Samuddra"
+      }
+    },
+    {
+      "lat": 7.0530653,
+      "lon": 80.6984918,
+      "tags": {
+        "building": "hotel",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Thuruliya Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0632017,
+      "lon": 80.6834644,
+      "tags": {
+        "amenity": "school",
+        "name": "Gamini Dissanayaka National School"
+      }
+    },
+    {
+      "lat": 7.0711552,
+      "lon": 80.6429107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mawela Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0727903,
+      "lon": 80.6725604,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0656679,
+      "lon": 80.6876948,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0550942,
+      "lon": 80.6749564,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ambatahalawa Pragna Pradeepa Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0514295,
+      "lon": 80.686508,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Malhewa Dalada Karandu Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0990082,
+      "lon": 80.644335,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Delta Gemunupura Gemunuraja Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0785883,
+      "lon": 80.6578606,
+      "tags": {
+        "amenity": "school",
+        "name": "Weerasekara Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0700732,
+      "lon": 80.6648699,
+      "tags": {
+        "amenity": "school",
+        "name": "Delumthalamda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0454654,
+      "lon": 80.6449559,
+      "tags": {
+        "amenity": "school",
+        "name": "Rathanasara Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1064213,
+      "lon": 80.6894939,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0786439,
+      "lon": 80.6938404,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.1001261,
+      "lon": 80.6382725,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1275465,
+      "lon": 80.6867513,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "sri muththumariyamman temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.0486821,
+      "lon": 80.7017338,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.0416121,
+      "lon": 80.6977075,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.041988,
+      "lon": 80.7006786,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Palagolla Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0419505,
+      "lon": 80.6965381,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Ramboda Water Villa"
+      }
+    },
+    {
+      "lat": 7.0681067,
+      "lon": 80.6739743,
+      "tags": {
+        "addr:city": "Katukitula",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Puwakmal pidugoda viharaya",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

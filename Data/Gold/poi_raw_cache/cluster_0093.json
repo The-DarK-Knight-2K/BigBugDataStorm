@@ -1,0 +1,367 @@
+{
+  "cluster_id": 93,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.0705610000000005,
+    "lat_max": 7.145951,
+    "lon_min": 80.482711,
+    "lon_max": 80.556778
+  },
+  "outlet_ids": [
+    "OUT_09052",
+    "OUT_09081",
+    "OUT_09163",
+    "OUT_09176",
+    "OUT_09214",
+    "OUT_09315",
+    "OUT_09590",
+    "OUT_09753",
+    "OUT_09874",
+    "OUT_09890",
+    "OUT_09894",
+    "OUT_09926",
+    "OUT_09966",
+    "OUT_10025",
+    "OUT_10092",
+    "OUT_10432",
+    "OUT_10471",
+    "OUT_10496",
+    "OUT_10731",
+    "OUT_10817",
+    "OUT_10819",
+    "OUT_10907",
+    "OUT_10969",
+    "OUT_11138",
+    "OUT_11440",
+    "OUT_11464",
+    "OUT_11494",
+    "OUT_11567",
+    "OUT_11688",
+    "OUT_11858",
+    "OUT_12000",
+    "OUT_12022",
+    "OUT_12076",
+    "OUT_12099",
+    "OUT_12181",
+    "OUT_12190",
+    "OUT_12242",
+    "OUT_12275",
+    "OUT_12417",
+    "OUT_12510",
+    "OUT_12621",
+    "OUT_12727",
+    "OUT_12826"
+  ],
+  "n_outlets": 43,
+  "n_pois_returned": 35,
+  "scraped_at": "2026-05-16T20:35:10.540224",
+  "elements": [
+    {
+      "lat": 7.0799478,
+      "lon": 80.5434081,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1442466,
+      "lon": 80.5371314,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pahala Galpaya"
+      }
+    },
+    {
+      "lat": 7.1387468,
+      "lon": 80.5369873,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Uda Galpaya"
+      }
+    },
+    {
+      "lat": 7.1276693,
+      "lon": 80.5301869,
+      "tags": {
+        "addr:city": "Kurunduwatta",
+        "addr:street": "Gampola-Dolosbage Road",
+        "name": "Sathosa Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1160564,
+      "lon": 80.5256703,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Summerset"
+      }
+    },
+    {
+      "lat": 7.1296407,
+      "lon": 80.5234146,
+      "tags": {
+        "addr:city": "kuruduwatta",
+        "amenity": "place_of_worship",
+        "name": "Talihunna Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1088076,
+      "lon": 80.494547,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Uduwella Bus Stop"
+      }
+    },
+    {
+      "lat": 7.1005194,
+      "lon": 80.5237455,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Madagoda Handiya"
+      }
+    },
+    {
+      "lat": 7.1030519,
+      "lon": 80.5175013,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Watekedeniya Palama"
+      }
+    },
+    {
+      "lat": 7.1003527,
+      "lon": 80.5177288,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Galkadulla Bus stop"
+      }
+    },
+    {
+      "lat": 7.1123974,
+      "lon": 80.5100461,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bhodirajaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.105275,
+      "lon": 80.499159,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uduwella Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0834267,
+      "lon": 80.4973995,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Raxawa Junction"
+      }
+    },
+    {
+      "lat": 7.0741672,
+      "lon": 80.5407265,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Warakawa"
+      }
+    },
+    {
+      "lat": 7.0768652,
+      "lon": 80.5428028,
+      "tags": {
+        "addr:street": "gampola - Nawalapitiya Road",
+        "amenity": "place_of_worship",
+        "name": "Warakawa Sri Sundararamaya Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0827416,
+      "lon": 80.5478747,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tilton",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0838877,
+      "lon": 80.550789,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pallegama",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0860214,
+      "lon": 80.5535593,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pallegama Temple"
+      }
+    },
+    {
+      "lat": 7.0819513,
+      "lon": 80.5055051,
+      "tags": {
+        "name": "Crysbro Bungalow, Paragala",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0961914,
+      "lon": 80.5178534,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Lokananda Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1251389,
+      "lon": 80.5268959,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ruwanpa Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1240424,
+      "lon": 80.5323837,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Poorvarama Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0706544,
+      "lon": 80.5395043,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0778245,
+      "lon": 80.5428266,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paththunupitiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0860363,
+      "lon": 80.5540421,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pallegama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0951854,
+      "lon": 80.5555917,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gadol bokkuwa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1287805,
+      "lon": 80.5313918,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Kurunduwaththa Divisional Hospital"
+      }
+    },
+    {
+      "lat": 7.0864035,
+      "lon": 80.5512841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bo Uyana Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0847576,
+      "lon": 80.5395913,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Katukithula Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0757986,
+      "lon": 80.5347041,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0728323,
+      "lon": 80.5428633,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0993377,
+      "lon": 80.5479249,
+      "tags": {
+        "name": "The Weir House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1057061,
+      "lon": 80.5465938,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.0772219,
+      "lon": 80.5449478,
+      "tags": {
+        "amenity": "school",
+        "name": "Paththunupitiya Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0848315,
+      "lon": 80.5041849,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Paragala Temple",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

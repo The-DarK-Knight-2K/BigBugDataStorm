@@ -1,0 +1,122 @@
+{
+  "cluster_id": 19,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 8.02088,
+    "lat_max": 8.09491,
+    "lon_min": 79.864458,
+    "lon_max": 79.94018200000001
+  },
+  "outlet_ids": [
+    "OUT_13028",
+    "OUT_13534",
+    "OUT_13664",
+    "OUT_13976",
+    "OUT_14016",
+    "OUT_14035",
+    "OUT_14549",
+    "OUT_14836",
+    "OUT_14874",
+    "OUT_15100",
+    "OUT_15430",
+    "OUT_15469",
+    "OUT_15477",
+    "OUT_15599",
+    "OUT_15881",
+    "OUT_15938",
+    "OUT_15986",
+    "OUT_16145",
+    "OUT_16356",
+    "OUT_16481",
+    "OUT_16490",
+    "OUT_16601",
+    "OUT_16801"
+  ],
+  "n_outlets": 23,
+  "n_pois_returned": 10,
+  "scraped_at": "2026-05-16T20:22:43.398451",
+  "elements": [
+    {
+      "lat": 8.0720658,
+      "lon": 79.9231646,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0497684,
+      "lon": 79.9363717,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Puttalam-Anuradhapura-Trincomalee Road",
+        "amenity": "restaurant",
+        "cuisine": "local",
+        "name:en": "Sandali"
+      }
+    },
+    {
+      "lat": 8.0418746,
+      "lon": 79.9122644,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0343747,
+      "lon": 79.8788362,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0355393,
+      "lon": 79.8853196,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0336438,
+      "lon": 79.8735988,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0473675,
+      "lon": 79.9294687,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0617313,
+      "lon": 79.8974168,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0632497,
+      "lon": 79.8966189,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0740762,
+      "lon": 79.8939568,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

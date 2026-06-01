@@ -1,0 +1,102 @@
+{
+  "cluster_id": 167,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 8.032722999999999,
+    "lat_max": 8.116114000000001,
+    "lon_min": 80.064725,
+    "lon_max": 80.153159
+  },
+  "outlet_ids": [
+    "OUT_13120",
+    "OUT_13123",
+    "OUT_13220",
+    "OUT_13359",
+    "OUT_13692",
+    "OUT_13697",
+    "OUT_13711",
+    "OUT_14429",
+    "OUT_14528",
+    "OUT_14548",
+    "OUT_14552",
+    "OUT_14683",
+    "OUT_14763",
+    "OUT_15066",
+    "OUT_15094",
+    "OUT_15192",
+    "OUT_15328",
+    "OUT_15425",
+    "OUT_15457",
+    "OUT_15685",
+    "OUT_15863",
+    "OUT_15971",
+    "OUT_16183",
+    "OUT_16231",
+    "OUT_16250",
+    "OUT_16253",
+    "OUT_16258",
+    "OUT_16442",
+    "OUT_16545",
+    "OUT_16552",
+    "OUT_16747",
+    "OUT_16759",
+    "OUT_16839"
+  ],
+  "n_outlets": 33,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T20:44:29.364956",
+  "elements": [
+    {
+      "lat": 8.0510619,
+      "lon": 80.0970295,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.061325,
+      "lon": 80.0781226,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ralapanawa Sri Sambodhi Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.1137472,
+      "lon": 80.0839611,
+      "tags": {
+        "amenity": "school",
+        "name": "Aththadassee Vidyalaya"
+      }
+    },
+    {
+      "lat": 8.0984023,
+      "lon": 80.0822032,
+      "tags": {
+        "amenity": "school",
+        "name": "Rambaawewa Primary School"
+      }
+    },
+    {
+      "lat": 8.0612998,
+      "lon": 80.0903196,
+      "tags": {
+        "amenity": "school",
+        "name": "Ralapanawa Vidyalaya"
+      }
+    },
+    {
+      "lat": 8.1039574,
+      "lon": 80.1298128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

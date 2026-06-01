@@ -1,0 +1,1526 @@
+{
+  "cluster_id": 194,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.115886000000001,
+    "lat_max": 7.188737,
+    "lon_min": 79.824055,
+    "lon_max": 79.90109700000001
+  },
+  "outlet_ids": [
+    "OUT_00250",
+    "OUT_00278",
+    "OUT_00453",
+    "OUT_00783",
+    "OUT_00794",
+    "OUT_00910",
+    "OUT_01109",
+    "OUT_01149",
+    "OUT_01168",
+    "OUT_01179",
+    "OUT_01237",
+    "OUT_01339",
+    "OUT_01378",
+    "OUT_01966",
+    "OUT_01988",
+    "OUT_02431",
+    "OUT_02441",
+    "OUT_02538",
+    "OUT_02703",
+    "OUT_02737",
+    "OUT_02966",
+    "OUT_03098",
+    "OUT_03158",
+    "OUT_03200",
+    "OUT_03359",
+    "OUT_03570",
+    "OUT_03576",
+    "OUT_04344",
+    "OUT_04715",
+    "OUT_04941",
+    "OUT_04986",
+    "OUT_05007",
+    "OUT_05016",
+    "OUT_05202",
+    "OUT_05224",
+    "OUT_05228",
+    "OUT_05747",
+    "OUT_05906",
+    "OUT_06355",
+    "OUT_06510",
+    "OUT_06676",
+    "OUT_07027",
+    "OUT_07215",
+    "OUT_07271",
+    "OUT_07458",
+    "OUT_07486",
+    "OUT_07533",
+    "OUT_07657",
+    "OUT_07760",
+    "OUT_07893",
+    "OUT_08044",
+    "OUT_08191",
+    "OUT_08262",
+    "OUT_08365",
+    "OUT_08556",
+    "OUT_08936",
+    "OUT_08991"
+  ],
+  "n_outlets": 57,
+  "n_pois_returned": 142,
+  "scraped_at": "2026-05-16T20:49:22.015731",
+  "elements": [
+    {
+      "lat": 7.1660768,
+      "lon": 79.8816053,
+      "tags": {
+        "name": "Hotel Good Wood Plaza",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1369898,
+      "lon": 79.8346787,
+      "tags": {
+        "name": "Cashew Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1237593,
+      "lon": 79.8404844,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Sanctuary House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1353023,
+      "lon": 79.8387041,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Lagoon Paradise",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1177283,
+      "lon": 79.8408707,
+      "tags": {
+        "amenity": "school",
+        "name": "Kapungoda Secondary School"
+      }
+    },
+    {
+      "lat": 7.166038,
+      "lon": 79.8689212,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Sebastian Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.18679,
+      "lon": 79.8623391,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "St. Annes College"
+      }
+    },
+    {
+      "lat": 7.142895,
+      "lon": 79.8776405,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Anthony's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1542059,
+      "lon": 79.8748382,
+      "tags": {
+        "addr:city": "Katunayake",
+        "name": "Full Moon Garden Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1415698,
+      "lon": 79.874688,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wisuddarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1312008,
+      "lon": 79.8772575,
+      "tags": {
+        "name": "Laufgh Sun up Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1368005,
+      "lon": 79.8751278,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Bandaranayake Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1315468,
+      "lon": 79.8779066,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Seeduwa Davi Samara Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1459787,
+      "lon": 79.8739631,
+      "tags": {
+        "name": "Airport Reach",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1767871,
+      "lon": 79.867047,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Katunayake Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1583831,
+      "lon": 79.8317784,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Lagoon Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.128999,
+      "lon": 79.9004074,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Abinawarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1310363,
+      "lon": 79.8859131,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatharama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1311727,
+      "lon": 79.8994719,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Pannananda Primary School"
+      }
+    },
+    {
+      "lat": 7.1258498,
+      "lon": 79.8964316,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dhammapali Sil Arama",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1311778,
+      "lon": 79.8892441,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.1326505,
+      "lon": 79.885602,
+      "tags": {
+        "amenity": "place_of_worship",
+        "man_made": "tower",
+        "name": "Supawath Arana Romanu Catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1575954,
+      "lon": 79.8903559,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Muthuwadiya Sri Wisuddharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1396557,
+      "lon": 79.900565,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raddolugama Bodiya",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.153781,
+      "lon": 79.8833614,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1545955,
+      "lon": 79.8934343,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "methodist",
+        "name": "Methodis Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1381575,
+      "lon": 79.8751221,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Seeduwa Brandix Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1322741,
+      "lon": 79.8761431,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.146764,
+      "lon": 79.8769061,
+      "tags": {
+        "name": "Neo Colombo Airport",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1403706,
+      "lon": 79.8753447,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple"
+      }
+    },
+    {
+      "lat": 7.1313464,
+      "lon": 79.8769289,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Seeduwa junction bus halt",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.1762443,
+      "lon": 79.8630843,
+      "tags": {
+        "addr:street": "Negombo-Colombo Road",
+        "amenity": "place_of_worship",
+        "denomination": "methodist",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1441188,
+      "lon": 79.8737477,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1654736,
+      "lon": 79.885339,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "airport kings gate transit hotel",
+        "opening_hours": "24/7",
+        "phone": "94 11 2251020",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1328362,
+      "lon": 79.8889335,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1847202,
+      "lon": 79.8954733,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Otha Shy airport Hotel",
+        "name:ja": "\u30aa\u30bf\u30b7\u30e3\u30a4\u30a8\u30a2\u30dd\u30fc\u30c8\u30db\u30c6\u30eb",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/Share-bzRSpa"
+      }
+    },
+    {
+      "lat": 7.142221,
+      "lon": 79.8322907,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:country": "LK",
+        "addr:housenumber": "64",
+        "addr:street": "Pamunugama Road",
+        "amenity": "restaurant",
+        "name": "Gum Bayya",
+        "opening_hours": "Mo-Th 10:30-23:00; Fr,Sa 10:30-00:45",
+        "phone": "+077 154 7999",
+        "website": "https://gumbayyarestaurant-restaurant.business.site/"
+      }
+    },
+    {
+      "lat": 7.1785613,
+      "lon": 79.8621532,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name:signed": "no",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.1733389,
+      "lon": 79.8860365,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "check_date": "2024-08-23",
+        "name": "Cargills Food City",
+        "name:en": "Cargills food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.157917,
+      "lon": 79.8752569,
+      "tags": {
+        "alt_name": "Investment Promotion Zone - Katunayake South",
+        "name": "IPZ - Katunayake South",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1717503,
+      "lon": 79.8863435,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:ru": "\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0430\u0432\u0442\u043e\u0431\u0443\u0441\u0430 \u0438\u0437 \u041d\u0435\u0433\u043e\u043c\u0431\u043e \u0432 \u041a\u0430\u043d\u0434\u0438",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.115952,
+      "lon": 79.8870266,
+      "tags": {
+        "name": "Alawathupitiya",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1674441,
+      "lon": 79.8718829,
+      "tags": {
+        "name": "Katunayake",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1814437,
+      "lon": 79.8585488,
+      "tags": {
+        "addr:street": "Colombo-Negombo Road",
+        "name": "Eagles' Lagoon View",
+        "operator": "Sri Lanka Air Force",
+        "phone": "0312228060",
+        "tourism": "hotel",
+        "website": "https://www.airforce.lk/eagles_lagoonview"
+      }
+    },
+    {
+      "lat": 7.1734642,
+      "lon": 79.863508,
+      "tags": {
+        "addr:housenumber": "41A",
+        "addr:street": "Colombo-Negombo Road",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name": "Mermaid Sea Food Restaurant",
+        "phone": "+94 31 2232100"
+      }
+    },
+    {
+      "lat": 7.1714485,
+      "lon": 79.8647088,
+      "tags": {
+        "addr:street": "Colombo-Negombo Road",
+        "amenity": "restaurant",
+        "cuisine": "seafood;local",
+        "email": "info@hushlagoon30.com",
+        "name": "Hush Lagoon 30",
+        "phone": "+94312224005",
+        "website": "http://www.hushlagoon30.com"
+      }
+    },
+    {
+      "lat": 7.1823436,
+      "lon": 79.8971983,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Airport Zen Resort",
+        "phone": "0771 404 122",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.179044,
+      "lon": 79.8925771,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Bus #265 to Colombo Fort Bus Station",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.16856,
+      "lon": 79.883052,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Katunayake Bus Station - Airport Shuttle",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.1681015,
+      "lon": 79.8827028,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Airport free shuttle",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.186172,
+      "lon": 79.8590886,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:street": "Colombo - Negombo Road",
+        "amenity": "restaurant",
+        "name": "Grandeeza hotel"
+      }
+    },
+    {
+      "lat": 7.1627768,
+      "lon": 79.8688261,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Colombo - Negombo Road",
+        "amenity": "restaurant",
+        "name": "Airport castle"
+      }
+    },
+    {
+      "lat": 7.1721609,
+      "lon": 79.8642964,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Colombo - Negombo Road",
+        "amenity": "restaurant",
+        "name": "La Laguna"
+      }
+    },
+    {
+      "lat": 7.1778607,
+      "lon": 79.8626678,
+      "tags": {
+        "addr:city": "katunayake",
+        "addr:street": "Colombo - Negombo Road",
+        "amenity": "restaurant",
+        "name": "Jaadi"
+      }
+    },
+    {
+      "lat": 7.1350678,
+      "lon": 79.878187,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Sydney Premathiratne Mawatha",
+        "amenity": "restaurant",
+        "name": "Arachana airport transit"
+      }
+    },
+    {
+      "lat": 7.1220479,
+      "lon": 79.8812158,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Munidasa Kumarathunga Mawatha",
+        "amenity": "restaurant",
+        "name": "Sky transit hotel"
+      }
+    },
+    {
+      "lat": 7.1592748,
+      "lon": 79.8275085,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:street": "Pamunugama Road",
+        "amenity": "restaurant",
+        "name": "The Lighthouse Negombo"
+      }
+    },
+    {
+      "lat": 7.1683841,
+      "lon": 79.8258515,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.1847681,
+      "lon": 79.8589693,
+      "tags": {
+        "check_date": "2023-03-06",
+        "name": "Keels",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1658842,
+      "lon": 79.8845049,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Night bus to Colombo 5AM"
+      }
+    },
+    {
+      "lat": 7.1838386,
+      "lon": 79.8604694,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Family medical clinic & diabetes centre"
+      }
+    },
+    {
+      "lat": 7.1817099,
+      "lon": 79.8620801,
+      "tags": {
+        "check_date": "2024-08-20",
+        "name": "Ace Boutique Airport",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1532177,
+      "lon": 79.87241,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-08-21",
+        "name": "New Lanka Hotel"
+      }
+    },
+    {
+      "lat": 7.153924,
+      "lon": 79.8722529,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-08-21",
+        "name": "Jayamahal Food House"
+      }
+    },
+    {
+      "lat": 7.1580078,
+      "lon": 79.8709514,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "name": "18th Mile Post",
+        "note": "Express Bus 240 AC (private bus) to Gunasinghepura bus stand stops here before entering the Expressway",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.1749369,
+      "lon": 79.8862603,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "check_date": "2024-08-23",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "Pizza Hut",
+        "outdoor_seating": "no",
+        "reservation": "no",
+        "self_service": "yes"
+      }
+    },
+    {
+      "lat": 7.1406288,
+      "lon": 79.8332319,
+      "tags": {
+        "name": "Sea And Me",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.17109,
+      "lon": 79.8677629,
+      "tags": {
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "name": "Upwind",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "lat": 7.1587327,
+      "lon": 79.8705384,
+      "tags": {
+        "bus": "yes",
+        "description": "Bus #240 (AC) to Negombo stops here after leaving Expressway. Use Bus #87 or #88 to go further north along the main road.",
+        "highway": "bus_stop",
+        "name": "18th Mile Post",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.1675053,
+      "lon": 79.8827705,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Airport City - Family Restaurant"
+      }
+    },
+    {
+      "lat": 7.1656137,
+      "lon": 79.8841156,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Burgers"
+      }
+    },
+    {
+      "lat": 7.1643073,
+      "lon": 79.8830098,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.1658961,
+      "lon": 79.8834677,
+      "tags": {
+        "name": "Lanka Sathosa Mega",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1670416,
+      "lon": 79.8828818,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Chef King Restaurant"
+      }
+    },
+    {
+      "lat": 7.1590275,
+      "lon": 79.8746974,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.1675042,
+      "lon": 79.8828216,
+      "tags": {
+        "name": "Airport City Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1634812,
+      "lon": 79.8835081,
+      "tags": {
+        "name": "Cargills - Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.159506,
+      "lon": 79.8750579,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dilan Foods"
+      }
+    },
+    {
+      "lat": 7.1633963,
+      "lon": 79.8830584,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.1544887,
+      "lon": 79.8718041,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "18th Mile Post",
+        "note": "Local buses (non AC) stop here",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1660547,
+      "lon": 79.8843734,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bus #187 to fort colombo"
+      }
+    },
+    {
+      "lat": 7.1699908,
+      "lon": 79.8262962,
+      "tags": {
+        "name": "Ayuu Lagoon",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1689831,
+      "lon": 79.8254492,
+      "tags": {
+        "name": "Regenta Arie Lagoon",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1699087,
+      "lon": 79.8265844,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.1707386,
+      "lon": 79.871242,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:housenumber": "No 259",
+        "addr:postcode": "11450",
+        "addr:street": "Welabada Rd,",
+        "air_conditioning": "yes",
+        "brand": "Luxury Cabana",
+        "email": "edenblissretreat@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Eden Bliss Retreat",
+        "phone": "+94740574077",
+        "rooms": "1",
+        "tourism": "hotel",
+        "website": "www.edenblissretreat.com"
+      }
+    },
+    {
+      "lat": 7.17362,
+      "lon": 79.8874686,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bus #187 to Colombo"
+      }
+    },
+    {
+      "lat": 7.1434421,
+      "lon": 79.869209,
+      "tags": {
+        "addr:city": "Seeduwa Negombo",
+        "addr:housenumber": "234-236",
+        "addr:street": "Colombo-Negombo Road",
+        "brand": "Taj",
+        "brand:wikidata": "Q1521893",
+        "building": "yes",
+        "description": "Modern clean and well organised hotel. Only 5 mins and 5 kms from airport with well priced on-demand transport provided by the hotel with its cars. Useful with delayed departures due to renovations at airport. Beaut swimming pool and 24 hour restaurant.",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Vivanta Airport Garden Hotel",
+        "official_name": "Taj Hotels",
+        "operator": "Taj Hotels",
+        "rooms": "unknown",
+        "smoking": "outside",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/taj-airport-garden.html"
+      }
+    },
+    {
+      "lat": 7.1386706,
+      "lon": 79.8692319,
+      "tags": {
+        "addr:city": "Liyanagemulla",
+        "addr:housenumber": "374",
+        "addr:street": "Blue Diamond Road",
+        "building": "yes",
+        "check_date": "2024-08-29",
+        "name": "Onreech Hotel",
+        "operator": "Onreech Hotel",
+        "smoking": "no",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1376154,
+      "lon": 79.869501,
+      "tags": {
+        "addr:city": "Liyanagemulla",
+        "addr:street": "Blue Diamond Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Onreech hotel"
+      }
+    },
+    {
+      "lat": 7.1646274,
+      "lon": 79.8834856,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "name": "Shailabimbaramaya"
+      }
+    },
+    {
+      "lat": 7.1655872,
+      "lon": 79.8838078,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Shree Rhangaa"
+      }
+    },
+    {
+      "lat": 7.1461421,
+      "lon": 79.8969122,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1430054,
+      "lon": 79.8976192,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Raddolugama Jummah Palliya",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1674609,
+      "lon": 79.8718674,
+      "tags": {
+        "building": "train_station",
+        "name": "Katunayake",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.131033,
+      "lon": 79.8766457,
+      "tags": {
+        "building": "commercial",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "Laugfus Supermarket",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1445552,
+      "lon": 79.881877,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.1521758,
+      "lon": 79.876624,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Sanwardhana Mawatha",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Norfolk airport villa"
+      }
+    },
+    {
+      "lat": 7.1471765,
+      "lon": 79.8782061,
+      "tags": {
+        "building": "train_station",
+        "name": "Liyanagemulla",
+        "public_transport": "station",
+        "railway": "station",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 7.1290257,
+      "lon": 79.88254,
+      "tags": {
+        "building": "train_station",
+        "layer": "1",
+        "name": "Seeduwa",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1582838,
+      "lon": 79.8751621,
+      "tags": {
+        "building": "train_station",
+        "name": "Katunayake South - EPZ",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1465539,
+      "lon": 79.8763561,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "2nd Lane",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Airport lounge"
+      }
+    },
+    {
+      "lat": 7.1185685,
+      "lon": 79.8404371,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Anthony's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1170645,
+      "lon": 79.8797459,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1553676,
+      "lon": 79.8750231,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Temple Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Ranmal airport transit",
+        "name:en": "Ranmal Airport Transit Hotel"
+      }
+    },
+    {
+      "lat": 7.1444189,
+      "lon": 79.8817342,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1442988,
+      "lon": 79.8818388,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "note": "bana maduwa",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.144404,
+      "lon": 79.8820329,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "temple",
+        "religion": "buddhist",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1287939,
+      "lon": 79.8922872,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Methodist church Maddagoda",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1760125,
+      "lon": 79.8625995,
+      "tags": {
+        "addr:city": "katunayake",
+        "addr:housenumber": "53",
+        "addr:postcode": "11450",
+        "addr:street": "Negombo-Colombo Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "2",
+        "description": "Tramonto Lagoon Resort with rooms and a restaurant.",
+        "height": "9.5",
+        "name": "Tramonto Airport Lagoon Resort"
+      }
+    },
+    {
+      "lat": 7.1258562,
+      "lon": 79.8883734,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Pentecostal Churches",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1496712,
+      "lon": 79.8728328,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.1462415,
+      "lon": 79.8749222,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "2nd Lane",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Dinara hotel"
+      }
+    },
+    {
+      "lat": 7.131571,
+      "lon": 79.8960129,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "methodist",
+        "name": "Methodist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1235879,
+      "lon": 79.874723,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "cement_block",
+        "roof:material": "asbestos"
+      }
+    },
+    {
+      "lat": 7.1228128,
+      "lon": 79.8750078,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "cement_block",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1317963,
+      "lon": 79.90065,
+      "tags": {
+        "amenity": "school",
+        "name": "Pnnananda School"
+      }
+    },
+    {
+      "lat": 7.116635,
+      "lon": 79.8941487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uththamaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1172118,
+      "lon": 79.8799373,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Jothi Rathana Pre School"
+      }
+    },
+    {
+      "lat": 7.1492978,
+      "lon": 79.8948649,
+      "tags": {
+        "addr:street": "Kuswala Road",
+        "amenity": "school",
+        "name": "Kuswala Primary School",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.1532711,
+      "lon": 79.8835242,
+      "tags": {
+        "amenity": "school",
+        "name": "Amandoluwa Primary School",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.1479821,
+      "lon": 79.8837396,
+      "tags": {
+        "amenity": "school",
+        "name": "Amandoluwa Maha Vidyalaya",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.1430406,
+      "lon": 79.8922177,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nanda Raama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1444169,
+      "lon": 79.8819356,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shantha Raamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.151428,
+      "lon": 79.9001531,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nisasala Raamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1519064,
+      "lon": 79.8951485,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kuswala Sri Pushparamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1550735,
+      "lon": 79.8933755,
+      "tags": {
+        "amenity": "school",
+        "name": "Wesly College",
+        "operator": "Private"
+      }
+    },
+    {
+      "lat": 7.1233414,
+      "lon": 79.8817738,
+      "tags": {
+        "amenity": "school",
+        "name": "Bandarawaththa Shantha Mariya School"
+      }
+    },
+    {
+      "lat": 7.1238997,
+      "lon": 79.8818511,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St Anthony's Church Bandarawatta",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1263544,
+      "lon": 79.878255,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Wijaya Kumaranatunga Memorial",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 7.1267741,
+      "lon": 79.8730218,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Jayabodhi Sudassanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1648256,
+      "lon": 79.8271809,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Santa Barbara Church",
+        "religion": "christian",
+        "source": "Maxar-Premium"
+      }
+    },
+    {
+      "lat": 7.143281,
+      "lon": 79.8738436,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1684397,
+      "lon": 79.8265837,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:street": "Pamunugama Road",
+        "name": "Jetwing Lagoon",
+        "phone": "+94 31 2233777",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1848943,
+      "lon": 79.8578706,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Seafoodclub"
+      }
+    },
+    {
+      "lat": 7.1572454,
+      "lon": 79.8751093,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1551318,
+      "lon": 79.8721547,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Temple Road",
+        "check_date": "2024-08-21",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Olinia Airport Hotel",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 7.1556004,
+      "lon": 79.8717578,
+      "tags": {
+        "amenity": "shelter",
+        "building": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "18th Mile Post",
+        "note": "Local buses (non AC) stop here",
+        "public_transport": "platform",
+        "shelter_type": "public_transport"
+      }
+    },
+    {
+      "lat": 7.1435378,
+      "lon": 79.8323839,
+      "tags": {
+        "amenity": "school",
+        "barrier": "fence",
+        "name": "Dungalpitiya Secondary School"
+      }
+    },
+    {
+      "lat": 7.1442511,
+      "lon": 79.8323251,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "image": "https://photos.app.goo.gl/edz4DHbejo3s42gVA",
+        "name": "St. Mary Magdalen",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1552918,
+      "lon": 79.8732557,
+      "tags": {
+        "name": "Murphy\u2019s Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1414292,
+      "lon": 79.8695667,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:housenumber": "667/115",
+        "addr:postcode": "11410",
+        "addr:street": "Liver Brother Rd",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "description": "Airport Faith Hotel in Seeduwa offers 4-star comfort with family rooms, private bathrooms, and balconies. Each room features air-conditioning, a private bathroom, and garden views.",
+        "name": "Airport Faith Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.143317,
+      "lon": 79.8338057,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Don Bosco Centre",
+        "source": "Maxar-Premium",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

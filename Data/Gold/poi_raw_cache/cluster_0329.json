@@ -1,0 +1,358 @@
+{
+  "cluster_id": 329,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.383149,
+    "lat_max": 7.45632,
+    "lon_min": 80.123622,
+    "lon_max": 80.21688400000001
+  },
+  "outlet_ids": [
+    "OUT_13004",
+    "OUT_13267",
+    "OUT_13283",
+    "OUT_13559",
+    "OUT_13604",
+    "OUT_13622",
+    "OUT_13738",
+    "OUT_13784",
+    "OUT_13933",
+    "OUT_14187",
+    "OUT_14264",
+    "OUT_14560",
+    "OUT_14589",
+    "OUT_14909",
+    "OUT_15013",
+    "OUT_15227",
+    "OUT_15239",
+    "OUT_15362",
+    "OUT_15421",
+    "OUT_15514",
+    "OUT_15515",
+    "OUT_15741",
+    "OUT_15783",
+    "OUT_16030",
+    "OUT_16332",
+    "OUT_16357",
+    "OUT_16421",
+    "OUT_16469",
+    "OUT_16699",
+    "OUT_16707",
+    "OUT_16943",
+    "OUT_16999"
+  ],
+  "n_outlets": 32,
+  "n_pois_returned": 34,
+  "scraped_at": "2026-05-16T22:11:34.127580",
+  "elements": [
+    {
+      "lat": 7.4312722,
+      "lon": 80.2064789,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Hospital Narammala"
+      }
+    },
+    {
+      "lat": 7.4297562,
+      "lon": 80.2058138,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Premananda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4292455,
+      "lon": 80.214767,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Narammala Market"
+      }
+    },
+    {
+      "lat": 7.4279742,
+      "lon": 80.2121384,
+      "tags": {
+        "addr:city": "Narammala",
+        "amenity": "school",
+        "name": "Mayurapada Central College"
+      }
+    },
+    {
+      "lat": 7.4325701,
+      "lon": 80.2125944,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Ayurweda Hospital Narammala"
+      }
+    },
+    {
+      "lat": 7.4288944,
+      "lon": 80.2120043,
+      "tags": {
+        "amenity": "school",
+        "name": "Monk's School (Pirivena)"
+      }
+    },
+    {
+      "lat": 7.4291604,
+      "lon": 80.2144719,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Narammala Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.4264847,
+      "lon": 80.2136834,
+      "tags": {
+        "amenity": "school",
+        "name": "Narammala Primary School"
+      }
+    },
+    {
+      "lat": 7.4347404,
+      "lon": 80.2104379,
+      "tags": {
+        "amenity": "school",
+        "name": "Narammala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.3949304,
+      "lon": 80.1904032,
+      "tags": {
+        "amenity": "school",
+        "name": "Don Bosco Traning Center"
+      }
+    },
+    {
+      "lat": 7.4122126,
+      "lon": 80.2101905,
+      "tags": {
+        "addr:city": "Dampelessa NWP",
+        "amenity": "place_of_worship",
+        "name": "Dampelessa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3837376,
+      "lon": 80.1744081,
+      "tags": {
+        "amenity": "restaurant",
+        "capacity": "300",
+        "cuisine": "regional",
+        "name": "Thilak Hotel and Resurent",
+        "opening_hours": "09:00-20:00",
+        "smoking": "outside"
+      }
+    },
+    {
+      "lat": 7.4049465,
+      "lon": 80.1698946,
+      "tags": {
+        "addr:street": "Dethwa Marawita road",
+        "amenity": "place_of_worship",
+        "name": "Mahamuni Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.436956,
+      "lon": 80.1811664,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4412361,
+      "lon": 80.1316692,
+      "tags": {
+        "amenity": "school",
+        "name": "Rukgasagara vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4332264,
+      "lon": 80.1354938,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Rukkasagara Ayuruwedic hospital",
+        "operator": "Department of health"
+      }
+    },
+    {
+      "lat": 7.4273844,
+      "lon": 80.2141133,
+      "tags": {
+        "name": "Cargolls",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4328155,
+      "lon": 80.1587471,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4451801,
+      "lon": 80.2012172,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4507394,
+      "lon": 80.1846629,
+      "tags": {
+        "addr:street": "Kurunegala-Narammala-Madampe Road",
+        "amenity": "place_of_worship",
+        "name": "Dangolla temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4373179,
+      "lon": 80.1537893,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4248317,
+      "lon": 80.2117,
+      "tags": {
+        "name:en": "Grand Meridian Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4324431,
+      "lon": 80.2154194,
+      "tags": {
+        "name": "Sathosa Narammala NWP",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3936311,
+      "lon": 80.1904267,
+      "tags": {
+        "addr:city": "Metiyagane",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Metiyagane Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.3925535,
+      "lon": 80.1938142,
+      "tags": {
+        "addr:city": "Metiyagane",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Sathyaja Daham Nikethanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4139565,
+      "lon": 80.1258419,
+      "tags": {
+        "amenity": "school",
+        "name": "Galgammulla Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4116409,
+      "lon": 80.2104047,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vidyarthaalankara Maha Piriwen Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4169715,
+      "lon": 80.1923901,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Medagoda Meththarama Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3951144,
+      "lon": 80.186003,
+      "tags": {
+        "amenity": "school",
+        "name": "Metiyagane Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.3871253,
+      "lon": 80.1659516,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Saliyala Sri Wardhanarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3824038,
+      "lon": 80.1776433,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Ancient Mayraawathie Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4057371,
+      "lon": 80.1460779,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "kanugala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4451841,
+      "lon": 80.2012138,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4269631,
+      "lon": 80.2109775,
+      "tags": {
+        "amenity": "school",
+        "name": "Mayurapadha Central Collage play ground"
+      }
+    }
+  ]
+}

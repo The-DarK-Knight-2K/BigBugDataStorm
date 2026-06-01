@@ -1,0 +1,8002 @@
+{
+  "cluster_id": 358,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.8064160000000005,
+    "lat_max": 6.884506,
+    "lon_min": 79.839639,
+    "lon_max": 79.910942
+  },
+  "outlet_ids": [
+    "OUT_00442",
+    "OUT_00495",
+    "OUT_00504",
+    "OUT_00508",
+    "OUT_00551",
+    "OUT_00591",
+    "OUT_00644",
+    "OUT_00782",
+    "OUT_00799",
+    "OUT_00834",
+    "OUT_00849",
+    "OUT_00905",
+    "OUT_01033",
+    "OUT_01050",
+    "OUT_01101",
+    "OUT_01352",
+    "OUT_01512",
+    "OUT_01688",
+    "OUT_01753",
+    "OUT_01764",
+    "OUT_01765",
+    "OUT_01866",
+    "OUT_01965",
+    "OUT_02003",
+    "OUT_02059",
+    "OUT_02434",
+    "OUT_02541",
+    "OUT_02562",
+    "OUT_02759",
+    "OUT_02774",
+    "OUT_02943",
+    "OUT_03096",
+    "OUT_03213",
+    "OUT_03230",
+    "OUT_03356",
+    "OUT_03454",
+    "OUT_03524",
+    "OUT_03577",
+    "OUT_04036",
+    "OUT_04104",
+    "OUT_04105",
+    "OUT_04262",
+    "OUT_04497",
+    "OUT_04600",
+    "OUT_04621",
+    "OUT_04787",
+    "OUT_04803",
+    "OUT_05072",
+    "OUT_05258",
+    "OUT_05303",
+    "OUT_05656",
+    "OUT_05696",
+    "OUT_06075",
+    "OUT_06084",
+    "OUT_06122",
+    "OUT_06429",
+    "OUT_06665",
+    "OUT_06826",
+    "OUT_06914",
+    "OUT_06922",
+    "OUT_06975",
+    "OUT_07015",
+    "OUT_07044",
+    "OUT_07144",
+    "OUT_07162",
+    "OUT_07176",
+    "OUT_07261",
+    "OUT_07572",
+    "OUT_07679",
+    "OUT_07834",
+    "OUT_07901",
+    "OUT_07988",
+    "OUT_08049",
+    "OUT_08129",
+    "OUT_08183",
+    "OUT_08258",
+    "OUT_08377",
+    "OUT_08572",
+    "OUT_08604",
+    "OUT_08708",
+    "OUT_08719",
+    "OUT_08744",
+    "OUT_08747",
+    "OUT_08818",
+    "OUT_08881"
+  ],
+  "n_outlets": 85,
+  "n_pois_returned": 732,
+  "scraped_at": "2026-05-16T22:13:27.917670",
+  "elements": [
+    {
+      "lat": 6.87985,
+      "lon": 79.8624412,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2024-07-04",
+        "created_by": "JOSM",
+        "is_in": "Colombo, Colombo District, Western Province, Sri Lanka",
+        "name": "Kingston College International"
+      }
+    },
+    {
+      "lat": 6.8817697,
+      "lon": 79.90118,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "network": "Pita Kotte",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8329646,
+      "lon": 79.8671266,
+      "tags": {
+        "branch": "Mount Lavinia ",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8824777,
+      "lon": 79.8614816,
+      "tags": {
+        "name": "P & A",
+        "operator": "test",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8816677,
+      "lon": 79.8614288,
+      "tags": {
+        "addr:city": "Bambalapitiya",
+        "addr:street": "R. A. De Mel Mawatha",
+        "amenity": "school",
+        "check_date": "2023-09-08",
+        "name": "Muslim Ladies College"
+      }
+    },
+    {
+      "lat": 6.8814277,
+      "lon": 79.9043667,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kotte Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8422713,
+      "lon": 79.8630895,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Haus Chandra Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8729147,
+      "lon": 79.8914526,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "name": "Nugegoda Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8729831,
+      "lon": 79.8885472,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.875665,
+      "lon": 79.892367,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "Stanley Thilakarathne Mawatha",
+        "amenity": "restaurant",
+        "fixme": "amenity",
+        "motor": "Toyota;Lanka",
+        "name": "Meat Locker",
+        "type": "Auto Parts"
+      }
+    },
+    {
+      "lat": 6.881071,
+      "lon": 79.8998662,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Naga Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8649069,
+      "lon": 79.896774,
+      "tags": {
+        "addr:city": "Gamsabha Junction",
+        "amenity": "restaurant",
+        "name": "Gihans"
+      }
+    },
+    {
+      "lat": 6.8798086,
+      "lon": 79.8611113,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-07-04",
+        "name": "Dharmaramaya",
+        "religion": "buddhist",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8311854,
+      "lon": 79.8773217,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Siddhalepa"
+      }
+    },
+    {
+      "lat": 6.8318632,
+      "lon": 79.8673272,
+      "tags": {
+        "name": "Keells Super, Mount Lavinia.",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8335379,
+      "lon": 79.8672498,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "lat": 6.8386792,
+      "lon": 79.8635346,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Berjaya Mount Royal Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.850498,
+      "lon": 79.8633844,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "school",
+        "name": "Presbyterian Girls School"
+      }
+    },
+    {
+      "lat": 6.8418723,
+      "lon": 79.8671234,
+      "tags": {
+        "name": "Family Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8489452,
+      "lon": 79.8682463,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Subodharama Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8567085,
+      "lon": 79.8652471,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "101",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "no",
+        "branch": "Dehiwala",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "check_date": "2023-01-18",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "highchair": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "microbrewery": "no",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 117 500 651",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.pizzahut.lk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.8600104,
+      "lon": 79.8657984,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Mary's College"
+      }
+    },
+    {
+      "lat": 6.8648597,
+      "lon": 79.8603213,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "53",
+        "addr:street": "Ramakrishna Road",
+        "addr:unit": "3",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2023-04-09",
+        "cuisine": "indian",
+        "delivery": "yes",
+        "diet:vegetarian": "only",
+        "fax": "+94 11 2587629",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Shanmugas",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 07:30-22:30",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 361 384; +94 112 559 203",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "toilets:wheelchair": "no",
+        "website": "https://www.shanmugas.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.8562805,
+      "lon": 79.8908922,
+      "tags": {
+        "addr:city": "Pepiliyana",
+        "addr:street": "Pepiliyana Road",
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-10",
+        "denomination": "theravada",
+        "name": "Pepiliyana Sunethra Devi Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8834777,
+      "lon": 79.9017762,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8836484,
+      "lon": 79.902066,
+      "tags": {
+        "name": "Laugfs",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8590095,
+      "lon": 79.8902875,
+      "tags": {
+        "name": "Cargills Pepiliyana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8599974,
+      "lon": 79.8642219,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "name": "Crystal Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8796526,
+      "lon": 79.8683774,
+      "tags": {
+        "addr:street": "Sri Visuddharama Rd",
+        "amenity": "place_of_worship",
+        "name": "Sri Visuddharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8654991,
+      "lon": 79.8715531,
+      "tags": {
+        "amenity": "school",
+        "name": "Buddhagosha College"
+      }
+    },
+    {
+      "lat": 6.8346059,
+      "lon": 79.8649848,
+      "tags": {
+        "amenity": "school",
+        "name": "Girls High School",
+        "operator": "Mount Lavinia"
+      }
+    },
+    {
+      "lat": 6.8413324,
+      "lon": 79.8632205,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "amenity": "restaurant",
+        "name": "Lavinia Breeze"
+      }
+    },
+    {
+      "lat": 6.8703856,
+      "lon": 79.8783864,
+      "tags": {
+        "amenity": "university",
+        "name": "ICFAI"
+      }
+    },
+    {
+      "lat": 6.8664231,
+      "lon": 79.8802961,
+      "tags": {
+        "addr:housenumber": "43",
+        "addr:street": "S De S Jayasinghe Mawatha, Kalubowila, Dehiwela",
+        "amenity": "school",
+        "name": "Colombo South International College",
+        "wikidata": "Q5148042"
+      }
+    },
+    {
+      "lat": 6.8713869,
+      "lon": 79.8850597,
+      "tags": {
+        "addr:city": "Nugegoda WP",
+        "name": "Keells",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8729207,
+      "lon": 79.8777534,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Balapokuna Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.865794,
+      "lon": 79.8610004,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "amenity": "place_of_worship",
+        "check_date": "2022-10-25",
+        "name": "Ramakrishna Mission",
+        "religion": "hindu",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8715224,
+      "lon": 79.8621555,
+      "tags": {
+        "addr:city": "Wellawatte - Colombo 06",
+        "addr:housenumber": "351",
+        "addr:postcode": "600",
+        "addr:street": "Galle Road",
+        "branch": "Wellawatte",
+        "brand": "Laughs Super Market",
+        "check_date": "2022-08-05",
+        "name": "Laughs Super Market",
+        "opening_hours": "24/7",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8747942,
+      "lon": 79.8614195,
+      "tags": {
+        "addr:city": "Wellawatte - Colombo 06",
+        "addr:housenumber": "213",
+        "addr:postcode": "00600",
+        "addr:street": "Galle Road",
+        "amenity": "school",
+        "name": "St. Lawrance Girls School",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8723063,
+      "lon": 79.893517,
+      "tags": {
+        "amenity": "school",
+        "name": "Royal Institute Nugegoda"
+      }
+    },
+    {
+      "lat": 6.8822179,
+      "lon": 79.8687215,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mayura Kovil",
+        "religion": "hindu",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.865186,
+      "lon": 79.8695807,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Hathbodiya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8607229,
+      "lon": 79.8664157,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Dehiwala Medical Centre"
+      }
+    },
+    {
+      "lat": 6.8612874,
+      "lon": 79.8670057,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple"
+      }
+    },
+    {
+      "lat": 6.8484516,
+      "lon": 79.8701386,
+      "tags": {
+        "amenity": "school",
+        "name": "Sumaga Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8438594,
+      "lon": 79.8675558,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Anthoney's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.840718,
+      "lon": 79.8701171,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sumanarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8439807,
+      "lon": 79.874106,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shashtrananda School"
+      }
+    },
+    {
+      "lat": 6.8600198,
+      "lon": 79.8743657,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Prathibimbaramaya Temple"
+      }
+    },
+    {
+      "lat": 6.8761141,
+      "lon": 79.8641442,
+      "tags": {
+        "addr:housenumber": "68",
+        "addr:street": "W.A. Silva Mawatha",
+        "amenity": "restaurant",
+        "check_date": "2023-10-08",
+        "cuisine": "indian",
+        "name": "Curry Leaves Indian",
+        "opening_hours": "11:00-23:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 580 223",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8756454,
+      "lon": 79.8621808,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2022-11-23",
+        "name": "St. Lawrence Convent"
+      }
+    },
+    {
+      "lat": 6.8764975,
+      "lon": 79.8612474,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2023-10-08",
+        "name": "Methodist Church Wellawatta",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8765387,
+      "lon": 79.8616,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "St. Clare's Girl School"
+      }
+    },
+    {
+      "lat": 6.8764762,
+      "lon": 79.86423,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2022-11-25",
+        "name": "Lumbini Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8809548,
+      "lon": 79.8959284,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vidya Vijaya aramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8597544,
+      "lon": 79.8863662,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "sri sumanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.862447,
+      "lon": 79.8953078,
+      "tags": {
+        "addr:city": "Pepiliyana",
+        "amenity": "school",
+        "name": "Mahamaya Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.856601,
+      "lon": 79.8672968,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pattini Devalaya"
+      }
+    },
+    {
+      "lat": 6.8553227,
+      "lon": 79.865709,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "name": "Concord Grand",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8571442,
+      "lon": 79.881019,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Venkateshwara Maha Vishnu Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8803581,
+      "lon": 79.8682536,
+      "tags": {
+        "amenity": "school",
+        "name": "Wellawatta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.858902,
+      "lon": 79.8720785,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "Sri Punyawardanaramaya Temple"
+      }
+    },
+    {
+      "lat": 6.8372459,
+      "lon": 79.8695143,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.831599,
+      "lon": 79.8708579,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatha Dharmayathanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8716606,
+      "lon": 79.8732557,
+      "tags": {
+        "addr:city": "Kohuwala",
+        "addr:street": "Sri Maha Vihara Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8665315,
+      "lon": 79.8851431,
+      "tags": {
+        "addr:city": "Kohuwala",
+        "addr:street": "Colombo-Piliyandala-Horana Road",
+        "name": "Laufgs",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8669132,
+      "lon": 79.884156,
+      "tags": {
+        "addr:city": "Kohuwala",
+        "addr:street": "Hospital Road",
+        "name": "Cargills",
+        "opening_hours": "PH,Mo-Su 08:00-23:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.882926,
+      "lon": 79.902713,
+      "tags": {
+        "amenity": "school",
+        "name": "Ananda Sastralaya kotte",
+        "wikidata": "Q4751312",
+        "wikipedia": "en:Ananda Sastralaya, Kotte"
+      }
+    },
+    {
+      "lat": 6.8681009,
+      "lon": 79.8974008,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Rewatha College"
+      }
+    },
+    {
+      "lat": 6.8678121,
+      "lon": 79.8977222,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Subadrarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.841087,
+      "lon": 79.9026719,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "name": "Arpico Super Center",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8416444,
+      "lon": 79.9016683,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "air_conditioning": "yes",
+        "name": "Laugfs Sunup",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8839367,
+      "lon": 79.9015789,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kotte-Pagoda Bus Stand",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8828874,
+      "lon": 79.8987242,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8819571,
+      "lon": 79.8971467,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8694946,
+      "lon": 79.8880487,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8788255,
+      "lon": 79.8944967,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8742666,
+      "lon": 79.8917609,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8725836,
+      "lon": 79.8906773,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8830467,
+      "lon": 79.8828978,
+      "tags": {
+        "name": "Kirulapona",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8622118,
+      "lon": 79.9087271,
+      "tags": {
+        "name": "Udahamulla",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8810872,
+      "lon": 79.8903613,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "german",
+        "name": "Sovereign German restaurant",
+        "phone": "+94 11 2856154"
+      }
+    },
+    {
+      "lat": 6.840448,
+      "lon": 79.862988,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sawadee Beach Front"
+      }
+    },
+    {
+      "lat": 6.8380834,
+      "lon": 79.8632718,
+      "tags": {
+        "amenity": "restaurant",
+        "bar": "yes",
+        "name": "The Shore by O",
+        "old_name": "Fisherman's Villa",
+        "website": "https://www.facebook.com/TheShoreByO"
+      }
+    },
+    {
+      "lat": 6.8143086,
+      "lon": 79.8738873,
+      "tags": {
+        "amenity": "school",
+        "name": "Kothalawalapura Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8143601,
+      "lon": 79.8774709,
+      "tags": {
+        "amenity": "school",
+        "name": "Lalith Athulathmudali Vocational Training Centre",
+        "operator": "Asanka"
+      }
+    },
+    {
+      "lat": 6.8628776,
+      "lon": 79.8652535,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Bilal Restaurant"
+      }
+    },
+    {
+      "lat": 6.8632611,
+      "lon": 79.865291,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dehiwala Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.8611027,
+      "lon": 79.8666091,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pinwathe Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8078018,
+      "lon": 79.9067701,
+      "tags": {
+        "addr:city": "Piliyandala",
+        "name": "Rock House (Galbangalawa)",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8069133,
+      "lon": 79.908994,
+      "tags": {
+        "addr:city": "Thumbowila",
+        "amenity": "school",
+        "name": "Ananda Samarakoon Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8067311,
+      "lon": 79.9071617,
+      "tags": {
+        "addr:city": "Wewala",
+        "amenity": "place_of_worship",
+        "name": "Gangarama Purana Viharasthanaya"
+      }
+    },
+    {
+      "lat": 6.8842085,
+      "lon": 79.8693635,
+      "tags": {
+        "addr:city": "Havelock Town",
+        "addr:street": "Udyana Pura Road",
+        "amenity": "school",
+        "name": "Amal International School",
+        "wikidata": "Q4739194",
+        "wikipedia": "en:Amal International School"
+      }
+    },
+    {
+      "lat": 6.8584502,
+      "lon": 79.8658406,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "school",
+        "name": "Alethea International School"
+      }
+    },
+    {
+      "lat": 6.8767787,
+      "lon": 79.9006937,
+      "tags": {
+        "name": "Laugfs",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8749751,
+      "lon": 79.9009203,
+      "tags": {
+        "addr:city": "Mirihana",
+        "addr:street": "Rathmalana-Mirihana Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8760718,
+      "lon": 79.9003842,
+      "tags": {
+        "bus": "yes",
+        "description": "lines 119, 168, 259, 115",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8765354,
+      "lon": 79.9005313,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8421939,
+      "lon": 79.8628147,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Steam Boat"
+      }
+    },
+    {
+      "lat": 6.8450566,
+      "lon": 79.8720969,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Anu-Subodharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8665789,
+      "lon": 79.8761673,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8664419,
+      "lon": 79.8767855,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8452854,
+      "lon": 79.889565,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop;pizza;burger;sandwich",
+        "name": "Perera & Son's"
+      }
+    },
+    {
+      "lat": 6.8465091,
+      "lon": 79.8677567,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8279341,
+      "lon": 79.8746799,
+      "tags": {
+        "addr:city": "colombo",
+        "addr:street": "Pirivena Road",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Parama Dhamma Chethiya Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8295398,
+      "lon": 79.8682418,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Templers Road",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.8277078,
+      "lon": 79.8690532,
+      "tags": {
+        "branch": "Rathmalana ",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8372488,
+      "lon": 79.8672887,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8414038,
+      "lon": 79.866877,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name": "Dinducal Thalapakattu Buriyani"
+      }
+    },
+    {
+      "lat": 6.8578259,
+      "lon": 79.9082511,
+      "tags": {
+        "addr:city": "Wijerama",
+        "amenity": "restaurant",
+        "name": "Gihans"
+      }
+    },
+    {
+      "lat": 6.8800909,
+      "lon": 79.8997064,
+      "tags": {
+        "amenity": "school",
+        "name": "St.Thomas College"
+      }
+    },
+    {
+      "lat": 6.8625405,
+      "lon": 79.9013179,
+      "tags": {
+        "addr:city": "Delkanda",
+        "addr:street": "Old Kesbawa Road",
+        "amenity": "place_of_worship",
+        "name": "Bodhimalu Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8844234,
+      "lon": 79.8680072,
+      "tags": {
+        "addr:city": "Havelock Town",
+        "addr:street": "Havelock Road",
+        "amenity": "school",
+        "name": "Royal Institute"
+      }
+    },
+    {
+      "lat": 6.8709411,
+      "lon": 79.8904519,
+      "tags": {
+        "amenity": "school",
+        "name": "Rotary"
+      }
+    },
+    {
+      "lat": 6.8424164,
+      "lon": 79.9099562,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "addr:street": "Maharagama-Dehiwala Road",
+        "name": "Golden Rose Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8317211,
+      "lon": 79.8682352,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thapodhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8295595,
+      "lon": 79.8717788,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "amenity": "school",
+        "name": "Lalith Athulathmudali College"
+      }
+    },
+    {
+      "lat": 6.8773804,
+      "lon": 79.8818321,
+      "tags": {
+        "addr:city": "Kirulapone",
+        "addr:street": "Poorwarama Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Poorvaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8419713,
+      "lon": 79.8668469,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hotel Road halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8690559,
+      "lon": 79.8900597,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nugegoda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8680634,
+      "lon": 79.8925781,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "amenity": "school",
+        "name": "Louvre Int. School"
+      }
+    },
+    {
+      "lat": 6.848252,
+      "lon": 79.8852605,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Pet Shop"
+      }
+    },
+    {
+      "lat": 6.8352314,
+      "lon": 79.8673945,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "check_date:shelter": "2022-06-13",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "lat": 6.8832426,
+      "lon": 79.88705,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wickremasingharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8683119,
+      "lon": 79.8890443,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:housenumber": "9/8",
+        "addr:street": "Nalandarama Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Nalandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8701395,
+      "lon": 79.887295,
+      "tags": {
+        "addr:city": "Nugegoda WP",
+        "addr:street": "High Level Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Dhammarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8576485,
+      "lon": 79.908165,
+      "tags": {
+        "addr:city": "Wijerama",
+        "addr:housenumber": "4/6",
+        "addr:postcode": "10250",
+        "addr:street": "Sri Soratha Mawatha",
+        "name": "Keells Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8647311,
+      "lon": 79.9021356,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Nishan Caterers"
+      }
+    },
+    {
+      "lat": 6.8638449,
+      "lon": 79.8638852,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "amenity": "place_of_worship",
+        "check_date": "2022-10-15",
+        "name": "Sri Sudharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.864607,
+      "lon": 79.897272,
+      "tags": {
+        "addr:city": "Gamsabha Junction",
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8647884,
+      "lon": 79.9006969,
+      "tags": {
+        "addr:city": "Delkanda",
+        "amenity": "school",
+        "name": "Rotary Int. School"
+      }
+    },
+    {
+      "lat": 6.8752497,
+      "lon": 79.9014141,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Spineeys Take away"
+      }
+    },
+    {
+      "lat": 6.8606381,
+      "lon": 79.9084281,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pagnodayaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8586222,
+      "lon": 79.9107455,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wijayarama Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8598008,
+      "lon": 79.8650028,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "St. Mary's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.821556,
+      "lon": 79.8696862,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8809111,
+      "lon": 79.8707055,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8711819,
+      "lon": 79.8618133,
+      "tags": {
+        "addr:city": "Wellawatte - Colombo 06",
+        "addr:housenumber": "256/4",
+        "addr:postcode": "00600",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "branch": "Wellawatte",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "check_date": "2023-04-27",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "0112 361 278",
+        "shop": "supermarket",
+        "website": "https://cargillsonline.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8614958,
+      "lon": 79.9003511,
+      "tags": {
+        "addr:city": "Delkanda",
+        "addr:street": "Old Kesbawa Road",
+        "amenity": "marketplace",
+        "name": "Delkanda Sunday Fair"
+      }
+    },
+    {
+      "lat": 6.8817792,
+      "lon": 79.9014865,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St Thomas",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8495601,
+      "lon": 79.8777889,
+      "tags": {
+        "addr:city": "Nedimala",
+        "addr:street": "Dehiwela-Maharagama Road",
+        "name": "Laughs Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8719477,
+      "lon": 79.8845994,
+      "tags": {
+        "addr:city": "Nugegoda WP",
+        "amenity": "school",
+        "name": "Anula Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8707813,
+      "lon": 79.8867451,
+      "tags": {
+        "addr:city": "Nugegoda WP",
+        "amenity": "school",
+        "name": "St. Joseph's Girls College"
+      }
+    },
+    {
+      "lat": 6.8704724,
+      "lon": 79.8862784,
+      "tags": {
+        "addr:city": "Nugegoda WP",
+        "amenity": "school",
+        "name": "Lyceum International School"
+      }
+    },
+    {
+      "lat": 6.8759528,
+      "lon": 79.8807906,
+      "tags": {
+        "addr:city": "Kirulapone",
+        "addr:street": "Kirulapana Masjid Road",
+        "amenity": "place_of_worship",
+        "name": "Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.8802869,
+      "lon": 79.8564003,
+      "tags": {
+        "addr:housenumber": "32",
+        "addr:street": "Kinross Avenue",
+        "amenity": "restaurant",
+        "check_date": "2022-11-28",
+        "contact:phone": "+94 11 2559185",
+        "email": "management@thesignature.lk",
+        "name": "burger hut",
+        "outdoor_seating": "no",
+        "takeaway": "yes",
+        "website": "https://burgerhut.lk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8808071,
+      "lon": 79.859275,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2022-12-24",
+        "name": "Perera & Sons"
+      }
+    },
+    {
+      "lat": 6.878155,
+      "lon": 79.8599713,
+      "tags": {
+        "addr:housenumber": "36A",
+        "addr:street": "Galle Road",
+        "amenity": "hospital",
+        "check_date": "2023-03-29",
+        "email": "mediclinicwellawatta@gmail.com",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Medi Clinic wellawatte",
+        "operator:type": "private",
+        "phone": "+94 112 593 959",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.86937,
+      "lon": 79.8590004,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:street": "International Buddhist Centre Road",
+        "amenity": "place_of_worship",
+        "name": "Int. Buddhist Centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8711188,
+      "lon": 79.8584445,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "39",
+        "addr:street": "Boswell place ",
+        "amenity": "restaurant",
+        "branch": "Wellawatte",
+        "brand": "Dinemore",
+        "check_date": "2023-10-08",
+        "delivery": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Dinemore",
+        "phone": "+94 115 234 295",
+        "website": "https://www.dinemore.lk/"
+      }
+    },
+    {
+      "lat": 6.852625,
+      "lon": 79.8717918,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "Dharmaraja Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8629096,
+      "lon": 79.863485,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8541563,
+      "lon": 79.8657783,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8571602,
+      "lon": 79.8647832,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "school",
+        "name": "Holy Family Convent"
+      }
+    },
+    {
+      "lat": 6.8507183,
+      "lon": 79.8638712,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "Christian Reformed Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8258713,
+      "lon": 79.8784786,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mallikaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8788898,
+      "lon": 79.8766899,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-10",
+        "name": "Calvary",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8840293,
+      "lon": 79.8665535,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "amenity": "school",
+        "name": "Lumbini Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8104359,
+      "lon": 79.8821457,
+      "tags": {
+        "name": "Mega Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8064455,
+      "lon": 79.8845564,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Soysaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8685486,
+      "lon": 79.8913231,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Nugegoda Nursing Home"
+      }
+    },
+    {
+      "lat": 6.8327725,
+      "lon": 79.8671666,
+      "tags": {
+        "name": "Food city express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8502948,
+      "lon": 79.865502,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "name": "Malsara",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.869201,
+      "lon": 79.8901108,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nugegoda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8650441,
+      "lon": 79.8970866,
+      "tags": {
+        "amenity": "school",
+        "name": "Sujatha Vidyalaya Nugegoda"
+      }
+    },
+    {
+      "lat": 6.8762062,
+      "lon": 79.9002231,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8505406,
+      "lon": 79.8719968,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "marketplace",
+        "name": "Karagampitiya Sunday Market"
+      }
+    },
+    {
+      "lat": 6.8409777,
+      "lon": 79.9019487,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "amenity": "marketplace",
+        "name": "Boralesgamuwa Public Market"
+      }
+    },
+    {
+      "lat": 6.8403949,
+      "lon": 79.9008403,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8678139,
+      "lon": 79.8854551,
+      "tags": {
+        "addr:city": "Kohuwala",
+        "addr:street": "S. De S. Jayasinghe Road",
+        "amenity": "restaurant",
+        "name": "Dinemore"
+      }
+    },
+    {
+      "lat": 6.8480332,
+      "lon": 79.9029524,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Paramadharmavardanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.856095,
+      "lon": 79.909678,
+      "tags": {
+        "addr:city": "Wijerama",
+        "amenity": "school",
+        "name": "President's College (Primary Section)"
+      }
+    },
+    {
+      "lat": 6.8705763,
+      "lon": 79.9035733,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Chandrarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8696922,
+      "lon": 79.8962938,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wijayamangalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.867165,
+      "lon": 79.8957627,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bethany Christian Life Centre",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8584264,
+      "lon": 79.9006549,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Saranath Buddhist Centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8634527,
+      "lon": 79.9026904,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pushparamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8561347,
+      "lon": 79.9065066,
+      "tags": {
+        "addr:city": "Wijerama",
+        "amenity": "place_of_worship",
+        "name": "Sunethra Maha Devi Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8788306,
+      "lon": 79.8895561,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:housenumber": "41",
+        "addr:street": "Kandawatte Road",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Food Waves"
+      }
+    },
+    {
+      "lat": 6.8714771,
+      "lon": 79.8615229,
+      "tags": {
+        "addr:city": "Wellawatte - Colombo 06",
+        "amenity": "place_of_worship",
+        "check_date": "2023-03-04",
+        "name": "Methodist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8728192,
+      "lon": 79.8628801,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "anglican",
+        "name": "Holy Trinity Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.87745,
+      "lon": 79.8647603,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8642006,
+      "lon": 79.8858301,
+      "tags": {
+        "addr:city": "Kohuwala",
+        "amenity": "place_of_worship",
+        "name": "Wijayamangalarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8738791,
+      "lon": 79.8623525,
+      "tags": {
+        "name": "Supun Arcade",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8790915,
+      "lon": 79.8965911,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "hut",
+        "name": "Statue of Lord Buddha",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8751219,
+      "lon": 79.8989546,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "Stanley Thilakarathne Mawatha",
+        "amenity": "restaurant",
+        "name": "Hiruni Take-Away"
+      }
+    },
+    {
+      "lat": 6.8754928,
+      "lon": 79.8992393,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "Stanley Thilakarathne Mawatha",
+        "amenity": "restaurant",
+        "cuisine": "pasta",
+        "name": "Pasta Hut"
+      }
+    },
+    {
+      "lat": 6.8753711,
+      "lon": 79.8991848,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Jayamangala Mawatha, Bus Stop",
+        "operator": "119,168,259",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8751097,
+      "lon": 79.9013859,
+      "tags": {
+        "amenity": "restaurant",
+        "capacity": "30",
+        "name": "Sappid",
+        "opening_hours": "10:30-01:30"
+      }
+    },
+    {
+      "lat": 6.8745837,
+      "lon": 79.9021346,
+      "tags": {
+        "name": "Puhulyaya Supermarket",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8795308,
+      "lon": 79.8998789,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Se-Ar Restaurant"
+      }
+    },
+    {
+      "lat": 6.8686051,
+      "lon": 79.908885,
+      "tags": {
+        "name": "Keells Super",
+        "name:en": "Keels super abuldeniya",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8578081,
+      "lon": 79.8706457,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "Buddhist Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8535687,
+      "lon": 79.87535,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Piyarathanarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.853431,
+      "lon": 79.876413,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Galvihara Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.864956,
+      "lon": 79.9022473,
+      "tags": {
+        "name": "Pangiriwatta",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8809019,
+      "lon": 79.8592573,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "cuisine": "asian;coffee_shop",
+        "internet_access": "no",
+        "name": "Taste Of Asia",
+        "smoking": "outside"
+      }
+    },
+    {
+      "lat": 6.8684498,
+      "lon": 79.8589628,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "air_conditioning": "yes",
+        "name": "Mirage Hotel",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8677066,
+      "lon": 79.8590536,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "air_conditioning": "yes",
+        "name": "Sai Sea City Hotel",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8679509,
+      "lon": 79.8605482,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "check_date": "2026-04-27",
+        "facebook": "https://www.facebook.com/lafalahotel/",
+        "name": "Lafala Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8437964,
+      "lon": 79.8651705,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Dammika Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8451453,
+      "lon": 79.8650469,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Lavinia Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8424403,
+      "lon": 79.8649103,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Fifteen Beach Road House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8416893,
+      "lon": 79.8646689,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Aurora Holiday House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.842398,
+      "lon": 79.8639281,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Lavinia Beach Hostel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8402193,
+      "lon": 79.8636067,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Mount Bay Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8402543,
+      "lon": 79.865695,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Royce Hotel",
+        "name:ru": "\u043e\u0444\u0438\u0441 \u044d\u043a\u0437\u043e\u0442\u0438\u043a \u0425\u043e\u043b\u0438\u0434\u0435\u0439",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8401289,
+      "lon": 79.8666009,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Ocen Blue House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8398018,
+      "lon": 79.8647824,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Ivory Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8357451,
+      "lon": 79.8635546,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Rivi Ras Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.835737,
+      "lon": 79.8653109,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Aqua Marine Holiday Homes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8354988,
+      "lon": 79.8658678,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Golden Bridge Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8356924,
+      "lon": 79.8634221,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:housenumber": "56/9 De Saram Rd, Dehiwala-Mount Lavinia 10370",
+        "name": "Ranveli Beach Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8352365,
+      "lon": 79.8640343,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Omni Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8334725,
+      "lon": 79.8625626,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Relaxn On Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.833533,
+      "lon": 79.8644815,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Mount Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8328468,
+      "lon": 79.8645018,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Lavinia House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8322887,
+      "lon": 79.864946,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Prestige Court Residence Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8312443,
+      "lon": 79.8632456,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Hotel Sunhill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8657792,
+      "lon": 79.8953429,
+      "tags": {
+        "addr:city": "Gamsabha Junction",
+        "name": "Keells Super",
+        "name:en": "Keels super gansaba",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8725466,
+      "lon": 79.890339,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8706691,
+      "lon": 79.9076921,
+      "tags": {
+        "addr:city": "Embuldeniya",
+        "amenity": "place_of_worship",
+        "name": "Vivekaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8761725,
+      "lon": 79.8893624,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8414579,
+      "lon": 79.9034069,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "amenity": "place_of_worship",
+        "name": "Sri Nagarukkharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8746318,
+      "lon": 79.8578575,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "amenity": "place_of_worship",
+        "name": "Sri Jayasingharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.865117,
+      "lon": 79.8620256,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "amenity": "place_of_worship",
+        "check_date": "2023-10-08",
+        "name": "Aishwari Amman Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8655111,
+      "lon": 79.8612831,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "check_date": "2023-10-08",
+        "email": "reservations@fairviewhotel.lk",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Fair View Hotel Colombo",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 058 392",
+        "reservation": "yes",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "https://www.tangerinehotels.com/fairviewhotel/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8615619,
+      "lon": 79.8598864,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "41/2",
+        "addr:street": "Wasala Road",
+        "amenity": "restaurant",
+        "name": "Barracuda Sea Food & Grill"
+      }
+    },
+    {
+      "lat": 6.8612773,
+      "lon": 79.8599294,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "restaurant",
+        "fixme": "does this still exist?",
+        "name": "The Coast Ocean Cuisine"
+      }
+    },
+    {
+      "lat": 6.8604208,
+      "lon": 79.8600324,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "restaurant",
+        "name": "Kurumba"
+      }
+    },
+    {
+      "lat": 6.8589879,
+      "lon": 79.860752,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Initium Road",
+        "name": "Adhikaram Sea View Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8589987,
+      "lon": 79.8601933,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Initium Road",
+        "amenity": "restaurant",
+        "name": "Moon Nest Beach Wadi",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8588668,
+      "lon": 79.8602316,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Initium Road",
+        "amenity": "restaurant",
+        "name": "Babi's Tent",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8581934,
+      "lon": 79.860898,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "name": "Big John",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8581685,
+      "lon": 79.8603739,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "52/B, Dehiwala",
+        "addr:street": "Albert Place",
+        "amenity": "restaurant",
+        "name": "Sun Set",
+        "name:en": "Sunset Beach Wardy",
+        "phone": "0778089606",
+        "website": "http://www.sunsetbeachwardy.com",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8559687,
+      "lon": 79.8624432,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "name": "Windsor motel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8555449,
+      "lon": 79.8609024,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "restaurant",
+        "name": "Beach House Bristo",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8548183,
+      "lon": 79.8609146,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "restaurant",
+        "name": "Lani's Place",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8541806,
+      "lon": 79.8612398,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "restaurant",
+        "name": "Waves",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8528082,
+      "lon": 79.8614268,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "restaurant",
+        "name": "Anura's Place"
+      }
+    },
+    {
+      "lat": 6.8508182,
+      "lon": 79.8624595,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8541354,
+      "lon": 79.8661238,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "Darshanika Ramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8528759,
+      "lon": 79.8661352,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "Dehiwala Town Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.8510925,
+      "lon": 79.8650976,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "name": "Dehiwala Super Market Complex",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8585439,
+      "lon": 79.8674718,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "Sri Mahabodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.856671,
+      "lon": 79.8668312,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "name": "Vidywardana Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8610791,
+      "lon": 79.8632269,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "name": "New Siloam Guest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8580648,
+      "lon": 79.8625741,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "name": "Ocean Legend 2",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8569409,
+      "lon": 79.909214,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8649647,
+      "lon": 79.8972043,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "name": "Namaste Indian Restaurant"
+      }
+    },
+    {
+      "lat": 6.867893,
+      "lon": 79.8640527,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8790937,
+      "lon": 79.8739627,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:vegetarian": "yes",
+        "name": "Kirula Cafe",
+        "name:ta": "\u0b95\u0bbf\u0bb0\u0bc1\u0bb2 \u0b95\u0baa\u0bc7",
+        "phone": "+94 76 594 8623",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8804067,
+      "lon": 79.8764466,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "HNB",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8308746,
+      "lon": 79.9099389,
+      "tags": {
+        "addr:city": "Katuwawala",
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8566324,
+      "lon": 79.8891626,
+      "tags": {
+        "addr:city": "Pepiliyana",
+        "addr:street": "Pepiliyana Road",
+        "amenity": "place_of_worship",
+        "name": "Sunethra Devi Purana Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8634708,
+      "lon": 79.8746291,
+      "tags": {
+        "addr:city": "Kalubowila",
+        "addr:street": "Pansala Road",
+        "amenity": "restaurant",
+        "name": "House of Biriyani"
+      }
+    },
+    {
+      "lat": 6.8693114,
+      "lon": 79.8901635,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "amenity": "restaurant",
+        "name": "Curry Dish"
+      }
+    },
+    {
+      "lat": 6.8756419,
+      "lon": 79.8942868,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "Stanly Thilakarathne Mawatha",
+        "name": "Keells Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8748439,
+      "lon": 79.8960484,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "Stanley Thilakarathne Mawatha",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator:wikidata": "Q5039260",
+        "operator:wikipedia": "en:Cargills (Ceylon)",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8761466,
+      "lon": 79.9008741,
+      "tags": {
+        "addr:city": "Jubilee Post",
+        "addr:street": "Jubilee Post Roundabout",
+        "amenity": "restaurant",
+        "name": "City Foods"
+      }
+    },
+    {
+      "lat": 6.8791512,
+      "lon": 79.8945302,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "Pagoda Road",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Kesel Kole"
+      }
+    },
+    {
+      "lat": 6.8751807,
+      "lon": 79.9010492,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Perera & Sons",
+        "shop": "beauty",
+        "source:operator": "survey"
+      }
+    },
+    {
+      "lat": 6.8735221,
+      "lon": 79.8724258,
+      "tags": {
+        "addr:city": "Pamankada",
+        "addr:street": "Saranankara Road",
+        "amenity": "place_of_worship",
+        "name": "Gangaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.875189,
+      "lon": 79.8723943,
+      "tags": {
+        "addr:city": "Pamankada",
+        "addr:street": "Kaviratne Place",
+        "name": "Sosun Villa-Embassy of Maldives",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8835111,
+      "lon": 79.868279,
+      "tags": {
+        "addr:city": "Havelock Town",
+        "addr:street": "Havelock Road",
+        "amenity": "place_of_worship",
+        "check_date": "2025-12-27",
+        "name": "Sama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8836304,
+      "lon": 79.8698904,
+      "tags": {
+        "addr:city": "Havelock Town",
+        "addr:street": "Swarna Road",
+        "amenity": "place_of_worship",
+        "name": "Swarna Bodhiya Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8606142,
+      "lon": 79.8818825,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8545929,
+      "lon": 79.8822485,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8575428,
+      "lon": 79.8810477,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Vishnu Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8558984,
+      "lon": 79.8821345,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8579721,
+      "lon": 79.8818749,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8559866,
+      "lon": 79.8821307,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8661542,
+      "lon": 79.8797344,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8504176,
+      "lon": 79.8720234,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Karagampitiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.872463,
+      "lon": 79.887348,
+      "tags": {
+        "amenity": "school",
+        "name": "Anula Primary School"
+      }
+    },
+    {
+      "lat": 6.8718614,
+      "lon": 79.8847817,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "amenity": "school",
+        "name": "Anula Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.874496,
+      "lon": 79.86839,
+      "tags": {
+        "amenity": "school",
+        "name": "Arethusa College"
+      }
+    },
+    {
+      "lat": 6.8724361,
+      "lon": 79.8629957,
+      "tags": {
+        "addr:city": "Wellawatte - Colombo 06",
+        "addr:housenumber": "23",
+        "addr:street": "Rudra Mawatha",
+        "amenity": "school",
+        "check_date": "2023-04-12",
+        "email": "Info@saivamangaiyarvidyalayam.lk",
+        "fee": "yes",
+        "grades": "0-13",
+        "name": "Hindu Ladies College",
+        "operator:type": "private",
+        "phone": "+94 112 504 225",
+        "religion": "hindu",
+        "short_name": "HLC",
+        "website": "https://saivamangaiyarvidyalayam.lk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.884184,
+      "lon": 79.866711,
+      "tags": {
+        "amenity": "school",
+        "name": "Lumbini Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.863075,
+      "lon": 79.864104,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.875982,
+      "lon": 79.869801,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.878675,
+      "lon": 79.876538,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.867673,
+      "lon": 79.897792,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Rewatha Royal College"
+      }
+    },
+    {
+      "lat": 6.869561,
+      "lon": 79.864308,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Vaishakya College"
+      }
+    },
+    {
+      "lat": 6.871621,
+      "lon": 79.885508,
+      "tags": {
+        "amenity": "school",
+        "name": "St Joseph Girls' School"
+      }
+    },
+    {
+      "lat": 6.876851,
+      "lon": 79.862092,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Cleare's Girles' School"
+      }
+    },
+    {
+      "lat": 6.8689893,
+      "lon": 79.8894865,
+      "tags": {
+        "amenity": "school",
+        "name": "St. John's Primary School"
+      }
+    },
+    {
+      "lat": 6.8669322,
+      "lon": 79.8953636,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Joseph's Boys' School"
+      }
+    },
+    {
+      "lat": 6.8638,
+      "lon": 79.898447,
+      "tags": {
+        "amenity": "school",
+        "name": "Sujatha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.880526,
+      "lon": 79.868272,
+      "tags": {
+        "amenity": "school",
+        "name": "Wellawatta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8841135,
+      "lon": 79.9071818,
+      "tags": {
+        "amenity": "school",
+        "name": "Ananda Sasthralaya School Ground",
+        "operator": "Ananda Sasthralaya"
+      }
+    },
+    {
+      "lat": 6.8730221,
+      "lon": 79.8687414,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8371454,
+      "lon": 79.9077127,
+      "tags": {
+        "addr:city": "boralasgamuwa",
+        "addr:street": "Pirivena Road",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Parama Damma Nivasa - Privena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8765685,
+      "lon": 79.8690177,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8740002,
+      "lon": 79.8915338,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.878807,
+      "lon": 79.873433,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Kirulapona Market",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8823369,
+      "lon": 79.8942464,
+      "tags": {
+        "amenity": "place_of_worship",
+        "man_made": "tower",
+        "religion": "buddhist",
+        "tower:construction": "freestanding",
+        "tower:type": "stupa"
+      }
+    },
+    {
+      "lat": 6.8665361,
+      "lon": 79.8947773,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Joseph's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8375563,
+      "lon": 79.8673845,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8445882,
+      "lon": 79.8662705,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8758999,
+      "lon": 79.9013689,
+      "tags": {
+        "name": "Highland Shop Mirihana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8832479,
+      "lon": 79.8585612,
+      "tags": {
+        "amenity": "school",
+        "name": "Studio Lekha"
+      }
+    },
+    {
+      "lat": 6.8630467,
+      "lon": 79.8662464,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Milana's Restaurant"
+      }
+    },
+    {
+      "lat": 6.8632147,
+      "lon": 79.8668789,
+      "tags": {
+        "name": "Keels Super (Dehiwela)",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.839083,
+      "lon": 79.8662745,
+      "tags": {
+        "addr:housenumber": "26 / 2",
+        "addr:street": "Hotel Road",
+        "name:en": "Hotel Mount Lanka",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8495948,
+      "lon": 79.877507,
+      "tags": {
+        "addr:city": "Nedimala",
+        "addr:street": "Dehiwela-Maharagama Road",
+        "name": "Keells Super",
+        "name:en": "Keels super dehiwala",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8591174,
+      "lon": 79.8604563,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "46",
+        "addr:street": "Initium Road",
+        "amenity": "restaurant",
+        "name": "Aahara Wood Fired Kitchen"
+      }
+    },
+    {
+      "lat": 6.8593009,
+      "lon": 79.8601729,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Initium Road",
+        "amenity": "restaurant",
+        "name": "Ruwala Beach park and Restaurant"
+      }
+    },
+    {
+      "lat": 6.8594967,
+      "lon": 79.8600897,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Rathnakara Place",
+        "amenity": "restaurant",
+        "name": "Tinder Lounge"
+      }
+    },
+    {
+      "lat": 6.8417637,
+      "lon": 79.8668302,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Arthur's Pizza"
+      }
+    },
+    {
+      "lat": 6.8697721,
+      "lon": 79.8586912,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:street": "Marine Drive",
+        "amenity": "restaurant",
+        "name": "Yaal Restaurant"
+      }
+    },
+    {
+      "lat": 6.8705719,
+      "lon": 79.8587005,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "61",
+        "addr:street": "Moor's Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "check_date": "2023-10-08",
+        "email": "reservations@miragecolombo.com",
+        "internet_access:fee": "customers",
+        "name": "Mirage Hotel colombo",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 363 471; +94 112 363 472",
+        "reservation": "yes",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.miragecolombo.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8799176,
+      "lon": 79.8565822,
+      "tags": {
+        "addr:city": "Colombo 04",
+        "addr:street": "Marine Drive",
+        "amenity": "restaurant",
+        "cuisine": "indian;chinese;pakistani",
+        "name": "Al Maas Indian Family Restaurant",
+        "payment:cash": "yes",
+        "payment:unionpay": "yes"
+      }
+    },
+    {
+      "lat": 6.8835542,
+      "lon": 79.9096236,
+      "tags": {
+        "addr:city": "Beddagana",
+        "addr:street": "Pitakotte-Thalawathugoda Road",
+        "name": "Keells Super",
+        "opening_hours": "08:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8843525,
+      "lon": 79.8870718,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Chinese Dragon Cafe"
+      }
+    },
+    {
+      "lat": 6.8695843,
+      "lon": 79.880743,
+      "tags": {
+        "addr:city": "Kohuwala",
+        "addr:street": "Dutugamunu Street",
+        "name": "Keells Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8809496,
+      "lon": 79.8617823,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "St Peters Bus Stop",
+        "name:en": "St. Peter's college",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.880777,
+      "lon": 79.8592985,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2022-12-24",
+        "cuisine": "thai",
+        "name": "TOM YUM"
+      }
+    },
+    {
+      "lat": 6.8509738,
+      "lon": 79.8677118,
+      "tags": {
+        "addr:housenumber": "40",
+        "addr:street": "Hill Street",
+        "internet_access": "wlan",
+        "name:en": "Clock Inn hostel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8495766,
+      "lon": 79.8861083,
+      "tags": {
+        "addr:postcode": "10350",
+        "addr:street": "siri sadaham monastery, Bellanthara, Dehiwala.",
+        "amenity": "place_of_worship",
+        "email": "info@ashramaya.org",
+        "name:en": "Siri Sadaham Monastery",
+        "phone": "+94 112 732 700",
+        "website": "https://ashramaya.org/"
+      }
+    },
+    {
+      "lat": 6.8300254,
+      "lon": 79.8626033,
+      "tags": {
+        "addr:street": "Samudrasanna Road",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name:en": "Mount Casadi",
+        "name:nl": "Mount Casadi"
+      }
+    },
+    {
+      "lat": 6.8683664,
+      "lon": 79.8865226,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "S. De S. Jayasinghe Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ceymed"
+      }
+    },
+    {
+      "lat": 6.8199855,
+      "lon": 79.8933965,
+      "tags": {
+        "addr:street": "100, kandawala road, ratmalana",
+        "amenity": "school",
+        "name:en": "UNIVOTEC",
+        "phone": "0112630706",
+        "website": "http://www.univotec.ac.lk"
+      }
+    },
+    {
+      "lat": 6.8667092,
+      "lon": 79.8836049,
+      "tags": {
+        "name": "Arpico super center",
+        "name:en": "Arpico supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8723658,
+      "lon": 79.8647627,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.8720942,
+      "lon": 79.8648754,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8558717,
+      "lon": 79.8608492,
+      "tags": {
+        "addr:housenumber": "55/20",
+        "addr:postcode": "00100",
+        "addr:street": "Inner Vanderwert Place",
+        "amenity": "restaurant",
+        "email": "kapilakgc@gmail.com",
+        "name:en": "kanrin beach hut",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "0776420998"
+      }
+    },
+    {
+      "lat": 6.8754027,
+      "lon": 79.881027,
+      "tags": {
+        "addr:street": "High Level Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "name:en": "Cargills FOOD CITY",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8829394,
+      "lon": 79.8642062,
+      "tags": {
+        "addr:housenumber": "72",
+        "addr:street": "Layard's Road",
+        "name:en": "Park West Apartments",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8296856,
+      "lon": 79.8805508,
+      "tags": {
+        "addr:street": "Pirivena Road",
+        "amenity": "school",
+        "name:en": "La Petite Fleur Montessori (LPF)",
+        "opening_hours": "Mo-Fr 07:30-14:30",
+        "phone": "0112716008",
+        "website": "https://www.lpfschools.com/"
+      }
+    },
+    {
+      "lat": 6.8194372,
+      "lon": 79.8739314,
+      "tags": {
+        "name:en": "Keels Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8391747,
+      "lon": 79.8846523,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "251",
+        "addr:postcode": "10350",
+        "addr:street": "Attidiya Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator": "Cargills (ceylon) PLC",
+        "phone": "011 2732581",
+        "shop": "supermarket",
+        "website": "https://www.cargillsceylon.com",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8388711,
+      "lon": 79.8846523,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:postcode": "10350",
+        "addr:street": "Attidiya Road",
+        "name": "Co-Op Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8402389,
+      "lon": 79.8845354,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.8382625,
+      "lon": 79.8849407,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Glen Rich Restaurant"
+      }
+    },
+    {
+      "lat": 6.8418821,
+      "lon": 79.8848887,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8369752,
+      "lon": 79.8857399,
+      "tags": {
+        "addr:city": "Attidiya",
+        "addr:street": "Temple Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Maternal & Child Health Clinic"
+      }
+    },
+    {
+      "lat": 6.8439723,
+      "lon": 79.8654579,
+      "tags": {
+        "addr:housenumber": "174/5",
+        "addr:street": "Galle Road",
+        "name:en": "Lavinia Villa",
+        "phone": "+94777533442",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8384993,
+      "lon": 79.8670274,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jinarathana Gilan Bikku Ashramaya",
+        "name:en": "Sri Jinarathana Resident for Ill Monks",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8722514,
+      "lon": 79.8745392,
+      "tags": {
+        "amenity": "restaurant",
+        "capacity": "about 20",
+        "cuisine": "healthy_foods",
+        "delivery": "no",
+        "name": "Eat Right",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8806738,
+      "lon": 79.8594025,
+      "tags": {
+        "addr:housenumber": "330",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name:en": "One up all day Breakfast"
+      }
+    },
+    {
+      "lat": 6.8414523,
+      "lon": 79.9026742,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "addr:housenumber": "55",
+        "addr:postcode": "10290",
+        "addr:street": "Lake Road",
+        "amenity": "place_of_worship",
+        "name": "Masjid-Ul Jannah",
+        "name:en": "Boralesgamuwa mosque",
+        "opening_hours": "24/7",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.8661311,
+      "lon": 79.8938441,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "name": "Ambulthiyal"
+      }
+    },
+    {
+      "lat": 6.86644,
+      "lon": 79.8934378,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "name": "Chinese Dragon Cafe"
+      }
+    },
+    {
+      "lat": 6.8754332,
+      "lon": 79.8576558,
+      "tags": {
+        "addr:street": "Marine Drive",
+        "name:en": "The Marine Grand",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.876149,
+      "lon": 79.8605431,
+      "tags": {
+        "addr:housenumber": "56",
+        "addr:street": "Galle Road",
+        "name": "Supun Arcade",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8813745,
+      "lon": 79.873629,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8834358,
+      "lon": 79.8657165,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8401723,
+      "lon": 79.8629698,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "La Voile Blanche"
+      }
+    },
+    {
+      "lat": 6.8568781,
+      "lon": 79.9100714,
+      "tags": {
+        "addr:city": "Wijerama",
+        "addr:street": "High Level Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8615032,
+      "lon": 79.8651112,
+      "tags": {
+        "addr:street": "Council Lane",
+        "amenity": "school",
+        "name:en": "WP/PILI/METHODIST VIDYALAYA",
+        "phone": "0773094324"
+      }
+    },
+    {
+      "lat": 6.8631402,
+      "lon": 79.8673704,
+      "tags": {
+        "addr:street": "Kotagama Sri Vachissara Mawatha",
+        "amenity": "community_centre",
+        "internet_access": "wlan",
+        "name:en": "Rosewood Ceylon",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8600438,
+      "lon": 79.8644789,
+      "tags": {
+        "addr:street": "Galle Road",
+        "name:en": "Star hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8604646,
+      "lon": 79.8643403,
+      "tags": {
+        "name:en": "Star hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8384728,
+      "lon": 79.8850432,
+      "tags": {
+        "addr:street": "Attidiya Road",
+        "name:en": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8733985,
+      "lon": 79.8616919,
+      "tags": {
+        "addr:housenumber": "283",
+        "addr:street": "Galle Road",
+        "check_date": "2023-01-04",
+        "name": "Co-op city",
+        "phone": "+94 112 362 331",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8749268,
+      "lon": 79.8612919,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "203",
+        "addr:postcode": "00600",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2023-12-28",
+        "name": "Plaza Hotel & Bake House",
+        "opening_hours": "24/7",
+        "phone": "+94 70 358 0580",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8333578,
+      "lon": 79.8629655,
+      "tags": {
+        "name:en": "Mini supermarket and Gem Store",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8749775,
+      "lon": 79.860745,
+      "tags": {
+        "addr:housenumber": "56",
+        "addr:street": "Galle Road",
+        "breakfast": "yes",
+        "internet_access": "wlan",
+        "name": "Supun Arcade Residency",
+        "phone": "+94 11 205 50 40",
+        "rooms": "40",
+        "swimming_pool": "yes",
+        "tourism": "hotel",
+        "website": "https://www.supunarcaderesidency.com/"
+      }
+    },
+    {
+      "lat": 6.8603888,
+      "lon": 79.8861461,
+      "tags": {
+        "amenity": "school",
+        "name:en": "East Asian International school"
+      }
+    },
+    {
+      "lat": 6.8655582,
+      "lon": 79.8762451,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sunandarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8431388,
+      "lon": 79.8682149,
+      "tags": {
+        "addr:street": "Sylvester Lane",
+        "amenity": "school",
+        "name:en": "Hejaaz International Boys School"
+      }
+    },
+    {
+      "lat": 6.8430029,
+      "lon": 79.8627295,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Mount Sea Pal"
+      }
+    },
+    {
+      "lat": 6.8759358,
+      "lon": 79.8633389,
+      "tags": {
+        "addr:housenumber": "54",
+        "addr:postcode": "00600",
+        "addr:street": "W.A. Silva Mawatha",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "branch": "Wellawatte",
+        "brand": "Chana's",
+        "check_date": "2023-10-08",
+        "cuisine": "indian",
+        "delivery": "yes",
+        "drive_through": "no",
+        "name": "Chana's",
+        "opening_hours": "11:30-23:00",
+        "outdoor_seating": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94113288788",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.chanas.lk/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.8740722,
+      "lon": 79.8659907,
+      "tags": {
+        "addr:street": "Hampden Lane",
+        "check_date": "2023-03-20",
+        "name": "Aache Food Center",
+        "opening_hours": "Mo-Su 09:00-20:30",
+        "operator": "Aache Food Center",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "0112 366 484",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8737271,
+      "lon": 79.8661079,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.8528494,
+      "lon": 79.9043291,
+      "tags": {
+        "amenity": "university",
+        "name": "Faculty of Management Studies and Commerce"
+      }
+    },
+    {
+      "lat": 6.8792843,
+      "lon": 79.8719061,
+      "tags": {
+        "amenity": "school",
+        "name": "Royal Institute"
+      }
+    },
+    {
+      "lat": 6.8783656,
+      "lon": 79.8667335,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8813495,
+      "lon": 79.856327,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "thai;chinese",
+        "name": "Red Orchids"
+      }
+    },
+    {
+      "lat": 6.8841471,
+      "lon": 79.9092124,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ajith Family Restaurant"
+      }
+    },
+    {
+      "lat": 6.8840048,
+      "lon": 79.9034954,
+      "tags": {
+        "amenity": "school",
+        "name": "Colombo School of Construction Technology"
+      }
+    },
+    {
+      "lat": 6.8586254,
+      "lon": 79.8645414,
+      "tags": {
+        "addr:housenumber": "139",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name:en": "88 Chinese"
+      }
+    },
+    {
+      "lat": 6.8839033,
+      "lon": 79.8659867,
+      "tags": {
+        "addr:street": "Skelton Gardens",
+        "amenity": "school",
+        "name:en": "CRI Confucius Chinese language Center"
+      }
+    },
+    {
+      "lat": 6.8743673,
+      "lon": 79.8979986,
+      "tags": {
+        "addr:housenumber": "178/A",
+        "addr:street": "Stanley Tilekaratne Mawatha",
+        "addr:suburb": "Nugegoda",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "delivery": "yes",
+        "diet:vegan": "no",
+        "diet:vegetarian": "yes",
+        "indoor_seating": "yes",
+        "name": "Harpo's",
+        "opening_hours": "Mo-Th,Su 11:00-22:00; Fr, Sa 11:00-00:00",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 11 4869000",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://www.harpospizzas.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8829507,
+      "lon": 79.8869147,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8722089,
+      "lon": 79.8838604,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Anula Vidyalaya Bus Stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8811407,
+      "lon": 79.8592743,
+      "tags": {
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "St Peters Collage halt",
+        "public_transport": "platform",
+        "ref": "258",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8144513,
+      "lon": 79.878912,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8064388,
+      "lon": 79.9068418,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gangarama Purana Viharaya, Wewala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.883416,
+      "lon": 79.8989985,
+      "tags": {
+        "addr:city": "Sri Jayawadhanapura Kotte",
+        "addr:street": "Pitakotte West",
+        "amenity": "restaurant",
+        "name": "Alhewana Family Restaurant",
+        "opening_hours": "PH,Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "lat": 6.8833668,
+      "lon": 79.8988141,
+      "tags": {
+        "addr:city": "Sri Jayawadhanapura Kotte",
+        "addr:housenumber": "90",
+        "addr:street": "Pagoda Road",
+        "amenity": "restaurant",
+        "name": "Box-O-Noodles"
+      }
+    },
+    {
+      "lat": 6.8840543,
+      "lon": 79.900104,
+      "tags": {
+        "addr:city": "Sri Jayawadhanapura Kotte",
+        "addr:housenumber": "139",
+        "addr:street": "Pagoda Road",
+        "amenity": "school",
+        "name": "Royal Way Minco College & Academy"
+      }
+    },
+    {
+      "lat": 6.8844213,
+      "lon": 79.8959606,
+      "tags": {
+        "addr:city": "Sri Jayawadhanapura Kotte",
+        "addr:housenumber": "21",
+        "addr:street": "Ananda Balika Mawatha",
+        "amenity": "school",
+        "name": "Samarakone Walauwa, Samarakone Gardens"
+      }
+    },
+    {
+      "lat": 6.8830896,
+      "lon": 79.8929365,
+      "tags": {
+        "addr:city": "Jayawardhanapura Kotte",
+        "addr:street": "Nugegoda",
+        "amenity": "restaurant",
+        "name": "Garton's Group Head Office (Garton's Ark)"
+      }
+    },
+    {
+      "lat": 6.8804398,
+      "lon": 79.8954112,
+      "tags": {
+        "addr:city": "Sri Jayawardenepura Kotte",
+        "addr:housenumber": "65",
+        "addr:street": "Pagoda Road",
+        "amenity": "restaurant",
+        "name": "Grand 65"
+      }
+    },
+    {
+      "lat": 6.8769984,
+      "lon": 79.8917673,
+      "tags": {
+        "addr:city": "Jayawardhanapura Kotte",
+        "amenity": "school",
+        "name": "London English College"
+      }
+    },
+    {
+      "lat": 6.8766726,
+      "lon": 79.8907619,
+      "tags": {
+        "addr:city": "Jayawardhanapura Kotte",
+        "addr:street": "Perakum Mawath",
+        "amenity": "school",
+        "name": "Gateway Kids School"
+      }
+    },
+    {
+      "lat": 6.8761201,
+      "lon": 79.892328,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:housenumber": "15B",
+        "addr:street": "Pagoda Road",
+        "amenity": "restaurant",
+        "name": "Cafe79"
+      }
+    },
+    {
+      "lat": 6.8832315,
+      "lon": 79.9018403,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pita Kotte Bus Stop",
+        "network": "Pita Kotte",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8837926,
+      "lon": 79.9008869,
+      "tags": {
+        "addr:city": "Sri Jayawadhanapura Kotte",
+        "amenity": "university",
+        "name": "CSCT Campus",
+        "operator": "Univercity"
+      }
+    },
+    {
+      "lat": 6.8830688,
+      "lon": 79.9018101,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pita Kotte Bus Stop",
+        "network": "Pita Kotte",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8832358,
+      "lon": 79.8989757,
+      "tags": {
+        "addr:city": "nugegoda",
+        "addr:housenumber": "90",
+        "addr:street": "Pagoda Road",
+        "amenity": "restaurant",
+        "name": "Box-O-Noodless"
+      }
+    },
+    {
+      "lat": 6.877335,
+      "lon": 79.8939319,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "amenity": "place_of_worship",
+        "name": "Pagoda Devalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8780124,
+      "lon": 79.8956325,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:housenumber": "49/2",
+        "addr:street": "1st Cross Street",
+        "amenity": "place_of_worship",
+        "name": "Pagoda Meditation Centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8770181,
+      "lon": 79.8978845,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "Jayamangala Road",
+        "amenity": "place_of_worship",
+        "name": "Jayamangala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8767863,
+      "lon": 79.8994757,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:housenumber": "299/7",
+        "addr:street": "Ethul Kotte-mirihana-Kohuwala Rd",
+        "amenity": "restaurant",
+        "name": "Ruwan Foods"
+      }
+    },
+    {
+      "lat": 6.8754157,
+      "lon": 79.8991133,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:housenumber": "253/10",
+        "addr:street": "Ethul Kotte -Mirihana-Kohuwala Rd",
+        "amenity": "restaurant",
+        "name": "Palpatha"
+      }
+    },
+    {
+      "lat": 6.8751973,
+      "lon": 79.8990486,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "network": "Nugegoda",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8753208,
+      "lon": 79.8981925,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:housenumber": "253/10",
+        "addr:street": "Stanley Thilakarathne Mawatha",
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8728552,
+      "lon": 79.8922087,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nugegoda Bus Stand",
+        "network": "Nugegoda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.870212,
+      "lon": 79.8980902,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:housenumber": "2",
+        "addr:street": "Mirihana Rd",
+        "amenity": "restaurant",
+        "name": "Little Cottage Party Venue"
+      }
+    },
+    {
+      "lat": 6.8783383,
+      "lon": 79.893966,
+      "tags": {
+        "branch": "Pagoda",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8716454,
+      "lon": 79.8954015,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "baptist",
+        "name": "Nugegoda Baptist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8826002,
+      "lon": 79.8982613,
+      "tags": {
+        "name": "White Lotus",
+        "opening_hours": "24/7",
+        "phone": "+94 11 2852483",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8815887,
+      "lon": 79.8967666,
+      "tags": {
+        "addr:housenumber": "64/1",
+        "addr:street": "Pagoda Road",
+        "amenity": "school",
+        "name": "Pagoda Montessori School",
+        "phone": "+94 11 4403544"
+      }
+    },
+    {
+      "lat": 6.8756105,
+      "lon": 79.9016509,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Cavalry Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8801735,
+      "lon": 79.8674949,
+      "tags": {
+        "amenity": "school",
+        "name:en": "Wesley College Primary"
+      }
+    },
+    {
+      "lat": 6.8384893,
+      "lon": 79.8642237,
+      "tags": {
+        "addr:housenumber": "15",
+        "addr:street": "College Avenue",
+        "name": "The Regent Hotel",
+        "phone": "+94 11 2729595",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8377236,
+      "lon": 79.8633503,
+      "tags": {
+        "addr:housenumber": "43/16",
+        "addr:street": "College Road",
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "email": "ranjith@gmx.net",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Shelton Sea Food Restaurant"
+      }
+    },
+    {
+      "lat": 6.882067,
+      "lon": 79.9009206,
+      "tags": {
+        "amenity": "school",
+        "name": "Alpha Kids Ami Montessori",
+        "phone": "+94 11 2856003"
+      }
+    },
+    {
+      "lat": 6.8386201,
+      "lon": 79.8691585,
+      "tags": {
+        "amenity": "school",
+        "name": "Najaa International School"
+      }
+    },
+    {
+      "lat": 6.8467548,
+      "lon": 79.8855974,
+      "tags": {
+        "name": "Keells",
+        "opening_hours": "Mo-Su 08:30-22:30",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8818849,
+      "lon": 79.9007165,
+      "tags": {
+        "amenity": "school",
+        "name": "Sevana Special School",
+        "operator": "Crippled Children's Aid Association of Sri Lanka"
+      }
+    },
+    {
+      "lat": 6.8378187,
+      "lon": 79.8632997,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood;barbecue",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Catamaran Seafood Restaurant"
+      }
+    },
+    {
+      "lat": 6.856737,
+      "lon": 79.890192,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Chopsticks",
+        "phone": "+94 11 199313",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8826809,
+      "lon": 79.9015408,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8761081,
+      "lon": 79.9005531,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "The Spicy Kitchen"
+      }
+    },
+    {
+      "lat": 6.866989,
+      "lon": 79.8848635,
+      "tags": {
+        "amenity": "marketplace",
+        "covered": "yes",
+        "name": "Public Market Kohuwala"
+      }
+    },
+    {
+      "lat": 6.841861,
+      "lon": 79.8671105,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Casserole",
+        "name:ru": "Casserole"
+      }
+    },
+    {
+      "lat": 6.8837108,
+      "lon": 79.8994348,
+      "tags": {
+        "addr:housenumber": "129",
+        "addr:street": "Pagoda Road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:levels": "2",
+        "check_date:opening_hours": "2022-11-16",
+        "cuisine": "asian;fusion;coffee_shop",
+        "email": "info@clovebistro.com",
+        "name": "Clove Bistro",
+        "opening_hours": "Mo-Su 10:00-22:00",
+        "phone": "+94 75 5008080",
+        "website": "https://clovebistro.com/"
+      }
+    },
+    {
+      "lat": 6.8786455,
+      "lon": 79.8713737,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-12-27",
+        "cuisine": "italian;irish",
+        "name": "The Four Leafed Clover",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+94 76 7723893"
+      }
+    },
+    {
+      "lat": 6.8833129,
+      "lon": 79.8989489,
+      "tags": {
+        "addr:city": "Sri Jayawardenepura Kotte",
+        "addr:street": "Pagoda Road",
+        "amenity": "restaurant",
+        "name": "Hondahitha Meekiri",
+        "opening_hours": "Mo-Su 06:00-18:00"
+      }
+    },
+    {
+      "lat": 6.8684945,
+      "lon": 79.8728081,
+      "tags": {
+        "addr:city": "dehiwala",
+        "addr:housenumber": "30/34B",
+        "addr:street": "De Silva Cross Road kalubowila",
+        "amenity": "restaurant",
+        "cuisine": "asian;sandwich;international",
+        "diet:vegetarian": "yes",
+        "name": "Veggie bowl",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "phone": "+94 112 763 525"
+      }
+    },
+    {
+      "lat": 6.8080034,
+      "lon": 79.8838126,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.810597,
+      "lon": 79.8823631,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.817339,
+      "lon": 79.8750765,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8225851,
+      "lon": 79.8712851,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8194095,
+      "lon": 79.8735358,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8254423,
+      "lon": 79.8697525,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "kerb": "no",
+        "lit": "no",
+        "name": "Mount Lavinia Police Station halt",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "ref": "246",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.8331765,
+      "lon": 79.8673693,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia Junction",
+        "public_transport": "platform",
+        "ref": "248",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8375622,
+      "lon": 79.867428,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia Magistrate-court",
+        "public_transport": "platform",
+        "ref": "249",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8407604,
+      "lon": 79.867214,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hotel Road halt",
+        "public_transport": "platform",
+        "ref": "250",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8575069,
+      "lon": 79.8648665,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Waydya Road halt",
+        "public_transport": "platform",
+        "ref": "252",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8606225,
+      "lon": 79.8641387,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Willium Junction",
+        "public_transport": "platform",
+        "ref": "253",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8651652,
+      "lon": 79.863177,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Roxi film hall halt",
+        "public_transport": "platform",
+        "ref": "254",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8683204,
+      "lon": 79.8624659,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Wellawatte Arpico halt",
+        "public_transport": "platform",
+        "ref": "255",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8741109,
+      "lon": 79.8613657,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Wellawatte Market",
+        "name:en": "Wellewatte Market",
+        "public_transport": "platform",
+        "ref": "256",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8765794,
+      "lon": 79.860611,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Savoy film hall halt",
+        "public_transport": "platform",
+        "ref": "257",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8840616,
+      "lon": 79.8584362,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Bambalapitiya flats halt",
+        "public_transport": "platform",
+        "ref": "259",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8080465,
+      "lon": 79.8839023,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Golumadama halt",
+        "public_transport": "platform",
+        "ref": "240",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8144994,
+      "lon": 79.8789856,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Belek kade",
+        "public_transport": "platform",
+        "ref": "242",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8105979,
+      "lon": 79.8824371,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Golumadama Sathosa",
+        "public_transport": "platform",
+        "ref": "241",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8226593,
+      "lon": 79.8714131,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8225983,
+      "lon": 79.8713361,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dharmarama Temple Road halt",
+        "public_transport": "platform",
+        "ref": "245",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8194686,
+      "lon": 79.873627,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Maliban Junction",
+        "public_transport": "platform",
+        "ref": "244",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8173828,
+      "lon": 79.8751325,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "vijitha film hall halt",
+        "public_transport": "platform",
+        "ref": "243",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8518203,
+      "lon": 79.8658814,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dehiwala Junction",
+        "public_transport": "platform",
+        "ref": "251",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8780829,
+      "lon": 79.8564895,
+      "tags": {
+        "addr:city": "Colombo 04",
+        "addr:street": "Marine Drive",
+        "amenity": "restaurant",
+        "name": "Wadiya"
+      }
+    },
+    {
+      "lat": 6.8564604,
+      "lon": 79.8605714,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Muhandiram Lane",
+        "amenity": "restaurant",
+        "name": "Sea shark"
+      }
+    },
+    {
+      "lat": 6.8840703,
+      "lon": 79.8762995,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:street": "Baseline Road",
+        "amenity": "restaurant",
+        "name": "Best Western Hotel"
+      }
+    },
+    {
+      "lat": 6.8525115,
+      "lon": 79.8614723,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "57",
+        "addr:street": "Marine Drive",
+        "addr:unit": "10",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2022-09-23",
+        "name": "Gihans beach Resort",
+        "opening_hours": "11:00-23:00",
+        "phone": "+94 71 871 2795",
+        "website": "https://gihansbeach.com/"
+      }
+    },
+    {
+      "lat": 6.8600994,
+      "lon": 79.8600817,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Ebenezer Place",
+        "amenity": "restaurant",
+        "name": "Marine cebab"
+      }
+    },
+    {
+      "lat": 6.8366611,
+      "lon": 79.863301,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Mount Avenue",
+        "amenity": "restaurant",
+        "name": "Sunil beach resort"
+      }
+    },
+    {
+      "lat": 6.8406729,
+      "lon": 79.8633535,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "De Seram Road",
+        "amenity": "restaurant",
+        "name": "Mount breeze hotel"
+      }
+    },
+    {
+      "lat": 6.8439888,
+      "lon": 79.8625959,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Sri Dharmapala Mawatha",
+        "amenity": "restaurant",
+        "name": "Surf club"
+      }
+    },
+    {
+      "lat": 6.8419469,
+      "lon": 79.8627809,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Beach Road",
+        "amenity": "restaurant",
+        "name": "Addara beach club"
+      }
+    },
+    {
+      "lat": 6.8359409,
+      "lon": 79.8630609,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Mount Avenue",
+        "amenity": "restaurant",
+        "name": "La Langousterie"
+      }
+    },
+    {
+      "lat": 6.8303971,
+      "lon": 79.8656752,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Samudrasanna Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Maharhishi Ayurveda Hospital"
+      }
+    },
+    {
+      "lat": 6.8352839,
+      "lon": 79.8648847,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Hotel Road",
+        "amenity": "restaurant",
+        "name": "Thilanka beach resort"
+      }
+    },
+    {
+      "lat": 6.8768015,
+      "lon": 79.8611696,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "1",
+        "addr:street": "2nd Chapel Lane",
+        "internet_access": "wlan",
+        "name": "Chapelton House",
+        "smoking": "no",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8532849,
+      "lon": 79.8656125,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Galle Road",
+        "name": "Bloom Kandy",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8489114,
+      "lon": 79.8741412,
+      "tags": {
+        "addr:city": "Dehiwela",
+        "addr:street": "Sasthrananda Pirivena Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Sastrananda Pirivena Temple"
+      }
+    },
+    {
+      "lat": 6.8744761,
+      "lon": 79.8660906,
+      "tags": {
+        "addr:city": "Colombo 6",
+        "addr:housenumber": "65",
+        "addr:postcode": "600",
+        "addr:street": "Hampden Lane",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "check_date": "2023-01-23",
+        "diet:vegan": "only",
+        "diet:vegetarian": "yes",
+        "name": "Ammachi Vegetarian Food",
+        "opening_hours": "Mo-Su 06:30-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "smoking": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8544676,
+      "lon": 79.8654609,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8560947,
+      "lon": 79.8650596,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name": "POL ATHU BATH KADE"
+      }
+    },
+    {
+      "lat": 6.8602772,
+      "lon": 79.8628924,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Rathnakara Place",
+        "amenity": "restaurant",
+        "name": "Spring Court"
+      }
+    },
+    {
+      "lat": 6.8807811,
+      "lon": 79.8619197,
+      "tags": {
+        "addr:city": "Bambalapitiya",
+        "addr:street": "R. A. De Mel Mawatha",
+        "amenity": "restaurant",
+        "cuisine": "japanese",
+        "name": "Ichiban"
+      }
+    },
+    {
+      "lat": 6.8784951,
+      "lon": 79.8581156,
+      "tags": {
+        "addr:city": "Colombo 04",
+        "addr:street": "Charlemont Road",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "diet:meat": "yes",
+        "indoor_seating": "yes",
+        "name": "Kandoori",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "lat": 6.872653,
+      "lon": 79.8582065,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:street": "Marine Drive",
+        "amenity": "restaurant",
+        "name": "SAWADEE THAI RESTAURANT"
+      }
+    },
+    {
+      "lat": 6.8755891,
+      "lon": 79.8851083,
+      "tags": {
+        "addr:city": "Colombo City Limit",
+        "addr:street": "Poorwarama Road",
+        "amenity": "place_of_worship",
+        "name": "Kanthawatte Methodist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8753063,
+      "lon": 79.8815559,
+      "tags": {
+        "addr:city": "Kirulapone",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "name": "Gonuts With Donuts"
+      }
+    },
+    {
+      "lat": 6.8545821,
+      "lon": 79.8852555,
+      "tags": {
+        "addr:city": "Pepiliyana",
+        "addr:street": "Pepiliyana Road",
+        "branch": "Pepiliyana",
+        "brand": "Spar",
+        "brand:wikidata": "Q610492",
+        "name": "Spar",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8626061,
+      "lon": 79.9021627,
+      "tags": {
+        "addr:city": "Delkanda",
+        "addr:street": "High Level Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Jeewaka Medical Center"
+      }
+    },
+    {
+      "lat": 6.8594581,
+      "lon": 79.9054172,
+      "tags": {
+        "addr:street": "Wanatha Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "High Level Medical Center"
+      }
+    },
+    {
+      "lat": 6.8674747,
+      "lon": 79.8661779,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:postcode": "10370",
+        "addr:street": "Sri Bodhirukkharama Road",
+        "amenity": "place_of_worship",
+        "name": "\u0bb8\u0bcd\u0bb0\u0bc0 \u0b86\u0b9e\u0bcd\u0b9a\u0ba8\u0bc7\u0baf\u0bb0\u0bcd \u0b95\u0bcb\u0bb5\u0bbf\u0bb2\u0bcd",
+        "name:en": "Shri Aanjaneyar Kovil"
+      }
+    },
+    {
+      "lat": 6.8752567,
+      "lon": 79.8611671,
+      "tags": {
+        "addr:housenumber": "185",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2023-01-04",
+        "cuisine": "indian",
+        "delivery": "no",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "internet_access": "no",
+        "name": "Rishi Foods",
+        "outdoor_seating": "no",
+        "phone": "+94 114 363 462",
+        "reservation": "no",
+        "smoking": "no",
+        "takeaway": "only",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.877401,
+      "lon": 79.8694597,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Pamankada Halt",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8726933,
+      "lon": 79.866467,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-01-25",
+        "name": "The King's rock"
+      }
+    },
+    {
+      "lat": 6.8294278,
+      "lon": 79.8680707,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:housenumber": "108",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "branch": "Mount Lavinia",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "check_date": "2023-04-27",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "takeaway": "yes",
+        "website": "https://pizzahut.lk/"
+      }
+    },
+    {
+      "lat": 6.8748516,
+      "lon": 79.8657082,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2022-08-05",
+        "delivery": "no",
+        "diet:vegetarian": "yes",
+        "name": "Chendu foods",
+        "outdoor_seating": "no",
+        "smoking": "no",
+        "takeaway": "only",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8723149,
+      "lon": 79.8618955,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Beruwala Eating house"
+      }
+    },
+    {
+      "lat": 6.8311823,
+      "lon": 79.8678775,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:housenumber": "25",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "branch": "Mount Lavinia",
+        "brand": "Elite Indian Restaurant",
+        "cuisine": "indian",
+        "name": "Elite Indian Restaurant",
+        "opening_hours": "Mo-Su 10:30-23:00"
+      }
+    },
+    {
+      "lat": 6.8362154,
+      "lon": 79.8668182,
+      "tags": {
+        "name": "Softlogic GLOMARK",
+        "shop": "supermarket",
+        "website": "https://glomark.lk/"
+      }
+    },
+    {
+      "lat": 6.8724469,
+      "lon": 79.8615925,
+      "tags": {
+        "name": "Thulir supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8746635,
+      "lon": 79.8615757,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Manning Place halt",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8747779,
+      "lon": 79.8984025,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8650809,
+      "lon": 79.8605763,
+      "tags": {
+        "addr:housenumber": "53",
+        "addr:street": "Ramakrishna Road",
+        "air_conditioning": "yes",
+        "check_date": "2023-10-08",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel Nelly marine",
+        "opening_hours": "24/7",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 500 707",
+        "smoking": "no",
+        "stars": "3",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8509082,
+      "lon": 79.8621137,
+      "tags": {
+        "name": "Dehiwala",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.8709109,
+      "lon": 79.862203,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "371",
+        "addr:postcode": "00600",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2023-04-16",
+        "cuisine": "chinese",
+        "name": "Golden palace resturant",
+        "operator": "Hotel Sapphire"
+      }
+    },
+    {
+      "lat": 6.8714231,
+      "lon": 79.8617952,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "248",
+        "addr:postcode": "00600",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name": "R.S.Food Corner"
+      }
+    },
+    {
+      "lat": 6.8733915,
+      "lon": 79.8642983,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2022-10-07",
+        "internet_access": "no",
+        "name": "Mahens",
+        "takeaway": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8692743,
+      "lon": 79.8587922,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2022-10-14",
+        "name": "Visa Pillaiyar",
+        "name:ta": "\u0bb5\u0bbf\u0b9a\u0bbe\u0b95 \u0baa\u0bbf\u0bb3\u0bcd\u0bb3\u0bc8\u0baf\u0bbe\u0bb0\u0bcd \u0b95\u0bcb\u0bb5\u0bbf\u0bb2\u0bcd",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8682027,
+      "lon": 79.862358,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:street": "Galle Road",
+        "check_date": "2023-05-11",
+        "name": "Annai Nagaa Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8682424,
+      "lon": 79.8623538,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "358",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "bar": "no",
+        "check_date": "2023-05-13",
+        "cuisine": "indian",
+        "microbrewery": "no",
+        "name": "Rolex Hotel",
+        "opening_hours": "11:00-23:00",
+        "outdoor_seating": "no",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 360 462",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.8683311,
+      "lon": 79.8623283,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "356",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2023-05-11",
+        "diet:vegetarian": "yes",
+        "name": "Yarl Resturant",
+        "phone": "+94 77 258 8408"
+      }
+    },
+    {
+      "lat": 6.8683792,
+      "lon": 79.862324,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "354",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2023-05-11",
+        "cuisine": "indian",
+        "name": "Arusuvai"
+      }
+    },
+    {
+      "lat": 6.867661,
+      "lon": 79.8625043,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "The Mango Tree",
+        "operator": "Great Southern Hotel",
+        "website": "https://themangotree.appigo.co/webstore"
+      }
+    },
+    {
+      "lat": 6.8693304,
+      "lon": 79.8623961,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mangala Halt",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8691021,
+      "lon": 79.8624806,
+      "tags": {
+        "name": "Vasantham Foods",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8691343,
+      "lon": 79.8625342,
+      "tags": {
+        "delivery": "yes",
+        "name": "Amma Food Store",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8682327,
+      "lon": 79.8626298,
+      "tags": {
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Rishi Foods"
+      }
+    },
+    {
+      "lat": 6.8758685,
+      "lon": 79.8616214,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "57",
+        "addr:street": "W. A. Silva Mawatha",
+        "amenity": "restaurant",
+        "check_date": "2023-10-08",
+        "cuisine": "burger;western",
+        "drive_through": "no",
+        "name": "The Foodcycle",
+        "phone": "+94 77 518 2696"
+      }
+    },
+    {
+      "lat": 6.8766007,
+      "lon": 79.8664479,
+      "tags": {
+        "addr:housenumber": "120",
+        "addr:street": "W A Silva Mawatha",
+        "amenity": "restaurant",
+        "check_date": "2023-04-27",
+        "internet_access": "no",
+        "name": "Sagara foods",
+        "opening_hours": "17:00-22:00",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 365 814",
+        "takeaway": "only",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8586027,
+      "lon": 79.8647666,
+      "tags": {
+        "amenity": "school",
+        "name:en": "Aspire Business School(institute)",
+        "phone": "0777227792",
+        "website": "https://aspirebusinessschool.com/"
+      }
+    },
+    {
+      "lat": 6.8613279,
+      "lon": 79.8603284,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Thawheed mosque"
+      }
+    },
+    {
+      "lat": 6.8785102,
+      "lon": 79.8746687,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Kirulapona Market",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8766179,
+      "lon": 79.8660696,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Saphire halt",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8825143,
+      "lon": 79.876068,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:signed": "no",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8812015,
+      "lon": 79.8702348,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sigma",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.855735,
+      "lon": 79.8677679,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Hanafi Mosque"
+      }
+    },
+    {
+      "lat": 6.8767474,
+      "lon": 79.8662319,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8773992,
+      "lon": 79.8694039,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Pamankada Halt",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8745265,
+      "lon": 79.8616721,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Wellawatte Market"
+      }
+    },
+    {
+      "lat": 6.8591951,
+      "lon": 79.8646309,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "check_date": "2023-01-18",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8744941,
+      "lon": 79.8658832,
+      "tags": {
+        "amenity": "clinic",
+        "check_date": "2023-01-29",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.8407913,
+      "lon": 79.8672826,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hotel Road halt",
+        "public_transport": "platform",
+        "ref": "250",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8226232,
+      "lon": 79.871402,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dharmarama Temple Road halt",
+        "public_transport": "platform",
+        "ref": "245",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8254677,
+      "lon": 79.8698326,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia Police Station halt",
+        "public_transport": "platform",
+        "ref": "246",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8331777,
+      "lon": 79.8673081,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia Junction",
+        "public_transport": "platform",
+        "ref": "248",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8276844,
+      "lon": 79.8688536,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "kerb": "no",
+        "lit": "no",
+        "name": "Cargills Food City Ratmalana",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.8488504,
+      "lon": 79.8659654,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8308008,
+      "lon": 79.8676676,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8841489,
+      "lon": 79.860814,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hindu College Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8788325,
+      "lon": 79.8600845,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Savoy Bus Stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8771199,
+      "lon": 79.8605854,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wellawate Mosque Bus Stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8743826,
+      "lon": 79.8614314,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Wellawatte Market Bus Stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8726109,
+      "lon": 79.8618081,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Little Asia Bus Stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8670885,
+      "lon": 79.8628585,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Nithyakalyani Jewellery Bus Stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8639742,
+      "lon": 79.8635756,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "name": "William Junction",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8608927,
+      "lon": 79.864224,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.874123,
+      "lon": 79.8612888,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-02-22",
+        "name": "Matara bath kade"
+      }
+    },
+    {
+      "lat": 6.884379,
+      "lon": 79.867742,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8603359,
+      "lon": 79.9063494,
+      "tags": {
+        "addr:city": "Wijerama",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "name": "Sensal"
+      }
+    },
+    {
+      "lat": 6.8782662,
+      "lon": 79.8599853,
+      "tags": {
+        "addr:housenumber": "36D",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "branch": "Wellawatte",
+        "brand": "Ricorn Hotels & Bakery",
+        "check_date": "2024-07-04",
+        "internet_access": "no",
+        "name": "Ricorn Hotel & Bakery",
+        "outdoor_seating": "no",
+        "payment:cards": "no",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "phone": "+94 112 580 766",
+        "smoking": "no"
+      }
+    },
+    {
+      "lat": 6.8683076,
+      "lon": 79.9088622,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-06-19",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.8671318,
+      "lon": 79.8628906,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-08-20",
+        "name": "Cafe 4 U"
+      }
+    },
+    {
+      "lat": 6.8682532,
+      "lon": 79.8589776,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-09-24",
+        "name": "Grillz by Royal",
+        "payment:cash": "no",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes"
+      }
+    },
+    {
+      "lat": 6.8682755,
+      "lon": 79.8590517,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2023-09-24",
+        "denomination": "sunni",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.8683332,
+      "lon": 79.9089066,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.8731857,
+      "lon": 79.9106859,
+      "tags": {
+        "addr:street": "Shalawa Road",
+        "amenity": "school",
+        "check_date": "2023-10-02",
+        "grades": "0-6",
+        "name:en": "Standey Thilakarathna Viddiyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 6.865131,
+      "lon": 79.8592826,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-10-08",
+        "name": "Pearl Beach Paradise",
+        "opening_hours": "10:00-23:00",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8764256,
+      "lon": 79.8575269,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "check_date": "2024-02-10",
+        "cuisine": "indian;chinese;burger",
+        "diet:halal": "yes",
+        "name": "Marine Grill",
+        "opening_hours": "11:30-23:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 364 727",
+        "reservation": "yes",
+        "smoking": "no",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.856212,
+      "lon": 79.8910114,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pepiliyana Sunethra Devi Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8696636,
+      "lon": 79.8963576,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wijayamangalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8320346,
+      "lon": 79.8854111,
+      "tags": {
+        "bench": "no",
+        "bin": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "Bakery Junction",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8687898,
+      "lon": 79.8983589,
+      "tags": {
+        "branch": "Kattiya Junction",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "0112813561",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8692248,
+      "lon": 79.8978595,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kattiya Junction Bus Stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8694927,
+      "lon": 79.8977344,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kattiya Junction Bus Stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8350923,
+      "lon": 79.8850872,
+      "tags": {
+        "check_date": "2024-03-08",
+        "internet_access": "no",
+        "name": "Solid Hotel",
+        "name:si": "Solid Hotel",
+        "name:ta": "Solid Hotel",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 720 999",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8330199,
+      "lon": 79.8854579,
+      "tags": {
+        "check_date": "2024-03-08",
+        "internet_access": "no",
+        "name": "NKsea Food",
+        "name:si": "NKsea Food",
+        "name:ta": "NKsea Food",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.869202,
+      "lon": 79.8621773,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-03-09",
+        "name": "The Chef Ceylon"
+      }
+    },
+    {
+      "lat": 6.8507098,
+      "lon": 79.9077135,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "lat": 6.8506402,
+      "lon": 79.8626206,
+      "tags": {
+        "addr:housenumber": "3",
+        "amenity": "restaurant",
+        "name:en": "rathmale hotel"
+      }
+    },
+    {
+      "lat": 6.8507594,
+      "lon": 79.8626258,
+      "tags": {
+        "addr:street": "Railway Station Road",
+        "amenity": "restaurant",
+        "name:en": "Al Baraka indian fafamily resturent",
+        "opening_hours": "Mo-Su 09:00-18:00",
+        "phone": "0112724020"
+      }
+    },
+    {
+      "lat": 6.8510681,
+      "lon": 79.8626682,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Railway Station Road",
+        "name:en": "Cargils foodcity",
+        "opening_hours": "Su-Sa 08:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.851907,
+      "lon": 79.8630749,
+      "tags": {
+        "name:en": "Cargils foodcity",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8501101,
+      "lon": 79.8661919,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Railway Station Road",
+        "amenity": "restaurant",
+        "name:en": "al baraka",
+        "opening_hours": "Su-Fr 09:00-22:00",
+        "phone": "0112724020"
+      }
+    },
+    {
+      "lat": 6.8510001,
+      "lon": 79.8629631,
+      "tags": {
+        "addr:housenumber": "9",
+        "addr:street": "Railway Station Road",
+        "amenity": "restaurant",
+        "name:en": "Al-baraka",
+        "opening_hours": "Su-Sa 09:00-22:00",
+        "phone": "0766235555"
+      }
+    },
+    {
+      "lat": 6.8513935,
+      "lon": 79.8653481,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Railway Station Road",
+        "amenity": "restaurant",
+        "name:en": "caravan fresh",
+        "opening_hours": "Mo-Su 09:00-18:00"
+      }
+    },
+    {
+      "lat": 6.849665,
+      "lon": 79.8645289,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Railway Station Road",
+        "name:en": "foodcity",
+        "opening_hours": "Su-Fr 09:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.85108,
+      "lon": 79.8627274,
+      "tags": {
+        "name:en": "Cargils",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8508443,
+      "lon": 79.8624579,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8513988,
+      "lon": 79.8626288,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "AL-BARAKA"
+      }
+    },
+    {
+      "lat": 6.8501862,
+      "lon": 79.8653289,
+      "tags": {
+        "addr:housenumber": "5",
+        "addr:street": "Galle Road",
+        "name:en": "masara hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8551888,
+      "lon": 79.8635175,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "CACM Church"
+      }
+    },
+    {
+      "lat": 6.8534486,
+      "lon": 79.8634991,
+      "tags": {
+        "addr:street": "Senanayake Place",
+        "amenity": "place_of_worship",
+        "name": "CACM church",
+        "name:en": "CACM chchurch",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 6.8514184,
+      "lon": 79.8663984,
+      "tags": {
+        "addr:street": "Dehiwela-Maharagama Road",
+        "name:en": "food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8493995,
+      "lon": 79.8647876,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:street": "Galle Road",
+        "amenity": "place_of_worship",
+        "name:en": "buddhism temple"
+      }
+    },
+    {
+      "lat": 6.8494075,
+      "lon": 79.8650781,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Galle Road",
+        "amenity": "clinic",
+        "name:en": "dehiwal urban health muster"
+      }
+    },
+    {
+      "lat": 6.8522939,
+      "lon": 79.8659735,
+      "tags": {
+        "addr:housenumber": "221",
+        "addr:postcode": "10350",
+        "addr:street": "Galle Road",
+        "amenity": "hospital",
+        "name:en": "Sri Jeewarakshaka Bhayshajyalaya Ayurvedic Medical Center",
+        "opening_hours": "Su-Fr 09:00-06:00",
+        "phone": "0112725758"
+      }
+    },
+    {
+      "lat": 6.8535027,
+      "lon": 79.8657932,
+      "tags": {
+        "addr:housenumber": "183",
+        "addr:postcode": "10350",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name:en": "Vaishnavi Vihar",
+        "opening_hours": "Mo-Su 06:30-10:00",
+        "phone": "0112727475"
+      }
+    },
+    {
+      "lat": 6.8532896,
+      "lon": 79.8670974,
+      "tags": {
+        "addr:housenumber": "10350",
+        "addr:street": "Malwatte Road",
+        "amenity": "place_of_worship",
+        "name:en": "Abhayasela Chethiyaramaya"
+      }
+    },
+    {
+      "lat": 6.8513189,
+      "lon": 79.8665595,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:postcode": "10350",
+        "addr:street": "Hill Street",
+        "name:en": "Cargils Express",
+        "opening_hours": "Mo-Su 08:00-10:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8513461,
+      "lon": 79.8663687,
+      "tags": {
+        "addr:housenumber": "09",
+        "addr:postcode": "10350",
+        "addr:street": "Hill Street",
+        "name:en": "Lucky Store",
+        "opening_hours": "Mo-Su 09:00-10:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8522186,
+      "lon": 79.8660313,
+      "tags": {
+        "addr:housenumber": "221",
+        "addr:postcode": "10350",
+        "addr:street": "Galle Road",
+        "amenity": "hospital",
+        "name:en": "Sri Jeewarakshaka Bhayshajyalaya",
+        "opening_hours": "Su-Fr 09:00-18:00",
+        "phone": "0112725758"
+      }
+    },
+    {
+      "lat": 6.853492,
+      "lon": 79.865858,
+      "tags": {
+        "addr:housenumber": "183",
+        "addr:postcode": "10350",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name:en": "Vaishnavi Vihar",
+        "opening_hours": "Mo-Su 06:30-10:00",
+        "phone": "0112727475"
+      }
+    },
+    {
+      "lat": 6.8513132,
+      "lon": 79.8667531,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:postcode": "10350",
+        "addr:street": "Hill Street",
+        "name:en": "Cargils Food City",
+        "opening_hours": "Mo-Su 08:00-10:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8532706,
+      "lon": 79.8671442,
+      "tags": {
+        "addr:postcode": "10350",
+        "addr:street": "Malwatte Road",
+        "amenity": "place_of_worship",
+        "name:en": "\u0d85\u0db7\u0dba\u0dc3\u0dda\u0dbd \u0da0\u0dda\u0dad\u0dd2\u0dba\u0dcf\u0dbb\u0dcf\u0db8\u0dba"
+      }
+    },
+    {
+      "lat": 6.8492954,
+      "lon": 79.8660824,
+      "tags": {
+        "check_date": "2024-06-23",
+        "name": "Piyasena",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8501687,
+      "lon": 79.8660967,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-06-23",
+        "name": "Mathara Rathu Bath Kade"
+      }
+    },
+    {
+      "lat": 6.8502996,
+      "lon": 79.8661159,
+      "tags": {
+        "check_date": "2024-06-23",
+        "name": "New Pillows Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8489484,
+      "lon": 79.8679098,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-06-23",
+        "name": "Sri Subodharama Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8508918,
+      "lon": 79.8680907,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-06-23",
+        "name": "Southeren Fried Chicken"
+      }
+    },
+    {
+      "lat": 6.8509377,
+      "lon": 79.8679484,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-06-23",
+        "name": "KFC"
+      }
+    },
+    {
+      "lat": 6.8350413,
+      "lon": 79.8674677,
+      "tags": {
+        "addr:housenumber": "485",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "check_date": "2024-12-01",
+        "cuisine": "barbecue",
+        "internet_access": "no",
+        "name": "Big Taste",
+        "phone": "+94 72 848 4027",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8568947,
+      "lon": 79.8639997,
+      "tags": {
+        "amenity": "school",
+        "name": "Holy Family Convent"
+      }
+    },
+    {
+      "lat": 6.8514888,
+      "lon": 79.8647643,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "1/1",
+        "addr:street": "P.T.De Silva Mawatha",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Navajeevana Health care centre"
+      }
+    },
+    {
+      "lat": 6.8512749,
+      "lon": 79.8650205,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dehiwala Bus Stop",
+        "public_transport": "platform",
+        "route_ref": "176, 119, 163"
+      }
+    },
+    {
+      "lat": 6.8512811,
+      "lon": 79.8664065,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.832939,
+      "lon": 79.9067727,
+      "tags": {
+        "branch": "Werahera",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "level": "0",
+        "name": "Cargills Food City",
+        "operator": "Cargills Ceylon",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8350481,
+      "lon": 79.9049838,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "live_music": "yes",
+        "name": "1979 Family Restaurant",
+        "opening_hours": "Mon-Su 11:00-23:00"
+      }
+    },
+    {
+      "lat": 6.8332612,
+      "lon": 79.9061853,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "Grand Royal Restaurant"
+      }
+    },
+    {
+      "lat": 6.8417932,
+      "lon": 79.9064489,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City Express",
+        "operator": "Cargills Ceylon",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8490693,
+      "lon": 79.895943,
+      "tags": {
+        "addr:city": "Raththanapitiya",
+        "addr:housenumber": "235",
+        "addr:street": "Colombo-Piliyandala-Horana Road",
+        "name": "Keells Super - Raththanapitiya",
+        "operator": "Jay Kay Marketing Pvt Ltd",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8315477,
+      "lon": 79.9088667,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "Hot Master Restaurant",
+        "opening_hours": "Mo-Su 17:00-00:00"
+      }
+    },
+    {
+      "lat": 6.8315815,
+      "lon": 79.9088156,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "Hot Master Cabin",
+        "opening_hours": "Mo-Su 11:30-23:30"
+      }
+    },
+    {
+      "lat": 6.841551,
+      "lon": 79.9043843,
+      "tags": {
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "Ken Food Center",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8415748,
+      "lon": 79.9042116,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "addr:housenumber": "468",
+        "addr:postcode": "10290",
+        "addr:street": "Lake Road",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "Nest Family Restaurant",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "lat": 6.8404662,
+      "lon": 79.898932,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "addr:housenumber": "93",
+        "addr:postcode": "10290",
+        "addr:street": "Dehiwela-Maharagama Road",
+        "air_conditioning": "yes",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;wound_care",
+        "name": "Sarva Medical and Wound Care Clinic",
+        "opening_hours": "Mo-Su 07:30-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "website": "https://www.sarvamedical.lk/"
+      }
+    },
+    {
+      "lat": 6.8829813,
+      "lon": 79.8674909,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "cuisine": "greek",
+        "level": "0",
+        "live_music": "yes",
+        "name": "Shoulders by Harpos",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "yes"
+      }
+    },
+    {
+      "lat": 6.882908,
+      "lon": 79.8673904,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "branch": "Havelock City Mall",
+        "cuisine": "steak_house",
+        "diet:halal": "yes",
+        "level": "0",
+        "name": "Colombo Steak House",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "lat": 6.8390308,
+      "lon": 79.9086976,
+      "tags": {
+        "amenity": "place_of_worship",
+        "material": "concrete",
+        "religion": "buddhist",
+        "statue": "buddha"
+      }
+    },
+    {
+      "lat": 6.8825931,
+      "lon": 79.8676665,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "level": "-1",
+        "name": "Cargills Food City",
+        "operator": "Cargills Ceylon Pvt Lrd",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.83512,
+      "lon": 79.9053343,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Stadium Restaurant"
+      }
+    },
+    {
+      "lat": 6.8315549,
+      "lon": 79.9088379,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Family Medi Care"
+      }
+    },
+    {
+      "lat": 6.8821993,
+      "lon": 79.8611004,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Culture Colombo"
+      }
+    },
+    {
+      "lat": 6.8573206,
+      "lon": 79.8604239,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Soul Beach Colombo"
+      }
+    },
+    {
+      "lat": 6.8531069,
+      "lon": 79.9011743,
+      "tags": {
+        "addr:city": "colombo",
+        "addr:country": "LK",
+        "addr:street": "Andiris Mawatha",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sasuna Senasuna",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8444657,
+      "lon": 79.8634833,
+      "tags": {
+        "name": "The Villa In Lavinia",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8843982,
+      "lon": 79.9018825,
+      "tags": {
+        "addr:housenumber": "475",
+        "addr:street": "Kotte Road",
+        "amenity": "restaurant",
+        "name": "Grand Shanaya",
+        "opening_hours": "Mo-Su 10:00-01:30",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "lat": 6.8575305,
+      "lon": 79.9083349,
+      "tags": {
+        "alt_name": "\u0dbb\u0dc3 \u0d87\u0db9\u0dd4\u0dbd",
+        "amenity": "restaurant",
+        "name": "Rasa Ebula",
+        "outdoor_seating": "no",
+        "self_service": "no"
+      }
+    },
+    {
+      "lat": 6.857145,
+      "lon": 79.9079755,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Rice and Kottu",
+        "opening_hours": "Mo-Su 11:00-00:00",
+        "outdoor_seating": "no",
+        "self_service": "no"
+      }
+    },
+    {
+      "lat": 6.8724161,
+      "lon": 79.8615722,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Gandhi Lodge Vegetarian"
+      }
+    },
+    {
+      "lat": 6.8691445,
+      "lon": 79.8593891,
+      "tags": {
+        "addr:housenumber": "65",
+        "addr:postcode": "00600",
+        "addr:street": "International Buddhist Centre Road",
+        "internet_access": "wlan",
+        "name": "Suraya House",
+        "phone": "+94 76 625 1145",
+        "self_service": "no",
+        "tourism": "hotel",
+        "website": "https://www.sayurahouse.com"
+      }
+    },
+    {
+      "lat": 6.8692387,
+      "lon": 79.8619435,
+      "tags": {
+        "addr:housenumber": "324",
+        "addr:postcode": "00600",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "email": "info@olai.lk",
+        "internet_access": "wlan",
+        "name": "Olai Manai",
+        "outdoor_seating": "no",
+        "phone": "0777705501",
+        "reservation": "required",
+        "self_service": "no",
+        "website": "https://olai.lk/"
+      }
+    },
+    {
+      "lat": 6.8210621,
+      "lon": 79.8722983,
+      "tags": {
+        "name": "belta",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8832039,
+      "lon": 79.8680161,
+      "tags": {
+        "brand": "Residence Inn",
+        "brand:wikidata": "Q7315394",
+        "name": "JXG @ MIREKA",
+        "official_name": "Residence Inn by Marriott",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8764976,
+      "lon": 79.8604307,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "check_date": "2026-03-05",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.814544,
+      "lon": 79.8899731,
+      "tags": {
+        "addr:street": "Borupana Road",
+        "amenity": "school",
+        "name": "Ratmalana Hindu College"
+      }
+    },
+    {
+      "lat": 6.8158345,
+      "lon": 79.8886578,
+      "tags": {
+        "addr:city": "Ratmalana",
+        "amenity": "school",
+        "facebook": "https://www.facebook.com/KandawalaMV/",
+        "name": "Kandawala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8093303,
+      "lon": 79.8743393,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Economic Centre Ratmalana",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "lat": 6.832048,
+      "lon": 79.8852682,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 6.8676907,
+      "lon": 79.8762476,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Colombo South Teaching Hospital"
+      }
+    },
+    {
+      "lat": 6.8674107,
+      "lon": 79.8854141,
+      "tags": {
+        "amenity": "university",
+        "name": "University of Visual and performing arts"
+      }
+    },
+    {
+      "lat": 6.8794275,
+      "lon": 79.8870065,
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Wijayaba mawatha",
+        "amenity": "hospital",
+        "designation": "Pregnancy and firtility centre",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Suvika Fertility Centre",
+        "source": "GPS"
+      }
+    },
+    {
+      "lat": 6.868177,
+      "lon": 79.8856221,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "S. De S. Jayasinghe Road",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Winlanka Hospital"
+      }
+    },
+    {
+      "lat": 6.8837516,
+      "lon": 79.8596462,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-07-04",
+        "name": "New Kathirasan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8831183,
+      "lon": 79.8596629,
+      "tags": {
+        "addr:street": "Galle Road",
+        "amenity": "place_of_worship",
+        "check_date": "2024-07-04",
+        "name": "Manika Pillayar Kovil",
+        "name:en": "Manika Pillayar Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8334169,
+      "lon": 79.8618975,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:housenumber": "100",
+        "addr:street": "Hotel Road",
+        "building": "yes",
+        "internet_access": "yes",
+        "is_in": "Mount Lavinia, Colombo, Western Province, Sri Lanka",
+        "name": "Mount Lavinia Hotel",
+        "phone": "+94 11 2711711",
+        "smoking": "separated",
+        "stars": "5",
+        "toilets:wheelchair": "yes",
+        "tourism": "hotel",
+        "website": "https://www.mountlaviniahotel.com/",
+        "wheelchair": "limited",
+        "wikipedia": "si:\u0d9c\u0dbd\u0dca\u0d9a\u0dd2\u0dc3\u0dca\u0dc3 \u0db8\u0dc4 \u0dc4\u0ddd\u0da7\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.8371518,
+      "lon": 79.8653408,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "amenity": "school",
+        "name": "St. Thomas College"
+      }
+    },
+    {
+      "lat": 6.8598796,
+      "lon": 79.8652177,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "St. Mary's Church"
+      }
+    },
+    {
+      "lat": 6.8677618,
+      "lon": 79.8624401,
+      "tags": {
+        "addr:city": "Wellawatte - Colombo 06",
+        "addr:housenumber": "382",
+        "addr:street": "Galle - Colombo Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "branch": "Colombo",
+        "brand": "Great Southern Hotel",
+        "building": "yes",
+        "building:levels": "7",
+        "check_date": "2023-10-08",
+        "email": "reservations@gshcolombo.com",
+        "fax": "+9411-2362411",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Great Southern Hotel",
+        "opening_hours": "24/7",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94112362402",
+        "reservation": "yes",
+        "smoking": "no",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "https://greatsouthernhotel.com.au/great-southern-hotel-colombo/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.8816161,
+      "lon": 79.900463,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "ABC school"
+      }
+    },
+    {
+      "lat": 6.8805756,
+      "lon": 79.8607238,
+      "tags": {
+        "addr:city": "Bambalapitiya",
+        "addr:street": "Galle Road",
+        "amenity": "school",
+        "check_date": "2024-07-04",
+        "email": "rector@stpeterscollege.lk",
+        "grades": "1-13",
+        "is_in": "Colombo, Colombo District, Western Province, Sri Lanka",
+        "name": "Saint Peter's College",
+        "opening_hours": "Mo-Fr 05:40-13:30",
+        "phone": "+94 112 588 249",
+        "website": "https://www.stpeterscollege.lk/",
+        "wikidata": "Q7595310",
+        "wikimedia_commons": "Category:St Peter's College, Colombo",
+        "wikipedia": "en:St Peter's College, Colombo"
+      }
+    },
+    {
+      "lat": 6.8770883,
+      "lon": 79.8601417,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "check_date": "2023-10-08",
+        "denomination": "sunni",
+        "name": "Wellawatte Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.8152409,
+      "lon": 79.8667473,
+      "tags": {
+        "building": "yes",
+        "name": "Ratmalana",
+        "name:si": "\u0dbb\u0dad\u0dca\u0db8\u0dbd\u0dcf\u0db1",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8780348,
+      "lon": 79.8565125,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Beach Wadiya",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8856277,
+      "lon": 79.882944,
+      "tags": {
+        "amenity": "university",
+        "name": "Open University of Sri Lanka"
+      }
+    },
+    {
+      "lat": 6.8565515,
+      "lon": 79.8743124,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "internet_access": "yes",
+        "name": "Restaurant"
+      }
+    },
+    {
+      "lat": 6.8346149,
+      "lon": 79.9008023,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "amenity": "place_of_worship",
+        "name": "Sri Rathnaramaya"
+      }
+    },
+    {
+      "lat": 6.8720836,
+      "lon": 79.8906835,
+      "tags": {
+        "building": "train_station",
+        "name": "Nugegoda",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.872352,
+      "lon": 79.8933983,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Royal Institute Nugegoda"
+      }
+    },
+    {
+      "lat": 6.8725372,
+      "lon": 79.8937356,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8279011,
+      "lon": 79.8748314,
+      "tags": {
+        "addr:city": "colombo",
+        "addr:street": "Pirivena Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Paramadamma Chethiya Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8281575,
+      "lon": 79.875026,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8839391,
+      "lon": 79.8555092,
+      "tags": {
+        "building": "hotel",
+        "building:colour": "blue",
+        "building:levels": "6",
+        "building:material": "metal_plates",
+        "name": "Hotel Western",
+        "roof:shape": "flat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8825803,
+      "lon": 79.8879499,
+      "tags": {
+        "amenity": "hospital",
+        "brand": "Hatton National Bank",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.8841124,
+      "lon": 79.8817715,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Alanmathiniyarama temple"
+      }
+    },
+    {
+      "lat": 6.8362022,
+      "lon": 79.8649564,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "building": "yes",
+        "building:levels": "5",
+        "name": "Palm Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8536291,
+      "lon": 79.8741426,
+      "tags": {
+        "amenity": "school",
+        "name": "S De S Jayasinghe Central College",
+        "website": "https://sdsjcc.blogspot.com/"
+      }
+    },
+    {
+      "lat": 6.8449532,
+      "lon": 79.8696447,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Zeyneb Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.8111842,
+      "lon": 79.8851277,
+      "tags": {
+        "amenity": "school",
+        "name": "Deaf & Blind School"
+      }
+    },
+    {
+      "lat": 6.8803658,
+      "lon": 79.9007175,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.8790848,
+      "lon": 79.9001214,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8812495,
+      "lon": 79.901112,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8331602,
+      "lon": 79.8668986,
+      "tags": {
+        "name": "Anarva Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8328426,
+      "lon": 79.8668727,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Mt Lavenia Public Market"
+      }
+    },
+    {
+      "lat": 6.8322327,
+      "lon": 79.8656927,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8323323,
+      "lon": 79.8656821,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "lat": 6.8472469,
+      "lon": 79.8871103,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dispensary & Surgery"
+      }
+    },
+    {
+      "lat": 6.84062,
+      "lon": 79.8969671,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "amenity": "place_of_worship",
+        "name": "Dharmarajikashramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8408066,
+      "lon": 79.8988581,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Center for elderly and Infirm Bhikkhus",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8459022,
+      "lon": 79.8900618,
+      "tags": {
+        "addr:city": "Bellanvila",
+        "addr:street": "Dehiwela-Maharagama Road",
+        "amenity": "place_of_worship",
+        "name": "Bellanvila Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8469632,
+      "lon": 79.8990928,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "addr:street": "Colombo-Piliyandala-Horana Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "lunu Mirisa"
+      }
+    },
+    {
+      "lat": 6.8416342,
+      "lon": 79.9040644,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "addr:housenumber": "467",
+        "addr:postcode": "10290",
+        "addr:street": "Lake Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Lake Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8447837,
+      "lon": 79.8961254,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pillawa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8446723,
+      "lon": 79.8984991,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8445375,
+      "lon": 79.8996554,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8497495,
+      "lon": 79.8863473,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8498862,
+      "lon": 79.8858571,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8477317,
+      "lon": 79.8925239,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Divulpitiya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8464855,
+      "lon": 79.8965722,
+      "tags": {
+        "amenity": "school",
+        "name": "AMI Montessori School"
+      }
+    },
+    {
+      "lat": 6.8468167,
+      "lon": 79.8980941,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "amenity": "school",
+        "name": "Ananda Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8363705,
+      "lon": 79.8940387,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Siri Sonutthara Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8380824,
+      "lon": 79.896218,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "amenity": "place_of_worship",
+        "name": "Boralesgamuwa Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8388334,
+      "lon": 79.9008896,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Matthias Church Boralesgamuwa",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8389196,
+      "lon": 79.9007462,
+      "tags": {
+        "amenity": "school",
+        "name": "Boralesgamuwa Primary School"
+      }
+    },
+    {
+      "lat": 6.8387754,
+      "lon": 79.9014071,
+      "tags": {
+        "amenity": "clinic",
+        "landuse": "commercial"
+      }
+    },
+    {
+      "lat": 6.8381788,
+      "lon": 79.9012343,
+      "tags": {
+        "amenity": "school",
+        "name": "Brisbane International School"
+      }
+    },
+    {
+      "lat": 6.8375232,
+      "lon": 79.902357,
+      "tags": {
+        "amenity": "school",
+        "name": "Boralesgamuwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8370455,
+      "lon": 79.9033496,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "landuse": "commercial"
+      }
+    },
+    {
+      "lat": 6.8193791,
+      "lon": 79.8996919,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gangaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8322851,
+      "lon": 79.8898546,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8342926,
+      "lon": 79.885442,
+      "tags": {
+        "amenity": "school",
+        "name": "Atthidiya Primary School"
+      }
+    },
+    {
+      "lat": 6.8354524,
+      "lon": 79.8852348,
+      "tags": {
+        "amenity": "school",
+        "name": "Model primary School"
+      }
+    },
+    {
+      "lat": 6.8375591,
+      "lon": 79.8861304,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Maligawatta Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8426482,
+      "lon": 79.8850162,
+      "tags": {
+        "amenity": "school",
+        "name": "Victoria International"
+      }
+    },
+    {
+      "lat": 6.8225348,
+      "lon": 79.896979,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sadun Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8301351,
+      "lon": 79.8764537,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "amenity": "school",
+        "name": "Science College"
+      }
+    },
+    {
+      "lat": 6.8825129,
+      "lon": 79.855923,
+      "tags": {
+        "addr:city": "Bambalapitiya",
+        "addr:housenumber": "36-38",
+        "addr:postcode": "4",
+        "addr:street": "Clifford Place",
+        "building": "hotel",
+        "building:levels": "13",
+        "name": "Radisson Hotel Colombo",
+        "phone": "+94 11 255 5570",
+        "start_date": "2014",
+        "tourism": "hotel",
+        "website": "https://www.radissonhotels.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8739545,
+      "lon": 79.8914827,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8636429,
+      "lon": 79.8651218,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8264181,
+      "lon": 79.8672328,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Vimalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8620562,
+      "lon": 79.859774,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "41",
+        "addr:street": "Wasala Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "The Station"
+      }
+    },
+    {
+      "lat": 6.8567934,
+      "lon": 79.8605717,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8572067,
+      "lon": 79.8604563,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:street": "Peters Lane",
+        "amenity": "restaurant",
+        "cuisine": "chicken",
+        "name": "Deck"
+      }
+    },
+    {
+      "lat": 6.8139252,
+      "lon": 79.8789632,
+      "tags": {
+        "addr:city": "Ratmalana",
+        "addr:housenumber": "1",
+        "addr:street": "Station Road",
+        "amenity": "university",
+        "name": "University College of Ratmalana",
+        "website": "https://www.ucr.ac.lk/"
+      }
+    },
+    {
+      "lat": 6.8832945,
+      "lon": 79.8657037,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Sooriya Village",
+        "name:en": "Sooriya Village"
+      }
+    },
+    {
+      "lat": 6.870756,
+      "lon": 79.8633415,
+      "tags": {
+        "addr:city": "Wellawatte - Colombo 06",
+        "addr:postcode": "00600",
+        "addr:street": "Galle Road",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "St. Lawrence Church",
+        "religion": "christian",
+        "wheelchair": "yes",
+        "wikidata": "Q29051502",
+        "wikipedia": "en:St. Lawrence's Church, Wellawatte"
+      }
+    },
+    {
+      "lat": 6.8709694,
+      "lon": 79.8623923,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "371",
+        "addr:postcode": "600",
+        "addr:street": "Galle Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "building": "hotel",
+        "building:levels": "4",
+        "check_date": "2023-04-16",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Hotel Sapphire",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "0112 363 306",
+        "reservation": "yes",
+        "smoking": "separated",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "https://www.hotelsapphirelk.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8816663,
+      "lon": 79.8694724,
+      "tags": {
+        "addr:housenumber": "454",
+        "addr:postcode": "00500",
+        "addr:street": "Sri Sambuddhathva Jayanthi Mawatha",
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "bar": "no",
+        "branch": "Havelock Town",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "en:Pizza Hut",
+        "building": "yes",
+        "check_date": "2023-04-27",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "diet:halal": "yes",
+        "highchair": "yes",
+        "indoor_seating": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "microbrewery": "no",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Su 11:00-23:00; PH,Mo-Su 11:00-23:00",
+        "outdoor_seating": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "0117 729 729",
+        "smoking": "no",
+        "takeaway": "yes",
+        "website": "https://pizzahut.lk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8482984,
+      "lon": 79.8656522,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.869012,
+      "lon": 79.8621513,
+      "tags": {
+        "addr:city": "Wellawatte - Colombo 06",
+        "addr:housenumber": "338",
+        "addr:street": "Galle Road",
+        "branch": "wellawatte",
+        "building": "retail",
+        "building:levels": "6",
+        "check_date": "2023-06-10",
+        "name": "Arpico;Arpico Super Store",
+        "opening_hours": "PH,Mo-Su 08:00-22:00",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 114 527 494",
+        "shop": "supermarket",
+        "toilets:wheelchair": "no",
+        "website": "https://arpicosupercentre.com/",
+        "wheelchair": "limited;yes"
+      }
+    },
+    {
+      "lat": 6.8748848,
+      "lon": 79.8630174,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:levels": "4",
+        "name": "Colombo Gospel Tabernacle",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8773323,
+      "lon": 79.8680622,
+      "tags": {
+        "air_conditioning": "yes",
+        "branch": "Pamankada",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "check_date": "2023-04-27",
+        "name": "Cargills Food City",
+        "opening_hours": "08:00-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket",
+        "website": "https://cargillsonline.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8795217,
+      "lon": 79.8758633,
+      "tags": {
+        "addr:city": "Kirulapone",
+        "addr:street": "Baseline Road",
+        "building": "yes",
+        "name": "Keells Super",
+        "name:en": "Keels super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8839436,
+      "lon": 79.8605704,
+      "tags": {
+        "addr:city": "Bambalapitiya",
+        "addr:street": "R. A. DeMel Mawatha",
+        "alt_name": "\u0b87\u0bb0\u0bbe\u0bae\u0ba8\u0bbe\u0ba4\u0ba9\u0bcd \u0b87\u0ba8\u0bcd\u0ba4\u0bc1 \u0bae\u0b95\u0bb3\u0bbf\u0bb0\u0bcd \u0b95\u0bb2\u0bcd\u0bb2\u0bc2\u0bb0\u0bbf",
+        "amenity": "school",
+        "name": "Ramanathan Hindu Ladies College"
+      }
+    },
+    {
+      "lat": 6.869218,
+      "lon": 79.8620322,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "name": "Omega Inn",
+        "tourism": "hotel",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.8835394,
+      "lon": 79.8697389,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Swarna Bodhiya Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8713483,
+      "lon": 79.8625243,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "amenity": "place_of_worship",
+        "denomination": "protestant",
+        "name": "Christian Reformed Church, Wellawatte",
+        "religion": "christian",
+        "website": "https://crcsl.org",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.8359661,
+      "lon": 79.8671004,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:housenumber": "293",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "branch": "Mount Lavinia",
+        "building": "yes",
+        "cuisine": "burger",
+        "name": "Street Burger"
+      }
+    },
+    {
+      "lat": 6.8842249,
+      "lon": 79.8615245,
+      "tags": {
+        "amenity": "school",
+        "sport": "cricket;soccer;multi;athletics"
+      }
+    },
+    {
+      "lat": 6.8651341,
+      "lon": 79.8598387,
+      "tags": {
+        "addr:city": "Wellawatte",
+        "addr:housenumber": "57",
+        "addr:street": "Ramakrishna Road",
+        "amenity": "university",
+        "building": "university",
+        "check_date": "2023-06-10",
+        "contact:facebook": "https://www.facebook.com/iitsl",
+        "contact:viber": "+94 766 760 760",
+        "contact:whatsapp": "+94 766 760 760",
+        "email": "info@iit.ac.lk",
+        "fee": "yes",
+        "name": "Informatics Institute of Technology",
+        "opening_hours": "Mo-Fr 06:00-18:00; Sa-Su off",
+        "operator:type": "private",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 112 360 212",
+        "short_name": "IIT",
+        "website": "https://www.iit.ac.lk/",
+        "wikidata": "Q6030601",
+        "wikipedia": "en:Informatics Institute of Technology"
+      }
+    },
+    {
+      "lat": 6.8760196,
+      "lon": 79.8638305,
+      "tags": {
+        "addr:city": "Colombo",
+        "addr:housenumber": "62",
+        "addr:postcode": "00600",
+        "addr:street": "W.A. Silva Mawatha",
+        "amenity": "hospital",
+        "building": "yes",
+        "check_date": "2023-04-17",
+        "email": "manager@royalhospitals.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Royal Hospital",
+        "opening_hours": "24/7",
+        "operator:type": "private",
+        "phone": "+94 011 4000 100",
+        "website": "http://www.royalhospitals.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8533165,
+      "lon": 79.9049521,
+      "tags": {
+        "addr:housenumber": "Samadhi Budha Status",
+        "addr:unit": "University road",
+        "amenity": "place_of_worship",
+        "building": "house",
+        "building:levels": "1",
+        "building:material": "concrete",
+        "check_date": "2024-02-17",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Samadhi Buddha Statue",
+        "roof:levels": "1",
+        "roof:shape": "pyramidal"
+      }
+    },
+    {
+      "lat": 6.8698885,
+      "lon": 79.8900267,
+      "tags": {
+        "addr:city": "Nugegoda",
+        "addr:street": "High Level Road",
+        "amenity": "school",
+        "name": "St. John's College"
+      }
+    },
+    {
+      "lat": 6.8705893,
+      "lon": 79.8902227,
+      "tags": {
+        "amenity": "school",
+        "name": "Samudradevi Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8598935,
+      "lon": 79.9051407,
+      "tags": {
+        "amenity": "school",
+        "name": "Samudradevi Primary School"
+      }
+    },
+    {
+      "lat": 6.8635017,
+      "lon": 79.8881567,
+      "tags": {
+        "building": "yes",
+        "name": "Keels Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8331399,
+      "lon": 79.9072937,
+      "tags": {
+        "addr:city": "Boralesgamuwa",
+        "addr:housenumber": "105/1",
+        "addr:postcode": "10290",
+        "addr:street": "Colombo - Horana Road",
+        "building": "yes",
+        "name": "Keells Werahera",
+        "opening_hours": "Mo-Su 08:30-22:30",
+        "operator": "JayKay Marketing Services",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8251645,
+      "lon": 79.9073723,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "University Hospital KDU",
+        "website": "https://fom.kdu.ac.lk/teaching-hospital/"
+      }
+    },
+    {
+      "lat": 6.8261613,
+      "lon": 79.9067058,
+      "tags": {
+        "amenity": "university",
+        "name": "Faculty of Allied Health Science",
+        "operator": "General Sir John Kotelawala Defence University",
+        "website": "https://fahs.kdu.ac.lk"
+      }
+    },
+    {
+      "lat": 6.8140436,
+      "lon": 79.8777426,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Dispensary Ratmalana"
+      }
+    },
+    {
+      "lat": 6.8514719,
+      "lon": 79.8647993,
+      "tags": {
+        "addr:city": "Dehiwala",
+        "addr:housenumber": "1/1",
+        "addr:street": "P.T.De Silva Mawatha",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Navajeevana Health care centre"
+      }
+    },
+    {
+      "lat": 6.8677245,
+      "lon": 79.8976818,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Subadraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8755968,
+      "lon": 79.8730936,
+      "tags": {
+        "addr:city": "Colombo City Limit",
+        "addr:housenumber": "82",
+        "addr:postcode": "06",
+        "addr:street": "Stratford Avenue",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "building": "yes",
+        "fax": "+94 112553436",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "mobile": "+94 765319800",
+        "name": "D Pavilion",
+        "opening_hours": "24/7",
+        "phone": "+94 112553436",
+        "rooms": "7",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8502155,
+      "lon": 79.8635896,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8835582,
+      "lon": 79.8618853,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Vithaga Vinayagar Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8520769,
+      "lon": 79.8776903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8750183,
+      "lon": 79.8574596,
+      "tags": {
+        "building": "train_station",
+        "name": "Wellawatta",
+        "platforms": "1",
+        "public_transport": "station",
+        "railway": "station",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 6.8317253,
+      "lon": 79.8627768,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Station Road",
+        "building": "train_station",
+        "name": "Mount Lavinia",
+        "network": "Sri Lanka Railways",
+        "operator": "asanka",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

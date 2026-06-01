@@ -1,0 +1,1761 @@
+{
+  "cluster_id": 307,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.883583,
+    "lat_max": 5.9557899999999995,
+    "lon_min": 80.406948,
+    "lon_max": 80.495003
+  },
+  "outlet_ids": [
+    "OUT_17072",
+    "OUT_17357",
+    "OUT_17440",
+    "OUT_17502",
+    "OUT_17510",
+    "OUT_17560",
+    "OUT_17587",
+    "OUT_17653",
+    "OUT_17660",
+    "OUT_17836",
+    "OUT_17868",
+    "OUT_17874",
+    "OUT_17886",
+    "OUT_17935",
+    "OUT_18055",
+    "OUT_18221",
+    "OUT_18365",
+    "OUT_18544",
+    "OUT_18610",
+    "OUT_18740",
+    "OUT_18824",
+    "OUT_18881",
+    "OUT_18890",
+    "OUT_18911",
+    "OUT_18924",
+    "OUT_18980",
+    "OUT_18982",
+    "OUT_18997",
+    "OUT_19044",
+    "OUT_19051",
+    "OUT_19077",
+    "OUT_19092",
+    "OUT_19213",
+    "OUT_19432",
+    "OUT_19730",
+    "OUT_19778",
+    "OUT_19832",
+    "OUT_19855",
+    "OUT_19930"
+  ],
+  "n_outlets": 39,
+  "n_pois_returned": 178,
+  "scraped_at": "2026-05-16T22:09:40.324884",
+  "elements": [
+    {
+      "lat": 5.9412602,
+      "lon": 80.4677373,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9453076,
+      "lon": 80.4576532,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Paradise Beach",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9531215,
+      "lon": 80.4541208,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:street": "Colombo -Matara Road",
+        "amenity": "hospital",
+        "name": "Rural Hospital"
+      }
+    },
+    {
+      "lat": 5.9432146,
+      "lon": 80.4543617,
+      "tags": {
+        "name": "Villa Sea View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9414283,
+      "lon": 80.4671458,
+      "tags": {
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9389766,
+      "lon": 80.4829713,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9482037,
+      "lon": 80.4571577,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Clinic"
+      }
+    },
+    {
+      "lat": 5.9447153,
+      "lon": 80.4599692,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mirissa Eye"
+      }
+    },
+    {
+      "lat": 5.949639,
+      "lon": 80.4787842,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nadeetherarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9405803,
+      "lon": 80.4784923,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pagoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9430083,
+      "lon": 80.4541503,
+      "tags": {
+        "name": "Palace Mirissa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9453615,
+      "lon": 80.4601007,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Roti Curry Shop"
+      }
+    },
+    {
+      "lat": 5.944522,
+      "lon": 80.4555635,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Surf View"
+      }
+    },
+    {
+      "lat": 5.9445048,
+      "lon": 80.4556913,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Water Creatures"
+      }
+    },
+    {
+      "lat": 5.9389799,
+      "lon": 80.4864236,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9396345,
+      "lon": 80.475997,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "operator": "Southern Provincial Road Passenger Transport Authority",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9430515,
+      "lon": 80.463435,
+      "tags": {
+        "highway": "bus_stop",
+        "name:cs": "Zastavka.",
+        "name:es": "Giragala"
+      }
+    },
+    {
+      "lat": 5.9480879,
+      "lon": 80.4568936,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 5.9492334,
+      "lon": 80.4558982,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9467127,
+      "lon": 80.4587745,
+      "tags": {
+        "addr:city": "Mirissa",
+        "contact:email": "poppiesmirissa@yahoo.com",
+        "name": "Poppies Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9474134,
+      "lon": 80.4615328,
+      "tags": {
+        "name": "Sahan Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9454617,
+      "lon": 80.4599246,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "I & I restaurant"
+      }
+    },
+    {
+      "lat": 5.9387146,
+      "lon": 80.4710693,
+      "tags": {
+        "name": "Cococabana",
+        "tourism": "hotel",
+        "website": "http://www.cococabanalk.com"
+      }
+    },
+    {
+      "lat": 5.9440313,
+      "lon": 80.4610265,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Nissan Restaurant"
+      }
+    },
+    {
+      "lat": 5.9426557,
+      "lon": 80.4646683,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Glass House Restaurant",
+        "opening_hours": "09:00-21:00"
+      }
+    },
+    {
+      "lat": 5.941136,
+      "lon": 80.4944449,
+      "tags": {
+        "bench": "no",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Kamburugamuwa Junction",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.9409872,
+      "lon": 80.4938751,
+      "tags": {
+        "bench": "no",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.93946,
+      "lon": 80.4694552,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshanaramaya",
+        "religion": "buddhist",
+        "service_times": "Permanently closed"
+      }
+    },
+    {
+      "lat": 5.9490628,
+      "lon": 80.4561199,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:housenumber": "No 155",
+        "addr:postcode": "81740",
+        "addr:street": "Colombo -Matara Road",
+        "check_date": "2024-12-21",
+        "name": "Hotel Mirissa Regent",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9451996,
+      "lon": 80.4620606,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9390421,
+      "lon": 80.4871374,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Sharavi Beach Villas",
+        "phone": "+94 41 745 1090",
+        "tourism": "hotel",
+        "website": "https://www.srisharavibeachvillas.com/"
+      }
+    },
+    {
+      "lat": 5.9472048,
+      "lon": 80.4617805,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-12-21",
+        "cuisine": "local",
+        "name": "Dewmini Roti Shop",
+        "phone": "0715162604",
+        "source": "visit",
+        "website": "http://www.dewminirotishop.wordpress.con"
+      }
+    },
+    {
+      "lat": 5.945944,
+      "lon": 80.4593286,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.945735,
+      "lon": 80.4617233,
+      "tags": {
+        "addr:street": "Udupila Road",
+        "name": "celestial inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9455125,
+      "lon": 80.4587528,
+      "tags": {
+        "check_date": "2026-01-04",
+        "internet_access": "yes",
+        "name": "Lemazonne Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9455023,
+      "lon": 80.457104,
+      "tags": {
+        "amenity": "restaurant",
+        "name:de": "Opal's Food Corner",
+        "name:en": "Opal's Food Corner"
+      }
+    },
+    {
+      "lat": 5.9458972,
+      "lon": 80.4596183,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name:en": "Litte Red House",
+        "name:zh": "\u5c0f\u7ea2\u5c4b"
+      }
+    },
+    {
+      "lat": 5.9426483,
+      "lon": 80.4643971,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Papa mango hapy hour cocktails"
+      }
+    },
+    {
+      "lat": 5.9458596,
+      "lon": 80.4552335,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9498873,
+      "lon": 80.4592714,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian;curry;asian",
+        "internet_access": "wlan",
+        "name:en": "Indra Restaurant",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "lat": 5.9518419,
+      "lon": 80.4546773,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "7-Eleven",
+        "name": "7-Eleven"
+      }
+    },
+    {
+      "lat": 5.9413576,
+      "lon": 80.4665737,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Adora Mirissa Beach Restaurant"
+      }
+    },
+    {
+      "lat": 5.9479156,
+      "lon": 80.4571821,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Tandoori Hut"
+      }
+    },
+    {
+      "lat": 5.9479881,
+      "lon": 80.457371,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "rice and curry barato"
+      }
+    },
+    {
+      "lat": 5.9432092,
+      "lon": 80.4632214,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Maggie's Rotti Shop",
+        "name:en": "MiMi"
+      }
+    },
+    {
+      "lat": 5.9469434,
+      "lon": 80.4616358,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Little Tuna Sushi Caf\u00e9"
+      }
+    },
+    {
+      "lat": 5.9496924,
+      "lon": 80.4554656,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional;sandwich;malaysian",
+        "name": "Dimali Inn",
+        "name:en": "Dimali Inn"
+      }
+    },
+    {
+      "lat": 5.9486461,
+      "lon": 80.4565863,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Ambrosia Roti Shop",
+        "name:ru": "Ambrosia Roti Shop"
+      }
+    },
+    {
+      "lat": 5.9413433,
+      "lon": 80.4677873,
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "THENUWARA 4G",
+        "name": "Sunstyle Mirissa",
+        "phone": "+94 71 081 3866",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9448436,
+      "lon": 80.4555458,
+      "tags": {
+        "name:zh": "\u7c73\u62c9",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9455093,
+      "lon": 80.4596547,
+      "tags": {
+        "addr:housenumber": "238",
+        "addr:street": "Colombo -Matara Road",
+        "internet_access": "wlan",
+        "name:en": "W&D Beach Hotel",
+        "name:es": "W&D Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9430098,
+      "lon": 80.4628744,
+      "tags": {
+        "name": "Palm Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9458828,
+      "lon": 80.4595108,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "Local and non-local food. Good rice and curry. Prices moderate (for tourists)",
+        "name": "I&I Roti Shop",
+        "name:en": "Big Belly Roti Hut"
+      }
+    },
+    {
+      "lat": 5.9414816,
+      "lon": 80.4654344,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sea Goggle Rest"
+      }
+    },
+    {
+      "lat": 5.9453204,
+      "lon": 80.4600394,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "Local food like rice and curry, etc.",
+        "name": "Samagi Food Corner"
+      }
+    },
+    {
+      "lat": 5.9431316,
+      "lon": 80.462287,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Zephyr"
+      }
+    },
+    {
+      "lat": 5.9448625,
+      "lon": 80.459458,
+      "tags": {
+        "addr:street": "Colombo -Matara Road",
+        "amenity": "restaurant",
+        "internet_access": "wlan"
+      }
+    },
+    {
+      "lat": 5.9439439,
+      "lon": 80.4615123,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Dhana's Curry Pot"
+      }
+    },
+    {
+      "lat": 5.9473337,
+      "lon": 80.460621,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 5.9488857,
+      "lon": 80.4563927,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "big belly roti hut"
+      }
+    },
+    {
+      "lat": 5.9484631,
+      "lon": 80.4557669,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.947674,
+      "lon": 80.4610277,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-12-21",
+        "name": "Coco Gate"
+      }
+    },
+    {
+      "lat": 5.9467162,
+      "lon": 80.4548226,
+      "tags": {
+        "addr:postcode": "81740",
+        "addr:street": "Sunanda Road",
+        "name:en": "panora garden",
+        "name:fr": "panora garden",
+        "opening_hours": "24/7",
+        "phone": "0764008226",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9457518,
+      "lon": 80.459774,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "DelTano's woof fired pizza & pasta",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "phone": "+94774441452"
+      }
+    },
+    {
+      "lat": 5.9485607,
+      "lon": 80.4565601,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Margherita Italiano"
+      }
+    },
+    {
+      "lat": 5.9449713,
+      "lon": 80.4585535,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name:en": "The Original Rocket Burger"
+      }
+    },
+    {
+      "lat": 5.9416469,
+      "lon": 80.4666495,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local;thai",
+        "name:en": "101 Restaurant"
+      }
+    },
+    {
+      "lat": 5.9455498,
+      "lon": 80.4598582,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local;italian",
+        "internet_access": "wlan",
+        "name": "O Mirissa Cafe & Bistro",
+        "opening_hours": "Mo-Su 09:00-22:00"
+      }
+    },
+    {
+      "lat": 5.9464715,
+      "lon": 80.4576888,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "name:en": "Surfing Wombats Mirissa"
+      }
+    },
+    {
+      "lat": 5.9457565,
+      "lon": 80.4569679,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Roti Shop"
+      }
+    },
+    {
+      "lat": 5.9445645,
+      "lon": 80.4559413,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Taboo Lounge"
+      }
+    },
+    {
+      "lat": 5.9476951,
+      "lon": 80.4599925,
+      "tags": {
+        "name:en": "Hotel Irena",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9455065,
+      "lon": 80.4571626,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "internet_access": "wlan",
+        "name:en": "Rekha Restaurant",
+        "name:ru": "\u0420\u0435\u043a\u0445\u0430 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d"
+      }
+    },
+    {
+      "lat": 5.9463358,
+      "lon": 80.4552066,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sunandarama Piriven Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9458358,
+      "lon": 80.4571811,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "La La Land"
+      }
+    },
+    {
+      "lat": 5.9441387,
+      "lon": 80.4639044,
+      "tags": {
+        "addr:housenumber": "+94776565382",
+        "addr:street": "Colombo -Matara Road",
+        "name:en": "Marino Mirissa",
+        "name:tr": "Marino Mirissa",
+        "phone": "+94776565382",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9447766,
+      "lon": 80.4548228,
+      "tags": {
+        "name:en": "Sofians Garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9448741,
+      "lon": 80.459299,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Rumba"
+      }
+    },
+    {
+      "lat": 5.946058,
+      "lon": 80.4598732,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Roti Shop Mirissa"
+      }
+    },
+    {
+      "lat": 5.9482992,
+      "lon": 80.4621344,
+      "tags": {
+        "amenity": "school",
+        "name:en": "Surfmakers"
+      }
+    },
+    {
+      "lat": 5.9475074,
+      "lon": 80.4608337,
+      "tags": {
+        "addr:street": "Udupila Road",
+        "check_date": "2024-12-21",
+        "email": "goodzone1976@gmail.com",
+        "internet_access": "wlan",
+        "name": "White House hotel Mirissa",
+        "name:en": "White House hotel Mirissa",
+        "name:ru": "White House \u043e\u0442\u0435\u043b\u044c",
+        "opening_hours": "24/7",
+        "operator": "\u0421\u0432\u0435\u0442\u043b\u0430\u043d\u0430",
+        "phone": "+94761659973",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9418621,
+      "lon": 80.4687042,
+      "tags": {
+        "addr:street": "Galle Road",
+        "internet_access": "wlan",
+        "name": "The Spice House Hotel",
+        "rooms": "12",
+        "tourism": "hotel",
+        "website": "https://thespicehousemirissa.com/"
+      }
+    },
+    {
+      "lat": 5.9477405,
+      "lon": 80.4585864,
+      "tags": {
+        "name:en": "Kalu Mirissa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9450123,
+      "lon": 80.458407,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-12-21",
+        "name": "Salt Mirissa"
+      }
+    },
+    {
+      "lat": 5.9418384,
+      "lon": 80.4662767,
+      "tags": {
+        "name:en": "Blue Ocean Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9475662,
+      "lon": 80.460885,
+      "tags": {
+        "addr:postcode": "81740",
+        "addr:street": "Udupila Road",
+        "amenity": "cafe",
+        "check_date": "2024-12-21",
+        "cuisine": "russian;cake;breakfast;coffee_shop",
+        "email": "goodzone1976@gmail.com",
+        "internet_access": "wlan",
+        "name": "White House Restaurant",
+        "opening_hours": "Mo-Su 08:00-21:00",
+        "operator": "Goodzone",
+        "phone": "+94761659973",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9391937,
+      "lon": 80.4771198,
+      "tags": {
+        "addr:city": "Thalaramba",
+        "addr:postcode": "81750",
+        "amenity": "school",
+        "denomination": "theravada",
+        "operator": "Thalaramba Sri Indrasara College",
+        "operator:type": "government",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9465966,
+      "lon": 80.460434,
+      "tags": {
+        "addr:street": "Udupila Road",
+        "amenity": "restaurant",
+        "check_date": "2024-12-21",
+        "cuisine": "italian;ice_cream;coffee_shop",
+        "email": "milkywavemirissa@gmail.co.",
+        "name": "Milky Wave",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+94 70 3979306"
+      }
+    },
+    {
+      "lat": 5.9455975,
+      "lon": 80.4564247,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Mum's Kitchen"
+      }
+    },
+    {
+      "lat": 5.9460502,
+      "lon": 80.4574027,
+      "tags": {
+        "name": "Sky Garden Mini Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9457047,
+      "lon": 80.4597404,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local;pasta;breakfast",
+        "name:en": "R & R Hot Spot"
+      }
+    },
+    {
+      "lat": 5.9475771,
+      "lon": 80.4577173,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Ceylon curry house"
+      }
+    },
+    {
+      "lat": 5.9437552,
+      "lon": 80.4654646,
+      "tags": {
+        "name": "Methusha Holyday House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.943437,
+      "lon": 80.494334,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:district": "Matara District",
+        "addr:street": "medagoda Kamburugamuwa - Labima Rd",
+        "amenity": "school",
+        "name": "Kamburugamuwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 5.949215,
+      "lon": 80.4558641,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9467489,
+      "lon": 80.4639026,
+      "tags": {
+        "addr:postcode": "81740",
+        "addr:street": "Udupila Road",
+        "name:en": "peacock villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9412388,
+      "lon": 80.4688712,
+      "tags": {
+        "name": "Esprit D\u2018ici",
+        "phone": "0094075 322 2000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9469515,
+      "lon": 80.4582765,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "internet_access": "wlan",
+        "name:en": "Seafood Hut Mirissa"
+      }
+    },
+    {
+      "lat": 5.9449433,
+      "lon": 80.4590627,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza;burger;italian;chinese;sandwich;chicken;kebab;asian;indian;seafood;french;juice;pasta;salad;pancake",
+        "name": "paragon Mirissa",
+        "opening_hours": "24/7",
+        "phone": "+940772806898"
+      }
+    },
+    {
+      "lat": 5.9479651,
+      "lon": 80.4590189,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "curry;local",
+        "internet_access": "wlan",
+        "name": "Mom's Spices",
+        "phone": "0776580238"
+      }
+    },
+    {
+      "lat": 5.9479975,
+      "lon": 80.4571076,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "curry;grill",
+        "name:en": "Black Gold"
+      }
+    },
+    {
+      "lat": 5.9468435,
+      "lon": 80.4579047,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Th Avo Club"
+      }
+    },
+    {
+      "lat": 5.9428243,
+      "lon": 80.463708,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:postcode": "81740",
+        "amenity": "restaurant",
+        "name:en": "Surfing Wombats Mirissa",
+        "website": "https://www.surfingwombats.com/surfing-wombats-mirissa/"
+      }
+    },
+    {
+      "lat": 5.9459076,
+      "lon": 80.4576283,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Cafe M."
+      }
+    },
+    {
+      "lat": 5.9476173,
+      "lon": 80.4611985,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Garlic"
+      }
+    },
+    {
+      "lat": 5.9466834,
+      "lon": 80.4596997,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "spanish",
+        "name:en": "Poppies"
+      }
+    },
+    {
+      "lat": 5.941758,
+      "lon": 80.4660608,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.940544,
+      "lon": 80.4912195,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9526757,
+      "lon": 80.4546047,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 5.9531267,
+      "lon": 80.4541862,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9447136,
+      "lon": 80.4609639,
+      "tags": {
+        "name": "Randiya Sea View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9446356,
+      "lon": 80.4608799,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Randiya Sea View"
+      }
+    },
+    {
+      "lat": 5.9468283,
+      "lon": 80.4848905,
+      "tags": {
+        "addr:postcode": "81750",
+        "addr:street": "Garanduwa Road",
+        "name": "Kiss Blossom",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/kiss-blossom.en-gb.html"
+      }
+    },
+    {
+      "lat": 5.9470002,
+      "lon": 80.4582443,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Sachinro Restaurant & Bar"
+      }
+    },
+    {
+      "lat": 5.9449571,
+      "lon": 80.4589557,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Central Beach"
+      }
+    },
+    {
+      "lat": 5.9452039,
+      "lon": 80.4601625,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.9489358,
+      "lon": 80.4562733,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.9421829,
+      "lon": 80.4647863,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:postcode": "71380",
+        "addr:street": "Colombo -Matara Road",
+        "amenity": "restaurant",
+        "check_date": "2026-05-05",
+        "contact:facebook": "https://www.facebook.com/people/The-Slow/100077077119286/",
+        "contact:instagram": "https://www.instagram.com/theslow.srilanka/",
+        "cuisine": "breakfast;lunch;sri_lankan",
+        "description": "Enjoy a wide variety of vegan food directly on the beach in Mirissa.",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "info@slow-vegan-sri-lanka.com",
+        "highchair": "yes",
+        "name": "The Slow",
+        "opening_hours": "08:00-22:00",
+        "outdoor_seating": "yes",
+        "panoramax": "7f113b97-92f4-4413-a720-e958dc627938",
+        "panoramax:0": "d4baed69-0bb2-4c3a-aac9-521fd1d56012",
+        "phone": "+94762196771",
+        "takeaway": "yes",
+        "website": "https://www.slow-vegan-sri-lanka.com/the-slow-a-vegan-restaurant-cafe-sri-lanka-mirissa"
+      }
+    },
+    {
+      "lat": 5.944015,
+      "lon": 80.4501313,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Secret beach mirissa restaurant &bar"
+      }
+    },
+    {
+      "lat": 5.9439261,
+      "lon": 80.45419,
+      "tags": {
+        "mobile": "+94774060471",
+        "name": "Thusara Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9413716,
+      "lon": 80.4663923,
+      "tags": {
+        "addr:housenumber": "187",
+        "addr:street": "Colombo -Matara Road",
+        "amenity": "restaurant",
+        "name:en": "MOMO Beach Mirissa",
+        "opening_hours": "Su-Sa 08:00-22:00"
+      }
+    },
+    {
+      "lat": 5.9462746,
+      "lon": 80.4522205,
+      "tags": {
+        "name:en": "mimoza mirissa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9390329,
+      "lon": 80.4706566,
+      "tags": {
+        "addr:postcode": "81750",
+        "addr:street": "Kalugalluwa Road",
+        "internet_access": "wlan",
+        "name:en": "Pearldrop Waves",
+        "opening_hours": "24/7",
+        "tourism": "hotel",
+        "website": "https://pearldropmirissa.com/contact"
+      }
+    },
+    {
+      "lat": 5.9423169,
+      "lon": 80.4658803,
+      "tags": {
+        "air_conditioning": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Morning Star",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9419432,
+      "lon": 80.4650822,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bunga Bunga",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "lat": 5.9430864,
+      "lon": 80.4641581,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Simple Restaurant & Cafe"
+      }
+    },
+    {
+      "lat": 5.9428908,
+      "lon": 80.4623275,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Giragala Restaurant & Bar"
+      }
+    },
+    {
+      "lat": 5.946998,
+      "lon": 80.4580448,
+      "tags": {
+        "name": "Crafts Gallery Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9502107,
+      "lon": 80.4583139,
+      "tags": {
+        "addr:housenumber": "600",
+        "addr:postcode": "81740",
+        "addr:street": "Yatipila Road",
+        "amenity": "restaurant",
+        "name": "Hide Place Restaurant"
+      }
+    },
+    {
+      "lat": 5.947873,
+      "lon": 80.4839529,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 5.9388715,
+      "lon": 80.4863303,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9394838,
+      "lon": 80.4779998,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9389082,
+      "lon": 80.4834067,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9395188,
+      "lon": 80.4756936,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "operator": "Southern Provincial Road Passenger Transport Authority",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 5.9404435,
+      "lon": 80.4703002,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9421441,
+      "lon": 80.4656093,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Beach Mirissa Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9499159,
+      "lon": 80.4592179,
+      "tags": {
+        "name": "Bananas 02",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9408951,
+      "lon": 80.4939299,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:postcode": "81750",
+        "amenity": "restaurant",
+        "cuisine": "chicken;coffee_shop;seafood;fish_and_chips;grill;juice;salad;sandwich;dessert",
+        "diet:healthy": "yes",
+        "diet:meat": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Serendipity Mirissa",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "phone": "+94779971971",
+        "website": "https://www.serendipitymirissa.com/"
+      }
+    },
+    {
+      "lat": 5.9496883,
+      "lon": 80.462654,
+      "tags": {
+        "name": "Coastal Villa Mirissa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9483592,
+      "lon": 80.458542,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Aura by Epic Collection",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9441752,
+      "lon": 80.4545736,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mama\u2018s Kitchen"
+      }
+    },
+    {
+      "lat": 5.9464983,
+      "lon": 80.4577728,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2026-05-05",
+        "internet_access:ssid": "Kismet Food",
+        "name": "Kismet Rest"
+      }
+    },
+    {
+      "lat": 5.9433793,
+      "lon": 80.4627649,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:postcode": "81740",
+        "addr:street": "Matara Rd",
+        "name": "The Fat Mermaid",
+        "phone": "+94777726546",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9491704,
+      "lon": 80.455893,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lanka"
+      }
+    },
+    {
+      "lat": 5.946573,
+      "lon": 80.4516725,
+      "tags": {
+        "name": "Emerald Bay Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9471796,
+      "lon": 80.4487771,
+      "tags": {
+        "amenity": "marketplace",
+        "vending": "fish"
+      }
+    },
+    {
+      "lat": 5.9458701,
+      "lon": 80.4530229,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Angel Rest"
+      }
+    },
+    {
+      "lat": 5.9448625,
+      "lon": 80.4594616,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "W&D Beach"
+      }
+    },
+    {
+      "lat": 5.9450219,
+      "lon": 80.4592255,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Zouk"
+      }
+    },
+    {
+      "lat": 5.9461782,
+      "lon": 80.4506982,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Akesh"
+      }
+    },
+    {
+      "lat": 5.9460318,
+      "lon": 80.4576659,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "All you can eat"
+      }
+    },
+    {
+      "lat": 5.9469183,
+      "lon": 80.4582793,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2026-01-04",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "MILA MIRISSA",
+        "name": "Mila Mirissa",
+        "name:en": "Mila Mirissa"
+      }
+    },
+    {
+      "lat": 5.9479345,
+      "lon": 80.4574104,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "description": "Pizza e Focaccia",
+        "name": "Bonna"
+      }
+    },
+    {
+      "lat": 5.945765,
+      "lon": 80.457378,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Capybara Restaurant"
+      }
+    },
+    {
+      "lat": 5.9554327,
+      "lon": 80.4182091,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Cliff Welligama"
+      }
+    },
+    {
+      "lat": 5.9395959,
+      "lon": 80.4785745,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "network": "Colombo-Matara",
+        "operator": "Southern Provincial Road Passenger Transport Authority",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9512193,
+      "lon": 80.4673692,
+      "tags": {
+        "amenity": "school",
+        "name": "Mirissa Central College Complex"
+      }
+    },
+    {
+      "lat": 5.9404431,
+      "lon": 80.4910578,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Subhadrarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9433044,
+      "lon": 80.4949256,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:street": "Kamburugamuwa-Labima Road",
+        "amenity": "school",
+        "name": "Kamburugamuwa Secondary School"
+      }
+    },
+    {
+      "lat": 5.9404339,
+      "lon": 80.4916754,
+      "tags": {
+        "building": "hotel",
+        "name": "Casa Colombo Mirissa",
+        "operator": "Casa Colombo Collection",
+        "tourism": "hotel",
+        "website": "http://www.casacolombocollection.com/mirissa/"
+      }
+    },
+    {
+      "lat": 5.9398577,
+      "lon": 80.4894022,
+      "tags": {
+        "building": "yes",
+        "name": "The Lantern",
+        "operator": "The Lantern Sri Lanka",
+        "tourism": "hotel",
+        "website": "https://www.lanternsrilanka.com/places.php"
+      }
+    },
+    {
+      "lat": 5.9467875,
+      "lon": 80.4457605,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:street": "Harbour Road",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/iSg6Gk5TsMTj9dqb7",
+        "name": "Weligambay Villas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9451393,
+      "lon": 80.4591296,
+      "tags": {
+        "amenity": "restaurant",
+        "bar": "yes",
+        "building": "yes",
+        "cuisine": "seafood;burger;pizza;chicken;chinese;italian;sandwich;asian;kebab;fish;juice;pancake",
+        "name": "Paragon Mirissa",
+        "phone": "+940772806898"
+      }
+    },
+    {
+      "lat": 5.9474445,
+      "lon": 80.4582515,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "retail",
+        "check_date": "2024-12-21",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.943249,
+      "lon": 80.4638757,
+      "tags": {
+        "building": "yes",
+        "name:en": "Sailors Mirissa",
+        "tourism": "hotel",
+        "website": "http://sailorsmirissa.com/"
+      }
+    },
+    {
+      "lat": 5.9381156,
+      "lon": 80.4738534,
+      "tags": {
+        "building": "hotel",
+        "building:levels": "4",
+        "name": "Mirissa Gate Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9417001,
+      "lon": 80.467124,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:postcode": "81700",
+        "addr:street": "Galle Road",
+        "building": "apartments",
+        "name": "Liyanage Resort",
+        "phone": "+94773667475",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9439839,
+      "lon": 80.4509728,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Waveside Bistro"
+      }
+    },
+    {
+      "lat": 5.9448274,
+      "lon": 80.456101,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Sudu Welli Bar"
+      }
+    },
+    {
+      "lat": 5.9448586,
+      "lon": 80.4561142,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "no"
+      }
+    },
+    {
+      "lat": 5.9478459,
+      "lon": 80.4556948,
+      "tags": {
+        "building": "hotel",
+        "building:levels": "10",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9402241,
+      "lon": 80.4781766,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Big Buddha",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9458324,
+      "lon": 80.4552551,
+      "tags": {
+        "building": "yes",
+        "name": "Wavelength Hotel Mirissa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9403127,
+      "lon": 80.4785083,
+      "tags": {
+        "addr:city": "Thalaramba",
+        "addr:postcode": "81750",
+        "addr:street": "Colombo\u2014Matara Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "layer": "1",
+        "name": "Thalaramba Sri Mahendrarama Temple",
+        "name:si": "\u0dad\u0dbd\u0dca\u0d85\u0dbb\u0db9 \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db8\u0dc4\u0dda\u0db1\u0dca\u0daf\u0dca\u200d\u0dbb\u0dcf\u0dbb\u0dcf\u0db8 \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9419489,
+      "lon": 80.4795783,
+      "tags": {
+        "addr:city": "Thalaramba",
+        "addr:postcode": "81750",
+        "addr:street": "Indasara Mawatha",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-12-04",
+        "description": "Buddhist temple in Sri Lanka",
+        "email": "thalarambagambarabodiya@gmail.com",
+        "image": "https://web.facebook.com/photo/?fbid=2157568584451763&set=a.290853033334367",
+        "name": "Thalaramba Gambara Bodhiya",
+        "name:si": "\u0dad\u0dbd\u0dca\u0d85\u0dbb\u0db9 \u0d9c\u0db8\u0dca\u0db7\u0dcf\u0dbb \u0db6\u0ddd\u0db0\u0dd2\u0dba",
+        "official_name": "\u0d93\u0dad\u0dd2\u0dc4\u0dcf\u0dc3\u0dd2\u0d9a \u0dad\u0dbd\u0dca\u0d85\u0dbb\u0db9 \u0d9c\u0db8\u0dca\u0db7\u0dcf\u0dbb \u0db6\u0ddd\u0db0\u0dd2\u0dba",
+        "opening_hours": "24/7",
+        "religion": "buddhist",
+        "website": "https://www.facebook.com/thalarambagambarabodhiya/"
+      }
+    },
+    {
+      "lat": 5.9390411,
+      "lon": 80.4769465,
+      "tags": {
+        "addr:city": "Thalaramba",
+        "addr:postcode": "81750",
+        "addr:street": "Colombo\u2014Matara Road",
+        "amenity": "school",
+        "building": "yes",
+        "education": "school",
+        "layer": "-1",
+        "name": "Thalaramba Sri Indrasara College",
+        "name:si": "\u0db8\u0dcf\u0dbb/ \u0dad\u0dbd\u0dca \u0d85\u0dbb\u0db9 \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0d89\u0db1\u0dca\u0daf\u0dc3\u0dcf\u0dbb \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba",
+        "opening_hours": "Mo-Fr 07:30-13:00"
+      }
+    },
+    {
+      "lat": 5.9407397,
+      "lon": 80.4933018,
+      "tags": {
+        "building": "yes",
+        "name": "The Lantern Villas",
+        "operator": "The Lantern Group",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.lanternsrilanka.com/villas.php"
+      }
+    },
+    {
+      "lat": 5.9403587,
+      "lon": 80.4905113,
+      "tags": {
+        "building": "yes",
+        "name": "The Lantern Vilas",
+        "operator": "The Lantern Group",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

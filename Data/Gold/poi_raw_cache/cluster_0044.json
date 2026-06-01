@@ -1,0 +1,598 @@
+{
+  "cluster_id": 44,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.863456,
+    "lat_max": 6.9382399999999995,
+    "lon_min": 80.00313,
+    "lon_max": 80.077946
+  },
+  "outlet_ids": [
+    "OUT_00079",
+    "OUT_00098",
+    "OUT_00157",
+    "OUT_00355",
+    "OUT_00574",
+    "OUT_00744",
+    "OUT_00884",
+    "OUT_00929",
+    "OUT_00962",
+    "OUT_01221",
+    "OUT_01381",
+    "OUT_01399",
+    "OUT_01663",
+    "OUT_01927",
+    "OUT_02285",
+    "OUT_02319",
+    "OUT_02468",
+    "OUT_02553",
+    "OUT_02651",
+    "OUT_02676",
+    "OUT_02716",
+    "OUT_02934",
+    "OUT_03116",
+    "OUT_03127",
+    "OUT_03237",
+    "OUT_03248",
+    "OUT_03464",
+    "OUT_03473",
+    "OUT_03491",
+    "OUT_03601",
+    "OUT_03953",
+    "OUT_04100",
+    "OUT_04245",
+    "OUT_04290",
+    "OUT_04326",
+    "OUT_04355",
+    "OUT_04614",
+    "OUT_04707",
+    "OUT_04749",
+    "OUT_04752",
+    "OUT_04782",
+    "OUT_04832",
+    "OUT_04907",
+    "OUT_04942",
+    "OUT_05089",
+    "OUT_05120",
+    "OUT_05175",
+    "OUT_05188",
+    "OUT_05332",
+    "OUT_05363",
+    "OUT_05402",
+    "OUT_05548",
+    "OUT_05745",
+    "OUT_05746",
+    "OUT_05812",
+    "OUT_06025",
+    "OUT_06238",
+    "OUT_06250",
+    "OUT_06321",
+    "OUT_06338",
+    "OUT_06413",
+    "OUT_06727",
+    "OUT_06964",
+    "OUT_07096",
+    "OUT_07226",
+    "OUT_07389",
+    "OUT_07429",
+    "OUT_07510",
+    "OUT_07537",
+    "OUT_07692",
+    "OUT_07814",
+    "OUT_07898",
+    "OUT_08152",
+    "OUT_08256",
+    "OUT_08303",
+    "OUT_08342",
+    "OUT_08418",
+    "OUT_08432",
+    "OUT_08439",
+    "OUT_08441",
+    "OUT_08562",
+    "OUT_08688",
+    "OUT_08736",
+    "OUT_08785",
+    "OUT_08824",
+    "OUT_08833",
+    "OUT_08854",
+    "OUT_08897"
+  ],
+  "n_outlets": 88,
+  "n_pois_returned": 53,
+  "scraped_at": "2026-05-16T20:26:57.259832",
+  "elements": [
+    {
+      "lat": 6.9256271,
+      "lon": 80.0178699,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9069022,
+      "lon": 80.0530928,
+      "tags": {
+        "addr:city": "Ambulgama",
+        "amenity": "place_of_worship",
+        "name": "Ambulgama Purana Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9093818,
+      "lon": 80.0770264,
+      "tags": {
+        "addr:city": "Hanwella",
+        "name": "Green Valley",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8908923,
+      "lon": 80.0573851,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Wilauda"
+      }
+    },
+    {
+      "lat": 6.9064993,
+      "lon": 80.059602,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Artigala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8813611,
+      "lon": 80.0536198,
+      "tags": {
+        "amenity": "school",
+        "name": "WP/HO Batawala Junior School"
+      }
+    },
+    {
+      "lat": 6.8660441,
+      "lon": 80.0109957,
+      "tags": {
+        "addr:city": "Habarakada",
+        "amenity": "place_of_worship",
+        "name": "Dharma Wijaya Asramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8670747,
+      "lon": 80.0146199,
+      "tags": {
+        "amenity": "school",
+        "name": "Habarakada Primary School"
+      }
+    },
+    {
+      "lat": 6.8694416,
+      "lon": 80.0153239,
+      "tags": {
+        "addr:city": "Habarakada",
+        "amenity": "place_of_worship",
+        "name": "Sri Shilaanthayathana Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8653788,
+      "lon": 80.0124158,
+      "tags": {
+        "addr:city": "Habarakada",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9077496,
+      "lon": 80.0776548,
+      "tags": {
+        "addr:city": "Hanwella",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9058205,
+      "lon": 80.0367021,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.895641,
+      "lon": 80.0430183,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jalthara Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8659937,
+      "lon": 80.0242393,
+      "tags": {
+        "addr:city": "Panagoda",
+        "addr:postcode": "10200",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Vimalarama Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8672754,
+      "lon": 80.0243916,
+      "tags": {
+        "addr:city": "Panagoda",
+        "addr:postcode": "10200",
+        "amenity": "place_of_worship",
+        "name": "Indraramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8816649,
+      "lon": 80.023946,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Manungala Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8782664,
+      "lon": 80.0281553,
+      "tags": {
+        "addr:city": "Meegasmulla",
+        "amenity": "place_of_worship",
+        "name": "Silguna Asapuwa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8639937,
+      "lon": 80.0249393,
+      "tags": {
+        "addr:city": "Panagoda Junction",
+        "addr:postcode": "10200",
+        "amenity": "clinic",
+        "name": "Health Care Medical Center"
+      }
+    },
+    {
+      "lat": 6.865492,
+      "lon": 80.0267855,
+      "tags": {
+        "addr:postcode": "10200",
+        "amenity": "place_of_worship",
+        "name": "Kande Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8809302,
+      "lon": 80.0343875,
+      "tags": {
+        "amenity": "school",
+        "name": "Lenagala Kanista Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8652519,
+      "lon": 80.0230854,
+      "tags": {
+        "addr:postcode": "10200",
+        "amenity": "restaurant",
+        "capacity": "15",
+        "cuisine": "regional",
+        "smoking": "outside",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8817205,
+      "lon": 80.0350042,
+      "tags": {
+        "name": "Samro Reception Hall",
+        "smoking": "separated",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8649131,
+      "lon": 80.0233371,
+      "tags": {
+        "addr:postcode": "10200",
+        "amenity": "restaurant",
+        "capacity": "15",
+        "cuisine": "regional",
+        "name": "Amila Hotel",
+        "opening_hours": "06:30-21:00",
+        "smoking": "outside",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8652002,
+      "lon": 80.0237157,
+      "tags": {
+        "addr:postcode": "10200",
+        "amenity": "restaurant",
+        "capacity": "15",
+        "cuisine": "regional",
+        "smoking": "outside"
+      }
+    },
+    {
+      "lat": 6.8652794,
+      "lon": 80.023515,
+      "tags": {
+        "name": "Panagoda Mini Coop City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8652381,
+      "lon": 80.0234389,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8637509,
+      "lon": 80.0249593,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8645805,
+      "lon": 80.0078648,
+      "tags": {
+        "name": "Coop City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8711829,
+      "lon": 80.0322266,
+      "tags": {
+        "name": "Nymphea Hotel",
+        "smoking": "separated",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8917585,
+      "lon": 80.0579079,
+      "tags": {
+        "amenity": "school",
+        "name": "Artigala Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.878026,
+      "lon": 80.0374552,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Lenagala Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8840667,
+      "lon": 80.0130254,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9248378,
+      "lon": 80.0172914,
+      "tags": {
+        "brand": "Sathosa",
+        "brand:wikidata": "Q96386898",
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9198248,
+      "lon": 80.0335412,
+      "tags": {
+        "addr:street": "Colombo-Hanwella Low Level Road",
+        "amenity": "place_of_worship",
+        "fixme": "location",
+        "name": "Mahindarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8847962,
+      "lon": 80.0052894,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Paththara Kade Bus Stop"
+      }
+    },
+    {
+      "lat": 6.9067431,
+      "lon": 80.0517943,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Embalawa Rathgal Vehera"
+      }
+    },
+    {
+      "lat": 6.9323689,
+      "lon": 80.0060937,
+      "tags": {
+        "addr:street": "Avissawella Road(Colombo-Hanwella Low Level Road)",
+        "amenity": "place_of_worship",
+        "name": "International Cambodian Buddhist Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9374157,
+      "lon": 80.0405276,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9225061,
+      "lon": 80.014342,
+      "tags": {
+        "amenity": "hospital",
+        "name": "M D.H. Jayawardana Divisional Hospital Nawagamuwa"
+      }
+    },
+    {
+      "lat": 6.9070824,
+      "lon": 80.0707599,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Our Lady of Assumption Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9316887,
+      "lon": 80.0079108,
+      "tags": {
+        "name": "Sudu Araliya Super City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8918325,
+      "lon": 80.0035435,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshana Vihara",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.925362,
+      "lon": 80.0414987,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9247583,
+      "lon": 80.0105131,
+      "tags": {
+        "amenity": "marketplace",
+        "landuse": "plant_nursery",
+        "name": "Supreme Orchid Plant Nursery",
+        "opening_hours": "08:30-12:30,15:30-20:00"
+      }
+    },
+    {
+      "lat": 6.9239011,
+      "lon": 80.0178135,
+      "tags": {
+        "addr:city": "Nawagamuwa",
+        "addr:street": "Colombo-Hanwella Low Level Road",
+        "amenity": "place_of_worship",
+        "name": "Nawagamuwa Pattini Devalaya &temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9063655,
+      "lon": 80.0518551,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Ambulgama Purana Raja maha Viharaya (Rock)",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9310824,
+      "lon": 80.0271054,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.906906,
+      "lon": 80.0707044,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Our Lady of Assumption Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9333899,
+      "lon": 80.074179,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8926799,
+      "lon": 80.0607306,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8924881,
+      "lon": 80.0584089,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9136097,
+      "lon": 80.0739468,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Samanabedda Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8710731,
+      "lon": 80.0505051,
+      "tags": {
+        "building": "yes",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

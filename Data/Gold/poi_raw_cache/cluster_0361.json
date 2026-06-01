@@ -1,0 +1,467 @@
+{
+  "cluster_id": 361,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.700336,
+    "lat_max": 6.780862,
+    "lon_min": 79.982173,
+    "lon_max": 80.054326
+  },
+  "outlet_ids": [
+    "OUT_00175",
+    "OUT_00177",
+    "OUT_00200",
+    "OUT_00285",
+    "OUT_00415",
+    "OUT_00540",
+    "OUT_00826",
+    "OUT_01015",
+    "OUT_01068",
+    "OUT_01097",
+    "OUT_01145",
+    "OUT_01270",
+    "OUT_01342",
+    "OUT_01434",
+    "OUT_01592",
+    "OUT_01972",
+    "OUT_02209",
+    "OUT_02253",
+    "OUT_02491",
+    "OUT_02709",
+    "OUT_02712",
+    "OUT_02899",
+    "OUT_03030",
+    "OUT_03051",
+    "OUT_03087",
+    "OUT_03160",
+    "OUT_03420",
+    "OUT_03653",
+    "OUT_03689",
+    "OUT_03752",
+    "OUT_03823",
+    "OUT_03908",
+    "OUT_04009",
+    "OUT_04038",
+    "OUT_04257",
+    "OUT_04416",
+    "OUT_04462",
+    "OUT_04592",
+    "OUT_04806",
+    "OUT_04829",
+    "OUT_04851",
+    "OUT_04978",
+    "OUT_04989",
+    "OUT_05097",
+    "OUT_05295",
+    "OUT_05341",
+    "OUT_05457",
+    "OUT_05579",
+    "OUT_05601",
+    "OUT_05733",
+    "OUT_05798",
+    "OUT_05813",
+    "OUT_05876",
+    "OUT_05996",
+    "OUT_06090",
+    "OUT_06169",
+    "OUT_06341",
+    "OUT_06380",
+    "OUT_06470",
+    "OUT_06513",
+    "OUT_06573",
+    "OUT_06792",
+    "OUT_06862",
+    "OUT_06963",
+    "OUT_07266",
+    "OUT_07337",
+    "OUT_07622",
+    "OUT_07646",
+    "OUT_07806",
+    "OUT_07838",
+    "OUT_08107",
+    "OUT_08221",
+    "OUT_08309",
+    "OUT_08338",
+    "OUT_08496",
+    "OUT_08651",
+    "OUT_08757",
+    "OUT_08800",
+    "OUT_08893",
+    "OUT_09000"
+  ],
+  "n_outlets": 80,
+  "n_pois_returned": 36,
+  "scraped_at": "2026-05-16T22:13:38.978965",
+  "elements": [
+    {
+      "lat": 6.720922,
+      "lon": 80.0488773,
+      "tags": {
+        "addr:city": "Horana",
+        "addr:postcode": "12400",
+        "addr:street": "Panadura-Rathnapura",
+        "amenity": "place_of_worship",
+        "name": "St. Martin De Porres",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7252975,
+      "lon": 80.0296158,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "crossing": "uncontrolled",
+        "crossing_ref": "zebra",
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7283966,
+      "lon": 80.0349665,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Vinayalankaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7253739,
+      "lon": 80.0344736,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kithsirimewan Raja Maha viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7129038,
+      "lon": 79.9953773,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Weedhagama Weda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7253144,
+      "lon": 80.0008034,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dharmachakra Padanama",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7162557,
+      "lon": 80.0051006,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pathahawaththa Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7690832,
+      "lon": 80.0302353,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Olaboduwa Purana Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7136995,
+      "lon": 79.9909108,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7214626,
+      "lon": 80.0132274,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raigama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7177312,
+      "lon": 79.9940777,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-10",
+        "name": "Veedagama Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7660438,
+      "lon": 80.0389533,
+      "tags": {
+        "amenity": "school",
+        "name": "Olaboduwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7101433,
+      "lon": 79.9849966,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Rambukkana Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7643333,
+      "lon": 80.0147355,
+      "tags": {
+        "addr:city": "Gonapola Junction",
+        "addr:street": "Gonapola - Moragahahena-Homagama Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Vijayasundararamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7241677,
+      "lon": 80.0343166,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pokunuvita Rajamaha viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.705641,
+      "lon": 80.002518,
+      "tags": {
+        "addr:street": "Atulugama Road",
+        "amenity": "place_of_worship",
+        "name": "Kolamediriya Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7104133,
+      "lon": 79.9920707,
+      "tags": {
+        "addr:street": "Adharsha watte Road",
+        "amenity": "school",
+        "name:en": "E-Gate , Bandaragama",
+        "operator": "Kushan Gunathilaka",
+        "phone": "071 806 6703"
+      }
+    },
+    {
+      "lat": 6.7009618,
+      "lon": 80.0474716,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thibbotugoda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7385916,
+      "lon": 80.0013082,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.71313,
+      "lon": 79.9877028,
+      "tags": {
+        "name:en": "Food City Sampath and Jagath Plaza",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7204626,
+      "lon": 79.9976781,
+      "tags": {
+        "addr:street": "Delgawaswatta Road",
+        "amenity": "place_of_worship",
+        "name:en": "Delgawaswatta Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7520718,
+      "lon": 79.9908697,
+      "tags": {
+        "name": "Coop City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.772774,
+      "lon": 80.0207184,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7792841,
+      "lon": 79.9995328,
+      "tags": {
+        "addr:street": "Colombo - Horana Road",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "bar": "no",
+        "brand": "Sigiri Food Centre",
+        "capacity": "50",
+        "contact:facebook": "https://www.facebook.com/sigirifoodcenter",
+        "cuisine": "seafood;asian",
+        "delivery": "no",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Sigiri Catering and Food Centre",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 747014",
+        "reservation": "yes",
+        "smoking": "outside"
+      }
+    },
+    {
+      "lat": 6.77643,
+      "lon": 79.9981732,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Pannila Suwa Asapuwa",
+        "opening_hours": "Tu-Sa 00:00-24:00",
+        "phone": "0767431758"
+      }
+    },
+    {
+      "lat": 6.7192345,
+      "lon": 80.0013111,
+      "tags": {
+        "name": "Gelanigama Stores",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7257099,
+      "lon": 80.0334323,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7626101,
+      "lon": 80.0163085,
+      "tags": {
+        "amenity": "school",
+        "name": "Palanoruwa Central College"
+      }
+    },
+    {
+      "lat": 6.7122207,
+      "lon": 79.9900248,
+      "tags": {
+        "addr:city": "Bandaragama",
+        "addr:street": "Waskaduwa - Bandaragama Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Medihelp"
+      }
+    },
+    {
+      "lat": 6.7564605,
+      "lon": 80.0536027,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "kande viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7412702,
+      "lon": 80.0507079,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kadanhena Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7373988,
+      "lon": 79.9838419,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "70",
+        "cuisine": "sri_lankan;burger",
+        "name": "The Paddock",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.7675093,
+      "lon": 79.9907687,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7674796,
+      "lon": 79.9910689,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7672406,
+      "lon": 79.9911727,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7213638,
+      "lon": 80.044459,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "source": "microsoft/BuildingFootprints"
+      }
+    }
+  ]
+}

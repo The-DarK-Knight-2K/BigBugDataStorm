@@ -1,0 +1,4996 @@
+{
+  "cluster_id": 60,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.201212,
+    "lat_max": 7.290192,
+    "lon_min": 80.577321,
+    "lon_max": 80.671903
+  },
+  "outlet_ids": [
+    "OUT_09095",
+    "OUT_09101",
+    "OUT_09103",
+    "OUT_09123",
+    "OUT_09132",
+    "OUT_09149",
+    "OUT_09249",
+    "OUT_09310",
+    "OUT_09389",
+    "OUT_09391",
+    "OUT_09505",
+    "OUT_09528",
+    "OUT_09627",
+    "OUT_09642",
+    "OUT_09741",
+    "OUT_09765",
+    "OUT_09891",
+    "OUT_09932",
+    "OUT_09981",
+    "OUT_10021",
+    "OUT_10064",
+    "OUT_10136",
+    "OUT_10185",
+    "OUT_10284",
+    "OUT_10357",
+    "OUT_10397",
+    "OUT_10450",
+    "OUT_10536",
+    "OUT_10575",
+    "OUT_10605",
+    "OUT_10706",
+    "OUT_10947",
+    "OUT_11012",
+    "OUT_11340",
+    "OUT_11341",
+    "OUT_11408",
+    "OUT_11446",
+    "OUT_11572",
+    "OUT_11675",
+    "OUT_11872",
+    "OUT_12067",
+    "OUT_12100",
+    "OUT_12173",
+    "OUT_12363",
+    "OUT_12396",
+    "OUT_12415",
+    "OUT_12530",
+    "OUT_12756"
+  ],
+  "n_outlets": 48,
+  "n_pois_returned": 493,
+  "scraped_at": "2026-05-16T20:29:24.471933",
+  "elements": [
+    {
+      "lat": 7.2776601,
+      "lon": 80.6157935,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "school",
+        "is_in": "Kandy, Kandy District, Central Province, Sri Lanka",
+        "name": "Kingswood College",
+        "wikidata": "Q6413771",
+        "wikipedia": "en:Kingswood College, Kandy"
+      }
+    },
+    {
+      "lat": 7.2820316,
+      "lon": 80.6695311,
+      "tags": {
+        "name": "Earl's Regency Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2335858,
+      "lon": 80.5950443,
+      "tags": {
+        "name": "Koshinna",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.2893343,
+      "lon": 80.6377987,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Sangaraja Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2870795,
+      "lon": 80.6452633,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Sangaraja Mawatha",
+        "amenity": "school",
+        "name": "Mahamaya Girls College",
+        "wikidata": "Q6733052",
+        "wikipedia": "en:Mahamaya Girls' College, Kandy"
+      }
+    },
+    {
+      "lat": 7.2871665,
+      "lon": 80.6422607,
+      "tags": {
+        "name": "Sharon Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2899166,
+      "lon": 80.6413477,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Sangaraja Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Malwathu Maha Viharaya",
+        "name:si": "\u0db8\u0dbd\u0dca\u0dc0\u0dad\u0dd4 \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist",
+        "wheelchair": "no",
+        "wikidata": "Q48730974",
+        "wikipedia": "en:Malwathu Maha Viharaya"
+      }
+    },
+    {
+      "lat": 7.2883827,
+      "lon": 80.6394404,
+      "tags": {
+        "name": "Senani",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2890303,
+      "lon": 80.641449,
+      "tags": {
+        "amenity": "school",
+        "name": "Hillwood College"
+      }
+    },
+    {
+      "lat": 7.2845537,
+      "lon": 80.6499783,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:country": "LK",
+        "addr:housenumber": "51",
+        "addr:street": "Kandy-Ampitiya-Thalatuoya Road",
+        "email": "devon@sltnet.lk",
+        "name": "Devon Hotel",
+        "phone": "+94 812 23 5164",
+        "tourism": "hotel",
+        "website": "http://devonsrilanka.com/"
+      }
+    },
+    {
+      "lat": 7.2847664,
+      "lon": 80.6625974,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Tennekumbura Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2825147,
+      "lon": 80.6654494,
+      "tags": {
+        "amenity": "school",
+        "name": "Vidyaloka Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2641396,
+      "lon": 80.5903255,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Subodharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2662504,
+      "lon": 80.5853963,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Develkona Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2865959,
+      "lon": 80.6558669,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "352 G",
+        "addr:street": "Dharmaraja Road",
+        "email": "info@theskydale.com",
+        "fax": "+94812240322",
+        "name": "Skydale",
+        "phone": "+94777665507",
+        "tourism": "hotel",
+        "website": "http://www.theskydale.com"
+      }
+    },
+    {
+      "lat": 7.2660179,
+      "lon": 80.5824791,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Polgahamula"
+      }
+    },
+    {
+      "lat": 7.266409,
+      "lon": 80.5981261,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2024-08-30",
+        "healthcare": "hospital",
+        "name": "Peradeniya Teaching Hospital"
+      }
+    },
+    {
+      "lat": 7.2851277,
+      "lon": 80.5894595,
+      "tags": {
+        "amenity": "school",
+        "name": "Gannoruwa Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2757062,
+      "lon": 80.6707843,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gospel Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.258972,
+      "lon": 80.6191176,
+      "tags": {
+        "name": "Amaya Hills Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.266579,
+      "lon": 80.599262,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2024-08-31",
+        "name": "Peradeniya Dental Hospital"
+      }
+    },
+    {
+      "lat": 7.2742016,
+      "lon": 80.6128279,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Amaya Medical Consultations"
+      }
+    },
+    {
+      "lat": 7.2789198,
+      "lon": 80.6189347,
+      "tags": {
+        "check_date": "2023-10-03",
+        "name": "Keells Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2164754,
+      "lon": 80.5872779,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nikatenna Temple"
+      }
+    },
+    {
+      "lat": 7.2876156,
+      "lon": 80.6415096,
+      "tags": {
+        "name": "Lakshmi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2135973,
+      "lon": 80.5928891,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "lat": 7.2139104,
+      "lon": 80.5986203,
+      "tags": {
+        "name": "Gelioya Train Station",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.2633517,
+      "lon": 80.5929841,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Peradeniya",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.2789912,
+      "lon": 80.617337,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-12",
+        "name": "Mulgampola Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2818592,
+      "lon": 80.6038215,
+      "tags": {
+        "addr:street": "Peradeniya - Halloluwa - Katugastota;Katugasthota-Halloluwa-Peradeniya road",
+        "amenity": "place_of_worship",
+        "name": "Seemamalakaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2573002,
+      "lon": 80.5901975,
+      "tags": {
+        "addr:street": "Penideniya Road",
+        "name": "Peradeniya Jct.",
+        "network": "SL:Railway",
+        "operator": "Sri Lanka Government Railway",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 7.2375071,
+      "lon": 80.6103677,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dhamma Kuta Vipassana Meditation Centre",
+        "religion": "buddhist",
+        "website": "https://www.dhamma.org/en/schedules/schkuta"
+      }
+    },
+    {
+      "lat": 7.2895753,
+      "lon": 80.6384578,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:housenumber": "NO 20",
+        "addr:postcode": "20000",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Amaara Residence",
+        "note": "Amaara Residence is located in Kandy, 900 metres from Kandyan Art Association & Cultural Centre. It features a restaurant, lake-view rooms and complimentary Wi-Fi access. the property is 400 metres from Lakeside Adventist Hospital and 1 km from British",
+        "operator": "Amaara Residence",
+        "phone": "0717260385 ,0716681551  , 0812054898",
+        "smoking": "separated",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2890176,
+      "lon": 80.6393927,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "8/24",
+        "addr:postcode": "20000",
+        "addr:street": "Sangaraja Mawatha",
+        "name": "Hotel Amaara Lake",
+        "note": "Hotel Amaara Lak is located in Kandy, 400 metres from kandy lake. It features a restaurant, lake-view rooms and complimentary Wi-Fi access. The property is 400 metres from Lakeside Adventist Hospital",
+        "operator": "Amaara Residence",
+        "smoking": "separated",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2876064,
+      "lon": 80.623298,
+      "tags": {
+        "addr:housenumber": "27b",
+        "addr:street": "George De Silva Mawatha",
+        "name": "The Nihals",
+        "name:en": "Nihals Super",
+        "opening_hours": "07:00-22:00",
+        "phone": "0812203410",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2080071,
+      "lon": 80.5803008,
+      "tags": {
+        "addr:city": "Talawatura",
+        "amenity": "place_of_worship",
+        "name": "Talawatura Hathnagoda Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2789281,
+      "lon": 80.61324,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Primrose Road",
+        "name": "Kandyan Crown",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2769556,
+      "lon": 80.6142775,
+      "tags": {
+        "amenity": "school",
+        "name": "Alliance Fran\u00e7aise De Kandy"
+      }
+    },
+    {
+      "lat": 7.2844172,
+      "lon": 80.6228465,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Lighthouse Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2874726,
+      "lon": 80.6232776,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dine-More"
+      }
+    },
+    {
+      "lat": 7.287438,
+      "lon": 80.6228672,
+      "tags": {
+        "addr:housenumber": "50a",
+        "addr:street": "George De Silva Mawatha",
+        "amenity": "restaurant",
+        "cuisine": "asian;local",
+        "name": "Lyon's Cafe",
+        "phone": "0813836111"
+      }
+    },
+    {
+      "lat": 7.2791685,
+      "lon": 80.6085934,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Vajirarama Mawatha",
+        "name": "Sisila Holiday Inn",
+        "phone": "0817901999",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2763803,
+      "lon": 80.6063289,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "33",
+        "addr:street": "Deveni Rajasinghe Mawatha",
+        "amenity": "restaurant",
+        "name": "Honey Pot Restaurant"
+      }
+    },
+    {
+      "lat": 7.2864925,
+      "lon": 80.6193587,
+      "tags": {
+        "name": "Kalutara Stores",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.28484,
+      "lon": 80.6187007,
+      "tags": {
+        "name": "Hotel Moon Beam",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2832365,
+      "lon": 80.6088262,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dj's Restaurant"
+      }
+    },
+    {
+      "lat": 7.2832952,
+      "lon": 80.6101484,
+      "tags": {
+        "name": "Earl's Regent",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2896593,
+      "lon": 80.6217314,
+      "tags": {
+        "name": "Riverdale Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.28665,
+      "lon": 80.6192065,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Vijayan's Take Away"
+      }
+    },
+    {
+      "lat": 7.2276064,
+      "lon": 80.6039699,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2489385,
+      "lon": 80.5896291,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sangabogama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2776709,
+      "lon": 80.6326368,
+      "tags": {
+        "amenity": "school",
+        "education": "school"
+      }
+    },
+    {
+      "lat": 7.2772961,
+      "lon": 80.6353079,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dharmarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2717383,
+      "lon": 80.631227,
+      "tags": {
+        "name": "Kandyan View Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2757949,
+      "lon": 80.6315034,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thapodaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2778936,
+      "lon": 80.6338545,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.2695018,
+      "lon": 80.6639318,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Divrum Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2853125,
+      "lon": 80.6493859,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Helga's Folly Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2840097,
+      "lon": 80.6490801,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Hillway Tour Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2837983,
+      "lon": 80.6494896,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Empire Valley Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2852054,
+      "lon": 80.6514199,
+      "tags": {
+        "addr:city": "Kandy",
+        "name": "Safe Heaven Family Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.204718,
+      "lon": 80.5893256,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kotakedeniya Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2025732,
+      "lon": 80.5985867,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pitawalawatta",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2031323,
+      "lon": 80.5978189,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pitawalawatta Paspilima Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2097742,
+      "lon": 80.5999989,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "New Elpitiya Temple"
+      }
+    },
+    {
+      "lat": 7.2140118,
+      "lon": 80.5970498,
+      "tags": {
+        "addr:city": "Gelioya",
+        "addr:street": "Gelioya-Buwelikada Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Janaranjanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2209451,
+      "lon": 80.5981742,
+      "tags": {
+        "addr:street": "peradeniya-Badulla Road",
+        "amenity": "place_of_worship",
+        "name": "Karamada Sri Weluwanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2405699,
+      "lon": 80.5933401,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Angunawela",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2438977,
+      "lon": 80.5797237,
+      "tags": {
+        "addr:street": "Penideniya-Daulagala Road",
+        "amenity": "place_of_worship",
+        "name": "Thotadeniya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2288946,
+      "lon": 80.5806957,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Handessa Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2181146,
+      "lon": 80.5848216,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thelambugala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2334385,
+      "lon": 80.5787459,
+      "tags": {
+        "highway": "bus_stop",
+        "local_ref": "Naranwala",
+        "name": "Naranwala"
+      }
+    },
+    {
+      "lat": 7.2318516,
+      "lon": 80.5774657,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Imbuldeniya"
+      }
+    },
+    {
+      "lat": 7.2342091,
+      "lon": 80.5801184,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Naranwala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2356247,
+      "lon": 80.5774335,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Imbuldeniya Sri Punyawardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2385179,
+      "lon": 80.5782841,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Alapalawala"
+      }
+    },
+    {
+      "lat": 7.2482126,
+      "lon": 80.5805402,
+      "tags": {
+        "addr:street": "Penideniya-Daulagala Road",
+        "amenity": "place_of_worship",
+        "name": "Hendeniya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2483483,
+      "lon": 80.5807602,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "YaleGoda"
+      }
+    },
+    {
+      "lat": 7.2511793,
+      "lon": 80.5795746,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Hendeniya"
+      }
+    },
+    {
+      "lat": 7.2549762,
+      "lon": 80.5896705,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Panideniya"
+      }
+    },
+    {
+      "lat": 7.2058581,
+      "lon": 80.5787736,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "menikbowa purana viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2400513,
+      "lon": 80.6686676,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Mahakade Junction"
+      }
+    },
+    {
+      "lat": 7.2196627,
+      "lon": 80.6137142,
+      "tags": {
+        "addr:street": "peradeniya - Deltota -Rikillagaskada Rd",
+        "amenity": "place_of_worship",
+        "name": "Galoya Thumbodimaluwa Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2236142,
+      "lon": 80.6121639,
+      "tags": {
+        "addr:street": "Sarasavigama Rd",
+        "name": "Amandari Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2255061,
+      "lon": 80.6135855,
+      "tags": {
+        "name": "Land's End, Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2239095,
+      "lon": 80.6134836,
+      "tags": {
+        "name": "Villa Mahakanda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2338267,
+      "lon": 80.6061424,
+      "tags": {
+        "name": "SR Villa Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2713184,
+      "lon": 80.6010957,
+      "tags": {
+        "addr:city": "Peradeniya",
+        "addr:street": "Gannoruwa Road",
+        "name": "Lady Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2593198,
+      "lon": 80.582702,
+      "tags": {
+        "addr:street": "Edanduwawa Rd",
+        "amenity": "place_of_worship",
+        "name": "Edanduwawa Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2742043,
+      "lon": 80.613119,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:postcode": "20000",
+        "name": "Royal Mall Supermarket",
+        "shop": "supermarket",
+        "survey:date": "2024-08-22",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 7.2865112,
+      "lon": 80.6401477,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Keerthi Sri Rajasinghe Mawatha",
+        "name": "Skyline Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2622094,
+      "lon": 80.6162871,
+      "tags": {
+        "addr:street": "Hill Crest Green Stage 2",
+        "name": "Pure Nature Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2856236,
+      "lon": 80.6456648,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Piumara Residence",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2618763,
+      "lon": 80.6080713,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2827691,
+      "lon": 80.6031026,
+      "tags": {
+        "addr:street": "Peradeniya - Halloluwa - Katugastota;Katugasthota-Halloluwa-Peradeniya road",
+        "amenity": "place_of_worship",
+        "name": "Sri Vimalabudhdhi Buddhist Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2820162,
+      "lon": 80.6035774,
+      "tags": {
+        "addr:street": "Peradeniya - Halloluwa - Katugastota;Katugasthota-Halloluwa-Peradeniya road",
+        "amenity": "place_of_worship",
+        "name": "Sri Maha Bodhi Simamalakaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2757478,
+      "lon": 80.5902736,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Peradeniya Lodge"
+      }
+    },
+    {
+      "lat": 7.2845919,
+      "lon": 80.6234795,
+      "tags": {
+        "amenity": "school",
+        "name": "Swarnamali Girl's College"
+      }
+    },
+    {
+      "lat": 7.2893,
+      "lon": 80.6296878,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Goods Shed",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2871629,
+      "lon": 80.6270715,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "school",
+        "name": "Viharamahadevi Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2866303,
+      "lon": 80.6270216,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "High School",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.2801437,
+      "lon": 80.6245258,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Suduhumpola Raja Maha Vihara Rd",
+        "amenity": "place_of_worship",
+        "name": "Suduhumpola Rjamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2770716,
+      "lon": 80.6176221,
+      "tags": {
+        "addr:city": "Mulgampola",
+        "addr:street": "Bodhiyangana Road",
+        "amenity": "place_of_worship",
+        "name": "Thumbomaluwa Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2726,
+      "lon": 80.6200864,
+      "tags": {
+        "addr:street": "Heerassagala Road",
+        "name": "Hotel Randholee Resorts",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2707109,
+      "lon": 80.6222241,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kaluwala"
+      }
+    },
+    {
+      "lat": 7.2706152,
+      "lon": 80.6218217,
+      "tags": {
+        "addr:street": "Heerassagala Road",
+        "amenity": "place_of_worship",
+        "name": "Kaluwana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2708227,
+      "lon": 80.6226693,
+      "tags": {
+        "addr:street": "Heerassagala Road",
+        "name": "Sun Rock Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2693527,
+      "lon": 80.6201442,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Elagolla"
+      }
+    },
+    {
+      "lat": 7.2680925,
+      "lon": 80.6183527,
+      "tags": {
+        "addr:street": "Godamunna Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Elagolla Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2642318,
+      "lon": 80.619122,
+      "tags": {
+        "addr:street": "Heerassagala Road",
+        "name": "Villa Shenandoah",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2633781,
+      "lon": 80.6185571,
+      "tags": {
+        "name": "Vista House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2618051,
+      "lon": 80.6177824,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bowalawatta"
+      }
+    },
+    {
+      "lat": 7.261938,
+      "lon": 80.6175799,
+      "tags": {
+        "addr:street": "Hill Crest Green Stage 2",
+        "amenity": "place_of_worship",
+        "name": "Sri Shantharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2628214,
+      "lon": 80.616853,
+      "tags": {
+        "addr:street": "Heerassagala Road",
+        "name": "The Change",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2634506,
+      "lon": 80.6165454,
+      "tags": {
+        "addr:street": "Hill Crest Green Stage 2",
+        "name": "Randholee Luxury Resort Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2623957,
+      "lon": 80.6152679,
+      "tags": {
+        "name": "Mount Pleasant Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2611138,
+      "lon": 80.6172726,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Heerassagala Road",
+        "amenity": "school",
+        "name": "Bowalawatta Sithumina Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2596325,
+      "lon": 80.6178385,
+      "tags": {
+        "addr:street": "Heerassagala Road",
+        "name": "Amali Home Stay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.256501,
+      "lon": 80.6183389,
+      "tags": {
+        "addr:city": "Kandy",
+        "name": "Melheim Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2551341,
+      "lon": 80.6193894,
+      "tags": {
+        "addr:city": "Kandy",
+        "name": "Mount Batten Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2529209,
+      "lon": 80.620064,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vajirarama International Buddhist Meditation Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2684625,
+      "lon": 80.6110956,
+      "tags": {
+        "addr:city": "Dangolla",
+        "addr:street": "Thakshila Lane",
+        "name": "Kings Leisure Residense",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2685125,
+      "lon": 80.6100065,
+      "tags": {
+        "addr:city": "Dangolla",
+        "addr:street": "Gamini Dissanayake Rd",
+        "name": "Lady Hill Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2678538,
+      "lon": 80.6098524,
+      "tags": {
+        "addr:city": "Dangolla",
+        "addr:street": "Gamini Dissanayake Rd",
+        "name": "Exquisite Holidays",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2675771,
+      "lon": 80.6117783,
+      "tags": {
+        "addr:city": "Dangolla",
+        "addr:street": "Gamini Dissanayake Road",
+        "name": "Hotel Sandakelum",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2660582,
+      "lon": 80.6130811,
+      "tags": {
+        "addr:city": "Dangolla",
+        "addr:street": "Hill Crest Green Stage 2",
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatha Bimbaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.264855,
+      "lon": 80.605123,
+      "tags": {
+        "addr:street": "Sri Amarawansa Mawatha",
+        "name": "Heights Inn Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2608265,
+      "lon": 80.6057957,
+      "tags": {
+        "addr:street": "Udaperadeniya Rd",
+        "amenity": "place_of_worship",
+        "name": "Udaperadeniya Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.257937,
+      "lon": 80.6060961,
+      "tags": {
+        "addr:street": "Upper Hantane Rd",
+        "name": "Hill Crest Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.268028,
+      "lon": 80.6025536,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Rajawatta",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2672419,
+      "lon": 80.6007069,
+      "tags": {
+        "addr:city": "Gatambe",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "place_of_worship",
+        "check_date": "2024-08-31",
+        "name": "Sri Rajopawanaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.267961,
+      "lon": 80.5978981,
+      "tags": {
+        "addr:city": "Gatambe",
+        "addr:street": "Colombo-Kandy Road",
+        "check_date": "2024-08-31",
+        "name": "Peradeniya Rest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.265722,
+      "lon": 80.595891,
+      "tags": {
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Galaha Junction",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.2656239,
+      "lon": 80.5960579,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Galaha Junction",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.2901646,
+      "lon": 80.6401524,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "12",
+        "addr:street": "Sangaraja Mawatha",
+        "amenity": "restaurant",
+        "name": "Lake Classical Guesthouse",
+        "phone": "+94812232315",
+        "tourism": "guest_house",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 7.2895698,
+      "lon": 80.6380621,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Salika Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2886698,
+      "lon": 80.6384036,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Castle Hill Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2889123,
+      "lon": 80.6390029,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "63",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Kandy Supreme",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2893347,
+      "lon": 80.6388464,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "McLeod Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2872461,
+      "lon": 80.6381336,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Keerthi Sri Rajasinghe Mawatha",
+        "name": "The Peak Residence",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2875307,
+      "lon": 80.6393335,
+      "tags": {
+        "addr:city": "kandy",
+        "addr:street": "Keerthi Sri Rajasinghe Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Nagawimanakanda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2867692,
+      "lon": 80.6417303,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Kings Ridge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2872461,
+      "lon": 80.6427823,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "McLeod Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2862079,
+      "lon": 80.6434375,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Blinkbonnie Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2851998,
+      "lon": 80.6434435,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Senani Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2844555,
+      "lon": 80.6438098,
+      "tags": {
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Nethmi Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.284796,
+      "lon": 80.6442176,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Serene Gardens",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2849527,
+      "lon": 80.6447827,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Wakara Watta Rd",
+        "name": "Days Inn-Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2843231,
+      "lon": 80.6446461,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Wakara Watta Rd",
+        "name": "Kandy Shady Trees Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2843074,
+      "lon": 80.6440291,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Forest Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2846658,
+      "lon": 80.6455976,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "The Kandy House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2857292,
+      "lon": 80.6465262,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "Lake Mount",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2854214,
+      "lon": 80.6466078,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Mawatha",
+        "name": "The Kandyan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2886665,
+      "lon": 80.6443839,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Sangaraja Mawatha",
+        "name": "King's Park",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.288621,
+      "lon": 80.6440275,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "32/2",
+        "addr:street": "Sangaraja Mawatha",
+        "name": "Ambis Inn",
+        "phone": "0812229104",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2885987,
+      "lon": 80.6436939,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Dharmadasa Weeraratne Mawatha",
+        "name": "Fortuna Heritage Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2893593,
+      "lon": 80.6436345,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hotel Suisse",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2890222,
+      "lon": 80.6428679,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Cyril Jayasundara Mawatha",
+        "name": "Lake Round Residence",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2891521,
+      "lon": 80.6424859,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Saranankara Road",
+        "name": "Lake Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.289556,
+      "lon": 80.6430703,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Sangaraja Mawatha",
+        "name": "Lake Front Homestay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2853176,
+      "lon": 80.647742,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Rajapihilla Terrace Road",
+        "name": "Royal Tourist Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2828353,
+      "lon": 80.6551793,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Monastery Of Blessed Sacrament Fathers",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2802297,
+      "lon": 80.6544569,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Berewetts",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2798243,
+      "lon": 80.6564036,
+      "tags": {
+        "addr:city": "Ampitiya",
+        "addr:street": "Meekanuwa Road",
+        "amenity": "place_of_worship",
+        "name": "Saint Mary's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2835522,
+      "lon": 80.6232789,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Regal",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2830777,
+      "lon": 80.6229067,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "restaurant",
+        "name": "Five Five Nine Restaurent"
+      }
+    },
+    {
+      "lat": 7.2821607,
+      "lon": 80.6214253,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "university",
+        "name": "American College of Higher Education"
+      }
+    },
+    {
+      "lat": 7.2821692,
+      "lon": 80.6206753,
+      "tags": {
+        "amenity": "university",
+        "name": "Sri Lanka Institute of Marketing"
+      }
+    },
+    {
+      "lat": 7.2809674,
+      "lon": 80.6202185,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Suwasewana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2802581,
+      "lon": 80.6193181,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dhanasiri",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2865877,
+      "lon": 80.6290267,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Sambodhi Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Sambodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2700953,
+      "lon": 80.6047583,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Dangolla Junction"
+      }
+    },
+    {
+      "lat": 7.2747373,
+      "lon": 80.6114607,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-12",
+        "name": "The Pentecostal Mission",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2784718,
+      "lon": 80.6168677,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "school",
+        "check_date": "2025-07-12",
+        "name": "Seethadevi Balika - Kandy"
+      }
+    },
+    {
+      "lat": 7.2819521,
+      "lon": 80.6215994,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "hospital",
+        "name": "Suwasewana Hospital"
+      }
+    },
+    {
+      "lat": 7.2823857,
+      "lon": 80.6216812,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "university",
+        "name": "Gateway Graduate School"
+      }
+    },
+    {
+      "lat": 7.2828133,
+      "lon": 80.6222768,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "school",
+        "name": "Dharamwickrama girls college"
+      }
+    },
+    {
+      "lat": 7.2880419,
+      "lon": 80.6424538,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Mango Garden"
+      }
+    },
+    {
+      "lat": 7.2676394,
+      "lon": 80.600071,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Peradeniya Hospital",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.265258,
+      "lon": 80.5893273,
+      "tags": {
+        "check_date": "2024-09-01",
+        "name": "Cargills Food City Express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2878554,
+      "lon": 80.6421784,
+      "tags": {
+        "addr:housenumber": "22/3",
+        "addr:street": "Saranankara Road",
+        "internet_access": "wlan",
+        "name": "Kandy Waters Hotel",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2544568,
+      "lon": 80.6044824,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Upper Hantane Road",
+        "name": "Linwood Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.270484,
+      "lon": 80.6163798,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Galkotuwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2869698,
+      "lon": 80.642718,
+      "tags": {
+        "addr:housenumber": "52",
+        "addr:street": "Rajapihilla Mawatha",
+        "name:de": "Sandamadala Inn",
+        "name:en": "Sandamadala Inn",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/sandamadala-inn.html?aid=942273"
+      }
+    },
+    {
+      "lat": 7.2060248,
+      "lon": 80.5869771,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Muruthagahamula"
+      }
+    },
+    {
+      "lat": 7.2062909,
+      "lon": 80.5896083,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Angalathenna",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2748512,
+      "lon": 80.6380246,
+      "tags": {
+        "addr:city": "Hanthana",
+        "name": "Kandy Highland",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2744356,
+      "lon": 80.6388873,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Hantana Housing Scheme Road (Upper Tank Road)",
+        "name": "Jungle Breeze Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2749062,
+      "lon": 80.6389613,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Forest Road",
+        "name": "Forest View Holiday Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2753586,
+      "lon": 80.638912,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Forest Road",
+        "name": "The Grand Cats",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2754869,
+      "lon": 80.6383635,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Hill Road",
+        "name": "Hanthana Holiday Rooms",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2758781,
+      "lon": 80.6387641,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Forest Road",
+        "name": "Greenwood Edge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2740199,
+      "lon": 80.637926,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Hantana Housing Scheme Road (Upper Tank Road)",
+        "name": "Dunumadalawa Villas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2753341,
+      "lon": 80.6371989,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "8th Lane",
+        "name": "Blossom Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2757559,
+      "lon": 80.6367121,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Hantana Housing Scheme Road (Upper Tank Road)",
+        "name": "Hanthana Home Stay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2760554,
+      "lon": 80.6378213,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Forest Road",
+        "name": "Monarch Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2765933,
+      "lon": 80.6364163,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Hantana Housing Scheme Road (Upper Tank Road)",
+        "name": "Bee View Home Stay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2774551,
+      "lon": 80.6364718,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:street": "Forest Road",
+        "name": "Granny's Forest Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2896704,
+      "lon": 80.6546211,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Hewaheta Road",
+        "name": "Sky Pavilion",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2784602,
+      "lon": 80.6076841,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Vajirarama Mawatha",
+        "name": "Kandy Hill Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2784418,
+      "lon": 80.6137506,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Primrose Road",
+        "name": "La Colina",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2681368,
+      "lon": 80.6617916,
+      "tags": {
+        "addr:city": "Ampitiya",
+        "name": "Amrita Homestay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2888283,
+      "lon": 80.6104983,
+      "tags": {
+        "addr:street": "Srimath Kudaratwatte Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhimalu Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2539762,
+      "lon": 80.618287,
+      "tags": {
+        "addr:city": "Kandy",
+        "name": "Casa Blanco",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2657542,
+      "lon": 80.591686,
+      "tags": {
+        "check_date": "2024-08-31",
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2729539,
+      "lon": 80.6241707,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Richmond Hills",
+        "name": "Richmond Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2808915,
+      "lon": 80.6200033,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.2574114,
+      "lon": 80.5892387,
+      "tags": {
+        "amenity": "school",
+        "name": "Peradeniya Hindu College"
+      }
+    },
+    {
+      "lat": 7.2143293,
+      "lon": 80.5969192,
+      "tags": {
+        "addr:city": "Gelioya",
+        "addr:country": "LK",
+        "addr:postcode": "20460",
+        "addr:street": "Gelioya-Buwelikada Road",
+        "amenity": "restaurant",
+        "name": "DIBA Restaurant"
+      }
+    },
+    {
+      "lat": 7.2685517,
+      "lon": 80.5787172,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Owala Junction",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.268662,
+      "lon": 80.5805065,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kehelwala",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.2618267,
+      "lon": 80.586072,
+      "tags": {
+        "amenity": "school",
+        "name": "Peradeniya Central College"
+      }
+    },
+    {
+      "lat": 7.2878494,
+      "lon": 80.6154161,
+      "tags": {
+        "addr:housenumber": "31/46",
+        "addr:street": "Riverdale Gard\u00adens Aniwatta",
+        "internet_access": "wlan",
+        "name": "The Peppermint",
+        "name:en": "The Peppermint Homestay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2680042,
+      "lon": 80.5971579,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.274134,
+      "lon": 80.607622,
+      "tags": {
+        "check_date": "2025-07-12",
+        "name": "Oak Ray",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2744611,
+      "lon": 80.6368218,
+      "tags": {
+        "addr:city": "Hanthana",
+        "addr:housenumber": "13/B2/36/2,",
+        "addr:postcode": "20000",
+        "addr:street": "8th Lane",
+        "internet_access:fee": "no",
+        "name": "Dove Rest",
+        "phone": "0754515743",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2764222,
+      "lon": 80.6258154,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:postcode": "20000",
+        "addr:street": "Richmond Hill",
+        "check_date": "2024-12-12",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kandyan View Holiday Bungalow",
+        "rooms": "10",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2877793,
+      "lon": 80.6285321,
+      "tags": {
+        "addr:street": "Peradeniya Road",
+        "internet_access": "wlan",
+        "name": "Hotel Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.281947,
+      "lon": 80.6231992,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.2844934,
+      "lon": 80.6267786,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2796319,
+      "lon": 80.6200664,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2880917,
+      "lon": 80.6316153,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2671468,
+      "lon": 80.6218983,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.2621371,
+      "lon": 80.5964774,
+      "tags": {
+        "addr:city": "Peradeniya",
+        "addr:street": "Old Galaha Road",
+        "amenity": "restaurant",
+        "check_date": "2024-08-31",
+        "name": "Hela Bojun Hala - Sarasavi Uyana"
+      }
+    },
+    {
+      "lat": 7.2465434,
+      "lon": 80.6502109,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ratemulla"
+      }
+    },
+    {
+      "lat": 7.2617031,
+      "lon": 80.6704013,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Elhena Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2475785,
+      "lon": 80.6585352,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pooliyadda"
+      }
+    },
+    {
+      "lat": 7.2868632,
+      "lon": 80.6055415,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kohoalan Junction"
+      }
+    },
+    {
+      "lat": 7.2898445,
+      "lon": 80.6318676,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Route 662",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2580426,
+      "lon": 80.5926696,
+      "tags": {
+        "name:en": "Circuit Bungalow Peradeniya",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2855675,
+      "lon": 80.6259798,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "391",
+        "addr:postcode": "20000",
+        "addr:street": "Colombo - Kandy Rd,",
+        "amenity": "restaurant",
+        "name": "Grand Cafe",
+        "opening_hours": "8:30\u202fAM-10\u202fPM",
+        "phone": "0812222126"
+      }
+    },
+    {
+      "lat": 7.2858102,
+      "lon": 80.6286982,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.2854676,
+      "lon": 80.6284944,
+      "tags": {
+        "air_conditioning": "no",
+        "amenity": "kitchen",
+        "bar": "no",
+        "drinking_water": "no",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Mount View Inn",
+        "swimming_pool": "no",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 7.2850143,
+      "lon": 80.6247394,
+      "tags": {
+        "amenity": "university",
+        "name": "Oceas College Kandy"
+      }
+    },
+    {
+      "lat": 7.2853442,
+      "lon": 80.6256729,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "447",
+        "addr:postcode": "20000",
+        "addr:street": "Peradeniya Rd",
+        "amenity": "university",
+        "internet_access": "yes",
+        "name": "ESOFT Metro Campus Kandy",
+        "website": "https://esoft.lk/"
+      }
+    },
+    {
+      "lat": 7.2888497,
+      "lon": 80.6562075,
+      "tags": {
+        "addr:housenumber": "229",
+        "addr:street": "Royal Way",
+        "internet_access": "wlan",
+        "name:en": "Cirute' Talwatte Kandy Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2803248,
+      "lon": 80.6546383,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Beraverts Ryl College"
+      }
+    },
+    {
+      "lat": 7.2798789,
+      "lon": 80.6190254,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "burger;chinese;diner;fish;indian;coffee_shop;local;pasta",
+        "name:en": "OpenRice"
+      }
+    },
+    {
+      "lat": 7.2851098,
+      "lon": 80.6479569,
+      "tags": {
+        "name": "Vino Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2684899,
+      "lon": 80.6216738,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Heerassagala Jummah Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.2883564,
+      "lon": 80.628939,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo - Kandy Road",
+        "amenity": "restaurant",
+        "cuisine": "curry;indian",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Vegetarian Restaurant",
+        "opening_hours": "Mo-Su 06:30-22:00"
+      }
+    },
+    {
+      "lat": 7.2898636,
+      "lon": 80.6215308,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2862785,
+      "lon": 80.6497617,
+      "tags": {
+        "addr:city": "Kandy",
+        "name": "Lanka Holiday Villas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2747265,
+      "lon": 80.6391212,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "No.13/B/14/1,",
+        "addr:street": "Hanthana, Housing Scheme Rd, Forest road, Hill Road 1st Lane,",
+        "brand": "Grand Hanthana",
+        "email": "info@grandhanthana.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "yes",
+        "name": "The Grand Hanthana",
+        "phone": "+94814505385",
+        "rooms": "6",
+        "smoking": "outside",
+        "stars": "4",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2109594,
+      "lon": 80.6162408,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vishakha Dharma Asramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.257575,
+      "lon": 80.6339179,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2898882,
+      "lon": 80.5842501,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2080536,
+      "lon": 80.6042004,
+      "tags": {
+        "amenity": "school",
+        "name": "Kalugamuwa Central College"
+      }
+    },
+    {
+      "lat": 7.2851338,
+      "lon": 80.6341539,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2346975,
+      "lon": 80.6107758,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2191443,
+      "lon": 80.6269955,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2458128,
+      "lon": 80.591233,
+      "tags": {
+        "name": "Pinnacle Fine Accommodation",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2688871,
+      "lon": 80.664137,
+      "tags": {
+        "addr:city": "Ampitiya",
+        "addr:postcode": "20000",
+        "addr:street": "Kandy-Ampitiya-Thalatuoya Road",
+        "amenity": "school",
+        "name": "Siddhartha Maha Vidyalaya",
+        "phone": "+94812242066"
+      }
+    },
+    {
+      "lat": 7.2884713,
+      "lon": 80.6288775,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo - Kandy Road",
+        "amenity": "restaurant",
+        "name": "The Urban Grub"
+      }
+    },
+    {
+      "lat": 7.2736232,
+      "lon": 80.6096353,
+      "tags": {
+        "addr:housenumber": "921",
+        "addr:street": "Peradeniya Road",
+        "amenity": "restaurant",
+        "name:en": "Sala Thai Restaurant"
+      }
+    },
+    {
+      "lat": 7.287428,
+      "lon": 80.6424375,
+      "tags": {
+        "addr:street": "Saranankara Road",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Ivy Banks restaurant"
+      }
+    },
+    {
+      "lat": 7.2773995,
+      "lon": 80.6299871,
+      "tags": {
+        "name": "Nature's Nest Homestay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2878245,
+      "lon": 80.6389231,
+      "tags": {
+        "addr:housenumber": "11",
+        "addr:postcode": "20000",
+        "addr:street": "Keerthi Sri Rajasinghe Mawatha",
+        "internet_access": "wlan",
+        "name:en": "No.11 Uptown EconoStay",
+        "name:nl": "No.11 Uptown EconoStay",
+        "phone": "+94 71 359 9730",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2893897,
+      "lon": 80.6375658,
+      "tags": {
+        "name": "Lakewood Residence",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2890735,
+      "lon": 80.6486283,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "9",
+        "addr:postcode": "20000",
+        "addr:street": "Dharmaraja Mawatha",
+        "email": "ninekandysl@yahoo.com",
+        "name": "Villa Nine Kandy",
+        "phone": "+94 77 275 2030",
+        "tourism": "hotel",
+        "website": "http://villaninekandy.com/"
+      }
+    },
+    {
+      "lat": 7.2877108,
+      "lon": 80.6239289,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Balaji dosai"
+      }
+    },
+    {
+      "lat": 7.2155177,
+      "lon": 80.6102246,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.2249188,
+      "lon": 80.6150687,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2203313,
+      "lon": 80.6215677,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2758608,
+      "lon": 80.5936029,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Shuttle stop"
+      }
+    },
+    {
+      "lat": 7.2680859,
+      "lon": 80.5976957,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-08-22",
+        "name": "Peradenya Restaurant"
+      }
+    },
+    {
+      "lat": 7.2739388,
+      "lon": 80.6131873,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-08-22",
+        "name": "Royal Mall Food Court"
+      }
+    },
+    {
+      "lat": 7.2751812,
+      "lon": 80.6166044,
+      "tags": {
+        "amenity": "school",
+        "name": "Lumbini Royal College"
+      }
+    },
+    {
+      "lat": 7.2872051,
+      "lon": 80.6217379,
+      "tags": {
+        "addr:housenumber": "100/8",
+        "addr:street": "Kandy View Garden Road",
+        "email": "info@secretviewkandy.com",
+        "internet_access": "wlan",
+        "name:en": "Secret View Kandy",
+        "operator": "Chamara Bandara",
+        "phone": "0776148585",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2874008,
+      "lon": 80.6174098,
+      "tags": {
+        "addr:city": "Anniwatta Kandy",
+        "addr:housenumber": "No 36/10",
+        "addr:postcode": "20000",
+        "addr:street": "Pitakanda Road",
+        "internet_access": "wlan",
+        "name": "Lake House Residence",
+        "rooms": "1",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2887602,
+      "lon": 80.6283389,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "George De Silva Mawatha",
+        "name": "Hotel Hilltop Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2695695,
+      "lon": 80.5971282,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Shuttle bus station"
+      }
+    },
+    {
+      "lat": 7.2473693,
+      "lon": 80.5970043,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Peradeniya University Health Centre"
+      }
+    },
+    {
+      "lat": 7.2800796,
+      "lon": 80.668576,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Fatima",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2899215,
+      "lon": 80.6482717,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Dental Health Center - Dharmaraja Colleg"
+      }
+    },
+    {
+      "lat": 7.2597368,
+      "lon": 80.590843,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2892777,
+      "lon": 80.6299041,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Colombo - Kandy Road",
+        "amenity": "restaurant",
+        "name:en": "Madhavan's"
+      }
+    },
+    {
+      "lat": 7.2217278,
+      "lon": 80.5837752,
+      "tags": {
+        "name": "Elegant Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.260323,
+      "lon": 80.6183895,
+      "tags": {
+        "name": "Amaya Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.234837,
+      "lon": 80.6056151,
+      "tags": {
+        "addr:city": "Peradeniya",
+        "addr:housenumber": "127",
+        "addr:postcode": "20400",
+        "addr:street": "Mowbray Road, Mahakanda, Hundagala",
+        "brand": "Hotel",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Lotus Villa Kandy",
+        "rooms": "5",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2777657,
+      "lon": 80.6272857,
+      "tags": {
+        "addr:housenumber": "88",
+        "name": "Kandy Grand Paradise",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/kandy-grand-paradise.en-gb.html"
+      }
+    },
+    {
+      "lat": 7.2239856,
+      "lon": 80.5784987,
+      "tags": {
+        "addr:hamlet": "Handessa",
+        "amenity": "place_of_worship",
+        "name": "Dumpela Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.267774,
+      "lon": 80.6661378,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2782398,
+      "lon": 80.6117725,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wajiraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2213567,
+      "lon": 80.5889493,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bogahagoda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2619613,
+      "lon": 80.6364287,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:hamlet": "Hanatana",
+        "addr:street": "Hantana Road",
+        "amenity": "place_of_worship",
+        "name": "Sandagiri Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2622303,
+      "lon": 80.6368251,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sandagiri Maha Seya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.27382,
+      "lon": 80.625771,
+      "tags": {
+        "District": "Kandy District",
+        "amenity": "place_of_worship",
+        "city": "Kandy",
+        "name": "Kandy Summit Meditation Centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2550732,
+      "lon": 80.5897643,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bhodirukkarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2554699,
+      "lon": 80.606764,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.2022903,
+      "lon": 80.6499875,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nilambe Buddhist Meditation Centre",
+        "religion": "buddhist",
+        "website": "https://www.nilambe.net/"
+      }
+    },
+    {
+      "lat": 7.2066528,
+      "lon": 80.586519,
+      "tags": {
+        "addr:city": "Muruthagahamula",
+        "addr:postcode": "20526",
+        "amenity": "place_of_worship",
+        "name": "Masjidur Rahman Jummah Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.2086808,
+      "lon": 80.5785642,
+      "tags": {
+        "addr:city": "Daskara",
+        "amenity": "school",
+        "grades": "1 to 13",
+        "name": "D. B. Wijethunga National School",
+        "operator": "Government",
+        "operator:type": "government",
+        "website": "http://kdbwns.sch.lk/"
+      }
+    },
+    {
+      "lat": 7.2603048,
+      "lon": 80.5879743,
+      "tags": {
+        "addr:city": "Peradeniya",
+        "addr:street": "Galwala Road",
+        "amenity": "place_of_worship",
+        "name": "Gangodadeniya Kurukude Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2813578,
+      "lon": 80.670387,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Seven Eleven Restaurent - Akku",
+        "phone": "+94770773549"
+      }
+    },
+    {
+      "lat": 7.2858279,
+      "lon": 80.661441,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Paprica",
+        "phone": "+94774978512"
+      }
+    },
+    {
+      "lat": 7.2514353,
+      "lon": 80.640146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uduwela Lunuwella Sro Sobhitharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2604751,
+      "lon": 80.650329,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2805713,
+      "lon": 80.6698341,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Kandy - Mahiyanganaya Road",
+        "amenity": "restaurant",
+        "name": "Airavata"
+      }
+    },
+    {
+      "lat": 7.2758269,
+      "lon": 80.6568364,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Kandy - Ampitiya - Thalatuoya Road",
+        "amenity": "restaurant",
+        "name": "Golden Crown"
+      }
+    },
+    {
+      "lat": 7.2834128,
+      "lon": 80.6519655,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Kandy - Ampitiya - Thalatuoya Road",
+        "amenity": "restaurant",
+        "name": "Olivia"
+      }
+    },
+    {
+      "lat": 7.2571006,
+      "lon": 80.6640011,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Ampitiya Road",
+        "amenity": "place_of_worship",
+        "name": "Thapowanaya temple"
+      }
+    },
+    {
+      "lat": 7.2565935,
+      "lon": 80.651781,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Ampitiya - Galthenna - Ratemulla Road",
+        "amenity": "place_of_worship",
+        "name": "Thalapitiya temple"
+      }
+    },
+    {
+      "lat": 7.2734056,
+      "lon": 80.5918036,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Gannoruwa Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Suwasevana hospital"
+      }
+    },
+    {
+      "lat": 7.2638585,
+      "lon": 80.6038946,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Udaperadeniya Rd",
+        "amenity": "restaurant",
+        "name": "Misty hills"
+      }
+    },
+    {
+      "lat": 7.2729994,
+      "lon": 80.6248909,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Kaluwala Road",
+        "amenity": "restaurant",
+        "name": "Skyloft"
+      }
+    },
+    {
+      "lat": 7.2762919,
+      "lon": 80.5929752,
+      "tags": {
+        "addr:city": "peradeniya",
+        "addr:street": "River Drive",
+        "amenity": "restaurant",
+        "name": "Wild life circuit bangalow"
+      }
+    },
+    {
+      "lat": 7.2863717,
+      "lon": 80.6602908,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.2145161,
+      "lon": 80.5947284,
+      "tags": {
+        "amenity": "school",
+        "name": "Gelioya School"
+      }
+    },
+    {
+      "lat": 7.265607,
+      "lon": 80.5838528,
+      "tags": {
+        "name": "Coorp City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2651413,
+      "lon": 80.5887851,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2647459,
+      "lon": 80.5928729,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Peradeniya",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.2026984,
+      "lon": 80.6631909,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "name": "Galaha Group",
+        "name:si": "Galaha Waththa",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.2027684,
+      "lon": 80.6639408,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ashokaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2029885,
+      "lon": 80.6628207,
+      "tags": {
+        "addr:city": "Galaha",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medical Office of Health",
+        "operator": "Ministry of Health, Nutrition and Indigenous Medicine",
+        "operator:wikipedia": "en:Ministry of Health, Nutrition and Indigenous Medicine"
+      }
+    },
+    {
+      "lat": 7.2235284,
+      "lon": 80.6686231,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhirukkaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2868477,
+      "lon": 80.6476824,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Children's park",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2876687,
+      "lon": 80.645841,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mahamaya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2875984,
+      "lon": 80.6451526,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Lakeside",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2853072,
+      "lon": 80.6155119,
+      "tags": {
+        "addr:housenumber": "20",
+        "addr:street": "George E. De. Silva Mawatha",
+        "name:de": "Remli Villa - die richtige Adresse",
+        "name:en": "Remli Villa - the real place",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2150444,
+      "lon": 80.5980446,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.2762535,
+      "lon": 80.5814921,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2564553,
+      "lon": 80.633698,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.2818396,
+      "lon": 80.6694821,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Earl Regency"
+      }
+    },
+    {
+      "lat": 7.2879629,
+      "lon": 80.6426743,
+      "tags": {
+        "name": "Vendol Lake resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2563934,
+      "lon": 80.5891141,
+      "tags": {
+        "bus": "yes",
+        "description": "After 6pm you may walk toward Peradeniya Bus Terminus located at the Peradeniya Jct. around 1 km North-East.",
+        "highway": "bus_stop",
+        "name": "Peradeniya Station",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2091851,
+      "lon": 80.6220198,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2028977,
+      "lon": 80.6319687,
+      "tags": {
+        "addr:city": "Wariyagala",
+        "amenity": "place_of_worship",
+        "name": "Holly Trinity Church",
+        "religion": "christian",
+        "website": "https://dioceseofkurunegala.com"
+      }
+    },
+    {
+      "lat": 7.2869555,
+      "lon": 80.6710237,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "network": "621",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.2227525,
+      "lon": 80.6253994,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uplands Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.2033765,
+      "lon": 80.6311703,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.2092434,
+      "lon": 80.6260024,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Haloya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2206035,
+      "lon": 80.6063506,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2679576,
+      "lon": 80.602201,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Temple and stupa"
+      }
+    },
+    {
+      "lat": 7.2718728,
+      "lon": 80.6052938,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2805834,
+      "lon": 80.621448,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Small stupa"
+      }
+    },
+    {
+      "lat": 7.2817177,
+      "lon": 80.6230227,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Small temple"
+      }
+    },
+    {
+      "lat": 7.2675696,
+      "lon": 80.5965148,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.2680323,
+      "lon": 80.5969985,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.213054,
+      "lon": 80.5972218,
+      "tags": {
+        "amenity": "place_of_worship",
+        "description": "Temple and stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2883838,
+      "lon": 80.6394475,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Senani Restaurant"
+      }
+    },
+    {
+      "lat": 7.2875348,
+      "lon": 80.6363587,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.2737252,
+      "lon": 80.6251751,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2830578,
+      "lon": 80.6229733,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.2873407,
+      "lon": 80.6465179,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "hideout lounge"
+      }
+    },
+    {
+      "lat": 7.2868338,
+      "lon": 80.6409444,
+      "tags": {
+        "name": "hotel cassendra",
+        "name:en": "hotel cassendra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.281883,
+      "lon": 80.6216691,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Hospital"
+      }
+    },
+    {
+      "lat": 7.2817247,
+      "lon": 80.6206084,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 7.2793476,
+      "lon": 80.6232741,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2855773,
+      "lon": 80.6446273,
+      "tags": {
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "check_date": "2025-01-27",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name:en": "Grand Serendib",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "reservation": "yes",
+        "stars": "4",
+        "swimming_pool": "yes",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 7.2728567,
+      "lon": 80.6071591,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Aloy Restaurant",
+        "survey:date": "2024-08-23"
+      }
+    },
+    {
+      "lat": 7.2844505,
+      "lon": 80.6233383,
+      "tags": {
+        "amenity": "school",
+        "name": "Siddi Lebbe College"
+      }
+    },
+    {
+      "lat": 7.2864229,
+      "lon": 80.6373016,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Tuck Tuck Stop for Kandy Krush"
+      }
+    },
+    {
+      "lat": 7.2857237,
+      "lon": 80.6261285,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "My Momo"
+      }
+    },
+    {
+      "lat": 7.2739808,
+      "lon": 80.6203818,
+      "tags": {
+        "name": "Feel Home Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2800182,
+      "lon": 80.6210316,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Udaya hotel"
+      }
+    },
+    {
+      "lat": 7.28817,
+      "lon": 80.6424527,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mango Garden"
+      }
+    },
+    {
+      "lat": 7.287806,
+      "lon": 80.6424907,
+      "tags": {
+        "addr:housenumber": "56",
+        "addr:street": "Saranankara Road",
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizzeria Vito",
+        "phone": "0774549000"
+      }
+    },
+    {
+      "lat": 7.2774736,
+      "lon": 80.616077,
+      "tags": {
+        "name": "Royal Kandyan",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2732504,
+      "lon": 80.6249087,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Skyloft",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2857296,
+      "lon": 80.6284602,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "level": "0",
+        "name": "Lemon Tree",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 7.2890294,
+      "lon": 80.638868,
+      "tags": {
+        "name": "Ceyloni Lake Residency",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2884825,
+      "lon": 80.6395765,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Oak Ray"
+      }
+    },
+    {
+      "lat": 7.2408996,
+      "lon": 80.5931676,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2873798,
+      "lon": 80.6372547,
+      "tags": {
+        "addr:housenumber": "12",
+        "addr:postcode": "20000",
+        "addr:street": "Reservoir Road",
+        "internet_access": "wlan",
+        "name": "Shani Residence Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2894041,
+      "lon": 80.642328,
+      "tags": {
+        "name": "Highest View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2866584,
+      "lon": 80.6469253,
+      "tags": {
+        "name": "Shangri-La Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.290032,
+      "lon": 80.6463138,
+      "tags": {
+        "name": "Shady Nook Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2858556,
+      "lon": 80.64516,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Mahamaya Mawatha",
+        "name": "Starry Boutique",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2887145,
+      "lon": 80.6559073,
+      "tags": {
+        "addr:street": "Kandy - Hewaheta Road",
+        "check_date": "2026-03-20",
+        "internet_access": "wlan",
+        "name": "Serenity Hill Oasis",
+        "phone": "+94 (77) 564 7779",
+        "tourism": "hotel",
+        "website": "https://booking.com/"
+      }
+    },
+    {
+      "lat": 7.2563243,
+      "lon": 80.5962842,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1.5_to_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "building:number": "2",
+        "name": "WUS Canteen",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped",
+        "shop": "Canteen"
+      }
+    },
+    {
+      "lat": 7.2588819,
+      "lon": 80.5961975,
+      "tags": {
+        "amenity": "university",
+        "building": "yes",
+        "building:foundation_height": "more_than_3",
+        "building:levels": "03",
+        "building:material": "plaster",
+        "building:number": "07",
+        "name": "Department of Geology",
+        "roof:material": "amana",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.2674104,
+      "lon": 80.5810631,
+      "tags": {
+        "addr:city": "Kiribathkumbura",
+        "addr:housename": "No 178/5",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "The Crib"
+      }
+    },
+    {
+      "lat": 7.2901786,
+      "lon": 80.6478543,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Dharmaraja College Auditorium"
+      }
+    },
+    {
+      "lat": 7.2899206,
+      "lon": 80.6188737,
+      "tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Old Lanka \u00b5Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2146532,
+      "lon": 80.5949244,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2142027,
+      "lon": 80.5951701,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.214468,
+      "lon": 80.5949074,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2142242,
+      "lon": 80.5947684,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2143164,
+      "lon": 80.5951311,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2572596,
+      "lon": 80.6031153,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:material": "plaster",
+        "name": "Hindu Kovil",
+        "religion": "hindu",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.2563167,
+      "lon": 80.5999722,
+      "tags": {
+        "amenity": "university",
+        "building": "residential",
+        "building:foundation_height": "1.5_to_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Quarters",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.2600133,
+      "lon": 80.5965289,
+      "tags": {
+        "building": "yes",
+        "name": "Sarasavi Uyana",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.2894743,
+      "lon": 80.6322495,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "SWRD Bandaranaike Mawatha",
+        "building": "train_station",
+        "layer": "1",
+        "name": "Kandy",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q6361715"
+      }
+    },
+    {
+      "lat": 7.2543893,
+      "lon": 80.5916901,
+      "tags": {
+        "amenity": "university",
+        "name": "Faculty of Engineering, University of Peradeniya",
+        "note": "borders are approximate",
+        "wikidata": "Q5428954",
+        "wikipedia": "en:Faculty of Engineering, University of Peradeniya"
+      }
+    },
+    {
+      "lat": 7.2742758,
+      "lon": 80.6131025,
+      "tags": {
+        "addr:street": "William Gopallawa Mawatha",
+        "building": "yes",
+        "name": "Royal Mall",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.288618,
+      "lon": 80.6430682,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "30",
+        "addr:postcode": "20000",
+        "addr:street": "Sangaraja Mawatha",
+        "building": "yes",
+        "layer": "1",
+        "name": "Hotel Suisse",
+        "phone": "0812233024",
+        "tourism": "hotel",
+        "website": "https://hotelsuisse.lk/",
+        "wikidata": "Q28402401",
+        "wikipedia": "en:Hotel Suisse"
+      }
+    },
+    {
+      "lat": 7.2724851,
+      "lon": 80.6151047,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Meda Bowala Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2870379,
+      "lon": 80.6262189,
+      "tags": {
+        "amenity": "school",
+        "name": "Girl's High School"
+      }
+    },
+    {
+      "lat": 7.2873229,
+      "lon": 80.6356748,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Kandy Chest Clinic"
+      }
+    },
+    {
+      "lat": 7.2797848,
+      "lon": 80.5942251,
+      "tags": {
+        "amenity": "school",
+        "name": "Ranabima Royal College"
+      }
+    },
+    {
+      "lat": 7.2167757,
+      "lon": 80.5873821,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Nikatenna Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2166207,
+      "lon": 80.5873614,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2165723,
+      "lon": 80.5876315,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2166005,
+      "lon": 80.5877162,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2869889,
+      "lon": 80.641925,
+      "tags": {
+        "building": "yes",
+        "name": "Amanda Hills",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2889693,
+      "lon": 80.6292047,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2136,
+      "lon": 80.5926552,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Gelioya Hospital"
+      }
+    },
+    {
+      "lat": 7.269507,
+      "lon": 80.5770066,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Swarnajothi National School"
+      }
+    },
+    {
+      "lat": 7.2549263,
+      "lon": 80.6211241,
+      "tags": {
+        "addr:city": "Kandy",
+        "building": "hotel",
+        "name": "Spring Hill Estate and Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2879063,
+      "lon": 80.6465917,
+      "tags": {
+        "amenity": "school",
+        "leisure": "playground",
+        "name": "Mahamaya College Ground",
+        "surface": "grass"
+      }
+    },
+    {
+      "lat": 7.2721957,
+      "lon": 80.6073602,
+      "tags": {
+        "addr:street": "William Gopallawa Mawatha",
+        "amenity": "school",
+        "name": "Mahanama College"
+      }
+    },
+    {
+      "lat": 7.2594585,
+      "lon": 80.6000023,
+      "tags": {
+        "amenity": "university",
+        "building": "commercial",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Jayathilake Hall",
+        "roof:material": "tile",
+        "roof:shape": "hipped",
+        "tourism": "hostel"
+      }
+    },
+    {
+      "lat": 7.2816792,
+      "lon": 80.6204558,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Suwasevana Hospital"
+      }
+    },
+    {
+      "lat": 7.2879499,
+      "lon": 80.6426454,
+      "tags": {
+        "building": "yes",
+        "building:levels": "5",
+        "name": "Vendol Lake Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2874331,
+      "lon": 80.6425151,
+      "tags": {
+        "building": "yes",
+        "name": "Yvy Banks Lake view",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2879223,
+      "lon": 80.6428029,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "indian",
+        "name": "No.Name"
+      }
+    },
+    {
+      "lat": 7.2883148,
+      "lon": 80.6427629,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "31",
+        "addr:postcode": "20000",
+        "addr:street": "Saranankara Road",
+        "amenity": "restaurant",
+        "building": "apartments",
+        "name": "Radisson Hotel Kandy",
+        "phone": "0812030700",
+        "website": "https://www.radissonhotels.com/en-us/hotels/radisson-kandy?cid=a:se+b:gmb+c:apac+i:local+e:rad+d:seap+h:LKKDW1"
+      }
+    },
+    {
+      "lat": 7.2882486,
+      "lon": 80.642311,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "30",
+        "addr:postcode": "20000",
+        "addr:street": "Saranankara Road",
+        "building": "yes",
+        "name": "Freedom Lodge",
+        "operator": "Sarath De Alwis",
+        "phone": "+94 81 2223506",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2872454,
+      "lon": 80.6418295,
+      "tags": {
+        "building": "yes",
+        "name": "Sherene Garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2868529,
+      "lon": 80.6420641,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "sri_lankan",
+        "name": "Stuffed Cafe"
+      }
+    },
+    {
+      "lat": 7.2669862,
+      "lon": 80.6014598,
+      "tags": {
+        "amenity": "school",
+        "name": "Sarasavi Uyana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2560476,
+      "lon": 80.5890472,
+      "tags": {
+        "amenity": "university",
+        "note": "border estimated"
+      }
+    },
+    {
+      "lat": 7.2782613,
+      "lon": 80.5958073,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gannoruwa Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2708029,
+      "lon": 80.6108713,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dangolla Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2883589,
+      "lon": 80.6614556,
+      "tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Kandy Riverside Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2876001,
+      "lon": 80.6330147,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Cancer Home"
+      }
+    },
+    {
+      "lat": 7.2663968,
+      "lon": 80.5913547,
+      "tags": {
+        "addr:housenumber": "159",
+        "addr:street": "Kenhinda road",
+        "beds": "6",
+        "building": "hotel",
+        "building:levels": "3",
+        "email": "thanushka2005@yahoo.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Aaranya",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:cryptocurrencies": "no",
+        "payment:debit_cards": "no",
+        "payment:electronic_purses": "no",
+        "phone": "+94812389794",
+        "rooms": "3",
+        "smoking": "outside",
+        "source": "Bing",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 7.2569108,
+      "lon": 80.5930802,
+      "tags": {
+        "addr:housenumber": "146/28",
+        "addr:street": "Gampala road",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Fire plate",
+        "opening_hours": "10:00-22:00",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 7.2903003,
+      "lon": 80.6408784,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "10",
+        "addr:postcode": "20000",
+        "addr:street": "Sangaraja Mawatha,",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Malwatu Chapter Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2904234,
+      "lon": 80.6413606,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "7JRR+4HP,",
+        "addr:street": "Sangaraja Mawatha,",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Thibbatuwawa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2898893,
+      "lon": 80.6411696,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Malwathu Maha Vihara, Sangaraja Mawatha,",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Sirimalwatta Temple"
+      }
+    },
+    {
+      "lat": 7.2685435,
+      "lon": 80.5802444,
+      "tags": {
+        "addr:city": "Kiribathkumbura",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Unique hotel"
+      }
+    },
+    {
+      "lat": 7.2453235,
+      "lon": 80.6714031,
+      "tags": {
+        "amenity": "school",
+        "name": "Ethulgama School"
+      }
+    },
+    {
+      "lat": 7.2051637,
+      "lon": 80.6710571,
+      "tags": {
+        "amenity": "school",
+        "grades": "1-11",
+        "name": "K/ Udadelthota Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2120255,
+      "lon": 80.6146333,
+      "tags": {
+        "amenity": "school",
+        "name": "Haloya School"
+      }
+    },
+    {
+      "lat": 7.2577274,
+      "lon": 80.5998246,
+      "tags": {
+        "addr:city": "Peradeniya",
+        "addr:street": "Kandy - Galaha - Deltota Road",
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "1.5_to_3",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Arunachalam Hall",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.2709002,
+      "lon": 80.6047315,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.280712,
+      "lon": 80.6205206,
+      "tags": {
+        "building": "yes",
+        "name": "Arpico Super Centre",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2811442,
+      "lon": 80.6201645,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Siebel Pl",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Seventh Day Adventist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2730024,
+      "lon": 80.6201818,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2727975,
+      "lon": 80.6202661,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2860334,
+      "lon": 80.6235453,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Katukele Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.2874078,
+      "lon": 80.6459895,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "40",
+        "addr:postcode": "20000",
+        "addr:street": "Sangaraja Mawatha,",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Lakeside Adventist Hospital"
+      }
+    },
+    {
+      "lat": 7.2865999,
+      "lon": 80.6471444,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Mahamaya Mawatha",
+        "building": "yes",
+        "name": "Castelo Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2862487,
+      "lon": 80.6463618,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Mahamaya Mawatha",
+        "building": "yes",
+        "name": "Hotel Kanda Uda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2889317,
+      "lon": 80.6488497,
+      "tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "name:en": "The Best Hostel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.271964,
+      "lon": 80.6198586,
+      "tags": {
+        "addr:city": "hablagosh",
+        "addr:housenumber": "5218",
+        "addr:postcode": "85129",
+        "addr:street": "dot lane",
+        "building": "yes",
+        "name": "quish market",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2721622,
+      "lon": 80.6199138,
+      "tags": {
+        "addr:city": "hablagosh",
+        "addr:housenumber": "4592",
+        "addr:postcode": "85129",
+        "addr:street": "quish lane",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "hablagosh hospital"
+      }
+    },
+    {
+      "lat": 7.2530704,
+      "lon": 80.5994754,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "University Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2571559,
+      "lon": 80.6008691,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Dept.of Law",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.2573914,
+      "lon": 80.6029625,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:material": "plaster",
+        "name": "Hindu Kovil",
+        "religion": "hindu",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.2574074,
+      "lon": 80.6031636,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:material": "plaster",
+        "name": "Hindu Kovil",
+        "religion": "hindu",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.2882282,
+      "lon": 80.6244973,
+      "tags": {
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Great view, Bernard's House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.261268,
+      "lon": 80.6004549,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "building:number": "07",
+        "roof:material": "Cement Tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.2609418,
+      "lon": 80.6004375,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "building:number": "06",
+        "name": "Acdemic Quarters",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.2762757,
+      "lon": 80.6336844,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.2566487,
+      "lon": 80.6020507,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Ivor jennings Hostel Canteen",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.2567708,
+      "lon": 80.6018882,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Ivor jennings Hostel Canteen",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.2570466,
+      "lon": 80.6021947,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "name": "Ivor Jennings Hostel",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.2724536,
+      "lon": 80.6074365,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "St John's Church",
+        "religion": "christian",
+        "survey:date": "2024-08-23"
+      }
+    },
+    {
+      "lat": 7.2874237,
+      "lon": 80.616072,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Santa Maria Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2886534,
+      "lon": 80.6164747,
+      "tags": {
+        "building": "yes",
+        "name": "Blue Moon",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2863549,
+      "lon": 80.614715,
+      "tags": {
+        "building": "yes",
+        "name": "Layathraa kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2849997,
+      "lon": 80.6299563,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshanarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2865161,
+      "lon": 80.631418,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:postcode": "20000",
+        "addr:street": "William Gopallawa Mawatha",
+        "alt_name": "Kandy Teaching Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "The National Hospital Kandy",
+        "name:si": "\u0da2\u0dcf\u0dad\u0dd2\u0d9a \u0dbb\u0dd9\u0dcf\u0dca\u0dc4\u0dbd \u0db8\u0dc4\u0db1\u0dd4\u0dc0\u0dbb",
+        "old_name": "Kandy Genearal Hospital",
+        "phone": "+94812222261",
+        "website": "http://www.kandy-hospital.health.gov.lk/",
+        "wikidata": "Q7691278",
+        "wikipedia": "en:National Hospital (Teaching), Kandy"
+      }
+    },
+    {
+      "lat": 7.2876766,
+      "lon": 80.6362763,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhimalu Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2899127,
+      "lon": 80.6330733,
+      "tags": {
+        "amenity": "place_of_worship",
+        "height": "5",
+        "name": "Sri Sambuddhaloka Samadhi Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2901961,
+      "lon": 80.6467188,
+      "tags": {
+        "amenity": "school",
+        "name": "D S Senanayake College"
+      }
+    },
+    {
+      "lat": 7.2869899,
+      "lon": 80.6475626,
+      "tags": {
+        "addr:city": "Kandy",
+        "amenity": "restaurant",
+        "name": "The Garden Cafe",
+        "website": "http://www.thegardencafe.lk"
+      }
+    },
+    {
+      "lat": 7.2568086,
+      "lon": 80.6009475,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "International Affairs Office",
+        "roof:material": "zinc",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.2610912,
+      "lon": 80.6001464,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:material": "plaster",
+        "name": "guard Room",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.2574446,
+      "lon": 80.6008198,
+      "tags": {
+        "amenity": "university",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Dept.o Fine Arts",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.2345603,
+      "lon": 80.6105151,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2457457,
+      "lon": 80.5912853,
+      "tags": {
+        "building": "yes",
+        "name": "Pinnacle Fine Accommodation",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2332393,
+      "lon": 80.5878349,
+      "tags": {
+        "amenity": "school",
+        "name": "Piligalla Primary School"
+      }
+    },
+    {
+      "lat": 7.2280353,
+      "lon": 80.5822733,
+      "tags": {
+        "amenity": "school",
+        "name": "Handessa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2792517,
+      "lon": 80.6270349,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "97",
+        "addr:postcode": "20000",
+        "addr:street": "Thapodaramaya Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "brand": "Heart of Kandy",
+        "building": "yes",
+        "category": "hotel",
+        "contact:facebook": "https://www.facebook.com/thesummit97",
+        "email": "ops@summit97.com",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "The Summit Kandy",
+        "phone": "+94812050909",
+        "rooms": "5",
+        "tourism": "hotel",
+        "website": "https://summit97.com"
+      }
+    },
+    {
+      "lat": 7.2675705,
+      "lon": 80.6007795,
+      "tags": {
+        "addr:city": "Gatambe",
+        "addr:street": "Colombo-Kandy Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2024-08-31",
+        "name": "Gatambe Sri Rajopawanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2441016,
+      "lon": 80.5986399,
+      "tags": {
+        "building": "yes",
+        "name": "Food City Express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2217847,
+      "lon": 80.5839155,
+      "tags": {
+        "addr:city": "Handessa",
+        "addr:housenumber": "200/3",
+        "addr:street": "Sunflower Garden",
+        "addr:suburb": "Meewaladeniya",
+        "contact:email": "elegantguest@sltnet.lk",
+        "contact:phone": "+94 812 315 830",
+        "contact:website": "http://www.eleganthotel.lk/",
+        "internet_access": "wlan",
+        "name": "Elegant Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2206085,
+      "lon": 80.5921434,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Tikiri Bogahagoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2208718,
+      "lon": 80.5881394,
+      "tags": {
+        "addr:city": "Meewala Deniya",
+        "addr:postcode": "20000",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Al Hudha Jummah Masjid",
+        "religion": "muslim",
+        "service_times": "24h"
+      }
+    },
+    {
+      "lat": 7.2553171,
+      "lon": 80.6104052,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "University Farm Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Eagle Regency"
+      }
+    },
+    {
+      "lat": 7.2760792,
+      "lon": 80.5909306,
+      "tags": {
+        "building": "yes",
+        "check_date": "2024-08-31",
+        "name": "Bandara Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2517346,
+      "lon": 80.6474376,
+      "tags": {
+        "amenity": "school",
+        "name": "Uduwela Buddhist School"
+      }
+    },
+    {
+      "lat": 7.2463503,
+      "lon": 80.6351728,
+      "tags": {
+        "amenity": "school",
+        "name": "Srivaani Tamil Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2557346,
+      "lon": 80.6336571,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.2735508,
+      "lon": 80.610011,
+      "tags": {
+        "building": "yes",
+        "name": "Keells Super",
+        "opening_hours": "Mo-Su 08:30-22:30",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 7.2743293,
+      "lon": 80.6114696,
+      "tags": {
+        "amenity": "hospital",
+        "building": "hospital",
+        "healthcare": "hospital",
+        "name": "Asiri Hospital"
+      }
+    },
+    {
+      "lat": 7.276,
+      "lon": 80.5975668,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:street": "Gannoruwa Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "check_date": "2024-08-29",
+        "name": "Fard circuit bangalow"
+      }
+    },
+    {
+      "lat": 7.2818715,
+      "lon": 80.6663002,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2107108,
+      "lon": 80.6697932,
+      "tags": {
+        "amenity": "school",
+        "name": "Ambalammana Tamil Maha Vidyalayam"
+      }
+    },
+    {
+      "lat": 7.2177508,
+      "lon": 80.5975251,
+      "tags": {
+        "addr:city": "Gelioya",
+        "addr:street": "peradeniya-Badulla Road",
+        "building": "commercial",
+        "building:levels": "3",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.255251,
+      "lon": 80.5817456,
+      "tags": {
+        "addr:city": "Elugoda",
+        "addr:street": "Daulagala Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "islam"
+      }
+    },
+    {
+      "lat": 7.2760619,
+      "lon": 80.5816169,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2797712,
+      "lon": 80.5940351,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.2500882,
+      "lon": 80.6317339,
+      "tags": {
+        "addr:city": "Kandy",
+        "addr:housenumber": "947",
+        "addr:postcode": "20000",
+        "addr:street": "Uduwela Road",
+        "addr:suburb": "Uduwela West",
+        "air_conditioning": "yes",
+        "contact:email": "reservations@w15kandy.lk",
+        "name": "W15 Hanthana Estate",
+        "phone": "+94 817 389 100",
+        "tourism": "hotel",
+        "website": "https://hanthana.w15.lk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 7.2876798,
+      "lon": 80.6236941,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Delight Baker and Spice Court"
+      }
+    },
+    {
+      "lat": 7.2411965,
+      "lon": 80.6434048,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hantana Rajamaha Viharaya",
+        "religion": "buddhist",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 7.2563214,
+      "lon": 80.6454775,
+      "tags": {
+        "amenity": "school",
+        "name": "Watuliyadda Primary School",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 7.2563666,
+      "lon": 80.5978169,
+      "tags": {
+        "amenity": "university",
+        "name": "University of Peradeniya",
+        "type": "multipolygon",
+        "wikidata": "Q3083280"
+      }
+    },
+    {
+      "lat": 7.2893428,
+      "lon": 80.6502284,
+      "tags": {
+        "amenity": "school",
+        "name": "Kandy Dharmaraja College",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

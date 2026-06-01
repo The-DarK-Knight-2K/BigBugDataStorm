@@ -1,0 +1,86 @@
+{
+  "cluster_id": 302,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.650294000000001,
+    "lat_max": 7.733499999999999,
+    "lon_min": 79.901817,
+    "lon_max": 80.002848
+  },
+  "outlet_ids": [
+    "OUT_13147",
+    "OUT_13290",
+    "OUT_13510",
+    "OUT_13787",
+    "OUT_13835",
+    "OUT_13892",
+    "OUT_13894",
+    "OUT_14097",
+    "OUT_14245",
+    "OUT_14339",
+    "OUT_14361",
+    "OUT_14896",
+    "OUT_15014",
+    "OUT_15084",
+    "OUT_15164",
+    "OUT_15261",
+    "OUT_15327",
+    "OUT_15411",
+    "OUT_15481",
+    "OUT_15485",
+    "OUT_15524",
+    "OUT_15955",
+    "OUT_16221",
+    "OUT_16298",
+    "OUT_16322",
+    "OUT_16559",
+    "OUT_16714",
+    "OUT_16949",
+    "OUT_16970"
+  ],
+  "n_outlets": 29,
+  "n_pois_returned": 4,
+  "scraped_at": "2026-05-16T22:09:21.814630",
+  "elements": [
+    {
+      "lat": 7.6713248,
+      "lon": 79.9889845,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Makullapokuma Sri Sumanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6537579,
+      "lon": 79.9898819,
+      "tags": {
+        "amenity": "school",
+        "name": "Weerapokuna Vijitha M.M.V",
+        "phone": "+94 32 2053062"
+      }
+    },
+    {
+      "lat": 7.6519091,
+      "lon": 79.9892435,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Weerapokuna Hospital"
+      }
+    },
+    {
+      "lat": 7.6503041,
+      "lon": 79.985103,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Pushparama Viharaya",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

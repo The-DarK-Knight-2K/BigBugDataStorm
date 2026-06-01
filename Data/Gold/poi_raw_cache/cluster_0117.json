@@ -1,0 +1,4897 @@
+{
+  "cluster_id": 117,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.053395,
+    "lat_max": 7.128788999999999,
+    "lon_min": 79.927163,
+    "lon_max": 80.005754
+  },
+  "outlet_ids": [
+    "OUT_00001",
+    "OUT_00112",
+    "OUT_00126",
+    "OUT_00131",
+    "OUT_00167",
+    "OUT_00594",
+    "OUT_00672",
+    "OUT_00679",
+    "OUT_01086",
+    "OUT_01095",
+    "OUT_01203",
+    "OUT_01325",
+    "OUT_01391",
+    "OUT_01436",
+    "OUT_01535",
+    "OUT_01681",
+    "OUT_01832",
+    "OUT_01888",
+    "OUT_02133",
+    "OUT_02237",
+    "OUT_02428",
+    "OUT_02634",
+    "OUT_02688",
+    "OUT_02835",
+    "OUT_02843",
+    "OUT_02880",
+    "OUT_02892",
+    "OUT_03018",
+    "OUT_03088",
+    "OUT_03111",
+    "OUT_03226",
+    "OUT_03419",
+    "OUT_03479",
+    "OUT_03738",
+    "OUT_03802",
+    "OUT_03940",
+    "OUT_03986",
+    "OUT_04037",
+    "OUT_04162",
+    "OUT_04174",
+    "OUT_04397",
+    "OUT_04464",
+    "OUT_04979",
+    "OUT_04992",
+    "OUT_05075",
+    "OUT_05126",
+    "OUT_05408",
+    "OUT_05517",
+    "OUT_05591",
+    "OUT_05743",
+    "OUT_05806",
+    "OUT_06060",
+    "OUT_06171",
+    "OUT_06237",
+    "OUT_06239",
+    "OUT_06430",
+    "OUT_06612",
+    "OUT_06709",
+    "OUT_06764",
+    "OUT_06834",
+    "OUT_06883",
+    "OUT_06998",
+    "OUT_07003",
+    "OUT_07039",
+    "OUT_07200",
+    "OUT_07260",
+    "OUT_07767",
+    "OUT_07816",
+    "OUT_08007",
+    "OUT_08054",
+    "OUT_08308",
+    "OUT_08452",
+    "OUT_08583",
+    "OUT_08600",
+    "OUT_08896"
+  ],
+  "n_outlets": 75,
+  "n_pois_returned": 398,
+  "scraped_at": "2026-05-16T20:38:17.585429",
+  "elements": [
+    {
+      "lat": 7.0551005,
+      "lon": 79.9372147,
+      "tags": {
+        "name": "Batuwatta",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0908254,
+      "lon": 79.9931216,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sunandarama Pirivena"
+      }
+    },
+    {
+      "lat": 7.0655794,
+      "lon": 79.9454477,
+      "tags": {
+        "name": "Bulugahagoda",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0854319,
+      "lon": 79.9293211,
+      "tags": {
+        "amenity": "school",
+        "name": "Niwandama Jinaraja Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0571928,
+      "lon": 79.9343744,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Jude Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0579226,
+      "lon": 79.9298682,
+      "tags": {
+        "amenity": "school",
+        "name": "Batuwatta Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0695924,
+      "lon": 79.9533024,
+      "tags": {
+        "amenity": "school",
+        "name": "Ganemulla Central College"
+      }
+    },
+    {
+      "lat": 7.1245075,
+      "lon": 79.9486598,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nagawanaram Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1228627,
+      "lon": 79.9453767,
+      "tags": {
+        "name": "Nadagamuwa Village Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0927155,
+      "lon": 79.9963135,
+      "tags": {
+        "name": "Cargills Gampaha",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0906504,
+      "lon": 80.0005285,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Arogya Gampaha"
+      }
+    },
+    {
+      "lat": 7.0692068,
+      "lon": 79.9551251,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Subadraramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0685704,
+      "lon": 79.9616363,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Dental Surgeon Private"
+      }
+    },
+    {
+      "lat": 7.0925972,
+      "lon": 79.9934594,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.0707431,
+      "lon": 79.9589787,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahindarama temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0840031,
+      "lon": 79.982852,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue in Mahawela Junction",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0868409,
+      "lon": 79.9796142,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0841832,
+      "lon": 79.9427741,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "wayside_shrine",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "christian",
+        "roof:material": "concrete",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0607381,
+      "lon": 79.9608165,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0629651,
+      "lon": 79.9413369,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0841874,
+      "lon": 79.9461023,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jesus Statue",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1166127,
+      "lon": 80.0020772,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0951114,
+      "lon": 79.9467873,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jesus statue",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.096722,
+      "lon": 79.9441335,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jesus statue",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0638023,
+      "lon": 79.9367625,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0697742,
+      "lon": 79.944163,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0767251,
+      "lon": 79.9675074,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "budu medura",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0911023,
+      "lon": 79.9688552,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0781494,
+      "lon": 79.949281,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sumangala Primary School"
+      }
+    },
+    {
+      "lat": 7.0776801,
+      "lon": 79.949485,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sumangala Weerasingharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0827023,
+      "lon": 79.9485819,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0998409,
+      "lon": 79.948394,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0937296,
+      "lon": 79.9542454,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0733329,
+      "lon": 79.930342,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0731652,
+      "lon": 79.9334483,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "christ statue",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.08169,
+      "lon": 79.9654816,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kettharama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1043409,
+      "lon": 79.9353066,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.0855229,
+      "lon": 79.9447039,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "wayside_shrine",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0855427,
+      "lon": 79.9446058,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "wayside_shrine",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0856925,
+      "lon": 79.9449525,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "wayside_shrine",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0998045,
+      "lon": 79.9696668,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Budu Medura",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0985773,
+      "lon": 79.9882198,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1078909,
+      "lon": 79.9822998,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0900446,
+      "lon": 80.0024987,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0872979,
+      "lon": 79.9915508,
+      "tags": {
+        "amenity": "school",
+        "name": "Tiny Pre School"
+      }
+    },
+    {
+      "lat": 7.0926948,
+      "lon": 79.9975323,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Little hut"
+      }
+    },
+    {
+      "lat": 7.0944582,
+      "lon": 79.9954263,
+      "tags": {
+        "amenity": "school",
+        "name": "St.Peters College"
+      }
+    },
+    {
+      "lat": 7.0924037,
+      "lon": 79.9949229,
+      "tags": {
+        "name": "Public Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0941462,
+      "lon": 79.9948568,
+      "tags": {
+        "name": "Keels Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0918954,
+      "lon": 79.990166,
+      "tags": {
+        "amenity": "school",
+        "name": "Susipone higher education center"
+      }
+    },
+    {
+      "lat": 7.092529,
+      "lon": 80.002261,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Little hut"
+      }
+    },
+    {
+      "lat": 7.091959,
+      "lon": 79.991044,
+      "tags": {
+        "amenity": "school",
+        "name:en": "Indeepa High Education Centre"
+      }
+    },
+    {
+      "lat": 7.0747267,
+      "lon": 79.9739,
+      "tags": {
+        "name": "Yagoda",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0920985,
+      "lon": 79.992772,
+      "tags": {
+        "name": "Gampaha",
+        "railway": "station",
+        "wikidata": "Q20717391"
+      }
+    },
+    {
+      "lat": 7.0944976,
+      "lon": 79.9770454,
+      "tags": {
+        "addr:city": "Akarawita",
+        "addr:postcode": "11000",
+        "air_conditioning": "yes",
+        "name": "Bon Super",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0893351,
+      "lon": 79.9999725,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Saketha Medura",
+        "reservation": "yes"
+      }
+    },
+    {
+      "lat": 7.0927699,
+      "lon": 79.9914105,
+      "tags": {
+        "name": "Yagoda stores",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0935209,
+      "lon": 79.9941904,
+      "tags": {
+        "name": "Ranjan Lanka Pvt Ltd",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0913917,
+      "lon": 80.0009822,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Gamapaha General Hospital"
+      }
+    },
+    {
+      "lat": 7.0560537,
+      "lon": 79.9623431,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "historic": "wayside_shrine",
+        "name": "Bo three",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0530739,
+      "lon": 79.9605815,
+      "tags": {
+        "addr:city": "Polhena",
+        "amenity": "school",
+        "name": "Polhena Kanishta Vidyalaya",
+        "operator": "State"
+      }
+    },
+    {
+      "lat": 7.0625967,
+      "lon": 80.0041058,
+      "tags": {
+        "addr:city": "Belummahara",
+        "addr:street": "Seruwila Para",
+        "amenity": "school",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Rahula Primary School",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0632346,
+      "lon": 80.0016256,
+      "tags": {
+        "addr:city": "Belummahara",
+        "addr:street": "Sri Jayasumanarama Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Jayasumanarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0731636,
+      "lon": 80.0002229,
+      "tags": {
+        "addr:city": "Moragoda",
+        "addr:street": "Orutota Road",
+        "amenity": "school",
+        "name": "Wimaladarmasooriya Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0732527,
+      "lon": 79.9998422,
+      "tags": {
+        "addr:city": "Moragoda",
+        "addr:street": "Orutota Road",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Moragoda Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0919034,
+      "lon": 80.0064574,
+      "tags": {
+        "amenity": "school",
+        "name": "Bandaranayake College"
+      }
+    },
+    {
+      "lat": 7.0575898,
+      "lon": 79.9592903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0893347,
+      "lon": 80.0015674,
+      "tags": {
+        "amenity": "school",
+        "name": "Rathnawalee Balika Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0645912,
+      "lon": 79.9617923,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0658627,
+      "lon": 79.9614287,
+      "tags": {
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Private Dispensory - Dr. Athukorala",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0859388,
+      "lon": 79.9929583,
+      "tags": {
+        "amenity": "school",
+        "name": "Sumedha International School"
+      }
+    },
+    {
+      "lat": 7.0661335,
+      "lon": 79.960713,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0667836,
+      "lon": 79.9611359,
+      "tags": {
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "St. Annes Chanelling Center",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0684269,
+      "lon": 79.960676,
+      "tags": {
+        "building": "train_station",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Ganemulla railway station",
+        "railway": "station",
+        "roof:material": "tile",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0664471,
+      "lon": 79.9611462,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "government",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0673533,
+      "lon": 79.9614817,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0701346,
+      "lon": 79.9614912,
+      "tags": {
+        "building": "commercial",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Salinda Supermarket",
+        "operator": "Salinda supermarket",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0708018,
+      "lon": 79.9619445,
+      "tags": {
+        "building": "retail",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "K-mart",
+        "operator": "K-mart",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0698989,
+      "lon": 79.9610746,
+      "tags": {
+        "building": "commercial",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Lanka Sathosa",
+        "operator": "government",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0691224,
+      "lon": 79.9551979,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Subadraramaya Temple",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0693338,
+      "lon": 79.9551118,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0693278,
+      "lon": 79.9547585,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0694068,
+      "lon": 79.9545232,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Subadraramaya Temple",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0694682,
+      "lon": 79.9548668,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Subadraramaya Temple",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0696139,
+      "lon": 79.9543779,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster"
+      }
+    },
+    {
+      "lat": 7.0611899,
+      "lon": 79.9476537,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0610609,
+      "lon": 79.9475989,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0713654,
+      "lon": 79.9588464,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0712722,
+      "lon": 79.9598435,
+      "tags": {
+        "amenity": "school",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0714609,
+      "lon": 79.9591813,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0710335,
+      "lon": 79.9586361,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0714941,
+      "lon": 79.9592841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0717968,
+      "lon": 79.9611122,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.071042,
+      "lon": 79.9589251,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "tile",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0707943,
+      "lon": 79.9590129,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0708259,
+      "lon": 79.9586451,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0709223,
+      "lon": 79.9585633,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0718253,
+      "lon": 79.9633251,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Amara Viharaya",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0593947,
+      "lon": 79.9842933,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.06415,
+      "lon": 79.9660932,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Hanshal Hotel",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0606223,
+      "lon": 79.9702265,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Dharma Siri Wardanarama Stupa",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0644201,
+      "lon": 79.9648214,
+      "tags": {
+        "building": "hotel",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Tharupathi Wedding Hall",
+        "roof:material": "asbestos",
+        "roof:shape": "many",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0806361,
+      "lon": 79.9710144,
+      "tags": {
+        "building": "hotel",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Habitat Hotel",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0766681,
+      "lon": 79.9781647,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.076784,
+      "lon": 79.9782814,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Siriwardhanaramaya Temple",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0764975,
+      "lon": 79.9779573,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0766254,
+      "lon": 79.9784713,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0766174,
+      "lon": 79.9783943,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0996715,
+      "lon": 79.9780266,
+      "tags": {
+        "building": "hotel",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0996662,
+      "lon": 79.9777978,
+      "tags": {
+        "building": "hotel",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0648182,
+      "lon": 79.9620177,
+      "tags": {
+        "amenity": "bank",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Cargills Food City Ganemulla",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0815845,
+      "lon": 79.9655093,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0670811,
+      "lon": 79.9601048,
+      "tags": {
+        "building": "retail",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Sathosa Ganemulla",
+        "roof:material": "asbestos",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0661566,
+      "lon": 79.9602791,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0719228,
+      "lon": 79.9652351,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "St. Anne's Church",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.068919,
+      "lon": 79.9640677,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0943132,
+      "lon": 79.9539119,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Prince Lake Hotel",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0917498,
+      "lon": 79.9612414,
+      "tags": {
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Rusiru Hotel",
+        "roof:material": "tile",
+        "roof:shape": "many",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0663701,
+      "lon": 79.9914614,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.060981,
+      "lon": 79.9908545,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Shayilabimbarama temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0907279,
+      "lon": 80.0001613,
+      "tags": {
+        "addr:city": "Gampaha",
+        "addr:street": "Gampaha Miriswatta Road",
+        "amenity": "hospital",
+        "building": "hospital",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "other",
+        "phone": "033 7200818",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0932991,
+      "lon": 80.0056563,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "wood",
+        "roof:material": "tin",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.091584,
+      "lon": 80.0036004,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0930508,
+      "lon": 80.0055727,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0960557,
+      "lon": 80.0016655,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0959913,
+      "lon": 80.0020594,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0823325,
+      "lon": 79.9571502,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0824674,
+      "lon": 79.9574194,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0823842,
+      "lon": 79.9569596,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0827187,
+      "lon": 79.9573568,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0979137,
+      "lon": 80.002513,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0788261,
+      "lon": 79.9690143,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "more than 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Makilangamuwa Sri Purwaramaya",
+        "religion": "buddhist",
+        "roof:material": "concrete"
+      }
+    },
+    {
+      "lat": 7.0786301,
+      "lon": 79.9690709,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Makilangamuwa Sri Purwarama Temple",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0943556,
+      "lon": 80.0003334,
+      "tags": {
+        "building": "hotel",
+        "building:foundation_height": "2",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Verona Hotel",
+        "roof:material": "tile",
+        "roof:shape": "hipped",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1041595,
+      "lon": 79.935771,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Nawaloka Laboratory",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0661822,
+      "lon": 79.9808709,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0771928,
+      "lon": 79.941729,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:foundation_height": "less_than1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Polgahawaththa Church",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.0772117,
+      "lon": 79.9418996,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:foundation_height": "less_than1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Polgahawaththa Church",
+        "religion": "christian",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0904047,
+      "lon": 79.9926561,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0778552,
+      "lon": 79.9620654,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0898498,
+      "lon": 79.9934401,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0899592,
+      "lon": 79.9931905,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0901231,
+      "lon": 79.9931727,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "cement_block",
+        "roof:material": "tin",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.091161,
+      "lon": 79.9932345,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Medagama Sri Sunandaaramaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0905562,
+      "lon": 79.9931358,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0921131,
+      "lon": 79.9949615,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0920468,
+      "lon": 79.9968241,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "healthcare": "clinic",
+        "height": "3.5",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0937019,
+      "lon": 79.9968485,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0934669,
+      "lon": 79.9968102,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0935447,
+      "lon": 79.9958243,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.094288,
+      "lon": 79.994802,
+      "tags": {
+        "building": "residential",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Rest House",
+        "operator": "government",
+        "roof:material": "tile",
+        "roof:shape": "gabled",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.094615,
+      "lon": 79.9952903,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0949325,
+      "lon": 79.9965446,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Swiss Lanka Hotel",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0946119,
+      "lon": 79.992913,
+      "tags": {
+        "building": "hotel",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0948098,
+      "lon": 79.9925354,
+      "tags": {
+        "building": "hotel",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0943064,
+      "lon": 79.9927556,
+      "tags": {
+        "building": "residential",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0935324,
+      "lon": 79.9934986,
+      "tags": {
+        "building": "train_station",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "public_transport": "station",
+        "railway": "station",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0948218,
+      "lon": 79.9932472,
+      "tags": {
+        "building": "hotel",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0935036,
+      "lon": 79.9935986,
+      "tags": {
+        "building": "train_station",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "layer": "1",
+        "name": "Gampaha Railway Station",
+        "public_transport": "station",
+        "railway": "station",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1050682,
+      "lon": 79.9288628,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1079335,
+      "lon": 79.9333391,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1012034,
+      "lon": 79.9427647,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "note": "Mabima v.m.v toilet",
+        "roof:material": "concrete",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1011068,
+      "lon": 79.9427698,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "note": "Mabima v.m.v toilet",
+        "roof:material": "concrete",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0986994,
+      "lon": 79.9439025,
+      "tags": {
+        "building": "retail",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Valikada Mini-cop city",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1006418,
+      "lon": 79.9424326,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.100633,
+      "lon": 79.9432813,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0999119,
+      "lon": 79.94463,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Dulwala Sinhala Beheth",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0961483,
+      "lon": 79.9522975,
+      "tags": {
+        "building": "hotel",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "Hotel Vintop",
+        "roof:material": "zinc",
+        "roof:shape": "gabled",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0959204,
+      "lon": 79.9479021,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Prajapathi Meheni Aramaya",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.095942,
+      "lon": 79.94782,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "utility",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Prajapathi Meheni Aramaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.065405,
+      "lon": 80.0053995,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0971321,
+      "lon": 79.945426,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "St. Joseph's Church",
+        "religion": "christian",
+        "roof:material": "asbestos",
+        "roof:shape": "more than 4"
+      }
+    },
+    {
+      "lat": 7.1046221,
+      "lon": 79.9397455,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0930946,
+      "lon": 79.9981478,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0841699,
+      "lon": 79.9991721,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "St. Philips Near's church",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0760026,
+      "lon": 79.996899,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0918454,
+      "lon": 79.9993444,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0908424,
+      "lon": 79.9970001,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0743863,
+      "lon": 79.9939653,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0754001,
+      "lon": 79.9918632,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Devalaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0732695,
+      "lon": 79.9985178,
+      "tags": {
+        "building": "retail",
+        "building:foundation_height": "1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Piyumi Super Mart",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0885808,
+      "lon": 79.9864956,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Pahalasomarathana Viharaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0980352,
+      "lon": 79.9505811,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "Green Rest Hotel",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.0905402,
+      "lon": 79.9548348,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Wet Water hotel reception hall",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "shop": "yes"
+      }
+    },
+    {
+      "lat": 7.0903151,
+      "lon": 79.9552513,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "utility",
+        "building:foundation_height": "more_than_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Wet Water Bar",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0906984,
+      "lon": 79.9554379,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "more_than_3",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Wet Water Resort",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.0695684,
+      "lon": 79.9302732,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0632934,
+      "lon": 80.0018155,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0665062,
+      "lon": 79.9798962,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0671926,
+      "lon": 79.978188,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "shrine room",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0677406,
+      "lon": 79.97683,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "pagoda",
+        "building:foundation_height": "more than 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Pagoda",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0964954,
+      "lon": 79.9528347,
+      "tags": {
+        "building": "hotel",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0632874,
+      "lon": 79.9778942,
+      "tags": {
+        "amenity": "clinic",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0780745,
+      "lon": 79.9880097,
+      "tags": {
+        "amenity": "restaurant",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Sandalla Holiday Resort",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0927943,
+      "lon": 79.9865027,
+      "tags": {
+        "addr:street": "Gampaha Ja Ela road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.0931115,
+      "lon": 79.9868206,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0879553,
+      "lon": 79.9850117,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Buddha Stachu",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0917127,
+      "lon": 79.9998786,
+      "tags": {
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0905478,
+      "lon": 80.0020337,
+      "tags": {
+        "amenity": "clinic",
+        "building": "government",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0567092,
+      "lon": 79.9696461,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Shuddhau Paule Dewsthanaya Kossinna",
+        "religion": "christian",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.1013989,
+      "lon": 79.9395467,
+      "tags": {
+        "amenity": "clinic",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mawsayanaya",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1055231,
+      "lon": 79.9366506,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "commercial",
+        "building:foundation_height": "less_than 1",
+        "building:levels": "1",
+        "building:material": "brick",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.095919,
+      "lon": 79.9710372,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.0592568,
+      "lon": 79.9864971,
+      "tags": {
+        "amenity": "school",
+        "building": "commercial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0593352,
+      "lon": 79.9903618,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0592288,
+      "lon": 79.9903774,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0593833,
+      "lon": 79.9903849,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0592767,
+      "lon": 79.9907065,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Shayilabimbarama temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0542563,
+      "lon": 79.9979593,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Galekanda Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0844964,
+      "lon": 79.9275423,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Deepaduththamaramaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0843272,
+      "lon": 79.9276878,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Deepaduththamarama viharaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0844786,
+      "lon": 79.9278379,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0840965,
+      "lon": 79.9278943,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0844289,
+      "lon": 79.9282333,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0540344,
+      "lon": 79.9866704,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "hindu",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0837286,
+      "lon": 79.9283378,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Jinaraja primary school",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0862789,
+      "lon": 79.9354748,
+      "tags": {
+        "amenity": "clinic",
+        "building": "government",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0891511,
+      "lon": 79.9327872,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "more_than_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0893298,
+      "lon": 79.9331162,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "government",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0888607,
+      "lon": 79.9325558,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.088872,
+      "lon": 79.9324313,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0891072,
+      "lon": 79.9324101,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.088998,
+      "lon": 79.9326435,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0894008,
+      "lon": 79.9323745,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0852186,
+      "lon": 79.9288001,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0849403,
+      "lon": 79.9284032,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.085301,
+      "lon": 79.9282448,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0853602,
+      "lon": 79.9281716,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Jinaraja maha vidyalaya",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0849365,
+      "lon": 79.9286092,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0850648,
+      "lon": 79.9281229,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0924161,
+      "lon": 79.9344417,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.0925323,
+      "lon": 79.9344727,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Dalukgala dewalaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0711904,
+      "lon": 79.9635353,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0693774,
+      "lon": 79.9631694,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.0712058,
+      "lon": 79.959871,
+      "tags": {
+        "amenity": "school",
+        "building": "residential",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.094884,
+      "lon": 79.9953098,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0685935,
+      "lon": 79.9606244,
+      "tags": {
+        "building": "train_station",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Ganemulla railway station",
+        "railway": "station",
+        "roof:material": "tile",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0911815,
+      "lon": 79.9945819,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.090115,
+      "lon": 79.9925341,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0926576,
+      "lon": 79.9978232,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "Rest Inn",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0825504,
+      "lon": 79.9573781,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0668725,
+      "lon": 79.9787808,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.06312,
+      "lon": 79.9777699,
+      "tags": {
+        "amenity": "clinic",
+        "building": "utility",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0715279,
+      "lon": 79.9586732,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Mahindara temple",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0683504,
+      "lon": 79.9463398,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Sumangala Weerasingharamaya",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0617991,
+      "lon": 79.9284719,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "name": "Calvary Church",
+        "religion": "christian",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0641395,
+      "lon": 79.9419405,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Wijaya Maha Vidyalaya",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0640328,
+      "lon": 79.9417399,
+      "tags": {
+        "amenity": "school",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Wijaya Maha Vidyalaya",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0641869,
+      "lon": 79.9417673,
+      "tags": {
+        "amenity": "school",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Wijaya Maha Vidyalaya",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0767321,
+      "lon": 79.9786586,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.061057,
+      "lon": 79.947738,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Damthilina Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.061008,
+      "lon": 79.9478935,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0847343,
+      "lon": 79.9285374,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.084767,
+      "lon": 79.9287566,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0854132,
+      "lon": 79.9283531,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0664291,
+      "lon": 79.9915567,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Lumbini Kanishta Vidyalaya",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0921242,
+      "lon": 79.9776763,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ashokaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0677509,
+      "lon": 79.977639,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "zink",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0908574,
+      "lon": 79.9684453,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Dewalaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0900818,
+      "lon": 79.9687491,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "pagoda",
+        "building:foundation_height": "more_than_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Kirindivita Vivekaramaya",
+        "note": "Dageba",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0836051,
+      "lon": 79.9698319,
+      "tags": {
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "note": "Ayurweda clinic",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0958119,
+      "lon": 79.9477925,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "prajapathi mehini aramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1025889,
+      "lon": 79.9290281,
+      "tags": {
+        "amenity": "clinic",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Gampaha Sidyaruweda Madyasthanaya",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1007925,
+      "lon": 79.9424972,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0978328,
+      "lon": 80.0026597,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0732808,
+      "lon": 79.9921039,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0921248,
+      "lon": 79.9589547,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "utility",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "happy bright hotel",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0916728,
+      "lon": 79.9996481,
+      "tags": {
+        "building": "retail",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "name": "Arpico Super Gampaha",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0884293,
+      "lon": 79.9902283,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Gothami Junior School Gampaha",
+        "operator": "government",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.076563,
+      "lon": 79.9780643,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1.5_to_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0768311,
+      "lon": 79.978189,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "abandoned",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0917808,
+      "lon": 79.995006,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0851046,
+      "lon": 79.9926507,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0958957,
+      "lon": 80.0018258,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wijayarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.095767,
+      "lon": 80.0019209,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0914411,
+      "lon": 79.9533695,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.100599,
+      "lon": 79.938116,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Gonagaha bodiya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1007032,
+      "lon": 79.942839,
+      "tags": {
+        "amenity": "school",
+        "name": "Mabima widyakara Maha widyalaya"
+      }
+    },
+    {
+      "lat": 7.1045748,
+      "lon": 79.9396138,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudarshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0937139,
+      "lon": 79.9805144,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "less_than_10",
+        "building:foundation_height": "more_than_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Buddha statue",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1078152,
+      "lon": 79.9332172,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri AmbarukkaramayaTemple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0918027,
+      "lon": 79.9452781,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Jesus statue",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0971853,
+      "lon": 79.9450608,
+      "tags": {
+        "amenity": "school",
+        "name": "Walikada Darmapala Prathamikaya"
+      }
+    },
+    {
+      "lat": 7.1015439,
+      "lon": 79.9370835,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "wayside_shrine",
+        "building:age": "10_to_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "buddha statue",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0990341,
+      "lon": 79.9363534,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "more_than_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Buddha Statue",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0773313,
+      "lon": 79.9495931,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "more_than_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Sumangala Weerasingharamaya",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0776866,
+      "lon": 79.9555989,
+      "tags": {
+        "amenity": "school",
+        "name": "Gamini Kanishta Vidyalaya",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 7.0795611,
+      "lon": 79.9387708,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Suruwama",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0662046,
+      "lon": 79.9914598,
+      "tags": {
+        "amenity": "school",
+        "building": "residential",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0661541,
+      "lon": 79.9915862,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0627111,
+      "lon": 79.9523172,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Buddha Stachu",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.069524,
+      "lon": 79.9564553,
+      "tags": {
+        "amenity": "school",
+        "name": "Hemamali Vidyalaya Ganemulla"
+      }
+    },
+    {
+      "lat": 7.0674777,
+      "lon": 79.9780897,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Swarnapali M.V",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 7.0742127,
+      "lon": 79.9996221,
+      "tags": {
+        "amenity": "school",
+        "name": "Wimala suriya vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0681727,
+      "lon": 79.9733326,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0586547,
+      "lon": 79.9436859,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0665525,
+      "lon": 79.9787165,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0817051,
+      "lon": 79.9657467,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Kettharama Purana Viharaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0561421,
+      "lon": 79.9697138,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Holy Family Church",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0720545,
+      "lon": 79.9392668,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "utility",
+        "building:foundation_height": "less_than1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Dewalaya",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0677456,
+      "lon": 79.9301197,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "denomination": "roman_catholic",
+        "name": "Bollatha Sacred Heart Church",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.1006348,
+      "lon": 79.9427075,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1006357,
+      "lon": 79.9429878,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0615972,
+      "lon": 79.9280069,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Calvary Church",
+        "religion": "christian",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0616425,
+      "lon": 79.9281511,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "calvary church",
+        "religion": "buddhist",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0672735,
+      "lon": 79.9598673,
+      "tags": {
+        "amenity": "school",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0654271,
+      "lon": 79.9611185,
+      "tags": {
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0938331,
+      "lon": 79.9555453,
+      "tags": {
+        "building": "hotel",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "many",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0996119,
+      "lon": 79.9585986,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Maternal Clinic"
+      }
+    },
+    {
+      "lat": 7.1079658,
+      "lon": 79.9330719,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "construction",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1.5_to_3",
+        "building:levels": "2",
+        "building:material": "cement_block",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0801177,
+      "lon": 79.9476412,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "buddha statue",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1004963,
+      "lon": 79.9428283,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Budu Medura",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0788819,
+      "lon": 79.9699078,
+      "tags": {
+        "amenity": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sithmi Preschool",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0814635,
+      "lon": 79.9656418,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Kettharama Purana Viharaya",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0816499,
+      "lon": 79.965302,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Kettharama Purana Viharaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0893419,
+      "lon": 79.9863476,
+      "tags": {
+        "addr:street": "Somarathna Himi Mawatha",
+        "amenity": "school",
+        "building": "school",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Vidyarawindra Pre School",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0910127,
+      "lon": 79.9688869,
+      "tags": {
+        "amenity": "school",
+        "name": "Kiridivita Gamunu K V",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.0941451,
+      "lon": 79.9772167,
+      "tags": {
+        "amenity": "clinic",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Suwasarana Aurvedic Medical Center",
+        "operator": "private",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "shop": "yes"
+      }
+    },
+    {
+      "lat": 7.0558636,
+      "lon": 79.9811146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sambudumaga Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0579161,
+      "lon": 79.9728363,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Nagahamula Bodhiya",
+        "religion": "hindu",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0578026,
+      "lon": 79.9727735,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Naghamula Purana Dewalaya",
+        "religion": "hindu",
+        "roof:material": "tile",
+        "roof:shape": "2 face (pitched)"
+      }
+    },
+    {
+      "lat": 7.0571396,
+      "lon": 79.9673057,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Buddha statue",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "4 face (hipped)"
+      }
+    },
+    {
+      "lat": 7.0928866,
+      "lon": 80.0022005,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Holly Yohan Baptics Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0888208,
+      "lon": 79.9863438,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Yatalawaththa Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0706924,
+      "lon": 79.977085,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "Less than 1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Buddha Statue",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0673813,
+      "lon": 79.9769479,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugathanandanarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0681275,
+      "lon": 79.9732509,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sadaham Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0665058,
+      "lon": 79.9781641,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Swarnapali M.V",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 7.0922348,
+      "lon": 79.9944368,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.0857125,
+      "lon": 79.9452471,
+      "tags": {
+        "amenity": "school",
+        "name": "Senarathgama Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0938841,
+      "lon": 79.9941048,
+      "tags": {
+        "building": "yes",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Gampaha Railway Station",
+        "operator": "government",
+        "public_transport": "station",
+        "railway": "station",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 7.092852,
+      "lon": 79.9345893,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0925901,
+      "lon": 79.9342943,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.1031557,
+      "lon": 79.9296563,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bapstic Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1031204,
+      "lon": 79.9311289,
+      "tags": {
+        "amenity": "school",
+        "name": "Pandukabaya primary school",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.0676273,
+      "lon": 79.9367576,
+      "tags": {
+        "amenity": "school",
+        "name": "All Nations International School"
+      }
+    },
+    {
+      "lat": 7.1034251,
+      "lon": 79.9331094,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Makewita marketplace"
+      }
+    },
+    {
+      "lat": 7.104053,
+      "lon": 79.9353279,
+      "tags": {
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Medical Clinic",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0780752,
+      "lon": 79.9555691,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Isidoru church"
+      }
+    },
+    {
+      "lat": 7.0759551,
+      "lon": 79.9822848,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.090094,
+      "lon": 79.968646,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kiridiwita Vivekaramaya temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0670339,
+      "lon": 79.9603401,
+      "tags": {
+        "amenity": "school",
+        "building": "pre_school",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1041424,
+      "lon": 79.9368175,
+      "tags": {
+        "amenity": "school",
+        "name": "Mabima Vidyakara k.V",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.1026757,
+      "lon": 79.9311469,
+      "tags": {
+        "amenity": "place_of_worship",
+        "area": "yes"
+      }
+    },
+    {
+      "lat": 7.0591292,
+      "lon": 79.9866825,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "wayside_shrine",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0606924,
+      "lon": 79.987712,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dammadinna Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0592721,
+      "lon": 79.9905324,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:levels": "1",
+        "name": "shayilabimbarama temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0602246,
+      "lon": 79.9690238,
+      "tags": {
+        "amenity": "school",
+        "name": "Seelarathna Kanistha Vidyalaya",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 7.0707175,
+      "lon": 79.9292391,
+      "tags": {
+        "amenity": "school",
+        "name": "Bollatha Dharmapala Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0697269,
+      "lon": 79.9408537,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sribodi Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1242494,
+      "lon": 79.9750231,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.0926026,
+      "lon": 79.934537,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0941275,
+      "lon": 79.9918187,
+      "tags": {
+        "amenity": "school",
+        "name": "Montana Tution Classes"
+      }
+    },
+    {
+      "lat": 7.0853654,
+      "lon": 79.9284901,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0855473,
+      "lon": 79.9283035,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0852273,
+      "lon": 79.9280391,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0845651,
+      "lon": 79.9283558,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0848217,
+      "lon": 79.9285243,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0843128,
+      "lon": 79.9277331,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Niwandama Deepadutharama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0788091,
+      "lon": 79.9688726,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Makilangamuwa Sri Purwarama Temple"
+      }
+    },
+    {
+      "lat": 7.0822122,
+      "lon": 79.9676348,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ananda Bodhi Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0959247,
+      "lon": 79.9691252,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Medical Center"
+      }
+    },
+    {
+      "lat": 7.0996242,
+      "lon": 79.9783684,
+      "tags": {
+        "name": "Imalka Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0968399,
+      "lon": 79.9837546,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gangaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1006354,
+      "lon": 79.9810198,
+      "tags": {
+        "amenity": "school",
+        "name": "Minu/Asgiriya Mix School",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 7.0997718,
+      "lon": 79.9908338,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Mangalaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1092,
+      "lon": 79.988815,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1091328,
+      "lon": 79.9883703,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1059041,
+      "lon": 79.9796492,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kettaraama Temple,Asgiriwalpola",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0984676,
+      "lon": 79.9918747,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1093043,
+      "lon": 79.9786306,
+      "tags": {
+        "amenity": "school",
+        "name": "Asgiriya Primary School"
+      }
+    },
+    {
+      "lat": 7.0977686,
+      "lon": 79.9725365,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Medical Center"
+      }
+    },
+    {
+      "lat": 7.1047204,
+      "lon": 79.9698481,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jambuwatta Siri Wimala Senasuna",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1070215,
+      "lon": 79.9507126,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Devalaya",
+        "religion": "hindu",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0958519,
+      "lon": 79.9648193,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Tanipolgahawatta Sri Sunandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.10906,
+      "lon": 79.9884409,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "wijitharama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1004405,
+      "lon": 79.9583966,
+      "tags": {
+        "amenity": "school",
+        "name": "Thammita Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1107942,
+      "lon": 79.9906467,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Asgiri Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1070148,
+      "lon": 79.9897974,
+      "tags": {
+        "amenity": "school",
+        "name": "Sudarshana School"
+      }
+    },
+    {
+      "lat": 7.0891385,
+      "lon": 79.932372,
+      "tags": {
+        "amenity": "school",
+        "name": "Roman Cathelic Primary School"
+      }
+    },
+    {
+      "lat": 7.1173534,
+      "lon": 79.9362613,
+      "tags": {
+        "amenity": "school",
+        "name": "Siyabalapitiya Primary School"
+      }
+    },
+    {
+      "lat": 7.1162854,
+      "lon": 79.9921078,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dhammadeepa Shrine",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1140362,
+      "lon": 79.9590071,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Pushparama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1210053,
+      "lon": 80.0030907,
+      "tags": {
+        "amenity": "school",
+        "name": "Doranagoda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1128422,
+      "lon": 79.9505599,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sadasarana Deva Madhura",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1168916,
+      "lon": 79.9517045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gananada Pothgul Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0603531,
+      "lon": 79.9699639,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dharma Sri Wardanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0898412,
+      "lon": 79.992532,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.089668,
+      "lon": 79.9927607,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0898394,
+      "lon": 79.9928613,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0901217,
+      "lon": 79.9929861,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0903728,
+      "lon": 79.9929485,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0899961,
+      "lon": 79.9935637,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0912186,
+      "lon": 79.99277,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0911325,
+      "lon": 79.9931405,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0744575,
+      "lon": 79.9919742,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Surgical Clinic"
+      }
+    },
+    {
+      "lat": 7.0741143,
+      "lon": 79.955048,
+      "tags": {
+        "addr:city": "Ganemulla",
+        "addr:housenumber": "1",
+        "addr:postcode": "11020",
+        "addr:street": "Silwath Pushpa Upasika Mawatha",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sisilasa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0892837,
+      "lon": 79.9998105,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Saketha Medura"
+      }
+    }
+  ]
+}

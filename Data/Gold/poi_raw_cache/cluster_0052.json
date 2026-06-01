@@ -1,0 +1,769 @@
+{
+  "cluster_id": 52,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.1492,
+    "lat_max": 7.217555,
+    "lon_min": 79.88622,
+    "lon_max": 79.96593
+  },
+  "outlet_ids": [
+    "OUT_00030",
+    "OUT_00036",
+    "OUT_00046",
+    "OUT_00197",
+    "OUT_00273",
+    "OUT_00346",
+    "OUT_00531",
+    "OUT_00720",
+    "OUT_00850",
+    "OUT_01003",
+    "OUT_01051",
+    "OUT_01070",
+    "OUT_01177",
+    "OUT_01295",
+    "OUT_01513",
+    "OUT_01560",
+    "OUT_01633",
+    "OUT_01871",
+    "OUT_01951",
+    "OUT_02001",
+    "OUT_02014",
+    "OUT_02071",
+    "OUT_02131",
+    "OUT_02142",
+    "OUT_02353",
+    "OUT_02484",
+    "OUT_02580",
+    "OUT_02625",
+    "OUT_02730",
+    "OUT_02771",
+    "OUT_02977",
+    "OUT_02980",
+    "OUT_03002",
+    "OUT_03153",
+    "OUT_03220",
+    "OUT_03323",
+    "OUT_03541",
+    "OUT_03641",
+    "OUT_03649",
+    "OUT_03668",
+    "OUT_03800",
+    "OUT_03805",
+    "OUT_03822",
+    "OUT_03880",
+    "OUT_04187",
+    "OUT_04223",
+    "OUT_04362",
+    "OUT_04526",
+    "OUT_04684",
+    "OUT_04727",
+    "OUT_04742",
+    "OUT_04743",
+    "OUT_04761",
+    "OUT_04868",
+    "OUT_04954",
+    "OUT_05237",
+    "OUT_05316",
+    "OUT_05399",
+    "OUT_05465",
+    "OUT_05477",
+    "OUT_05481",
+    "OUT_05698",
+    "OUT_05894",
+    "OUT_05932",
+    "OUT_06077",
+    "OUT_06208",
+    "OUT_06242",
+    "OUT_06244",
+    "OUT_06288",
+    "OUT_06300",
+    "OUT_06310",
+    "OUT_06357",
+    "OUT_06483",
+    "OUT_06564",
+    "OUT_06592",
+    "OUT_06613",
+    "OUT_06619",
+    "OUT_06772",
+    "OUT_07014",
+    "OUT_07085",
+    "OUT_07180",
+    "OUT_07212",
+    "OUT_07341",
+    "OUT_07438",
+    "OUT_07461",
+    "OUT_07722",
+    "OUT_07749",
+    "OUT_07950",
+    "OUT_08024",
+    "OUT_08131",
+    "OUT_08155",
+    "OUT_08219",
+    "OUT_08248",
+    "OUT_08293",
+    "OUT_08431",
+    "OUT_08450",
+    "OUT_08534",
+    "OUT_08667",
+    "OUT_08722",
+    "OUT_08790",
+    "OUT_08808",
+    "OUT_08993"
+  ],
+  "n_outlets": 102,
+  "n_pois_returned": 71,
+  "scraped_at": "2026-05-16T20:28:41.245056",
+  "elements": [
+    {
+      "lat": 7.1976025,
+      "lon": 79.9522554,
+      "tags": {
+        "amenity": "school",
+        "name": "Nilpanagoda Central College"
+      }
+    },
+    {
+      "lat": 7.1697029,
+      "lon": 79.9514829,
+      "tags": {
+        "amenity": "school",
+        "name": "Nalanda Boy's School Minuwangoda"
+      }
+    },
+    {
+      "lat": 7.1663392,
+      "lon": 79.9469427,
+      "tags": {
+        "name": "Cargills Foodcity Minuwangoda",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2056665,
+      "lon": 79.9625572,
+      "tags": {
+        "addr:city": "Aluthepola",
+        "addr:housenumber": "6X46+CWM",
+        "addr:street": "Sri Dhammananda Nahimi Mawatha",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Ganekanda Purana Rajamaha Viharaya Aluthepola",
+        "religion": "buddhist",
+        "service_times": "5.30 PM"
+      }
+    },
+    {
+      "lat": 7.149763,
+      "lon": 79.9524059,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2079118,
+      "lon": 79.9278334,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Tenple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1575954,
+      "lon": 79.8903559,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Muthuwadiya Sri Wisuddharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1545955,
+      "lon": 79.8934343,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "methodist",
+        "name": "Methodis Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1696651,
+      "lon": 79.9479693,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Methodist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1725525,
+      "lon": 79.9563284,
+      "tags": {
+        "amenity": "hospital",
+        "name": "District Hospital Minuwangoda"
+      }
+    },
+    {
+      "lat": 7.161323,
+      "lon": 79.9163271,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St/ Mariya Church Kalahugoda",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1588949,
+      "lon": 79.9403573,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nadun Uyana Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1644315,
+      "lon": 79.940166,
+      "tags": {
+        "amenity": "school",
+        "name": "Arabi Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1615741,
+      "lon": 79.9393655,
+      "tags": {
+        "amenity": "school",
+        "name": "Luthar Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1609011,
+      "lon": 79.9398644,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Munas Watta Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1627926,
+      "lon": 79.9393375,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Takkiya Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.165774,
+      "lon": 79.9352456,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Aluth Para Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1657118,
+      "lon": 79.935782,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "lat": 7.193882,
+      "lon": 79.9009245,
+      "tags": {
+        "name:en": "Erandi Holiday Home",
+        "name:es": "Erandi holiday home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1727281,
+      "lon": 79.9317191,
+      "tags": {
+        "name:en": "Happy Day",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1847202,
+      "lon": 79.8954733,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Otha Shy airport Hotel",
+        "name:ja": "\u30aa\u30bf\u30b7\u30e3\u30a4\u30a8\u30a2\u30dd\u30fc\u30c8\u30db\u30c6\u30eb",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/Share-bzRSpa"
+      }
+    },
+    {
+      "lat": 7.1717503,
+      "lon": 79.8863435,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:ru": "\u041e\u0441\u0442\u0430\u043d\u043e\u0432\u043a\u0430 \u0430\u0432\u0442\u043e\u0431\u0443\u0441\u0430 \u0438\u0437 \u041d\u0435\u0433\u043e\u043c\u0431\u043e \u0432 \u041a\u0430\u043d\u0434\u0438",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1823436,
+      "lon": 79.8971983,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Airport Zen Resort",
+        "phone": "0771 404 122",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.179044,
+      "lon": 79.8925771,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Bus #265 to Colombo Fort Bus Station",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1864728,
+      "lon": 79.9097309,
+      "tags": {
+        "name": "Coco Villa Peach Tree",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1749369,
+      "lon": 79.8862603,
+      "tags": {
+        "addr:floor": "1",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "check_date": "2024-08-23",
+        "cuisine": "pizza",
+        "indoor_seating": "yes",
+        "level": "1",
+        "name": "Pizza Hut",
+        "outdoor_seating": "no",
+        "reservation": "no",
+        "self_service": "yes"
+      }
+    },
+    {
+      "lat": 7.1620001,
+      "lon": 79.9451037,
+      "tags": {
+        "name": "Galloluwa Budget Shop",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.17362,
+      "lon": 79.8874686,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bus #187 to Colombo"
+      }
+    },
+    {
+      "lat": 7.1825392,
+      "lon": 79.9180779,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tamerind Tree Hotel"
+      }
+    },
+    {
+      "lat": 7.17884,
+      "lon": 79.9068683,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "name": "Green view"
+      }
+    },
+    {
+      "lat": 7.1799373,
+      "lon": 79.9069823,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1798403,
+      "lon": 79.9070818,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1798291,
+      "lon": 79.9073006,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1800331,
+      "lon": 79.906779,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1801241,
+      "lon": 79.9073165,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.2045973,
+      "lon": 79.8945825,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2027903,
+      "lon": 79.9228349,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2122187,
+      "lon": 79.9426754,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Swathabimbarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1785039,
+      "lon": 79.9198784,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Euro Star Hotel"
+      }
+    },
+    {
+      "lat": 7.2121234,
+      "lon": 79.9471787,
+      "tags": {
+        "addr:city": "Katuwellegama",
+        "addr:street": "Netombo Road",
+        "building": "yes",
+        "name": "The Co-operative Food",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1798275,
+      "lon": 79.9074804,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1623289,
+      "lon": 79.936915,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Jumma Masjid Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1547831,
+      "lon": 79.9130679,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wijayarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1524507,
+      "lon": 79.9208373,
+      "tags": {
+        "amenity": "school",
+        "name": "Heenatiyana Dhammaloka Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1514847,
+      "lon": 79.9252757,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Heenatiyana Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1492978,
+      "lon": 79.8948649,
+      "tags": {
+        "addr:street": "Kuswala Road",
+        "amenity": "school",
+        "name": "Kuswala Primary School",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.1517671,
+      "lon": 79.9277335,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udawala Muththa Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1612593,
+      "lon": 79.9097548,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:levels": "1",
+        "name": "Bodhipadhaparamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1602448,
+      "lon": 79.909335,
+      "tags": {
+        "amenity": "school",
+        "name": "Madawala _ Kalahaugoda Combined Primary School"
+      }
+    },
+    {
+      "lat": 7.151428,
+      "lon": 79.9001531,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nisasala Raamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1519064,
+      "lon": 79.8951485,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kuswala Sri Pushparamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1550735,
+      "lon": 79.8933755,
+      "tags": {
+        "amenity": "school",
+        "name": "Wesly College",
+        "operator": "Private"
+      }
+    },
+    {
+      "lat": 7.1799714,
+      "lon": 79.9071328,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1648305,
+      "lon": 79.9462614,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Ambagahawatte Purana Raja Maha Wiharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1720356,
+      "lon": 79.947912,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Darmarajaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1680832,
+      "lon": 79.9478045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1589055,
+      "lon": 79.9464426,
+      "tags": {
+        "amenity": "school",
+        "name": "President College"
+      }
+    },
+    {
+      "lat": 7.1521356,
+      "lon": 79.9459281,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Abinwaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1556792,
+      "lon": 79.9482053,
+      "tags": {
+        "amenity": "school",
+        "name": "Rege Rnathunga School Road"
+      }
+    },
+    {
+      "lat": 7.183805,
+      "lon": 79.9284283,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sudarshana Meditation Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1838676,
+      "lon": 79.9296406,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sudarshanaramaya Temple Yatiyana",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1854963,
+      "lon": 79.9286855,
+      "tags": {
+        "amenity": "school",
+        "name": "Yatiyana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1621618,
+      "lon": 79.9362151,
+      "tags": {
+        "amenity": "school",
+        "building:levels": "1",
+        "name": "AL Aman Muslim Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1631705,
+      "lon": 79.934785,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:levels": "1",
+        "name": "Lumbini Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.162311,
+      "lon": 79.9333008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:levels": "1",
+        "name": "Roman Cathalic Church Galloluwa",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1619567,
+      "lon": 79.9330286,
+      "tags": {
+        "amenity": "school",
+        "name": "Galloluwa Primary School"
+      }
+    },
+    {
+      "lat": 7.1614072,
+      "lon": 79.9166152,
+      "tags": {
+        "amenity": "school",
+        "name": "ST/ Maris Secondary School Kalahugoda"
+      }
+    },
+    {
+      "lat": 7.1598767,
+      "lon": 79.916592,
+      "tags": {
+        "amenity": "school",
+        "name": "ST/ Maris School Kalahugoda"
+      }
+    },
+    {
+      "lat": 7.1711908,
+      "lon": 79.9524947,
+      "tags": {
+        "amenity": "school",
+        "name": "Nalanda Girl's School Minuwangoda"
+      }
+    },
+    {
+      "lat": 7.1703647,
+      "lon": 79.9526329,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raja Maha Vihara Mawatha",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.169668,
+      "lon": 79.947973,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "methodist church",
+        "religion": "christian"
+      }
+    }
+  ]
+}

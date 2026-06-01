@@ -1,0 +1,468 @@
+{
+  "cluster_id": 193,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.703438,
+    "lat_max": 6.775697,
+    "lon_min": 79.941101,
+    "lon_max": 80.017982
+  },
+  "outlet_ids": [
+    "OUT_00619",
+    "OUT_00624",
+    "OUT_00658",
+    "OUT_00667",
+    "OUT_00885",
+    "OUT_00894",
+    "OUT_00901",
+    "OUT_00949",
+    "OUT_01055",
+    "OUT_01212",
+    "OUT_01216",
+    "OUT_01228",
+    "OUT_01260",
+    "OUT_01471",
+    "OUT_01892",
+    "OUT_02123",
+    "OUT_02189",
+    "OUT_02273",
+    "OUT_02308",
+    "OUT_02444",
+    "OUT_02465",
+    "OUT_02485",
+    "OUT_02650",
+    "OUT_02655",
+    "OUT_02764",
+    "OUT_03102",
+    "OUT_03123",
+    "OUT_03178",
+    "OUT_03555",
+    "OUT_03658",
+    "OUT_04001",
+    "OUT_04356",
+    "OUT_04379",
+    "OUT_04582",
+    "OUT_04838",
+    "OUT_04947",
+    "OUT_05020",
+    "OUT_05320",
+    "OUT_05394",
+    "OUT_05546",
+    "OUT_05659",
+    "OUT_05701",
+    "OUT_05760",
+    "OUT_05764",
+    "OUT_05896",
+    "OUT_05946",
+    "OUT_06143",
+    "OUT_06251",
+    "OUT_06323",
+    "OUT_06332",
+    "OUT_06414",
+    "OUT_06509",
+    "OUT_06522",
+    "OUT_06535",
+    "OUT_06560",
+    "OUT_06563",
+    "OUT_06698",
+    "OUT_06776",
+    "OUT_06911",
+    "OUT_06919",
+    "OUT_07026",
+    "OUT_07441",
+    "OUT_07549",
+    "OUT_07554",
+    "OUT_07693",
+    "OUT_07788",
+    "OUT_07851",
+    "OUT_07876",
+    "OUT_07965",
+    "OUT_08163",
+    "OUT_08174",
+    "OUT_08421",
+    "OUT_08679",
+    "OUT_08710",
+    "OUT_08748",
+    "OUT_08935"
+  ],
+  "n_outlets": 76,
+  "n_pois_returned": 39,
+  "scraped_at": "2026-05-16T20:49:18.018518",
+  "elements": [
+    {
+      "lat": 6.762999,
+      "lon": 79.9670158,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.7202533,
+      "lon": 79.9553024,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Parakrama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7129038,
+      "lon": 79.9953773,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Weedhagama Weda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7253144,
+      "lon": 80.0008034,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dharmachakra Padanama",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7162557,
+      "lon": 80.0051006,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pathahawaththa Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7136995,
+      "lon": 79.9909108,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7214626,
+      "lon": 80.0132274,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raigama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7177312,
+      "lon": 79.9940777,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-10",
+        "name": "Veedagama Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.704718,
+      "lon": 79.97006,
+      "tags": {
+        "atm": "no",
+        "internet_access": "no",
+        "name": "Kamaro Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7072053,
+      "lon": 79.9552343,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7101433,
+      "lon": 79.9849966,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Rambukkana Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7643333,
+      "lon": 80.0147355,
+      "tags": {
+        "addr:city": "Gonapola Junction",
+        "addr:street": "Gonapola - Moragahahena-Homagama Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Vijayasundararamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7667246,
+      "lon": 79.947641,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7162364,
+      "lon": 79.9527865,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "addr:street": "Aruggoda Road",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "Mother of Holy Rosary Church",
+        "note": "This church known locally as Aruggoda Church (since it is situated in Aruggoda) belongs to the Parish of Panadura.",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7091472,
+      "lon": 79.9789569,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ramukkana"
+      }
+    },
+    {
+      "lat": 6.7659007,
+      "lon": 79.954241,
+      "tags": {
+        "addr:city": "Kesbewa",
+        "addr:street": "Makandana Road",
+        "name": "Jungle Cabin",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7718484,
+      "lon": 79.9629526,
+      "tags": {
+        "addr:city": "Heraliyawala",
+        "addr:street": "Temple Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.705641,
+      "lon": 80.002518,
+      "tags": {
+        "addr:street": "Atulugama Road",
+        "amenity": "place_of_worship",
+        "name": "Kolamediriya Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7104133,
+      "lon": 79.9920707,
+      "tags": {
+        "addr:street": "Adharsha watte Road",
+        "amenity": "school",
+        "name:en": "E-Gate , Bandaragama",
+        "operator": "Kushan Gunathilaka",
+        "phone": "071 806 6703"
+      }
+    },
+    {
+      "lat": 6.7385916,
+      "lon": 80.0013082,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.71313,
+      "lon": 79.9877028,
+      "tags": {
+        "name:en": "Food City Sampath and Jagath Plaza",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7204626,
+      "lon": 79.9976781,
+      "tags": {
+        "addr:street": "Delgawaswatta Road",
+        "amenity": "place_of_worship",
+        "name:en": "Delgawaswatta Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7515834,
+      "lon": 79.9552242,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Punyawardanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7518152,
+      "lon": 79.9611993,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Maha Chethiyaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7493137,
+      "lon": 79.9718643,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nikethanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7715421,
+      "lon": 79.9531487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Moraeda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7664316,
+      "lon": 79.95587,
+      "tags": {
+        "amenity": "place_of_worship",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7292941,
+      "lon": 79.941923,
+      "tags": {
+        "addr:street": "Galpotta Road",
+        "name:en": "The Barn House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7520718,
+      "lon": 79.9908697,
+      "tags": {
+        "name": "Coop City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7672359,
+      "lon": 79.9732764,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7075377,
+      "lon": 79.9762043,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhirajaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7192345,
+      "lon": 80.0013111,
+      "tags": {
+        "name": "Gelanigama Stores",
+        "opening_hours": "24/7",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7626101,
+      "lon": 80.0163085,
+      "tags": {
+        "amenity": "school",
+        "name": "Palanoruwa Central College"
+      }
+    },
+    {
+      "lat": 6.7122207,
+      "lon": 79.9900248,
+      "tags": {
+        "addr:city": "Bandaragama",
+        "addr:street": "Waskaduwa - Bandaragama Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Medihelp"
+      }
+    },
+    {
+      "lat": 6.7069606,
+      "lon": 79.9522063,
+      "tags": {
+        "amenity": "school",
+        "name": "Alubomulla Primary School"
+      }
+    },
+    {
+      "lat": 6.7373988,
+      "lon": 79.9838419,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "70",
+        "cuisine": "sri_lankan;burger",
+        "name": "The Paddock",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.7675093,
+      "lon": 79.9907687,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7674796,
+      "lon": 79.9910689,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7672406,
+      "lon": 79.9911727,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

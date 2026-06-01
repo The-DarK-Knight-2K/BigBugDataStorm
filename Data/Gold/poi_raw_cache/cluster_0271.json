@@ -1,0 +1,1355 @@
+{
+  "cluster_id": 271,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.018991000000001,
+    "lat_max": 7.095147,
+    "lon_min": 80.03355,
+    "lon_max": 80.117145
+  },
+  "outlet_ids": [
+    "OUT_00150",
+    "OUT_00258",
+    "OUT_00318",
+    "OUT_00383",
+    "OUT_00411",
+    "OUT_00738",
+    "OUT_01223",
+    "OUT_01229",
+    "OUT_01306",
+    "OUT_01340",
+    "OUT_01403",
+    "OUT_01439",
+    "OUT_01522",
+    "OUT_01781",
+    "OUT_01834",
+    "OUT_01985",
+    "OUT_02084",
+    "OUT_02108",
+    "OUT_02119",
+    "OUT_02252",
+    "OUT_02269",
+    "OUT_02383",
+    "OUT_02507",
+    "OUT_02534",
+    "OUT_02561",
+    "OUT_02641",
+    "OUT_02664",
+    "OUT_02670",
+    "OUT_02881",
+    "OUT_03024",
+    "OUT_03177",
+    "OUT_03411",
+    "OUT_03490",
+    "OUT_03504",
+    "OUT_03589",
+    "OUT_03775",
+    "OUT_03815",
+    "OUT_03876",
+    "OUT_04017",
+    "OUT_04135",
+    "OUT_04286",
+    "OUT_04524",
+    "OUT_04525",
+    "OUT_04569",
+    "OUT_04930",
+    "OUT_04968",
+    "OUT_05106",
+    "OUT_05207",
+    "OUT_05351",
+    "OUT_05361",
+    "OUT_05440",
+    "OUT_05480",
+    "OUT_05613",
+    "OUT_05873",
+    "OUT_06041",
+    "OUT_06052",
+    "OUT_06062",
+    "OUT_06416",
+    "OUT_06434",
+    "OUT_06472",
+    "OUT_06486",
+    "OUT_06807",
+    "OUT_06833",
+    "OUT_06969",
+    "OUT_07047",
+    "OUT_07242",
+    "OUT_07307",
+    "OUT_07446",
+    "OUT_07547",
+    "OUT_07591",
+    "OUT_07680",
+    "OUT_07829",
+    "OUT_08089",
+    "OUT_08291",
+    "OUT_08307",
+    "OUT_08325",
+    "OUT_08384",
+    "OUT_08457",
+    "OUT_08582",
+    "OUT_08691",
+    "OUT_08769",
+    "OUT_08798",
+    "OUT_08801",
+    "OUT_08838",
+    "OUT_08989"
+  ],
+  "n_outlets": 85,
+  "n_pois_returned": 114,
+  "scraped_at": "2026-05-16T22:04:24.056574",
+  "elements": [
+    {
+      "lat": 7.0234098,
+      "lon": 80.073237,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Malkale Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0246094,
+      "lon": 80.0785623,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hoaragasdeka Road",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0312411,
+      "lon": 80.0849781,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0427999,
+      "lon": 80.0341388,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.041976,
+      "lon": 80.0368738,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Uruwala Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0220121,
+      "lon": 80.054463,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Henegama Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0287315,
+      "lon": 80.0530635,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0340905,
+      "lon": 80.0498882,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pilikuththuwa Road",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0258496,
+      "lon": 80.0542402,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0308201,
+      "lon": 80.0512371,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Puwakpitiya Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0222562,
+      "lon": 80.1160659,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0216934,
+      "lon": 80.094482,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mahena Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0221977,
+      "lon": 80.100949,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Karawdeniya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0229532,
+      "lon": 80.1166501,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0211326,
+      "lon": 80.1100542,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nadungolla",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0321078,
+      "lon": 80.0888744,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mandawala Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0339888,
+      "lon": 80.0929535,
+      "tags": {
+        "addr:city": "Gampaha",
+        "addr:country": "LK",
+        "addr:state": "Western Province",
+        "amenity": "school",
+        "name": "Radawana Mahagamasekera Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0258586,
+      "lon": 80.0897769,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pahala Wasala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0652883,
+      "lon": 80.0648038,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Maligatenna Raja Mahaviharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0645967,
+      "lon": 80.0505404,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pilikuttuwa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0324364,
+      "lon": 80.100181,
+      "tags": {
+        "addr:street": "Weliweriya-Kirindiwela Road",
+        "amenity": "hospital",
+        "name": "Radawana Divisional Hospital"
+      }
+    },
+    {
+      "lat": 7.0333771,
+      "lon": 80.1000702,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hospital Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0335563,
+      "lon": 80.0923957,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Radawana Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0221149,
+      "lon": 80.1045476,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0941515,
+      "lon": 80.0927291,
+      "tags": {
+        "addr:city": "Uduthuththiripitiya",
+        "addr:postcode": "11054",
+        "addr:street": "Gorakadeniya",
+        "amenity": "place_of_worship",
+        "name": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db4\u0dd4\u0dab\u0dca\u200d\u0dba\u0dc0\u0dbb\u0dca\u0db0\u0db1\u0dcf\u0dbb\u0dcf\u0db8 \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0257014,
+      "lon": 80.0384307,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Atikehelgalla Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0211823,
+      "lon": 80.0385207,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0416683,
+      "lon": 80.0368542,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uruwala Sabhawe Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0917229,
+      "lon": 80.0368681,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ayurwedha Bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0940174,
+      "lon": 80.0388683,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Weediyawatta"
+      }
+    },
+    {
+      "lat": 7.0192154,
+      "lon": 80.0944486,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Akkara 9",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0395209,
+      "lon": 80.0403117,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.071563,
+      "lon": 80.102504,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pettagankanda Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.085487,
+      "lon": 80.07591,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ariyanandanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0789204,
+      "lon": 80.0479401,
+      "tags": {
+        "amenity": "school",
+        "name": "Nissanka Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0704715,
+      "lon": 80.0932309,
+      "tags": {
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Dikkanda junction bus stop",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.0806187,
+      "lon": 80.0607422,
+      "tags": {
+        "name": "Thrimalee Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0761073,
+      "lon": 80.0450635,
+      "tags": {
+        "bin": "no",
+        "highway": "bus_stop",
+        "name": "Batagolla bus stop",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.0843026,
+      "lon": 80.0788362,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nelligahamula bus stop"
+      }
+    },
+    {
+      "lat": 7.033282,
+      "lon": 80.093616,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Abhinawarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0195777,
+      "lon": 80.0485598,
+      "tags": {
+        "amenity": "school",
+        "name": "Henegama Central College"
+      }
+    },
+    {
+      "lat": 7.028712,
+      "lon": 80.080698,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Rabarwatta Junction"
+      }
+    },
+    {
+      "lat": 7.038241,
+      "lon": 80.0423411,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0242578,
+      "lon": 80.0600815,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.02413,
+      "lon": 80.0472466,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Henegama Central",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0357591,
+      "lon": 80.0988363,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kithulakanda Bodimalu Bhikkshuni Aaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0658079,
+      "lon": 80.0650093,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Maligatenna Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0386008,
+      "lon": 80.1113901,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0341515,
+      "lon": 80.1022848,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "K Jayathilaka Mawatha",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0218202,
+      "lon": 80.1089857,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0215711,
+      "lon": 80.1064159,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0198528,
+      "lon": 80.1137434,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0203807,
+      "lon": 80.1116005,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0299958,
+      "lon": 80.0891826,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Radawana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0217474,
+      "lon": 80.0958627,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0220523,
+      "lon": 80.0971529,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0702588,
+      "lon": 80.0931831,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gangarama Buddhist Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0708817,
+      "lon": 80.0930517,
+      "tags": {
+        "name": "Ruwan Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0246557,
+      "lon": 80.0420638,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0268429,
+      "lon": 80.0368822,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Siduhath Kanishta Vidyalaya",
+        "school": "secondary"
+      }
+    },
+    {
+      "lat": 7.0227355,
+      "lon": 80.0901047,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ihala Wasala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0263436,
+      "lon": 80.0659295,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pinthaliya Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0408606,
+      "lon": 80.1164596,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0250434,
+      "lon": 80.0442375,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Imbula Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0912518,
+      "lon": 80.0377228,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Gampaha Wickramarachchi Ayurveda Teaching Hospital"
+      }
+    },
+    {
+      "lat": 7.093793,
+      "lon": 80.0402313,
+      "tags": {
+        "amenity": "school",
+        "name": "Anura Maha vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0926883,
+      "lon": 80.0394986,
+      "tags": {
+        "amenity": "school",
+        "name": "Anura Primary school"
+      }
+    },
+    {
+      "lat": 7.0815425,
+      "lon": 80.0364338,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Pre School",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0814247,
+      "lon": 80.0364433,
+      "tags": {
+        "amenity": "school",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "note": "Pre school",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0811451,
+      "lon": 80.034859,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0934441,
+      "lon": 80.033786,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Darmashalawa",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0934468,
+      "lon": 80.0336,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Viharaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0932263,
+      "lon": 80.0335099,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0936818,
+      "lon": 80.0335451,
+      "tags": {
+        "addr:city": "yakkala",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Ancient Keselwathugoda Temple",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "2 faces (pitched)"
+      }
+    },
+    {
+      "lat": 7.0847813,
+      "lon": 80.0387956,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "government",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Sumedaramaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0847321,
+      "lon": 80.0386292,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Sumedaramaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0848067,
+      "lon": 80.0386933,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "government",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Sumedaramaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0846065,
+      "lon": 80.0388677,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "government",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Sumedaramaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0882916,
+      "lon": 80.0376671,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Ramadhi Hotel",
+        "roof:material": "asbestos",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.088386,
+      "lon": 80.0375174,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "Asbestos",
+        "roof:shape": "2 faces (pitched)"
+      }
+    },
+    {
+      "lat": 7.0877324,
+      "lon": 80.0377482,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.0880588,
+      "lon": 80.0377485,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0866718,
+      "lon": 80.0336424,
+      "tags": {
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "name": "Cargills Food City",
+        "roof:material": "zinc",
+        "roof:shape": "gabled",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0865614,
+      "lon": 80.033992,
+      "tags": {
+        "addr:street": "Kandy road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Letona Cafe",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0869002,
+      "lon": 80.0374453,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "residential",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0890188,
+      "lon": 80.0352751,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.077031,
+      "lon": 80.0423517,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0769391,
+      "lon": 80.04259,
+      "tags": {
+        "addr:street": "Kirindiwela road",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0770974,
+      "lon": 80.0426856,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0773521,
+      "lon": 80.0423451,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "cement_block",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0771725,
+      "lon": 80.0422529,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0849643,
+      "lon": 80.0336903,
+      "tags": {
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0847961,
+      "lon": 80.0386104,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "government",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Sri Sumedaramaya",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0832713,
+      "lon": 80.0360013,
+      "tags": {
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0833225,
+      "lon": 80.0359228,
+      "tags": {
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.082992,
+      "lon": 80.0357867,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Asela Hotel",
+        "roof:material": "asbestos",
+        "roof:shape": "2 faces (pitched)"
+      }
+    },
+    {
+      "lat": 7.0772849,
+      "lon": 80.0423153,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0926556,
+      "lon": 80.0395946,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "4 faces (hipped)"
+      }
+    },
+    {
+      "lat": 7.0874637,
+      "lon": 80.035071,
+      "tags": {
+        "addr:city": "Yakkala",
+        "addr:street": "Kandy Road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "cuisine": "chinese",
+        "name": "Hot Wok Resaurant",
+        "name:en": "Hot Wok restaurant",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 7.0886349,
+      "lon": 80.0346932,
+      "tags": {
+        "amenity": "school",
+        "building": "industrial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "cement_block",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0842586,
+      "lon": 80.0433285,
+      "tags": {
+        "amenity": "school",
+        "name": "Jinarathana Primary School"
+      }
+    },
+    {
+      "lat": 7.0769417,
+      "lon": 80.0423213,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0771918,
+      "lon": 80.0425938,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "pagoda",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "note": "Chaiththya",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "2 faces (pitched)"
+      }
+    },
+    {
+      "lat": 7.0944998,
+      "lon": 80.0385203,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sathara Maha Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0935391,
+      "lon": 80.0396025,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "4 faces (hipped)"
+      }
+    },
+    {
+      "lat": 7.0770835,
+      "lon": 80.0424443,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jayawardhanarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0390614,
+      "lon": 80.1132529,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0879882,
+      "lon": 80.0600204,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hawaniwala Wiwekarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0743425,
+      "lon": 80.1086178,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0635494,
+      "lon": 80.1169273,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.0469967,
+      "lon": 80.0462365,
+      "tags": {
+        "amenity": "school",
+        "name": "WP/KE?Uruwala Junior School"
+      }
+    },
+    {
+      "lat": 7.0547988,
+      "lon": 80.0425968,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ananda Buddhist Centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0233596,
+      "lon": 80.047638,
+      "tags": {
+        "amenity": "school",
+        "name": "Henegama Mahabodhi Junior Secondary College",
+        "school": "secondary"
+      }
+    },
+    {
+      "lat": 7.0329274,
+      "lon": 80.0513267,
+      "tags": {
+        "amenity": "school",
+        "name": "Kahatana Vidyalaya"
+      }
+    }
+  ]
+}

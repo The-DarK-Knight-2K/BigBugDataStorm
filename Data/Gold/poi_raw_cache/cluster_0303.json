@@ -1,0 +1,102 @@
+{
+  "cluster_id": 303,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.59769,
+    "lat_max": 7.685073,
+    "lon_min": 80.128744,
+    "lon_max": 80.212935
+  },
+  "outlet_ids": [
+    "OUT_13030",
+    "OUT_13247",
+    "OUT_13249",
+    "OUT_13311",
+    "OUT_13375",
+    "OUT_13506",
+    "OUT_13831",
+    "OUT_13972",
+    "OUT_14128",
+    "OUT_14206",
+    "OUT_14275",
+    "OUT_14369",
+    "OUT_14432",
+    "OUT_14729",
+    "OUT_14760",
+    "OUT_14920",
+    "OUT_15050",
+    "OUT_15548",
+    "OUT_15559",
+    "OUT_15609",
+    "OUT_15662",
+    "OUT_15691",
+    "OUT_15775",
+    "OUT_15810",
+    "OUT_15929",
+    "OUT_15939",
+    "OUT_16318",
+    "OUT_16638",
+    "OUT_16675",
+    "OUT_16705",
+    "OUT_16746",
+    "OUT_16888"
+  ],
+  "n_outlets": 32,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T22:09:25.346757",
+  "elements": [
+    {
+      "lat": 7.6819008,
+      "lon": 80.2110043,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6193011,
+      "lon": 80.1353965,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6248586,
+      "lon": 80.1487058,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6100043,
+      "lon": 80.1750717,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.6257532,
+      "lon": 80.1599778,
+      "tags": {
+        "amenity": "school",
+        "name": "Kuli/Madige Midiyala Central College"
+      }
+    },
+    {
+      "lat": 7.6786764,
+      "lon": 80.2000632,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

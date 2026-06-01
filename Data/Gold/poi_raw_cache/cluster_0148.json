@@ -1,0 +1,937 @@
+{
+  "cluster_id": 148,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.735894,
+    "lat_max": 6.813165,
+    "lon_min": 79.925692,
+    "lon_max": 79.997879
+  },
+  "outlet_ids": [
+    "OUT_00034",
+    "OUT_00053",
+    "OUT_00163",
+    "OUT_00283",
+    "OUT_00500",
+    "OUT_00530",
+    "OUT_00569",
+    "OUT_00728",
+    "OUT_00990",
+    "OUT_01089",
+    "OUT_01091",
+    "OUT_01658",
+    "OUT_01797",
+    "OUT_01893",
+    "OUT_02556",
+    "OUT_02631",
+    "OUT_02786",
+    "OUT_02963",
+    "OUT_03034",
+    "OUT_03078",
+    "OUT_03124",
+    "OUT_03164",
+    "OUT_03383",
+    "OUT_03450",
+    "OUT_03512",
+    "OUT_03553",
+    "OUT_03670",
+    "OUT_03702",
+    "OUT_03885",
+    "OUT_03983",
+    "OUT_04012",
+    "OUT_04107",
+    "OUT_04505",
+    "OUT_04508",
+    "OUT_04580",
+    "OUT_05110",
+    "OUT_05179",
+    "OUT_05355",
+    "OUT_05375",
+    "OUT_05438",
+    "OUT_05458",
+    "OUT_05518",
+    "OUT_05556",
+    "OUT_05603",
+    "OUT_05640",
+    "OUT_05653",
+    "OUT_05688",
+    "OUT_05862",
+    "OUT_05966",
+    "OUT_06055",
+    "OUT_06080",
+    "OUT_06083",
+    "OUT_06136",
+    "OUT_06252",
+    "OUT_06311",
+    "OUT_06313",
+    "OUT_06401",
+    "OUT_06590",
+    "OUT_06739",
+    "OUT_06849",
+    "OUT_06867",
+    "OUT_07017",
+    "OUT_07040",
+    "OUT_07140",
+    "OUT_07290",
+    "OUT_07361",
+    "OUT_07394",
+    "OUT_07638",
+    "OUT_07747",
+    "OUT_07863",
+    "OUT_07908",
+    "OUT_08200",
+    "OUT_08361",
+    "OUT_08587",
+    "OUT_08905"
+  ],
+  "n_outlets": 75,
+  "n_pois_returned": 83,
+  "scraped_at": "2026-05-16T20:41:33.492807",
+  "elements": [
+    {
+      "lat": 6.7846239,
+      "lon": 79.9756303,
+      "tags": {
+        "addr:city": "Wethara",
+        "addr:street": "Colombo - Horana Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Wethara District Hospital"
+      }
+    },
+    {
+      "lat": 6.812792,
+      "lon": 79.9829103,
+      "tags": {
+        "addr:city": "Deepangoda",
+        "addr:street": "Kottawa-Horana Road",
+        "amenity": "school",
+        "name": "Deepangoda Primary School"
+      }
+    },
+    {
+      "lat": 6.8114091,
+      "lon": 79.9752145,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mattegoda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8124463,
+      "lon": 79.9633446,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Katugampala Weda Madura"
+      }
+    },
+    {
+      "lat": 6.762999,
+      "lon": 79.9670158,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8089517,
+      "lon": 79.9489777,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nikethanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8111423,
+      "lon": 79.9554836,
+      "tags": {
+        "addr:city": "Siddamulla",
+        "addr:street": "Piliyandala - Kottawa Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Sangarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7963905,
+      "lon": 79.9395625,
+      "tags": {
+        "addr:city": "Kesbewa",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7984848,
+      "lon": 79.9297555,
+      "tags": {
+        "addr:city": "Piliyandala",
+        "name": "Arpico Super Centre",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7861738,
+      "lon": 79.9653417,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Sudarshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7825033,
+      "lon": 79.9500434,
+      "tags": {
+        "alt_name": "SOS College",
+        "amenity": "school",
+        "name": "Hermann Gmeiner School Piliyandala"
+      }
+    },
+    {
+      "lat": 6.7927404,
+      "lon": 79.9452443,
+      "tags": {
+        "name": "Prince Hotel",
+        "note": "For quality weddings",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8131244,
+      "lon": 79.9661795,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pubudu Mawatha Bus Stop",
+        "network": "342",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.7611355,
+      "lon": 79.9302117,
+      "tags": {
+        "addr:city": "Madapatha",
+        "addr:street": "Duwawatta Road",
+        "name": "Vinrich Lake Resort",
+        "phone": "0094 77 779 0677",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7667246,
+      "lon": 79.947641,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.799586,
+      "lon": 79.9361251,
+      "tags": {
+        "addr:city": "Piliyandala",
+        "amenity": "place_of_worship",
+        "name": "Duwewatte Temple- Mampe, piliyandala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7947167,
+      "lon": 79.9425804,
+      "tags": {
+        "addr:city": "Kesbewa",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Wijayasundararamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7985334,
+      "lon": 79.9325927,
+      "tags": {
+        "addr:city": "Miriswatte",
+        "name": "Susiri Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7971995,
+      "lon": 79.9278535,
+      "tags": {
+        "addr:city": "Piliyandala",
+        "amenity": "place_of_worship",
+        "name": "Mampe Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.765079,
+      "lon": 79.9281486,
+      "tags": {
+        "addr:city": "Madapatha",
+        "amenity": "place_of_worship",
+        "name": "Sri Shailathalaramaya"
+      }
+    },
+    {
+      "lat": 6.793973,
+      "lon": 79.944378,
+      "tags": {
+        "addr:city": "Kesbewa",
+        "addr:street": "Colombo - Horana Road",
+        "amenity": "school",
+        "name": "Dharmasena Atigala Balika Vidyalaya",
+        "name:si": "\u0db0\u0dbb\u0dca\u0db8\u0dc3\u0dda\u0db1 \u0d86\u0da7\u0dd2\u0d9c\u0dbd \u0db6\u0dcf\u0dbd\u0dd2\u0d9a\u0dcf \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.8127229,
+      "lon": 79.9469438,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Nampamunuwa Bus Stop",
+        "network": "Bus toute 296",
+        "public_transport": "platform",
+        "route_ref": "296",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8112474,
+      "lon": 79.9429341,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Sal gas handiya bus stop",
+        "network": "route 296",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8107042,
+      "lon": 79.9394384,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Dole kanatta bus stop",
+        "operator": "route 296, 341",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.7882673,
+      "lon": 79.9876992,
+      "tags": {
+        "addr:street": "Kahathuduwa-Diyagama road",
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8112274,
+      "lon": 79.9387212,
+      "tags": {
+        "addr:city": "Makuluduwa",
+        "addr:street": "Piliyandala - Maharagama road",
+        "amenity": "place_of_worship",
+        "name": "Sri Thisarana Sarana Dharmayathanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7659007,
+      "lon": 79.954241,
+      "tags": {
+        "addr:city": "Kesbewa",
+        "addr:street": "Makandana Road",
+        "name": "Jungle Cabin",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7718484,
+      "lon": 79.9629526,
+      "tags": {
+        "addr:city": "Heraliyawala",
+        "addr:street": "Temple Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8043563,
+      "lon": 79.9590193,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kudamaduwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8085914,
+      "lon": 79.9663501,
+      "tags": {
+        "amenity": "place_of_worship",
+        "description": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7933167,
+      "lon": 79.9457769,
+      "tags": {
+        "amenity": "school",
+        "name": "Guidance International Junior School"
+      }
+    },
+    {
+      "lat": 6.7918398,
+      "lon": 79.9416339,
+      "tags": {
+        "name:en": "Keels super kesbewa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8013769,
+      "lon": 79.948851,
+      "tags": {
+        "addr:city": "Piliyandala",
+        "addr:postcode": "10350",
+        "addr:street": "Sri Wijayanandanarama Road, Honnantara North, Piliyandala",
+        "amenity": "place_of_worship",
+        "name": "Sri Wijayanandanaramaya, Honnantara, Piliyandala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7861875,
+      "lon": 79.9704859,
+      "tags": {
+        "addr:city": "Wethara",
+        "addr:street": "Colombo - Horana Road",
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7859657,
+      "lon": 79.9781541,
+      "tags": {
+        "addr:city": "Wethara",
+        "addr:street": "Kirigampanuwa Road",
+        "amenity": "place_of_worship",
+        "name": "Suseemarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7515834,
+      "lon": 79.9552242,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Punyawardanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7518152,
+      "lon": 79.9611993,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Maha Chethiyaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7493137,
+      "lon": 79.9718643,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nikethanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8034971,
+      "lon": 79.9306038,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.810875,
+      "lon": 79.9395102,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7715421,
+      "lon": 79.9531487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Moraeda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7664316,
+      "lon": 79.95587,
+      "tags": {
+        "amenity": "place_of_worship",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7960568,
+      "lon": 79.9822623,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kirigampamunuwa Sri sudarmarathna raja maha viharasthanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7520718,
+      "lon": 79.9908697,
+      "tags": {
+        "name": "Coop City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7789034,
+      "lon": 79.9656925,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ambalangoda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7672359,
+      "lon": 79.9732764,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7829477,
+      "lon": 79.9764143,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8012348,
+      "lon": 79.9787088,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:street": "Kirigampanuwa Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rohana wijayasiri wedamahatha"
+      }
+    },
+    {
+      "lat": 6.7904251,
+      "lon": 79.9551989,
+      "tags": {
+        "name:en": "Dayarathna Group of Companies",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7992544,
+      "lon": 79.9635118,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vipassana Meditation Centre",
+        "name:si": "\u0dc0\u0dd2\u0db4\u0dc3\u0dca\u0dc3\u0db1\u0dcf \u0db7\u0dcf\u0dc0\u0db1\u0dcf \u0db8\u0db0\u0dca\u200d\u0dba\u0dc3\u0dca\u0dae\u0dcf\u0db1\u0dba",
+        "religion": "buddhist",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.788248,
+      "lon": 79.9597996,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.7920002,
+      "lon": 79.9498632,
+      "tags": {
+        "amenity": "restaurant",
+        "delivery": "yes",
+        "name": "Sigiri Food Centre",
+        "name:si": "\u0dc3\u0dd3\u0d9c\u0dd2\u0dbb\u0dd2 \u0dc6\u0dd4\u0da9\u0dca",
+        "reservation": "no",
+        "takeaway": "only",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.7916326,
+      "lon": 79.9497809,
+      "tags": {
+        "name": "Sathosa",
+        "name:si": "\u0dc3\u0dad\u0ddc\u0dc3",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.7967086,
+      "lon": 79.9317158,
+      "tags": {
+        "amenity": "restaurant",
+        "delivery": "yes",
+        "name": "Greenland Food Center",
+        "reservation": "no",
+        "takeaway": "only"
+      }
+    },
+    {
+      "lat": 6.7932285,
+      "lon": 79.9469626,
+      "tags": {
+        "name": "Keels",
+        "shop": "supermarket",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.7951941,
+      "lon": 79.9361989,
+      "tags": {
+        "name": "LAUGFS Super",
+        "shop": "supermarket",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.7975432,
+      "lon": 79.9293351,
+      "tags": {
+        "name": "Keels",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.7975645,
+      "lon": 79.9295859,
+      "tags": {
+        "name": "Sathosa",
+        "name:si": "\u0dc3\u0dad\u0ddc\u0dc3",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.7873063,
+      "lon": 79.9627006,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ovita Cafe",
+        "reservation": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.7966766,
+      "lon": 79.9395617,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lake View Restaurant & Bar"
+      }
+    },
+    {
+      "lat": 6.7980094,
+      "lon": 79.9297027,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Red Balloon Family Restaurant"
+      }
+    },
+    {
+      "lat": 6.7976522,
+      "lon": 79.9409836,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Grand 7 Hotel & Restaurant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8087476,
+      "lon": 79.9393099,
+      "tags": {
+        "name": "Keells",
+        "opening_hours": "Mo-Su 08:30-22:30",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8130118,
+      "lon": 79.97448,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:housenumber": "193/10",
+        "addr:postcode": "10320",
+        "addr:street": "Kottawa-Mattegoda",
+        "amenity": "restaurant",
+        "cuisine": "chinese;italian;thai;mongolian;sri_lankan",
+        "name": "cloves",
+        "phone": "0094714334344"
+      }
+    },
+    {
+      "lat": 6.7958013,
+      "lon": 79.9824072,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7632078,
+      "lon": 79.9285909,
+      "tags": {
+        "addr:city": "Madapatha",
+        "addr:housenumber": "16/1",
+        "addr:postcode": "10306",
+        "addr:street": "Ferry Road",
+        "amenity": "hospital",
+        "healthcare": "doctor",
+        "healthcare:speciality": "general;blood_check",
+        "name": "Family Medical Centre",
+        "operator": "Dr Lakmali Hewa Wasalage",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.8053327,
+      "lon": 79.9834564,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "sri visuddawasa buddhist center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7850337,
+      "lon": 79.9764404,
+      "tags": {
+        "name": "Keells",
+        "shop": "supermarket",
+        "website": "https://www.keellssuper.com/"
+      }
+    },
+    {
+      "lat": 6.7792384,
+      "lon": 79.949891,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nandharamaya",
+        "phone": "0112 703 864"
+      }
+    },
+    {
+      "lat": 6.7859585,
+      "lon": 79.9435658,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "phone": "0112 620 350",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8007958,
+      "lon": 79.9937032,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8089031,
+      "lon": 79.9928255,
+      "tags": {
+        "amenity": "university",
+        "name": "Institute of Technology - University of Moratuwa"
+      }
+    },
+    {
+      "lat": 6.7373988,
+      "lon": 79.9838419,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "70",
+        "cuisine": "sri_lankan;burger",
+        "name": "The Paddock",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.7820746,
+      "lon": 79.9861185,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7819656,
+      "lon": 79.9861036,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.781841,
+      "lon": 79.9858903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7816932,
+      "lon": 79.9859557,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.781758,
+      "lon": 79.9862031,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7818244,
+      "lon": 79.9863532,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7675093,
+      "lon": 79.9907687,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7674796,
+      "lon": 79.9910689,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7672406,
+      "lon": 79.9911727,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Siri Nandaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8118004,
+      "lon": 79.975028,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Buddha's Statue"
+      }
+    }
+  ]
+}

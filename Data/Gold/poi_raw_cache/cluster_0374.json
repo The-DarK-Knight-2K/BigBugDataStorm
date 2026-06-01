@@ -1,0 +1,858 @@
+{
+  "cluster_id": 374,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.863799,
+    "lat_max": 6.948778,
+    "lon_min": 80.527744,
+    "lon_max": 80.605
+  },
+  "outlet_ids": [
+    "OUT_09031",
+    "OUT_09090",
+    "OUT_09599",
+    "OUT_09692",
+    "OUT_09699",
+    "OUT_09909",
+    "OUT_10012",
+    "OUT_10048",
+    "OUT_10238",
+    "OUT_10266",
+    "OUT_10302",
+    "OUT_10402",
+    "OUT_10405",
+    "OUT_10617",
+    "OUT_10657",
+    "OUT_10866",
+    "OUT_10892",
+    "OUT_11141",
+    "OUT_11150",
+    "OUT_11385",
+    "OUT_11431",
+    "OUT_11442",
+    "OUT_11496",
+    "OUT_11584",
+    "OUT_11638",
+    "OUT_11729",
+    "OUT_11757",
+    "OUT_11771",
+    "OUT_11921",
+    "OUT_11980",
+    "OUT_12051",
+    "OUT_12282",
+    "OUT_12703",
+    "OUT_12808",
+    "OUT_12861",
+    "OUT_12906"
+  ],
+  "n_outlets": 36,
+  "n_pois_returned": 89,
+  "scraped_at": "2026-05-16T22:14:44.503241",
+  "elements": [
+    {
+      "lat": 6.9348701,
+      "lon": 80.5587202,
+      "tags": {
+        "alt_name": "Rozella",
+        "name": "Rozelle",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9481148,
+      "lon": 80.542167,
+      "tags": {
+        "name": "Ihala Watawala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8922522,
+      "lon": 80.6000142,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nigrodharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8918527,
+      "lon": 80.5990674,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hatton Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.889592,
+      "lon": 80.5961975,
+      "tags": {
+        "addr:city": "hatton",
+        "addr:street": "Dunbar Road",
+        "amenity": "school",
+        "name": "Highland Central College"
+      }
+    },
+    {
+      "lat": 6.8948876,
+      "lon": 80.5967408,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8730271,
+      "lon": 80.5643542,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Castlerigh Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8752248,
+      "lon": 80.599771,
+      "tags": {
+        "addr:city": "Dickoya",
+        "addr:street": "Hatton-Maskeliya Road",
+        "name": "Mandira Bungalows",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8935255,
+      "lon": 80.5978579,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Bus to Nallathaniya/Adams Peak (only in season Dec-Apr)"
+      }
+    },
+    {
+      "lat": 6.8981746,
+      "lon": 80.5924478,
+      "tags": {
+        "addr:street": "Hatton - Nuwara Eliya Road",
+        "amenity": "place_of_worship",
+        "name:en": "Saman Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9315208,
+      "lon": 80.5520394,
+      "tags": {
+        "addr:city": "Rosalla",
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "New Choice Restaurant"
+      }
+    },
+    {
+      "lat": 6.9012017,
+      "lon": 80.5956521,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Jai Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8938443,
+      "lon": 80.5960138,
+      "tags": {
+        "addr:street": "Hatton-Maskeliya Road",
+        "amenity": "place_of_worship",
+        "check_date": "2025-12-30",
+        "name:de": "Hinduistischer Tempel",
+        "name:en": "Hinduist Temple"
+      }
+    },
+    {
+      "lat": 6.9452597,
+      "lon": 80.5387892,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. John the Baptist",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8753958,
+      "lon": 80.5289036,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.8965039,
+      "lon": 80.5989689,
+      "tags": {
+        "name:en": "Niwasa House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9335267,
+      "lon": 80.5595161,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8725347,
+      "lon": 80.5650991,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9172049,
+      "lon": 80.586611,
+      "tags": {
+        "addr:street": "Argyle Road",
+        "addr:suburb": "Kudaoya Estate",
+        "email": "reservations@theargylevillas.com",
+        "name": "The Argyle",
+        "phone": "+94 51 2030000;tel:+94 76 3886846",
+        "tourism": "hotel",
+        "website": "http://www.theargyle.lk/"
+      }
+    },
+    {
+      "lat": 6.9012834,
+      "lon": 80.5296557,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8728935,
+      "lon": 80.6042677,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8905705,
+      "lon": 80.598726,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8742319,
+      "lon": 80.6036836,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "lat": 6.873497,
+      "lon": 80.6048791,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "lat": 6.8896731,
+      "lon": 80.5984059,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.8898725,
+      "lon": 80.5983195,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.8883361,
+      "lon": 80.5974926,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.8900719,
+      "lon": 80.5969723,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "laa atams"
+      }
+    },
+    {
+      "lat": 6.8897109,
+      "lon": 80.5972337,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "lat": 6.889307,
+      "lon": 80.5601826,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8661916,
+      "lon": 80.5994721,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.869905,
+      "lon": 80.5998457,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9163075,
+      "lon": 80.6006243,
+      "tags": {
+        "amenity": "school",
+        "name": "cambridge Collage"
+      }
+    },
+    {
+      "lat": 6.9158922,
+      "lon": 80.5983477,
+      "tags": {
+        "addr:city": "KOTAGALA",
+        "addr:housenumber": "kotagala",
+        "addr:postcode": "22000",
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "place_of_worship",
+        "name": "Shivan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9221529,
+      "lon": 80.5835014,
+      "tags": {
+        "name": "Harrington Heritage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9237384,
+      "lon": 80.5827593,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8929896,
+      "lon": 80.5964038,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Family Restaurant"
+      }
+    },
+    {
+      "lat": 6.8892847,
+      "lon": 80.5964078,
+      "tags": {
+        "amenity": "school",
+        "survey:date": "2024-02-21"
+      }
+    },
+    {
+      "lat": 6.8678972,
+      "lon": 80.5778973,
+      "tags": {
+        "name": "Castlereigh Summer House",
+        "tourism": "hotel",
+        "website": "https://www.hattonsummerhouse.com"
+      }
+    },
+    {
+      "lat": 6.9168002,
+      "lon": 80.5977669,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Asvika hotel"
+      }
+    },
+    {
+      "lat": 6.9163076,
+      "lon": 80.5993092,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.918222,
+      "lon": 80.5998027,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9179371,
+      "lon": 80.5953958,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9231267,
+      "lon": 80.6041291,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9164484,
+      "lon": 80.5900098,
+      "tags": {
+        "addr:city": "Hatton",
+        "addr:street": "Hatton - Maskeliya - Dalhousie Road,",
+        "amenity": "school",
+        "name": "Webster International School, Hatton",
+        "phone": "0512223000"
+      }
+    },
+    {
+      "lat": 6.9176945,
+      "lon": 80.5972223,
+      "tags": {
+        "addr:city": "KOTAGALA",
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "restaurant",
+        "name": "Hill Cool Hotel & Restaurant",
+        "phone": "0770516667"
+      }
+    },
+    {
+      "lat": 6.9186903,
+      "lon": 80.5929844,
+      "tags": {
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "restaurant",
+        "name": "The nonis",
+        "phone": "0704023245"
+      }
+    },
+    {
+      "lat": 6.9098592,
+      "lon": 80.5874341,
+      "tags": {
+        "addr:city": "hatton",
+        "addr:street": "Avissawella- Hwy, Hatton",
+        "amenity": "school",
+        "name": "Highlevel International School"
+      }
+    },
+    {
+      "lat": 6.8915259,
+      "lon": 80.598771,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sree Risedv Villas",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "lat": 6.8968924,
+      "lon": 80.5906149,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Tea Hills Bungalow",
+        "phone": "+94772027766",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.889303,
+      "lon": 80.5983908,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "check_date": "2025-12-30",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.8937244,
+      "lon": 80.5998402,
+      "tags": {
+        "addr:street": "Station Road",
+        "amenity": "school",
+        "name": "Sri Pada Central College",
+        "name:en": "Sri Pada Central College",
+        "opening_hours": "Mo-Fr 08:00-14:00"
+      }
+    },
+    {
+      "lat": 6.9418033,
+      "lon": 80.5409157,
+      "tags": {
+        "amenity": "school",
+        "name": "Watawala Tamil Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9427592,
+      "lon": 80.5401398,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Buddharama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9432837,
+      "lon": 80.5404617,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Watawala Government Hospital"
+      }
+    },
+    {
+      "lat": 6.9423145,
+      "lon": 80.5681971,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8849092,
+      "lon": 80.589766,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8680484,
+      "lon": 80.5786048,
+      "tags": {
+        "amenity": "school",
+        "name": "Summerville Tamil School"
+      }
+    },
+    {
+      "lat": 6.8725787,
+      "lon": 80.6016778,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9063806,
+      "lon": 80.5756885,
+      "tags": {
+        "amenity": "school",
+        "name": "Shananon Tamil School"
+      }
+    },
+    {
+      "lat": 6.8905399,
+      "lon": 80.5729345,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9213113,
+      "lon": 80.5598594,
+      "tags": {
+        "amenity": "school",
+        "name": "Kuilwatte Tamil School"
+      }
+    },
+    {
+      "lat": 6.9281503,
+      "lon": 80.5795797,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ruwanpura Sri Wijayamangalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9248009,
+      "lon": 80.5799263,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8655276,
+      "lon": 80.5382304,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8875843,
+      "lon": 80.5995294,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "C.R.N medical center"
+      }
+    },
+    {
+      "lat": 6.8748018,
+      "lon": 80.6026861,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dickoya Amman Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8706783,
+      "lon": 80.6040404,
+      "tags": {
+        "addr:city": "hatton",
+        "addr:street": "Hatton - Maskeliya - Sri Pada Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Wanaraja Hospital"
+      }
+    },
+    {
+      "lat": 6.8947776,
+      "lon": 80.5955911,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "GOVT.VETERINARY SURGEON'S OFFICE."
+      }
+    },
+    {
+      "lat": 6.8998083,
+      "lon": 80.5326615,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Praise Garden Retreat Centre Norton Bridge",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8623484,
+      "lon": 80.5892904,
+      "tags": {
+        "addr:city": "Dickoya",
+        "addr:street": "Norton Street",
+        "email": "info@thefarmresorts.com",
+        "name": "The Farm Resorts",
+        "old_name": "Castlereigh Family Cottages",
+        "phone": "+94 77 6956520;+94 51 2223607",
+        "tourism": "hotel",
+        "website": "https://thefarmresorts.com/"
+      }
+    },
+    {
+      "lat": 6.8719879,
+      "lon": 80.6040172,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8770427,
+      "lon": 80.6009835,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8902804,
+      "lon": 80.5985327,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "biriyangani"
+      }
+    },
+    {
+      "lat": 6.890601,
+      "lon": 80.59828,
+      "tags": {
+        "amenity": "marketplace",
+        "area": "yes"
+      }
+    },
+    {
+      "lat": 6.8917874,
+      "lon": 80.599334,
+      "tags": {
+        "amenity": "clinic",
+        "area": "yes",
+        "name": "medica clinic"
+      }
+    },
+    {
+      "lat": 6.9004148,
+      "lon": 80.5959148,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.8933542,
+      "lon": 80.59804,
+      "tags": {
+        "building": "yes",
+        "name": "Hatton",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8766756,
+      "lon": 80.6020606,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "anglican",
+        "name": "Christ Church - Dickoya",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9207229,
+      "lon": 80.5862805,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8725583,
+      "lon": 80.5651461,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "apartments",
+        "name": "Castlereigh Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8953017,
+      "lon": 80.5965131,
+      "tags": {
+        "amenity": "school",
+        "name": "bosco school"
+      }
+    },
+    {
+      "lat": 6.9128359,
+      "lon": 80.5699405,
+      "tags": {
+        "addr:place": "Western",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Panmor",
+        "amenity": "hospital",
+        "description": "MATERNAL AND CHILD HEALTH CLINIC CENTER"
+      }
+    },
+    {
+      "lat": 6.9126172,
+      "lon": 80.5717261,
+      "tags": {
+        "addr:place": "Western",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Panmor",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "AMMAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8993178,
+      "lon": 80.5415038,
+      "tags": {
+        "addr:place": "LDK",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Vellioya",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Kaali Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9256899,
+      "lon": 80.5913513,
+      "tags": {
+        "addr:full": "*=MAYFIELD ESTATE CHALMERS DIVISION HATTON",
+        "addr:place": "Charmes",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Kudu Oya",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "chalmers vinayagar kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9268849,
+      "lon": 80.5920183,
+      "tags": {
+        "addr:full": "*=MAYFIELD ESTATE CHALMERS DIVISION HATTON",
+        "addr:place": "Charmes",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Kudu Oya",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "CHALMERS SUPRAMANIYAM MURUGAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8696544,
+      "lon": 80.5867754,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9145087,
+      "lon": 80.5857641,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Muniswaran Shrine",
+        "religion": "hindu"
+      }
+    }
+  ]
+}

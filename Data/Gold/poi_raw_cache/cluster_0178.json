@@ -1,0 +1,709 @@
+{
+  "cluster_id": 178,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.882805,
+    "lat_max": 5.947016,
+    "lon_min": 80.544288,
+    "lon_max": 80.616801
+  },
+  "outlet_ids": [
+    "OUT_17021",
+    "OUT_17075",
+    "OUT_17159",
+    "OUT_17199",
+    "OUT_17270",
+    "OUT_17276",
+    "OUT_17285",
+    "OUT_17383",
+    "OUT_17421",
+    "OUT_17522",
+    "OUT_17572",
+    "OUT_17578",
+    "OUT_17776",
+    "OUT_17781",
+    "OUT_17788",
+    "OUT_17804",
+    "OUT_17909",
+    "OUT_17929",
+    "OUT_18156",
+    "OUT_18192",
+    "OUT_18277",
+    "OUT_18357",
+    "OUT_18368",
+    "OUT_18451",
+    "OUT_19251",
+    "OUT_19257",
+    "OUT_19290",
+    "OUT_19331",
+    "OUT_19608",
+    "OUT_19971"
+  ],
+  "n_outlets": 30,
+  "n_pois_returned": 66,
+  "scraped_at": "2026-05-16T20:46:59.905980",
+  "elements": [
+    {
+      "lat": 5.9427364,
+      "lon": 80.5553154,
+      "tags": {
+        "name": "New Brown`s Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9322707,
+      "lon": 80.589975,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "is_in": "Matara District, Southern Province, Sri Lanka.",
+        "name": "Galgane Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9431248,
+      "lon": 80.5529672,
+      "tags": {
+        "amenity": "school",
+        "name": "MahaMaya Girls School"
+      }
+    },
+    {
+      "lat": 5.9458089,
+      "lon": 80.5633095,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wajiraghnana Dhrmawijaya Dharmayathanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9452323,
+      "lon": 80.5661138,
+      "tags": {
+        "amenity": "school",
+        "name": "Matara Technical College"
+      }
+    },
+    {
+      "lat": 5.9423813,
+      "lon": 80.5695514,
+      "tags": {
+        "addr:housename": "Coopearative",
+        "designation": "Cooperative",
+        "name": "Meddawatta Co-operative shop",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.935012,
+      "lon": 80.5810141,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahinda Rajapaksha vidyalaya"
+      }
+    },
+    {
+      "lat": 5.9468499,
+      "lon": 80.5485465,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:postcode": "81000",
+        "addr:street": "Anagarika Dharmapala Mawatha",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Ruhunusiri",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 5.9430569,
+      "lon": 80.5522415,
+      "tags": {
+        "amenity": "school",
+        "name": "St Mary's Convent"
+      }
+    },
+    {
+      "lat": 5.9426751,
+      "lon": 80.5555154,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Amba Sewana"
+      }
+    },
+    {
+      "lat": 5.931104,
+      "lon": 80.5839717,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9432667,
+      "lon": 80.5497297,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mayura resturant"
+      }
+    },
+    {
+      "lat": 5.938089,
+      "lon": 80.5740873,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Ruhuna Campus"
+      }
+    },
+    {
+      "lat": 5.9288606,
+      "lon": 80.5847058,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "3rd Mile Post"
+      }
+    },
+    {
+      "lat": 5.9332434,
+      "lon": 80.5806093,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Wellamadama",
+        "toilets:wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9282925,
+      "lon": 80.5885245,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Devinuwara Devalaya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 5.9413023,
+      "lon": 80.5722723,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Janaraja Mawatha"
+      }
+    },
+    {
+      "lat": 5.9393687,
+      "lon": 80.5702279,
+      "tags": {
+        "internet_access": "wlan",
+        "name:de": "I-SURF",
+        "name:en": "I-Surf",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9326805,
+      "lon": 80.5982767,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Little Hut Restaurant",
+        "phone": "0413415051"
+      }
+    },
+    {
+      "lat": 5.9468309,
+      "lon": 80.5577634,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:housenumber": "Udapeekwella Road",
+        "addr:postcode": "81000",
+        "addr:street": "Udapeekwella Road",
+        "amenity": "place_of_worship",
+        "name": "Uda Peekwella Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9402144,
+      "lon": 80.5707568,
+      "tags": {
+        "addr:postcode": "81000",
+        "addr:street": "26/A,SK Town,Meddawatta",
+        "email": "dissanayakadil@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "King's Marine Hotel & Restaurant",
+        "opening_hours": "24/7",
+        "phone": "+94774032533",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/king-39-s-marine.ru.html"
+      }
+    },
+    {
+      "lat": 5.9388937,
+      "lon": 80.5924974,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wandurudeniya Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9450409,
+      "lon": 80.5995956,
+      "tags": {
+        "amenity": "school",
+        "name": "Kuruduwattha"
+      }
+    },
+    {
+      "lat": 5.9347655,
+      "lon": 80.6068466,
+      "tags": {
+        "amenity": "school",
+        "name": "Blooming Flowers English School"
+      }
+    },
+    {
+      "lat": 5.9427212,
+      "lon": 80.5690027,
+      "tags": {
+        "covered": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 5.940406,
+      "lon": 80.5706847,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:street": "SK town nroad",
+        "amenity": "restaurant",
+        "name": "King's Marine Hotel"
+      }
+    },
+    {
+      "lat": 5.9390145,
+      "lon": 80.5706503,
+      "tags": {
+        "addr:city": "Medawatta",
+        "addr:street": "SK town nroad",
+        "amenity": "restaurant",
+        "name": "Moon Bridge Beach Resort"
+      }
+    },
+    {
+      "lat": 5.9271463,
+      "lon": 80.5883953,
+      "tags": {
+        "amenity": "place_of_worship",
+        "artwork_type": "statue",
+        "image": "https://photos.app.goo.gl/MqqPkFUX34iNDBp1A",
+        "name": "Buddha Statue",
+        "tourism": "artwork"
+      }
+    },
+    {
+      "lat": 5.9281585,
+      "lon": 80.588211,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9449202,
+      "lon": 80.5659607,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9351929,
+      "lon": 80.6112077,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9202599,
+      "lon": 80.5887321,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 5.9396572,
+      "lon": 80.5669331,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Black Sand Beach"
+      }
+    },
+    {
+      "lat": 5.9398591,
+      "lon": 80.5668185,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Palm Tree"
+      }
+    },
+    {
+      "lat": 5.9401502,
+      "lon": 80.5667934,
+      "tags": {
+        "name": "The Seascape",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9449501,
+      "lon": 80.5459227,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bo Tree",
+        "natural": "tree"
+      }
+    },
+    {
+      "lat": 5.9437357,
+      "lon": 80.5503973,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:street": "Beach Road",
+        "amenity": "marketplace",
+        "building": "commercial",
+        "building:levels": "2",
+        "name": "Mathara Public Market"
+      }
+    },
+    {
+      "lat": 5.9455714,
+      "lon": 80.5492814,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:street": "Old Tangalle Road",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:colour": "white",
+        "building:levels": "1",
+        "image": "https://photos.app.goo.gl/eGgrfqszcgpZBjd56",
+        "name": "Matara Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 5.9436337,
+      "lon": 80.5471976,
+      "tags": {
+        "addr:city": "matara",
+        "addr:street": "Sea Beach Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Rest House"
+      }
+    },
+    {
+      "lat": 5.9469819,
+      "lon": 80.5490791,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "building:levels": "2"
+      }
+    },
+    {
+      "lat": 5.9368283,
+      "lon": 80.6145216,
+      "tags": {
+        "addr:city": "Gandara",
+        "addr:postcode": "81170",
+        "addr:street": "Beach Road",
+        "amenity": "school",
+        "name": "Gandara Kanitu Viduhala",
+        "name:si": "\u0d9c\u0db1\u0dca\u0daf\u0dbb \u0d9a\u0db1\u0dd2\u0da7\u0dd4 \u0dc0\u0dd2\u0daf\u0dd4\u0dc4\u0dbd"
+      }
+    },
+    {
+      "lat": 5.9376556,
+      "lon": 80.6134447,
+      "tags": {
+        "addr:city": "Gandara",
+        "addr:postcode": "81170",
+        "addr:street": "New Tangalle Road",
+        "amenity": "marketplace",
+        "name": "Gandara Marketplace"
+      }
+    },
+    {
+      "lat": 5.9272506,
+      "lon": 80.5885795,
+      "tags": {
+        "addr:city": "Dewinuwara",
+        "addr:postcode": "81160",
+        "addr:street": "New Tangalle Road",
+        "amenity": "place_of_worship",
+        "name": "Devinuwara Sri Vishnu Maha Devalaya",
+        "name:si": "\u0daf\u0dd9\u0dc0\u0dd2\u0db1\u0dd4\u0dc0\u0dbb \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0dc0\u0dd2\u0dc1\u0dca\u0dab\u0dd4 \u0db8\u0dc4\u0dcf \u0daf\u0dda\u0dc0\u0dcf\u0dbd\u0dba",
+        "religion": "hindu;buddhist",
+        "website": "http://www.devinuwaravishnudevalaya.com/"
+      }
+    },
+    {
+      "lat": 5.9372079,
+      "lon": 80.6120109,
+      "tags": {
+        "addr:city": "Gandara",
+        "addr:postcode": "81170",
+        "addr:street": "New Tangalle Road",
+        "amenity": "school",
+        "building": "yes",
+        "name": "Gandara Maha Viduhala",
+        "name:si": "\u0d9c\u0db1\u0dca\u0daf\u0dbb \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0daf\u0dd4\u0dc4\u0dbd"
+      }
+    },
+    {
+      "lat": 5.9439664,
+      "lon": 80.5458931,
+      "tags": {
+        "addr:street": "Court Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "asian;curry;coffee_shop;seafood;local;noodles;oriental;fish;pasta;ice_cream",
+        "image": "https://photos.app.goo.gl/96BAyWhnaAkdXMUSA",
+        "name:cs": "The Dutchman\u2019s Street",
+        "name:en": "The Dutchman\u2019s Street"
+      }
+    },
+    {
+      "lat": 5.9437637,
+      "lon": 80.5442157,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "mahayana",
+        "name": "Migadhaya Pirivena",
+        "religion": "buddhist",
+        "source:name": "user: \" harendra_7; Changeset: 12106625\""
+      }
+    },
+    {
+      "lat": 5.9448213,
+      "lon": 80.5469421,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Dutch Church",
+        "religion": "christian",
+        "source:name": "user: \"Thilina; Changeset: 34689788\""
+      }
+    },
+    {
+      "lat": 5.9437337,
+      "lon": 80.5501077,
+      "tags": {
+        "amenity": "marketplace",
+        "area": "yes"
+      }
+    },
+    {
+      "lat": 5.9469689,
+      "lon": 80.5577721,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9461296,
+      "lon": 80.558831,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Pantharama Purana Viharaya",
+        "phone": "+9412 222 510",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9432943,
+      "lon": 80.5519083,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "The Shrine of Our Lady of Matara",
+        "phone": "+94412 222 056",
+        "religion": "christian",
+        "wikidata": "Q7504067",
+        "wikipedia": "en:Shrine of Our Lady of Matara"
+      }
+    },
+    {
+      "lat": 5.9440091,
+      "lon": 80.5522,
+      "tags": {
+        "amenity": "school",
+        "building:levels": "3",
+        "name": "St. Servatius' College",
+        "phone": "+94412 222 288",
+        "wikidata": "Q7591678"
+      }
+    },
+    {
+      "lat": 5.9438305,
+      "lon": 80.5537587,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:postcode": "81000",
+        "addr:street": "Jayasumanaramaya Road",
+        "amenity": "place_of_worship",
+        "name": "Jayasumanaramaya",
+        "phone": "+94412 222 242",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9415087,
+      "lon": 80.5491878,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:postcode": "81000",
+        "addr:street": "Beach Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "2",
+        "image": "https://photos.app.goo.gl/DNE4WQcsx3UxL2Ss9",
+        "name": "Parevi Duwa Shrine",
+        "religion": "buddhist",
+        "roof:shape": "pyramidal",
+        "url": "https://youtu.be/XENanQZLuE8"
+      }
+    },
+    {
+      "lat": 5.9440449,
+      "lon": 80.5442558,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9431043,
+      "lon": 80.554377,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "retail",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9471647,
+      "lon": 80.5633509,
+      "tags": {
+        "building": "yes",
+        "name": "Keells super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9456765,
+      "lon": 80.5632916,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9466098,
+      "lon": 80.5581871,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9430421,
+      "lon": 80.6125305,
+      "tags": {
+        "amenity": "school",
+        "building": "school"
+      }
+    },
+    {
+      "lat": 5.941133,
+      "lon": 80.5718649,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9352605,
+      "lon": 80.6112555,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9381911,
+      "lon": 80.5765364,
+      "tags": {
+        "amenity": "university",
+        "landuse": "education",
+        "name": "University of Ruhuna"
+      }
+    },
+    {
+      "lat": 5.9353601,
+      "lon": 80.5806731,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9303598,
+      "lon": 80.5949011,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9358588,
+      "lon": 80.6048032,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

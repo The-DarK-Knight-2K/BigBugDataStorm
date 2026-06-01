@@ -1,0 +1,533 @@
+{
+  "cluster_id": 320,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.233389,
+    "lat_max": 7.325476999999999,
+    "lon_min": 80.740876,
+    "lon_max": 80.817826
+  },
+  "outlet_ids": [
+    "OUT_09076",
+    "OUT_09159",
+    "OUT_09181",
+    "OUT_09202",
+    "OUT_09252",
+    "OUT_09396",
+    "OUT_09492",
+    "OUT_09565",
+    "OUT_09663",
+    "OUT_09672",
+    "OUT_09731",
+    "OUT_09822",
+    "OUT_09843",
+    "OUT_09866",
+    "OUT_10080",
+    "OUT_10105",
+    "OUT_10376",
+    "OUT_10443",
+    "OUT_10576",
+    "OUT_10844",
+    "OUT_10963",
+    "OUT_11065",
+    "OUT_11102",
+    "OUT_11188",
+    "OUT_11296",
+    "OUT_11310",
+    "OUT_11715",
+    "OUT_11770",
+    "OUT_11793",
+    "OUT_11831",
+    "OUT_11897",
+    "OUT_11962",
+    "OUT_12011",
+    "OUT_12247",
+    "OUT_12248",
+    "OUT_12426",
+    "OUT_12440",
+    "OUT_12486",
+    "OUT_12501",
+    "OUT_12538",
+    "OUT_12590",
+    "OUT_12627",
+    "OUT_12666",
+    "OUT_12748",
+    "OUT_12799",
+    "OUT_12888",
+    "OUT_12893",
+    "OUT_12975"
+  ],
+  "n_outlets": 48,
+  "n_pois_returned": 50,
+  "scraped_at": "2026-05-16T22:10:57.686998",
+  "elements": [
+    {
+      "lat": 7.289746,
+      "lon": 80.8151703,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Medamahanuwara Divisional Hospital"
+      }
+    },
+    {
+      "lat": 7.2858936,
+      "lon": 80.81443,
+      "tags": {
+        "amenity": "school",
+        "name": "Medamahanuwara Central College"
+      }
+    },
+    {
+      "lat": 7.308827,
+      "lon": 80.7628351,
+      "tags": {
+        "amenity": "school",
+        "name": "Teldeniya National School"
+      }
+    },
+    {
+      "lat": 7.3126473,
+      "lon": 80.7601502,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Karaliyadda Sri Uposatharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3077388,
+      "lon": 80.7644417,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Teldeniya District Base Hospital"
+      }
+    },
+    {
+      "lat": 7.3045676,
+      "lon": 80.7662361,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nalanda Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2669767,
+      "lon": 80.7755434,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "name": "Bougainvillea Retreat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2656676,
+      "lon": 80.7723086,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Gof Club Road",
+        "internet_access": "yes",
+        "name": "The Albatross, Boutique Villa",
+        "operator": "Ranfer & Co",
+        "rooms": "-6",
+        "smoking": "no",
+        "stars": "5",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2891104,
+      "lon": 80.7607461,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Bambaragala Raja Maha Viharaya",
+        "religion": "buddhist",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 7.2807678,
+      "lon": 80.8066653,
+      "tags": {
+        "addr:street": "Kandy - Mahiyanganaya- Padiyathalawa Road",
+        "amenity": "place_of_worship",
+        "name": "Ganadevi Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.280257,
+      "lon": 80.8073224,
+      "tags": {
+        "addr:street": "Kandy - Mahiyanganaya- Padiyathalawa Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Murugan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.2807013,
+      "lon": 80.8073854,
+      "tags": {
+        "addr:street": "Kandy - Mahiyanganaya- Padiyathalawa Road",
+        "amenity": "place_of_worship",
+        "name": "Vishnu Kovila",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.2835764,
+      "lon": 80.7944603,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Wegala"
+      }
+    },
+    {
+      "lat": 7.2849861,
+      "lon": 80.8007657,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Wegala"
+      }
+    },
+    {
+      "lat": 7.3090063,
+      "lon": 80.7660271,
+      "tags": {
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Kandy-Mahiyangana Express",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.3092575,
+      "lon": 80.8089723,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jamburukkharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3073084,
+      "lon": 80.7674737,
+      "tags": {
+        "addr:city": "Teladeniya",
+        "addr:street": "Kandy - Mahiyanganaya- Padiyathalawa Road",
+        "name": "Kadurata Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3093915,
+      "lon": 80.7655371,
+      "tags": {
+        "addr:city": "Teldeniya",
+        "addr:street": "Kandy - Mahiyanganaya- Padiyathalawa Road",
+        "name": "Singha Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2932688,
+      "lon": 80.7761988,
+      "tags": {
+        "addr:city": "Rambukwella",
+        "addr:street": "Kandy - Mahiyanganaya- Padiyathalawa Road",
+        "amenity": "place_of_worship",
+        "name": "Rambukwella Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3158506,
+      "lon": 80.7875177,
+      "tags": {
+        "addr:city": "Gabbela",
+        "addr:street": "Retiyagma Rd",
+        "amenity": "place_of_worship",
+        "name": "Sri Pusparamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3219395,
+      "lon": 80.7513927,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kumballoluwa"
+      }
+    },
+    {
+      "lat": 7.3176628,
+      "lon": 80.7559817,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Madapola"
+      }
+    },
+    {
+      "lat": 7.233641,
+      "lon": 80.7506853,
+      "tags": {
+        "addr:city": "Mailapitiya",
+        "amenity": "place_of_worship",
+        "name": "Sri Sastrananda Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2948187,
+      "lon": 80.7478313,
+      "tags": {
+        "addr:street": "Victoria Gof Club Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Indrasara Viharasthanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2709717,
+      "lon": 80.7647333,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Serendib Signature Resort",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2661696,
+      "lon": 80.7692212,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "name": "Villa Casa Lanka",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2648894,
+      "lon": 80.7736818,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "name": "Victoria Golf & Country Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2604236,
+      "lon": 80.7728253,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "name": "The Green House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.265405,
+      "lon": 80.7496154,
+      "tags": {
+        "addr:street": "Aluthwatte Road",
+        "internet_access": "wlan",
+        "name:de": "Tamarind Gardens Homestay",
+        "name:en": "Tamarind Gardens Homestay",
+        "phone": "+94 77 907 17 77",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3162294,
+      "lon": 80.7981928,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Monasterio Budista"
+      }
+    },
+    {
+      "lat": 7.3235626,
+      "lon": 80.7965713,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "poddalgoda oyekade",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.3126372,
+      "lon": 80.7825767,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udispattuwa Sri Kathiresan Swamy Thevasthanam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.3092245,
+      "lon": 80.7614797,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3080489,
+      "lon": 80.7653258,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.3090171,
+      "lon": 80.7645688,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Teldeniya Central Market",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 7.2898434,
+      "lon": 80.8151441,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Medamahanuwara Divisional Hospital"
+      }
+    },
+    {
+      "lat": 7.309183,
+      "lon": 80.765059,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "methadumbara pratheshiya sabha"
+      }
+    },
+    {
+      "lat": 7.3135459,
+      "lon": 80.7851686,
+      "tags": {
+        "addr:city": "Udispattuwa - Galmal Oya Rd, Udispattuwa",
+        "addr:postcode": "20916",
+        "amenity": "place_of_worship",
+        "name": "Sri Salarukkarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3137944,
+      "lon": 80.788295,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.3133006,
+      "lon": 80.7851154,
+      "tags": {
+        "name": "coop city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3145638,
+      "lon": 80.7851573,
+      "tags": {
+        "name": "Amavi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3152295,
+      "lon": 80.7858956,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udispattuwa Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3137125,
+      "lon": 80.7850594,
+      "tags": {
+        "name": "star hotel usispattuwa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2793114,
+      "lon": 80.7679094,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Rukgala Retreat",
+        "tourism": "hotel",
+        "website": "https://www.rukgalaretreat.com/"
+      }
+    },
+    {
+      "lat": 7.2866022,
+      "lon": 80.8018651,
+      "tags": {
+        "amenity": "school",
+        "name": "Wegala Junior School"
+      }
+    },
+    {
+      "lat": 7.2367736,
+      "lon": 80.7998795,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.2703933,
+      "lon": 80.7760906,
+      "tags": {
+        "name": "The Glasshouse Victoria",
+        "phone": "+94 72 465 6789",
+        "tourism": "hotel",
+        "website": "https://theglasshousesrilanka.com/"
+      }
+    },
+    {
+      "lat": 7.3145611,
+      "lon": 80.7851546,
+      "tags": {
+        "building": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.313544,
+      "lon": 80.7851656,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Salarukkarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3137234,
+      "lon": 80.7850588,
+      "tags": {
+        "building": "yes",
+        "name": "Star hotel Udispattuwa",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,857 @@
+{
+  "cluster_id": 120,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.817889,
+    "lat_max": 6.894569,
+    "lon_min": 80.046359,
+    "lon_max": 80.116881
+  },
+  "outlet_ids": [
+    "OUT_00332",
+    "OUT_00342",
+    "OUT_00409",
+    "OUT_00434",
+    "OUT_00529",
+    "OUT_00557",
+    "OUT_00647",
+    "OUT_00856",
+    "OUT_00977",
+    "OUT_00993",
+    "OUT_01074",
+    "OUT_01099",
+    "OUT_01172",
+    "OUT_01195",
+    "OUT_01231",
+    "OUT_01285",
+    "OUT_01370",
+    "OUT_01669",
+    "OUT_01786",
+    "OUT_01833",
+    "OUT_01924",
+    "OUT_02136",
+    "OUT_02153",
+    "OUT_02158",
+    "OUT_02267",
+    "OUT_02294",
+    "OUT_02315",
+    "OUT_02316",
+    "OUT_02365",
+    "OUT_02429",
+    "OUT_02645",
+    "OUT_02762",
+    "OUT_02911",
+    "OUT_03013",
+    "OUT_03168",
+    "OUT_03187",
+    "OUT_03201",
+    "OUT_03202",
+    "OUT_03295",
+    "OUT_03513",
+    "OUT_03585",
+    "OUT_03726",
+    "OUT_03749",
+    "OUT_04004",
+    "OUT_04013",
+    "OUT_04119",
+    "OUT_04181",
+    "OUT_04191",
+    "OUT_04205",
+    "OUT_04232",
+    "OUT_04254",
+    "OUT_04298",
+    "OUT_04431",
+    "OUT_04509",
+    "OUT_04865",
+    "OUT_05058",
+    "OUT_05890",
+    "OUT_05961",
+    "OUT_05963",
+    "OUT_06026",
+    "OUT_06157",
+    "OUT_06389",
+    "OUT_06533",
+    "OUT_06610",
+    "OUT_07298",
+    "OUT_07467",
+    "OUT_07534",
+    "OUT_07580",
+    "OUT_07587",
+    "OUT_07739",
+    "OUT_07810",
+    "OUT_08090",
+    "OUT_08260",
+    "OUT_08263",
+    "OUT_08359",
+    "OUT_08527",
+    "OUT_08563",
+    "OUT_08961",
+    "OUT_08980"
+  ],
+  "n_outlets": 79,
+  "n_pois_returned": 80,
+  "scraped_at": "2026-05-16T20:38:35.916734",
+  "elements": [
+    {
+      "lat": 6.8412294,
+      "lon": 80.0903222,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Padukka Public Market"
+      }
+    },
+    {
+      "lat": 6.8427474,
+      "lon": 80.0911536,
+      "tags": {
+        "name": "Padukka",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8522951,
+      "lon": 80.0468501,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2024-03-31",
+        "name": "Meegoda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8525718,
+      "lon": 80.0675421,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Punyaloka Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8556126,
+      "lon": 80.0975468,
+      "tags": {
+        "addr:city": "Meepe",
+        "addr:place": "Pitumpe",
+        "addr:postcode": "10500",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Pitumpe Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8400553,
+      "lon": 80.0896596,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Padukka Base Hospital"
+      }
+    },
+    {
+      "lat": 6.8395546,
+      "lon": 80.0883829,
+      "tags": {
+        "amenity": "school",
+        "name": "Siri Piyarathana College"
+      }
+    },
+    {
+      "lat": 6.8406039,
+      "lon": 80.0917839,
+      "tags": {
+        "amenity": "school",
+        "name": "Siri Piyarathana Primary College"
+      }
+    },
+    {
+      "lat": 6.8923934,
+      "lon": 80.1062856,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8241189,
+      "lon": 80.0553595,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dampe Purana Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8908923,
+      "lon": 80.0573851,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Wilauda"
+      }
+    },
+    {
+      "lat": 6.8813611,
+      "lon": 80.0536198,
+      "tags": {
+        "amenity": "school",
+        "name": "WP/HO Batawala Junior School"
+      }
+    },
+    {
+      "lat": 6.8581846,
+      "lon": 80.0974471,
+      "tags": {
+        "addr:city": "Meepe",
+        "addr:street": "Meepe-Ingiriya Road",
+        "name": "Kithulkanda Mountain Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8529835,
+      "lon": 80.1094043,
+      "tags": {
+        "name": "Angampitya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8383604,
+      "lon": 80.0797169,
+      "tags": {
+        "name": "Liyanwala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8229351,
+      "lon": 80.0671441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8830722,
+      "lon": 80.0848223,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8412578,
+      "lon": 80.0923318,
+      "tags": {
+        "addr:city": "Padukka",
+        "addr:postcode": "10500",
+        "addr:street": "Galagedara-Horana Road",
+        "name": "Padukka Rest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8543193,
+      "lon": 80.0806044,
+      "tags": {
+        "addr:city": "Galagedara",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2024-03-31",
+        "name": "Perera & Sons",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "lat": 6.856003,
+      "lon": 80.0972341,
+      "tags": {
+        "addr:city": "Meepe",
+        "addr:street": "Ingiriya Road",
+        "amenity": "school",
+        "name": "Primary School Pitumpe"
+      }
+    },
+    {
+      "lat": 6.8580377,
+      "lon": 80.0908299,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "local_ref": "Meepe",
+        "name": "Meepe",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8583428,
+      "lon": 80.0903364,
+      "tags": {
+        "addr:city": "Meepe",
+        "addr:postcode": "10509",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "cuisine": "seafood;grill;chicken;fish_and_chips;breakfast",
+        "diet:healthy": "yes",
+        "diet:sugar_free": "yes",
+        "name": "Kingsland Hotel & restaurant",
+        "opening_hours": "Mo-Su 09:00-23:30",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "phone": "0112 859 646",
+        "website": "https://r.search.yahoo.com/_ylt=Awr9.EyA3TpoG88HXx9XNyoA;_ylu=Y29sbwNncTEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1749897857/RO=10/RU=https%3a%2f%2fwww.cybo.com%2fLK-biz%2fkingsland-hotel-restaurant/RK=2/RS=KGk5lslHLwVxXHo9lBTwECdWskU-"
+      }
+    },
+    {
+      "lat": 6.8540233,
+      "lon": 80.0527587,
+      "tags": {
+        "addr:city": "Meegoda",
+        "addr:street": "High Level Road",
+        "amenity": "place_of_worship",
+        "name": "Meegoda Meditation Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.85671,
+      "lon": 80.0591971,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8917585,
+      "lon": 80.0579079,
+      "tags": {
+        "amenity": "school",
+        "name": "Artigala Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8214453,
+      "lon": 80.0496419,
+      "tags": {
+        "addr:city": "Dampe",
+        "amenity": "place_of_worship",
+        "name": "Bpdhiwardanaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8346072,
+      "lon": 80.0486807,
+      "tags": {
+        "addr:city": "Dampe",
+        "amenity": "place_of_worship",
+        "name": "Wela Mada Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8540731,
+      "lon": 80.0872487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.871543,
+      "lon": 80.0873761,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8499658,
+      "lon": 80.1158814,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8541151,
+      "lon": 80.0782988,
+      "tags": {
+        "name": "Serene Bridge Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8391466,
+      "lon": 80.0811909,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Paul's Church Linyawala",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8334818,
+      "lon": 80.0591294,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8919426,
+      "lon": 80.0867442,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8786109,
+      "lon": 80.0865317,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dinwella"
+      }
+    },
+    {
+      "lat": 6.826489,
+      "lon": 80.0758119,
+      "tags": {
+        "amenity": "place_of_worship",
+        "description": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8586129,
+      "lon": 80.0908781,
+      "tags": {
+        "addr:city": "Meepe Junction",
+        "addr:housenumber": "No. 180/A",
+        "addr:postcode": "10509",
+        "addr:street": "High Level Road",
+        "air_conditioning": "yes",
+        "brand": "Cargills Food City",
+        "name": "Cargills Food City",
+        "not:brand:wikidata": "Q58353955",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "operator": "Cargills (Ceylon) PLC",
+        "payment:app": "yes",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "phone": "+94 112 197 538",
+        "shop": "supermarket",
+        "website": "https://www.cargillsceylon.com"
+      }
+    },
+    {
+      "lat": 6.8431734,
+      "lon": 80.0598726,
+      "tags": {
+        "name": "Watareka",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8833111,
+      "lon": 80.0855486,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "#resturent"
+      }
+    },
+    {
+      "lat": 6.8869967,
+      "lon": 80.0947255,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8590344,
+      "lon": 80.0912476,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "name": "BUS STOP",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8576337,
+      "lon": 80.0902337,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "BUS STOP",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8547832,
+      "lon": 80.0932027,
+      "tags": {
+        "amenity": "university",
+        "name": "SLTC RESEARCH UNIVERSITY"
+      }
+    },
+    {
+      "lat": 6.8562771,
+      "lon": 80.0641254,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8836779,
+      "lon": 80.0854779,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8537155,
+      "lon": 80.0895406,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "happy kitchen"
+      }
+    },
+    {
+      "lat": 6.8532746,
+      "lon": 80.0888911,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "sunshine hotel and resturent"
+      }
+    },
+    {
+      "lat": 6.8536984,
+      "lon": 80.0884817,
+      "tags": {
+        "name": "sampath food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8534666,
+      "lon": 80.0874207,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "dulmini hotel"
+      }
+    },
+    {
+      "lat": 6.858659,
+      "lon": 80.0918606,
+      "tags": {
+        "addr:city": "Padukka",
+        "addr:housenumber": "No. 158/A",
+        "addr:postcode": "10509",
+        "addr:street": "Meepe Junction",
+        "air_conditioning": "yes",
+        "description": "State-owned supermarket at Meepe Junction offering groceries, fresh food, household items, and online delivery.",
+        "name": "Lanka Sathosa",
+        "opening_hours": "Mo-Su 08:00-08:00",
+        "operator": "Lanka Sathosa Limited (state-owned retail chain)",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 11 2757459",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.8566904,
+      "lon": 80.0930662,
+      "tags": {
+        "addr:city": "padukka",
+        "addr:postcode": "10500",
+        "addr:street": "Meepe-Ingiriya Road",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Masjidun Noor Jumma Mosque",
+        "religion": "muslim",
+        "service_times": "service_times=05:00, 12:30 (Jumu'ah on Friday), 16:00, 18:30, 20:00"
+      }
+    },
+    {
+      "lat": 6.8552326,
+      "lon": 80.0997183,
+      "tags": {
+        "addr:city": "Padukka",
+        "addr:housenumber": "No32/E/3/1",
+        "addr:postcode": "10500",
+        "addr:street": "Pitumpe North",
+        "name": "Darshana Grocery",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "operator": "Darshana Grocery",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8563363,
+      "lon": 80.0884575,
+      "tags": {
+        "amenity": "university",
+        "name": "external building"
+      }
+    },
+    {
+      "lat": 6.8558233,
+      "lon": 80.0894523,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Fruit store"
+      }
+    },
+    {
+      "lat": 6.8587123,
+      "lon": 80.0907951,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "dasatha"
+      }
+    },
+    {
+      "lat": 6.8531067,
+      "lon": 80.087622,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "sanu"
+      }
+    },
+    {
+      "lat": 6.8580551,
+      "lon": 80.0918549,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "vegetable"
+      }
+    },
+    {
+      "lat": 6.8586333,
+      "lon": 80.0907123,
+      "tags": {
+        "name": "Kingland",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8588225,
+      "lon": 80.0915092,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "bo tree"
+      }
+    },
+    {
+      "lat": 6.8576115,
+      "lon": 80.0903783,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.840611,
+      "lon": 80.0932686,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Jeewaka Private Hospital"
+      }
+    },
+    {
+      "lat": 6.8403321,
+      "lon": 80.0932164,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Chathura Hotel"
+      }
+    },
+    {
+      "lat": 6.840151,
+      "lon": 80.0933301,
+      "tags": {
+        "amenity": "clinic",
+        "name": "MOH"
+      }
+    },
+    {
+      "lat": 6.841679,
+      "lon": 80.0956734,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Moragahatenna Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8539967,
+      "lon": 80.0741305,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8399095,
+      "lon": 80.0581723,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Sinhala class"
+      }
+    },
+    {
+      "lat": 6.8926799,
+      "lon": 80.0607306,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8924881,
+      "lon": 80.0584089,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.819034,
+      "lon": 80.0940784,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8195087,
+      "lon": 80.0947464,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udumulla Gallen Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8389326,
+      "lon": 80.0962128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8479592,
+      "lon": 80.0881715,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.840643,
+      "lon": 80.0798506,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8473218,
+      "lon": 80.0559258,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8262129,
+      "lon": 80.0765503,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8533281,
+      "lon": 80.0871476,
+      "tags": {
+        "addr:city": "Galagedara",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "burger;coffee_shop;chicken;seafood;asian;italian;juice",
+        "diet:local": "yes",
+        "name": "amawi",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 6.8568985,
+      "lon": 80.0933179,
+      "tags": {
+        "addr:city": "padukka",
+        "addr:postcode": "10500",
+        "addr:street": "Meepe-Ingiriya Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "coffee_shop;indian;asian",
+        "name": "miyurasa hotel",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 6.8710731,
+      "lon": 80.0505051,
+      "tags": {
+        "building": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8586714,
+      "lon": 80.0918942,
+      "tags": {
+        "building": "yes",
+        "name": "sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8583761,
+      "lon": 80.0903247,
+      "tags": {
+        "building": "yes",
+        "name": "kingland",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

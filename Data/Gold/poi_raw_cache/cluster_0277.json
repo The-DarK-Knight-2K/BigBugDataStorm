@@ -1,0 +1,919 @@
+{
+  "cluster_id": 277,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.929251,
+    "lat_max": 7.009492,
+    "lon_min": 80.047569,
+    "lon_max": 80.117914
+  },
+  "outlet_ids": [
+    "OUT_00073",
+    "OUT_00230",
+    "OUT_00305",
+    "OUT_00322",
+    "OUT_00330",
+    "OUT_00497",
+    "OUT_00554",
+    "OUT_00932",
+    "OUT_00984",
+    "OUT_01288",
+    "OUT_01331",
+    "OUT_01422",
+    "OUT_01856",
+    "OUT_02175",
+    "OUT_02182",
+    "OUT_02348",
+    "OUT_02640",
+    "OUT_02940",
+    "OUT_03139",
+    "OUT_03259",
+    "OUT_03313",
+    "OUT_03364",
+    "OUT_03588",
+    "OUT_03750",
+    "OUT_03870",
+    "OUT_04196",
+    "OUT_04204",
+    "OUT_04388",
+    "OUT_04422",
+    "OUT_04523",
+    "OUT_04841",
+    "OUT_04946",
+    "OUT_04950",
+    "OUT_04991",
+    "OUT_05181",
+    "OUT_05284",
+    "OUT_05290",
+    "OUT_05417",
+    "OUT_05574",
+    "OUT_05902",
+    "OUT_06105",
+    "OUT_06222",
+    "OUT_06661",
+    "OUT_06758",
+    "OUT_06939",
+    "OUT_06981",
+    "OUT_07050",
+    "OUT_07613",
+    "OUT_07654",
+    "OUT_07708",
+    "OUT_07712",
+    "OUT_07724",
+    "OUT_07766",
+    "OUT_07951",
+    "OUT_07990",
+    "OUT_08229",
+    "OUT_08282",
+    "OUT_08381",
+    "OUT_08414",
+    "OUT_08555",
+    "OUT_08742",
+    "OUT_08918"
+  ],
+  "n_outlets": 62,
+  "n_pois_returned": 91,
+  "scraped_at": "2026-05-16T22:05:52.755032",
+  "elements": [
+    {
+      "lat": 6.9711803,
+      "lon": 80.0479358,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ihala Dekatana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9841529,
+      "lon": 80.067399,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wolter Perera",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.991578,
+      "lon": 80.0827996,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paththetiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9504097,
+      "lon": 80.0530856,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Shaila Chaithyarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9476856,
+      "lon": 80.1095666,
+      "tags": {
+        "amenity": "school",
+        "ele": "34.8",
+        "name": "Akarawita Maha Vidyalaya",
+        "time": "2012-08-12T07:21:32.235Z"
+      }
+    },
+    {
+      "lat": 6.95979,
+      "lon": 80.1123245,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Subhadraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.951628,
+      "lon": 80.0964134,
+      "tags": {
+        "addr:city": "Kapugoda",
+        "amenity": "place_of_worship",
+        "name": "Giridara Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9506342,
+      "lon": 80.0575853,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Dompe Weekly Market"
+      }
+    },
+    {
+      "lat": 6.9593192,
+      "lon": 80.0519688,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Liyanegama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9723597,
+      "lon": 80.116551,
+      "tags": {
+        "amenity": "school",
+        "name": "Owitigama Primary School"
+      }
+    },
+    {
+      "lat": 6.9901873,
+      "lon": 80.1026353,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.977751,
+      "lon": 80.1152394,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9982798,
+      "lon": 80.0990818,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0017871,
+      "lon": 80.0933667,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nagas Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9524588,
+      "lon": 80.052572,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Kalyana Ashramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0092116,
+      "lon": 80.1096398,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0078791,
+      "lon": 80.1134672,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Anuragoda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0088087,
+      "lon": 80.115513,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0092858,
+      "lon": 80.1176574,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0094429,
+      "lon": 80.1075347,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nandarama",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9442899,
+      "lon": 80.0695854,
+      "tags": {
+        "addr:city": "Dompe",
+        "addr:street": "Dekatana-Dompe-Giridara Road",
+        "amenity": "school",
+        "name": "Siyane National School"
+      }
+    },
+    {
+      "lat": 6.94392,
+      "lon": 80.0705768,
+      "tags": {
+        "addr:city": "Dompe",
+        "addr:street": "Dekatana-Dompe-Giridara Road",
+        "amenity": "school",
+        "name": "Siyane National School Play Ground"
+      }
+    },
+    {
+      "lat": 7.0079816,
+      "lon": 80.0580449,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0047252,
+      "lon": 80.0581852,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Putupagala Road",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0049553,
+      "lon": 80.0594635,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Keragala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9991114,
+      "lon": 80.0618359,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9859849,
+      "lon": 80.0694126,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Putupagala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9892717,
+      "lon": 80.0689491,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9932331,
+      "lon": 80.0679567,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9977697,
+      "lon": 80.0648292,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9481933,
+      "lon": 80.0950531,
+      "tags": {
+        "addr:city": "Kapugoda",
+        "name": "Hotel Lucky Star",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0055537,
+      "lon": 80.0480818,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0005761,
+      "lon": 80.0539636,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0047735,
+      "lon": 80.0595722,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.994566,
+      "lon": 80.047608,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Demalagama",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9833828,
+      "lon": 80.0583921,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pelahala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9961545,
+      "lon": 80.0523369,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9983542,
+      "lon": 80.0881721,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Madugas Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0032005,
+      "lon": 80.0891236,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0051159,
+      "lon": 80.0829907,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0069102,
+      "lon": 80.0778731,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0081663,
+      "lon": 80.0750005,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ranavirugama",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0052281,
+      "lon": 80.0658843,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9789555,
+      "lon": 80.1127083,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9827803,
+      "lon": 80.1106484,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pugoda Police",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9827902,
+      "lon": 80.1089071,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9933621,
+      "lon": 80.0845833,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Waharaka",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.97371,
+      "lon": 80.0893551,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9880507,
+      "lon": 80.1069447,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Palpita",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9888465,
+      "lon": 80.1047676,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9955497,
+      "lon": 80.0856708,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Horawala Junction ",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9952955,
+      "lon": 80.0667761,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ambagahavila",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.986538,
+      "lon": 80.064052,
+      "tags": {
+        "addr:city": "Dekatana",
+        "addr:street": "Delgoda-Kirindiwela Road",
+        "name": "Palm Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9767207,
+      "lon": 80.117468,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Government Dispensery"
+      }
+    },
+    {
+      "lat": 6.9860047,
+      "lon": 80.109277,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9920779,
+      "lon": 80.0995498,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9962518,
+      "lon": 80.1016228,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Peragas Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9792569,
+      "lon": 80.0549628,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pahala Pelahala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9751055,
+      "lon": 80.0516876,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Parangoda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0088441,
+      "lon": 80.0565228,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0087616,
+      "lon": 80.0551629,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0088521,
+      "lon": 80.0538781,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0085566,
+      "lon": 80.0523412,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.009097,
+      "lon": 80.0502759,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0082622,
+      "lon": 80.112281,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sakura Mawatha",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9434467,
+      "lon": 80.0717193,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9434713,
+      "lon": 80.0974137,
+      "tags": {
+        "amenity": "place_of_worship",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9812132,
+      "lon": 80.112273,
+      "tags": {
+        "addr:city": "Pugoda",
+        "addr:street": "Pugoda - Mandawala Road",
+        "amenity": "restaurant",
+        "name": "Hotel Pugoda Village"
+      }
+    },
+    {
+      "lat": 6.9306546,
+      "lon": 80.0844553,
+      "tags": {
+        "addr:city": "Pugoda",
+        "addr:street": "Hanwella - Pugoda - Kirindiwela - Urapola Road",
+        "amenity": "restaurant",
+        "name": "Kanro Holiday Resort"
+      }
+    },
+    {
+      "lat": 6.9733776,
+      "lon": 80.057271,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0000752,
+      "lon": 80.0970243,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0070401,
+      "lon": 80.0956061,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mandawala Primary",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9989739,
+      "lon": 80.0904322,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "4th Mile Spot",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.988988,
+      "lon": 80.0767442,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "gampola junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9881907,
+      "lon": 80.0726881,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Wanaluwava",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.983547,
+      "lon": 80.060482,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pelahala Rahula",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0019165,
+      "lon": 80.093595,
+      "tags": {
+        "name": "Kumara Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0016508,
+      "lon": 80.0940376,
+      "tags": {
+        "name": "Samantha Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0005741,
+      "lon": 80.0927972,
+      "tags": {
+        "name": "Sewmini Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9901634,
+      "lon": 80.0816696,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "ranwala temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.984061,
+      "lon": 80.0606849,
+      "tags": {
+        "amenity": "school",
+        "education": "school"
+      }
+    },
+    {
+      "lat": 6.9833051,
+      "lon": 80.0585146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Shakyasingharamya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0081081,
+      "lon": 80.0479948,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Parakadamulla Temple",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9456913,
+      "lon": 80.1126775,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Lenawara Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9474823,
+      "lon": 80.0602282,
+      "tags": {
+        "amenity": "school",
+        "name": "Devi Balika Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9493142,
+      "lon": 80.0593916,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Dompe Hospital"
+      }
+    },
+    {
+      "lat": 6.9503572,
+      "lon": 80.0573117,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9700106,
+      "lon": 80.1155596,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9333899,
+      "lon": 80.074179,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9574682,
+      "lon": 80.0519311,
+      "tags": {
+        "amenity": "school",
+        "name": "Dompe Primary School"
+      }
+    },
+    {
+      "lat": 6.9586543,
+      "lon": 80.0515861,
+      "tags": {
+        "amenity": "school",
+        "name": "Dompe Maha Vidyalaya"
+      }
+    }
+  ]
+}

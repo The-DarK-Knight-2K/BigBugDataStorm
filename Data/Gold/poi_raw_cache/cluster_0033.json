@@ -1,0 +1,110 @@
+{
+  "cluster_id": 33,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.9891630000000005,
+    "lat_max": 8.075819000000001,
+    "lon_min": 80.116541,
+    "lon_max": 80.210004
+  },
+  "outlet_ids": [
+    "OUT_13066",
+    "OUT_13122",
+    "OUT_13127",
+    "OUT_13287",
+    "OUT_13295",
+    "OUT_13319",
+    "OUT_13322",
+    "OUT_13386",
+    "OUT_13496",
+    "OUT_13583",
+    "OUT_13632",
+    "OUT_13685",
+    "OUT_13741",
+    "OUT_13750",
+    "OUT_13790",
+    "OUT_13819",
+    "OUT_13984",
+    "OUT_14336",
+    "OUT_14616",
+    "OUT_14679",
+    "OUT_14699",
+    "OUT_14721",
+    "OUT_14853",
+    "OUT_14859",
+    "OUT_14942",
+    "OUT_14993",
+    "OUT_15026",
+    "OUT_15230",
+    "OUT_15871",
+    "OUT_15926",
+    "OUT_15968",
+    "OUT_16148",
+    "OUT_16589",
+    "OUT_16604",
+    "OUT_16647",
+    "OUT_16805",
+    "OUT_16836",
+    "OUT_16883",
+    "OUT_16911",
+    "OUT_16919"
+  ],
+  "n_outlets": 40,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T20:24:48.650265",
+  "elements": [
+    {
+      "lat": 7.9976096,
+      "lon": 80.1790783,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Palugolla Kodigala Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9977404,
+      "lon": 80.1767677,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mahananneriya District Hospital"
+      }
+    },
+    {
+      "lat": 8.0062352,
+      "lon": 80.1792401,
+      "tags": {
+        "amenity": "school",
+        "name": "Maha Nanneriya Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 8.0061605,
+      "lon": 80.1792473,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.997725,
+      "lon": 80.1766954,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 7.9976273,
+      "lon": 80.1790757,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

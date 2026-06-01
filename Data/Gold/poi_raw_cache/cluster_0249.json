@@ -1,0 +1,89 @@
+{
+  "cluster_id": 249,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.834046,
+    "lat_max": 7.928404,
+    "lon_min": 80.078571,
+    "lon_max": 80.161691
+  },
+  "outlet_ids": [
+    "OUT_13211",
+    "OUT_13370",
+    "OUT_13404",
+    "OUT_13472",
+    "OUT_13589",
+    "OUT_13640",
+    "OUT_14049",
+    "OUT_14080",
+    "OUT_14192",
+    "OUT_14474",
+    "OUT_14501",
+    "OUT_14785",
+    "OUT_14798",
+    "OUT_14894",
+    "OUT_15105",
+    "OUT_15274",
+    "OUT_15458",
+    "OUT_15537",
+    "OUT_15928",
+    "OUT_16001",
+    "OUT_16002",
+    "OUT_16033",
+    "OUT_16111",
+    "OUT_16313",
+    "OUT_16366",
+    "OUT_16517",
+    "OUT_16534",
+    "OUT_16585",
+    "OUT_16590",
+    "OUT_16622",
+    "OUT_16933",
+    "OUT_16957"
+  ],
+  "n_outlets": 32,
+  "n_pois_returned": 4,
+  "scraped_at": "2026-05-16T21:02:48.555900",
+  "elements": [
+    {
+      "lat": 7.8821849,
+      "lon": 80.1010153,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8941352,
+      "lon": 80.1128408,
+      "tags": {
+        "addr:city": "BANJUL",
+        "amenity": "place_of_worship",
+        "name": "MASJID",
+        "religion": "muslim",
+        "service_times": "Mo-Su"
+      }
+    },
+    {
+      "lat": 7.8930667,
+      "lon": 80.1129261,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 7.8816658,
+      "lon": 80.101039,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

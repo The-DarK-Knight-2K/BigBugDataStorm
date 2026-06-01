@@ -1,0 +1,393 @@
+{
+  "cluster_id": 387,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.783747,
+    "lat_max": 6.875179,
+    "lon_min": 80.653126,
+    "lon_max": 80.732047
+  },
+  "outlet_ids": [
+    "OUT_09012",
+    "OUT_09148",
+    "OUT_09210",
+    "OUT_09362",
+    "OUT_09418",
+    "OUT_09595",
+    "OUT_09610",
+    "OUT_09922",
+    "OUT_09957",
+    "OUT_10074",
+    "OUT_10111",
+    "OUT_10209",
+    "OUT_10296",
+    "OUT_10358",
+    "OUT_10395",
+    "OUT_10454",
+    "OUT_10538",
+    "OUT_10594",
+    "OUT_10771",
+    "OUT_10790",
+    "OUT_10957",
+    "OUT_11059",
+    "OUT_11093",
+    "OUT_11103",
+    "OUT_11125",
+    "OUT_11139",
+    "OUT_11357",
+    "OUT_11457",
+    "OUT_11546",
+    "OUT_11625",
+    "OUT_11665",
+    "OUT_11703",
+    "OUT_11713",
+    "OUT_11798",
+    "OUT_11889",
+    "OUT_12395",
+    "OUT_12518",
+    "OUT_12532",
+    "OUT_12570",
+    "OUT_12580",
+    "OUT_12603",
+    "OUT_12630",
+    "OUT_12705",
+    "OUT_12914",
+    "OUT_12918",
+    "OUT_12983"
+  ],
+  "n_outlets": 46,
+  "n_pois_returned": 30,
+  "scraped_at": "2026-05-16T22:16:07.849954",
+  "elements": [
+    {
+      "lat": 6.7873643,
+      "lon": 80.7237222,
+      "tags": {
+        "addr:city": "Bogawantalawa",
+        "addr:street": "North Cove Road",
+        "name": "Loinorn North Cove Cabana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.794878,
+      "lon": 80.6784721,
+      "tags": {
+        "addr:city": "Bogawantalawa",
+        "addr:street": "Norwood-Bogawantalawa Road",
+        "amenity": "hospital",
+        "name": "Divisional Hospital Bogawanthalawa"
+      }
+    },
+    {
+      "lat": 6.8701143,
+      "lon": 80.6852925,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Agarapatana Divisional Hospital"
+      }
+    },
+    {
+      "lat": 6.862413,
+      "lon": 80.7084533,
+      "tags": {
+        "addr:city": "Agarapathana",
+        "amenity": "school",
+        "name": "Agarapathana Sinhala School"
+      }
+    },
+    {
+      "lat": 6.8606128,
+      "lon": 80.7104274,
+      "tags": {
+        "addr:city": "Agarapatana",
+        "amenity": "school",
+        "name": "Agarapatana Tamil Maha Vidyalayam"
+      }
+    },
+    {
+      "lat": 6.7984861,
+      "lon": 80.6726678,
+      "tags": {
+        "addr:city": "Bogawanthalawa",
+        "addr:street": "Norwood-Bogawantalawa Road",
+        "name": "Faleela Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8332828,
+      "lon": 80.6533445,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Sanchimale"
+      }
+    },
+    {
+      "lat": 6.8674878,
+      "lon": 80.6892892,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7942894,
+      "lon": 80.675265,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri muththumariyamman",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.7970015,
+      "lon": 80.6792487,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "school",
+        "building": "residential",
+        "name": "St marys C.C",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.8642198,
+      "lon": 80.6896594,
+      "tags": {
+        "name": "Rohita guest",
+        "phone": "077 782 2675",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.79631,
+      "lon": 80.6783066,
+      "tags": {
+        "name": "Kiyaso Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7961473,
+      "lon": 80.678405,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Al Habibi"
+      }
+    },
+    {
+      "lat": 6.795667,
+      "lon": 80.6784058,
+      "tags": {
+        "name": "Lanka Food City",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7952437,
+      "lon": 80.6790101,
+      "tags": {
+        "name": "Kashmeer Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7990098,
+      "lon": 80.6717368,
+      "tags": {
+        "addr:city": "Bogawanthalawa",
+        "addr:postcode": "22060",
+        "addr:street": "Norwood-Bogawantalawa Road",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "Holy Rosary Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8462581,
+      "lon": 80.714869,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bopaththalawa Isipathanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7836737,
+      "lon": 80.69881,
+      "tags": {
+        "amenity": "school",
+        "name": "Campion Tamil Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7996121,
+      "lon": 80.6836425,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7966706,
+      "lon": 80.6793784,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "school",
+        "building": "residential",
+        "name": "ST'Mary' Primary",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.7966553,
+      "lon": 80.6794905,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "school",
+        "landuse": "residential",
+        "name": "St marys primary",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.7915442,
+      "lon": 80.6805087,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "name": "KARUPPUSAMI KOVIL",
+        "religion": "hindu",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.7943185,
+      "lon": 80.6782675,
+      "tags": {
+        "addr:place": "Kotiyagala lower",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Kotiyagala",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "SRI AGOTHARA VEERAPUTHTHIRA KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.7936114,
+      "lon": 80.6791124,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "place_of_worship",
+        "landuse": "religious",
+        "name": "SRI MUTHU MARIYAMMAN TEMPLE",
+        "religion": "hindu",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.7938666,
+      "lon": 80.6793666,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "name": "KAALI KOVIL",
+        "religion": "hindu",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.7911524,
+      "lon": 80.680785,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "name": "KALIYAMMA TEMPLE",
+        "religion": "hindu",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.7932531,
+      "lon": 80.6799865,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "name": "MARUTHAVEERAN KOVIL",
+        "religion": "hindu",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.793684,
+      "lon": 80.6781039,
+      "tags": {
+        "addr:place": "Kotiyagala lower",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Kotiyagala",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "KALIYAMMAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.7918987,
+      "lon": 80.6805099,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "denomination": "roman_catholic",
+        "name": "Sepastiyaar Church",
+        "religion": "christian",
+        "year_of_construction": "2022-01-01"
+      }
+    },
+    {
+      "lat": 6.7984561,
+      "lon": 80.6861847,
+      "tags": {
+        "addr:place": "Fetteresso",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Loinorn",
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "name": "KAALI KOVIL",
+        "religion": "hindu",
+        "year_of_construction": "2022-01-01"
+      }
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "cluster_id": 216,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.3833660000000005,
+    "lat_max": 7.4813469999999995,
+    "lon_min": 79.78432,
+    "lon_max": 79.862712
+  },
+  "outlet_ids": [
+    "OUT_13057",
+    "OUT_13101",
+    "OUT_13105",
+    "OUT_13145",
+    "OUT_13348",
+    "OUT_13522",
+    "OUT_13603",
+    "OUT_13775",
+    "OUT_13794",
+    "OUT_14073",
+    "OUT_14156",
+    "OUT_14204",
+    "OUT_14268",
+    "OUT_14290",
+    "OUT_14892",
+    "OUT_15063",
+    "OUT_15264",
+    "OUT_15341",
+    "OUT_15373",
+    "OUT_15413",
+    "OUT_15757",
+    "OUT_15766",
+    "OUT_15922",
+    "OUT_16139",
+    "OUT_16306",
+    "OUT_16308",
+    "OUT_16457",
+    "OUT_16492",
+    "OUT_16649",
+    "OUT_16717",
+    "OUT_16905"
+  ],
+  "n_outlets": 31,
+  "n_pois_returned": 53,
+  "scraped_at": "2026-05-16T20:57:29.857172",
+  "elements": [
+    {
+      "lat": 7.3913915,
+      "lon": 79.8586219,
+      "tags": {
+        "amenity": "school",
+        "name": "Thummodara School"
+      }
+    },
+    {
+      "lat": 7.4353939,
+      "lon": 79.8574683,
+      "tags": {
+        "amenity": "school",
+        "name": "Dharmaraja College, Marawila"
+      }
+    },
+    {
+      "lat": 7.439463,
+      "lon": 79.8591858,
+      "tags": {
+        "name": "Walahapitiya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.4621812,
+      "lon": 79.8530119,
+      "tags": {
+        "name": "Kudawewa",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.410472,
+      "lon": 79.8577915,
+      "tags": {
+        "addr:city": "Nattandiya",
+        "amenity": "school",
+        "name": "Dhammissara Primary School"
+      }
+    },
+    {
+      "lat": 7.4112541,
+      "lon": 79.8580517,
+      "tags": {
+        "addr:city": "Nattandiya",
+        "amenity": "school",
+        "name": "Dammissara National School"
+      }
+    },
+    {
+      "lat": 7.3910233,
+      "lon": 79.8217386,
+      "tags": {
+        "addr:city": "Mudukatuwa",
+        "name": "Sun Set Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3955491,
+      "lon": 79.8295016,
+      "tags": {
+        "addr:city": "Mudukatuwa",
+        "amenity": "place_of_worship",
+        "name": "Zoysarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4125693,
+      "lon": 79.8532975,
+      "tags": {
+        "addr:city": "Nattandiya",
+        "amenity": "place_of_worship",
+        "name": "Vidyarathana Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4134281,
+      "lon": 79.8305452,
+      "tags": {
+        "addr:city": "Marawila",
+        "amenity": "marketplace",
+        "name": "Market Place"
+      }
+    },
+    {
+      "lat": 7.4176726,
+      "lon": 79.8156342,
+      "tags": {
+        "addr:city": "Marawila",
+        "name": "Sanmali Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4145448,
+      "lon": 79.8165408,
+      "tags": {
+        "addr:city": "Marawila",
+        "name": "Amagi Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4260881,
+      "lon": 79.8134402,
+      "tags": {
+        "addr:city": "Marawila",
+        "name": "Olenka Sunside Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4253965,
+      "lon": 79.8136547,
+      "tags": {
+        "addr:city": "Marawila",
+        "name": "Villa Viana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4347844,
+      "lon": 79.8108753,
+      "tags": {
+        "addr:city": "Marawila",
+        "name": "Solomon Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4311539,
+      "lon": 79.8128554,
+      "tags": {
+        "addr:city": "Marawila",
+        "amenity": "restaurant",
+        "name": "Lagoon Palm Bay Restaurant"
+      }
+    },
+    {
+      "lat": 7.4304714,
+      "lon": 79.8226524,
+      "tags": {
+        "addr:city": "Marawila",
+        "amenity": "place_of_worship",
+        "name": "St.Theresa Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4487871,
+      "lon": 79.8183441,
+      "tags": {
+        "addr:city": "Marawila",
+        "amenity": "place_of_worship",
+        "name": "Sadhasarana Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.452834,
+      "lon": 79.8265687,
+      "tags": {
+        "addr:city": "Mahawewa",
+        "amenity": "place_of_worship",
+        "name": "Mahawewa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4609962,
+      "lon": 79.8422261,
+      "tags": {
+        "addr:city": "Kudawewa",
+        "amenity": "place_of_worship",
+        "name": "Kudawewa Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4629835,
+      "lon": 79.8047203,
+      "tags": {
+        "addr:city": "Kudamaduwella",
+        "amenity": "marketplace",
+        "name": "Public Market"
+      }
+    },
+    {
+      "lat": 7.4612115,
+      "lon": 79.8057258,
+      "tags": {
+        "addr:city": "Kudamaduwella",
+        "amenity": "place_of_worship",
+        "name": "Kudamaduwella Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4774487,
+      "lon": 79.8301041,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "image": "https://photos.app.goo.gl/QB5suUd52Ec1B3NY9",
+        "name": "Thaniwella Devalaya",
+        "religion": "buddhist",
+        "url": "https://youtu.be/Mw7TvujXjKY?si=nf1d-Q4Kb1ruUbWV"
+      }
+    },
+    {
+      "lat": 7.4378372,
+      "lon": 79.8308507,
+      "tags": {
+        "addr:city": "Koswadiya",
+        "addr:street": "Colombo-Chilaw Road",
+        "amenity": "place_of_worship",
+        "image": "https://photos.app.goo.gl/LcYXovRWHRS3tVyC9",
+        "name": "Halpanwila Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4306567,
+      "lon": 79.8115191,
+      "tags": {
+        "addr:country": "LK",
+        "addr:street": "Modarawella Road",
+        "amenity": "restaurant",
+        "name": "Tao Restaurant"
+      }
+    },
+    {
+      "lat": 7.4321131,
+      "lon": 79.8249642,
+      "tags": {
+        "name": "\"Sunshya Cottage\" c/o \"Evergreen Accommodations\"",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4422559,
+      "lon": 79.8608288,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4423549,
+      "lon": 79.8304631,
+      "tags": {
+        "amenity": "school",
+        "name": "Saraswathi Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4157469,
+      "lon": 79.815969,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "\u0423 \u0434\u0436\u0430\u043c\u0438\u043b\u044f"
+      }
+    },
+    {
+      "lat": 7.3882913,
+      "lon": 79.8321061,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "Cheap and good restaurant"
+      }
+    },
+    {
+      "lat": 7.4136898,
+      "lon": 79.8310309,
+      "tags": {
+        "name:en": "Keels",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4112502,
+      "lon": 79.8347452,
+      "tags": {
+        "addr:city": "Marawila",
+        "addr:postcode": "61210",
+        "addr:street": "Veedi Road",
+        "amenity": "place_of_worship",
+        "name": "Voice of Heaven Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4152034,
+      "lon": 79.8308695,
+      "tags": {
+        "amenity": "school",
+        "name": "St Francis Xavier college"
+      }
+    },
+    {
+      "lat": 7.4143163,
+      "lon": 79.8308262,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.3905059,
+      "lon": 79.8590148,
+      "tags": {
+        "building": "yes",
+        "name": "Thummodara",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.4754149,
+      "lon": 79.8450442,
+      "tags": {
+        "building": "yes",
+        "name": "Nelumpokuna",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.4709675,
+      "lon": 79.8066512,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Primary Medical Care Unit , Thoduwawa"
+      }
+    },
+    {
+      "lat": 7.4705213,
+      "lon": 79.8058285,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Doctors Quarters, Thoduwawa"
+      }
+    },
+    {
+      "lat": 7.476499,
+      "lon": 79.8050467,
+      "tags": {
+        "addr:city": "Thoduwawa",
+        "addr:place": "Thoduwawa",
+        "addr:postcode": "61224",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "St. Anthony's Church",
+        "religion": "christian",
+        "service_times": "Sunday at 6.30 PM"
+      }
+    },
+    {
+      "lat": 7.464111,
+      "lon": 79.8204861,
+      "tags": {
+        "addr:city": "Mattakotuwa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mattakotuwa Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4768411,
+      "lon": 79.8309196,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "shrine",
+        "description": "Buddha statue",
+        "image": "https://photos.app.goo.gl/TdKbow4qMHF3JU5M8",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4612428,
+      "lon": 79.8057509,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4120537,
+      "lon": 79.8246726,
+      "tags": {
+        "addr:city": "Marawila",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Marawila Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4283754,
+      "lon": 79.8124003,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/3HGuk3dcZibhEFDS6",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4803338,
+      "lon": 79.8281798,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "image": "https://photos.app.goo.gl/sp35gbroWS7dTpCR6",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3936086,
+      "lon": 79.8323614,
+      "tags": {
+        "addr:city": "Marawila",
+        "amenity": "hospital",
+        "fixme": "redefine hospital area",
+        "name": "Base Hospital"
+      }
+    },
+    {
+      "lat": 7.4027696,
+      "lon": 79.8195525,
+      "tags": {
+        "amenity": "school",
+        "fixme": "Please confirm."
+      }
+    },
+    {
+      "lat": 7.4061189,
+      "lon": 79.8186016,
+      "tags": {
+        "addr:city": "Mudukatuwa",
+        "barrier": "wall",
+        "name": "Richron Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3885608,
+      "lon": 79.8216254,
+      "tags": {
+        "addr:city": "Mudukatuwa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/qjBBe5xZJ8utVJ4g9",
+        "name": "St.Pedro Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.437822,
+      "lon": 79.8305741,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/n5RNhYFriY2ksZmx8",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4475446,
+      "lon": 79.808246,
+      "tags": {
+        "addr:city": "Kudamaduwella",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/syEi73qHGSUW8NAQ7",
+        "name": "Barudalpola Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.434081,
+      "lon": 79.8122885,
+      "tags": {
+        "addr:city": "Marawila",
+        "building": "yes",
+        "contact:facebook": "https://www.facebook.com/clubpalmbaymarawila",
+        "contact:instagram": "https://www.instagram.com/clubpalmbay.sl",
+        "email": "reservations@clubpalmbay.lk",
+        "image": "https://photos.app.goo.gl/ExTrobJu2ct4WJci9",
+        "name": "Club Palm Bay Hotel",
+        "phone": "+94 322 255 830",
+        "tourism": "hotel",
+        "url": "https://youtu.be/A-8v-DDVqK4",
+        "website": "https://theclubpalmbay.com/"
+      }
+    },
+    {
+      "lat": 7.388838,
+      "lon": 79.8218963,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/K9SuEjhVfG41KMF79",
+        "religion": "christian"
+      }
+    }
+  ]
+}

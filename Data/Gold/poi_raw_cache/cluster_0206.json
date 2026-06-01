@@ -1,0 +1,2663 @@
+{
+  "cluster_id": 206,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.944694,
+    "lat_max": 7.032464,
+    "lon_min": 80.738103,
+    "lon_max": 80.817804
+  },
+  "outlet_ids": [
+    "OUT_09045",
+    "OUT_09071",
+    "OUT_09408",
+    "OUT_09469",
+    "OUT_09530",
+    "OUT_09534",
+    "OUT_09550",
+    "OUT_09709",
+    "OUT_09769",
+    "OUT_09836",
+    "OUT_09896",
+    "OUT_09925",
+    "OUT_10286",
+    "OUT_10482",
+    "OUT_10855",
+    "OUT_11058",
+    "OUT_11227",
+    "OUT_11253",
+    "OUT_11269",
+    "OUT_11350",
+    "OUT_11387",
+    "OUT_11613",
+    "OUT_11619",
+    "OUT_11856",
+    "OUT_11915",
+    "OUT_12050",
+    "OUT_12063",
+    "OUT_12078",
+    "OUT_12095",
+    "OUT_12172",
+    "OUT_12224",
+    "OUT_12431",
+    "OUT_12596",
+    "OUT_12747",
+    "OUT_12807",
+    "OUT_12934",
+    "OUT_12990"
+  ],
+  "n_outlets": 37,
+  "n_pois_returned": 263,
+  "scraped_at": "2026-05-16T20:56:02.437724",
+  "elements": [
+    {
+      "lat": 6.9773138,
+      "lon": 80.7649851,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Francis Xavier Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.967435,
+      "lon": 80.7664275,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "restaurant",
+        "description": "chinese",
+        "name": "Glendover Chinese"
+      }
+    },
+    {
+      "lat": 6.975966,
+      "lon": 80.7657226,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9729391,
+      "lon": 80.7670088,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Super K",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9721688,
+      "lon": 80.7811686,
+      "tags": {
+        "addr:city": "Hawaeliya",
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9741095,
+      "lon": 80.7803117,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Nuwara Eliya General Hospital"
+      }
+    },
+    {
+      "lat": 6.9709911,
+      "lon": 80.7629632,
+      "tags": {
+        "name": "Hill Club",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9741495,
+      "lon": 80.7671861,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Windsor Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9707383,
+      "lon": 80.769135,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "New Tour Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9630028,
+      "lon": 80.7608187,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Sky Park Holiday Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9731406,
+      "lon": 80.7666849,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Milano"
+      }
+    },
+    {
+      "lat": 6.9723493,
+      "lon": 80.7681614,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ideal Hospital"
+      }
+    },
+    {
+      "lat": 6.971953,
+      "lon": 80.7667673,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Queen Elizabeth Drive",
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9619654,
+      "lon": 80.7628659,
+      "tags": {
+        "name": "Tea Bush Hotel",
+        "tourism": "hotel",
+        "website": "https://www.teabush-hotel.com/"
+      }
+    },
+    {
+      "lat": 6.9759708,
+      "lon": 80.7644781,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Golf Green Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9762703,
+      "lon": 80.7657186,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "place_of_worship",
+        "name": "Al Kabeer Grand Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9775309,
+      "lon": 80.7661196,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Kumudu Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9790245,
+      "lon": 80.7646578,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "St.John's Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9795881,
+      "lon": 80.7638358,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Jetwing St.Andrews Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9794278,
+      "lon": 80.7625554,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "King Fern Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9821373,
+      "lon": 80.7601187,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "4 Bedroom Apartment",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9821162,
+      "lon": 80.7598568,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Friendly Home Stay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9814529,
+      "lon": 80.763606,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Redwood Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9820213,
+      "lon": 80.7621431,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Grymsby",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9815049,
+      "lon": 80.7643622,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Sherwood Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9811536,
+      "lon": 80.7649143,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Nidwalden Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9818176,
+      "lon": 80.7647692,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Sincere Wilderness",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9820248,
+      "lon": 80.764249,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Kingfern Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9688359,
+      "lon": 80.7641621,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Glendover",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9676346,
+      "lon": 80.7657531,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "restaurant",
+        "name": "Grand Indian"
+      }
+    },
+    {
+      "lat": 6.9675244,
+      "lon": 80.7669144,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "check_date": "2024-08-21",
+        "name": "Araliya Green City",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.967034,
+      "lon": 80.7646588,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Araliya Green Hills",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9669998,
+      "lon": 80.7660456,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Glenfall Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9659619,
+      "lon": 80.7664355,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Unique Cottages",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9652499,
+      "lon": 80.7647146,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Glenfall Lane",
+        "name": "Glenfall Reach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9641492,
+      "lon": 80.7667756,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "check_date": "2024-08-21",
+        "name": "Collingwood",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9637659,
+      "lon": 80.7666089,
+      "tags": {
+        "name": "New Keena",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9638491,
+      "lon": 80.7667868,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Ascot",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9639838,
+      "lon": 80.7663406,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Avican Guest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9633865,
+      "lon": 80.7653615,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Sun Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9636873,
+      "lon": 80.7657799,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Green Garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9635942,
+      "lon": 80.765973,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Yenisey",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9633652,
+      "lon": 80.7658631,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "check_date": "2024-08-21",
+        "name": "Serendib Mount",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9631043,
+      "lon": 80.7666624,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Country House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9631868,
+      "lon": 80.7661045,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Travel Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9631948,
+      "lon": 80.7658416,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Oak Ray Smmer Hill Breeze Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.962593,
+      "lon": 80.7660124,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "The Alpine Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9623109,
+      "lon": 80.7658067,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Grosvenor",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9618902,
+      "lon": 80.7655331,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Haddon Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9617411,
+      "lon": 80.7656726,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Richmond Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9614801,
+      "lon": 80.7659302,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Single Tree",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9613657,
+      "lon": 80.7649538,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Heaven Seven Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9614749,
+      "lon": 80.7655117,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Royal Mount",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9612752,
+      "lon": 80.7644281,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Misty Holiday Nest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9617518,
+      "lon": 80.7641223,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Cepro Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9644275,
+      "lon": 80.7641196,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "People's Bank Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.964084,
+      "lon": 80.7649377,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Hotel Green Star",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9650052,
+      "lon": 80.7656726,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Colombo Dockyard Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9642172,
+      "lon": 80.7633176,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Nadeenma",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9631522,
+      "lon": 80.7634786,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "31",
+        "addr:postcode": "22200",
+        "addr:street": "Unique View Road",
+        "internet_access": "yes",
+        "internet_access:fee": "yes",
+        "name": "Lassana Villa",
+        "operator": "Kalum Tharaka",
+        "rooms": "3",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "http://www.lassanavilla.com"
+      }
+    },
+    {
+      "lat": 6.9630004,
+      "lon": 80.7628751,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Happy Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9634262,
+      "lon": 80.762194,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "The Rock",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9636896,
+      "lon": 80.7626045,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Villa de Roshe",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9643385,
+      "lon": 80.7622112,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Hotel Four Seasons",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9649491,
+      "lon": 80.7610709,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Ashley Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9631493,
+      "lon": 80.7607678,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Breeze Mountain Holiday Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.962891,
+      "lon": 80.7609126,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Qantara",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9606674,
+      "lon": 80.7673237,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Clifton Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9607034,
+      "lon": 80.7681785,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Rotelga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9603923,
+      "lon": 80.7694598,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Kings",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9579294,
+      "lon": 80.7723642,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Hilcot",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9539038,
+      "lon": 80.7791077,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Watermead",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9534133,
+      "lon": 80.7787896,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Lake Edge Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9531433,
+      "lon": 80.7747855,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Fairview Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9566944,
+      "lon": 80.7736625,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Royston Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9571024,
+      "lon": 80.7759274,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Hill Rise Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9541668,
+      "lon": 80.7769151,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Lady Horton Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9534592,
+      "lon": 80.7777348,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Bonavista Road",
+        "name": "Villa Acacia",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9540084,
+      "lon": 80.7784118,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Abhayapura Road",
+        "amenity": "place_of_worship",
+        "name": "Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9547218,
+      "lon": 80.7789217,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Lochside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9553876,
+      "lon": 80.7747103,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Hotel Shalika",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9529809,
+      "lon": 80.7816316,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Hunters Club Gregory Lake",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9523979,
+      "lon": 80.7825275,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Lake View Comfort Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9521316,
+      "lon": 80.7811676,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "The Log",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.951574,
+      "lon": 80.7823987,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Lake View Holiday Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9521248,
+      "lon": 80.7838077,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Fiyori Garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9523363,
+      "lon": 80.7849276,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "restaurant",
+        "name": "Adma Agro Strawberry Farm Shop"
+      }
+    },
+    {
+      "lat": 6.9459711,
+      "lon": 80.7880859,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Lourdes Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9495861,
+      "lon": 80.7887949,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Samarajeewa Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9492095,
+      "lon": 80.7900643,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "place_of_worship",
+        "name": "Sri Senanandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9503518,
+      "lon": 80.787083,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Sun Shine",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9460267,
+      "lon": 80.7902499,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Gurugedara Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9458838,
+      "lon": 80.7913448,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Vishmi's Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9515785,
+      "lon": 80.7897008,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Scenic View Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9561151,
+      "lon": 80.7968695,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "place_of_worship",
+        "name": "Sandatenna Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9648031,
+      "lon": 80.7922866,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Yoga Bhavan Guest Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9668261,
+      "lon": 80.7886249,
+      "tags": {
+        "addr:city": "Hawaeliya",
+        "amenity": "place_of_worship",
+        "name": "Ashokaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.96995,
+      "lon": 80.786145,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Barcode Residencies",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9727538,
+      "lon": 80.7831784,
+      "tags": {
+        "addr:city": "Hawaeliya",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Hindu Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9720881,
+      "lon": 80.777729,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "school",
+        "name": "Girls' High School"
+      }
+    },
+    {
+      "lat": 6.9707127,
+      "lon": 80.7830156,
+      "tags": {
+        "addr:city": "Hawaeliya",
+        "name": "Mystic Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9710477,
+      "lon": 80.7855647,
+      "tags": {
+        "addr:city": "Hawaeliya",
+        "name": "Roselyn Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9741605,
+      "lon": 80.7812582,
+      "tags": {
+        "addr:city": "Hawaeliya",
+        "name": "Serene Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9638024,
+      "lon": 80.7816583,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "check_date": "2024-12-14",
+        "name": "The Firs",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9608279,
+      "lon": 80.7788428,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "check_date": "2024-12-14",
+        "name": "Domestic Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9633359,
+      "lon": 80.7726209,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Charkey Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9633492,
+      "lon": 80.7734283,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Felshta Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9629179,
+      "lon": 80.7735839,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Kingsbury Lake Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.966757,
+      "lon": 80.7713827,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Hill View Guest Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9684305,
+      "lon": 80.7704168,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Wedderburn Road",
+        "name": "Royal Cocoon Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9699876,
+      "lon": 80.7711287,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Hotel Princes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9707825,
+      "lon": 80.7700026,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Windsor",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9705162,
+      "lon": 80.7703766,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Paradise Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9715343,
+      "lon": 80.7720896,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "check_date": "2024-12-14",
+        "name": "Stonyhurst Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9731388,
+      "lon": 80.7692088,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Cottage 42",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9746893,
+      "lon": 80.7666085,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "New Nuwara Eliya Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9779048,
+      "lon": 80.7656051,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Co-operative Hospital"
+      }
+    },
+    {
+      "lat": 6.974379,
+      "lon": 80.7673681,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Medisi Channel Centre"
+      }
+    },
+    {
+      "lat": 6.9730746,
+      "lon": 80.7807179,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Suwara"
+      }
+    },
+    {
+      "lat": 6.9810811,
+      "lon": 80.7463364,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shanthipura Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9633517,
+      "lon": 80.7655732,
+      "tags": {
+        "name": "Hotel Jojos",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9566428,
+      "lon": 80.7775558,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Peradeniya-Badulla-Chenkaladi Road",
+        "name": "Calamander Lake Gregory",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9712418,
+      "lon": 80.7693801,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Wedderburn Road",
+        "name": "Ferncliff",
+        "phone": "+94 722319443",
+        "tourism": "hotel",
+        "website": "https://www.ferncliff.lk/"
+      }
+    },
+    {
+      "lat": 6.9701049,
+      "lon": 80.7633712,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hill Club"
+      }
+    },
+    {
+      "lat": 6.9821434,
+      "lon": 80.7604391,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9711771,
+      "lon": 80.7672281,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional;burger;sandwich;breakfast",
+        "internet_access": "wlan",
+        "name": "Themparadu",
+        "name:en": "Themparadu"
+      }
+    },
+    {
+      "lat": 6.9726278,
+      "lon": 80.768045,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "60/2",
+        "addr:street": "Park Road",
+        "amenity": "restaurant",
+        "cuisine": "curry;local;asian",
+        "diet:vegetarian": "yes",
+        "fixme": "phone number seems wrong (too many digits)",
+        "name": "Anmapoorane Restaurant",
+        "phone": "+94 770 208 5556"
+      }
+    },
+    {
+      "lat": 6.976602,
+      "lon": 80.763936,
+      "tags": {
+        "addr:housenumber": "158",
+        "addr:street": "Kandy Road",
+        "amenity": "restaurant",
+        "description": "Hot Dish & Rooms",
+        "name": "Cool Land Hot Dish",
+        "phone": "+94722449667"
+      }
+    },
+    {
+      "lat": 6.9839989,
+      "lon": 80.7586856,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "St.Andrew's Road",
+        "name": "Mount View Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.957147,
+      "lon": 80.7852815,
+      "tags": {
+        "name:en": "Leisure Village",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9538801,
+      "lon": 80.7824494,
+      "tags": {
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name:en": "Indiansummer",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "lat": 6.9520703,
+      "lon": 80.7863159,
+      "tags": {
+        "addr:city": "Magasthota Junction",
+        "addr:street": "Peradeniya-Badulla-Chenkaladi Road",
+        "name": "Vilmic Lake Inn Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9656814,
+      "lon": 80.7647061,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Glenfall Lane",
+        "name": "Cocoon Hills",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9725746,
+      "lon": 80.7670016,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "cake;curry;fish;indian;local;tea",
+        "name:en": "New Najeemas"
+      }
+    },
+    {
+      "lat": 6.96866,
+      "lon": 80.7649603,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-10-03",
+        "cuisine": "thai",
+        "delivery": "no",
+        "name": "Grand Thai",
+        "outdoor_seating": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9627085,
+      "lon": 80.7651358,
+      "tags": {
+        "addr:housenumber": "6/4",
+        "addr:street": "Unique View Road",
+        "email": "evergreennuwaraeliya@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "EverGreen",
+        "name:ru": "EverGreen",
+        "opening_hours": "24/7",
+        "phone": "0522222303",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9739572,
+      "lon": 80.7758689,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Theeswarar Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9704834,
+      "lon": 80.7669408,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Badulla Road",
+        "amenity": "marketplace",
+        "name": "Fruit Market",
+        "opening_hours": "8:00-20:00"
+      }
+    },
+    {
+      "lat": 6.9702418,
+      "lon": 80.767301,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Badulla Road",
+        "amenity": "restaurant",
+        "capacity": "50",
+        "check_date": "2023-10-03",
+        "cuisine": "regional",
+        "name": "Hela Bojun Hala",
+        "opening_hours": "Mo-Su 07:00-19:00"
+      }
+    },
+    {
+      "lat": 6.9720581,
+      "lon": 80.7667256,
+      "tags": {
+        "addr:street": "New Bazar Street",
+        "amenity": "restaurant",
+        "name": "Remarko"
+      }
+    },
+    {
+      "lat": 6.9723093,
+      "lon": 80.767013,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Thaj Hotel and Bake House"
+      }
+    },
+    {
+      "lat": 6.9671991,
+      "lon": 80.7687151,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "Local small restaurant, Sri Lankan cuisine",
+        "name": "Two"
+      }
+    },
+    {
+      "lat": 6.9599655,
+      "lon": 80.7708724,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gamini School",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9537634,
+      "lon": 80.7795416,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gregory Lake",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9600657,
+      "lon": 80.7704776,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gamini School",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9492414,
+      "lon": 80.7741073,
+      "tags": {
+        "addr:street": "Blackpool - Ambewela Road",
+        "highway": "bus_stop",
+        "name": "Blackpool Bridge",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9474337,
+      "lon": 80.7910328,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Magasthota Bus Stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9524425,
+      "lon": 80.7868483,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Upper Lake",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9626475,
+      "lon": 80.7666973,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Cinecita",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9671962,
+      "lon": 80.7675674,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Shed",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9868067,
+      "lon": 80.7449204,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Shanthipura Road",
+        "name": "Universal green hills",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9643787,
+      "lon": 80.7625056,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Villa De Roshe",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9669361,
+      "lon": 80.7680428,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "A5 Nuwara Eliya-Badulla Road",
+        "amenity": "place_of_worship",
+        "name": "International Buddhist Center",
+        "name:si": "\u0d85\u0db1\u0dca\u0dad\u0dbb\u0dca\u0da2\u0dcf\u0dad\u0dd2\u0d9a \u0db6\u0dde\u0daf\u0dca\u0db0 \u0db8\u0db0\u0dca\u200d\u0dba\u0dc3\u0dca\u0dae\u0dcf\u0db1\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9522788,
+      "lon": 80.774601,
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Blue Wing Inn 2",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9548827,
+      "lon": 80.7760263,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Bonavista Road",
+        "name": "The Hill Paradise",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.952074,
+      "lon": 80.7768513,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Abhayapura Road",
+        "name": "Sky Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9735837,
+      "lon": 80.7657096,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9583585,
+      "lon": 80.7695994,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Salmiya Pizzeria",
+        "opening_hours": "Mo-Su 12:00-23:00",
+        "outdoor_seating": "no",
+        "self_service": "no",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9631336,
+      "lon": 80.765642,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Unique View Road",
+        "internet_access": "wlan",
+        "name:en": "Carnation Rest",
+        "phone": "0777175452",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9730264,
+      "lon": 80.7667137,
+      "tags": {
+        "addr:street": "New Bazaar Street",
+        "amenity": "restaurant",
+        "cuisine": "curry;fish;indian;coffee_shop;local",
+        "diet:vegetarian": "yes",
+        "name": "De Silva Food Center",
+        "name:de": "de Silva Food Center",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 6.9627602,
+      "lon": 80.765219,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "3",
+        "addr:postcode": "52",
+        "addr:street": "Unique View Road",
+        "internet_access": "wlan",
+        "name": "Hotel Daffodils",
+        "phone": "+94 77 843 7284",
+        "stars": "3",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.976571,
+      "lon": 80.7639675,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "en:Pizza Hut",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.9793317,
+      "lon": 80.8061358,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9599433,
+      "lon": 80.7721047,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Restaurant Two"
+      }
+    },
+    {
+      "lat": 6.9665462,
+      "lon": 80.7642809,
+      "tags": {
+        "name:de": "Villa Kassandra",
+        "name:en": "Villa Kassandra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9534156,
+      "lon": 80.7815194,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Bite Me Restaurant"
+      }
+    },
+    {
+      "lat": 6.9707622,
+      "lon": 80.7937197,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Bus back to town",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9702251,
+      "lon": 80.7696752,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "17",
+        "addr:postcode": "22000",
+        "addr:street": "Park Road",
+        "email": "trevenehotel@gmail.com",
+        "name": "The Trevene Hotel",
+        "note": "This is a beautiful old British colonial bungalow",
+        "rooms": "20",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9736811,
+      "lon": 80.7663344,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "White Tea Pot"
+      }
+    },
+    {
+      "lat": 6.9493836,
+      "lon": 80.7710421,
+      "tags": {
+        "addr:housenumber": "23",
+        "addr:postcode": "22200",
+        "addr:street": "Nanuoya road",
+        "name:en": "Hotel Silver Falls",
+        "tourism": "hotel",
+        "website": "http://www.silverfallshotel.com"
+      }
+    },
+    {
+      "lat": 6.9690282,
+      "lon": 80.7643089,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Grand Dewasiri Seafood Restaurant",
+        "phone": "+94 522 222 454"
+      }
+    },
+    {
+      "lat": 6.9690056,
+      "lon": 80.7714801,
+      "tags": {
+        "addr:housenumber": "8A",
+        "addr:street": "Wedderburn Road",
+        "name:en": "Sampath Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9674216,
+      "lon": 80.7672952,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-10-03",
+        "cuisine": "arab;indian;international;asian",
+        "name": "Araliya City Food Court"
+      }
+    },
+    {
+      "lat": 6.960731,
+      "lon": 80.7918933,
+      "tags": {
+        "name": "The Little England Cottages",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9732642,
+      "lon": 80.7664083,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Palladium Restaurant"
+      }
+    },
+    {
+      "lat": 6.9905458,
+      "lon": 80.7476822,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Top Terrace Cottage",
+        "name:nl": "Top Terrace Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9724269,
+      "lon": 80.7757075,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "City Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9721234,
+      "lon": 80.7799595,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hawa Eliya Hospital",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.960699,
+      "lon": 80.7691656,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nanu Oya Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9549139,
+      "lon": 80.7905069,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hideout Cabins"
+      }
+    },
+    {
+      "lat": 6.9541246,
+      "lon": 80.7763483,
+      "tags": {
+        "addr:housenumber": "65/65",
+        "addr:postcode": "22200",
+        "addr:street": "Bonavista Road",
+        "email": "admana1945@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "Jasmine Home Stay",
+        "opening_hours": "24/7",
+        "operator": "Ananda Weerasuriya",
+        "phone": "+94 77 1350816",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/Pulse-EjDPYt"
+      }
+    },
+    {
+      "lat": 6.9623599,
+      "lon": 80.7647605,
+      "tags": {
+        "addr:housenumber": "9/16",
+        "addr:street": "Unique View Road",
+        "contact:facebook": "https://www.facebook.com/dahliamountview.lk/",
+        "name": "Dahlia Mount View Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9637319,
+      "lon": 80.7726283,
+      "tags": {
+        "name:en": "Turf Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9682446,
+      "lon": 80.7646533,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-10-03",
+        "cuisine": "international",
+        "delivery": "no",
+        "name": "Magnolia"
+      }
+    },
+    {
+      "lat": 6.9541808,
+      "lon": 80.7742366,
+      "tags": {
+        "name": "The Montfort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9776729,
+      "lon": 80.7869935,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9606257,
+      "lon": 80.7687742,
+      "tags": {
+        "name": "Super K",
+        "operator": "Keells",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9711258,
+      "lon": 80.7945368,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9582931,
+      "lon": 80.7729657,
+      "tags": {
+        "name": "Royal Lake Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9570994,
+      "lon": 80.772581,
+      "tags": {
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9817321,
+      "lon": 80.7543975,
+      "tags": {
+        "name": "Golden Ridge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9528047,
+      "lon": 80.7857343,
+      "tags": {
+        "addr:street": "magastota nuwaraliya",
+        "amenity": "restaurant",
+        "cuisine": "asian;chicken;curry;burger;breakfast;indian;chinese;coffee_shop;local;seafood;regional",
+        "diet:vegetarian": "yes",
+        "name": "The Kitchen",
+        "opening_hours": "Mo-Su 07:00-23:00"
+      }
+    },
+    {
+      "lat": 6.9803759,
+      "lon": 80.7632198,
+      "tags": {
+        "name": "Oatlands by Jetwing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9819734,
+      "lon": 80.7630581,
+      "tags": {
+        "addr:housenumber": "57",
+        "addr:street": "waterfield bank",
+        "internet_access": "wlan",
+        "name:en": "Namadi Nest",
+        "opening_hours": "24/7",
+        "phone": "+94 77 743 2683",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9817507,
+      "lon": 80.753741,
+      "tags": {
+        "addr:street": "Bambarakelle road 395",
+        "amenity": "restaurant",
+        "name:en": "The Sackville",
+        "name:ru": "The Sackville"
+      }
+    },
+    {
+      "lat": 6.9719508,
+      "lon": 80.7673591,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "749/1-Pattipola",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.971989,
+      "lon": 80.7673835,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nanu Oya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9720775,
+      "lon": 80.7673645,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "311-Welimada",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9720794,
+      "lon": 80.7672384,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "749-Meepilimana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9718033,
+      "lon": 80.767408,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ragala/Udupessellawa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9717746,
+      "lon": 80.7673551,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hatton",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9719849,
+      "lon": 80.7672733,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "311-Badulla",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.971949,
+      "lon": 80.7672304,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "47-Kandy-Kurunegala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.971981,
+      "lon": 80.7671687,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "79-Colombo",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9718011,
+      "lon": 80.7672842,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "79-Colombo (A/C)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9717976,
+      "lon": 80.7671828,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "47-Kandy",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9720557,
+      "lon": 80.7954997,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St.Paul the Hermit Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9551214,
+      "lon": 80.7774791,
+      "tags": {
+        "name:en": "The Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9607544,
+      "lon": 80.7680048,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "name:en": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.9764988,
+      "lon": 80.7643434,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dushan's Home Kitchen",
+        "phone": "0094713183699"
+      }
+    },
+    {
+      "lat": 6.9607827,
+      "lon": 80.7919059,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "little england hotele"
+      }
+    },
+    {
+      "lat": 6.9725866,
+      "lon": 80.766855,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:ru": "\u043d\u0443\u0432\u0430\u0440\u0430 \u044d\u043b\u0438\u044f",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.9663696,
+      "lon": 80.7723191,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:district": "22200",
+        "addr:street": "Upper Lake Rd",
+        "amenity": "restaurant",
+        "check_date": "2024-12-14",
+        "name": "Themparadu",
+        "name:en": "Themparadu"
+      }
+    },
+    {
+      "lat": 6.9703759,
+      "lon": 80.7843419,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9708445,
+      "lon": 80.7939807,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9606825,
+      "lon": 80.7683905,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Sambole Restaurant - Nuwara Eliya"
+      }
+    },
+    {
+      "lat": 6.9708021,
+      "lon": 80.7831001,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9667358,
+      "lon": 80.7697197,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9641929,
+      "lon": 80.7719791,
+      "tags": {
+        "name": "Thilina",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9726047,
+      "lon": 80.7665302,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "The Elite Restaurant"
+      }
+    },
+    {
+      "lat": 6.9726171,
+      "lon": 80.7666886,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "52",
+        "addr:street": "New Bazaar Rd",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "diet:vegetarian": "yes",
+        "name": "Ambaal's pure vegetarian Hotel & Restaurant",
+        "opening_hours": "Mo-Su 07:00-22:00",
+        "phone": "0522235281"
+      }
+    },
+    {
+      "lat": 6.978615,
+      "lon": 80.7584501,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.969991,
+      "lon": 80.7673852,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Central Market"
+      }
+    },
+    {
+      "lat": 6.9726699,
+      "lon": 80.7666957,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese;indian;local",
+        "name": "Ceylon Kitchen",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+94718308308"
+      }
+    },
+    {
+      "lat": 6.9738777,
+      "lon": 80.7658352,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dhatha home foods"
+      }
+    },
+    {
+      "lat": 6.9809707,
+      "lon": 80.752859,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "50/01",
+        "addr:postcode": "22200",
+        "addr:street": "Shanthipura Road,Bambarakele",
+        "brand": "IWS Holdings",
+        "email": "info@windcastle.lk",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Wind Castle",
+        "phone": "+94522224550",
+        "rooms": "8",
+        "tourism": "hotel",
+        "website": "https://www.windcastle.lk"
+      }
+    },
+    {
+      "lat": 6.9689418,
+      "lon": 80.7447565,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "lutheran",
+        "name": "Lutheran Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9710371,
+      "lon": 80.7461378,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Kandapillaiyar Temple-Oliphant",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9698155,
+      "lon": 80.7450456,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Sri Kathirvelauthaswami Temple-Oliphant",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9701404,
+      "lon": 80.7448078,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Muneeswaran Temple-Oliphant",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9702312,
+      "lon": 80.7454095,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Sri Muthumariamman Temple-Oliphant",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9709517,
+      "lon": 80.7693773,
+      "tags": {
+        "name": "Winter Rest Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9573683,
+      "lon": 80.7731884,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-12-30",
+        "name": "Frostbite",
+        "name:en": "Frostbite"
+      }
+    },
+    {
+      "lat": 6.9695508,
+      "lon": 80.7635713,
+      "tags": {
+        "addr:housenumber": "19/23",
+        "addr:postcode": "10000",
+        "addr:street": "Grand Hotel Road",
+        "internet_access": "wlan",
+        "name": "Hill Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9684284,
+      "lon": 80.7646053,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "building": "hotel",
+        "building:levels": "3",
+        "name": "The Grand Hotel",
+        "roof:colour": "#b22222",
+        "roof:levels": "0",
+        "roof:material": "metal",
+        "roof:shape": "gabled",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9654455,
+      "lon": 80.7809694,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "building": "yes",
+        "name": "Galway Heights",
+        "tourism": "hotel",
+        "website": "https://www.galwayheights.com/"
+      }
+    },
+    {
+      "lat": 6.9651804,
+      "lon": 80.766356,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "name": "Ceybank Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9636136,
+      "lon": 80.7630061,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "building": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Dewy Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9718947,
+      "lon": 80.7725405,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9549528,
+      "lon": 80.7663681,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "amenity": "place_of_worship",
+        "name": "Swarnagiri Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9672104,
+      "lon": 80.7677075,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9591132,
+      "lon": 80.7712364,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "A5 Peradeniya-Badulla-Chenkaladi Road",
+        "amenity": "school",
+        "name": "Gamini National School"
+      }
+    },
+    {
+      "lat": 6.9807431,
+      "lon": 80.7557243,
+      "tags": {
+        "addr:street": "A5 Peradeniya-Badulla-Chenkaladi Road",
+        "amenity": "place_of_worship",
+        "name": "Bambarakele Sri Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.969304,
+      "lon": 80.7703834,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Park Road",
+        "amenity": "school",
+        "name": "Good Shepherd Convent"
+      }
+    },
+    {
+      "lat": 6.9638925,
+      "lon": 80.7811318,
+      "tags": {
+        "addr:housenumber": "111",
+        "addr:street": "Havelock Drive",
+        "check_date": "2024-12-14",
+        "name": "Mirage Kings Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9708989,
+      "lon": 80.7714309,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "check_date": "2024-12-14",
+        "name": "Holy Cross Pre-School"
+      }
+    },
+    {
+      "lat": 6.9723265,
+      "lon": 80.771424,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Holy Trinity Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9645186,
+      "lon": 80.7666523,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "124/1",
+        "addr:postcode": "52",
+        "addr:street": "Nuwara Eliya - Badulla Road",
+        "building": "yes",
+        "email": "info@queenswoodcottage.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Queenswood Cottage",
+        "phone": "+94 522 222 000",
+        "tourism": "hotel",
+        "website": "https://www.queenswoodcottage.com/"
+      }
+    },
+    {
+      "lat": 6.9645052,
+      "lon": 80.7663486,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "124/1",
+        "addr:postcode": "52",
+        "addr:street": "Nuwara Eliya - Badulla Road",
+        "building": "yes",
+        "email": "info@queenswoodcottage.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Queenswood Cottage",
+        "phone": "+94 522 222 000",
+        "tourism": "hotel",
+        "website": "https://www.queenswoodcottage.com/"
+      }
+    },
+    {
+      "lat": 6.951979,
+      "lon": 80.7748119,
+      "tags": {
+        "building": "yes",
+        "source": "Maxar-Premium",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9619466,
+      "lon": 80.7629278,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Teabush Hotel"
+      }
+    },
+    {
+      "lat": 6.9537201,
+      "lon": 80.7876564,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9763752,
+      "lon": 80.7476231,
+      "tags": {
+        "email": "reservations@boutiquecollectionbyamaya.com",
+        "internet_access": "wlan",
+        "name": "Oliphant Boutique Villa by Amaya",
+        "operator": "Amaya",
+        "phone": "+94522224192",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.boutiquecollectionbyamaya.com/oliphant/"
+      }
+    },
+    {
+      "lat": 6.9738282,
+      "lon": 80.7703454,
+      "tags": {
+        "amenity": "school",
+        "name": "post office",
+        "office": "government"
+      }
+    },
+    {
+      "lat": 6.974217,
+      "lon": 80.7703104,
+      "tags": {
+        "building": "hotel",
+        "name:en": "Golden View Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9640092,
+      "lon": 80.7622949,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "60",
+        "addr:postcode": "22200",
+        "addr:street": "Unique View Road",
+        "building": "yes",
+        "name:en": "Unique View Nuwaraeliya",
+        "phone": "+94701711211",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9706361,
+      "lon": 80.7718792,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "24",
+        "addr:postcode": "22200",
+        "addr:street": "Wedderburn Road",
+        "building": "yes",
+        "check_date": "2024-12-14",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "La Grande Villa",
+        "phone": "+94522224282",
+        "tourism": "hotel",
+        "website": "https://www.lagrandvilla.com/"
+      }
+    },
+    {
+      "lat": 6.9735912,
+      "lon": 80.7693204,
+      "tags": {
+        "amenity": "school",
+        "building": "school"
+      }
+    },
+    {
+      "lat": 6.9720515,
+      "lon": 80.7785255,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Holy Trinity College"
+      }
+    },
+    {
+      "lat": 6.9528343,
+      "lon": 80.7782695,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "31",
+        "addr:postcode": "22200",
+        "addr:street": "Abayapura Rd",
+        "building": "hotel",
+        "name": "Melford Nuwaraeliya",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9527236,
+      "lon": 80.7781959,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:housenumber": "29",
+        "addr:postcode": "22200",
+        "addr:street": "Abayapura Rd",
+        "building": "hotel",
+        "name": "Top Rich Hotel Nuwaraeliya",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9721693,
+      "lon": 80.7924004,
+      "tags": {
+        "addr:city": "Hawaeliya",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "denomination": "hindu",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9450043,
+      "lon": 80.7970977,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    }
+  ]
+}

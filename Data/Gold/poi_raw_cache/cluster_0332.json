@@ -1,0 +1,1307 @@
+{
+  "cluster_id": 332,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.1121110000000005,
+    "lat_max": 7.184309,
+    "lon_min": 79.896319,
+    "lon_max": 79.970622
+  },
+  "outlet_ids": [
+    "OUT_00018",
+    "OUT_00168",
+    "OUT_00194",
+    "OUT_00843",
+    "OUT_01067",
+    "OUT_01318",
+    "OUT_01503",
+    "OUT_01557",
+    "OUT_01651",
+    "OUT_01684",
+    "OUT_01859",
+    "OUT_02274",
+    "OUT_02305",
+    "OUT_02474",
+    "OUT_02526",
+    "OUT_02642",
+    "OUT_02749",
+    "OUT_02816",
+    "OUT_02829",
+    "OUT_02860",
+    "OUT_03063",
+    "OUT_03183",
+    "OUT_03263",
+    "OUT_03289",
+    "OUT_03341",
+    "OUT_03363",
+    "OUT_03520",
+    "OUT_03522",
+    "OUT_03548",
+    "OUT_03551",
+    "OUT_03945",
+    "OUT_04134",
+    "OUT_04233",
+    "OUT_04282",
+    "OUT_04540",
+    "OUT_04572",
+    "OUT_04628",
+    "OUT_04863",
+    "OUT_05042",
+    "OUT_05108",
+    "OUT_05206",
+    "OUT_05210",
+    "OUT_05222",
+    "OUT_05240",
+    "OUT_05525",
+    "OUT_05535",
+    "OUT_05666",
+    "OUT_05817",
+    "OUT_05998",
+    "OUT_06110",
+    "OUT_06148",
+    "OUT_06469",
+    "OUT_06713",
+    "OUT_06893",
+    "OUT_06910",
+    "OUT_07006",
+    "OUT_07348",
+    "OUT_07432",
+    "OUT_07514",
+    "OUT_07569",
+    "OUT_07727",
+    "OUT_07925",
+    "OUT_08078",
+    "OUT_08180",
+    "OUT_08181",
+    "OUT_08240",
+    "OUT_08334",
+    "OUT_08536",
+    "OUT_08665",
+    "OUT_08843",
+    "OUT_08966",
+    "OUT_08968"
+  ],
+  "n_outlets": 72,
+  "n_pois_returned": 125,
+  "scraped_at": "2026-05-16T22:11:45.020734",
+  "elements": [
+    {
+      "lat": 7.1490318,
+      "lon": 79.9382962,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Marry's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1245075,
+      "lon": 79.9486598,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nagawanaram Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1228627,
+      "lon": 79.9453767,
+      "tags": {
+        "name": "Nadagamuwa Village Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1697029,
+      "lon": 79.9514829,
+      "tags": {
+        "amenity": "school",
+        "name": "Nalanda Boy's School Minuwangoda"
+      }
+    },
+    {
+      "lat": 7.1663392,
+      "lon": 79.9469427,
+      "tags": {
+        "name": "Cargills Foodcity Minuwangoda",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1323173,
+      "lon": 79.9093363,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1530327,
+      "lon": 79.969037,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.149763,
+      "lon": 79.9524059,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.128999,
+      "lon": 79.9004074,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Abinawarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1282579,
+      "lon": 79.9127206,
+      "tags": {
+        "amenity": "place_of_worship",
+        "historic": "wayside_shrine",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1311727,
+      "lon": 79.8994719,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Pannananda Primary School"
+      }
+    },
+    {
+      "lat": 7.1258498,
+      "lon": 79.8964316,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dhammapali Sil Arama",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1396557,
+      "lon": 79.900565,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raddolugama Bodiya",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1277855,
+      "lon": 79.9114923,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhi maluwa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1300612,
+      "lon": 79.9029889,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1338912,
+      "lon": 79.9034463,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1696651,
+      "lon": 79.9479693,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Methodist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1725525,
+      "lon": 79.9563284,
+      "tags": {
+        "amenity": "hospital",
+        "name": "District Hospital Minuwangoda"
+      }
+    },
+    {
+      "lat": 7.161323,
+      "lon": 79.9163271,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St/ Mariya Church Kalahugoda",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1588949,
+      "lon": 79.9403573,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nadun Uyana Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1644315,
+      "lon": 79.940166,
+      "tags": {
+        "amenity": "school",
+        "name": "Arabi Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1615741,
+      "lon": 79.9393655,
+      "tags": {
+        "amenity": "school",
+        "name": "Luthar Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1609011,
+      "lon": 79.9398644,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Munas Watta Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1627926,
+      "lon": 79.9393375,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Takkiya Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.165774,
+      "lon": 79.9352456,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Aluth Para Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1657118,
+      "lon": 79.935782,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "lat": 7.1400417,
+      "lon": 79.9015176,
+      "tags": {
+        "amenity": "school",
+        "name": "Raddolugama Primary School",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.1727281,
+      "lon": 79.9317191,
+      "tags": {
+        "name:en": "Happy Day",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1280362,
+      "lon": 79.9260203,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Divya Sinhala Bath Kade",
+        "name:si": "\u0daf\u0dd2\u0dc0\u0dca\u200d\u0dba\u0dcf \u0dc3\u0dd2\u0d82\u0dc4\u0dbd \u0db6\u0dad\u0dca \u0d9a\u0da9\u0dda"
+      }
+    },
+    {
+      "lat": 7.1308763,
+      "lon": 79.9122724,
+      "tags": {
+        "addr:housenumber": "23",
+        "addr:street": "Galiganeliya-Kussala road",
+        "amenity": "place_of_worship",
+        "name:en": "Dayawe Asapuwa"
+      }
+    },
+    {
+      "lat": 7.1823436,
+      "lon": 79.8971983,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Airport Zen Resort",
+        "phone": "0771 404 122",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1271619,
+      "lon": 79.9030127,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.126098,
+      "lon": 79.9051448,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1267584,
+      "lon": 79.9054221,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1275091,
+      "lon": 79.9060602,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.1297691,
+      "lon": 79.9054495,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1320726,
+      "lon": 79.9011319,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.1336337,
+      "lon": 79.9017906,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1347962,
+      "lon": 79.9089474,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1216282,
+      "lon": 79.9215197,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1218807,
+      "lon": 79.9219809,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "One bamboo"
+      }
+    },
+    {
+      "lat": 7.1620001,
+      "lon": 79.9451037,
+      "tags": {
+        "name": "Galloluwa Budget Shop",
+        "payment:apple_pay": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:notes": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1605613,
+      "lon": 79.9675054,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hasthi Wanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1461421,
+      "lon": 79.8969122,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1430054,
+      "lon": 79.8976192,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Raddolugama Jummah Palliya",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.142685,
+      "lon": 79.903639,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1427297,
+      "lon": 79.9035512,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1405553,
+      "lon": 79.9115615,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Dampali Chittha wiweksharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1404108,
+      "lon": 79.9113475,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Dampali Chittha wiweksharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1825392,
+      "lon": 79.9180779,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tamerind Tree Hotel"
+      }
+    },
+    {
+      "lat": 7.1426251,
+      "lon": 79.9037206,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1425782,
+      "lon": 79.9038249,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1404381,
+      "lon": 79.9114218,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Dampali Chittha wiweksharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.17884,
+      "lon": 79.9068683,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "name": "Green view"
+      }
+    },
+    {
+      "lat": 7.1799373,
+      "lon": 79.9069823,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1798403,
+      "lon": 79.9070818,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1798291,
+      "lon": 79.9073006,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1800331,
+      "lon": 79.906779,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1801241,
+      "lon": 79.9073165,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1319964,
+      "lon": 79.9280001,
+      "tags": {
+        "building": "yes",
+        "name": "The Wallawwa",
+        "phone": "+94 77 363 8381",
+        "tourism": "hotel",
+        "website": "http://www.thewallawwa.com/"
+      }
+    },
+    {
+      "lat": 7.1239178,
+      "lon": 79.9160316,
+      "tags": {
+        "building": "hotel",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Hotel Subasiri",
+        "roof:material": "tile",
+        "roof:shape": "hipped",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1785039,
+      "lon": 79.9198784,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Euro Star Hotel"
+      }
+    },
+    {
+      "lat": 7.1200333,
+      "lon": 79.9063781,
+      "tags": {
+        "amenity": "school",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.1240431,
+      "lon": 79.9062455,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.1216895,
+      "lon": 79.9045113,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1126169,
+      "lon": 79.8967762,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1121103,
+      "lon": 79.8968218,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1168779,
+      "lon": 79.9134566,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1143287,
+      "lon": 79.9110697,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Dabuwa Temple",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1215254,
+      "lon": 79.9204486,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1217962,
+      "lon": 79.9203166,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Kotugoda Romanu Katolika Primary School",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1212629,
+      "lon": 79.9203877,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.118446,
+      "lon": 79.9043128,
+      "tags": {
+        "amenity": "clinic",
+        "building": "other",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "healthcare": "clinic",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.1236927,
+      "lon": 79.9023994,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1168559,
+      "lon": 79.9019323,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "other",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1186636,
+      "lon": 79.9167058,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.1206306,
+      "lon": 79.9222381,
+      "tags": {
+        "building": "hotel",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Grand Riverine",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1353847,
+      "lon": 79.9094749,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "brick",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.121228,
+      "lon": 79.9196338,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1.5_to_3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Kotugoda St Cajetans Church",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.1798275,
+      "lon": 79.9074804,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple"
+      }
+    },
+    {
+      "lat": 7.1436522,
+      "lon": 79.9429886,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1623289,
+      "lon": 79.936915,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Jumma Masjid Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1547831,
+      "lon": 79.9130679,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wijayarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1524507,
+      "lon": 79.9208373,
+      "tags": {
+        "amenity": "school",
+        "name": "Heenatiyana Dhammaloka Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1514847,
+      "lon": 79.9252757,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Heenatiyana Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1317963,
+      "lon": 79.90065,
+      "tags": {
+        "amenity": "school",
+        "name": "Pnnananda School"
+      }
+    },
+    {
+      "lat": 7.1230098,
+      "lon": 79.9179316,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Rasa Piyasa Family Resturant",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.136957,
+      "lon": 79.9100749,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "historic": "wayside_shrine",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1417622,
+      "lon": 79.9078818,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "historic": "wayside_shrine",
+        "name": "Buddha's statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1216695,
+      "lon": 79.9205106,
+      "tags": {
+        "amenity": "school",
+        "name": "Kotgoda Romanu Catholika Primary School"
+      }
+    },
+    {
+      "lat": 7.1408059,
+      "lon": 79.9062762,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1517671,
+      "lon": 79.9277335,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udawala Muththa Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1612593,
+      "lon": 79.9097548,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:levels": "1",
+        "name": "Bodhipadhaparamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1602448,
+      "lon": 79.909335,
+      "tags": {
+        "amenity": "school",
+        "name": "Madawala _ Kalahaugoda Combined Primary School"
+      }
+    },
+    {
+      "lat": 7.151428,
+      "lon": 79.9001531,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nisasala Raamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1799714,
+      "lon": 79.9071328,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1648305,
+      "lon": 79.9462614,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Ambagahawatte Purana Raja Maha Wiharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1237229,
+      "lon": 79.9246821,
+      "tags": {
+        "building": "yes",
+        "name": "samantha stores",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1720356,
+      "lon": 79.947912,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Darmarajaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1680832,
+      "lon": 79.9478045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.1589055,
+      "lon": 79.9464426,
+      "tags": {
+        "amenity": "school",
+        "name": "President College"
+      }
+    },
+    {
+      "lat": 7.1334662,
+      "lon": 79.9380818,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1434106,
+      "lon": 79.9431846,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bikshu Ayathanaya Paththaduwana",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1521356,
+      "lon": 79.9459281,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Abinwaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1556792,
+      "lon": 79.9482053,
+      "tags": {
+        "amenity": "school",
+        "name": "Rege Rnathunga School Road"
+      }
+    },
+    {
+      "lat": 7.183805,
+      "lon": 79.9284283,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sudarshana Meditation Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1838676,
+      "lon": 79.9296406,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sudarshanaramaya Temple Yatiyana",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1621618,
+      "lon": 79.9362151,
+      "tags": {
+        "amenity": "school",
+        "building:levels": "1",
+        "name": "AL Aman Muslim Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1631705,
+      "lon": 79.934785,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:levels": "1",
+        "name": "Lumbini Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.162311,
+      "lon": 79.9333008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:levels": "1",
+        "name": "Roman Cathalic Church Galloluwa",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1619567,
+      "lon": 79.9330286,
+      "tags": {
+        "amenity": "school",
+        "name": "Galloluwa Primary School"
+      }
+    },
+    {
+      "lat": 7.1383964,
+      "lon": 79.9232173,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jinendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.140143,
+      "lon": 79.9202678,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Gunananda"
+      }
+    },
+    {
+      "lat": 7.1210133,
+      "lon": 79.9258181,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Sudarshanaraamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1256831,
+      "lon": 79.9259264,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Rahula Maha Vidyaalaya",
+        "operator": "Goverment"
+      }
+    },
+    {
+      "lat": 7.1614072,
+      "lon": 79.9166152,
+      "tags": {
+        "amenity": "school",
+        "name": "ST/ Maris Secondary School Kalahugoda"
+      }
+    },
+    {
+      "lat": 7.1598767,
+      "lon": 79.916592,
+      "tags": {
+        "amenity": "school",
+        "name": "ST/ Maris School Kalahugoda"
+      }
+    },
+    {
+      "lat": 7.1173534,
+      "lon": 79.9362613,
+      "tags": {
+        "amenity": "school",
+        "name": "Siyabalapitiya Primary School"
+      }
+    },
+    {
+      "lat": 7.1140362,
+      "lon": 79.9590071,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Pushparama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1128422,
+      "lon": 79.9505599,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sadasarana Deva Madhura",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1168916,
+      "lon": 79.9517045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gananada Pothgul Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1711908,
+      "lon": 79.9524947,
+      "tags": {
+        "amenity": "school",
+        "name": "Nalanda Girl's School Minuwangoda"
+      }
+    },
+    {
+      "lat": 7.1703647,
+      "lon": 79.9526329,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raja Maha Vihara Mawatha",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.169668,
+      "lon": 79.947973,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "methodist church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1239777,
+      "lon": 79.9243904,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    }
+  ]
+}

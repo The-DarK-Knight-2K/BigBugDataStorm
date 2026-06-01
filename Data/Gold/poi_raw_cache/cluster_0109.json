@@ -1,0 +1,678 @@
+{
+  "cluster_id": 109,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.894286,
+    "lat_max": 6.966448,
+    "lon_min": 80.037894,
+    "lon_max": 80.117549
+  },
+  "outlet_ids": [
+    "OUT_00300",
+    "OUT_00469",
+    "OUT_00503",
+    "OUT_00562",
+    "OUT_00565",
+    "OUT_00580",
+    "OUT_00625",
+    "OUT_00668",
+    "OUT_00795",
+    "OUT_00895",
+    "OUT_00966",
+    "OUT_01159",
+    "OUT_01268",
+    "OUT_01310",
+    "OUT_01388",
+    "OUT_01537",
+    "OUT_01559",
+    "OUT_01680",
+    "OUT_01783",
+    "OUT_01822",
+    "OUT_02011",
+    "OUT_02025",
+    "OUT_02296",
+    "OUT_02409",
+    "OUT_02417",
+    "OUT_02519",
+    "OUT_02720",
+    "OUT_02908",
+    "OUT_03065",
+    "OUT_03149",
+    "OUT_03401",
+    "OUT_03447",
+    "OUT_03597",
+    "OUT_03780",
+    "OUT_03939",
+    "OUT_03947",
+    "OUT_04097",
+    "OUT_04189",
+    "OUT_04433",
+    "OUT_04577",
+    "OUT_04657",
+    "OUT_04666",
+    "OUT_04678",
+    "OUT_04760",
+    "OUT_04840",
+    "OUT_05030",
+    "OUT_05150",
+    "OUT_05218",
+    "OUT_05249",
+    "OUT_05349",
+    "OUT_05818",
+    "OUT_05837",
+    "OUT_06135",
+    "OUT_06209",
+    "OUT_06317",
+    "OUT_06371",
+    "OUT_06459",
+    "OUT_06830",
+    "OUT_06859",
+    "OUT_06861",
+    "OUT_06929",
+    "OUT_07001",
+    "OUT_07135",
+    "OUT_07196",
+    "OUT_07331",
+    "OUT_07345",
+    "OUT_07415",
+    "OUT_07676",
+    "OUT_07828",
+    "OUT_07917",
+    "OUT_08031",
+    "OUT_08045",
+    "OUT_08153",
+    "OUT_08223",
+    "OUT_08477",
+    "OUT_08504",
+    "OUT_08509",
+    "OUT_08599",
+    "OUT_08850",
+    "OUT_08923",
+    "OUT_08930"
+  ],
+  "n_outlets": 81,
+  "n_pois_returned": 62,
+  "scraped_at": "2026-05-16T20:37:11.435507",
+  "elements": [
+    {
+      "lat": 6.9069022,
+      "lon": 80.0530928,
+      "tags": {
+        "addr:city": "Ambulgama",
+        "amenity": "place_of_worship",
+        "name": "Ambulgama Purana Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9504097,
+      "lon": 80.0530856,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Shaila Chaithyarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9091227,
+      "lon": 80.0816046,
+      "tags": {
+        "addr:city": "Hanwella",
+        "name": "Hanwella Shopping Complex",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9093818,
+      "lon": 80.0770264,
+      "tags": {
+        "addr:city": "Hanwella",
+        "name": "Green Valley",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9089095,
+      "lon": 80.0886393,
+      "tags": {
+        "addr:city": "Hanwella",
+        "amenity": "school",
+        "name": "Rajasinghe National College"
+      }
+    },
+    {
+      "lat": 6.9089025,
+      "lon": 80.0811936,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hanwella Bus Station",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9096375,
+      "lon": 80.0812696,
+      "tags": {
+        "addr:city": "Hanwella",
+        "amenity": "marketplace",
+        "name": "Hanwella Fair"
+      }
+    },
+    {
+      "lat": 6.9079564,
+      "lon": 80.0834559,
+      "tags": {
+        "addr:city": "Hanwella",
+        "amenity": "school",
+        "name": "Mayadunna Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9017748,
+      "lon": 80.0865748,
+      "tags": {
+        "amenity": "school",
+        "name": "Pahathgama Roman Catholic School"
+      }
+    },
+    {
+      "lat": 6.9181661,
+      "lon": 80.0996052,
+      "tags": {
+        "addr:housename": "St. John Bosco College",
+        "amenity": "school",
+        "name": "St. John Bosco College"
+      }
+    },
+    {
+      "lat": 6.9262352,
+      "lon": 80.1136493,
+      "tags": {
+        "amenity": "restaurant",
+        "ele": "17.7",
+        "name": "Testa Cafe",
+        "time": "2012-08-12T06:25:46.212Z"
+      }
+    },
+    {
+      "lat": 6.9126053,
+      "lon": 80.0956732,
+      "tags": {
+        "addr:city": "Hanwella",
+        "addr:street": "High Level Road",
+        "ele": "13.9",
+        "name": "Ambalama Leisure Lounge",
+        "time": "2012-08-12T06:32:40.181Z",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9031395,
+      "lon": 80.0876447,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-31",
+        "ele": "18.2",
+        "name": "Pahathgama Paptist Church",
+        "religion": "christian",
+        "time": "2012-08-12T06:35:57.986Z"
+      }
+    },
+    {
+      "lat": 6.9201012,
+      "lon": 80.0978672,
+      "tags": {
+        "amenity": "place_of_worship",
+        "ele": "21.3",
+        "name": "Kaluaggala Raja Maha Viharaya",
+        "religion": "buddhist",
+        "time": "2012-08-12T07:02:28.497Z"
+      }
+    },
+    {
+      "lat": 6.9185782,
+      "lon": 80.0994658,
+      "tags": {
+        "amenity": "place_of_worship",
+        "ele": "25.5",
+        "name": "Our Lady Sorrow Church",
+        "religion": "christian",
+        "time": "2012-08-12T07:02:06.602Z"
+      }
+    },
+    {
+      "lat": 6.9126937,
+      "lon": 80.0889623,
+      "tags": {
+        "amenity": "restaurant",
+        "ele": "13.3",
+        "name": "Kurulu Uyana",
+        "time": "2012-08-12T06:59:04.078Z"
+      }
+    },
+    {
+      "lat": 6.9476856,
+      "lon": 80.1095666,
+      "tags": {
+        "amenity": "school",
+        "ele": "34.8",
+        "name": "Akarawita Maha Vidyalaya",
+        "time": "2012-08-12T07:21:32.235Z"
+      }
+    },
+    {
+      "lat": 6.95979,
+      "lon": 80.1123245,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Subhadraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9064993,
+      "lon": 80.059602,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Artigala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.951628,
+      "lon": 80.0964134,
+      "tags": {
+        "addr:city": "Kapugoda",
+        "amenity": "place_of_worship",
+        "name": "Giridara Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9506342,
+      "lon": 80.0575853,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Dompe Weekly Market"
+      }
+    },
+    {
+      "lat": 6.9593192,
+      "lon": 80.0519688,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Liyanegama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9524588,
+      "lon": 80.052572,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Kalyana Ashramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9089809,
+      "lon": 80.0819275,
+      "tags": {
+        "addr:city": "Hanwella",
+        "amenity": "place_of_worship",
+        "name": "Hanwella Bo Tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.911113,
+      "lon": 80.0820571,
+      "tags": {
+        "addr:city": "Hanwella",
+        "addr:street": "Hanwella - Malwana Road",
+        "name": "Hanwella Holiday Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9035183,
+      "lon": 80.0874704,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-31",
+        "name": "Pahathgama Bodi Tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9090245,
+      "lon": 80.0808583,
+      "tags": {
+        "addr:city": "Hanwella",
+        "brand": "Sathosa",
+        "brand:wikidata": "Q96386898",
+        "name": "Sathosa",
+        "operator": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9077496,
+      "lon": 80.0776548,
+      "tags": {
+        "addr:city": "Hanwella",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9442899,
+      "lon": 80.0695854,
+      "tags": {
+        "addr:city": "Dompe",
+        "addr:street": "Dekatana-Dompe-Giridara Road",
+        "amenity": "school",
+        "name": "Siyane National School"
+      }
+    },
+    {
+      "lat": 6.94392,
+      "lon": 80.0705768,
+      "tags": {
+        "addr:city": "Dompe",
+        "addr:street": "Dekatana-Dompe-Giridara Road",
+        "amenity": "school",
+        "name": "Siyane National School Play Ground"
+      }
+    },
+    {
+      "lat": 6.895641,
+      "lon": 80.0430183,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jalthara Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9481933,
+      "lon": 80.0950531,
+      "tags": {
+        "addr:city": "Kapugoda",
+        "name": "Hotel Lucky Star",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9092691,
+      "lon": 80.0847981,
+      "tags": {
+        "addr:city": "Hanwella",
+        "name": "Co-op Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9067431,
+      "lon": 80.0517943,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Embalawa Rathgal Vehera"
+      }
+    },
+    {
+      "lat": 6.9505126,
+      "lon": 80.0433298,
+      "tags": {
+        "name": "Hotel Janro",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9374157,
+      "lon": 80.0405276,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9434467,
+      "lon": 80.0717193,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9434713,
+      "lon": 80.0974137,
+      "tags": {
+        "amenity": "place_of_worship",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.897832,
+      "lon": 80.0856596,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.895723,
+      "lon": 80.0848952,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9181589,
+      "lon": 80.101366,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "Leyons Food"
+      }
+    },
+    {
+      "lat": 6.9070824,
+      "lon": 80.0707599,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Our Lady of Assumption Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9306546,
+      "lon": 80.0844553,
+      "tags": {
+        "addr:city": "Pugoda",
+        "addr:street": "Hanwella - Pugoda - Kirindiwela - Urapola Road",
+        "amenity": "restaurant",
+        "name": "Kanro Holiday Resort"
+      }
+    },
+    {
+      "lat": 6.925362,
+      "lon": 80.0414987,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9001945,
+      "lon": 80.0941913,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "pathana kanda aranyaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8976261,
+      "lon": 80.093276,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "bo sewana daham madura",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9181938,
+      "lon": 80.1015934,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.9079001,
+      "lon": 80.0793029,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "name:en": "Pizza hut",
+        "name:ru": "Pizza hut"
+      }
+    },
+    {
+      "lat": 6.9456913,
+      "lon": 80.1126775,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Lenawara Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9474823,
+      "lon": 80.0602282,
+      "tags": {
+        "amenity": "school",
+        "name": "Devi Balika Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9493142,
+      "lon": 80.0593916,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Dompe Hospital"
+      }
+    },
+    {
+      "lat": 6.9503572,
+      "lon": 80.0573117,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9063655,
+      "lon": 80.0518551,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Ambulgama Purana Raja maha Viharaya (Rock)",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8978476,
+      "lon": 80.0855801,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8958057,
+      "lon": 80.0849841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.906906,
+      "lon": 80.0707044,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Our Lady of Assumption Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9333899,
+      "lon": 80.074179,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9669105,
+      "lon": 80.0410491,
+      "tags": {
+        "amenity": "school",
+        "name": "WP/GM/ Dekatana Primary College"
+      }
+    },
+    {
+      "lat": 6.9574682,
+      "lon": 80.0519311,
+      "tags": {
+        "amenity": "school",
+        "name": "Dompe Primary School"
+      }
+    },
+    {
+      "lat": 6.9586543,
+      "lon": 80.0515861,
+      "tags": {
+        "amenity": "school",
+        "name": "Dompe Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9136097,
+      "lon": 80.0739468,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Samanabedda Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9176608,
+      "lon": 80.1001045,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ground"
+      }
+    }
+  ]
+}

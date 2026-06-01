@@ -1,0 +1,454 @@
+{
+  "cluster_id": 340,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.82651,
+    "lat_max": 6.906414,
+    "lon_min": 80.692381,
+    "lon_max": 80.77932
+  },
+  "outlet_ids": [
+    "OUT_09009",
+    "OUT_09015",
+    "OUT_09080",
+    "OUT_09092",
+    "OUT_09204",
+    "OUT_09221",
+    "OUT_09292",
+    "OUT_09426",
+    "OUT_09544",
+    "OUT_09771",
+    "OUT_09791",
+    "OUT_09955",
+    "OUT_10327",
+    "OUT_10331",
+    "OUT_10424",
+    "OUT_10572",
+    "OUT_10655",
+    "OUT_10658",
+    "OUT_10748",
+    "OUT_11080",
+    "OUT_11095",
+    "OUT_11273",
+    "OUT_11282",
+    "OUT_11288",
+    "OUT_11316",
+    "OUT_11347",
+    "OUT_11369",
+    "OUT_11417",
+    "OUT_11629",
+    "OUT_11676",
+    "OUT_11709",
+    "OUT_11900",
+    "OUT_12293",
+    "OUT_12313",
+    "OUT_12419",
+    "OUT_12451",
+    "OUT_12505",
+    "OUT_12554",
+    "OUT_12734",
+    "OUT_12994"
+  ],
+  "n_outlets": 40,
+  "n_pois_returned": 33,
+  "scraped_at": "2026-05-16T22:12:12.176402",
+  "elements": [
+    {
+      "lat": 6.862413,
+      "lon": 80.7084533,
+      "tags": {
+        "addr:city": "Agarapathana",
+        "amenity": "school",
+        "name": "Agarapathana Sinhala School"
+      }
+    },
+    {
+      "lat": 6.8606128,
+      "lon": 80.7104274,
+      "tags": {
+        "addr:city": "Agarapatana",
+        "amenity": "school",
+        "name": "Agarapatana Tamil Maha Vidyalayam"
+      }
+    },
+    {
+      "lat": 6.8812198,
+      "lon": 80.7137324,
+      "tags": {
+        "alt_name": "CP/N St. Regulars Tamil Vidyalayam Lindula",
+        "amenity": "school",
+        "name": "CP/N St. Regulus Tamil Vidyalayam Lindula",
+        "note": "alt_name spelled according to sign, probably wrong"
+      }
+    },
+    {
+      "lat": 6.8888645,
+      "lon": 80.7591618,
+      "tags": {
+        "addr:city": "maraya",
+        "addr:street": "Elgin Road",
+        "amenity": "place_of_worship",
+        "name": "Elgin Sri Karumariamman Alayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8920177,
+      "lon": 80.7513478,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Elgin Lower Division Sri Muththumari amman Alayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8961247,
+      "lon": 80.7361256,
+      "tags": {
+        "addr:city": "maria",
+        "addr:street": "Elgin - Maria Road",
+        "amenity": "school",
+        "grades": "1 to 11",
+        "name": "CP/N/ Thangakelle No-01 Tamil Maha Vidyalayam",
+        "operator": "I.J.P Pradeepkumar",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 6.8960169,
+      "lon": 80.7367412,
+      "tags": {
+        "addr:city": "maria",
+        "addr:street": "Elgin - Maria Road",
+        "amenity": "place_of_worship",
+        "name": "Thangakelle Sri Muththumari Amman Alayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8960721,
+      "lon": 80.7389199,
+      "tags": {
+        "addr:city": "maria",
+        "addr:street": "Elgin - Maria Road",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "Thangakelle Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8968374,
+      "lon": 80.7218548,
+      "tags": {
+        "addr:city": "Maria Bazaar",
+        "addr:street": "Elgin - Maria Road",
+        "amenity": "place_of_worship",
+        "name": "Maria Siththi Vinayagar Aalayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8972427,
+      "lon": 80.7194392,
+      "tags": {
+        "addr:city": "maria",
+        "addr:street": "Maria - Dessford Road",
+        "amenity": "school",
+        "grades": "1 to 13",
+        "name": "CP/N/ Maria Tamil Maha Vidyalayam"
+      }
+    },
+    {
+      "lat": 6.8954341,
+      "lon": 80.7388922,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ouvakelle Mariyamman kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8821642,
+      "lon": 80.6929784,
+      "tags": {
+        "amenity": "school",
+        "name": "Holbrook Tamil Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8462581,
+      "lon": 80.714869,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bopaththalawa Isipathanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8919991,
+      "lon": 80.7513118,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8903343,
+      "lon": 80.7559648,
+      "tags": {
+        "amenity": "school",
+        "name": "CP/N/Elgin tamil vidyalayam"
+      }
+    },
+    {
+      "lat": 6.8572724,
+      "lon": 80.7458795,
+      "tags": {
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Temple Storeroom"
+      }
+    },
+    {
+      "lat": 6.8671156,
+      "lon": 80.7439917,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST 2ND DIVISION DAYAGAMA",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "sri murugan tambal",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8582788,
+      "lon": 80.7459537,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST, 2ND DIVISION, DAYAGAMA .",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "RAMAR KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8583758,
+      "lon": 80.7456705,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST ,2ND DIVISION, DAYAGAMA .",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "ROTHAMANI KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8589313,
+      "lon": 80.7458685,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST, 2ND DIVISION, DAYAGAMA .",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "MADHURAVEERAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8590934,
+      "lon": 80.745435,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST 2ND DIVISION DAYAGAMA",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "EALLAISAMY TEMBAL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8575605,
+      "lon": 80.7448804,
+      "tags": {
+        "addr:full": "DAYAGAMA WEST, 2ND DIVISION, DAYAGAMA .",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "MADASAMY KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.846083,
+      "lon": 80.7649908,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST 5TH DIVISION",
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama East",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "murugan kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8471936,
+      "lon": 80.7641137,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST 5 TH DIVISION DAYAGAMA",
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama East",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "MUNIYAPPAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8467462,
+      "lon": 80.7631641,
+      "tags": {
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama East",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "MURUGAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8477848,
+      "lon": 80.7634646,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST 5 TH DIVISION",
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama East",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "MARUTHAVEERAN",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8486956,
+      "lon": 80.7633218,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST",
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "SIVAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8475244,
+      "lon": 80.7624526,
+      "tags": {
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "MUNI KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.846914,
+      "lon": 80.7632403,
+      "tags": {
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "MURUGAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8462904,
+      "lon": 80.7649792,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST",
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "MURUGAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8474536,
+      "lon": 80.7663077,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST",
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "SRIRAMAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8483162,
+      "lon": 80.770206,
+      "tags": {
+        "addr:place": "Dayagama West 5th Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "KALIYAMMAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8596202,
+      "lon": 80.7463078,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST 2ND DIVISION DAYAGAMA",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "KUNDAANKOVIL MUNUSAMY",
+        "religion": "hindu"
+      }
+    }
+  ]
+}

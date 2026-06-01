@@ -1,0 +1,986 @@
+{
+  "cluster_id": 24,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.945972,
+    "lat_max": 7.0162439999999995,
+    "lon_min": 79.990655,
+    "lon_max": 80.066546
+  },
+  "outlet_ids": [
+    "OUT_00021",
+    "OUT_00237",
+    "OUT_00299",
+    "OUT_00316",
+    "OUT_00718",
+    "OUT_00733",
+    "OUT_00790",
+    "OUT_01291",
+    "OUT_01839",
+    "OUT_01971",
+    "OUT_02255",
+    "OUT_02270",
+    "OUT_02657",
+    "OUT_02770",
+    "OUT_02873",
+    "OUT_03181",
+    "OUT_03569",
+    "OUT_03615",
+    "OUT_03629",
+    "OUT_03676",
+    "OUT_03737",
+    "OUT_03854",
+    "OUT_04247",
+    "OUT_04300",
+    "OUT_04663",
+    "OUT_04746",
+    "OUT_04774",
+    "OUT_04791",
+    "OUT_05196",
+    "OUT_05377",
+    "OUT_05615",
+    "OUT_05981",
+    "OUT_06137",
+    "OUT_06347",
+    "OUT_06378",
+    "OUT_06408",
+    "OUT_06503",
+    "OUT_06706",
+    "OUT_06726",
+    "OUT_06844",
+    "OUT_06854",
+    "OUT_07155",
+    "OUT_07300",
+    "OUT_07346",
+    "OUT_07358",
+    "OUT_07499",
+    "OUT_07793",
+    "OUT_07853",
+    "OUT_08010",
+    "OUT_08012",
+    "OUT_08101",
+    "OUT_08392",
+    "OUT_08730",
+    "OUT_08787",
+    "OUT_08839",
+    "OUT_08883",
+    "OUT_08907",
+    "OUT_08913",
+    "OUT_08941",
+    "OUT_08957"
+  ],
+  "n_outlets": 60,
+  "n_pois_returned": 98,
+  "scraped_at": "2026-05-16T20:23:45.289597",
+  "elements": [
+    {
+      "lat": 6.9711803,
+      "lon": 80.0479358,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ihala Dekatana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.969608,
+      "lon": 80.0448655,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Jambugas Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9941875,
+      "lon": 80.0126748,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wardanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9504097,
+      "lon": 80.0530856,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Shaila Chaithyarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9474414,
+      "lon": 79.9938994,
+      "tags": {
+        "amenity": "school",
+        "name": "Biyagama Central College"
+      }
+    },
+    {
+      "lat": 6.9469426,
+      "lon": 79.9939404,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Biyagama Hospital"
+      }
+    },
+    {
+      "lat": 6.9649284,
+      "lon": 80.0137477,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Somalankaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9774788,
+      "lon": 80.0294647,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mukalana Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9594705,
+      "lon": 80.017417,
+      "tags": {
+        "amenity": "school",
+        "name": "Walgama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9947678,
+      "lon": 80.0160491,
+      "tags": {
+        "amenity": "school",
+        "name": "Weera Wijayaba Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9934846,
+      "lon": 80.0311499,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ahugammana Sri Sudharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9613903,
+      "lon": 80.0080845,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9506342,
+      "lon": 80.0575853,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Dompe Weekly Market"
+      }
+    },
+    {
+      "lat": 6.9593192,
+      "lon": 80.0519688,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Liyanegama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9896172,
+      "lon": 80.0164881,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kalyana Pradeepa Pirivena Delgoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9524588,
+      "lon": 80.052572,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Kalyana Ashramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0106603,
+      "lon": 80.0568407,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Nakandapola Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0079816,
+      "lon": 80.0580449,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0047252,
+      "lon": 80.0581852,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Putupagala Road",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0128347,
+      "lon": 80.0563914,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0049553,
+      "lon": 80.0594635,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Keragala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0142643,
+      "lon": 80.0539907,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9991114,
+      "lon": 80.0618359,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9977697,
+      "lon": 80.0648292,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9481012,
+      "lon": 79.9907893,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop",
+        "name": "PT Country House"
+      }
+    },
+    {
+      "lat": 6.9711797,
+      "lon": 80.0023604,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Kandila"
+      }
+    },
+    {
+      "lat": 6.9769145,
+      "lon": 80.0064124,
+      "tags": {
+        "addr:street": "New Kandy Rd",
+        "amenity": "place_of_worship",
+        "name": "Sri Sambodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9599423,
+      "lon": 80.0106953,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Biyagama Private Hospital"
+      }
+    },
+    {
+      "lat": 6.9813403,
+      "lon": 80.0075508,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0127202,
+      "lon": 80.0421863,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0134416,
+      "lon": 80.0415962,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0063177,
+      "lon": 80.0426691,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.990892,
+      "lon": 80.0411841,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0055537,
+      "lon": 80.0480818,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0005761,
+      "lon": 80.0539636,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0047735,
+      "lon": 80.0595722,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9919177,
+      "lon": 80.0444884,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Katulanda Road",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.975445,
+      "lon": 80.035445,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Katulanda Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.994566,
+      "lon": 80.047608,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Demalagama",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0066866,
+      "lon": 80.0221562,
+      "tags": {
+        "addr:city": "naranwala",
+        "addr:housenumber": "95/A",
+        "addr:street": "belummahara Kaduwela Road",
+        "name": "Hotel Sithmal",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0084705,
+      "lon": 80.0248348,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Guruge Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9927225,
+      "lon": 80.0175245,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ven. Bandarawela Amithananda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9866672,
+      "lon": 80.0129752,
+      "tags": {
+        "addr:city": "Delgoda WP",
+        "addr:street": "New Kandy Rd",
+        "name": "Cargills food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0149464,
+      "lon": 80.0251279,
+      "tags": {
+        "addr:street": "new Kandy Rd",
+        "amenity": "restaurant",
+        "name": "Ominra Family Restaurant"
+      }
+    },
+    {
+      "lat": 6.9833828,
+      "lon": 80.0583921,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pelahala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9841685,
+      "lon": 80.0332303,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9961545,
+      "lon": 80.0523369,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9826238,
+      "lon": 80.0191664,
+      "tags": {
+        "addr:city": "kaduboda",
+        "addr:street": "Delgoda-Pugoda Road",
+        "amenity": "place_of_worship",
+        "name": "Kaduboda vivekaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9818756,
+      "lon": 80.0293846,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9562099,
+      "lon": 79.9954049,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0052281,
+      "lon": 80.0658843,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.986538,
+      "lon": 80.064052,
+      "tags": {
+        "addr:city": "Dekatana",
+        "addr:street": "Delgoda-Kirindiwela Road",
+        "name": "Palm Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9792569,
+      "lon": 80.0549628,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pahala Pelahala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9751055,
+      "lon": 80.0516876,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Parangoda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9883175,
+      "lon": 80.0069279,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jayasumanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9887639,
+      "lon": 80.0372357,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0088441,
+      "lon": 80.0565228,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0087616,
+      "lon": 80.0551629,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0088521,
+      "lon": 80.0538781,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0085566,
+      "lon": 80.0523412,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0099755,
+      "lon": 80.0511396,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.009097,
+      "lon": 80.0502759,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0109418,
+      "lon": 80.0436654,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9623221,
+      "lon": 80.006011,
+      "tags": {
+        "name": "Hotel P.T. Gardens",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9505126,
+      "lon": 80.0433298,
+      "tags": {
+        "name": "Hotel Janro",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9492898,
+      "lon": 80.0167635,
+      "tags": {
+        "addr:city": "Malwana",
+        "addr:street": "Malwana Dekatana Road",
+        "amenity": "restaurant",
+        "name": "Malwana Bake House"
+      }
+    },
+    {
+      "lat": 6.9733776,
+      "lon": 80.057271,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9570589,
+      "lon": 79.9974107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.983547,
+      "lon": 80.060482,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pelahala Rahula",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9694693,
+      "lon": 80.045176,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "jambugas veediya temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.969718,
+      "lon": 80.0448272,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "jambugas handiya boodiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.984061,
+      "lon": 80.0606849,
+      "tags": {
+        "amenity": "school",
+        "education": "school"
+      }
+    },
+    {
+      "lat": 6.9833051,
+      "lon": 80.0585146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Shakyasingharamya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9700709,
+      "lon": 80.0428075,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9700101,
+      "lon": 80.0426567,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9773024,
+      "lon": 80.0297641,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0081081,
+      "lon": 80.0479948,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Parakadamulla Temple",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0097155,
+      "lon": 80.0485574,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9474823,
+      "lon": 80.0602282,
+      "tags": {
+        "amenity": "school",
+        "name": "Devi Balika Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9493142,
+      "lon": 80.0593916,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Dompe Hospital"
+      }
+    },
+    {
+      "lat": 6.9503572,
+      "lon": 80.0573117,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9879889,
+      "lon": 80.0140579,
+      "tags": {
+        "addr:city": "Delgoda WP",
+        "addr:street": "New Kandy Rd",
+        "building": "yes",
+        "name": "laugh supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9628739,
+      "lon": 79.9965572,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9627224,
+      "lon": 79.9969648,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9540726,
+      "lon": 80.0223814,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Walagama Sri Sudharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.956213,
+      "lon": 80.0190681,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Al-Masjidul Musthafaviyyah Thakkiya",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.958742,
+      "lon": 80.0191517,
+      "tags": {
+        "name": "Walagama Weekend Bazar",
+        "opening_hours": "Mo-Fr 08:30-20:00; Sa,Su 08:00-15:00; PH off",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0164921,
+      "lon": 80.0249524,
+      "tags": {
+        "addr:street": "belummahara Kaduwela Road",
+        "amenity": "school",
+        "name": "Mihidu junior school",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 6.9476025,
+      "lon": 80.0121902,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Raxapana Jumma Mosque",
+        "name:ta": "\u0bb0\u0b95\u0bcd\u0bb8\u0baa\u0bbe\u0ba9 \u0b9c\u0bc1\u0bae\u0bcd\u0bae\u0bbe \u0bae\u0bb8\u0bcd\u0b9c\u0bbf\u0ba4\u0bcd",
+        "religion": "muslim",
+        "source": "Mapbox satellite"
+      }
+    },
+    {
+      "lat": 6.9669105,
+      "lon": 80.0410491,
+      "tags": {
+        "amenity": "school",
+        "name": "WP/GM/ Dekatana Primary College"
+      }
+    },
+    {
+      "lat": 6.965329,
+      "lon": 80.0330032,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Narampola Sri Bodhirukkharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9574682,
+      "lon": 80.0519311,
+      "tags": {
+        "amenity": "school",
+        "name": "Dompe Primary School"
+      }
+    },
+    {
+      "lat": 6.9586543,
+      "lon": 80.0515861,
+      "tags": {
+        "amenity": "school",
+        "name": "Dompe Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9573511,
+      "lon": 80.0339834,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9734045,
+      "lon": 80.0364587,
+      "tags": {
+        "addr:city": "Katulanda",
+        "addr:street": "Delgoda - Dompe - Giridara Road",
+        "amenity": "place_of_worship",
+        "name": "Katulanda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9751492,
+      "lon": 80.026243,
+      "tags": {
+        "addr:city": "Delgo\u1e0da",
+        "addr:postcode": "11700",
+        "addr:street": "Heelbathgala Rd.",
+        "addr:village": "Kan\u0306dubo\u1e0da",
+        "alt_name": "Sumathipala Na Himi Senasun Arana",
+        "alt_name:en": "Sumatip\u0101la N\u0101 Himi Monastery",
+        "alt_name_1:en": "Sumatip\u0101la N\u0101 Himi Meditation Centre",
+        "alt_name_2:en": "Sumatip\u0101la N\u0101 Himi Meditation Center",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "contact:phone": "+94 (112) 402-805",
+        "contact:website": "https://www.sumathiarana.com/",
+        "denomination": "theravada",
+        "name": "Sumatip\u0101la N\u0101 Himi Senasun Ara\u1e47a",
+        "name:ceb": "Ermitang Sumatip\u0101la N\u0101 Himi",
+        "name:en": "Sumatip\u0101la N\u0101 Himi Hermitage",
+        "name:es": "Ermita Sumatip\u0101la N\u0101 Himi",
+        "name:fr": "Ermitage Sumatip\u0101la N\u0101 Himi",
+        "name:it": "Eremo Sumatip\u0101la N\u0101 Himi",
+        "name:krj": "Ermita Sumatip\u0101la N\u0101 Himi",
+        "name:pam": "Erm\u00edtang Sumatip\u0101la N\u0101 Himi",
+        "name:si": "\u0dc3\u0dd4\u0db8\u0dad\u0dd2\u0db4\u0dcf\u0dbd \u0db1\u0dcf \u0dc4\u0dd2\u0db8\u0dd2 \u0dc3\u0dd9\u0db1\u0dc3\u0dd4\u0db1\u0dca \u0d85\u0dbb\u0dab",
+        "religion": "buddhist",
+        "wikidata": "Q35286007"
+      }
+    },
+    {
+      "lat": 6.965258,
+      "lon": 80.0191853,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "height": "5"
+      }
+    },
+    {
+      "lat": 6.9710677,
+      "lon": 80.0409137,
+      "tags": {
+        "amenity": "school",
+        "name": "Padmaawathee Central College",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

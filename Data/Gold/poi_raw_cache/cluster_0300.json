@@ -1,0 +1,411 @@
+{
+  "cluster_id": 300,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.057513,
+    "lat_max": 7.1362369999999995,
+    "lon_min": 80.055326,
+    "lon_max": 80.117558
+  },
+  "outlet_ids": [
+    "OUT_00108",
+    "OUT_00178",
+    "OUT_00181",
+    "OUT_00424",
+    "OUT_00471",
+    "OUT_00478",
+    "OUT_00492",
+    "OUT_00520",
+    "OUT_00633",
+    "OUT_00842",
+    "OUT_00896",
+    "OUT_01079",
+    "OUT_01249",
+    "OUT_01368",
+    "OUT_01372",
+    "OUT_01562",
+    "OUT_01655",
+    "OUT_01672",
+    "OUT_01674",
+    "OUT_01705",
+    "OUT_01800",
+    "OUT_02029",
+    "OUT_02080",
+    "OUT_02222",
+    "OUT_02244",
+    "OUT_02336",
+    "OUT_02521",
+    "OUT_02833",
+    "OUT_02891",
+    "OUT_02978",
+    "OUT_03064",
+    "OUT_03151",
+    "OUT_03189",
+    "OUT_03223",
+    "OUT_03269",
+    "OUT_03530",
+    "OUT_03630",
+    "OUT_03824",
+    "OUT_03877",
+    "OUT_03922",
+    "OUT_04157",
+    "OUT_04285",
+    "OUT_04409",
+    "OUT_04421",
+    "OUT_04438",
+    "OUT_04538",
+    "OUT_04543",
+    "OUT_04633",
+    "OUT_04714",
+    "OUT_04716",
+    "OUT_04745",
+    "OUT_04750",
+    "OUT_04765",
+    "OUT_05132",
+    "OUT_05167",
+    "OUT_05600",
+    "OUT_06061",
+    "OUT_06085",
+    "OUT_06326",
+    "OUT_06407",
+    "OUT_06562",
+    "OUT_06865",
+    "OUT_06887",
+    "OUT_06944",
+    "OUT_06959",
+    "OUT_07098",
+    "OUT_07133",
+    "OUT_07182",
+    "OUT_07387",
+    "OUT_07410",
+    "OUT_07930",
+    "OUT_07996",
+    "OUT_08040",
+    "OUT_08103",
+    "OUT_08197",
+    "OUT_08314",
+    "OUT_08378",
+    "OUT_08383",
+    "OUT_08529",
+    "OUT_08698",
+    "OUT_08778",
+    "OUT_08788",
+    "OUT_08964"
+  ],
+  "n_outlets": 83,
+  "n_pois_returned": 34,
+  "scraped_at": "2026-05-16T22:09:14.483651",
+  "elements": [
+    {
+      "lat": 7.1325742,
+      "lon": 80.1064131,
+      "tags": {
+        "amenity": "school",
+        "name": "Ranpokunagama Maha Vidyalaya",
+        "wikidata": "Q15271837",
+        "wikipedia": "en:Ranpokunagama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1332771,
+      "lon": 80.1073055,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ranpokunagama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0652883,
+      "lon": 80.0648038,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Maligatenna Raja Mahaviharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0941515,
+      "lon": 80.0927291,
+      "tags": {
+        "addr:city": "Uduthuththiripitiya",
+        "addr:postcode": "11054",
+        "addr:street": "Gorakadeniya",
+        "amenity": "place_of_worship",
+        "name": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db4\u0dd4\u0dab\u0dca\u200d\u0dba\u0dc0\u0dbb\u0dca\u0db0\u0db1\u0dcf\u0dbb\u0dcf\u0db8 \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.102761,
+      "lon": 80.0753733,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Warana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.128929,
+      "lon": 80.073519,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1198418,
+      "lon": 80.1166333,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Unagahadeniya Bus Stop"
+      }
+    },
+    {
+      "lat": 7.071563,
+      "lon": 80.102504,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pettagankanda Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.105011,
+      "lon": 80.117439,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kamburagalla Bodirukkaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.085487,
+      "lon": 80.07591,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ariyanandanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.12568,
+      "lon": 80.110767,
+      "tags": {
+        "name": "Cagills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0704715,
+      "lon": 80.0932309,
+      "tags": {
+        "bench": "yes",
+        "highway": "bus_stop",
+        "name": "Dikkanda junction bus stop",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.126219,
+      "lon": 80.111786,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Bandaranayake Private Hospital",
+        "phone": "0332282296"
+      }
+    },
+    {
+      "lat": 7.0806187,
+      "lon": 80.0607422,
+      "tags": {
+        "name": "Thrimalee Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0843026,
+      "lon": 80.0788362,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nelligahamula bus stop"
+      }
+    },
+    {
+      "lat": 7.130521,
+      "lon": 80.111701,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahamevnawa Monastery"
+      }
+    },
+    {
+      "lat": 7.119778,
+      "lon": 80.116788,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Carman Gunaratne Perera"
+      }
+    },
+    {
+      "lat": 7.123748,
+      "lon": 80.113894,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Sri Sumanarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.133078,
+      "lon": 80.104808,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Daharaa Food & Caters"
+      }
+    },
+    {
+      "lat": 7.1278242,
+      "lon": 80.1089378,
+      "tags": {
+        "name:en": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1344065,
+      "lon": 80.0759941,
+      "tags": {
+        "addr:city": "Malwatta",
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0658079,
+      "lon": 80.0650093,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Maligatenna Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1125481,
+      "lon": 80.0673167,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "snake bites"
+      }
+    },
+    {
+      "lat": 7.1171726,
+      "lon": 80.0564666,
+      "tags": {
+        "addr:city": "Kalagedihena",
+        "addr:housenumber": "39/5",
+        "addr:postcode": "11875",
+        "addr:street": "Kandy Road",
+        "name": "The Glasgow",
+        "phone": "+94 77 7355999",
+        "tourism": "hotel",
+        "website": "https://glasgow.lk/"
+      }
+    },
+    {
+      "lat": 7.0702588,
+      "lon": 80.0931831,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gangarama Buddhist Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0708817,
+      "lon": 80.0930517,
+      "tags": {
+        "name": "Ruwan Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1339061,
+      "lon": 80.0866954,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Mandara Royal Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1335569,
+      "lon": 80.0809804,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2023-04-05",
+        "name": "Nimrasa cafe",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 7.1322722,
+      "lon": 80.1061914,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.1240738,
+      "lon": 80.1090964,
+      "tags": {
+        "addr:city": "Wathupitiwala",
+        "addr:street": "Wathupitiwala Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Wathupitiwala Base Hospital"
+      }
+    },
+    {
+      "lat": 7.0879882,
+      "lon": 80.0600204,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hawaniwala Wiwekarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0743425,
+      "lon": 80.1086178,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1031537,
+      "lon": 80.0985457,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.0635494,
+      "lon": 80.1169273,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    }
+  ]
+}

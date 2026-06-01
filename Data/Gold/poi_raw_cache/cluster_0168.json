@@ -1,0 +1,115 @@
+{
+  "cluster_id": 168,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.382633,
+    "lat_max": 7.451220999999999,
+    "lon_min": 79.958683,
+    "lon_max": 80.06334700000001
+  },
+  "outlet_ids": [
+    "OUT_13047",
+    "OUT_13179",
+    "OUT_13232",
+    "OUT_13248",
+    "OUT_13363",
+    "OUT_13400",
+    "OUT_13560",
+    "OUT_13729",
+    "OUT_13755",
+    "OUT_13814",
+    "OUT_14229",
+    "OUT_14331",
+    "OUT_14346",
+    "OUT_14522",
+    "OUT_15117",
+    "OUT_15513",
+    "OUT_15623",
+    "OUT_15842",
+    "OUT_16044",
+    "OUT_16185",
+    "OUT_16216",
+    "OUT_16284",
+    "OUT_16512",
+    "OUT_16668",
+    "OUT_16861",
+    "OUT_16864"
+  ],
+  "n_outlets": 26,
+  "n_pois_returned": 8,
+  "scraped_at": "2026-05-16T20:44:39.734356",
+  "elements": [
+    {
+      "lat": 7.3992228,
+      "lon": 79.9787224,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Kandanegedara Hospital"
+      }
+    },
+    {
+      "lat": 7.3890979,
+      "lon": 80.00747,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.407395,
+      "lon": 79.9833091,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4285866,
+      "lon": 80.0627536,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4462817,
+      "lon": 80.0281843,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3824251,
+      "lon": 80.0370647,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Yakwila Fair Ground"
+      }
+    },
+    {
+      "lat": 7.3830776,
+      "lon": 80.0386821,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Yakwila Sri Bodhirajarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3869404,
+      "lon": 80.0384004,
+      "tags": {
+        "amenity": "school",
+        "name": "Galahitiyaawa Primary School"
+      }
+    }
+  ]
+}

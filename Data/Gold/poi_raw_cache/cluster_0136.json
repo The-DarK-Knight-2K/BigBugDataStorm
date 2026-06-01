@@ -1,0 +1,119 @@
+{
+  "cluster_id": 136,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.787275,
+    "lat_max": 7.876395,
+    "lon_min": 79.840501,
+    "lon_max": 79.938446
+  },
+  "outlet_ids": [
+    "OUT_13357",
+    "OUT_13423",
+    "OUT_13539",
+    "OUT_13606",
+    "OUT_13654",
+    "OUT_13736",
+    "OUT_13761",
+    "OUT_13791",
+    "OUT_13848",
+    "OUT_13912",
+    "OUT_14019",
+    "OUT_14030",
+    "OUT_14085",
+    "OUT_14137",
+    "OUT_14324",
+    "OUT_14358",
+    "OUT_14367",
+    "OUT_14617",
+    "OUT_14674",
+    "OUT_14724",
+    "OUT_14783",
+    "OUT_14823",
+    "OUT_15023",
+    "OUT_15090",
+    "OUT_15422",
+    "OUT_15480",
+    "OUT_15500",
+    "OUT_15502",
+    "OUT_15637",
+    "OUT_15660",
+    "OUT_15742",
+    "OUT_15903",
+    "OUT_15958",
+    "OUT_16160",
+    "OUT_16235",
+    "OUT_16254",
+    "OUT_16259",
+    "OUT_16286",
+    "OUT_16476",
+    "OUT_16519"
+  ],
+  "n_outlets": 40,
+  "n_pois_returned": 7,
+  "scraped_at": "2026-05-16T20:40:06.627533",
+  "elements": [
+    {
+      "lat": 7.7933333,
+      "lon": 79.8631493,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.83656,
+      "lon": 79.8848386,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8415169,
+      "lon": 79.9386075,
+      "tags": {
+        "amenity": "school",
+        "name": "Walpaluwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.8488823,
+      "lon": 79.9033606,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahakubukkadawala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.8476893,
+      "lon": 79.9059194,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Mahakubukkadawala Hospitel"
+      }
+    },
+    {
+      "lat": 7.8715865,
+      "lon": 79.9103558,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sembukuliya tempal",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8197013,
+      "lon": 79.9132204,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Diparama temple",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

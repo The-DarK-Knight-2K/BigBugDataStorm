@@ -1,0 +1,108 @@
+{
+  "cluster_id": 377,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.881727000000001,
+    "lat_max": 7.970244,
+    "lon_min": 80.12543,
+    "lon_max": 80.212808
+  },
+  "outlet_ids": [
+    "OUT_13011",
+    "OUT_13084",
+    "OUT_13238",
+    "OUT_13246",
+    "OUT_13252",
+    "OUT_13301",
+    "OUT_13306",
+    "OUT_13366",
+    "OUT_13645",
+    "OUT_13993",
+    "OUT_14248",
+    "OUT_14328",
+    "OUT_14370",
+    "OUT_14423",
+    "OUT_14453",
+    "OUT_14521",
+    "OUT_14576",
+    "OUT_14584",
+    "OUT_14595",
+    "OUT_14751",
+    "OUT_14765",
+    "OUT_15247",
+    "OUT_15269",
+    "OUT_15540",
+    "OUT_15589",
+    "OUT_15595",
+    "OUT_15624",
+    "OUT_16068",
+    "OUT_16099",
+    "OUT_16105",
+    "OUT_16178",
+    "OUT_16513",
+    "OUT_16562",
+    "OUT_16598",
+    "OUT_16606",
+    "OUT_16726",
+    "OUT_16758",
+    "OUT_16870"
+  ],
+  "n_outlets": 38,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T22:15:30.515993",
+  "elements": [
+    {
+      "lat": 7.8832535,
+      "lon": 80.1790385,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9515657,
+      "lon": 80.1321199,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9599592,
+      "lon": 80.155209,
+      "tags": {
+        "amenity": "school",
+        "education": "school"
+      }
+    },
+    {
+      "lat": 7.9452216,
+      "lon": 80.1771946,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.9332228,
+      "lon": 80.1270622,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Palugolla Sri Wapikaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9515628,
+      "lon": 80.1321303,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

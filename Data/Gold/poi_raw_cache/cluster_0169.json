@@ -1,0 +1,101 @@
+{
+  "cluster_id": 169,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.774898,
+    "lat_max": 7.85556,
+    "lon_min": 79.966924,
+    "lon_max": 80.060478
+  },
+  "outlet_ids": [
+    "OUT_13241",
+    "OUT_13578",
+    "OUT_13788",
+    "OUT_13854",
+    "OUT_13942",
+    "OUT_14329",
+    "OUT_14383",
+    "OUT_14559",
+    "OUT_14741",
+    "OUT_14952",
+    "OUT_15134",
+    "OUT_15258",
+    "OUT_15273",
+    "OUT_15397",
+    "OUT_15495",
+    "OUT_15594",
+    "OUT_15714",
+    "OUT_15862",
+    "OUT_16049",
+    "OUT_16153",
+    "OUT_16247",
+    "OUT_16409",
+    "OUT_16478",
+    "OUT_16578",
+    "OUT_16672",
+    "OUT_16718",
+    "OUT_16789",
+    "OUT_16796"
+  ],
+  "n_outlets": 28,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T20:44:43.728973",
+  "elements": [
+    {
+      "lat": 7.8012368,
+      "lon": 80.0378251,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7948413,
+      "lon": 80.0404922,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8407194,
+      "lon": 79.9938759,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8252749,
+      "lon": 80.001402,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7762842,
+      "lon": 80.0175665,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rural Hospital Rasnayakepura"
+      }
+    },
+    {
+      "lat": 7.7758543,
+      "lon": 80.0246368,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Clink Restaurant"
+      }
+    }
+  ]
+}

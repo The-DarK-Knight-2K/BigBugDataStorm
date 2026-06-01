@@ -1,0 +1,641 @@
+{
+  "cluster_id": 346,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.339289,
+    "lat_max": 7.416043,
+    "lon_min": 80.560739,
+    "lon_max": 80.643631
+  },
+  "outlet_ids": [
+    "OUT_09066",
+    "OUT_09178",
+    "OUT_09458",
+    "OUT_09476",
+    "OUT_09633",
+    "OUT_09779",
+    "OUT_10188",
+    "OUT_10277",
+    "OUT_10325",
+    "OUT_10417",
+    "OUT_10463",
+    "OUT_10479",
+    "OUT_10582",
+    "OUT_10821",
+    "OUT_10836",
+    "OUT_10843",
+    "OUT_10850",
+    "OUT_10859",
+    "OUT_10890",
+    "OUT_10904",
+    "OUT_10937",
+    "OUT_10994",
+    "OUT_11184",
+    "OUT_11217",
+    "OUT_11307",
+    "OUT_11413",
+    "OUT_11614",
+    "OUT_11669",
+    "OUT_11830",
+    "OUT_12002",
+    "OUT_12150",
+    "OUT_12187",
+    "OUT_12231",
+    "OUT_12305",
+    "OUT_12333",
+    "OUT_12402",
+    "OUT_12453",
+    "OUT_12584",
+    "OUT_12670",
+    "OUT_12729",
+    "OUT_12782",
+    "OUT_12884"
+  ],
+  "n_outlets": 42,
+  "n_pois_returned": 66,
+  "scraped_at": "2026-05-16T22:12:38.169038",
+  "elements": [
+    {
+      "lat": 7.3781717,
+      "lon": 80.5865834,
+      "tags": {
+        "addr:city": "Poojapitiya",
+        "amenity": "place_of_worship",
+        "name": "Poojapitiya Bomaluwa Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4013001,
+      "lon": 80.6133508,
+      "tags": {
+        "addr:city": "Alawathugoda",
+        "amenity": "school",
+        "name": "Alawathugoda National School"
+      }
+    },
+    {
+      "lat": 7.4054319,
+      "lon": 80.5636305,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3870429,
+      "lon": 80.6071399,
+      "tags": {
+        "addr:street": "Neeralla Melchena Rd",
+        "amenity": "place_of_worship",
+        "name": "Dippitiya Chandrajothi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3559616,
+      "lon": 80.5629764,
+      "tags": {
+        "addr:street": "Katugasthota-Medawela Road",
+        "amenity": "place_of_worship",
+        "name": "Medawala Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.409432,
+      "lon": 80.6093376,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Alawatugoda"
+      }
+    },
+    {
+      "lat": 7.4092505,
+      "lon": 80.6095582,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Alawatugoda"
+      }
+    },
+    {
+      "lat": 7.4076892,
+      "lon": 80.6101242,
+      "tags": {
+        "addr:street": "Kandy-Jaffna Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Visuddharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4030026,
+      "lon": 80.6123907,
+      "tags": {
+        "addr:street": "Kandy-Jaffna Road",
+        "name": "Power Zone Guest Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.397634,
+      "lon": 80.6125604,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Garakmadilla Rajamaha Viharaya,Arambepola",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3935261,
+      "lon": 80.6189685,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Konakalagala Sri Vijitha Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.396688,
+      "lon": 80.6326666,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Malgamandeniya"
+      }
+    },
+    {
+      "lat": 7.389852,
+      "lon": 80.6351798,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pangollamada"
+      }
+    },
+    {
+      "lat": 7.363004,
+      "lon": 80.6405946,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Aluthgama"
+      }
+    },
+    {
+      "lat": 7.3778511,
+      "lon": 80.6342328,
+      "tags": {
+        "addr:street": "Deegala Rd",
+        "amenity": "place_of_worship",
+        "name": "Deegala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.388721,
+      "lon": 80.6022982,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nuga Gaha Handiya"
+      }
+    },
+    {
+      "lat": 7.3869389,
+      "lon": 80.6040926,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "dippitiya janapadaya gunannanda temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3732252,
+      "lon": 80.6001814,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kasawatta Akurana"
+      }
+    },
+    {
+      "lat": 7.3697773,
+      "lon": 80.6152075,
+      "tags": {
+        "addr:street": "Grand Mosque Rd",
+        "amenity": "place_of_worship",
+        "name": "Grand Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3648752,
+      "lon": 80.6172566,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Akurana"
+      }
+    },
+    {
+      "lat": 7.3582497,
+      "lon": 80.6226695,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Girakaduwa"
+      }
+    },
+    {
+      "lat": 7.3581828,
+      "lon": 80.6248256,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Galwala Junction"
+      }
+    },
+    {
+      "lat": 7.3640741,
+      "lon": 80.6329816,
+      "tags": {
+        "addr:street": "Dambagahamuduna Rd",
+        "amenity": "place_of_worship",
+        "name": "Daluke Sri Pushparama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3596044,
+      "lon": 80.6379887,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Jambugahapitiya"
+      }
+    },
+    {
+      "lat": 7.3759723,
+      "lon": 80.5871896,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udamuduna PoorwaramaTemple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3637035,
+      "lon": 80.5714626,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ihagama"
+      }
+    },
+    {
+      "lat": 7.3413763,
+      "lon": 80.593661,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Rajapihilla"
+      }
+    },
+    {
+      "lat": 7.3407006,
+      "lon": 80.5944523,
+      "tags": {
+        "addr:city": "Rajapihilla",
+        "addr:street": "Katugasthota-Medawela Road",
+        "amenity": "place_of_worship",
+        "name": "Rajapihilla Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3405956,
+      "lon": 80.5987278,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pattiyawatta"
+      }
+    },
+    {
+      "lat": 7.4058823,
+      "lon": 80.6109104,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4025147,
+      "lon": 80.612867,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4122488,
+      "lon": 80.608038,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.3926955,
+      "lon": 80.5803633,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pabbatharama Viharaya Dolapihilla",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3700435,
+      "lon": 80.5967592,
+      "tags": {
+        "amenity": "school",
+        "name": "Pujapitiya Primary School"
+      }
+    },
+    {
+      "lat": 7.3716708,
+      "lon": 80.593447,
+      "tags": {
+        "amenity": "school",
+        "name": "Pujapitiya Central College"
+      }
+    },
+    {
+      "lat": 7.3819572,
+      "lon": 80.5683893,
+      "tags": {
+        "amenity": "school",
+        "name": "Marathugoda Pre School"
+      }
+    },
+    {
+      "lat": 7.3793464,
+      "lon": 80.5715925,
+      "tags": {
+        "amenity": "school",
+        "name": "Marathugoda Nalanda College"
+      }
+    },
+    {
+      "lat": 7.3999425,
+      "lon": 80.5788187,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Godahena Rural Hospital"
+      }
+    },
+    {
+      "lat": 7.3902141,
+      "lon": 80.57891,
+      "tags": {
+        "amenity": "school",
+        "name": "Dolapihilla Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.3570136,
+      "lon": 80.6249231,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3583942,
+      "lon": 80.6314972,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Anuragala Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4014342,
+      "lon": 80.607128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Delgasgoda Purana Piriwen Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3676673,
+      "lon": 80.5652145,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3642278,
+      "lon": 80.5708927,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3791654,
+      "lon": 80.5864081,
+      "tags": {
+        "name": "Mega Co-op City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3809646,
+      "lon": 80.5907241,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "MOH Office - Pujapitiya"
+      }
+    },
+    {
+      "lat": 7.3813119,
+      "lon": 80.5867395,
+      "tags": {
+        "addr:city": "Poojapitiya",
+        "addr:street": "Poojapitiya - Alawathugoda Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3811616,
+      "lon": 80.5865893,
+      "tags": {
+        "name": "Hewage Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3970438,
+      "lon": 80.5887271,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3921536,
+      "lon": 80.5910201,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4099789,
+      "lon": 80.5852666,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3523331,
+      "lon": 80.6152591,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "stop_area"
+      }
+    },
+    {
+      "lat": 7.3515537,
+      "lon": 80.6157272,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "stop_area",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.3493438,
+      "lon": 80.61518,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "stop_area"
+      }
+    },
+    {
+      "lat": 7.348855,
+      "lon": 80.6156789,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "public_transport": "stop_area",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.3461668,
+      "lon": 80.617134,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "stop_area"
+      }
+    },
+    {
+      "lat": 7.3455018,
+      "lon": 80.6174377,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "stop_area"
+      }
+    },
+    {
+      "lat": 7.385383,
+      "lon": 80.568996,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nandana Viharasthanaya Waligalla",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3579191,
+      "lon": 80.5664882,
+      "tags": {
+        "addr:city": "Medawala",
+        "addr:housenumber": "Poojapitiya Rd",
+        "addr:postcode": "20000",
+        "addr:street": "Medawala - Poojapitiya Road",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Medawala Hospital",
+        "opening_hours": "Mo-Su 09:00-21:00"
+      }
+    },
+    {
+      "lat": 7.3669569,
+      "lon": 80.62116,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Azhariya jumma masid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3479977,
+      "lon": 80.5743823,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Palkumbura Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4057717,
+      "lon": 80.6075364,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Alawathugoda Maha Saman Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3726072,
+      "lon": 80.6005935,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.3649914,
+      "lon": 80.5854467,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3467122,
+      "lon": 80.5811321,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.3669599,
+      "lon": 80.6211593,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "cluster_id": 357,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.94496,
+    "lat_max": 8.028425,
+    "lon_min": 79.898279,
+    "lon_max": 79.992496
+  },
+  "outlet_ids": [
+    "OUT_13176",
+    "OUT_13210",
+    "OUT_13406",
+    "OUT_13509",
+    "OUT_13547",
+    "OUT_13815",
+    "OUT_14285",
+    "OUT_14530",
+    "OUT_14593",
+    "OUT_14697",
+    "OUT_14756",
+    "OUT_14827",
+    "OUT_14975",
+    "OUT_15082",
+    "OUT_15095",
+    "OUT_15174",
+    "OUT_15478",
+    "OUT_15661",
+    "OUT_15924",
+    "OUT_15961",
+    "OUT_16032",
+    "OUT_16084",
+    "OUT_16169",
+    "OUT_16636",
+    "OUT_16692",
+    "OUT_16724",
+    "OUT_16787"
+  ],
+  "n_outlets": 27,
+  "n_pois_returned": 4,
+  "scraped_at": "2026-05-16T22:13:23.499450",
+  "elements": [
+    {
+      "lat": 7.9515831,
+      "lon": 79.9365731,
+      "tags": {
+        "amenity": "school",
+        "name": "Kottukachchiya Navodya Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.9694989,
+      "lon": 79.9045395,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.9460378,
+      "lon": 79.9005925,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dharma Vijayarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9941713,
+      "lon": 79.8988867,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kalladiya Sri Sugatharama Viharaya",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

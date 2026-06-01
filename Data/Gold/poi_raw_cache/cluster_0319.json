@@ -1,0 +1,94 @@
+{
+  "cluster_id": 319,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.698981,
+    "lat_max": 7.783579,
+    "lon_min": 79.892801,
+    "lon_max": 79.980964
+  },
+  "outlet_ids": [
+    "OUT_13184",
+    "OUT_13233",
+    "OUT_13342",
+    "OUT_13439",
+    "OUT_13768",
+    "OUT_14255",
+    "OUT_14315",
+    "OUT_14459",
+    "OUT_14727",
+    "OUT_14820",
+    "OUT_14871",
+    "OUT_14944",
+    "OUT_15286",
+    "OUT_15323",
+    "OUT_15572",
+    "OUT_15703",
+    "OUT_15898",
+    "OUT_16034",
+    "OUT_16162",
+    "OUT_16197",
+    "OUT_16405",
+    "OUT_16446",
+    "OUT_16485",
+    "OUT_16530",
+    "OUT_16686",
+    "OUT_16709",
+    "OUT_16720",
+    "OUT_16768",
+    "OUT_16855",
+    "OUT_16914"
+  ],
+  "n_outlets": 30,
+  "n_pois_returned": 5,
+  "scraped_at": "2026-05-16T22:10:54.384206",
+  "elements": [
+    {
+      "lat": 7.7754953,
+      "lon": 79.9018746,
+      "tags": {
+        "amenity": "school",
+        "name": "Lihinigiri Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.7472868,
+      "lon": 79.9771636,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.7434294,
+      "lon": 79.9778688,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Madawakkulama",
+        "official_name": "primary medical care unit Madawakkulama"
+      }
+    },
+    {
+      "lat": 7.7791255,
+      "lon": 79.9478128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7790537,
+      "lon": 79.9494973,
+      "tags": {
+        "amenity": "school",
+        "name": "Andigama Maha Vidyalaya"
+      }
+    }
+  ]
+}

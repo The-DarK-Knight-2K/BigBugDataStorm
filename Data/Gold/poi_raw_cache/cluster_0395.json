@@ -1,0 +1,87 @@
+{
+  "cluster_id": 395,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.128719,
+    "lat_max": 6.2156389999999995,
+    "lon_min": 80.371626,
+    "lon_max": 80.456577
+  },
+  "outlet_ids": [
+    "OUT_17025",
+    "OUT_17048",
+    "OUT_17096",
+    "OUT_17269",
+    "OUT_17367",
+    "OUT_17381",
+    "OUT_17417",
+    "OUT_17488",
+    "OUT_17689",
+    "OUT_17725",
+    "OUT_17736",
+    "OUT_17891",
+    "OUT_17903",
+    "OUT_17922",
+    "OUT_17938",
+    "OUT_17944",
+    "OUT_18136",
+    "OUT_18218",
+    "OUT_18256",
+    "OUT_18263",
+    "OUT_18298",
+    "OUT_18315",
+    "OUT_18512",
+    "OUT_18570",
+    "OUT_18631",
+    "OUT_19028",
+    "OUT_19048",
+    "OUT_19118",
+    "OUT_19275",
+    "OUT_19327",
+    "OUT_19422",
+    "OUT_19461",
+    "OUT_19483",
+    "OUT_19545",
+    "OUT_19546",
+    "OUT_19595",
+    "OUT_19641",
+    "OUT_19732",
+    "OUT_19776",
+    "OUT_19892",
+    "OUT_19937"
+  ],
+  "n_outlets": 41,
+  "n_pois_returned": 3,
+  "scraped_at": "2026-05-16T22:16:44.235786",
+  "elements": [
+    {
+      "lat": 6.1477497,
+      "lon": 80.4191297,
+      "tags": {
+        "amenity": "school",
+        "name": "Ehelape M.V"
+      }
+    },
+    {
+      "lat": 6.1821899,
+      "lon": 80.411174,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Dediyagala Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1342412,
+      "lon": 80.4028306,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "cluster_id": 18,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.619764,
+    "lat_max": 7.703904,
+    "lon_min": 79.856734,
+    "lon_max": 79.958444
+  },
+  "outlet_ids": [
+    "OUT_13212",
+    "OUT_13272",
+    "OUT_13443",
+    "OUT_13444",
+    "OUT_13579",
+    "OUT_13727",
+    "OUT_13927",
+    "OUT_13939",
+    "OUT_13990",
+    "OUT_14013",
+    "OUT_14246",
+    "OUT_14263",
+    "OUT_14356",
+    "OUT_14513",
+    "OUT_14694",
+    "OUT_14986",
+    "OUT_15001",
+    "OUT_15010",
+    "OUT_15017",
+    "OUT_15104",
+    "OUT_15107",
+    "OUT_15217",
+    "OUT_15233",
+    "OUT_15406",
+    "OUT_15472",
+    "OUT_15473",
+    "OUT_15512",
+    "OUT_15525",
+    "OUT_15781",
+    "OUT_15942",
+    "OUT_16146",
+    "OUT_16518",
+    "OUT_16643",
+    "OUT_16663",
+    "OUT_16739",
+    "OUT_16762",
+    "OUT_16791",
+    "OUT_16830",
+    "OUT_17000"
+  ],
+  "n_outlets": 39,
+  "n_pois_returned": 5,
+  "scraped_at": "2026-05-16T20:22:38.316991",
+  "elements": [
+    {
+      "lat": 7.6746067,
+      "lon": 79.8812117,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6262267,
+      "lon": 79.8684526,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.674586,
+      "lon": 79.8812321,
+      "tags": {
+        "amenity": "place_of_worship",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6362052,
+      "lon": 79.8725146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.6916847,
+      "lon": 79.8726365,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    }
+  ]
+}

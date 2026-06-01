@@ -1,0 +1,744 @@
+{
+  "cluster_id": 41,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.362498,
+    "lat_max": 7.4406609999999995,
+    "lon_min": 80.512237,
+    "lon_max": 80.603168
+  },
+  "outlet_ids": [
+    "OUT_09018",
+    "OUT_09332",
+    "OUT_09406",
+    "OUT_09428",
+    "OUT_09461",
+    "OUT_09503",
+    "OUT_09551",
+    "OUT_09557",
+    "OUT_09634",
+    "OUT_09924",
+    "OUT_09961",
+    "OUT_10076",
+    "OUT_10091",
+    "OUT_10198",
+    "OUT_10311",
+    "OUT_10368",
+    "OUT_10449",
+    "OUT_10525",
+    "OUT_10621",
+    "OUT_10634",
+    "OUT_10756",
+    "OUT_10795",
+    "OUT_10816",
+    "OUT_10856",
+    "OUT_10857",
+    "OUT_10868",
+    "OUT_10872",
+    "OUT_10887",
+    "OUT_11049",
+    "OUT_11092",
+    "OUT_11574",
+    "OUT_11836",
+    "OUT_12059",
+    "OUT_12080",
+    "OUT_12104",
+    "OUT_12112",
+    "OUT_12245",
+    "OUT_12264",
+    "OUT_12325",
+    "OUT_12394",
+    "OUT_12436",
+    "OUT_12470",
+    "OUT_12767",
+    "OUT_12784",
+    "OUT_12816"
+  ],
+  "n_outlets": 45,
+  "n_pois_returned": 77,
+  "scraped_at": "2026-05-16T20:26:42.838005",
+  "elements": [
+    {
+      "lat": 7.3781717,
+      "lon": 80.5865834,
+      "tags": {
+        "addr:city": "Poojapitiya",
+        "amenity": "place_of_worship",
+        "name": "Poojapitiya Bomaluwa Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3706275,
+      "lon": 80.5421798,
+      "tags": {
+        "addr:place": "Galamuduna",
+        "addr:postcode": "Harankahawa",
+        "addr:street": "Golagammana",
+        "amenity": "place_of_worship",
+        "name": "Galamuduna Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3721683,
+      "lon": 80.5463171,
+      "tags": {
+        "addr:place": "Dodandastenna Temple",
+        "addr:street": "Gallalagama",
+        "amenity": "place_of_worship",
+        "name": "Dodangastenna Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4404367,
+      "lon": 80.5701698,
+      "tags": {
+        "addr:city": "Ankumbura",
+        "amenity": "hospital",
+        "name": "Ankumbura Divitional Hospital"
+      }
+    },
+    {
+      "lat": 7.3761264,
+      "lon": 80.5428466,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pussegoda"
+      }
+    },
+    {
+      "lat": 7.4054319,
+      "lon": 80.5636305,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4264828,
+      "lon": 80.5278542,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.429959,
+      "lon": 80.5214626,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Paaraagoda Sri Subhadrarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3709949,
+      "lon": 80.5260221,
+      "tags": {
+        "addr:city": "Galagedara CP",
+        "addr:street": "Galagedara-Rambukkana Road",
+        "name": "Dickella Resort and Spa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.37432,
+      "lon": 80.5252765,
+      "tags": {
+        "addr:city": "Galagedara",
+        "addr:street": "Katugasthota-Kurunegala-Puttalam Road",
+        "amenity": "place_of_worship",
+        "name": "Madawala Purana Wiharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3786026,
+      "lon": 80.5126647,
+      "tags": {
+        "addr:street": "Pethigewala Rd",
+        "amenity": "place_of_worship",
+        "name": "Pethigewela Wiharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3727027,
+      "lon": 80.5123053,
+      "tags": {
+        "addr:street": "Galagedara-Rambukkana Road",
+        "amenity": "place_of_worship",
+        "name": "Kaudalla Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3635999,
+      "lon": 80.5477133,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Amunuthuduwa"
+      }
+    },
+    {
+      "lat": 7.3968427,
+      "lon": 80.5474785,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Higulwala Sri Vijayaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3994653,
+      "lon": 80.5506918,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gnanaloka Buddhist Centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3919833,
+      "lon": 80.5579513,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wewala Sri Isipathnarama Swarna Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4050306,
+      "lon": 80.5575097,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ashokaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4343897,
+      "lon": 80.5657435,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kithulgolla"
+      }
+    },
+    {
+      "lat": 7.4390318,
+      "lon": 80.5361203,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Keppitigala"
+      }
+    },
+    {
+      "lat": 7.4233459,
+      "lon": 80.5943672,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.388721,
+      "lon": 80.6022982,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nuga Gaha Handiya"
+      }
+    },
+    {
+      "lat": 7.3732252,
+      "lon": 80.6001814,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kasawatta Akurana"
+      }
+    },
+    {
+      "lat": 7.3759723,
+      "lon": 80.5871896,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udamuduna PoorwaramaTemple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3761903,
+      "lon": 80.554394,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gallella Gama Bus Stop"
+      }
+    },
+    {
+      "lat": 7.3766992,
+      "lon": 80.5521828,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gallkotuwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3732454,
+      "lon": 80.5231201,
+      "tags": {
+        "addr:city": "Galagedara CP",
+        "addr:street": "Galagedara-Rambukkana Road",
+        "amenity": "restaurant",
+        "name": "Champa Reception Hall"
+      }
+    },
+    {
+      "lat": 7.3637035,
+      "lon": 80.5714626,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ihagama"
+      }
+    },
+    {
+      "lat": 7.4390066,
+      "lon": 80.5688292,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jayawardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4382685,
+      "lon": 80.5731649,
+      "tags": {
+        "amenity": "school",
+        "name": "Ankumbura Parakrama Central College. (National School)"
+      }
+    },
+    {
+      "lat": 7.4360985,
+      "lon": 80.5736346,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ankumbura Ayurweda Dispensary"
+      }
+    },
+    {
+      "lat": 7.4314516,
+      "lon": 80.5746057,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhigodella Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4247657,
+      "lon": 80.5761667,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Welgala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3926955,
+      "lon": 80.5803633,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pabbatharama Viharaya Dolapihilla",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3700435,
+      "lon": 80.5967592,
+      "tags": {
+        "amenity": "school",
+        "name": "Pujapitiya Primary School"
+      }
+    },
+    {
+      "lat": 7.3716708,
+      "lon": 80.593447,
+      "tags": {
+        "amenity": "school",
+        "name": "Pujapitiya Central College"
+      }
+    },
+    {
+      "lat": 7.3819572,
+      "lon": 80.5683893,
+      "tags": {
+        "amenity": "school",
+        "name": "Marathugoda Pre School"
+      }
+    },
+    {
+      "lat": 7.3793464,
+      "lon": 80.5715925,
+      "tags": {
+        "amenity": "school",
+        "name": "Marathugoda Nalanda College"
+      }
+    },
+    {
+      "lat": 7.4324679,
+      "lon": 80.5590673,
+      "tags": {
+        "amenity": "school",
+        "name": "Kithulgolla Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4327621,
+      "lon": 80.5584095,
+      "tags": {
+        "amenity": "school",
+        "name": "Pahalakithugolla Pre School"
+      }
+    },
+    {
+      "lat": 7.4242955,
+      "lon": 80.5673241,
+      "tags": {
+        "amenity": "school",
+        "name": "Udagama Devananda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4313861,
+      "lon": 80.5833072,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uggala Kovila",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.4349539,
+      "lon": 80.5551119,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Marawia Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.429719,
+      "lon": 80.5681661,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udakithulgolla Kalashilaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4312281,
+      "lon": 80.5706493,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ankumbura Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4281908,
+      "lon": 80.5630651,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thennahena Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4214162,
+      "lon": 80.5668216,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ramakotuwa Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3999425,
+      "lon": 80.5788187,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Godahena Rural Hospital"
+      }
+    },
+    {
+      "lat": 7.3902141,
+      "lon": 80.57891,
+      "tags": {
+        "amenity": "school",
+        "name": "Dolapihilla Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4392985,
+      "lon": 80.5712902,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ankumbura Bomaluwa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4378396,
+      "lon": 80.6028163,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4367092,
+      "lon": 80.5985141,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dambagasdeniya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4398519,
+      "lon": 80.5707027,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Prpossed Bus Stand, Ankumbura"
+      }
+    },
+    {
+      "lat": 7.3725053,
+      "lon": 80.5245613,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "District Hospital-Galagedara"
+      }
+    },
+    {
+      "lat": 7.3716547,
+      "lon": 80.5251747,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Medical officer of Health Office- Galagedara"
+      }
+    },
+    {
+      "lat": 7.3676673,
+      "lon": 80.5652145,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3642278,
+      "lon": 80.5708927,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3723372,
+      "lon": 80.5186726,
+      "tags": {
+        "addr:street": "Galagedara-Rambukkana Road",
+        "amenity": "school",
+        "name": "Sujatha Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.3719807,
+      "lon": 80.5192359,
+      "tags": {
+        "addr:street": "Galagedara-Rambukkana Road",
+        "amenity": "school",
+        "name": "Galagedara Primary School"
+      }
+    },
+    {
+      "lat": 7.3727734,
+      "lon": 80.5245359,
+      "tags": {
+        "addr:city": "Galagedara",
+        "addr:street": "Galagedara-Rambukkana Road",
+        "name": "Cargills Food City Express Galagedara",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3721084,
+      "lon": 80.5243428,
+      "tags": {
+        "addr:city": "Galagedara",
+        "addr:street": "Galagedara-Rambukkana Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "District Hospital Galagedara"
+      }
+    },
+    {
+      "lat": 7.3791654,
+      "lon": 80.5864081,
+      "tags": {
+        "name": "Mega Co-op City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3809646,
+      "lon": 80.5907241,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "MOH Office - Pujapitiya"
+      }
+    },
+    {
+      "lat": 7.3813119,
+      "lon": 80.5867395,
+      "tags": {
+        "addr:city": "Poojapitiya",
+        "addr:street": "Poojapitiya - Alawathugoda Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3811616,
+      "lon": 80.5865893,
+      "tags": {
+        "name": "Hewage Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3970438,
+      "lon": 80.5887271,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3921536,
+      "lon": 80.5910201,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4099789,
+      "lon": 80.5852666,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4376462,
+      "lon": 80.572251,
+      "tags": {
+        "name": "Sathosa",
+        "operator": "Government",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4385014,
+      "lon": 80.5717103,
+      "tags": {
+        "name": "Co-Op City",
+        "operator": "MPCS Pujapitiya",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3929,
+      "lon": 80.5532062,
+      "tags": {
+        "amenity": "hospital",
+        "name": "bokkawala"
+      }
+    },
+    {
+      "lat": 7.385383,
+      "lon": 80.568996,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nandana Viharasthanaya Waligalla",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3687534,
+      "lon": 80.5185503,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.4284181,
+      "lon": 80.5295834,
+      "tags": {
+        "amenity": "school",
+        "name": "Ikiriwatta Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.3726072,
+      "lon": 80.6005935,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.4227835,
+      "lon": 80.5853118,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Uggala Tamil School"
+      }
+    },
+    {
+      "lat": 7.3649914,
+      "lon": 80.5854467,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3688383,
+      "lon": 80.5197861,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "name": "Galagedara Central College"
+      }
+    }
+  ]
+}

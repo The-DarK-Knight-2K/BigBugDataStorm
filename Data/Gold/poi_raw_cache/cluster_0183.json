@@ -1,0 +1,452 @@
+{
+  "cluster_id": 183,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.322351,
+    "lat_max": 7.412223,
+    "lon_min": 80.678764,
+    "lon_max": 80.77651900000001
+  },
+  "outlet_ids": [
+    "OUT_09268",
+    "OUT_09357",
+    "OUT_09417",
+    "OUT_09437",
+    "OUT_09481",
+    "OUT_09552",
+    "OUT_09720",
+    "OUT_09927",
+    "OUT_10300",
+    "OUT_10322",
+    "OUT_10367",
+    "OUT_10429",
+    "OUT_10502",
+    "OUT_10565",
+    "OUT_10627",
+    "OUT_10903",
+    "OUT_11108",
+    "OUT_11171",
+    "OUT_11231",
+    "OUT_11234",
+    "OUT_11241",
+    "OUT_11257",
+    "OUT_11318",
+    "OUT_11331",
+    "OUT_11388",
+    "OUT_11409",
+    "OUT_11438",
+    "OUT_11439",
+    "OUT_11569",
+    "OUT_11581",
+    "OUT_11589",
+    "OUT_11603",
+    "OUT_11611",
+    "OUT_11805",
+    "OUT_11881",
+    "OUT_11893",
+    "OUT_11898",
+    "OUT_11911",
+    "OUT_11971",
+    "OUT_11987",
+    "OUT_12056",
+    "OUT_12304",
+    "OUT_12360",
+    "OUT_12421",
+    "OUT_12502",
+    "OUT_12547",
+    "OUT_12549",
+    "OUT_12660",
+    "OUT_12688",
+    "OUT_12742",
+    "OUT_12844",
+    "OUT_12853",
+    "OUT_12945"
+  ],
+  "n_outlets": 53,
+  "n_pois_returned": 40,
+  "scraped_at": "2026-05-16T20:48:06.360113",
+  "elements": [
+    {
+      "lat": 7.4012673,
+      "lon": 80.6908677,
+      "tags": {
+        "addr:city": "Kandy",
+        "name": "Hunas Falls Hotel",
+        "operator": "Amaya Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.350651,
+      "lon": 80.6825578,
+      "tags": {
+        "name": "Wattegama",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.3618906,
+      "lon": 80.7361827,
+      "tags": {
+        "addr:city": "Panwila",
+        "addr:street": "Kukul Oya Road",
+        "name": "Kandy Samadhi Centre",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3320957,
+      "lon": 80.722491,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Liyangaswathura Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3300547,
+      "lon": 80.7453813,
+      "tags": {
+        "name": "Hotel Indra Manel",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3520151,
+      "lon": 80.6825796,
+      "tags": {
+        "addr:city": "Wattegama",
+        "addr:street": "Pitiyagedera - Wattegama - Iriyagastenne Road",
+        "amenity": "place_of_worship",
+        "name": "Kathiresan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.3349403,
+      "lon": 80.6807164,
+      "tags": {
+        "addr:city": "Madawala",
+        "addr:street": "Katugastota-Bambarella Road",
+        "amenity": "place_of_worship",
+        "name": "Pitiyegedara Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3968902,
+      "lon": 80.6791671,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3752444,
+      "lon": 80.7277068,
+      "tags": {
+        "addr:city": "Panwila",
+        "addr:street": "Katugastota-Bambarella Road",
+        "name": "Hatale Tea Estate Bungalow",
+        "phone": "077 766 3663",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3616633,
+      "lon": 80.7153933,
+      "tags": {
+        "addr:city": "Panwila",
+        "addr:street": "Katugastota-Bambarella Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Selva Vinayagar Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.3483248,
+      "lon": 80.706447,
+      "tags": {
+        "addr:city": "Kundasale",
+        "addr:street": "Katugastota-Bambarella Road",
+        "amenity": "place_of_worship",
+        "name": "Galpihilla Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3487345,
+      "lon": 80.7057282,
+      "tags": {
+        "addr:city": "Kundasale",
+        "amenity": "school",
+        "name": "Galpihilla Primary School"
+      }
+    },
+    {
+      "lat": 7.3463532,
+      "lon": 80.705658,
+      "tags": {
+        "addr:city": "Kundasale",
+        "addr:street": "Katugastota-Bambarella Road",
+        "amenity": "hospital",
+        "name": "Makkanigama Hospital"
+      }
+    },
+    {
+      "lat": 7.3285297,
+      "lon": 80.7749006,
+      "tags": {
+        "addr:street": "Rangala Rd",
+        "amenity": "place_of_worship",
+        "name": "Amupitiya Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3357005,
+      "lon": 80.7561707,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Putuhapuwa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.3436413,
+      "lon": 80.7319772,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Narampanawa Government Hospital"
+      }
+    },
+    {
+      "lat": 7.325493,
+      "lon": 80.7228148,
+      "tags": {
+        "addr:street": "Manikhinna-Narampanawa Rd",
+        "amenity": "school",
+        "name": "Lunuketiya Madiththa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.3280607,
+      "lon": 80.7439803,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Orutota",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.4037733,
+      "lon": 80.7469668,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3980322,
+      "lon": 80.7331905,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Madulkelle Hospital"
+      }
+    },
+    {
+      "lat": 7.3989039,
+      "lon": 80.7334117,
+      "tags": {
+        "addr:street": "Madulkelle - Kabaragala - Kandenuwara Road",
+        "amenity": "place_of_worship",
+        "name": "Madulkelle Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3313408,
+      "lon": 80.7583506,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Watapana Ancient Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3318879,
+      "lon": 80.7159875,
+      "tags": {
+        "addr:street": "knightsdale estate",
+        "name:en": "Celestial Hills",
+        "phone": "+94760765766",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3651136,
+      "lon": 80.6833242,
+      "tags": {
+        "addr:postcode": "20810",
+        "addr:street": "Elkaduwa Road",
+        "amenity": "place_of_worship",
+        "check_date": "2026-04-23",
+        "name": "Gothamachethiya Mangalagiri Buddhist Monastery",
+        "religion": "buddhist",
+        "website": "https://gothamachethiya.org/"
+      }
+    },
+    {
+      "lat": 7.3717545,
+      "lon": 80.7426734,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Araththana Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3747178,
+      "lon": 80.7431884,
+      "tags": {
+        "amenity": "school",
+        "name": "Araththana Primary School"
+      }
+    },
+    {
+      "lat": 7.3428369,
+      "lon": 80.7126876,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3610843,
+      "lon": 80.7567282,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Warapitiya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3435412,
+      "lon": 80.7345396,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gangathilake Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.400631,
+      "lon": 80.6803053,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.3575404,
+      "lon": 80.6986557,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udugoda Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3584302,
+      "lon": 80.708492,
+      "tags": {
+        "addr:city": "Panwila",
+        "addr:street": "Katugastota-Bambarella Road",
+        "amenity": "school",
+        "name": "Rajasinghe Central College"
+      }
+    },
+    {
+      "lat": 7.385242,
+      "lon": 80.7727611,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.3865387,
+      "lon": 80.7680699,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3652892,
+      "lon": 80.7689698,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3662136,
+      "lon": 80.7690972,
+      "tags": {
+        "amenity": "school",
+        "name": "Galabodawatta School"
+      }
+    },
+    {
+      "lat": 7.4037602,
+      "lon": 80.7487487,
+      "tags": {
+        "amenity": "school",
+        "name": "kandaketiya Temil Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.3876745,
+      "lon": 80.7575087,
+      "tags": {
+        "amenity": "school",
+        "name": "Beddegama Primary School"
+      }
+    },
+    {
+      "lat": 7.3877675,
+      "lon": 80.7559122,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Beddegama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.39312,
+      "lon": 80.7237474,
+      "tags": {
+        "addr:city": "Madulkelle",
+        "building": "hotel",
+        "building:levels": "1",
+        "name": "Madulkelle Tea & Eco Lodge",
+        "phone": "+94 81 3801052",
+        "roof:colour": "#409030",
+        "roof:height": "5",
+        "roof:material": "metal",
+        "roof:shape": "pyramidal",
+        "rooms": "22",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1936 @@
+{
+  "cluster_id": 315,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.93412,
+    "lat_max": 6.012341999999999,
+    "lon_min": 80.463156,
+    "lon_max": 80.53741600000001
+  },
+  "outlet_ids": [
+    "OUT_17001",
+    "OUT_17006",
+    "OUT_17152",
+    "OUT_17169",
+    "OUT_17265",
+    "OUT_17369",
+    "OUT_17376",
+    "OUT_17377",
+    "OUT_17422",
+    "OUT_17606",
+    "OUT_17642",
+    "OUT_17724",
+    "OUT_17770",
+    "OUT_17857",
+    "OUT_17897",
+    "OUT_18099",
+    "OUT_18169",
+    "OUT_18170",
+    "OUT_18316",
+    "OUT_18557",
+    "OUT_18613",
+    "OUT_18724",
+    "OUT_18742",
+    "OUT_18898",
+    "OUT_19072",
+    "OUT_19093",
+    "OUT_19180",
+    "OUT_19187",
+    "OUT_19246",
+    "OUT_19388",
+    "OUT_19587",
+    "OUT_19967",
+    "OUT_19970",
+    "OUT_19978"
+  ],
+  "n_outlets": 34,
+  "n_pois_returned": 195,
+  "scraped_at": "2026-05-16T22:10:18.139521",
+  "elements": [
+    {
+      "lat": 5.9415934,
+      "lon": 80.5120061,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9412602,
+      "lon": 80.4677373,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9431535,
+      "lon": 80.5044021,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9992804,
+      "lon": 80.5195786,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nagoda Junction"
+      }
+    },
+    {
+      "lat": 5.9728279,
+      "lon": 80.519447,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Godagama Junction Bus Stop"
+      }
+    },
+    {
+      "lat": 5.9598714,
+      "lon": 80.5288019,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hittetiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 5.9424116,
+      "lon": 80.5145768,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhirukkharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9422592,
+      "lon": 80.514478,
+      "tags": {
+        "highway": "bus_stop",
+        "local_ref": "Walgama",
+        "name:en": "Walgama"
+      }
+    },
+    {
+      "lat": 5.953803,
+      "lon": 80.5189863,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kotikagoda Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.952992,
+      "lon": 80.5320648,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9577139,
+      "lon": 80.5303911,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hiththatiya Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9524024,
+      "lon": 80.5229667,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 5.9414283,
+      "lon": 80.4671458,
+      "tags": {
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9389766,
+      "lon": 80.4829713,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9477942,
+      "lon": 80.5360381,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:street": "Anagarika Dharmapala Mawatha",
+        "name": "Keells Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.979596,
+      "lon": 80.5193806,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Unella"
+      }
+    },
+    {
+      "lat": 5.949639,
+      "lon": 80.4787842,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nadeetherarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9405803,
+      "lon": 80.4784923,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pagoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9389799,
+      "lon": 80.4864236,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9396345,
+      "lon": 80.475997,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "operator": "Southern Provincial Road Passenger Transport Authority",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9421083,
+      "lon": 80.4983025,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.942345,
+      "lon": 80.5083169,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9430515,
+      "lon": 80.463435,
+      "tags": {
+        "highway": "bus_stop",
+        "name:cs": "Zastavka.",
+        "name:es": "Giragala"
+      }
+    },
+    {
+      "lat": 6.0046347,
+      "lon": 80.5191144,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ogaspe Junction"
+      }
+    },
+    {
+      "lat": 6.0094347,
+      "lon": 80.5181894,
+      "tags": {
+        "amenity": "school",
+        "name": "MR/ Sri Sumedha Vidyalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9769306,
+      "lon": 80.5182794,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kadedduwa Junction"
+      }
+    },
+    {
+      "lat": 5.9647258,
+      "lon": 80.5025116,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kemaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9521262,
+      "lon": 80.5324283,
+      "tags": {
+        "amenity": "school",
+        "grades": "1 to 5",
+        "name": "Rahula College Primary",
+        "website": "https://rahulacollege.lk/"
+      }
+    },
+    {
+      "lat": 5.9529959,
+      "lon": 80.5325678,
+      "tags": {
+        "amenity": "school",
+        "name": "Sujatha Vidyalaya Primary",
+        "phone": "+94412 222 313",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9544281,
+      "lon": 80.5191348,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bo Tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9408753,
+      "lon": 80.5096022,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:street": "Galle Road",
+        "amenity": "place_of_worship",
+        "name": "Wiratungaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0084654,
+      "lon": 80.5007265,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Akkurugoda MOH"
+      }
+    },
+    {
+      "lat": 5.9841116,
+      "lon": 80.5211268,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "palatuwa"
+      }
+    },
+    {
+      "lat": 5.9544204,
+      "lon": 80.537106,
+      "tags": {
+        "amenity": "school",
+        "grades": "1-12",
+        "image": "https://sujathavidyalaya.org/images/slider/sujatha_01.jpg",
+        "name": "Sujatha Vidyalaya",
+        "religion": "buddhist",
+        "website": "https://sujathavidyalaya.org/"
+      }
+    },
+    {
+      "lat": 5.9397777,
+      "lon": 80.5122473,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9566902,
+      "lon": 80.4734963,
+      "tags": {
+        "name": "Mirissa",
+        "railway": "station",
+        "wikidata": "Q17511967"
+      }
+    },
+    {
+      "lat": 5.9541051,
+      "lon": 80.5250197,
+      "tags": {
+        "amenity": "hospital",
+        "name": "bsr"
+      }
+    },
+    {
+      "lat": 5.986366,
+      "lon": 80.5215193,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Palatuwa Junction"
+      }
+    },
+    {
+      "lat": 5.9867729,
+      "lon": 80.5226584,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Palatuwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9883094,
+      "lon": 80.5263008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhirukkaramaya, Elambakalagoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9387146,
+      "lon": 80.4710693,
+      "tags": {
+        "name": "Cococabana",
+        "tourism": "hotel",
+        "website": "http://www.cococabanalk.com"
+      }
+    },
+    {
+      "lat": 5.9426557,
+      "lon": 80.4646683,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Glass House Restaurant",
+        "opening_hours": "09:00-21:00"
+      }
+    },
+    {
+      "lat": 5.941136,
+      "lon": 80.4944449,
+      "tags": {
+        "bench": "no",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Kamburugamuwa Junction",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.9409872,
+      "lon": 80.4938751,
+      "tags": {
+        "bench": "no",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.9500967,
+      "lon": 80.4966152,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:street": "Kamburugamuwa-Labima Road",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Divigalahena Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9456464,
+      "lon": 80.5293636,
+      "tags": {
+        "addr:city": "Pamburana",
+        "addr:street": "Gall Matar road",
+        "amenity": "school",
+        "name": "Shariputhra secondary school"
+      }
+    },
+    {
+      "lat": 5.9498703,
+      "lon": 80.5182723,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahanama Vidyalaya"
+      }
+    },
+    {
+      "lat": 5.9497055,
+      "lon": 80.5181874,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahanama Collage Primary"
+      }
+    },
+    {
+      "lat": 5.9507139,
+      "lon": 80.5321267,
+      "tags": {
+        "amenity": "university",
+        "name": "Open University of Sri Lanka"
+      }
+    },
+    {
+      "lat": 5.9401192,
+      "lon": 80.4963948,
+      "tags": {
+        "name": "Asiri Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9509878,
+      "lon": 80.4959268,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Medagoda"
+      }
+    },
+    {
+      "lat": 5.9484626,
+      "lon": 80.4950185,
+      "tags": {
+        "addr:city": "Medagoda",
+        "addr:street": "Kamburugamuwa - Heanwala Road",
+        "amenity": "clinic",
+        "name": "Karapitiya Medical center"
+      }
+    },
+    {
+      "lat": 5.9836401,
+      "lon": 80.4907008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ramagiri Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9819953,
+      "lon": 80.4955612,
+      "tags": {
+        "amenity": "school",
+        "name": "Sulthanagoda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 5.9806507,
+      "lon": 80.4785202,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Khettaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0000242,
+      "lon": 80.5138924,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9861167,
+      "lon": 80.5212696,
+      "tags": {
+        "amenity": "school",
+        "name": "Gunaratana CentralCollege"
+      }
+    },
+    {
+      "lat": 6.0096825,
+      "lon": 80.5169842,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0092742,
+      "lon": 80.5175613,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Malimbada Junction",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.0082911,
+      "lon": 80.5160838,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Indrarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9768762,
+      "lon": 80.5184687,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Highway Food Corner"
+      }
+    },
+    {
+      "lat": 5.9391388,
+      "lon": 80.5043162,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Samudratheera Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9703568,
+      "lon": 80.4758256,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Rathanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.93946,
+      "lon": 80.4694552,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshanaramaya",
+        "religion": "buddhist",
+        "service_times": "Permanently closed"
+      }
+    },
+    {
+      "lat": 5.9733917,
+      "lon": 80.4863597,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Naalakaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9443714,
+      "lon": 80.5290906,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9390421,
+      "lon": 80.4871374,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Sharavi Beach Villas",
+        "phone": "+94 41 745 1090",
+        "tourism": "hotel",
+        "website": "https://www.srisharavibeachvillas.com/"
+      }
+    },
+    {
+      "lat": 5.9589253,
+      "lon": 80.5069697,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9461527,
+      "lon": 80.5301304,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Pamburana"
+      }
+    },
+    {
+      "lat": 5.9478536,
+      "lon": 80.5347379,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Nupe junction"
+      }
+    },
+    {
+      "lat": 5.9426483,
+      "lon": 80.4643971,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Papa mango hapy hour cocktails"
+      }
+    },
+    {
+      "lat": 5.9359977,
+      "lon": 80.5225995,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local",
+        "email": "kasunsanjaya@hotmail.com",
+        "name:en": "The Little Hut",
+        "phone": "+94779072909"
+      }
+    },
+    {
+      "lat": 5.93678,
+      "lon": 80.5155398,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "name:en": "The Doctor's House"
+      }
+    },
+    {
+      "lat": 5.9369734,
+      "lon": 80.5282977,
+      "tags": {
+        "addr:housenumber": "21",
+        "addr:street": "Beach Road",
+        "amenity": "restaurant",
+        "cuisine": "seafood;local",
+        "internet_access": "wlan",
+        "name:en": "Reef Edge",
+        "operator": "Dialiog",
+        "phone": "+94772978233",
+        "website": "http://www.reefedge.lk"
+      }
+    },
+    {
+      "lat": 5.9413576,
+      "lon": 80.4665737,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Adora Mirissa Beach Restaurant"
+      }
+    },
+    {
+      "lat": 5.9432092,
+      "lon": 80.4632214,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Maggie's Rotti Shop",
+        "name:en": "MiMi"
+      }
+    },
+    {
+      "lat": 5.9413433,
+      "lon": 80.4677873,
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "internet_access:ssid": "THENUWARA 4G",
+        "name": "Sunstyle Mirissa",
+        "phone": "+94 71 081 3866",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9430942,
+      "lon": 80.5200073,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Walgama"
+      }
+    },
+    {
+      "lat": 5.9599262,
+      "lon": 80.528848,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hittetiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 5.9759421,
+      "lon": 80.5185796,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Southern Express Bus Stop"
+      }
+    },
+    {
+      "lat": 5.9728522,
+      "lon": 80.5194736,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Godagama Junction Bus Stop"
+      }
+    },
+    {
+      "lat": 5.9414816,
+      "lon": 80.4654344,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sea Goggle Rest"
+      }
+    },
+    {
+      "lat": 5.9404031,
+      "lon": 80.532569,
+      "tags": {
+        "addr:housenumber": "52",
+        "addr:postcode": "81000",
+        "addr:street": "Paramulla Road",
+        "internet_access": "wlan",
+        "name:en": "Villa Palm Breeze",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9416469,
+      "lon": 80.4666495,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local;thai",
+        "name:en": "101 Restaurant"
+      }
+    },
+    {
+      "lat": 5.973775,
+      "lon": 80.4783949,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name:en": "Cosmic Power Woody Cottage",
+        "phone": "+94775091550"
+      }
+    },
+    {
+      "lat": 5.9441387,
+      "lon": 80.4639044,
+      "tags": {
+        "addr:housenumber": "+94776565382",
+        "addr:street": "Colombo -Matara Road",
+        "name:en": "Marino Mirissa",
+        "name:tr": "Marino Mirissa",
+        "phone": "+94776565382",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9382033,
+      "lon": 80.5267425,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Sisil Villa",
+        "name:nl": "Sisil Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9418621,
+      "lon": 80.4687042,
+      "tags": {
+        "addr:street": "Galle Road",
+        "internet_access": "wlan",
+        "name": "The Spice House Hotel",
+        "rooms": "12",
+        "tourism": "hotel",
+        "website": "https://thespicehousemirissa.com/"
+      }
+    },
+    {
+      "lat": 5.9418384,
+      "lon": 80.4662767,
+      "tags": {
+        "name:en": "Blue Ocean Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9391937,
+      "lon": 80.4771198,
+      "tags": {
+        "addr:city": "Thalaramba",
+        "addr:postcode": "81750",
+        "amenity": "school",
+        "denomination": "theravada",
+        "operator": "Thalaramba Sri Indrasara College",
+        "operator:type": "government",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9366146,
+      "lon": 80.5169467,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "360\u00b0 Madiha"
+      }
+    },
+    {
+      "lat": 5.9524398,
+      "lon": 80.5354556,
+      "tags": {
+        "amenity": "school",
+        "name": "Yosu Language Centre"
+      }
+    },
+    {
+      "lat": 5.93637,
+      "lon": 80.5160871,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mint"
+      }
+    },
+    {
+      "lat": 5.9392138,
+      "lon": 80.5301956,
+      "tags": {
+        "name": "Deep Blue",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.95307,
+      "lon": 80.5350281,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.9367693,
+      "lon": 80.5158822,
+      "tags": {
+        "amenity": "restaurant",
+        "bar": "yes",
+        "name": "Shima Guni"
+      }
+    },
+    {
+      "lat": 5.9359192,
+      "lon": 80.5322247,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist",
+        "ruins": "yes",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 5.9367388,
+      "lon": 80.5133326,
+      "tags": {
+        "addr:street": "Polhena Beach Road",
+        "internet_access": "wlan",
+        "name:en": "Sunset Surfing Beach Resort",
+        "opening_hours": "24/7",
+        "phone": "+94776446673",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9437552,
+      "lon": 80.4654646,
+      "tags": {
+        "name": "Methusha Holyday House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.943437,
+      "lon": 80.494334,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:district": "Matara District",
+        "addr:street": "medagoda Kamburugamuwa - Labima Rd",
+        "amenity": "school",
+        "name": "Kamburugamuwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 5.9385549,
+      "lon": 80.5123812,
+      "tags": {
+        "addr:city": "Madiha, Matara",
+        "addr:housenumber": "165",
+        "addr:street": "Sunandarama Road,",
+        "amenity": "restaurant",
+        "drinking_water:refill": "yes",
+        "drinking_water:refill:network": "water-map",
+        "name": "Komorebi"
+      }
+    },
+    {
+      "lat": 5.9467489,
+      "lon": 80.4639026,
+      "tags": {
+        "addr:postcode": "81740",
+        "addr:street": "Udupila Road",
+        "name:en": "peacock villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9412388,
+      "lon": 80.4688712,
+      "tags": {
+        "name": "Esprit D\u2018ici",
+        "phone": "0094075 322 2000",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9362706,
+      "lon": 80.5187324,
+      "tags": {
+        "addr:housenumber": "160",
+        "addr:postcode": "81000",
+        "addr:street": "Beach Road",
+        "email": "sealifeguesthouse@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "Sea Life Guest House | Surf house & Cafe in Madiha",
+        "phone": "+94710783735",
+        "tourism": "hotel",
+        "website": "https://www.sealifeguesthouse.com/"
+      }
+    },
+    {
+      "lat": 5.9428243,
+      "lon": 80.463708,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:postcode": "81740",
+        "amenity": "restaurant",
+        "name:en": "Surfing Wombats Mirissa",
+        "website": "https://www.surfingwombats.com/surfing-wombats-mirissa/"
+      }
+    },
+    {
+      "lat": 5.9734924,
+      "lon": 80.5271598,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9420361,
+      "lon": 80.5369777,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 5.9406789,
+      "lon": 80.5288134,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9446016,
+      "lon": 80.5254361,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Polhena"
+      }
+    },
+    {
+      "lat": 5.9437498,
+      "lon": 80.5224511,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.941758,
+      "lon": 80.4660608,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.940544,
+      "lon": 80.4912195,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9439368,
+      "lon": 80.5228058,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9389876,
+      "lon": 80.5230697,
+      "tags": {
+        "name": "Susiri holiday resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9468283,
+      "lon": 80.4848905,
+      "tags": {
+        "addr:postcode": "81750",
+        "addr:street": "Garanduwa Road",
+        "name": "Kiss Blossom",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/kiss-blossom.en-gb.html"
+      }
+    },
+    {
+      "lat": 5.9365893,
+      "lon": 80.5162394,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Peak Point",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9447983,
+      "lon": 80.5258816,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9421829,
+      "lon": 80.4647863,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:postcode": "71380",
+        "addr:street": "Colombo -Matara Road",
+        "amenity": "restaurant",
+        "check_date": "2026-05-05",
+        "contact:facebook": "https://www.facebook.com/people/The-Slow/100077077119286/",
+        "contact:instagram": "https://www.instagram.com/theslow.srilanka/",
+        "cuisine": "breakfast;lunch;sri_lankan",
+        "description": "Enjoy a wide variety of vegan food directly on the beach in Mirissa.",
+        "diet:gluten_free": "yes",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "email": "info@slow-vegan-sri-lanka.com",
+        "highchair": "yes",
+        "name": "The Slow",
+        "opening_hours": "08:00-22:00",
+        "outdoor_seating": "yes",
+        "panoramax": "7f113b97-92f4-4413-a720-e958dc627938",
+        "panoramax:0": "d4baed69-0bb2-4c3a-aac9-521fd1d56012",
+        "phone": "+94762196771",
+        "takeaway": "yes",
+        "website": "https://www.slow-vegan-sri-lanka.com/the-slow-a-vegan-restaurant-cafe-sri-lanka-mirissa"
+      }
+    },
+    {
+      "lat": 5.9413716,
+      "lon": 80.4663923,
+      "tags": {
+        "addr:housenumber": "187",
+        "addr:street": "Colombo -Matara Road",
+        "amenity": "restaurant",
+        "name:en": "MOMO Beach Mirissa",
+        "opening_hours": "Su-Sa 08:00-22:00"
+      }
+    },
+    {
+      "lat": 5.9390329,
+      "lon": 80.4706566,
+      "tags": {
+        "addr:postcode": "81750",
+        "addr:street": "Kalugalluwa Road",
+        "internet_access": "wlan",
+        "name:en": "Pearldrop Waves",
+        "opening_hours": "24/7",
+        "tourism": "hotel",
+        "website": "https://pearldropmirissa.com/contact"
+      }
+    },
+    {
+      "lat": 5.9526957,
+      "lon": 80.5333117,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 5.9367109,
+      "lon": 80.527354,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lion Gate"
+      }
+    },
+    {
+      "lat": 5.9423169,
+      "lon": 80.4658803,
+      "tags": {
+        "air_conditioning": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Morning Star",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9419432,
+      "lon": 80.4650822,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Bunga Bunga",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "lat": 5.9430864,
+      "lon": 80.4641581,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Simple Restaurant & Cafe"
+      }
+    },
+    {
+      "lat": 5.947873,
+      "lon": 80.4839529,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 5.9366287,
+      "lon": 80.5258927,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9366593,
+      "lon": 80.5252575,
+      "tags": {
+        "name": "Little House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9367154,
+      "lon": 80.5256944,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9364277,
+      "lon": 80.5251935,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9388715,
+      "lon": 80.4863303,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9394838,
+      "lon": 80.4779998,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9483649,
+      "lon": 80.535705,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9389082,
+      "lon": 80.4834067,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9395188,
+      "lon": 80.4756936,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "operator": "Southern Provincial Road Passenger Transport Authority",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 5.9404435,
+      "lon": 80.4703002,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9507644,
+      "lon": 80.5042721,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Purana Ethkanda Raja Maha Viharaya - Kamburugamuwa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9421441,
+      "lon": 80.4656093,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Beach Mirissa Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9408951,
+      "lon": 80.4939299,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:postcode": "81750",
+        "amenity": "restaurant",
+        "cuisine": "chicken;coffee_shop;seafood;fish_and_chips;grill;juice;salad;sandwich;dessert",
+        "diet:healthy": "yes",
+        "diet:meat": "yes",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Serendipity Mirissa",
+        "opening_hours": "Mo-Su 07:00-23:00",
+        "phone": "+94779971971",
+        "website": "https://www.serendipitymirissa.com/"
+      }
+    },
+    {
+      "lat": 5.9359818,
+      "lon": 80.519089,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Diana"
+      }
+    },
+    {
+      "lat": 5.9365665,
+      "lon": 80.5141831,
+      "tags": {
+        "addr:street": "Beach road",
+        "amenity": "restaurant",
+        "cuisine": "sri_lankaise;local",
+        "description": "Restaurant simple, des tables au bord de plage.\nSp\u00e9cialit\u00e9s Sri lankaise  : Kottu, Chopsi.\nPris raisonnable par rapport au quartier.\nKottu entre LKR 700 (au oeufs) et et LKR 1200 (au fromage).",
+        "diet:fish": "yes",
+        "diet:local": "yes",
+        "diet:meat": "yes",
+        "diet:seafood": "yes",
+        "diet:vegetarian": "yes",
+        "name": "V8 restaurant",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "phone": "0774361184"
+      }
+    },
+    {
+      "lat": 5.9395959,
+      "lon": 80.4785745,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "realtime",
+        "highway": "bus_stop",
+        "network": "Colombo-Matara",
+        "operator": "Southern Provincial Road Passenger Transport Authority",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9512193,
+      "lon": 80.4673692,
+      "tags": {
+        "amenity": "school",
+        "name": "Mirissa Central College Complex"
+      }
+    },
+    {
+      "lat": 5.9541276,
+      "lon": 80.5189978,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:street": "Kotikagoda Rajamaha Vihara Mawatha",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Budu Medura",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9537732,
+      "lon": 80.5192595,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:street": "Kotikagoda Rajamaha Vihara Mawatha",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Darmashalawa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.953659,
+      "lon": 80.5187655,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Awasaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9404431,
+      "lon": 80.4910578,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Subhadrarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9522426,
+      "lon": 80.535118,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Southern Hotel"
+      }
+    },
+    {
+      "lat": 5.954158,
+      "lon": 80.537472,
+      "tags": {
+        "amenity": "school",
+        "name": "Sujatha Vidyalaya, Matara."
+      }
+    },
+    {
+      "lat": 5.9369019,
+      "lon": 80.5205104,
+      "tags": {
+        "amenity": "school",
+        "building": "school"
+      }
+    },
+    {
+      "lat": 5.9643151,
+      "lon": 80.4936414,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:street": "labeema",
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Korea Sri Lanka Friendship Hospital Complex"
+      }
+    },
+    {
+      "lat": 5.9433044,
+      "lon": 80.4949256,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:street": "Kamburugamuwa-Labima Road",
+        "amenity": "school",
+        "name": "Kamburugamuwa Secondary School"
+      }
+    },
+    {
+      "lat": 5.967344,
+      "lon": 80.4846493,
+      "tags": {
+        "amenity": "school",
+        "name": "Kotawila Primary School"
+      }
+    },
+    {
+      "lat": 5.9668258,
+      "lon": 80.4853035,
+      "tags": {
+        "addr:city": "Kotawila",
+        "addr:street": "Kamburugamuwa-Labima Road",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Sunandarama Ancient Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9404339,
+      "lon": 80.4916754,
+      "tags": {
+        "building": "hotel",
+        "name": "Casa Colombo Mirissa",
+        "operator": "Casa Colombo Collection",
+        "tourism": "hotel",
+        "website": "http://www.casacolombocollection.com/mirissa/"
+      }
+    },
+    {
+      "lat": 5.9398577,
+      "lon": 80.4894022,
+      "tags": {
+        "building": "yes",
+        "name": "The Lantern",
+        "operator": "The Lantern Sri Lanka",
+        "tourism": "hotel",
+        "website": "https://www.lanternsrilanka.com/places.php"
+      }
+    },
+    {
+      "lat": 5.9453867,
+      "lon": 80.5141884,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:street": "Welegoda Road",
+        "building": "train_station",
+        "name": "Walgama",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 5.9434064,
+      "lon": 80.4957962,
+      "tags": {
+        "addr:city": "Kamburugamuwa",
+        "addr:street": "Kamburugamuwa-Labima Road",
+        "building": "yes",
+        "name": "Kamburugamuwa",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 5.9368472,
+      "lon": 80.5266065,
+      "tags": {
+        "building": "hotel",
+        "building:levels": "4",
+        "name": "Cocos",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9579893,
+      "lon": 80.5118748,
+      "tags": {
+        "amenity": "school",
+        "name": "Wewahamanduwa Wanigasekara Vidyalaya"
+      }
+    },
+    {
+      "lat": 5.9448226,
+      "lon": 80.5354982,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Medhananda Primary School"
+      }
+    },
+    {
+      "lat": 5.9380367,
+      "lon": 80.5171473,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9411167,
+      "lon": 80.5372082,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9364585,
+      "lon": 80.5242973,
+      "tags": {
+        "addr:housenumber": "67",
+        "addr:postcode": "81000",
+        "addr:street": "Beach Road",
+        "air_conditioning": "yes",
+        "bar": "no",
+        "building": "hotel",
+        "building:levels": "3",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Residence Riviera",
+        "payment:cash": "yes",
+        "rooms": "7",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9371115,
+      "lon": 80.5222077,
+      "tags": {
+        "addr:city": "Polhena",
+        "addr:street": "samson Dias Mawatha",
+        "building": "hotel",
+        "building:levels": "2",
+        "name": "Losu Polhena",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.943727,
+      "lon": 80.5147843,
+      "tags": {
+        "building": "yes",
+        "name": "Vasika Super Mart",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9526989,
+      "lon": 80.5253671,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9970437,
+      "lon": 80.5194512,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Keth Addara"
+      }
+    },
+    {
+      "lat": 6.004942,
+      "lon": 80.5236764,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "mahayana",
+        "name": "Gangarama Purana Wiharaya",
+        "religion": "buddhist",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0089426,
+      "lon": 80.5187153,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sumedha Vidyalaya Ground",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9355686,
+      "lon": 80.5207722,
+      "tags": {
+        "building": "yes",
+        "name": "LakRaj Heritage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9392202,
+      "lon": 80.5295848,
+      "tags": {
+        "addr:city": "Matara",
+        "addr:housenumber": "36/9",
+        "addr:street": "1st Crossroad",
+        "email": "sales@amaloh.com",
+        "name": "Amaloh by Jetwing",
+        "phone": "+94 76 824 8282",
+        "tourism": "hotel",
+        "website": "https://amaloh.com/"
+      }
+    },
+    {
+      "lat": 5.943249,
+      "lon": 80.4638757,
+      "tags": {
+        "building": "yes",
+        "name:en": "Sailors Mirissa",
+        "tourism": "hotel",
+        "website": "http://sailorsmirissa.com/"
+      }
+    },
+    {
+      "lat": 5.9446715,
+      "lon": 80.5232975,
+      "tags": {
+        "brand": "Arpico",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Arpico Supercentre",
+        "opening_hours": "Mo-Su 08:30-22:00",
+        "shop": "supermarket",
+        "website": "https://www.arpico.com"
+      }
+    },
+    {
+      "lat": 5.9419998,
+      "lon": 80.5121885,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9367444,
+      "lon": 80.5240832,
+      "tags": {
+        "building": "hotel",
+        "building:levels": "4",
+        "name": "Polhena Grand Resort & Banquet",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9360758,
+      "lon": 80.5212093,
+      "tags": {
+        "building": "hotel",
+        "building:levels": "4",
+        "name": "Ferola",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.93697,
+      "lon": 80.5150407,
+      "tags": {
+        "building": "yes",
+        "name": "Savenrose",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9405105,
+      "lon": 80.5264849,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9381156,
+      "lon": 80.4738534,
+      "tags": {
+        "building": "hotel",
+        "building:levels": "4",
+        "name": "Mirissa Gate Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9379888,
+      "lon": 80.5323775,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9417001,
+      "lon": 80.467124,
+      "tags": {
+        "addr:city": "Mirissa",
+        "addr:postcode": "81700",
+        "addr:street": "Galle Road",
+        "building": "apartments",
+        "name": "Liyanage Resort",
+        "phone": "+94773667475",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9421114,
+      "lon": 80.5363635,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9371401,
+      "lon": 80.5278016,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Culture Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9457137,
+      "lon": 80.5152175,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:levels": "4",
+        "name": "Asian Grammar School",
+        "roof:colour": "green"
+      }
+    },
+    {
+      "lat": 5.9371591,
+      "lon": 80.5275149,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Royal Sea Wind"
+      }
+    },
+    {
+      "lat": 5.9371036,
+      "lon": 80.5270439,
+      "tags": {
+        "barrier": "fence",
+        "name": "Reef Garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9402241,
+      "lon": 80.4781766,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Big Buddha",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9373265,
+      "lon": 80.5236263,
+      "tags": {
+        "amenity": "place_of_worship",
+        "area": "yes",
+        "barrier": "wall",
+        "name": "Polhena Purana Wiharaya",
+        "name:en": "Ancient Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9357624,
+      "lon": 80.5219744,
+      "tags": {
+        "amenity": "restaurant",
+        "area": "yes",
+        "name": "Sea View Food Court"
+      }
+    },
+    {
+      "lat": 5.9403127,
+      "lon": 80.4785083,
+      "tags": {
+        "addr:city": "Thalaramba",
+        "addr:postcode": "81750",
+        "addr:street": "Colombo\u2014Matara Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "layer": "1",
+        "name": "Thalaramba Sri Mahendrarama Temple",
+        "name:si": "\u0dad\u0dbd\u0dca\u0d85\u0dbb\u0db9 \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db8\u0dc4\u0dda\u0db1\u0dca\u0daf\u0dca\u200d\u0dbb\u0dcf\u0dbb\u0dcf\u0db8 \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9419489,
+      "lon": 80.4795783,
+      "tags": {
+        "addr:city": "Thalaramba",
+        "addr:postcode": "81750",
+        "addr:street": "Indasara Mawatha",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2025-12-04",
+        "description": "Buddhist temple in Sri Lanka",
+        "email": "thalarambagambarabodiya@gmail.com",
+        "image": "https://web.facebook.com/photo/?fbid=2157568584451763&set=a.290853033334367",
+        "name": "Thalaramba Gambara Bodhiya",
+        "name:si": "\u0dad\u0dbd\u0dca\u0d85\u0dbb\u0db9 \u0d9c\u0db8\u0dca\u0db7\u0dcf\u0dbb \u0db6\u0ddd\u0db0\u0dd2\u0dba",
+        "official_name": "\u0d93\u0dad\u0dd2\u0dc4\u0dcf\u0dc3\u0dd2\u0d9a \u0dad\u0dbd\u0dca\u0d85\u0dbb\u0db9 \u0d9c\u0db8\u0dca\u0db7\u0dcf\u0dbb \u0db6\u0ddd\u0db0\u0dd2\u0dba",
+        "opening_hours": "24/7",
+        "religion": "buddhist",
+        "website": "https://www.facebook.com/thalarambagambarabodhiya/"
+      }
+    },
+    {
+      "lat": 5.9390411,
+      "lon": 80.4769465,
+      "tags": {
+        "addr:city": "Thalaramba",
+        "addr:postcode": "81750",
+        "addr:street": "Colombo\u2014Matara Road",
+        "amenity": "school",
+        "building": "yes",
+        "education": "school",
+        "layer": "-1",
+        "name": "Thalaramba Sri Indrasara College",
+        "name:si": "\u0db8\u0dcf\u0dbb/ \u0dad\u0dbd\u0dca \u0d85\u0dbb\u0db9 \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0d89\u0db1\u0dca\u0daf\u0dc3\u0dcf\u0dbb \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba",
+        "opening_hours": "Mo-Fr 07:30-13:00"
+      }
+    },
+    {
+      "lat": 5.9407397,
+      "lon": 80.4933018,
+      "tags": {
+        "building": "yes",
+        "name": "The Lantern Villas",
+        "operator": "The Lantern Group",
+        "tourism": "hotel",
+        "type": "multipolygon",
+        "website": "https://www.lanternsrilanka.com/villas.php"
+      }
+    },
+    {
+      "lat": 5.9403587,
+      "lon": 80.4905113,
+      "tags": {
+        "building": "yes",
+        "name": "The Lantern Vilas",
+        "operator": "The Lantern Group",
+        "tourism": "hotel",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

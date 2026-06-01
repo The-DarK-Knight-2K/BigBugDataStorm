@@ -1,0 +1,138 @@
+{
+  "cluster_id": 30,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.070473,
+    "lat_max": 6.150669,
+    "lon_min": 80.332978,
+    "lon_max": 80.407217
+  },
+  "outlet_ids": [
+    "OUT_17158",
+    "OUT_17329",
+    "OUT_17413",
+    "OUT_17523",
+    "OUT_17614",
+    "OUT_17690",
+    "OUT_17755",
+    "OUT_17771",
+    "OUT_17820",
+    "OUT_17969",
+    "OUT_18016",
+    "OUT_18018",
+    "OUT_18468",
+    "OUT_18483",
+    "OUT_18563",
+    "OUT_18905",
+    "OUT_18963",
+    "OUT_19062",
+    "OUT_19122",
+    "OUT_19160",
+    "OUT_19289",
+    "OUT_19395",
+    "OUT_19440",
+    "OUT_19463",
+    "OUT_19466",
+    "OUT_19508",
+    "OUT_19633",
+    "OUT_19663",
+    "OUT_19906",
+    "OUT_19913"
+  ],
+  "n_outlets": 30,
+  "n_pois_returned": 10,
+  "scraped_at": "2026-05-16T20:24:21.692749",
+  "elements": [
+    {
+      "lat": 6.1068452,
+      "lon": 80.3350193,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Makumbura handiya",
+        "name": "Makumbura Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.1247376,
+      "lon": 80.3710437,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1028127,
+      "lon": 80.3510485,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Hareesha Holiday Resort",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/hareesha-holiday-resort.ru.html?label=gen173nr-1BCAsohQFCF2hhcmVlc2hhLWhvbGlkYXktcmVzb3J0SDNiBW5vcmVmaIUBiAEDmAEhuAEHyAEN2AEB6AEBqAID;sid=3ed92b354670d4dd84414fac75e7544a;dist=0&sb_price_type=total&type=total&"
+      }
+    },
+    {
+      "lat": 6.1410588,
+      "lon": 80.3391257,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.094088,
+      "lon": 80.3438197,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Maluwegoda Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1060197,
+      "lon": 80.3486851,
+      "tags": {
+        "name": "Super market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0928067,
+      "lon": 80.358699,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0730987,
+      "lon": 80.3387293,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Mahendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0876585,
+      "lon": 80.3533978,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1342412,
+      "lon": 80.4028306,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

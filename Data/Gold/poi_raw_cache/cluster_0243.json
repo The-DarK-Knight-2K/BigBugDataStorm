@@ -1,0 +1,331 @@
+{
+  "cluster_id": 243,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.384591,
+    "lat_max": 7.489324,
+    "lon_min": 80.240593,
+    "lon_max": 80.317599
+  },
+  "outlet_ids": [
+    "OUT_13060",
+    "OUT_13131",
+    "OUT_13142",
+    "OUT_13285",
+    "OUT_13293",
+    "OUT_13380",
+    "OUT_13417",
+    "OUT_13493",
+    "OUT_13498",
+    "OUT_13601",
+    "OUT_13687",
+    "OUT_13766",
+    "OUT_13983",
+    "OUT_14039",
+    "OUT_14063",
+    "OUT_14130",
+    "OUT_14159",
+    "OUT_14318",
+    "OUT_14349",
+    "OUT_14426",
+    "OUT_14455",
+    "OUT_14590",
+    "OUT_14663",
+    "OUT_14732",
+    "OUT_14880",
+    "OUT_14907",
+    "OUT_15086",
+    "OUT_15119",
+    "OUT_15242",
+    "OUT_15360",
+    "OUT_15387",
+    "OUT_15610",
+    "OUT_15632",
+    "OUT_15713",
+    "OUT_16293",
+    "OUT_16382",
+    "OUT_16475",
+    "OUT_16507",
+    "OUT_16706",
+    "OUT_16998"
+  ],
+  "n_outlets": 40,
+  "n_pois_returned": 31,
+  "scraped_at": "2026-05-16T21:01:14.240666",
+  "elements": [
+    {
+      "lat": 7.3878803,
+      "lon": 80.3016136,
+      "tags": {
+        "name": "Thalawattegedara",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.4235283,
+      "lon": 80.2556202,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sevendana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4037228,
+      "lon": 80.2764585,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sapugaskanda Wijaya Sunandarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3955838,
+      "lon": 80.2663361,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.472677,
+      "lon": 80.2658714,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4430099,
+      "lon": 80.2781031,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.459988,
+      "lon": 80.2928676,
+      "tags": {
+        "amenity": "school",
+        "name": "D.S.Senanayake Central College"
+      }
+    },
+    {
+      "lat": 7.4055902,
+      "lon": 80.2942,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3911356,
+      "lon": 80.3040744,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4663872,
+      "lon": 80.3058958,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4326492,
+      "lon": 80.3010692,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Panagamuwa Sri Weluwanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4710978,
+      "lon": 80.2809787,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4550352,
+      "lon": 80.2674322,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.485529,
+      "lon": 80.2978253,
+      "tags": {
+        "addr:street": "Sandagala Road",
+        "name:en": "Rukmal Stors",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4008397,
+      "lon": 80.2768917,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Wadakada Temple"
+      }
+    },
+    {
+      "lat": 7.4200542,
+      "lon": 80.2792132,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Algama Cave Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3917597,
+      "lon": 80.2518378,
+      "tags": {
+        "name:en": "Grandbell hotel",
+        "name:ko": "\uadf8\ub79c\ub4dc\ubca8\ud638\ud154. \uc2a4\ub9ac\ub791\uce74",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4756034,
+      "lon": 80.2833974,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Madawala Sri Shailabimba Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4883565,
+      "lon": 80.3002096,
+      "tags": {
+        "amenity": "school",
+        "name": "Hembara Vidyaloka Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4830644,
+      "lon": 80.2972617,
+      "tags": {
+        "amenity": "school",
+        "name": "Sandagala Special School"
+      }
+    },
+    {
+      "lat": 7.4794503,
+      "lon": 80.3090018,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rthmale Purana Gallen Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4821349,
+      "lon": 80.3086706,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Helgama Ashokarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3857367,
+      "lon": 80.2778359,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4054586,
+      "lon": 80.2638843,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ginneriya Paththini Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4133669,
+      "lon": 80.3018718,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sanghabodhi Paramananda Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4161663,
+      "lon": 80.296842,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahapitiya Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4312649,
+      "lon": 80.3126821,
+      "tags": {
+        "amenity": "school",
+        "name": "Ahugoda Sonuttara Primary School"
+      }
+    },
+    {
+      "lat": 7.4313174,
+      "lon": 80.3133906,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Ahugoda Tempita Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.406589,
+      "lon": 80.2787313,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "landuse": "residential",
+        "name": "Yankasa",
+        "source": "government"
+      }
+    },
+    {
+      "lat": 7.4230213,
+      "lon": 80.2404008,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 7.4032416,
+      "lon": 80.280362,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "hut",
+        "name": "junction temple",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

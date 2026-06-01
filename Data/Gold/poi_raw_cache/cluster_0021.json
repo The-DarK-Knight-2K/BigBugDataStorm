@@ -1,0 +1,478 @@
+{
+  "cluster_id": 21,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.861347,
+    "lat_max": 6.944705,
+    "lon_min": 80.685383,
+    "lon_max": 80.762647
+  },
+  "outlet_ids": [
+    "OUT_09082",
+    "OUT_09122",
+    "OUT_09205",
+    "OUT_09444",
+    "OUT_09556",
+    "OUT_09586",
+    "OUT_09936",
+    "OUT_09947",
+    "OUT_10026",
+    "OUT_10033",
+    "OUT_10070",
+    "OUT_10108",
+    "OUT_10243",
+    "OUT_10431",
+    "OUT_10455",
+    "OUT_10515",
+    "OUT_10551",
+    "OUT_10792",
+    "OUT_10980",
+    "OUT_11020",
+    "OUT_11216",
+    "OUT_11281",
+    "OUT_11434",
+    "OUT_11474",
+    "OUT_11502",
+    "OUT_11534",
+    "OUT_11539",
+    "OUT_11559",
+    "OUT_11590",
+    "OUT_11606",
+    "OUT_11624",
+    "OUT_11642",
+    "OUT_11779",
+    "OUT_11876",
+    "OUT_11969",
+    "OUT_12171",
+    "OUT_12755"
+  ],
+  "n_outlets": 37,
+  "n_pois_returned": 46,
+  "scraped_at": "2026-05-16T20:22:52.819963",
+  "elements": [
+    {
+      "lat": 6.9292041,
+      "lon": 80.7180506,
+      "tags": {
+        "name": "Langdale by Amaya",
+        "operator": "Amaya",
+        "tourism": "hotel",
+        "website": "https://langdalebyamaya.com/"
+      }
+    },
+    {
+      "lat": 6.9420663,
+      "lon": 80.7436484,
+      "tags": {
+        "name": "Nanu Oya",
+        "railway": "station",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8829626,
+      "lon": 80.6915719,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Holbrook Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.862413,
+      "lon": 80.7084533,
+      "tags": {
+        "addr:city": "Agarapathana",
+        "amenity": "school",
+        "name": "Agarapathana Sinhala School"
+      }
+    },
+    {
+      "lat": 6.9407427,
+      "lon": 80.7440644,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nanu Oya"
+      }
+    },
+    {
+      "lat": 6.9198221,
+      "lon": 80.7536319,
+      "tags": {
+        "name": "Perakumpura Sub Railway",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9390365,
+      "lon": 80.7408058,
+      "tags": {
+        "addr:city": "Nanu Oya",
+        "addr:street": "Hatton-Nuwara Eliya Road",
+        "amenity": "place_of_worship",
+        "name": "Nanu Oya Sri Wardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9385097,
+      "lon": 80.746623,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9193442,
+      "lon": 80.7510218,
+      "tags": {
+        "addr:city": "Perakumpura",
+        "addr:street": "Perakumpura Road",
+        "amenity": "place_of_worship",
+        "name": "Perakumpura Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9409111,
+      "lon": 80.744311,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Zam Zam"
+      }
+    },
+    {
+      "lat": 6.9140321,
+      "lon": 80.6890158,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hindu Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9384537,
+      "lon": 80.6896039,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rathnagiriya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9227984,
+      "lon": 80.6888528,
+      "tags": {
+        "covered": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9265267,
+      "lon": 80.6870894,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lindula Summer View"
+      }
+    },
+    {
+      "lat": 6.8674878,
+      "lon": 80.6892892,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9287927,
+      "lon": 80.7207742,
+      "tags": {
+        "covered": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8812198,
+      "lon": 80.7137324,
+      "tags": {
+        "alt_name": "CP/N St. Regulars Tamil Vidyalayam Lindula",
+        "amenity": "school",
+        "name": "CP/N St. Regulus Tamil Vidyalayam Lindula",
+        "note": "alt_name spelled according to sign, probably wrong"
+      }
+    },
+    {
+      "lat": 6.8888645,
+      "lon": 80.7591618,
+      "tags": {
+        "addr:city": "maraya",
+        "addr:street": "Elgin Road",
+        "amenity": "place_of_worship",
+        "name": "Elgin Sri Karumariamman Alayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8920177,
+      "lon": 80.7513478,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Elgin Lower Division Sri Muththumari amman Alayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8961247,
+      "lon": 80.7361256,
+      "tags": {
+        "addr:city": "maria",
+        "addr:street": "Elgin - Maria Road",
+        "amenity": "school",
+        "grades": "1 to 11",
+        "name": "CP/N/ Thangakelle No-01 Tamil Maha Vidyalayam",
+        "operator": "I.J.P Pradeepkumar",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 6.8960169,
+      "lon": 80.7367412,
+      "tags": {
+        "addr:city": "maria",
+        "addr:street": "Elgin - Maria Road",
+        "amenity": "place_of_worship",
+        "name": "Thangakelle Sri Muththumari Amman Alayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8960721,
+      "lon": 80.7389199,
+      "tags": {
+        "addr:city": "maria",
+        "addr:street": "Elgin - Maria Road",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "Thangakelle Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8968374,
+      "lon": 80.7218548,
+      "tags": {
+        "addr:city": "Maria Bazaar",
+        "addr:street": "Elgin - Maria Road",
+        "amenity": "place_of_worship",
+        "name": "Maria Siththi Vinayagar Aalayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8972427,
+      "lon": 80.7194392,
+      "tags": {
+        "addr:city": "maria",
+        "addr:street": "Maria - Dessford Road",
+        "amenity": "school",
+        "grades": "1 to 13",
+        "name": "CP/N/ Maria Tamil Maha Vidyalayam"
+      }
+    },
+    {
+      "lat": 6.8954341,
+      "lon": 80.7388922,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ouvakelle Mariyamman kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9436652,
+      "lon": 80.7397239,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "GLASSUGH A.A.DIVISION HOSPITAL"
+      }
+    },
+    {
+      "lat": 6.942405,
+      "lon": 80.7444972,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "NANUOYA HOSPITAL"
+      }
+    },
+    {
+      "lat": 6.9395159,
+      "lon": 80.7411485,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.9433109,
+      "lon": 80.7356127,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "hindu temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9355885,
+      "lon": 80.7353668,
+      "tags": {
+        "addr:city": "Nanuoya",
+        "addr:street": "Radella Short Cut Road",
+        "amenity": "school",
+        "name": "CP/N/Nawalar  College",
+        "name:ta": "\u0bae\u0bae\u0bbe/\u0ba8\u0bc1/\u0ba8\u0bbe\u0bb5\u0bb2\u0bb0\u0bcd \u0b95\u0bb2\u0bcd\u0bb2\u0bc2\u0bb0\u0bbf"
+      }
+    },
+    {
+      "lat": 6.9442877,
+      "lon": 80.7395956,
+      "tags": {
+        "amenity": "school",
+        "name": "N/GLASSUGH TAMIL VITHIYALAYAM"
+      }
+    },
+    {
+      "lat": 6.9431792,
+      "lon": 80.7329128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.934853,
+      "lon": 80.7333478,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Eastall divisin hindu temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8642198,
+      "lon": 80.6896594,
+      "tags": {
+        "name": "Rohita guest",
+        "phone": "077 782 2675",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9284872,
+      "lon": 80.7209829,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Midhu hotel"
+      }
+    },
+    {
+      "lat": 6.942275,
+      "lon": 80.7438801,
+      "tags": {
+        "building": "train_station",
+        "name": "Nanu Oya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.921923,
+      "lon": 80.686964,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Lindula Divisional Hospital"
+      }
+    },
+    {
+      "lat": 6.9389025,
+      "lon": 80.7465573,
+      "tags": {
+        "amenity": "school",
+        "name": "Nanu Oya James Pieris Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8821642,
+      "lon": 80.6929784,
+      "tags": {
+        "amenity": "school",
+        "name": "Holbrook Tamil Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9149255,
+      "lon": 80.7396111,
+      "tags": {
+        "addr:city": "Nanu Oya",
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "school",
+        "name": "Abbotsford Tamil School"
+      }
+    },
+    {
+      "lat": 6.9104195,
+      "lon": 80.7540064,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8919991,
+      "lon": 80.7513118,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8903343,
+      "lon": 80.7559648,
+      "tags": {
+        "amenity": "school",
+        "name": "CP/N/Elgin tamil vidyalayam"
+      }
+    },
+    {
+      "lat": 6.8818861,
+      "lon": 80.6916932,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8671156,
+      "lon": 80.7439917,
+      "tags": {
+        "addr:full": "*=DAYAGAMA WEST 2ND DIVISION DAYAGAMA",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "sri murugan tambal",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9245742,
+      "lon": 80.7461262,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    }
+  ]
+}

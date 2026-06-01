@@ -1,0 +1,323 @@
+{
+  "cluster_id": 197,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.900507,
+    "lat_max": 8.003588,
+    "lon_min": 79.825521,
+    "lon_max": 79.919755
+  },
+  "outlet_ids": [
+    "OUT_13001",
+    "OUT_13042",
+    "OUT_13235",
+    "OUT_13277",
+    "OUT_13324",
+    "OUT_13374",
+    "OUT_13448",
+    "OUT_13500",
+    "OUT_13709",
+    "OUT_13818",
+    "OUT_13938",
+    "OUT_13945",
+    "OUT_14081",
+    "OUT_14100",
+    "OUT_14113",
+    "OUT_14176",
+    "OUT_14222",
+    "OUT_14333",
+    "OUT_14481",
+    "OUT_14514",
+    "OUT_14547",
+    "OUT_14693",
+    "OUT_14738",
+    "OUT_14824",
+    "OUT_14851",
+    "OUT_14943",
+    "OUT_15048",
+    "OUT_15073",
+    "OUT_15275",
+    "OUT_15318",
+    "OUT_15590",
+    "OUT_15645",
+    "OUT_15649",
+    "OUT_15674",
+    "OUT_15721",
+    "OUT_15795",
+    "OUT_15931",
+    "OUT_16003",
+    "OUT_16037",
+    "OUT_16077",
+    "OUT_16303",
+    "OUT_16403",
+    "OUT_16487",
+    "OUT_16568",
+    "OUT_16656",
+    "OUT_16673",
+    "OUT_16684",
+    "OUT_16868"
+  ],
+  "n_outlets": 48,
+  "n_pois_returned": 28,
+  "scraped_at": "2026-05-16T20:49:42.431453",
+  "elements": [
+    {
+      "lat": 7.962158,
+      "lon": 79.8308253,
+      "tags": {
+        "addr:city": "Erukkalampiddy",
+        "amenity": "place_of_worship",
+        "name": "Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9568537,
+      "lon": 79.8309999,
+      "tags": {
+        "addr:city": "Erukkalampiddy",
+        "amenity": "place_of_worship",
+        "name": "Our Lady of Guadalupe Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.9573318,
+      "lon": 79.8291385,
+      "tags": {
+        "addr:city": "Erukkalampiddy",
+        "amenity": "place_of_worship",
+        "name": "Sri Anandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9782479,
+      "lon": 79.8330053,
+      "tags": {
+        "addr:city": "Palavi",
+        "amenity": "place_of_worship",
+        "name": "Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9807443,
+      "lon": 79.8309158,
+      "tags": {
+        "addr:city": "Palaviya",
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9893421,
+      "lon": 79.8360204,
+      "tags": {
+        "addr:city": "Palavi",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-18",
+        "name": "Kobbekaduwa Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.999094,
+      "lon": 79.8373393,
+      "tags": {
+        "addr:city": "Puttalam",
+        "amenity": "place_of_worship",
+        "name": "Rathmalyaya Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9615801,
+      "lon": 79.8301236,
+      "tags": {
+        "name": "Erukkalampiddy-Nagavillu Railway station",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.9688641,
+      "lon": 79.8512938,
+      "tags": {
+        "description": "Country House Hotel",
+        "email": "Email: relax@grovesrilanka.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Grove",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.978309,
+      "lon": 79.8333209,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Bus stop (to Colombo & Negombo)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.9791343,
+      "lon": 79.8320061,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.9616091,
+      "lon": 79.8305423,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.9180869,
+      "lon": 79.8258417,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.9796439,
+      "lon": 79.8331724,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.9315758,
+      "lon": 79.8267911,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "highway": "bus_stop",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.9790764,
+      "lon": 79.8320884,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.9908839,
+      "lon": 79.851381,
+      "tags": {
+        "name": "Bismi Villa & Rooms",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.9816689,
+      "lon": 79.8328121,
+      "tags": {
+        "building": "yes",
+        "name": "Palavi",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.9985129,
+      "lon": 79.8399805,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9967682,
+      "lon": 79.8451904,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9353587,
+      "lon": 79.8968549,
+      "tags": {
+        "amenity": "school",
+        "name": "Kiulakele Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.9858845,
+      "lon": 79.8804729,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Medhananda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.9859607,
+      "lon": 79.8816375,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhirajapura Sri Thambhapanni Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9694989,
+      "lon": 79.9045395,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.9460378,
+      "lon": 79.9005925,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dharma Vijayarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9649022,
+      "lon": 79.8914302,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.96134,
+      "lon": 79.8940037,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9941713,
+      "lon": 79.8988867,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kalladiya Sri Sugatharama Viharaya",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

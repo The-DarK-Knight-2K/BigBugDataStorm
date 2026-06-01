@@ -1,0 +1,417 @@
+{
+  "cluster_id": 242,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.976196,
+    "lat_max": 7.063628,
+    "lon_min": 80.482158,
+    "lon_max": 80.55498
+  },
+  "outlet_ids": [
+    "OUT_09203",
+    "OUT_09271",
+    "OUT_09324",
+    "OUT_09381",
+    "OUT_09561",
+    "OUT_09591",
+    "OUT_09647",
+    "OUT_09661",
+    "OUT_09772",
+    "OUT_09904",
+    "OUT_10094",
+    "OUT_10173",
+    "OUT_10174",
+    "OUT_10220",
+    "OUT_10297",
+    "OUT_10433",
+    "OUT_10524",
+    "OUT_10534",
+    "OUT_10584",
+    "OUT_10768",
+    "OUT_10815",
+    "OUT_10852",
+    "OUT_11173",
+    "OUT_11197",
+    "OUT_11468",
+    "OUT_11636",
+    "OUT_11700",
+    "OUT_11941",
+    "OUT_11978",
+    "OUT_12083",
+    "OUT_12108",
+    "OUT_12131",
+    "OUT_12163",
+    "OUT_12244",
+    "OUT_12257",
+    "OUT_12389",
+    "OUT_12420",
+    "OUT_12640",
+    "OUT_12708",
+    "OUT_12852"
+  ],
+  "n_outlets": 40,
+  "n_pois_returned": 40,
+  "scraped_at": "2026-05-16T21:01:10.125421",
+  "elements": [
+    {
+      "lat": 6.9860278,
+      "lon": 80.5300581,
+      "tags": {
+        "name": "Galboda",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.018222,
+      "lon": 80.5457206,
+      "tags": {
+        "name": "Inguru Oya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0330481,
+      "lon": 80.530848,
+      "tags": {
+        "name": "Hightenford",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9943143,
+      "lon": 80.5394705,
+      "tags": {
+        "name": "Penrose",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0569486,
+      "lon": 80.5357143,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "amenity": "school",
+        "name": "St.Andrews Girls College"
+      }
+    },
+    {
+      "lat": 7.0528085,
+      "lon": 80.5352495,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "addr:street": "Nawalapitiya - Dimbula Road",
+        "amenity": "hospital",
+        "name": "District General Hospital"
+      }
+    },
+    {
+      "lat": 7.015001,
+      "lon": 80.5333842,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "addr:street": "Galboda Road",
+        "amenity": "place_of_worship",
+        "name": "Siri Amaragiri Viharasthanaya"
+      }
+    },
+    {
+      "lat": 7.0538502,
+      "lon": 80.5341497,
+      "tags": {
+        "addr:city": "nawalapitiya",
+        "amenity": "school",
+        "name": "Kathiresan Hindu Ladies College"
+      }
+    },
+    {
+      "lat": 7.0570102,
+      "lon": 80.5323199,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "amenity": "place_of_worship",
+        "name": "Sri Kaveeshwara Veluwanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0550111,
+      "lon": 80.5329127,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0383986,
+      "lon": 80.5067364,
+      "tags": {
+        "amenity": "school",
+        "name": "Rambukpitiya Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0256539,
+      "lon": 80.4998317,
+      "tags": {
+        "addr:street": "Nawalapitiya - Ginigathena Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhi Rukkharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0511887,
+      "lon": 80.5147518,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uthpalawannaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0269417,
+      "lon": 80.514239,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dharmaraja Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0490563,
+      "lon": 80.5237233,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ashokaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0526951,
+      "lon": 80.5294525,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "amenity": "place_of_worship",
+        "name": "Jethawana Ramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0533167,
+      "lon": 80.5355841,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "addr:street": "Nawalapitiya - Dimbula Road",
+        "amenity": "place_of_worship",
+        "name": "Nawalapitiya Hindu Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.0517355,
+      "lon": 80.5355948,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "addr:street": "Nawalapitiya - Dimbula Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Assembly of God",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0534761,
+      "lon": 80.527334,
+      "tags": {
+        "amenity": "school",
+        "name": "Anuruddha National School"
+      }
+    },
+    {
+      "lat": 7.0583342,
+      "lon": 80.5368306,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2025-11-21",
+        "name": "Sripada Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0298629,
+      "lon": 80.530286,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "addr:street": "Mapakanda Road",
+        "name": "Okwin Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9905174,
+      "lon": 80.4893267,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Ginigathhena Diivisional Hospital"
+      }
+    },
+    {
+      "lat": 6.9859569,
+      "lon": 80.4926473,
+      "tags": {
+        "amenity": "school",
+        "name": "Ginigathhena Central College"
+      }
+    },
+    {
+      "lat": 7.0535075,
+      "lon": 80.5345629,
+      "tags": {
+        "addr:city": "Nawalapitiya",
+        "addr:postcode": "20650",
+        "addr:street": "Soysakelle road",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0522,
+      "lon": 80.5333744,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wedding hall [lotus]"
+      }
+    },
+    {
+      "lat": 7.0518763,
+      "lon": 80.5332922,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "House"
+      }
+    },
+    {
+      "lat": 7.0504542,
+      "lon": 80.5330154,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.0576153,
+      "lon": 80.5350509,
+      "tags": {
+        "area": "yes",
+        "name": "Nawalapitiya",
+        "operator": "Sri Lanka Railway",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0557697,
+      "lon": 80.534605,
+      "tags": {
+        "building": "yes",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0568559,
+      "lon": 80.5319454,
+      "tags": {
+        "amenity": "school",
+        "name": "Anuruddha National School (Primary)"
+      }
+    },
+    {
+      "lat": 6.9880631,
+      "lon": 80.4943958,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Residence"
+      }
+    },
+    {
+      "lat": 6.9881534,
+      "lon": 80.4942703,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Hospital"
+      }
+    },
+    {
+      "lat": 6.9882379,
+      "lon": 80.4941489,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "a1"
+      }
+    },
+    {
+      "lat": 7.0415748,
+      "lon": 80.5236886,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0173756,
+      "lon": 80.4956226,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0404833,
+      "lon": 80.5158048,
+      "tags": {
+        "amenity": "school",
+        "name": "Weligampola Primary School"
+      }
+    },
+    {
+      "lat": 7.0411408,
+      "lon": 80.5164874,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0060542,
+      "lon": 80.5201319,
+      "tags": {
+        "amenity": "school",
+        "name": "Dekinda Sri Dhammaratana Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0153118,
+      "lon": 80.516008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dekinda Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.018672,
+      "lon": 80.4926597,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

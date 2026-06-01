@@ -1,0 +1,92 @@
+{
+  "cluster_id": 284,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.584679,
+    "lat_max": 7.67385,
+    "lon_min": 79.836647,
+    "lon_max": 79.908963
+  },
+  "outlet_ids": [
+    "OUT_13190",
+    "OUT_13266",
+    "OUT_13771",
+    "OUT_13921",
+    "OUT_13962",
+    "OUT_14385",
+    "OUT_14408",
+    "OUT_14919",
+    "OUT_15012",
+    "OUT_15044",
+    "OUT_15078",
+    "OUT_15246",
+    "OUT_15417",
+    "OUT_15439",
+    "OUT_15510",
+    "OUT_16158",
+    "OUT_16168",
+    "OUT_16202",
+    "OUT_16239",
+    "OUT_16463",
+    "OUT_16542",
+    "OUT_16576",
+    "OUT_16694"
+  ],
+  "n_outlets": 23,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T22:06:32.246992",
+  "elements": [
+    {
+      "lat": 7.6262267,
+      "lon": 79.8684526,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6556012,
+      "lon": 79.8392156,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.594129,
+      "lon": 79.8652135,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.6079768,
+      "lon": 79.8514278,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.5859336,
+      "lon": 79.8820155,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.6362052,
+      "lon": 79.8725146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    }
+  ]
+}

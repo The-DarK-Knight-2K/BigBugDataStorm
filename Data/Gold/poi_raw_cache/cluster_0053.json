@@ -1,0 +1,560 @@
+{
+  "cluster_id": 53,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.973598,
+    "lat_max": 6.063441,
+    "lon_min": 80.39658,
+    "lon_max": 80.478102
+  },
+  "outlet_ids": [
+    "OUT_17138",
+    "OUT_17234",
+    "OUT_17263",
+    "OUT_17365",
+    "OUT_17443",
+    "OUT_17458",
+    "OUT_17463",
+    "OUT_17477",
+    "OUT_17715",
+    "OUT_17860",
+    "OUT_17979",
+    "OUT_17998",
+    "OUT_18051",
+    "OUT_18057",
+    "OUT_18061",
+    "OUT_18189",
+    "OUT_18275",
+    "OUT_18285",
+    "OUT_18379",
+    "OUT_18510",
+    "OUT_18555",
+    "OUT_18622",
+    "OUT_18679",
+    "OUT_18837",
+    "OUT_18915",
+    "OUT_18921",
+    "OUT_18930",
+    "OUT_18937",
+    "OUT_18988",
+    "OUT_19033",
+    "OUT_19054",
+    "OUT_19107",
+    "OUT_19153",
+    "OUT_19196",
+    "OUT_19217",
+    "OUT_19249",
+    "OUT_19259",
+    "OUT_19351",
+    "OUT_19363",
+    "OUT_19370",
+    "OUT_19384",
+    "OUT_19507",
+    "OUT_19678",
+    "OUT_19801",
+    "OUT_19820",
+    "OUT_19908",
+    "OUT_19920"
+  ],
+  "n_outlets": 47,
+  "n_pois_returned": 50,
+  "scraped_at": "2026-05-16T20:28:47.315423",
+  "elements": [
+    {
+      "lat": 5.97454,
+      "lon": 80.429743,
+      "tags": {
+        "name": "House of P-mart",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9752499,
+      "lon": 80.4285274,
+      "tags": {
+        "level": "0",
+        "name": "Global Foodcity",
+        "opening_hours": "Mo-Su 08:30-20:30",
+        "operator": "Global Shopping (Pvt) Ltd",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9749081,
+      "lon": 80.4189122,
+      "tags": {
+        "addr:city": "Walana",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name:en": "Weligama District Hospital",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 5.9770616,
+      "lon": 80.4211227,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0513395,
+      "lon": 80.4359263,
+      "tags": {
+        "bench": "no",
+        "destination": "Akuressa",
+        "highway": "bus_stop",
+        "name": "Nimalawa",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.0516375,
+      "lon": 80.4341216,
+      "tags": {
+        "bench": "no",
+        "destination": "Galle",
+        "highway": "bus_stop",
+        "name": "Nimalawa",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.0489375,
+      "lon": 80.4486463,
+      "tags": {
+        "amenity": "school",
+        "name": "\u0db1\u0dd2\u0db8\u0dbd\u0dc0 \u0d9a\u0dab\u0dd2\u0dc2\u0dca\u0da8 \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.0507934,
+      "lon": 80.4590103,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "\u0dad\u0dd9\u0db4\u0dd4\u0daf\u0dd9\u0dab\u0dd2\u0dba \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db6\u0ddd\u0db0\u0dd2\u0dbb\u0dcf\u0da2 \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.974736,
+      "lon": 80.424607,
+      "tags": {
+        "addr:city": "Wligama",
+        "addr:country": "IN",
+        "addr:postcode": "81700",
+        "addr:street": "Hetti weediya",
+        "amenity": "place_of_worship",
+        "name": "BodhiMalu Viaharaya",
+        "name:en": "BodhiMalu Viaharaya",
+        "name:si": "\u0db6\u0ddd\u0db0\u0dd2\u0db8\u0dbd\u0dd4 \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0021298,
+      "lon": 80.4060846,
+      "tags": {
+        "amenity": "school",
+        "name": "Primary School"
+      }
+    },
+    {
+      "lat": 5.9811566,
+      "lon": 80.4509266,
+      "tags": {
+        "amenity": "school",
+        "name": "Denipitiya Primary School"
+      }
+    },
+    {
+      "lat": 6.0231001,
+      "lon": 80.4085627,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Horadugoda puran viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0324547,
+      "lon": 80.4002242,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Divelagoda puran viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.989194,
+      "lon": 80.4580953,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9757548,
+      "lon": 80.4398539,
+      "tags": {
+        "addr:city": "Southern Province",
+        "addr:country": "LK",
+        "addr:town": "Weligama",
+        "alt_name": "Pelena Gangarama Viharaya",
+        "amenity": "place_of_worship",
+        "name": "Gangarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9828792,
+      "lon": 80.4518865,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Denipitiya Market",
+        "opening_hours": "Mo-Su 05:00-9:00"
+      }
+    },
+    {
+      "lat": 6.0204715,
+      "lon": 80.4321902,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9738865,
+      "lon": 80.4376108,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9738022,
+      "lon": 80.4372408,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9737527,
+      "lon": 80.4288468,
+      "tags": {
+        "addr:housenumber": "326",
+        "addr:street": "Old Road",
+        "amenity": "restaurant",
+        "name": "Jesmin",
+        "opening_hours": "Mo-Su 08:00-21:00"
+      }
+    },
+    {
+      "lat": 5.9737514,
+      "lon": 80.4288857,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 5.9738147,
+      "lon": 80.4275865,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ladies Prayer Hall",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 5.9786599,
+      "lon": 80.3980848,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9741638,
+      "lon": 80.4343917,
+      "tags": {
+        "addr:street": "First Street , Hettivveediya Weligama",
+        "amenity": "restaurant",
+        "cuisine": "chicken;curry;asian;coffee_shop;seafood;local;pizza",
+        "internet_access": "wlan",
+        "name": "Baba's Rotty Shop & Restaurant",
+        "phone": "0772600475"
+      }
+    },
+    {
+      "lat": 5.9737578,
+      "lon": 80.4301378,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local",
+        "name:en": "Wonara chinese",
+        "opening_hours": "Mo-Su 08:00-21:00"
+      }
+    },
+    {
+      "lat": 5.9740803,
+      "lon": 80.4333887,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "breakfast;local",
+        "internet_access": "wlan",
+        "name": "Thambily"
+      }
+    },
+    {
+      "lat": 5.973692,
+      "lon": 80.4326857,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 5.9743349,
+      "lon": 80.4357091,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.974212,
+      "lon": 80.4379638,
+      "tags": {
+        "addr:housenumber": "640",
+        "addr:street": "Matara Road",
+        "amenity": "restaurant",
+        "cuisine": "lebanese",
+        "name": "Bay Route"
+      }
+    },
+    {
+      "lat": 5.9736318,
+      "lon": 80.4369489,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Froggy"
+      }
+    },
+    {
+      "lat": 5.9740983,
+      "lon": 80.4331365,
+      "tags": {
+        "addr:street": "Colombo -Matara Road",
+        "amenity": "restaurant",
+        "email": "charithawimalasekara@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "Mom\u2019s kitchen restaurant",
+        "opening_hours": "We-Mo 10:00-22:00",
+        "operator": "Charitha wimalasekara",
+        "phone": "0767418391",
+        "website": "http://momzkit@gmail.com"
+      }
+    },
+    {
+      "lat": 5.9740351,
+      "lon": 80.433129,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mom\u2019s Kitchen Restaurant"
+      }
+    },
+    {
+      "lat": 5.9990605,
+      "lon": 80.4566378,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9743287,
+      "lon": 80.4368598,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 5.9824382,
+      "lon": 80.4423954,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0069448,
+      "lon": 80.4168584,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9746553,
+      "lon": 80.4380462,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:housenumber": "617/3",
+        "addr:postcode": "81700",
+        "addr:street": "A2",
+        "air_conditioning": "yes",
+        "brand": "Wake N Flow",
+        "email": "contact@wakenflow.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wake N Flow, Weligama",
+        "phone": "+94761939791",
+        "rooms": "20",
+        "tourism": "hotel",
+        "website": "https://www.wakenflow.com/"
+      }
+    },
+    {
+      "lat": 5.9741882,
+      "lon": 80.4290099,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 5.9796704,
+      "lon": 80.4183425,
+      "tags": {
+        "name:en": "suvarivi Ayurveda Boutique Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9791484,
+      "lon": 80.4307369,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Traditional Market"
+      }
+    },
+    {
+      "lat": 5.9736664,
+      "lon": 80.4266371,
+      "tags": {
+        "amenity": "restaurant",
+        "contact:instagram": "laybackrooftop",
+        "internet_access": "wlan",
+        "level": "3",
+        "name:en": "Layback"
+      }
+    },
+    {
+      "lat": 5.9743468,
+      "lon": 80.438061,
+      "tags": {
+        "addr:housenumber": "640",
+        "addr:postcode": "81700",
+        "addr:street": "Matara Road",
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza",
+        "email": "contact@pizzahub.lk",
+        "internet_access": "wlan",
+        "name:en": "Pizza Hub Weligama",
+        "opening_hours": "Fr-We 11:00-23:00; Th 15:00-23:00",
+        "phone": "0772929729",
+        "website": "https://www.pizzahub.lk/"
+      }
+    },
+    {
+      "lat": 5.9778865,
+      "lon": 80.440087,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0133399,
+      "lon": 80.4735543,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Udukawa temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9753386,
+      "lon": 80.4301788,
+      "tags": {
+        "brand": "Lanka Sathosa",
+        "building": "yes",
+        "name": "Lanka Sathosa",
+        "opening_hours": "Mo-Su 07:45-19:15",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9756259,
+      "lon": 80.4295677,
+      "tags": {
+        "building": "train_station",
+        "name": "Weligama",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 5.9975235,
+      "lon": 80.4556328,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 5.9738887,
+      "lon": 80.4245976,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Sri Sumangala Girls School"
+      }
+    },
+    {
+      "lat": 5.9741887,
+      "lon": 80.4240214,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "People's Clinic"
+      }
+    },
+    {
+      "lat": 5.9736665,
+      "lon": 80.4397597,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "name": "LG Hotel",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

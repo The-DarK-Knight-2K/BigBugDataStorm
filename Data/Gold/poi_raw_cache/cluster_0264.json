@@ -1,0 +1,553 @@
+{
+  "cluster_id": 264,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.782271000000001,
+    "lat_max": 6.863639,
+    "lon_min": 80.482429,
+    "lon_max": 80.569878
+  },
+  "outlet_ids": [
+    "OUT_09145",
+    "OUT_09200",
+    "OUT_09231",
+    "OUT_09331",
+    "OUT_09339",
+    "OUT_09351",
+    "OUT_09388",
+    "OUT_09622",
+    "OUT_09726",
+    "OUT_09792",
+    "OUT_09835",
+    "OUT_09886",
+    "OUT_10068",
+    "OUT_10128",
+    "OUT_10159",
+    "OUT_10176",
+    "OUT_10265",
+    "OUT_10299",
+    "OUT_10350",
+    "OUT_10360",
+    "OUT_10379",
+    "OUT_10695",
+    "OUT_10900",
+    "OUT_11186",
+    "OUT_11206",
+    "OUT_11220",
+    "OUT_11355",
+    "OUT_11399",
+    "OUT_11423",
+    "OUT_11556",
+    "OUT_11820",
+    "OUT_11861",
+    "OUT_11974",
+    "OUT_12071",
+    "OUT_12072",
+    "OUT_12075",
+    "OUT_12097",
+    "OUT_12280",
+    "OUT_12320",
+    "OUT_12327",
+    "OUT_12437",
+    "OUT_12512",
+    "OUT_12594",
+    "OUT_12820",
+    "OUT_12859",
+    "OUT_12974"
+  ],
+  "n_outlets": 46,
+  "n_pois_returned": 51,
+  "scraped_at": "2026-05-16T21:07:17.922073",
+  "elements": [
+    {
+      "lat": 6.8268187,
+      "lon": 80.5266317,
+      "tags": {
+        "check_date": "2024-08-12",
+        "name": "River View Wathsala Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8258656,
+      "lon": 80.5226937,
+      "tags": {
+        "name": "Punsisi Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8271475,
+      "lon": 80.5261751,
+      "tags": {
+        "name": "White House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8271772,
+      "lon": 80.5263276,
+      "tags": {
+        "name": "White Elephant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8269975,
+      "lon": 80.5257333,
+      "tags": {
+        "name": "Slightly Chilled",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.826893,
+      "lon": 80.5250366,
+      "tags": {
+        "addr:city": "nallathanniya",
+        "addr:housenumber": "32",
+        "addr:postcode": "22070",
+        "addr:street": "Hatton - Maskeliya - Dalhousie Road",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Grand Adamspeak",
+        "operator": "W.M.SHANTHA KUMARA",
+        "rooms": "20",
+        "smoking": "separated",
+        "source": "visit",
+        "stars": "2",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8264161,
+      "lon": 80.5254274,
+      "tags": {
+        "addr:postcode": "22070",
+        "addr:street": "Hatton - Maskeliya - Dalhousie Road",
+        "internet_access": "wlan",
+        "name": "White House Guesthouse",
+        "name:en": "White House Adam's Peak",
+        "source": "visit",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/white-house-guest-house.html"
+      }
+    },
+    {
+      "lat": 6.8095306,
+      "lon": 80.4994213,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Pada Temple (Sri Pada Buddhist Temple)",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7987731,
+      "lon": 80.5564734,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "description": "To/from Maskeliya. From Maskeliya: 7:30, ..., From Gartmore: ..., 12:30, 16:00 (at least every 2\u20133 h)",
+        "highway": "bus_stop",
+        "name": "Gartmore Estate (Rs 100)",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8242225,
+      "lon": 80.5176682,
+      "tags": {
+        "addr:city": "Nallathanniya",
+        "addr:street": "Nallathanniya - Sri Pada footpath",
+        "amenity": "place_of_worship",
+        "name": "Kalpa Wruksha Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8242766,
+      "lon": 80.5193669,
+      "tags": {
+        "addr:street": "Nallathanniya - Sri Pada",
+        "air_conditioning": "no",
+        "bar": "no",
+        "check_date": "2024-08-12",
+        "drinking_water": "yes",
+        "drinking_water:refill:self_service": "yes",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Mango Tree Holiday Bungalow",
+        "swimming_pool": "no",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8265106,
+      "lon": 80.5232774,
+      "tags": {
+        "addr:city": "Nallathanniya",
+        "addr:street": "Hatton - Maskeliya - Dalhousie Road",
+        "name": "Green View Guest Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8261677,
+      "lon": 80.5232448,
+      "tags": {
+        "addr:city": "Nallathanniya",
+        "addr:street": "Hatton - Maskeliya - Dalhousie Road",
+        "name": "Adam's Peak Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8251737,
+      "lon": 80.5208842,
+      "tags": {
+        "addr:street": "Nallathanniya - Sri Pada",
+        "email": "priyanthadhamidu819@gmail.com",
+        "internet_access": "wlan",
+        "name": "PMD Hotel",
+        "phone": "0722537612",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8104097,
+      "lon": 80.4883236,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8228729,
+      "lon": 80.5273381,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.8264085,
+      "lon": 80.5231547,
+      "tags": {
+        "name:en": "Vinish inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8257506,
+      "lon": 80.5226427,
+      "tags": {
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name": "Galle Cafe & Bakery",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "lat": 6.8312854,
+      "lon": 80.5432201,
+      "tags": {
+        "name:en": "Ayos Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8254456,
+      "lon": 80.5251623,
+      "tags": {
+        "name:en": "Pure Land Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8253214,
+      "lon": 80.5206804,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Vijitha hotel and bakery"
+      }
+    },
+    {
+      "lat": 6.830296,
+      "lon": 80.5398394,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sarawana Bhawan Restaurant",
+        "note": "Unresolved note #670026 Very cozy and nice family restaurant/shop. Pleasant place to eat. Created by Martin Kom\u00ednek"
+      }
+    },
+    {
+      "lat": 6.8255627,
+      "lon": 80.522791,
+      "tags": {
+        "name": "Delhousie Hotel Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8472182,
+      "lon": 80.5452233,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "CEB Rest House"
+      }
+    },
+    {
+      "lat": 6.8241761,
+      "lon": 80.5201308,
+      "tags": {
+        "name": "Singh Bro's",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8255699,
+      "lon": 80.5214882,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "old hospital"
+      }
+    },
+    {
+      "lat": 6.8242716,
+      "lon": 80.5208617,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "amman",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.824311,
+      "lon": 80.5202392,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "vinayaga",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8239975,
+      "lon": 80.5186405,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sivan",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8263571,
+      "lon": 80.5234828,
+      "tags": {
+        "air_conditioning": "no",
+        "internet_access": "wlan",
+        "name": "Hugging Clouds",
+        "tourism": "hotel",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.826545,
+      "lon": 80.5234222,
+      "tags": {
+        "name": "Tea Breeze Motel",
+        "tourism": "hotel",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8474495,
+      "lon": 80.5517881,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8247196,
+      "lon": 80.5275568,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.825384,
+      "lon": 80.5209243,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dalhousie (Bus to/from Hatton)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.835974,
+      "lon": 80.5671441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "flood_prone": "yes",
+        "name": "Sri sanmuganathar kovil",
+        "religion": "hindu",
+        "seasonal": "dry_season"
+      }
+    },
+    {
+      "lat": 6.8360033,
+      "lon": 80.5620264,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8314985,
+      "lon": 80.5428506,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8046335,
+      "lon": 80.5696452,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8244965,
+      "lon": 80.5199225,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "level": "0",
+        "name": "Pure Land Villa Rooms and Restaurant",
+        "outdoor_seating": "yes",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.8243372,
+      "lon": 80.520167,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "family restaurant",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8242852,
+      "lon": 80.5062487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Japanese Peace Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.831518,
+      "lon": 80.5419107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "sri muththu maariamman kovil laxsapana",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.824421,
+      "lon": 80.5044786,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8305797,
+      "lon": 80.5302782,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8341839,
+      "lon": 80.5701222,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Joseph's College"
+      }
+    },
+    {
+      "lat": 6.8320781,
+      "lon": 80.5324746,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "valamalai sri muththumariamman temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8335877,
+      "lon": 80.5273643,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8448595,
+      "lon": 80.5406028,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "srijalandanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.844979,
+      "lon": 80.5483913,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Saman Devalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.824753,
+      "lon": 80.5268216,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8315755,
+      "lon": 80.5324823,
+      "tags": {
+        "amenity": "school"
+      }
+    }
+  ]
+}

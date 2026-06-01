@@ -1,0 +1,112 @@
+{
+  "cluster_id": 154,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.844162,
+    "lat_max": 7.924143,
+    "lon_min": 79.839137,
+    "lon_max": 79.944119
+  },
+  "outlet_ids": [
+    "OUT_13034",
+    "OUT_13198",
+    "OUT_13258",
+    "OUT_13261",
+    "OUT_13399",
+    "OUT_13446",
+    "OUT_13619",
+    "OUT_13639",
+    "OUT_13682",
+    "OUT_13744",
+    "OUT_13826",
+    "OUT_13847",
+    "OUT_14393",
+    "OUT_14476",
+    "OUT_14615",
+    "OUT_14753",
+    "OUT_14889",
+    "OUT_14991",
+    "OUT_15142",
+    "OUT_15158",
+    "OUT_15253",
+    "OUT_15526",
+    "OUT_15579",
+    "OUT_15585",
+    "OUT_15616",
+    "OUT_15731",
+    "OUT_15826",
+    "OUT_15857",
+    "OUT_15948",
+    "OUT_16086",
+    "OUT_16138",
+    "OUT_16290",
+    "OUT_16337",
+    "OUT_16474",
+    "OUT_16483",
+    "OUT_16572",
+    "OUT_16698",
+    "OUT_16711",
+    "OUT_16736",
+    "OUT_16941",
+    "OUT_16979"
+  ],
+  "n_outlets": 41,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T20:42:37.606430",
+  "elements": [
+    {
+      "lat": 7.8837799,
+      "lon": 79.8729731,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8961744,
+      "lon": 79.9188705,
+      "tags": {
+        "amenity": "school",
+        "name": "Sohonkalma Primary School"
+      }
+    },
+    {
+      "lat": 7.9083595,
+      "lon": 79.9406379,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8488823,
+      "lon": 79.9033606,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahakubukkadawala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.8476893,
+      "lon": 79.9059194,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Mahakubukkadawala Hospitel"
+      }
+    },
+    {
+      "lat": 7.8715865,
+      "lon": 79.9103558,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sembukuliya tempal",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

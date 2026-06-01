@@ -1,0 +1,102 @@
+{
+  "cluster_id": 95,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.803863,
+    "lat_max": 7.904565,
+    "lon_min": 80.122376,
+    "lon_max": 80.208524
+  },
+  "outlet_ids": [
+    "OUT_13223",
+    "OUT_13643",
+    "OUT_13690",
+    "OUT_13970",
+    "OUT_14010",
+    "OUT_14261",
+    "OUT_14350",
+    "OUT_14502",
+    "OUT_14660",
+    "OUT_14856",
+    "OUT_15049",
+    "OUT_15300",
+    "OUT_15319",
+    "OUT_15381",
+    "OUT_15385",
+    "OUT_15677",
+    "OUT_15748",
+    "OUT_15858",
+    "OUT_15930",
+    "OUT_15935",
+    "OUT_15990",
+    "OUT_16142",
+    "OUT_16210",
+    "OUT_16214",
+    "OUT_16425",
+    "OUT_16455",
+    "OUT_16460",
+    "OUT_16547",
+    "OUT_16814",
+    "OUT_16890",
+    "OUT_16975"
+  ],
+  "n_outlets": 31,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T20:35:17.361096",
+  "elements": [
+    {
+      "lat": 7.8062596,
+      "lon": 80.1683851,
+      "tags": {
+        "amenity": "school",
+        "name": "Halabagala School"
+      }
+    },
+    {
+      "lat": 7.8832535,
+      "lon": 80.1790385,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8302241,
+      "lon": 80.197523,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.804818,
+      "lon": 80.12767,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sulugulu Rajamaha Viharaya, Kadawalagedara",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8051594,
+      "lon": 80.1688881,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8202401,
+      "lon": 80.1552952,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

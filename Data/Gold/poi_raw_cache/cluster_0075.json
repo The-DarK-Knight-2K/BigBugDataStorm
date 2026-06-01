@@ -1,0 +1,670 @@
+{
+  "cluster_id": 75,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.009219,
+    "lat_max": 7.101455,
+    "lon_min": 80.592642,
+    "lon_max": 80.679238
+  },
+  "outlet_ids": [
+    "OUT_09007",
+    "OUT_09008",
+    "OUT_09308",
+    "OUT_09334",
+    "OUT_09387",
+    "OUT_09446",
+    "OUT_09473",
+    "OUT_09600",
+    "OUT_09641",
+    "OUT_09721",
+    "OUT_09746",
+    "OUT_10000",
+    "OUT_10126",
+    "OUT_10148",
+    "OUT_10213",
+    "OUT_10228",
+    "OUT_10289",
+    "OUT_10419",
+    "OUT_10513",
+    "OUT_10562",
+    "OUT_10564",
+    "OUT_10569",
+    "OUT_10755",
+    "OUT_10998",
+    "OUT_11041",
+    "OUT_11043",
+    "OUT_11048",
+    "OUT_11066",
+    "OUT_11104",
+    "OUT_11453",
+    "OUT_11454",
+    "OUT_11634",
+    "OUT_11701",
+    "OUT_11747",
+    "OUT_12045",
+    "OUT_12055",
+    "OUT_12235",
+    "OUT_12310",
+    "OUT_12350",
+    "OUT_12438",
+    "OUT_12500",
+    "OUT_12614",
+    "OUT_12746",
+    "OUT_12846"
+  ],
+  "n_outlets": 44,
+  "n_pois_returned": 71,
+  "scraped_at": "2026-05-16T20:32:06.134683",
+  "elements": [
+    {
+      "lat": 7.0696004,
+      "lon": 80.6044187,
+      "tags": {
+        "addr:city": "Kothmale",
+        "amenity": "place_of_worship",
+        "name": "Mahaweli Maha Seya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0769833,
+      "lon": 80.6756314,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.1001736,
+      "lon": 80.6417578,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nawakadadora"
+      }
+    },
+    {
+      "lat": 7.1003492,
+      "lon": 80.6432759,
+      "tags": {
+        "amenity": "school",
+        "name": "Delta Gemunupura College"
+      }
+    },
+    {
+      "lat": 7.0419312,
+      "lon": 80.6320814,
+      "tags": {
+        "amenity": "school",
+        "name": "Rojasangama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0507993,
+      "lon": 80.662839,
+      "tags": {
+        "amenity": "school",
+        "name": "Niyamgamdora School"
+      }
+    },
+    {
+      "lat": 7.0752334,
+      "lon": 80.6752056,
+      "tags": {
+        "bus": "yes",
+        "description": "All buses stop at this location for a refreshing break, small road side restaurant open 24/7.  best place to catch a bus.",
+        "highway": "bus_stop",
+        "name": "BUS STOP - refreshing point",
+        "operator": "Private & government own busses",
+        "public_transport": "platform",
+        "restaurant": "yes",
+        "toilets": "yes"
+      }
+    },
+    {
+      "lat": 7.0988516,
+      "lon": 80.6438876,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.0753267,
+      "lon": 80.6754276,
+      "tags": {
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "place_of_worship",
+        "name": "Sugatharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0792332,
+      "lon": 80.6581843,
+      "tags": {
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "school",
+        "name": "Weerasekara collge"
+      }
+    },
+    {
+      "lat": 7.0499786,
+      "lon": 80.661673,
+      "tags": {
+        "alt_name": "Niyangandora Rajamaha Viharaya",
+        "amenity": "place_of_worship",
+        "name": "Niyangamdora Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0143335,
+      "lon": 80.6652635,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Punduloya Buddhist Temble",
+        "name:en": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0805056,
+      "lon": 80.6603307,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Helbodagama"
+      }
+    },
+    {
+      "lat": 7.0790136,
+      "lon": 80.6634111,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Abagahamula"
+      }
+    },
+    {
+      "lat": 7.0448561,
+      "lon": 80.6485422,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0552434,
+      "lon": 80.6483431,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pusulpitiya Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0571505,
+      "lon": 80.6508464,
+      "tags": {
+        "amenity": "school",
+        "name": "Hadunuwewa Central Collage"
+      }
+    },
+    {
+      "lat": 7.0772687,
+      "lon": 80.6229731,
+      "tags": {
+        "amenity": "place_of_worship",
+        "fixme": "Religion and name"
+      }
+    },
+    {
+      "lat": 7.0092701,
+      "lon": 80.6383932,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0439088,
+      "lon": 80.617083,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Tispanekanda Sri Gunaratana Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0796499,
+      "lon": 80.67323,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.0801783,
+      "lon": 80.671811,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0342844,
+      "lon": 80.6208394,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thispane Sri Isipathanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0161098,
+      "lon": 80.6649292,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.0147298,
+      "lon": 80.6671192,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "punduloya vinayagar alayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.0126592,
+      "lon": 80.6710435,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "amman kovil"
+      }
+    },
+    {
+      "lat": 7.014361,
+      "lon": 80.6652645,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "buddha statue"
+      }
+    },
+    {
+      "lat": 7.0178954,
+      "lon": 80.6731356,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri muthumari amman temple"
+      }
+    },
+    {
+      "lat": 7.0219176,
+      "lon": 80.6790585,
+      "tags": {
+        "amenity": "school",
+        "name": "North Punduloya T.V School"
+      }
+    },
+    {
+      "lat": 7.0129588,
+      "lon": 80.669151,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Punduloya Pentecostal Assembies Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0135673,
+      "lon": 80.6673045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Sebastian Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.013624,
+      "lon": 80.6676418,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Masjidhun Nooraniyyah Thaikkah",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0784514,
+      "lon": 80.6791093,
+      "tags": {
+        "name": "The view at glenloch",
+        "phone": "077 881 2833",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.014691,
+      "lon": 80.6701294,
+      "tags": {
+        "name": "Serenemo",
+        "phone": "077 555 1007",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0997369,
+      "lon": 80.6425157,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0680674,
+      "lon": 80.6741194,
+      "tags": {
+        "addr:city": "Katukitula",
+        "amenity": "place_of_worship",
+        "name": "Puwakmal pidugoda viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0493649,
+      "lon": 80.605557,
+      "tags": {
+        "amenity": "school",
+        "name": "Tyspane Kanda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0711552,
+      "lon": 80.6429107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mawela Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0638545,
+      "lon": 80.624553,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Morape Kataragama Maha Devalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0662648,
+      "lon": 80.627592,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rajagiri Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0620365,
+      "lon": 80.6330596,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Yathurugahu Liyadda Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0628683,
+      "lon": 80.6337556,
+      "tags": {
+        "amenity": "school",
+        "name": "Maswela Gamunu Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0727903,
+      "lon": 80.6725604,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0347832,
+      "lon": 80.6079209,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0550942,
+      "lon": 80.6749564,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ambatahalawa Pragna Pradeepa Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0812374,
+      "lon": 80.6077704,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0990082,
+      "lon": 80.644335,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Delta Gemunupura Gemunuraja Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0785883,
+      "lon": 80.6578606,
+      "tags": {
+        "amenity": "school",
+        "name": "Weerasekara Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0700732,
+      "lon": 80.6648699,
+      "tags": {
+        "amenity": "school",
+        "name": "Delumthalamda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0214579,
+      "lon": 80.6466114,
+      "tags": {
+        "amenity": "school",
+        "name": "Halpola School"
+      }
+    },
+    {
+      "lat": 7.020097,
+      "lon": 80.6405698,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0187782,
+      "lon": 80.6268039,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0454654,
+      "lon": 80.6449559,
+      "tags": {
+        "amenity": "school",
+        "name": "Rathanasara Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0282169,
+      "lon": 80.6472289,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Maldeniya Hospital"
+      }
+    },
+    {
+      "lat": 7.0281651,
+      "lon": 80.6452522,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0357422,
+      "lon": 80.6301926,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.032224,
+      "lon": 80.6116277,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Abhayapura Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0353829,
+      "lon": 80.6174863,
+      "tags": {
+        "amenity": "school",
+        "name": "Medhananda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0142516,
+      "lon": 80.5966647,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0149112,
+      "lon": 80.5961047,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0396238,
+      "lon": 80.600523,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0360037,
+      "lon": 80.5984836,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nawathispane Sri Gnanodaya Buddhist Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0396645,
+      "lon": 80.6036524,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nawathispane Sri Sudharshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1001261,
+      "lon": 80.6382725,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.014579,
+      "lon": 80.6676959,
+      "tags": {
+        "amenity": "school",
+        "name": "punduloya TMV",
+        "name:en": "Pundaluoya Tamil Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.017876,
+      "lon": 80.6731425,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri muththu mari amman kovil"
+      }
+    },
+    {
+      "lat": 7.0154112,
+      "lon": 80.6705281,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.0122889,
+      "lon": 80.6677714,
+      "tags": {
+        "amenity": "school",
+        "landuse": "religious",
+        "name": "Punduloya Pentecostal Assembies Church"
+      }
+    },
+    {
+      "lat": 7.0681067,
+      "lon": 80.6739743,
+      "tags": {
+        "addr:city": "Katukitula",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Puwakmal pidugoda viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.031287,
+      "lon": 80.6571116,
+      "tags": {
+        "amenity": "school",
+        "name": "Kumbaloluwa Vidyalaya",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 7.0310514,
+      "lon": 80.656776,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kumbaloluwagama Temple",
+        "religion": "buddhist",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

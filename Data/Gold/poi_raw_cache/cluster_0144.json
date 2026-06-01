@@ -1,0 +1,93 @@
+{
+  "cluster_id": 144,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.687572,
+    "lat_max": 7.768651,
+    "lon_min": 80.009775,
+    "lon_max": 80.11311
+  },
+  "outlet_ids": [
+    "OUT_13172",
+    "OUT_13355",
+    "OUT_13459",
+    "OUT_13486",
+    "OUT_13959",
+    "OUT_14020",
+    "OUT_14043",
+    "OUT_14145",
+    "OUT_14527",
+    "OUT_14551",
+    "OUT_14602",
+    "OUT_14608",
+    "OUT_14704",
+    "OUT_14903",
+    "OUT_14997",
+    "OUT_15276",
+    "OUT_15326",
+    "OUT_15442",
+    "OUT_15686",
+    "OUT_15804",
+    "OUT_15843",
+    "OUT_15949",
+    "OUT_16067",
+    "OUT_16081",
+    "OUT_16101",
+    "OUT_16122",
+    "OUT_16295",
+    "OUT_16307",
+    "OUT_16974"
+  ],
+  "n_outlets": 29,
+  "n_pois_returned": 5,
+  "scraped_at": "2026-05-16T20:41:03.040883",
+  "elements": [
+    {
+      "lat": 7.7434081,
+      "lon": 80.0290671,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7435055,
+      "lon": 80.0572352,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mahinda Restaurant - \u0db8\u0dc4\u0dd2\u0db1\u0dca\u0daf \u0d86\u0db4\u0db1 \u0dc1\u0dcf\u0dbd\u0dcf\u0dc0",
+        "opening_hours": "Mo-Su 06:00-21:00"
+      }
+    },
+    {
+      "lat": 7.7438255,
+      "lon": 80.1115001,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vishawakeerithi Maha Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7510277,
+      "lon": 80.1136451,
+      "tags": {
+        "amenity": "school",
+        "name": "Jayanthi Central College"
+      }
+    },
+    {
+      "lat": 7.7689949,
+      "lon": 80.0769961,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

@@ -1,0 +1,604 @@
+{
+  "cluster_id": 202,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.0111300000000005,
+    "lat_max": 6.101635,
+    "lon_min": 80.259676,
+    "lon_max": 80.340984
+  },
+  "outlet_ids": [
+    "OUT_17018",
+    "OUT_17020",
+    "OUT_17141",
+    "OUT_17257",
+    "OUT_17386",
+    "OUT_17544",
+    "OUT_17567",
+    "OUT_17601",
+    "OUT_17631",
+    "OUT_17780",
+    "OUT_17879",
+    "OUT_18046",
+    "OUT_18070",
+    "OUT_18123",
+    "OUT_18126",
+    "OUT_18223",
+    "OUT_18345",
+    "OUT_18390",
+    "OUT_18393",
+    "OUT_18395",
+    "OUT_18452",
+    "OUT_18462",
+    "OUT_18627",
+    "OUT_18633",
+    "OUT_18776",
+    "OUT_18928",
+    "OUT_18946",
+    "OUT_19014",
+    "OUT_19056",
+    "OUT_19105",
+    "OUT_19231",
+    "OUT_19301",
+    "OUT_19416",
+    "OUT_19418",
+    "OUT_19669",
+    "OUT_19880",
+    "OUT_19896",
+    "OUT_19931",
+    "OUT_19944",
+    "OUT_19950",
+    "OUT_19951",
+    "OUT_19980"
+  ],
+  "n_outlets": 42,
+  "n_pois_returned": 60,
+  "scraped_at": "2026-05-16T20:55:14.204633",
+  "elements": [
+    {
+      "lat": 6.0757994,
+      "lon": 80.2628101,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "rathjambugaha junction",
+        "name": "Rathjambugahg junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0777582,
+      "lon": 80.2756728,
+      "tags": {
+        "highway": "bus_stop",
+        "local_ref": "Kuranguwaththa handiya",
+        "name": "kurunduwaththa junction"
+      }
+    },
+    {
+      "lat": 6.0795413,
+      "lon": 80.2843538,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Hiyare handiya",
+        "name": "Hiyare junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0808518,
+      "lon": 80.2857522,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Jayanthi handiya",
+        "name": "Jayanthi handiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0913671,
+      "lon": 80.3066919,
+      "tags": {
+        "addr:street": "Galle - Udugama Road",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Galgoda handiya",
+        "name": "Galgoda handiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0921712,
+      "lon": 80.3067649,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.095198,
+      "lon": 80.3059255,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Kottawa usawiya handiya",
+        "name": "Magistrate court ,kottawa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0250013,
+      "lon": 80.2610505,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Yatagala Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0224566,
+      "lon": 80.2613797,
+      "tags": {
+        "amenity": "school",
+        "name": "Yatagala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0202289,
+      "lon": 80.261141,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Meegaha",
+        "name:en": "Meegahawaththa"
+      }
+    },
+    {
+      "lat": 6.0192228,
+      "lon": 80.2724161,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Maligakanda Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0190415,
+      "lon": 80.2681996,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Polduwa Sri Sunandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0162244,
+      "lon": 80.2773994,
+      "tags": {
+        "amenity": "school",
+        "name": "Shariputhra Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0111834,
+      "lon": 80.287672,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Dhammaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0779813,
+      "lon": 80.2744712,
+      "tags": {
+        "amenity": "school",
+        "designation": "Government School",
+        "name": "Sri Sumangala Navodya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0794439,
+      "lon": 80.2844478,
+      "tags": {
+        "addr:street": "Hiyare Junction",
+        "amenity": "place_of_worship",
+        "name": "Neegrodharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.011922,
+      "lon": 80.3116018,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "amenity": "place_of_worship",
+        "name": "Harumalgoda Mandalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0374,
+      "lon": 80.2931094,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pilana Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0520726,
+      "lon": 80.2847011,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sumangala Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.040058,
+      "lon": 80.3052068,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dorape Sri Premananda Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0392035,
+      "lon": 80.304581,
+      "tags": {
+        "amenity": "school",
+        "name": "Dorape Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0367362,
+      "lon": 80.294554,
+      "tags": {
+        "amenity": "school",
+        "name": "Pilana Vidyarthodaya Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0351121,
+      "lon": 80.314359,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0346679,
+      "lon": 80.3151505,
+      "tags": {
+        "amenity": "school",
+        "name": "Angulugaha Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0291232,
+      "lon": 80.2910893,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0231824,
+      "lon": 80.2647239,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "The Paddy House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0194364,
+      "lon": 80.2676608,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Kadolana Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0171935,
+      "lon": 80.2708343,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Villa Duminda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.016403,
+      "lon": 80.2719558,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Stars Moon Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.037923,
+      "lon": 80.2956696,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ulu Kade Bus Stop"
+      }
+    },
+    {
+      "lat": 6.0372356,
+      "lon": 80.3037803,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bogahagoda"
+      }
+    },
+    {
+      "lat": 6.0467326,
+      "lon": 80.2900275,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Mulana Junction",
+        "name:si": "\u0db8\u0dd4\u0dbd\u0db1 \u0dc4\u0db1\u0dca\u0daf\u0dd2\u0dba"
+      }
+    },
+    {
+      "lat": 6.0693566,
+      "lon": 80.2697294,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0224958,
+      "lon": 80.2697485,
+      "tags": {
+        "name:en": "Pepper Jungle House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0218061,
+      "lon": 80.3365188,
+      "tags": {
+        "name": "Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0152721,
+      "lon": 80.2677163,
+      "tags": {
+        "addr:street": "Heenatigala Road",
+        "name:en": "Kaju green",
+        "phone": "+94763601243",
+        "tourism": "hotel",
+        "website": "https://www.kajugreen.com/"
+      }
+    },
+    {
+      "lat": 6.0658573,
+      "lon": 80.2964383,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0622606,
+      "lon": 80.2805449,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0512222,
+      "lon": 80.2904195,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.043147,
+      "lon": 80.2814636,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Meegoda Sri Poorwaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0265334,
+      "lon": 80.3086491,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Welikonda Sri Sandassanarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0291282,
+      "lon": 80.2646296,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Fort Edge Retreat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0157229,
+      "lon": 80.2682908,
+      "tags": {
+        "addr:city": "unawatuna",
+        "addr:housenumber": "Godagewatta",
+        "addr:postcode": "80600",
+        "addr:street": "Metaramba",
+        "air_conditioning": "yes",
+        "contact:facebook": "https://www.facebook.com/kamiunawatuna/",
+        "description": "Kami Unawatuna is a calm and cozy villa tucked slightly away from the busy beachside, offering a peaceful retreat surrounded by tropical greenery. It\u2019s a place where you can unwind, enjoy quiet mornings, and feel the slow, relaxed rhythm of Unawatuna.",
+        "email": "kamiunawatuna@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kami Unawatuna",
+        "opening_hours": "24/7",
+        "phone": "+94772835828",
+        "reservation": "required",
+        "rooms": "6",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/kami-unawatuna.html"
+      }
+    },
+    {
+      "lat": 6.0780927,
+      "lon": 80.2741019,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0780389,
+      "lon": 80.2748981,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0782262,
+      "lon": 80.2744547,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0780513,
+      "lon": 80.2742766,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0120652,
+      "lon": 80.3122022,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.0114849,
+      "lon": 80.306424,
+      "tags": {
+        "amenity": "hospital",
+        "operator": "Kalugala Hospital - Meepe"
+      }
+    },
+    {
+      "lat": 6.0693024,
+      "lon": 80.297431,
+      "tags": {
+        "amenity": "school",
+        "name": "Hiyare Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0674534,
+      "lon": 80.3313074,
+      "tags": {
+        "amenity": "school",
+        "name": "Hiyare East Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0730987,
+      "lon": 80.3387293,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Mahendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0584198,
+      "lon": 80.2597216,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Andayamgodella Sri Khettaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0394568,
+      "lon": 80.2845629,
+      "tags": {
+        "addr:street": "Galle - Deniyaya - Madampe Road (Akuressa Road)",
+        "amenity": "school",
+        "name": "Pilana Thakshila Primary School"
+      }
+    },
+    {
+      "lat": 6.027415,
+      "lon": 80.3094759,
+      "tags": {
+        "amenity": "school",
+        "name": "Welikonda Sri Jeewananda Primary School"
+      }
+    },
+    {
+      "lat": 6.0515988,
+      "lon": 80.2861963,
+      "tags": {
+        "amenity": "school",
+        "name": "Ankokkawala Sri Sumangala Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.077398,
+      "lon": 80.3111358,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0776677,
+      "lon": 80.3102121,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0138682,
+      "lon": 80.307085,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "house",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1007569,
+      "lon": 80.3116615,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

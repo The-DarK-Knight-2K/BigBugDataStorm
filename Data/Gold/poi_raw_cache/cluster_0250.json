@@ -1,0 +1,125 @@
+{
+  "cluster_id": 250,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.839459000000001,
+    "lat_max": 7.9322729999999995,
+    "lon_min": 80.028142,
+    "lon_max": 80.11336
+  },
+  "outlet_ids": [
+    "OUT_13053",
+    "OUT_13103",
+    "OUT_13259",
+    "OUT_13284",
+    "OUT_13377",
+    "OUT_13628",
+    "OUT_13804",
+    "OUT_13956",
+    "OUT_14445",
+    "OUT_14461",
+    "OUT_14520",
+    "OUT_14588",
+    "OUT_14854",
+    "OUT_14911",
+    "OUT_14916",
+    "OUT_14954",
+    "OUT_14974",
+    "OUT_15054",
+    "OUT_15401",
+    "OUT_15675",
+    "OUT_15765",
+    "OUT_15772",
+    "OUT_15789",
+    "OUT_16023",
+    "OUT_16157",
+    "OUT_16172",
+    "OUT_16232",
+    "OUT_16383",
+    "OUT_16415",
+    "OUT_16570",
+    "OUT_16612",
+    "OUT_16642",
+    "OUT_16835",
+    "OUT_16865"
+  ],
+  "n_outlets": 34,
+  "n_pois_returned": 8,
+  "scraped_at": "2026-05-16T21:03:02.079110",
+  "elements": [
+    {
+      "lat": 7.9138787,
+      "lon": 80.0449778,
+      "tags": {
+        "amenity": "school",
+        "name": "Vimalarathna kumaragama school"
+      }
+    },
+    {
+      "lat": 7.8821849,
+      "lon": 80.1010153,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8549165,
+      "lon": 80.0735106,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahamithawa Sri Sumittaramaya Tampita Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8941352,
+      "lon": 80.1128408,
+      "tags": {
+        "addr:city": "BANJUL",
+        "amenity": "place_of_worship",
+        "name": "MASJID",
+        "religion": "muslim",
+        "service_times": "Mo-Su"
+      }
+    },
+    {
+      "lat": 7.8930667,
+      "lon": 80.1129261,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 7.8549169,
+      "lon": 80.0614676,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8816658,
+      "lon": 80.101039,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.855192,
+      "lon": 80.0738066,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

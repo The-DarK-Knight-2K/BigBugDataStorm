@@ -1,0 +1,482 @@
+{
+  "cluster_id": 174,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.934534,
+    "lat_max": 7.011671,
+    "lon_min": 80.650012,
+    "lon_max": 80.751498
+  },
+  "outlet_ids": [
+    "OUT_09097",
+    "OUT_09179",
+    "OUT_09291",
+    "OUT_09300",
+    "OUT_09316",
+    "OUT_09445",
+    "OUT_09539",
+    "OUT_09559",
+    "OUT_09701",
+    "OUT_09762",
+    "OUT_09801",
+    "OUT_09969",
+    "OUT_09979",
+    "OUT_10011",
+    "OUT_10058",
+    "OUT_10087",
+    "OUT_10109",
+    "OUT_10154",
+    "OUT_10245",
+    "OUT_10332",
+    "OUT_10430",
+    "OUT_10460",
+    "OUT_10540",
+    "OUT_10570",
+    "OUT_10664",
+    "OUT_10666",
+    "OUT_10786",
+    "OUT_10901",
+    "OUT_10979",
+    "OUT_11110",
+    "OUT_11205",
+    "OUT_11286",
+    "OUT_11327",
+    "OUT_11641",
+    "OUT_11739",
+    "OUT_11788",
+    "OUT_12010",
+    "OUT_12015",
+    "OUT_12024",
+    "OUT_12110",
+    "OUT_12222",
+    "OUT_12255",
+    "OUT_12263",
+    "OUT_12346",
+    "OUT_12354",
+    "OUT_12504",
+    "OUT_12579",
+    "OUT_12617",
+    "OUT_12779",
+    "OUT_12798",
+    "OUT_12815",
+    "OUT_12928",
+    "OUT_12962",
+    "OUT_12980"
+  ],
+  "n_outlets": 54,
+  "n_pois_returned": 44,
+  "scraped_at": "2026-05-16T20:46:23.512342",
+  "elements": [
+    {
+      "lat": 6.9688843,
+      "lon": 80.6528447,
+      "tags": {
+        "name": "Watagoda",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9572412,
+      "lon": 80.6891016,
+      "tags": {
+        "alt:MSL": "1464",
+        "name": "Great Western",
+        "railway": "station",
+        "wikipedia": "en:Great Western railway station"
+      }
+    },
+    {
+      "lat": 6.9400481,
+      "lon": 80.6609908,
+      "tags": {
+        "name": "Talawakele",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9420663,
+      "lon": 80.7436484,
+      "tags": {
+        "name": "Nanu Oya",
+        "railway": "station",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9448004,
+      "lon": 80.716728,
+      "tags": {
+        "name": "Radella",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9810811,
+      "lon": 80.7463364,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shanthipura Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9407427,
+      "lon": 80.7440644,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nanu Oya"
+      }
+    },
+    {
+      "lat": 6.9390365,
+      "lon": 80.7408058,
+      "tags": {
+        "addr:city": "Nanu Oya",
+        "addr:street": "Hatton-Nuwara Eliya Road",
+        "amenity": "place_of_worship",
+        "name": "Nanu Oya Sri Wardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9868067,
+      "lon": 80.7449204,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:street": "Shanthipura Road",
+        "name": "Universal green hills",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9385097,
+      "lon": 80.746623,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9409111,
+      "lon": 80.744311,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Zam Zam"
+      }
+    },
+    {
+      "lat": 6.9905458,
+      "lon": 80.7476822,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Top Terrace Cottage",
+        "name:nl": "Top Terrace Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9384537,
+      "lon": 80.6896039,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rathnagiriya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.946011,
+      "lon": 80.6527032,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.937224,
+      "lon": 80.6616944,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9365451,
+      "lon": 80.6610078,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.93591,
+      "lon": 80.6631428,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0062297,
+      "lon": 80.6882713,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Galge Purana Dewalaya",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9436652,
+      "lon": 80.7397239,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "GLASSUGH A.A.DIVISION HOSPITAL"
+      }
+    },
+    {
+      "lat": 6.942405,
+      "lon": 80.7444972,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "NANUOYA HOSPITAL"
+      }
+    },
+    {
+      "lat": 6.9395159,
+      "lon": 80.7411485,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.9433109,
+      "lon": 80.7356127,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "hindu temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9355885,
+      "lon": 80.7353668,
+      "tags": {
+        "addr:city": "Nanuoya",
+        "addr:street": "Radella Short Cut Road",
+        "amenity": "school",
+        "name": "CP/N/Nawalar  College",
+        "name:ta": "\u0bae\u0bae\u0bbe/\u0ba8\u0bc1/\u0ba8\u0bbe\u0bb5\u0bb2\u0bb0\u0bcd \u0b95\u0bb2\u0bcd\u0bb2\u0bc2\u0bb0\u0bbf"
+      }
+    },
+    {
+      "lat": 6.9442877,
+      "lon": 80.7395956,
+      "tags": {
+        "amenity": "school",
+        "name": "N/GLASSUGH TAMIL VITHIYALAYAM"
+      }
+    },
+    {
+      "lat": 6.9431792,
+      "lon": 80.7329128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.934853,
+      "lon": 80.7333478,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Eastall divisin hindu temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9479856,
+      "lon": 80.6504274,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9468782,
+      "lon": 80.6517705,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.943807,
+      "lon": 80.653805,
+      "tags": {
+        "name": "Royal mount guest & rest",
+        "phone": "077 004 6030",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9382954,
+      "lon": 80.6612982,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Victory hotel"
+      }
+    },
+    {
+      "lat": 6.93853,
+      "lon": 80.6612917,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shree Lakshana's kitchen"
+      }
+    },
+    {
+      "lat": 6.9689418,
+      "lon": 80.7447565,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "lutheran",
+        "name": "Lutheran Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9710371,
+      "lon": 80.7461378,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Kandapillaiyar Temple-Oliphant",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9698155,
+      "lon": 80.7450456,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Sri Kathirvelauthaswami Temple-Oliphant",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9701404,
+      "lon": 80.7448078,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Muneeswaran Temple-Oliphant",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9702312,
+      "lon": 80.7454095,
+      "tags": {
+        "addr:city": "Nuwara Eliya",
+        "addr:postcode": "22200",
+        "addr:street": "Oliphant Middle Division Road",
+        "amenity": "place_of_worship",
+        "denomination": "hindu",
+        "name": "Sri Muthumariamman Temple-Oliphant",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9698,
+      "lon": 80.6525871,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dilakshan Hotel"
+      }
+    },
+    {
+      "lat": 6.942275,
+      "lon": 80.7438801,
+      "tags": {
+        "building": "train_station",
+        "name": "Nanu Oya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9389025,
+      "lon": 80.7465573,
+      "tags": {
+        "amenity": "school",
+        "name": "Nanu Oya James Pieris Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0054619,
+      "lon": 80.7333239,
+      "tags": {
+        "amenity": "school",
+        "name": "Kikiliyamana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9392193,
+      "lon": 80.6610441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kathiresan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9508492,
+      "lon": 80.6819013,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9763752,
+      "lon": 80.7476231,
+      "tags": {
+        "email": "reservations@boutiquecollectionbyamaya.com",
+        "internet_access": "wlan",
+        "name": "Oliphant Boutique Villa by Amaya",
+        "operator": "Amaya",
+        "phone": "+94522224192",
+        "stars": "4",
+        "tourism": "hotel",
+        "website": "https://www.boutiquecollectionbyamaya.com/oliphant/"
+      }
+    },
+    {
+      "lat": 6.9352926,
+      "lon": 80.665347,
+      "tags": {
+        "addr:full": "DAYAGAMA WEST 2ND DIVISION",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "school",
+        "name": "Dell Tamil Vidyayam"
+      }
+    }
+  ]
+}

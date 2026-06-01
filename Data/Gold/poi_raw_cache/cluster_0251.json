@@ -1,0 +1,518 @@
+{
+  "cluster_id": 251,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.117332,
+    "lat_max": 7.208442,
+    "lon_min": 79.782327,
+    "lon_max": 79.851889
+  },
+  "outlet_ids": [
+    "OUT_00137",
+    "OUT_00309",
+    "OUT_00509",
+    "OUT_00608",
+    "OUT_00623",
+    "OUT_00702",
+    "OUT_00713",
+    "OUT_00723",
+    "OUT_00753",
+    "OUT_00874",
+    "OUT_00908",
+    "OUT_01124",
+    "OUT_01196",
+    "OUT_01243",
+    "OUT_01250",
+    "OUT_01490",
+    "OUT_01570",
+    "OUT_01642",
+    "OUT_01787",
+    "OUT_01848",
+    "OUT_01855",
+    "OUT_01933",
+    "OUT_01981",
+    "OUT_02019",
+    "OUT_02031",
+    "OUT_02152",
+    "OUT_02355",
+    "OUT_02388",
+    "OUT_02401",
+    "OUT_02450",
+    "OUT_02464",
+    "OUT_02470",
+    "OUT_02644",
+    "OUT_02689",
+    "OUT_02776",
+    "OUT_02805",
+    "OUT_02847",
+    "OUT_02921",
+    "OUT_03039",
+    "OUT_03261",
+    "OUT_03412",
+    "OUT_03675",
+    "OUT_03734",
+    "OUT_03744",
+    "OUT_03970",
+    "OUT_04051",
+    "OUT_04176",
+    "OUT_04217",
+    "OUT_04225",
+    "OUT_04242",
+    "OUT_04295",
+    "OUT_04377",
+    "OUT_04459",
+    "OUT_04498",
+    "OUT_04556",
+    "OUT_04724",
+    "OUT_04770",
+    "OUT_04878",
+    "OUT_05021",
+    "OUT_05157",
+    "OUT_05288",
+    "OUT_05307",
+    "OUT_05638",
+    "OUT_05822",
+    "OUT_05853",
+    "OUT_06033",
+    "OUT_06037",
+    "OUT_06331",
+    "OUT_06386",
+    "OUT_06475",
+    "OUT_06518",
+    "OUT_06565",
+    "OUT_06635",
+    "OUT_06755",
+    "OUT_06781",
+    "OUT_06934",
+    "OUT_06967",
+    "OUT_07071",
+    "OUT_07165",
+    "OUT_07231",
+    "OUT_07245",
+    "OUT_07327",
+    "OUT_07398",
+    "OUT_07464",
+    "OUT_07476",
+    "OUT_07523",
+    "OUT_07538",
+    "OUT_07794",
+    "OUT_07823",
+    "OUT_07906",
+    "OUT_08201",
+    "OUT_08272",
+    "OUT_08299",
+    "OUT_08389",
+    "OUT_08490",
+    "OUT_08512",
+    "OUT_08786",
+    "OUT_08880",
+    "OUT_08890"
+  ],
+  "n_outlets": 99,
+  "n_pois_returned": 41,
+  "scraped_at": "2026-05-16T21:03:06.470209",
+  "elements": [
+    {
+      "lat": 7.2062846,
+      "lon": 79.8507916,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2066171,
+      "lon": 79.8450894,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Penticost Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2055579,
+      "lon": 79.8387413,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Jude's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1369898,
+      "lon": 79.8346787,
+      "tags": {
+        "name": "Cashew Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1237593,
+      "lon": 79.8404844,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Sanctuary House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1353023,
+      "lon": 79.8387041,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Lagoon Paradise",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1177283,
+      "lon": 79.8408707,
+      "tags": {
+        "amenity": "school",
+        "name": "Kapungoda Secondary School"
+      }
+    },
+    {
+      "lat": 7.2060809,
+      "lon": 79.846306,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Fransiscan Convent"
+      }
+    },
+    {
+      "lat": 7.2070237,
+      "lon": 79.8426303,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Gayan Hotel"
+      }
+    },
+    {
+      "lat": 7.2062941,
+      "lon": 79.8408595,
+      "tags": {
+        "brand": "Sathosa",
+        "brand:wikidata": "Q96386898",
+        "name": "Sathosa",
+        "name:en": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1583831,
+      "lon": 79.8317784,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Lagoon Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2071847,
+      "lon": 79.8369689,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Kings Island Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2074637,
+      "lon": 79.8385602,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Villa Schneck",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.199438,
+      "lon": 79.8505889,
+      "tags": {
+        "name": "Keells super",
+        "opening_hours": "Mo-Su 08:30-22:30",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.206504,
+      "lon": 79.8506783,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "name:signed": "no",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.1949182,
+      "lon": 79.8340626,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Holy Cross Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2059458,
+      "lon": 79.8405923,
+      "tags": {
+        "name": "cargill\u2019s food store",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.142221,
+      "lon": 79.8322907,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:country": "LK",
+        "addr:housenumber": "64",
+        "addr:street": "Pamunugama Road",
+        "amenity": "restaurant",
+        "name": "Gum Bayya",
+        "opening_hours": "Mo-Th 10:30-23:00; Fr,Sa 10:30-00:45",
+        "phone": "+077 154 7999",
+        "website": "https://gumbayyarestaurant-restaurant.business.site/"
+      }
+    },
+    {
+      "lat": 7.1948042,
+      "lon": 79.820954,
+      "tags": {
+        "amenity": "clinic",
+        "name": "St. Mary's Medical Center"
+      }
+    },
+    {
+      "lat": 7.1592748,
+      "lon": 79.8275085,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:street": "Pamunugama Road",
+        "amenity": "restaurant",
+        "name": "The Lighthouse Negombo"
+      }
+    },
+    {
+      "lat": 7.2052089,
+      "lon": 79.8408638,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "stop_position"
+      }
+    },
+    {
+      "lat": 7.1683841,
+      "lon": 79.8258515,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.1406288,
+      "lon": 79.8332319,
+      "tags": {
+        "name": "Sea And Me",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1699908,
+      "lon": 79.8262962,
+      "tags": {
+        "name": "Ayuu Lagoon",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1689831,
+      "lon": 79.8254492,
+      "tags": {
+        "name": "Regenta Arie Lagoon",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1699087,
+      "lon": 79.8265844,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.2082407,
+      "lon": 79.8320317,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:postcode": "1115",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "anglican",
+        "historic": "yes",
+        "name": "St.Stephen Church",
+        "name:pl": "Ko\u015bci\u00f3\u0142 pw. \u015bw. Stefana",
+        "religion": "christian",
+        "wikipedia": "en:Saint Stephen's Church, Negombo"
+      }
+    },
+    {
+      "lat": 7.1185685,
+      "lon": 79.8404371,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Anthony's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2074529,
+      "lon": 79.8430443,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:street": "St. Joseph's Street",
+        "building": "retail",
+        "name": "Arpico Super Center",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1648256,
+      "lon": 79.8271809,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Santa Barbara Church",
+        "religion": "christian",
+        "source": "Maxar-Premium"
+      }
+    },
+    {
+      "lat": 7.2042248,
+      "lon": 79.8310925,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mankuliya",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2041914,
+      "lon": 79.8310934,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/uD4byZ9hVxG9E35i8",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1684397,
+      "lon": 79.8265837,
+      "tags": {
+        "addr:city": "Negombo",
+        "addr:street": "Pamunugama Road",
+        "name": "Jetwing Lagoon",
+        "phone": "+94 31 2233777",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1435378,
+      "lon": 79.8323839,
+      "tags": {
+        "amenity": "school",
+        "barrier": "fence",
+        "name": "Dungalpitiya Secondary School"
+      }
+    },
+    {
+      "lat": 7.1983037,
+      "lon": 79.8419809,
+      "tags": {
+        "addr:place": "Kadolkale",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "Risen Christ Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2039158,
+      "lon": 79.8200541,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "roman_catholic",
+        "name": "Pitipanaveediya Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1442511,
+      "lon": 79.8323251,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "image": "https://photos.app.goo.gl/edz4DHbejo3s42gVA",
+        "name": "St. Mary Magdalen",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2052233,
+      "lon": 79.8455148,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "St. Joseph Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1966606,
+      "lon": 79.8204779,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "roman_catholic",
+        "image": "https://photos.app.goo.gl/FjsmJoctkWDRyRtH6",
+        "name": "St.Mary's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2078923,
+      "lon": 79.8228052,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/pNWE5w3RQfZsMU3HA",
+        "name": "Duwa Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.143317,
+      "lon": 79.8338057,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Don Bosco Centre",
+        "source": "Maxar-Premium",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

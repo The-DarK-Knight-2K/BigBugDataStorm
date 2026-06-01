@@ -1,0 +1,131 @@
+{
+  "cluster_id": 48,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.777928,
+    "lat_max": 7.865214,
+    "lon_min": 80.078557,
+    "lon_max": 80.165913
+  },
+  "outlet_ids": [
+    "OUT_13167",
+    "OUT_13173",
+    "OUT_13413",
+    "OUT_13573",
+    "OUT_13698",
+    "OUT_13827",
+    "OUT_13961",
+    "OUT_14009",
+    "OUT_14021",
+    "OUT_14149",
+    "OUT_14167",
+    "OUT_14413",
+    "OUT_14443",
+    "OUT_14509",
+    "OUT_14643",
+    "OUT_14866",
+    "OUT_14977",
+    "OUT_15137",
+    "OUT_15501",
+    "OUT_15511",
+    "OUT_15737",
+    "OUT_15867",
+    "OUT_15873",
+    "OUT_15897",
+    "OUT_15985",
+    "OUT_16065",
+    "OUT_16713",
+    "OUT_16751",
+    "OUT_16882",
+    "OUT_16997"
+  ],
+  "n_outlets": 30,
+  "n_pois_returned": 9,
+  "scraped_at": "2026-05-16T20:27:46.092468",
+  "elements": [
+    {
+      "lat": 7.788348,
+      "lon": 80.100099,
+      "tags": {
+        "addr:city": "Nikaweratiya",
+        "addr:district": "Kurunegala",
+        "addr:street": "Katugastota-Kurunegala-Puttalam Road",
+        "amenity": "school",
+        "name": "Thumbulla Maha Vidyalaya",
+        "place": "thumbulla"
+      }
+    },
+    {
+      "lat": 7.804818,
+      "lon": 80.12767,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sulugulu Rajamaha Viharaya, Kadawalagedara",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7793382,
+      "lon": 80.1644722,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.8267908,
+      "lon": 80.105846,
+      "tags": {
+        "amenity": "place_of_worship",
+        "landuse": "reservoir",
+        "name": "Temple",
+        "religion": "buddhist",
+        "reservoir_type": "water_storage"
+      }
+    },
+    {
+      "lat": 7.8093683,
+      "lon": 80.0796568,
+      "tags": {
+        "amenity": "school",
+        "name": "U.B. Wanninayaka Central College"
+      }
+    },
+    {
+      "lat": 7.7849807,
+      "lon": 80.0879139,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Udahenegama Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7851202,
+      "lon": 80.156083,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7895721,
+      "lon": 80.1515514,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8202401,
+      "lon": 80.1552952,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

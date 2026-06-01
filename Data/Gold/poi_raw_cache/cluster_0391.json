@@ -1,0 +1,1522 @@
+{
+  "cluster_id": 391,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.980361,
+    "lat_max": 7.047861999999999,
+    "lon_min": 79.866226,
+    "lon_max": 79.935884
+  },
+  "outlet_ids": [
+    "OUT_00023",
+    "OUT_00210",
+    "OUT_00269",
+    "OUT_00356",
+    "OUT_00743",
+    "OUT_01129",
+    "OUT_01386",
+    "OUT_01404",
+    "OUT_01554",
+    "OUT_01600",
+    "OUT_01750",
+    "OUT_01816",
+    "OUT_01843",
+    "OUT_01860",
+    "OUT_01898",
+    "OUT_01964",
+    "OUT_01970",
+    "OUT_02033",
+    "OUT_02592",
+    "OUT_02930",
+    "OUT_03262",
+    "OUT_03272",
+    "OUT_03283",
+    "OUT_03437",
+    "OUT_03552",
+    "OUT_03842",
+    "OUT_04403",
+    "OUT_04590",
+    "OUT_04754",
+    "OUT_04910",
+    "OUT_04920",
+    "OUT_04962",
+    "OUT_05356",
+    "OUT_05379",
+    "OUT_05524",
+    "OUT_05617",
+    "OUT_05737",
+    "OUT_05739",
+    "OUT_06057",
+    "OUT_06187",
+    "OUT_06304",
+    "OUT_06456",
+    "OUT_06481",
+    "OUT_06577",
+    "OUT_07076",
+    "OUT_07080",
+    "OUT_07186",
+    "OUT_07222",
+    "OUT_07268",
+    "OUT_07304",
+    "OUT_07904",
+    "OUT_08030",
+    "OUT_08124",
+    "OUT_08313",
+    "OUT_08329",
+    "OUT_08434",
+    "OUT_08499",
+    "OUT_08531",
+    "OUT_08687",
+    "OUT_08856",
+    "OUT_08857",
+    "OUT_08870",
+    "OUT_08911",
+    "OUT_08969"
+  ],
+  "n_outlets": 64,
+  "n_pois_returned": 153,
+  "scraped_at": "2026-05-16T22:16:29.606442",
+  "elements": [
+    {
+      "lat": 6.9887373,
+      "lon": 79.8912101,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Hemas Hospital",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9874098,
+      "lon": 79.8871362,
+      "tags": {
+        "amenity": "school",
+        "name": "Lyceum Int. School"
+      }
+    },
+    {
+      "lat": 6.9882741,
+      "lon": 79.8908158,
+      "tags": {
+        "addr:street": "Colombo-Negombo Road",
+        "name": "ODEL",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.98282,
+      "lon": 79.8768982,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "psychiatry",
+        "name": "Hekitta Mental Hospital"
+      }
+    },
+    {
+      "lat": 6.9828093,
+      "lon": 79.8755142,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Leprosy Hospital"
+      }
+    },
+    {
+      "lat": 6.9868082,
+      "lon": 79.8698714,
+      "tags": {
+        "amenity": "school",
+        "name": "Don Bosco Palliyawatta"
+      }
+    },
+    {
+      "lat": 6.9838357,
+      "lon": 79.9292155,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kiribathgoda Base Hospital"
+      }
+    },
+    {
+      "lat": 6.9821638,
+      "lon": 79.9312432,
+      "tags": {
+        "branch": "Kiribathgoda",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9836547,
+      "lon": 79.9328847,
+      "tags": {
+        "check_date": "2024-08-04",
+        "name": "Clarion Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9811215,
+      "lon": 79.9298451,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kiribathgoda YMCA",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9808166,
+      "lon": 79.9300631,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Lanka Pharmacy"
+      }
+    },
+    {
+      "lat": 7.0286883,
+      "lon": 79.9225162,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Ragama Market"
+      }
+    },
+    {
+      "lat": 7.0242496,
+      "lon": 79.9029398,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Chest Hospital Welisara"
+      }
+    },
+    {
+      "lat": 7.0275502,
+      "lon": 79.9235456,
+      "tags": {
+        "addr:city": "Ragama",
+        "addr:housenumber": "33",
+        "addr:street": "Ragama-Kadawatha Road",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:visa": "yes",
+        "phone": "0112952513",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0297387,
+      "lon": 79.9185234,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Joseph's Deaf School"
+      }
+    },
+    {
+      "lat": 7.0404347,
+      "lon": 79.9086583,
+      "tags": {
+        "amenity": "school",
+        "name": "Peralanda Junior School"
+      }
+    },
+    {
+      "lat": 7.0277745,
+      "lon": 79.9206152,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Browns Hospital"
+      }
+    },
+    {
+      "lat": 7.0407808,
+      "lon": 79.8980689,
+      "tags": {
+        "name": "Keels Super Kandana",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0412386,
+      "lon": 79.9037391,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Kandana Base Hospital"
+      }
+    },
+    {
+      "lat": 7.0203044,
+      "lon": 79.9234694,
+      "tags": {
+        "amenity": "school",
+        "name": "Bandaranayake Primary School"
+      }
+    },
+    {
+      "lat": 7.023994,
+      "lon": 79.9227398,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Ranwwiru Sewana Hospital"
+      }
+    },
+    {
+      "lat": 7.0336413,
+      "lon": 79.9301642,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ihalagama Sugatharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0279956,
+      "lon": 79.9229836,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0286065,
+      "lon": 79.9242416,
+      "tags": {
+        "amenity": "clinic",
+        "name": "OPD"
+      }
+    },
+    {
+      "lat": 6.9838638,
+      "lon": 79.9104817,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Hunupitiya Bandaranayake College"
+      }
+    },
+    {
+      "lat": 6.9850346,
+      "lon": 79.9235665,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sumangala Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0463061,
+      "lon": 79.9076985,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0460239,
+      "lon": 79.9081116,
+      "tags": {
+        "amenity": "school",
+        "name": "Dharmashoka Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0466188,
+      "lon": 79.8914999,
+      "tags": {
+        "amenity": "school",
+        "name": "St.Sebastian's Girls College"
+      }
+    },
+    {
+      "lat": 7.0253667,
+      "lon": 79.8996895,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mulagandhikuti Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0139661,
+      "lon": 79.8981733,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9971852,
+      "lon": 79.9172257,
+      "tags": {
+        "amenity": "school",
+        "name": "St.Sebastian's School"
+      }
+    },
+    {
+      "lat": 6.9870632,
+      "lon": 79.89057,
+      "tags": {
+        "amenity": "school",
+        "name": "O.K.I Int School"
+      }
+    },
+    {
+      "lat": 6.9848908,
+      "lon": 79.8933541,
+      "tags": {
+        "amenity": "school",
+        "name": "St.Anthony's College",
+        "wikidata": "Q18392626",
+        "wikimedia_commons": "Category:St. Anthony's College, Wattala",
+        "wikipedia": "en:St. Anthony's College, Wattala"
+      }
+    },
+    {
+      "lat": 6.9894966,
+      "lon": 79.8926567,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Wattala"
+      }
+    },
+    {
+      "lat": 7.0101048,
+      "lon": 79.898056,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Premaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9862699,
+      "lon": 79.8892128,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.9851783,
+      "lon": 79.8885798,
+      "tags": {
+        "addr:street": "Negombo Road ",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 08:00-23:00",
+        "phone": "+94 11 294 5304",
+        "shop": "supermarket",
+        "website": "https://www.cargillsceylon.com"
+      }
+    },
+    {
+      "lat": 6.9961895,
+      "lon": 79.8903822,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9938307,
+      "lon": 79.8744821,
+      "tags": {
+        "name": "Arpico Daily",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0057468,
+      "lon": 79.8869865,
+      "tags": {
+        "amenity": "school",
+        "name": "Vidyaloka Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0142604,
+      "lon": 79.8978066,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0133153,
+      "lon": 79.8970233,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pulinathararamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0216504,
+      "lon": 79.899271,
+      "tags": {
+        "name": "Keells",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9995732,
+      "lon": 79.8817964,
+      "tags": {
+        "amenity": "school",
+        "name": "Nayakanda Boys School"
+      }
+    },
+    {
+      "lat": 7.0456512,
+      "lon": 79.8917179,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Sebastian's Shrine ",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0326015,
+      "lon": 79.9344267,
+      "tags": {
+        "amenity": "place_of_worship",
+        "basilica": "minor",
+        "denomination": "catholic",
+        "name": "Basilica of Our Lady of Lanka",
+        "name:fr": "Basilique Notre-Dame de Lanka",
+        "religion": "christian",
+        "wikidata": "Q4867360",
+        "wikipedia": "en:Basilica of Our Lady of Lanka"
+      }
+    },
+    {
+      "lat": 7.0316559,
+      "lon": 79.9220455,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Leesons Hospital"
+      }
+    },
+    {
+      "lat": 7.0315012,
+      "lon": 79.9222482,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Son Restaurant"
+      }
+    },
+    {
+      "lat": 7.0365081,
+      "lon": 79.9278713,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mindu Dhahampasala"
+      }
+    },
+    {
+      "lat": 7.006067,
+      "lon": 79.8972043,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mobole Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9978761,
+      "lon": 79.8825062,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Mary's Church Nayakakanda",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9969418,
+      "lon": 79.9169184,
+      "tags": {
+        "addr:street": "Wattala-Mahara Road",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "roman_catholic",
+        "name": "St. Sebasthiyan Church, Enderamulla",
+        "religion": "christian",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.9978502,
+      "lon": 79.8999847,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St' Mary's Chruch, Mabola, Wattala.",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9899244,
+      "lon": 79.9215869,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9887293,
+      "lon": 79.8924994,
+      "tags": {
+        "addr:city": "Wattala",
+        "addr:street": "Negombo-Colombo Road;Old Negombo Road",
+        "name": "Arpico Super Center",
+        "name:en": "Arpico super center wattala",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "phone": "+94 11 464 1795",
+        "shop": "supermarket",
+        "website": "https://www.arpico.com/"
+      }
+    },
+    {
+      "lat": 6.9884738,
+      "lon": 79.8910062,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Savannah Restaurant and Bar, Wattala"
+      }
+    },
+    {
+      "lat": 6.9946833,
+      "lon": 79.8956448,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Chinese Dragon Cafe, Wattala"
+      }
+    },
+    {
+      "lat": 6.9832455,
+      "lon": 79.8881804,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dominos Pizza, Wattala."
+      }
+    },
+    {
+      "lat": 7.0021137,
+      "lon": 79.9106074,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gongithota Sathdharmaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0022163,
+      "lon": 79.9077104,
+      "tags": {
+        "addr:city": "Wattala",
+        "addr:housenumber": "127",
+        "addr:postcode": "11104",
+        "addr:street": "Gongithota Road",
+        "amenity": "school",
+        "name": "Sudarshi Pre School - Gongithota"
+      }
+    },
+    {
+      "lat": 6.9854631,
+      "lon": 79.8891363,
+      "tags": {
+        "addr:housenumber": "286/A",
+        "addr:street": "Negombo-Colombo Road",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Dinemore",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+94112980740"
+      }
+    },
+    {
+      "lat": 6.9878677,
+      "lon": 79.8929237,
+      "tags": {
+        "addr:housenumber": "107",
+        "addr:street": "Old Negombo Road",
+        "amenity": "restaurant",
+        "cuisine": "asian;indian;chinese",
+        "name": "Pan Restaurant",
+        "opening_hours": "Mo-Su 11:00-00:00"
+      }
+    },
+    {
+      "lat": 6.9969779,
+      "lon": 79.9097288,
+      "tags": {
+        "addr:housenumber": "1",
+        "addr:street": "Paranakanda Road",
+        "amenity": "school",
+        "name:en": "St. Joseph's College - Wattala",
+        "opening_hours": "Mo-Su 07:30-13:30",
+        "wikidata": "Q25053989",
+        "wikipedia": "en:St. Joseph's College, Wattala"
+      }
+    },
+    {
+      "lat": 7.0273657,
+      "lon": 79.9251104,
+      "tags": {
+        "name": "Arpico Super Center",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0402562,
+      "lon": 79.9090892,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "Church"
+      }
+    },
+    {
+      "lat": 7.0234916,
+      "lon": 79.9268192,
+      "tags": {
+        "addr:street": "Ragama-Kadawatha Road",
+        "amenity": "school",
+        "name": "Basilica College Ragama"
+      }
+    },
+    {
+      "lat": 7.0277898,
+      "lon": 79.9242479,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0000533,
+      "lon": 79.9326833,
+      "tags": {
+        "addr:street": "Kirimetiyagara / St. Anthony's Road",
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Anthony's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0151681,
+      "lon": 79.898526,
+      "tags": {
+        "amenity": "school",
+        "name": "Karunaratne Buddhist School"
+      }
+    },
+    {
+      "lat": 7.0270413,
+      "lon": 79.8983067,
+      "tags": {
+        "name": "Phoenix Showroom",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0336248,
+      "lon": 79.8987449,
+      "tags": {
+        "name": "Hotel Mizuki Plaza",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9859076,
+      "lon": 79.9184093,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.984623,
+      "lon": 79.9337252,
+      "tags": {
+        "check_date": "2024-08-04",
+        "name": "Hotel Royal Park",
+        "name:en": "Hotel Royal Park",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9858251,
+      "lon": 79.9048167,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.9830615,
+      "lon": 79.9296276,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Kiribathgoda Sudharshanaramaya"
+      }
+    },
+    {
+      "lat": 6.9844056,
+      "lon": 79.9012249,
+      "tags": {
+        "name:en": "Caragills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9881721,
+      "lon": 79.9211959,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vijayanandarama Ananda  Bhodhi Viharaya"
+      }
+    },
+    {
+      "lat": 6.9823598,
+      "lon": 79.9308758,
+      "tags": {
+        "check_date": "2023-03-08",
+        "name": "Keels Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9869567,
+      "lon": 79.8919438,
+      "tags": {
+        "amenity": "school",
+        "name:en": "Premier School"
+      }
+    },
+    {
+      "lat": 6.9942253,
+      "lon": 79.9144594,
+      "tags": {
+        "addr:street": "Wattala-Mahara Road",
+        "name:en": "Keels ederamulla",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9835338,
+      "lon": 79.8792541,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9826167,
+      "lon": 79.8945819,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Church"
+      }
+    },
+    {
+      "lat": 6.9861495,
+      "lon": 79.9044828,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9841806,
+      "lon": 79.9012946,
+      "tags": {
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9953732,
+      "lon": 79.9152924,
+      "tags": {
+        "name": "Laugfs Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9952503,
+      "lon": 79.9151686,
+      "tags": {
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9949449,
+      "lon": 79.9149043,
+      "tags": {
+        "name": "Keels Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9883462,
+      "lon": 79.8931089,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Maha Gedara Family Restaurant"
+      }
+    },
+    {
+      "lat": 7.0188878,
+      "lon": 79.9005354,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Navy Hospital Welisara"
+      }
+    },
+    {
+      "lat": 6.9850913,
+      "lon": 79.9023466,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.980599,
+      "lon": 79.9297053,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2025-11-05",
+        "name": "Lord Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9906052,
+      "lon": 79.9092525,
+      "tags": {
+        "addr:city": "Wattala",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Akbar Town Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9914777,
+      "lon": 79.9094295,
+      "tags": {
+        "description": "This area is called by the name \"AKBAR TOW\"\nIt is a an old majority Muslim neighborhood.",
+        "highway": "bus_stop",
+        "name": "Akbar Town Bus Stop",
+        "network": "Intercity",
+        "operator": "Goverment"
+      }
+    },
+    {
+      "lat": 7.007597,
+      "lon": 79.8966897,
+      "tags": {
+        "addr:housenumber": "865",
+        "addr:street": "Colombo-Negombo Road",
+        "amenity": "restaurant",
+        "name:en": "Aroma"
+      }
+    },
+    {
+      "lat": 6.9832212,
+      "lon": 79.8761609,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "ophthalmology",
+        "name": "Lions Club Eye Hospital"
+      }
+    },
+    {
+      "lat": 6.9941658,
+      "lon": 79.8744354,
+      "tags": {
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9817478,
+      "lon": 79.8752135,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9836061,
+      "lon": 79.8748313,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9993031,
+      "lon": 79.9028385,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9967957,
+      "lon": 79.8860353,
+      "tags": {
+        "name": "Keells Super",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0299493,
+      "lon": 79.921428,
+      "tags": {
+        "name": "Ragama",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0165896,
+      "lon": 79.918322,
+      "tags": {
+        "name": "Horape",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0004396,
+      "lon": 79.9068341,
+      "tags": {
+        "name": "Enderamulla",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9877406,
+      "lon": 79.9004906,
+      "tags": {
+        "name": "Hunupitiya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0381323,
+      "lon": 79.9122199,
+      "tags": {
+        "name": "Peralanda",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.020065,
+      "lon": 79.8888177,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kudagahapitiya Sri Sambodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0104433,
+      "lon": 79.9200275,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0168785,
+      "lon": 79.8946246,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0073731,
+      "lon": 79.9182173,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0105601,
+      "lon": 79.8870404,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St Joseph's Church Kerawalapitiya",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0235204,
+      "lon": 79.9092239,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0379996,
+      "lon": 79.8878266,
+      "tags": {
+        "addr:city": "JaEla",
+        "addr:street": "Morawatte Road",
+        "amenity": "restaurant",
+        "name": "Wasana nature resort"
+      }
+    },
+    {
+      "lat": 6.9944372,
+      "lon": 79.8690425,
+      "tags": {
+        "addr:city": "Wattala",
+        "addr:street": "Preethipura Road",
+        "amenity": "restaurant",
+        "name": "Kottamba resort"
+      }
+    },
+    {
+      "lat": 6.9858004,
+      "lon": 79.9016826,
+      "tags": {
+        "addr:city": "Hunupitiya",
+        "addr:street": "Station Road",
+        "amenity": "restaurant",
+        "name": "Shanthi Reception Hall"
+      }
+    },
+    {
+      "lat": 6.9827057,
+      "lon": 79.9073689,
+      "tags": {
+        "addr:city": "Hunupitiya",
+        "addr:street": "Kiribathgoda-Hunupitiya Road",
+        "amenity": "restaurant",
+        "name": "Hotel Aubrona"
+      }
+    },
+    {
+      "lat": 6.9817175,
+      "lon": 79.9100543,
+      "tags": {
+        "addr:city": "Hunupitiya",
+        "addr:street": "Wevelduwa Road",
+        "amenity": "restaurant",
+        "name": "Nilambara Hotel"
+      }
+    },
+    {
+      "lat": 6.9981515,
+      "lon": 79.9286902,
+      "tags": {
+        "addr:city": "Wattala",
+        "addr:street": "Dalupitiya Road",
+        "amenity": "restaurant",
+        "name": "Sanara Garden Banquet Hall"
+      }
+    },
+    {
+      "lat": 6.9804797,
+      "lon": 79.9295627,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.0160653,
+      "lon": 79.9311795,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St.Lazarus Church,Kurukulawa",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0018916,
+      "lon": 79.9094993,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Co OP Bakery"
+      }
+    },
+    {
+      "lat": 7.0020865,
+      "lon": 79.909411,
+      "tags": {
+        "name": "CO OP City",
+        "operator": "CO OP Mahara",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0243761,
+      "lon": 79.9085229,
+      "tags": {
+        "name": "Cargills Food City Express",
+        "shop": "supermarket",
+        "survey:date": "2024-08-09"
+      }
+    },
+    {
+      "lat": 7.0271473,
+      "lon": 79.9176643,
+      "tags": {
+        "name": "Keells",
+        "shop": "supermarket",
+        "survey:date": "2024-08-09"
+      }
+    },
+    {
+      "lat": 7.0289296,
+      "lon": 79.9249097,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist",
+        "survey:date": "2024-08-09"
+      }
+    },
+    {
+      "lat": 7.0276351,
+      "lon": 79.9235432,
+      "tags": {
+        "name": "Cargills Food City",
+        "shop": "supermarket",
+        "survey:date": "2024-08-09"
+      }
+    },
+    {
+      "lat": 6.9840711,
+      "lon": 79.8891734,
+      "tags": {
+        "addr:housenumber": "278",
+        "addr:street": "Colombo - Negombo Road",
+        "amenity": "restaurant",
+        "cuisine": "italian_pizza;pizza",
+        "name": "Harpo's Pizza & Pasta",
+        "opening_hours": "Mo-Su 11:00-22:00",
+        "phone": "+94117110744"
+      }
+    },
+    {
+      "lat": 6.9842239,
+      "lon": 79.889113,
+      "tags": {
+        "addr:housenumber": "278",
+        "addr:street": "Colombo - Negombo Road",
+        "name": "Spar",
+        "opening_hours": "Mo-Su 09:00-00:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9963351,
+      "lon": 79.8789903,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Nonstop By Pathum Bakers"
+      }
+    },
+    {
+      "lat": 6.9805365,
+      "lon": 79.928377,
+      "tags": {
+        "addr:postcode": "11600",
+        "amenity": "restaurant",
+        "name": "Amila Food Center",
+        "name:en": "Amila Food Center",
+        "phone": "+94112913701"
+      }
+    },
+    {
+      "lat": 6.9811239,
+      "lon": 79.9286763,
+      "tags": {
+        "addr:street": "1st Cross Street",
+        "amenity": "clinic",
+        "contact:phone": "+94 112 916 769",
+        "healthcare": "clinic",
+        "level": "0",
+        "name": "Dr. S. Disanayake Gunawardane Medical Clinic"
+      }
+    },
+    {
+      "lat": 6.9870714,
+      "lon": 79.8706277,
+      "tags": {
+        "addr:housenumber": "8",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Palliyawatta",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.027741,
+      "lon": 79.9167603,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "Casa Restaurand"
+      }
+    },
+    {
+      "lat": 7.0296499,
+      "lon": 79.9249655,
+      "tags": {
+        "addr:city": "Ragama",
+        "addr:street": "Ragama-Kadawatha Road",
+        "alt_name": "Ragama Teaching Hospital",
+        "amenity": "hospital",
+        "check_date": "2024-08-08",
+        "loc_name": "Ragama Hospital",
+        "name": "North Colombo Teaching Hospital",
+        "wikidata": "Q30265271"
+      }
+    },
+    {
+      "lat": 6.9806919,
+      "lon": 79.9276962,
+      "tags": {
+        "amenity": "school",
+        "name": "Vihara Maha Devi Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9886098,
+      "lon": 79.8924159,
+      "tags": {
+        "addr:city": "Wattala",
+        "addr:street": "Negombo-Colombo Road;Old Negombo Road",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "name": "Arpico Super Center",
+        "name:en": "Arpico super center wattala",
+        "opening_hours": "Mo-Su 09:00-22:00",
+        "organic": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 11 464 1795",
+        "shop": "supermarket",
+        "website": "https://www.arpico.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.9942853,
+      "lon": 79.8849463,
+      "tags": {
+        "amenity": "school",
+        "name": "Nayakakanda Convent"
+      }
+    },
+    {
+      "lat": 7.0381229,
+      "lon": 79.9122223,
+      "tags": {
+        "building": "train_station",
+        "name": "Peralanda",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0090665,
+      "lon": 79.896407,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "indian",
+        "name": "Elait resturent"
+      }
+    },
+    {
+      "lat": 7.0472266,
+      "lon": 79.9311878,
+      "tags": {
+        "building": "yes",
+        "name": "Walpola",
+        "operator": "Sri Lanka Railway",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 7.0471772,
+      "lon": 79.9307462,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Walpola Sri Wimalarathnaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0143223,
+      "lon": 79.8697112,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0293824,
+      "lon": 79.9184638,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "St. Peter & Paul Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9998938,
+      "lon": 79.8687856,
+      "tags": {
+        "addr:city": "Wattala",
+        "addr:street": "Preethipura Road",
+        "name": "Pegasus Reef Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9875901,
+      "lon": 79.8912666,
+      "tags": {
+        "building": "yes",
+        "name": "keels",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0317433,
+      "lon": 79.9219988,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;psychiatry;paediatrics;chiropractic;dentistry;physiatry;ophthalmology;vaccination;intensive;biology;orthopaedics;dialysis;gynaecology;orthodontics;emergency;dermatology;surgery;cardiology;oncology;community;radiology;internal;maternity;osteopathy",
+        "name": "Lessons Hospital"
+      }
+    },
+    {
+      "lat": 7.0336415,
+      "lon": 79.9350244,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Thewaththa Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9835658,
+      "lon": 79.9290204,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9836765,
+      "lon": 79.9284641,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.0361265,
+      "lon": 79.8961241,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "catholic",
+        "name": "John the Baptist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9835236,
+      "lon": 79.910377,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Hunupitiya Bandaranayake College"
+      }
+    },
+    {
+      "lat": 6.9857118,
+      "lon": 79.9090004,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "name": "Bangala Watta Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0284799,
+      "lon": 79.9291619,
+      "tags": {
+        "addr:city": "Ragama",
+        "addr:street": "Thalagolla Road",
+        "amenity": "university",
+        "name": "Faculty of Medicine University of Kelaniya",
+        "phone": "+94112961000",
+        "type": "multipolygon",
+        "website": "https://medicine.kln.ac.lk/"
+      }
+    }
+  ]
+}

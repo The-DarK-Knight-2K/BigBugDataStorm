@@ -1,0 +1,305 @@
+{
+  "cluster_id": 311,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.724905000000001,
+    "lat_max": 6.80685,
+    "lon_min": 80.049227,
+    "lon_max": 80.11796700000001
+  },
+  "outlet_ids": [
+    "OUT_00058",
+    "OUT_00109",
+    "OUT_00162",
+    "OUT_00203",
+    "OUT_00264",
+    "OUT_00282",
+    "OUT_00754",
+    "OUT_00853",
+    "OUT_01113",
+    "OUT_01170",
+    "OUT_01205",
+    "OUT_01296",
+    "OUT_01300",
+    "OUT_01430",
+    "OUT_01447",
+    "OUT_01670",
+    "OUT_02127",
+    "OUT_02188",
+    "OUT_02210",
+    "OUT_02331",
+    "OUT_02378",
+    "OUT_02672",
+    "OUT_02723",
+    "OUT_02726",
+    "OUT_02767",
+    "OUT_03196",
+    "OUT_03424",
+    "OUT_03545",
+    "OUT_03587",
+    "OUT_03606",
+    "OUT_03773",
+    "OUT_03791",
+    "OUT_03837",
+    "OUT_03954",
+    "OUT_04015",
+    "OUT_04120",
+    "OUT_04121",
+    "OUT_04243",
+    "OUT_04268",
+    "OUT_04301",
+    "OUT_04320",
+    "OUT_04446",
+    "OUT_04486",
+    "OUT_04630",
+    "OUT_05137",
+    "OUT_05193",
+    "OUT_05251",
+    "OUT_05267",
+    "OUT_05426",
+    "OUT_05650",
+    "OUT_05663",
+    "OUT_05722",
+    "OUT_06144",
+    "OUT_06191",
+    "OUT_06271",
+    "OUT_06465",
+    "OUT_06532",
+    "OUT_06584",
+    "OUT_06630",
+    "OUT_06812",
+    "OUT_07117",
+    "OUT_07137",
+    "OUT_07177",
+    "OUT_07474",
+    "OUT_07560",
+    "OUT_07631",
+    "OUT_07675",
+    "OUT_07703",
+    "OUT_08005",
+    "OUT_08150",
+    "OUT_08198",
+    "OUT_08286",
+    "OUT_08422",
+    "OUT_08523",
+    "OUT_08578",
+    "OUT_08908"
+  ],
+  "n_outlets": 76,
+  "n_pois_returned": 23,
+  "scraped_at": "2026-05-16T22:09:55.553546",
+  "elements": [
+    {
+      "lat": 6.7629633,
+      "lon": 80.082412,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nalanda Privena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7851573,
+      "lon": 80.054638,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Poorwaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.728419,
+      "lon": 80.066807,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7564064,
+      "lon": 80.0545482,
+      "tags": {
+        "amenity": "school",
+        "name": "Sugathapala Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7558546,
+      "lon": 80.1122105,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.74304,
+      "lon": 80.0990976,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.78858,
+      "lon": 80.0779968,
+      "tags": {
+        "amenity": "school",
+        "name": "Millawa Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7292432,
+      "lon": 80.0980398,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Panadura - Horana Bus Stop",
+        "network": "Panadura, Horana"
+      }
+    },
+    {
+      "lat": 6.7297736,
+      "lon": 80.0980744,
+      "tags": {
+        "addr:city": "Grurugoda",
+        "addr:street": "Panadura-Rathnapura Road",
+        "name": "Foodland",
+        "opening_hours": "08:30-22:00",
+        "operator": "Pathmasiri Stros",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7297211,
+      "lon": 80.0981447,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Ingiriya - Ratnapura Bus Stop",
+        "network": "Ratnapura"
+      }
+    },
+    {
+      "lat": 6.7893367,
+      "lon": 80.1092876,
+      "tags": {
+        "addr:postcode": "10500",
+        "addr:street": "Malagala",
+        "amenity": "clinic",
+        "name": "Malagala Ayurvedic Medical Center"
+      }
+    },
+    {
+      "lat": 6.7894084,
+      "lon": 80.1092341,
+      "tags": {
+        "addr:postcode": "10500",
+        "addr:street": "Malagala",
+        "amenity": "clinic",
+        "name": "Maternal & Child Health Clinic Malagala",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 6.8067896,
+      "lon": 80.0493825,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7604652,
+      "lon": 80.070481,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7259653,
+      "lon": 80.0553232,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Mhedankara Vidyala"
+      }
+    },
+    {
+      "lat": 6.7564605,
+      "lon": 80.0536027,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "kande viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7412702,
+      "lon": 80.0507079,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kadanhena Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7365736,
+      "lon": 80.0580113,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7355364,
+      "lon": 80.097621,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.7914828,
+      "lon": 80.1127253,
+      "tags": {
+        "amenity": "school",
+        "name": "Malagala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7917471,
+      "lon": 80.1133124,
+      "tags": {
+        "amenity": "school",
+        "name": "Malagala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7923666,
+      "lon": 80.1129691,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Parama Damma Kithyaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7357448,
+      "lon": 80.1153223,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Onmil Restaurant Poruwadanda"
+      }
+    }
+  ]
+}

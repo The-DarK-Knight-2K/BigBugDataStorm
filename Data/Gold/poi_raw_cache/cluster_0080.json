@@ -1,0 +1,623 @@
+{
+  "cluster_id": 80,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.196309,
+    "lat_max": 7.2837309999999995,
+    "lon_min": 80.691237,
+    "lon_max": 80.781647
+  },
+  "outlet_ids": [
+    "OUT_09060",
+    "OUT_09072",
+    "OUT_09102",
+    "OUT_09307",
+    "OUT_09313",
+    "OUT_09434",
+    "OUT_09453",
+    "OUT_09471",
+    "OUT_09576",
+    "OUT_09609",
+    "OUT_09677",
+    "OUT_09911",
+    "OUT_09917",
+    "OUT_09930",
+    "OUT_10047",
+    "OUT_10141",
+    "OUT_10408",
+    "OUT_10418",
+    "OUT_10758",
+    "OUT_10877",
+    "OUT_10909",
+    "OUT_10948",
+    "OUT_10965",
+    "OUT_10987",
+    "OUT_11096",
+    "OUT_11166",
+    "OUT_11170",
+    "OUT_11225",
+    "OUT_11249",
+    "OUT_11332",
+    "OUT_11445",
+    "OUT_11478",
+    "OUT_11661",
+    "OUT_11723",
+    "OUT_11761",
+    "OUT_11837",
+    "OUT_11867",
+    "OUT_12068",
+    "OUT_12149",
+    "OUT_12432",
+    "OUT_12490",
+    "OUT_12658",
+    "OUT_12713",
+    "OUT_12725",
+    "OUT_12754"
+  ],
+  "n_outlets": 45,
+  "n_pois_returned": 59,
+  "scraped_at": "2026-05-16T20:33:27.599478",
+  "elements": [
+    {
+      "lat": 7.2669767,
+      "lon": 80.7755434,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "name": "Bougainvillea Retreat",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2656676,
+      "lon": 80.7723086,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Gof Club Road",
+        "internet_access": "yes",
+        "name": "The Albatross, Boutique Villa",
+        "operator": "Ranfer & Co",
+        "rooms": "-6",
+        "smoking": "no",
+        "stars": "5",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2834193,
+      "lon": 80.7181977,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Balagolla Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2836147,
+      "lon": 80.7165234,
+      "tags": {
+        "amenity": "school",
+        "name": "Balagolla Muslim College"
+      }
+    },
+    {
+      "lat": 7.2828712,
+      "lon": 80.719748,
+      "tags": {
+        "addr:city": "Balagolla",
+        "addr:street": "Kandy - Mahiyanganaya- Padiyathalawa Road",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2817697,
+      "lon": 80.6991862,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pallekele Devanampiyatissa Int. Meditation Centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2714146,
+      "lon": 80.7070344,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "alternative",
+        "healthcare:speciality": "ayurveda",
+        "name": "Pallekele Ayurveda Hospital"
+      }
+    },
+    {
+      "lat": 7.2501451,
+      "lon": 80.7374347,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Anuragama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2206586,
+      "lon": 80.6955004,
+      "tags": {
+        "name": "Galavilla Boutique Hotel & Spa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2099866,
+      "lon": 80.743027,
+      "tags": {
+        "addr:street": "Marassana - Ududeniya Rd",
+        "amenity": "place_of_worship",
+        "name": "Galagoda Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2004894,
+      "lon": 80.7551344,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Munumalaya Meheni Aramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2085816,
+      "lon": 80.7301108,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pasgama Junction"
+      }
+    },
+    {
+      "lat": 7.2098642,
+      "lon": 80.7168151,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bowlana"
+      }
+    },
+    {
+      "lat": 7.2117535,
+      "lon": 80.7163323,
+      "tags": {
+        "addr:city": "Bawlana",
+        "amenity": "place_of_worship",
+        "name": "Sri Vishuddharama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2186082,
+      "lon": 80.7167936,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Madiththa"
+      }
+    },
+    {
+      "lat": 7.2194916,
+      "lon": 80.7116116,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Medagama"
+      }
+    },
+    {
+      "lat": 7.2185177,
+      "lon": 80.7128078,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Madagama Neegrodaraamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2279341,
+      "lon": 80.7102783,
+      "tags": {
+        "addr:street": "Mudunakade - Bowlana Rd",
+        "amenity": "place_of_worship",
+        "name": "Bodikalarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2287813,
+      "lon": 80.7065534,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Poojagoda"
+      }
+    },
+    {
+      "lat": 7.2284832,
+      "lon": 80.7021814,
+      "tags": {
+        "addr:city": "Godamunna",
+        "addr:street": "mudunakade - Bowlana Rd",
+        "amenity": "school",
+        "name": "Godamunna School"
+      }
+    },
+    {
+      "lat": 7.2316923,
+      "lon": 80.7024282,
+      "tags": {
+        "addr:city": "Godamunne",
+        "amenity": "place_of_worship",
+        "name": "Godamunne Dharmashalawa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2337765,
+      "lon": 80.6970692,
+      "tags": {
+        "addr:city": "Sagama",
+        "amenity": "place_of_worship",
+        "name": "Sagama Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.231261,
+      "lon": 80.6936773,
+      "tags": {
+        "addr:street": "nugaliyadda Rd",
+        "amenity": "place_of_worship",
+        "name": "Dharma Shalawa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2404357,
+      "lon": 80.7006611,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mudunakade",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2378621,
+      "lon": 80.7015739,
+      "tags": {
+        "addr:street": "Mudunakade - Bowlana Rd",
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2407569,
+      "lon": 80.7206605,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kiwllinda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.2825435,
+      "lon": 80.7201542,
+      "tags": {
+        "addr:city": "Balagolla",
+        "addr:street": "Kandy - Mahiyanganaya- Padiyathalawa Road",
+        "name": "Kandy Heaven",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2295751,
+      "lon": 80.7461148,
+      "tags": {
+        "addr:city": "Mailapitiya",
+        "addr:street": "Thennekumbura-Rikillagaskada-Ragala Road",
+        "amenity": "school",
+        "name": "Lakpahana Adventist College"
+      }
+    },
+    {
+      "lat": 7.2292772,
+      "lon": 80.7494097,
+      "tags": {
+        "addr:city": "Mailapitiya",
+        "addr:street": "Thennekumbura-Rikillagaskada-Ragala Road",
+        "amenity": "place_of_worship",
+        "name": "Mailapitiya Sri Bodirajarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.233641,
+      "lon": 80.7506853,
+      "tags": {
+        "addr:city": "Mailapitiya",
+        "amenity": "place_of_worship",
+        "name": "Sri Sastrananda Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2135829,
+      "lon": 80.7548695,
+      "tags": {
+        "addr:street": "Thennekumbura-Rikillagaskada-Ragala Road",
+        "amenity": "marketplace",
+        "name": "Kandehandiya Economic Centre"
+      }
+    },
+    {
+      "lat": 7.202279,
+      "lon": 80.7463079,
+      "tags": {
+        "addr:street": "Marassana - Kolabissa Rd",
+        "amenity": "school",
+        "name": "Ududeniya Muslim Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.196861,
+      "lon": 80.7600891,
+      "tags": {
+        "addr:city": "Unavinna",
+        "addr:street": "Tennakubura Rikillagaskada Ragala Road",
+        "amenity": "place_of_worship",
+        "name": "Unuwinna Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.222305,
+      "lon": 80.7293315,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thalawa Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2216256,
+      "lon": 80.714019,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.2709717,
+      "lon": 80.7647333,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "name": "Serendib Signature Resort",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2661696,
+      "lon": 80.7692212,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "name": "Villa Casa Lanka",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2648894,
+      "lon": 80.7736818,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "name": "Victoria Golf & Country Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2604236,
+      "lon": 80.7728253,
+      "tags": {
+        "addr:city": "Digana",
+        "addr:street": "Victoria Golf Club Road",
+        "name": "The Green House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.265405,
+      "lon": 80.7496154,
+      "tags": {
+        "addr:street": "Aluthwatte Road",
+        "internet_access": "wlan",
+        "name:de": "Tamarind Gardens Homestay",
+        "name:en": "Tamarind Gardens Homestay",
+        "phone": "+94 77 907 17 77",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.2308659,
+      "lon": 80.7269141,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2186629,
+      "lon": 80.7347837,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2175732,
+      "lon": 80.7262248,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2143761,
+      "lon": 80.7314014,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2380103,
+      "lon": 80.7085571,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2121063,
+      "lon": 80.7795739,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2043691,
+      "lon": 80.7328405,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pasgama Rajamaha Viharaya"
+      }
+    },
+    {
+      "lat": 7.2045805,
+      "lon": 80.7331642,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pasgama Natha Devalaya"
+      }
+    },
+    {
+      "lat": 7.2793114,
+      "lon": 80.7679094,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "Rukgala Retreat",
+        "tourism": "hotel",
+        "website": "https://www.rukgalaretreat.com/"
+      }
+    },
+    {
+      "lat": 7.2596086,
+      "lon": 80.7185054,
+      "tags": {
+        "amenity": "school",
+        "name": "Haragama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.2169932,
+      "lon": 80.7373278,
+      "tags": {
+        "amenity": "school",
+        "name": "Marassana Primary School"
+      }
+    },
+    {
+      "lat": 7.2204217,
+      "lon": 80.7362012,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Marassana Hospital"
+      }
+    },
+    {
+      "lat": 7.2225971,
+      "lon": 80.7395714,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Damunugolla Sri Sudharshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1973549,
+      "lon": 80.7392885,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2269278,
+      "lon": 80.7289733,
+      "tags": {
+        "amenity": "school",
+        "name": "Bolape School"
+      }
+    },
+    {
+      "lat": 7.2506173,
+      "lon": 80.7031585,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2667303,
+      "lon": 80.7092309,
+      "tags": {
+        "email": "resv.kandy@jetwinghotels.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Jetwing Kandy Gallery",
+        "operator": "Jetwing Hotels",
+        "phone": "+94 114 709 400;+94 812 034 000",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "https://www.jetwinghotels.com/jetwingkandygallery",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 7.2703933,
+      "lon": 80.7760906,
+      "tags": {
+        "name": "The Glasshouse Victoria",
+        "phone": "+94 72 465 6789",
+        "tourism": "hotel",
+        "website": "https://theglasshousesrilanka.com/"
+      }
+    },
+    {
+      "lat": 7.277305,
+      "lon": 80.7115874,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Budumaga Senasuna Temple",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

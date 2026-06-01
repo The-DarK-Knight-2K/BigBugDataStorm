@@ -1,0 +1,62 @@
+{
+  "cluster_id": 236,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 8.040536,
+    "lat_max": 8.115819,
+    "lon_min": 80.180345,
+    "lon_max": 80.267029
+  },
+  "outlet_ids": [
+    "OUT_13229",
+    "OUT_13244",
+    "OUT_13349",
+    "OUT_13424",
+    "OUT_13501",
+    "OUT_13774",
+    "OUT_14032",
+    "OUT_14076",
+    "OUT_14417",
+    "OUT_14446",
+    "OUT_14494",
+    "OUT_14582",
+    "OUT_14658",
+    "OUT_15448",
+    "OUT_15452",
+    "OUT_16011",
+    "OUT_16270",
+    "OUT_16467",
+    "OUT_16479",
+    "OUT_16537",
+    "OUT_16677",
+    "OUT_16782",
+    "OUT_16912"
+  ],
+  "n_outlets": 23,
+  "n_pois_returned": 2,
+  "scraped_at": "2026-05-16T21:00:00.205420",
+  "elements": [
+    {
+      "lat": 8.0879988,
+      "lon": 80.2461968,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thammannawa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.101672,
+      "lon": 80.1944912,
+      "tags": {
+        "addr:city": "Rajanganaya",
+        "amenity": "place_of_worship",
+        "name": "Weheragala Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

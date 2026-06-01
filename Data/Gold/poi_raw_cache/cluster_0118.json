@@ -1,0 +1,1630 @@
+{
+  "cluster_id": 118,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.931434,
+    "lat_max": 6.022609999999999,
+    "lon_min": 80.266786,
+    "lon_max": 80.354015
+  },
+  "outlet_ids": [
+    "OUT_17136",
+    "OUT_17163",
+    "OUT_17173",
+    "OUT_17268",
+    "OUT_17331",
+    "OUT_17336",
+    "OUT_17363",
+    "OUT_17390",
+    "OUT_17397",
+    "OUT_17451",
+    "OUT_17508",
+    "OUT_17533",
+    "OUT_17539",
+    "OUT_17549",
+    "OUT_17598",
+    "OUT_17644",
+    "OUT_17701",
+    "OUT_17732",
+    "OUT_17810",
+    "OUT_17878",
+    "OUT_17992",
+    "OUT_18053",
+    "OUT_18065",
+    "OUT_18190",
+    "OUT_18205",
+    "OUT_18226",
+    "OUT_18242",
+    "OUT_18281",
+    "OUT_18303",
+    "OUT_18350",
+    "OUT_18492",
+    "OUT_18524",
+    "OUT_18572",
+    "OUT_18624",
+    "OUT_18653",
+    "OUT_18680",
+    "OUT_18795",
+    "OUT_18912",
+    "OUT_19081",
+    "OUT_19147",
+    "OUT_19166",
+    "OUT_19205",
+    "OUT_19214",
+    "OUT_19336",
+    "OUT_19348",
+    "OUT_19365",
+    "OUT_19374",
+    "OUT_19509",
+    "OUT_19535",
+    "OUT_19557",
+    "OUT_19565",
+    "OUT_19655",
+    "OUT_19685",
+    "OUT_19751",
+    "OUT_19774",
+    "OUT_19848",
+    "OUT_19881",
+    "OUT_19972"
+  ],
+  "n_outlets": 58,
+  "n_pois_returned": 154,
+  "scraped_at": "2026-05-16T20:38:25.255182",
+  "elements": [
+    {
+      "lat": 6.0210488,
+      "lon": 80.3411254,
+      "tags": {
+        "addr:city": "Unawatuna, Galle",
+        "addr:street": "Galle Dikkumbura Main Road",
+        "is_in": "Kahanda, Habaraduwa Division, Galle District, Southern Province, Sri Lanka",
+        "name": "Kahanda Kanda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0192228,
+      "lon": 80.2724161,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Maligakanda Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0190415,
+      "lon": 80.2681996,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Polduwa Sri Sunandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0162244,
+      "lon": 80.2773994,
+      "tags": {
+        "amenity": "school",
+        "name": "Shariputhra Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0111834,
+      "lon": 80.287672,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Dhammaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0089335,
+      "lon": 80.342188,
+      "tags": {
+        "amenity": "school",
+        "name": "Pelassa School"
+      }
+    },
+    {
+      "lat": 6.0076619,
+      "lon": 80.3416057,
+      "tags": {
+        "addr:city": "Ahangama",
+        "addr:housename": "Pelassa Road, Santhosagama",
+        "addr:postcode": "80560",
+        "name": "Villa Mayurana",
+        "operator": "Villa Mayurana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9907949,
+      "lon": 80.3192511,
+      "tags": {
+        "addr:city": "Koggala",
+        "name": "Long Beach Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.989053,
+      "lon": 80.3218464,
+      "tags": {
+        "addr:street": "Galle Street",
+        "name": "Koggala Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9978275,
+      "lon": 80.3190241,
+      "tags": {
+        "addr:street": "Koggala, Habaraduwa",
+        "name": "Lake Side Spice Garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.98257,
+      "lon": 80.3364463,
+      "tags": {
+        "name": "South Beach Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9936364,
+      "lon": 80.3496059,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "addr:street": "Koggala Lake",
+        "name": "Villa Alexandra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9850829,
+      "lon": 80.3397661,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "name": "Villa Kathaluwa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9869386,
+      "lon": 80.3382051,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "name": "Villa Lula",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9876864,
+      "lon": 80.3380308,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "name": "Mandalay Lake Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.990134,
+      "lon": 80.3375235,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "name": "South Point Cottage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9793195,
+      "lon": 80.3454482,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "name": "Lean @83 Bed & Breakfast",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9779728,
+      "lon": 80.3476478,
+      "tags": {
+        "addr:city": "Koggala",
+        "addr:street": "Colombo -Matara Road",
+        "name": "Ceilao Villas Kabalana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9782858,
+      "lon": 80.3490548,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "name": "Cafe Ceylon Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9777631,
+      "lon": 80.3502843,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "name": "Timeless Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9851576,
+      "lon": 80.3351671,
+      "tags": {
+        "addr:city": "Koggala",
+        "name": "Madoldu Eco Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9890494,
+      "lon": 80.3235658,
+      "tags": {
+        "addr:city": "Koggala",
+        "name": "Joes Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9895885,
+      "lon": 80.321428,
+      "tags": {
+        "addr:city": "Koggala",
+        "name": "The Long Beach Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9979462,
+      "lon": 80.320329,
+      "tags": {
+        "addr:city": "Koggala",
+        "name": "Kimbulagalawatte Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9940783,
+      "lon": 80.3058845,
+      "tags": {
+        "addr:city": "Koggala",
+        "name": "Hotel Beach View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9937915,
+      "lon": 80.3045679,
+      "tags": {
+        "addr:city": "Koggala",
+        "atm": "yes",
+        "check_date": "2026-05-04",
+        "name": "Villa Saldena",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0023945,
+      "lon": 80.3098982,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "amenity": "school",
+        "name": "Dharmika Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.002355,
+      "lon": 80.3093736,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "amenity": "place_of_worship",
+        "name": "Chethiya Aramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0005749,
+      "lon": 80.3118892,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Thisara Villas",
+        "tourism": "hotel",
+        "website": "http://www.tisaravillas.com"
+      }
+    },
+    {
+      "lat": 6.011922,
+      "lon": 80.3116018,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "amenity": "place_of_worship",
+        "name": "Harumalgoda Mandalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0053014,
+      "lon": 80.3186338,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Hotel La Veranda di Serena Lake",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9968158,
+      "lon": 80.3050284,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "amenity": "place_of_worship",
+        "name": "Pulinathalarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9975517,
+      "lon": 80.3049349,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "The Mud Hut",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9977778,
+      "lon": 80.3073674,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Nirmala Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0100791,
+      "lon": 80.3066026,
+      "tags": {
+        "name": "Sri Mathie Villa & Boutique",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9947671,
+      "lon": 80.2997726,
+      "tags": {
+        "name": "Canolack",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9942855,
+      "lon": 80.2941566,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Cantaloupe Aqua Beach Club",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.994697,
+      "lon": 80.2910747,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "WB Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9951707,
+      "lon": 80.2921815,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "check_date": "2026-01-17",
+        "name": "Kargl Beach Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9948273,
+      "lon": 80.290053,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Mihiri Beach House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9958385,
+      "lon": 80.2857087,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Podi Gedara Apartments",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9957687,
+      "lon": 80.2864623,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Anara Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9958859,
+      "lon": 80.286816,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Alfies Beach House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9984262,
+      "lon": 80.2858716,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9966573,
+      "lon": 80.2847469,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Apa Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.99686,
+      "lon": 80.2814799,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Foot Print Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9972975,
+      "lon": 80.2815067,
+      "tags": {
+        "addr:city": "Talpe",
+        "amenity": "restaurant",
+        "name": "Walgama House"
+      }
+    },
+    {
+      "lat": 6.0012838,
+      "lon": 80.2820583,
+      "tags": {
+        "addr:city": "Talpe",
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9999794,
+      "lon": 80.2820235,
+      "tags": {
+        "addr:city": "Talpe",
+        "amenity": "place_of_worship",
+        "name": "Sri Wimalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0073159,
+      "lon": 80.2859386,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "Villa Sri Devi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9985786,
+      "lon": 80.2793495,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "Blue Sky Aqua Marine",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9990667,
+      "lon": 80.2755353,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "Dinu Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9987958,
+      "lon": 80.2731489,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "Frangipani Tree",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9983988,
+      "lon": 80.2744524,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Colombo -Matara Road",
+        "check_date": "2026-01-17",
+        "name": "Era Beach by Jetwing",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9981731,
+      "lon": 80.2751898,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "23 Palm",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9990788,
+      "lon": 80.2715105,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:postcode": "80615",
+        "addr:street": "Galle Road",
+        "name": "Star Light Hotel",
+        "operator": "Sharada",
+        "phone": "+94912282216",
+        "smoking": "separated",
+        "tourism": "hotel",
+        "website": "http://www.starlighthotelsrilanka.com"
+      }
+    },
+    {
+      "lat": 6.001102,
+      "lon": 80.2672652,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "name": "Chamenka Beach Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0194364,
+      "lon": 80.2676608,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Kadolana Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0171935,
+      "lon": 80.2708343,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Villa Duminda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.016403,
+      "lon": 80.2719558,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Stars Moon Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0084351,
+      "lon": 80.2804633,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Polhena Estate",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9936223,
+      "lon": 80.3069866,
+      "tags": {
+        "name": "FoodCity",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9926446,
+      "lon": 80.3144665,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Koggala Airforce bus Stop",
+        "name:ru": "\u042d\u0439\u0440\u0444\u043e\u0440\u0441"
+      }
+    },
+    {
+      "lat": 6.0109106,
+      "lon": 80.3110181,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Harumalgoda Junction Bus Stop"
+      }
+    },
+    {
+      "lat": 5.9978206,
+      "lon": 80.2854379,
+      "tags": {
+        "name:en": "La Villetta",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.003971,
+      "lon": 80.3428558,
+      "tags": {
+        "addr:city": "Koggala",
+        "addr:street": "Pelassa Road",
+        "name": "Cinnamon Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0037994,
+      "lon": 80.3409394,
+      "tags": {
+        "addr:city": "Koggala",
+        "addr:street": "Pelassa Road",
+        "name": "Koggala House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0224958,
+      "lon": 80.2697485,
+      "tags": {
+        "name:en": "Pepper Jungle House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9946116,
+      "lon": 80.3273316,
+      "tags": {
+        "addr:city": "Koggala",
+        "amenity": "place_of_worship",
+        "name": "Weduwa Buddhist Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0007589,
+      "lon": 80.324381,
+      "tags": {
+        "addr:city": "Koggala",
+        "amenity": "place_of_worship",
+        "image": "https://photos.app.goo.gl/yaKqZJZbpA8n7rHZ7",
+        "name": "Talatuduwa Buddhist Temple & Meditation Centre.",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0218061,
+      "lon": 80.3365188,
+      "tags": {
+        "name": "Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9899527,
+      "lon": 80.3211663,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Koggala",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.0152721,
+      "lon": 80.2677163,
+      "tags": {
+        "addr:street": "Heenatigala Road",
+        "name:en": "Kaju green",
+        "phone": "+94763601243",
+        "tourism": "hotel",
+        "website": "https://www.kajugreen.com/"
+      }
+    },
+    {
+      "lat": 6.0100915,
+      "lon": 80.2782226,
+      "tags": {
+        "name:en": "Blomme Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9825437,
+      "lon": 80.3367362,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Koroburuwa Restaurant"
+      }
+    },
+    {
+      "lat": 5.9772197,
+      "lon": 80.3510783,
+      "tags": {
+        "name:en": "7th Sky Edyll",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9788,
+      "lon": 80.3460341,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9778362,
+      "lon": 80.3510267,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9858573,
+      "lon": 80.3279039,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood;pizza;burger;pasta;sandwich;grill;local",
+        "name:en": "The Fishers Sunset Bar"
+      }
+    },
+    {
+      "lat": 5.9809234,
+      "lon": 80.3424617,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 5.9784608,
+      "lon": 80.3537012,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood;asian;italian;local",
+        "name:en": "A'la Carte Restaurant"
+      }
+    },
+    {
+      "lat": 5.9971843,
+      "lon": 80.2810281,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "network": "350",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9936294,
+      "lon": 80.3080475,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "level": "1",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9944165,
+      "lon": 80.307821,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Dikkumbura Galle Bus Stop"
+      }
+    },
+    {
+      "lat": 6.021324,
+      "lon": 80.3478777,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Meth Boo Sewana Meditation Center",
+        "religion": "buddhist",
+        "url": "https://youtu.be/Tbl8Nq_ezVE?si=_n3SgDYy8k5nA4CJ"
+      }
+    },
+    {
+      "lat": 5.993213,
+      "lon": 80.3090875,
+      "tags": {
+        "name:en": "Beach House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9845675,
+      "lon": 80.3489411,
+      "tags": {
+        "addr:city": "Ahangama",
+        "addr:street": "Kabalana Road",
+        "amenity": "restaurant",
+        "name:en": "Nimal\u2019s Kitchen",
+        "phone": "+94715691625",
+        "website": "https://instagram.com/nimals_kitchen"
+      }
+    },
+    {
+      "lat": 5.9813475,
+      "lon": 80.3395066,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9991528,
+      "lon": 80.2732616,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0072048,
+      "lon": 80.2865357,
+      "tags": {
+        "internet_access": "wlan",
+        "name:en": "Serenity boutique hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9940674,
+      "lon": 80.3061434,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Chance"
+      }
+    },
+    {
+      "lat": 5.9993671,
+      "lon": 80.2715155,
+      "tags": {
+        "addr:street": "Colombo -Matara Road",
+        "internet_access": "wlan",
+        "name:en": "Green Almond Hotel",
+        "phone": "+94912281024",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9973321,
+      "lon": 80.2800544,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Talpe bus stop",
+        "network": "493, 32, 350, 374",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 5.9951941,
+      "lon": 80.2888135,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Anara villa roof top Restaurant"
+      }
+    },
+    {
+      "lat": 5.9932724,
+      "lon": 80.3115192,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Good local restaurant"
+      }
+    },
+    {
+      "lat": 5.9986625,
+      "lon": 80.2706127,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "776/1",
+        "addr:street": "Colombo\u2014Matara Road",
+        "air_conditioning": "yes",
+        "bar": "yes",
+        "check_date": "2024-08-17",
+        "contact:email": "reservations@sielendiva.com",
+        "contact:facebook": "villasielendiva",
+        "contact:instagram": "villa.sielen.diva",
+        "contact:phone": "+94 761 366462",
+        "contact:website": "https://www.sielendiva.com/",
+        "internet_access": "wlan",
+        "internet_access:fee": "customers",
+        "name": "Sielen Diva",
+        "reservation": "yes",
+        "rooms": "7",
+        "stars": "5",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9995327,
+      "lon": 80.2670513,
+      "tags": {
+        "brand": "Radisson Collection Resort",
+        "name": "Radisson Collection Resort, Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0157229,
+      "lon": 80.2682908,
+      "tags": {
+        "addr:city": "unawatuna",
+        "addr:housenumber": "Godagewatta",
+        "addr:postcode": "80600",
+        "addr:street": "Metaramba",
+        "air_conditioning": "yes",
+        "contact:facebook": "https://www.facebook.com/kamiunawatuna/",
+        "description": "Kami Unawatuna is a calm and cozy villa tucked slightly away from the busy beachside, offering a peaceful retreat surrounded by tropical greenery. It\u2019s a place where you can unwind, enjoy quiet mornings, and feel the slow, relaxed rhythm of Unawatuna.",
+        "email": "kamiunawatuna@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Kami Unawatuna",
+        "opening_hours": "24/7",
+        "phone": "+94772835828",
+        "reservation": "required",
+        "rooms": "6",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "https://www.booking.com/hotel/lk/kami-unawatuna.html"
+      }
+    },
+    {
+      "lat": 5.9941093,
+      "lon": 80.3072789,
+      "tags": {
+        "name": "Habaraduwa",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 5.993084,
+      "lon": 80.3093944,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "addr:country": "LK",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "1",
+        "cuisine": "german;regional",
+        "email": "contact@wiener-dschungel.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Wiener Dschungel",
+        "phone": "+94777964095",
+        "website": "http://www.wiener-dschungel.com/",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 5.9875982,
+      "lon": 80.3251356,
+      "tags": {
+        "addr:city": "Koggala",
+        "building": "yes",
+        "name": "Club Koggala Village",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0012052,
+      "lon": 80.3418484,
+      "tags": {
+        "landuse": "residential",
+        "name": "Tri Lanka",
+        "phone": "+94 777 708 177",
+        "tourism": "hotel",
+        "website": "https://trilanka.com/"
+      }
+    },
+    {
+      "lat": 5.9806637,
+      "lon": 80.3406367,
+      "tags": {
+        "building": "yes",
+        "name": "South Point Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9839244,
+      "lon": 80.3327322,
+      "tags": {
+        "addr:street": "Colombo-Matara Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "internet_access": "wlan",
+        "name": "Stick Fisherman View Seafood",
+        "name:en": "Stick Fisherman View Seafood"
+      }
+    },
+    {
+      "lat": 6.0120652,
+      "lon": 80.3122022,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.0114849,
+      "lon": 80.306424,
+      "tags": {
+        "amenity": "hospital",
+        "operator": "Kalugala Hospital - Meepe"
+      }
+    },
+    {
+      "lat": 5.9996745,
+      "lon": 80.2677001,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "building": "yes",
+        "name": "Mihiripenna Beach Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9770597,
+      "lon": 80.3526131,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "building": "yes",
+        "name": "Bojangles Beach House",
+        "source": "Maxar-Premium",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.985953,
+      "lon": 80.3316327,
+      "tags": {
+        "building": "train_station",
+        "name": "Koggala",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 5.9859941,
+      "lon": 80.3286384,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "stupa",
+        "image": "https://photos.app.goo.gl/ZekFcoaWC2nrzqx99",
+        "name": "Shubadrara Temple Koggala",
+        "opening_hours": "24/7",
+        "religion": "buddhist",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9857198,
+      "lon": 80.3289521,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/WtGsSX2shvhye4Ro8",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.986723,
+      "lon": 80.3263735,
+      "tags": {
+        "name": "The Fortress Resort & Spa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9915946,
+      "lon": 80.3161504,
+      "tags": {
+        "addr:city": "Koggala",
+        "amenity": "restaurant",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/QYe8ep93u9W1iBW99",
+        "name": "Catalina Grill"
+      }
+    },
+    {
+      "lat": 5.9919314,
+      "lon": 80.3193658,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Hirigal Devale",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0008967,
+      "lon": 80.3251231,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0009527,
+      "lon": 80.3253077,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9946936,
+      "lon": 80.3148339,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9945491,
+      "lon": 80.3144516,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9949663,
+      "lon": 80.314801,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9951064,
+      "lon": 80.3148139,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9947681,
+      "lon": 80.3143884,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9934559,
+      "lon": 80.3112661,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "addr:street": "Colombo-Matara Road",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Habaraduwa Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 5.9933896,
+      "lon": 80.311357,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "addr:street": "Colombo-Matara Road",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Godawatta Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9938655,
+      "lon": 80.3129644,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/CPByvLTvUmzf8Nji8",
+        "name": "Gunadarshanarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9939594,
+      "lon": 80.3083783,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Railway Station Habaraduwa",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 5.9937014,
+      "lon": 80.3092167,
+      "tags": {
+        "building": "yes",
+        "building:levels": "1",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0092311,
+      "lon": 80.3116371,
+      "tags": {
+        "amenity": "school",
+        "min_age": "5-10",
+        "name": "G/Harumalgoda N.K.V",
+        "opening_hours": "Mo-Fr 07:30-01:30"
+      }
+    },
+    {
+      "lat": 6.0138682,
+      "lon": 80.307085,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "house",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0068261,
+      "lon": 80.3116935,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kokwatta Nigrodharama Temple",
+        "religion": "buddhist",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0020363,
+      "lon": 80.3102127,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0021092,
+      "lon": 80.3101028,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0019683,
+      "lon": 80.3099522,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0020989,
+      "lon": 80.3098595,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0022096,
+      "lon": 80.3101137,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0025126,
+      "lon": 80.3104492,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0024485,
+      "lon": 80.310357,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0027947,
+      "lon": 80.3103876,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0030901,
+      "lon": 80.3103349,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0032736,
+      "lon": 80.3100034,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "min_age": "1-13",
+        "name": "G/Dharmika Maha Vidyalaya",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0019159,
+      "lon": 80.3133958,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Duuwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9894216,
+      "lon": 80.337439,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "stupa",
+        "image": "https://photos.app.goo.gl/GETTWNdLZ8hQneGZ6",
+        "name:en": "Kathaluwa Old Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9835181,
+      "lon": 80.3370724,
+      "tags": {
+        "building": "yes",
+        "name": "South Lake",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9816361,
+      "lon": 80.3394253,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 5.9825774,
+      "lon": 80.340424,
+      "tags": {
+        "building": "train_station",
+        "name": "Kathaluwa",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 5.9892148,
+      "lon": 80.3373689,
+      "tags": {
+        "addr:city": "Kathaluwa",
+        "amenity": "place_of_worship",
+        "image": "https://photos.app.goo.gl/ydunsVCyE4BDjXVHA",
+        "name": "Kathaluwa Giniwella Temple",
+        "religion": "buddhist",
+        "url": "https://youtu.be/rm9N1sjQqEE?si=Z2_Bx7R38aj-UtDM"
+      }
+    },
+    {
+      "lat": 5.9787274,
+      "lon": 80.3473037,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9776935,
+      "lon": 80.350933,
+      "tags": {
+        "addr:city": "Ahangama",
+        "addr:housenumber": "179/A",
+        "addr:postcode": "80650",
+        "addr:street": "Welhengoda Junction",
+        "brand": "Leisure Beach (Pvt) Ltd",
+        "building": "yes",
+        "building:levels": "2",
+        "email": "leisurebeach3@gmail.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "mobile": "0761130277",
+        "name": "Teal Ahangama",
+        "reservation": "required",
+        "rooms": "Rooms",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9780885,
+      "lon": 80.347796,
+      "tags": {
+        "building": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9851847,
+      "lon": 80.3441632,
+      "tags": {
+        "amenity": "school",
+        "isced:level": "4",
+        "min_age": "5",
+        "name": "G/Kathaluwa GVS de Silava Primary College",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9856316,
+      "lon": 80.3430424,
+      "tags": {
+        "amenity": "school",
+        "min_age": "10",
+        "name": "G/Kathaluwa Centrel College",
+        "opening_hours": "07:30-13:30",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9871901,
+      "lon": 80.3435305,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9865718,
+      "lon": 80.3523543,
+      "tags": {
+        "amenity": "school",
+        "isced:level": "13",
+        "min_age": "5-17",
+        "name": "G/Welhengoda Gunarathne College",
+        "opening_hours": "Mo-Fr 07:30-13:30"
+      }
+    },
+    {
+      "lat": 5.987139,
+      "lon": 80.3508727,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kathaluwa Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9984751,
+      "lon": 80.2801328,
+      "tags": {
+        "building": "yes",
+        "name": "Talpe",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    }
+  ]
+}

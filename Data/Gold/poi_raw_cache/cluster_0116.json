@@ -1,0 +1,1790 @@
+{
+  "cluster_id": 116,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.039437,
+    "lat_max": 6.129299,
+    "lon_min": 80.183963,
+    "lon_max": 80.26307
+  },
+  "outlet_ids": [
+    "OUT_17060",
+    "OUT_17133",
+    "OUT_17143",
+    "OUT_17214",
+    "OUT_17221",
+    "OUT_17308",
+    "OUT_17313",
+    "OUT_17518",
+    "OUT_17605",
+    "OUT_17627",
+    "OUT_17657",
+    "OUT_17752",
+    "OUT_17801",
+    "OUT_17827",
+    "OUT_17830",
+    "OUT_17918",
+    "OUT_17959",
+    "OUT_17973",
+    "OUT_18047",
+    "OUT_18091",
+    "OUT_18135",
+    "OUT_18143",
+    "OUT_18196",
+    "OUT_18210",
+    "OUT_18251",
+    "OUT_18304",
+    "OUT_18348",
+    "OUT_18384",
+    "OUT_18416",
+    "OUT_18440",
+    "OUT_18475",
+    "OUT_18525",
+    "OUT_18568",
+    "OUT_18577",
+    "OUT_18615",
+    "OUT_18650",
+    "OUT_18660",
+    "OUT_18805",
+    "OUT_18838",
+    "OUT_18878",
+    "OUT_18917",
+    "OUT_18931",
+    "OUT_18956",
+    "OUT_19040",
+    "OUT_19132",
+    "OUT_19185",
+    "OUT_19197",
+    "OUT_19238",
+    "OUT_19497",
+    "OUT_19517",
+    "OUT_19561",
+    "OUT_19675",
+    "OUT_19788",
+    "OUT_19793",
+    "OUT_19802",
+    "OUT_19839",
+    "OUT_19936"
+  ],
+  "n_outlets": 57,
+  "n_pois_returned": 183,
+  "scraped_at": "2026-05-16T20:38:11.440821",
+  "elements": [
+    {
+      "lat": 6.0471249,
+      "lon": 80.2121695,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Sanghamitta College"
+      }
+    },
+    {
+      "lat": 6.0494692,
+      "lon": 80.2151194,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahinda College",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "url": "http://www.mahindacollege.lk",
+        "wikidata": "Q16746736",
+        "wikipedia": "en:Mahinda College"
+      }
+    },
+    {
+      "lat": 6.0411635,
+      "lon": 80.2193468,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "JOSM",
+        "name": "Tuwakugala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.044276,
+      "lon": 80.2204785,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "JOSM",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0536503,
+      "lon": 80.1909694,
+      "tags": {
+        "name": "Piyadigama",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.0562827,
+      "lon": 80.2043969,
+      "tags": {
+        "amenity": "school",
+        "name": "Ceylinco Sussex College - Galle"
+      }
+    },
+    {
+      "lat": 6.0539303,
+      "lon": 80.2048071,
+      "tags": {
+        "name": "Richmond Hill",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.0618512,
+      "lon": 80.1936045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0420512,
+      "lon": 80.2100255,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "Potlatch 0.5d",
+        "name": "Galwadugoda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0641445,
+      "lon": 80.2219431,
+      "tags": {
+        "amenity": "restaurant",
+        "is_in": "Galle, Galle District, Southern Province, Sri Lanka",
+        "name": "Sahana Restaurant"
+      }
+    },
+    {
+      "lat": 6.0548541,
+      "lon": 80.2214569,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "xybot",
+        "name": "Didiswatta",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0578728,
+      "lon": 80.2083534,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "JOSM",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0578826,
+      "lon": 80.2154199,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sadhatissaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0653024,
+      "lon": 80.2176063,
+      "tags": {
+        "created_by": "Potlatch 0.10f",
+        "name": "Gangasiri",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0643681,
+      "lon": 80.2160254,
+      "tags": {
+        "name": "Abeywikrama food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0679775,
+      "lon": 80.2280709,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0802882,
+      "lon": 80.1926041,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0602475,
+      "lon": 80.2059459,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Francois Xavier Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.0500595,
+      "lon": 80.2298394,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Sri Jinendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0576123,
+      "lon": 80.2013754,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Kalegana Piyatissa Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0403011,
+      "lon": 80.2445105,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist",
+        "source": "Bing"
+      }
+    },
+    {
+      "lat": 6.0405133,
+      "lon": 80.215669,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0578417,
+      "lon": 80.2176171,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0582552,
+      "lon": 80.2172684,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.057655,
+      "lon": 80.2176734,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0575937,
+      "lon": 80.2175312,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0635596,
+      "lon": 80.2095382,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ananda Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.041144,
+      "lon": 80.2003651,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "C.W.W Kannangara Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0404825,
+      "lon": 80.2043777,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kovilagodella Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0469374,
+      "lon": 80.1942282,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahamudalindarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0782597,
+      "lon": 80.2511786,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Maliban junction",
+        "name": "Maliban junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0757994,
+      "lon": 80.2628101,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "rathjambugaha junction",
+        "name": "Rathjambugahg junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0492835,
+      "lon": 80.2529938,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudarshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0448302,
+      "lon": 80.1972417,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "Tamarind Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0436518,
+      "lon": 80.1941396,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "Sanras Holiday Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0794197,
+      "lon": 80.1924712,
+      "tags": {
+        "addr:city": "Hapugala",
+        "addr:street": "Wakwella Road",
+        "amenity": "university",
+        "education": "university",
+        "name": "Faculty of Engineering",
+        "operator": "University of Ruhuna"
+      }
+    },
+    {
+      "lat": 6.081822,
+      "lon": 80.2125052,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0736334,
+      "lon": 80.1965052,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharmaramaya - Hapugala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0738737,
+      "lon": 80.1977935,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0740124,
+      "lon": 80.1949396,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0633934,
+      "lon": 80.1996941,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0739964,
+      "lon": 80.1979383,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.064688,
+      "lon": 80.1990327,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0679099,
+      "lon": 80.1982012,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0603515,
+      "lon": 80.2052673,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.0590977,
+      "lon": 80.203175,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Kalegana Fair"
+      }
+    },
+    {
+      "lat": 6.0590937,
+      "lon": 80.2035941,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Boo tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0688603,
+      "lon": 80.1982396,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0865217,
+      "lon": 80.2421636,
+      "tags": {
+        "amenity": "school",
+        "name": "Akmeemana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0492496,
+      "lon": 80.2292513,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "name": "Hempel House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0481134,
+      "lon": 80.1962254,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Mahamudali Road",
+        "name": "Jetwing KURULUBEDDA",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0504686,
+      "lon": 80.2199335,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese;italian;asian;local",
+        "name:en": "Blue Moon",
+        "opening_hours": "Mo-Su 11:00-15:00, 18:00-22:30"
+      }
+    },
+    {
+      "lat": 6.046658,
+      "lon": 80.2181804,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:postcode": "80000",
+        "addr:street": "Pokunuwatta Lane",
+        "internet_access": "wlan",
+        "name:en": "Villa Frangipani",
+        "opening_hours": "24/7",
+        "phone": "+94 77 141 4345",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0402163,
+      "lon": 80.2016701,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "226",
+        "addr:postcode": "80000",
+        "addr:street": "Colombo-Galle Road",
+        "amenity": "restaurant",
+        "capacity": "70",
+        "cuisine": "pizza;italian;regional;coffee_shop;chinese;sandwich;kebab;indian;asian;chicken;american;ice_cream;thai;international;fish_and_chips;seafood",
+        "delivery": "yes",
+        "email": "disenroresort@gmail.com",
+        "name": "Disenro Resort",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "phone": "0715999995",
+        "smoking": "outside",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.0572482,
+      "lon": 80.2053511,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "384/12",
+        "addr:postcode": "80000",
+        "addr:street": "Wakwella Road",
+        "amenity": "restaurant",
+        "name": "sudam homestay",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "lat": 6.0437691,
+      "lon": 80.2232076,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Indian hut"
+      }
+    },
+    {
+      "lat": 6.0944262,
+      "lon": 80.2413734,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Narawala Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.041429,
+      "lon": 80.2047389,
+      "tags": {
+        "name": "Paradise Hostel Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0638801,
+      "lon": 80.2220689,
+      "tags": {
+        "name": "Keells super",
+        "shop": "supermarket",
+        "website": "https://www.keellssuper.com/welcome"
+      }
+    },
+    {
+      "lat": 6.0657973,
+      "lon": 80.2242124,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Karapitiya",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "en:Pizza Hut",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "phone": "+94917500317",
+        "website": "https://www.pizzahut.lk/"
+      }
+    },
+    {
+      "lat": 6.0670713,
+      "lon": 80.2234453,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+94912 236 137",
+        "shop": "supermarket",
+        "website": "https://cargillsonline.com/"
+      }
+    },
+    {
+      "lat": 6.0465634,
+      "lon": 80.2251015,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "83",
+        "addr:postcode": "80000",
+        "addr:street": "Morris Road",
+        "alt_name:en": "Ceylon City Mart",
+        "name:en": "Hidayath Hypermarket",
+        "name:ru": "\u0425\u0438\u0434\u0430\u0439\u044f",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+94912234931",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0875822,
+      "lon": 80.2008837,
+      "tags": {
+        "addr:street": "Batuwanthuduwa Road",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Sugatharama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0410111,
+      "lon": 80.201568,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "218/4",
+        "addr:postcode": "80000",
+        "addr:street": "Colombo Road",
+        "name": "Windy Garden Villa",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0405754,
+      "lon": 80.2336958,
+      "tags": {
+        "name:en": "Suniru Lanka",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0459098,
+      "lon": 80.224405,
+      "tags": {
+        "name:en": "Cargills food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.1291727,
+      "lon": 80.2281091,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Meditation Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1266825,
+      "lon": 80.2295434,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Punchi Sri Padaya Viewpoint",
+        "religion": "buddhist",
+        "tourism": "viewpoint"
+      }
+    },
+    {
+      "lat": 6.053852,
+      "lon": 80.1901125,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "63",
+        "addr:postcode": "80000",
+        "addr:street": "goluwa Road",
+        "air_conditioning": "yes",
+        "brand": "Hotel",
+        "height": "0",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "level": "4",
+        "name": "Nila Vila & Homestry",
+        "opening_hours": "24Hours",
+        "payment:pay_at_the_property": "yes",
+        "phone": "0765563857",
+        "tourism": "hotel",
+        "website": "https://sites.google.com/view/nila-villa-galle/home"
+      }
+    },
+    {
+      "lat": 6.0408725,
+      "lon": 80.2241144,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nabaviyya Taikka",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0652155,
+      "lon": 80.2275865,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Cancer Unit Karapitiya"
+      }
+    },
+    {
+      "lat": 6.0665678,
+      "lon": 80.225809,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "name": "Karapitiya Teaching Hospital",
+        "name:en": "Karapiti",
+        "name:si": "\u0d9a\u0dbb\u0dcf\u0db4\u0dd2\u0da7\u0dd2\u0dba \u0dbb\u0ddd\u0dc4\u0dbd"
+      }
+    },
+    {
+      "lat": 6.0661999,
+      "lon": 80.2257915,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.0421842,
+      "lon": 80.1946509,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housename": "Jetwing Lighthouse",
+        "addr:street": "Dadella",
+        "building": "yes",
+        "name": "Jetwing Lighthouse Hotel",
+        "operator": "Jetwing",
+        "phone": "+94 91 2223744",
+        "tourism": "hotel",
+        "website": "https://www.jetwinghotels.com/jetwinglighthouse/"
+      }
+    },
+    {
+      "lat": 6.0693537,
+      "lon": 80.2271794,
+      "tags": {
+        "amenity": "hospital",
+        "contact:phone": "+94912234060",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Ruhunu Hospital",
+        "name:si": "\u0dbb\u0dd4\u0dc4\u0dd4\u0dab\u0dd4 \u0dbb\u0ddd\u0dc4\u0dc5",
+        "phone": "+94912234059",
+        "website": "https://www.ruhunuhospital.lk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0712099,
+      "lon": 80.2358136,
+      "tags": {
+        "addr:city": "Labuduwa",
+        "addr:street": "Mapalagama Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "Traditional_Local_Foods",
+        "name": "Hela Bojun Hala",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.0714512,
+      "lon": 80.2332797,
+      "tags": {
+        "addr:street": "Mapalagama Road",
+        "amenity": "school",
+        "name": "Sri Lanka School of Agriculture Labuduwa",
+        "office": "government",
+        "opening_hours": "Mo-Fr 08:00-17:00"
+      }
+    },
+    {
+      "lat": 6.0602407,
+      "lon": 80.2019106,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0593542,
+      "lon": 80.203073,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Weekly Fair - Kalegana"
+      }
+    },
+    {
+      "lat": 6.0449426,
+      "lon": 80.2239077,
+      "tags": {
+        "amenity": "school",
+        "name": "Malharasulliya Boys College"
+      }
+    },
+    {
+      "lat": 6.0843642,
+      "lon": 80.2461197,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Akmeemana Tempal",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0408271,
+      "lon": 80.2002637,
+      "tags": {
+        "amenity": "school",
+        "name": "C.W.W Kannangara Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0495058,
+      "lon": 80.2301945,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "amenity": "school",
+        "name": "Athiligoda Sudharshi Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0387668,
+      "lon": 80.2068311,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mahamodara Teaching Hospital"
+      }
+    },
+    {
+      "lat": 6.061304,
+      "lon": 80.2205085,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "MJM Hotel",
+        "phone": "+94914930550"
+      }
+    },
+    {
+      "lat": 6.0641452,
+      "lon": 80.2219583,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "is_in": "Galle, Galle District, Southern Province, Sri Lanka",
+        "name": "Sahana Restaurant"
+      }
+    },
+    {
+      "lat": 6.0466542,
+      "lon": 80.2181825,
+      "tags": {
+        "building": "yes",
+        "name": "Villa Frangipani",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0546432,
+      "lon": 80.2169381,
+      "tags": {
+        "building": "hotel",
+        "name": "Ministry of Home Affairs Circuit Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0573198,
+      "lon": 80.2216487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0501037,
+      "lon": 80.2099783,
+      "tags": {
+        "building": "yes",
+        "name": "Milano Hotel Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0482585,
+      "lon": 80.2211621,
+      "tags": {
+        "building": "yes",
+        "name": "Mahagedara Sundale Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0488445,
+      "lon": 80.203798,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Vijayaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0498304,
+      "lon": 80.203122,
+      "tags": {
+        "building": "yes",
+        "name": "Richmond Edge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0497755,
+      "lon": 80.2186069,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Ruhunu Metal Workers"
+      }
+    },
+    {
+      "lat": 6.0493651,
+      "lon": 80.2063736,
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Hasara",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0528998,
+      "lon": 80.1903449,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Piyadigama Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.048897,
+      "lon": 80.2229951,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Jennath International School"
+      }
+    },
+    {
+      "lat": 6.0523203,
+      "lon": 80.2062834,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "methodist",
+        "name": "Richmond Methodist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.0674722,
+      "lon": 80.2254197,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0504117,
+      "lon": 80.1986766,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Buruma Pansala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.05381,
+      "lon": 80.2187468,
+      "tags": {
+        "building": "yes",
+        "name": "Express Dicksons Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0537455,
+      "lon": 80.2169614,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Leeds International College"
+      }
+    },
+    {
+      "lat": 6.0493362,
+      "lon": 80.2100196,
+      "tags": {
+        "building": "yes",
+        "name": "Keshara Super Centre",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0452741,
+      "lon": 80.2224573,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.056238,
+      "lon": 80.1844279,
+      "tags": {
+        "amenity": "school",
+        "name": "Dharmapala Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0554404,
+      "lon": 80.1866381,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0681369,
+      "lon": 80.2235409,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.0532773,
+      "lon": 80.2168552,
+      "tags": {
+        "amenity": "school",
+        "name": "The International School"
+      }
+    },
+    {
+      "lat": 6.0512891,
+      "lon": 80.219657,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "401",
+        "addr:street": "Dangedara Mawatha",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology",
+        "name": "Srikatha Medical Center",
+        "opening_hours": "Mo-Su 07:00-21:00"
+      }
+    },
+    {
+      "lat": 6.0515995,
+      "lon": 80.2182706,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0492139,
+      "lon": 80.1982848,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Galle Burmese Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0518837,
+      "lon": 80.2049013,
+      "tags": {
+        "addr:postcode": "80000",
+        "amenity": "school",
+        "name": "Richmond College",
+        "wikidata": "Q3529302",
+        "wikipedia": "en:Richmond College, Galle"
+      }
+    },
+    {
+      "lat": 6.0526018,
+      "lon": 80.2034884,
+      "tags": {
+        "amenity": "school",
+        "name": "Rippon Girls' College"
+      }
+    },
+    {
+      "lat": 6.0484474,
+      "lon": 80.2073052,
+      "tags": {
+        "building": "yes",
+        "name": "Aradhana Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.049745,
+      "lon": 80.2122142,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sudarshana Paramananda Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0428472,
+      "lon": 80.2397552,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Anagarika Dharmapala Memorial Institute",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0424754,
+      "lon": 80.239436,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Suwani Health Care (Pvt) L"
+      }
+    },
+    {
+      "lat": 6.0419062,
+      "lon": 80.2434925,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Rathanajothi Vidyalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0447034,
+      "lon": 80.2434205,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0524608,
+      "lon": 80.2393408,
+      "tags": {
+        "amenity": "school",
+        "name": "Haliwala Muslim Primary School"
+      }
+    },
+    {
+      "lat": 6.0520286,
+      "lon": 80.2385609,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Haliwala Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0524942,
+      "lon": 80.2424374,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hillside Buddhist centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0495041,
+      "lon": 80.2458841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Visuddharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0712296,
+      "lon": 80.2352648,
+      "tags": {
+        "amenity": "university",
+        "name": "The open University of Sri lanka"
+      }
+    },
+    {
+      "lat": 6.0413225,
+      "lon": 80.2430368,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0712633,
+      "lon": 80.2369785,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Farm Side"
+      }
+    },
+    {
+      "lat": 6.0693726,
+      "lon": 80.2334601,
+      "tags": {
+        "name": "The Country House Chalets",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0751483,
+      "lon": 80.2380439,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pancha thuparamaya Thotagoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0740082,
+      "lon": 80.2432978,
+      "tags": {
+        "amenity": "school",
+        "name": "Aththadassi Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0541895,
+      "lon": 80.2387507,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0754191,
+      "lon": 80.234034,
+      "tags": {
+        "amenity": "university",
+        "name": "Advanced Technological Institute - Galle"
+      }
+    },
+    {
+      "lat": 6.0742165,
+      "lon": 80.2341561,
+      "tags": {
+        "amenity": "university",
+        "name": "Advanced Technical Institute - Labuduwa"
+      }
+    },
+    {
+      "lat": 6.0597934,
+      "lon": 80.2432046,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0693123,
+      "lon": 80.2271984,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ruhunu Hospital"
+      }
+    },
+    {
+      "lat": 6.0692302,
+      "lon": 80.2267535,
+      "tags": {
+        "amenity": "university",
+        "name": "Faculty of Medicine, University of Ruhuna,"
+      }
+    },
+    {
+      "lat": 6.0636749,
+      "lon": 80.2430346,
+      "tags": {
+        "amenity": "school",
+        "name": "Kapuhempola Nandhimithra Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0694611,
+      "lon": 80.2237377,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "AHS Hostel (university of ruhuna)"
+      }
+    },
+    {
+      "lat": 6.0706288,
+      "lon": 80.2252485,
+      "tags": {
+        "name": "Inland Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.075046,
+      "lon": 80.2230833,
+      "tags": {
+        "name": "Amanda Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0546661,
+      "lon": 80.2289275,
+      "tags": {
+        "amenity": "school",
+        "name": "Thomas Gall School"
+      }
+    },
+    {
+      "lat": 6.075015,
+      "lon": 80.226556,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Set Reataurant"
+      }
+    },
+    {
+      "lat": 6.0691237,
+      "lon": 80.2257053,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shi Sumangala Suwasarana Hermitage",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0674693,
+      "lon": 80.2273071,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sahana Medical Centre & Laboratory Complex"
+      }
+    },
+    {
+      "lat": 6.06672,
+      "lon": 80.2266385,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sri Lanka Victoria Emergency Truma Centre"
+      }
+    },
+    {
+      "lat": 6.0676805,
+      "lon": 80.2254683,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Purana Sunandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0677869,
+      "lon": 80.227228,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ruhunu Hospital"
+      }
+    },
+    {
+      "lat": 6.0675813,
+      "lon": 80.2276356,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "P&S"
+      }
+    },
+    {
+      "lat": 6.0680456,
+      "lon": 80.2280593,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0678261,
+      "lon": 80.2282972,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.0658976,
+      "lon": 80.2261984,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Hieimbura Road, Karapitiya",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "gynaecology;neonatology",
+        "name": "German Sri Lanka Friendship Hospital For Women",
+        "operator": "Government",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 6.0728694,
+      "lon": 80.2321975,
+      "tags": {
+        "amenity": "school",
+        "name": "Siridhamma College",
+        "wikidata": "Q10978242",
+        "wikipedia": "en:Siridhamma College"
+      }
+    },
+    {
+      "lat": 6.0641969,
+      "lon": 80.1845742,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Somarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0671883,
+      "lon": 80.1841966,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "A.J. Industries"
+      }
+    },
+    {
+      "lat": 6.066074,
+      "lon": 80.1873769,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jinarathanarmaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0719045,
+      "lon": 80.2188134,
+      "tags": {
+        "amenity": "school",
+        "name": "Richard Pathirana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0688197,
+      "lon": 80.2174111,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Giribura Shri Jayashekararamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0672963,
+      "lon": 80.2176615,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sudu Restaurant"
+      }
+    },
+    {
+      "lat": 6.0712704,
+      "lon": 80.2178543,
+      "tags": {
+        "amenity": "school",
+        "name": "Richard Pathirana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0719391,
+      "lon": 80.2197435,
+      "tags": {
+        "amenity": "university",
+        "name": "Allied Heath Science Building complex"
+      }
+    },
+    {
+      "lat": 6.0717411,
+      "lon": 80.2203886,
+      "tags": {
+        "name": "Hotel Dalunga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0671963,
+      "lon": 80.2158192,
+      "tags": {
+        "amenity": "school",
+        "name": "Navinna Muslim School"
+      }
+    },
+    {
+      "lat": 6.0687965,
+      "lon": 80.2147383,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0701936,
+      "lon": 80.2145626,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Navinna Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0579643,
+      "lon": 80.1904079,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudarshanarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0533651,
+      "lon": 80.1925101,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Globe Medical Center"
+      }
+    },
+    {
+      "lat": 6.0530066,
+      "lon": 80.1902382,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Piyadigama Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.061823,
+      "lon": 80.1935578,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Watareka Pansala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0605472,
+      "lon": 80.1936008,
+      "tags": {
+        "amenity": "school",
+        "name": "Watareka Sri Sohitha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0554191,
+      "lon": 80.1980723,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharmarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0592198,
+      "lon": 80.2033352,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Kalegana Fair"
+      }
+    },
+    {
+      "lat": 6.0572061,
+      "lon": 80.1994752,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medical Center Dr. Dias G.A"
+      }
+    },
+    {
+      "lat": 6.0602486,
+      "lon": 80.2019207,
+      "tags": {
+        "name": "Abeywickrama Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0732437,
+      "lon": 80.2399487,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "sin dinero"
+      }
+    },
+    {
+      "lat": 6.058774,
+      "lon": 80.1843626,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.0697639,
+      "lon": 80.2153492,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.1063924,
+      "lon": 80.2206579,
+      "tags": {
+        "amenity": "school",
+        "name": "Amarasooriya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.1078639,
+      "lon": 80.2138719,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Meeppawala Sri Sudarshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0977086,
+      "lon": 80.2284786,
+      "tags": {
+        "amenity": "school",
+        "name": "Naraawala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0979659,
+      "lon": 80.2341166,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Naraawala Sri Sudharshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0584198,
+      "lon": 80.2597216,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Andayamgodella Sri Khettaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0687189,
+      "lon": 80.2097801,
+      "tags": {
+        "name": "Galle HillTop",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0524935,
+      "lon": 80.188814,
+      "tags": {
+        "amenity": "marketplace",
+        "covered": "yes",
+        "name:en": "Piyadigama Fair"
+      }
+    },
+    {
+      "lat": 6.1254324,
+      "lon": 80.2293469,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name:en": "Punchi Sri Padaya",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

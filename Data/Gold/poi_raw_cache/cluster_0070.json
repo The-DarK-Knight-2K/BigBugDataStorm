@@ -1,0 +1,380 @@
+{
+  "cluster_id": 70,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.882056,
+    "lat_max": 5.963848,
+    "lon_min": 80.34511,
+    "lon_max": 80.440438
+  },
+  "outlet_ids": [
+    "OUT_17092",
+    "OUT_17237",
+    "OUT_17300",
+    "OUT_17317",
+    "OUT_17330",
+    "OUT_17479",
+    "OUT_17594",
+    "OUT_17686",
+    "OUT_17726",
+    "OUT_17793",
+    "OUT_18001",
+    "OUT_18023",
+    "OUT_18094",
+    "OUT_18206",
+    "OUT_18211",
+    "OUT_18289",
+    "OUT_18504",
+    "OUT_18597",
+    "OUT_18602",
+    "OUT_18617",
+    "OUT_18629",
+    "OUT_18696",
+    "OUT_18702",
+    "OUT_18733",
+    "OUT_18762",
+    "OUT_18858",
+    "OUT_18872",
+    "OUT_18906",
+    "OUT_19024",
+    "OUT_19108",
+    "OUT_19188",
+    "OUT_19221",
+    "OUT_19302",
+    "OUT_19382",
+    "OUT_19398",
+    "OUT_19450",
+    "OUT_19554",
+    "OUT_19607",
+    "OUT_19792"
+  ],
+  "n_outlets": 39,
+  "n_pois_returned": 30,
+  "scraped_at": "2026-05-16T20:30:39.044949",
+  "elements": [
+    {
+      "lat": 5.9598766,
+      "lon": 80.4205038,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:street": "Colombo -Matara Road",
+        "name": "Bay Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9636625,
+      "lon": 80.4096817,
+      "tags": {
+        "name": "Kumbalgama",
+        "name:ru": "\u041a\u0443\u043c\u0431\u0430\u043b\u0433\u0430\u043c\u0430",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 5.9604055,
+      "lon": 80.408006,
+      "tags": {
+        "name": "Barberyn Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.958336,
+      "lon": 80.4156867,
+      "tags": {
+        "addr:city": "Kapparatota",
+        "addr:housenumber": "3/279",
+        "addr:postcode": "81700",
+        "addr:street": "Kalukanda Road",
+        "internet_access": "wlan",
+        "name": "Horizon Inn",
+        "rooms": "5",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9621048,
+      "lon": 80.419816,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Siri Kettaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9572125,
+      "lon": 80.4197346,
+      "tags": {
+        "name": "Tiki Cliff",
+        "name:de": "Tiki Cliff Top Bar",
+        "name:en": "Tiki Cliff Top Restaurant and Bar",
+        "tourism": "hotel",
+        "website": "https://www.fb.com/tikiweligama"
+      }
+    },
+    {
+      "lat": 5.9569547,
+      "lon": 80.417955,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood",
+        "name:en": "Keerthi's Restaurant"
+      }
+    },
+    {
+      "lat": 5.9562115,
+      "lon": 80.4182756,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:street": "Kalukanda Road",
+        "name": "Turtle Bay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9568776,
+      "lon": 80.4188281,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:street": "Kalukanda Road",
+        "name": "Ocean Guest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9568403,
+      "lon": 80.4189891,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:street": "Kalukanda Road",
+        "name": "Ayubowan House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9568136,
+      "lon": 80.4197562,
+      "tags": {
+        "addr:city": "Weligama",
+        "name": "Yasmitha Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9577099,
+      "lon": 80.4181039,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:street": "Kalukanda Road",
+        "name": "Sea Line Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9574965,
+      "lon": 80.4179216,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:street": "Kalukanda Road",
+        "name": "Namal Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9624073,
+      "lon": 80.3957606,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Blue Potch Surf View"
+      }
+    },
+    {
+      "lat": 5.9608609,
+      "lon": 80.4033685,
+      "tags": {
+        "addr:housenumber": "47",
+        "addr:street": "Kadabadda Gama",
+        "name:en": "Sandaru guest house & Restaurant",
+        "opening_hours": "24/7",
+        "phone": "+94767141805",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9628271,
+      "lon": 80.3951169,
+      "tags": {
+        "amenity": "restaurant",
+        "name:de": "Mama\u2018s Restaurant",
+        "name:en": "Mama\u2018s Restaurant"
+      }
+    },
+    {
+      "lat": 5.9627768,
+      "lon": 80.4032273,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9591983,
+      "lon": 80.413586,
+      "tags": {
+        "name": "Ayurvie Weligama",
+        "phone": "+94 11 7386386",
+        "tourism": "hotel",
+        "website": "https://www.themeresorts.com/ayurvieweligama/"
+      }
+    },
+    {
+      "lat": 5.9630768,
+      "lon": 80.393683,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "internet_access": "wlan",
+        "name": "Driftwood Midigama Beach",
+        "name:en": "Driftwood Midigama Beach"
+      }
+    },
+    {
+      "lat": 5.9571862,
+      "lon": 80.4198407,
+      "tags": {
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/tikiweligama/",
+        "image": "https://photos.app.goo.gl/UesiyB745MdB3qaz6",
+        "name:en": "Tiki Bar & Kitchen - Weligama",
+        "phone": "+94 77 805 7360"
+      }
+    },
+    {
+      "lat": 5.9591225,
+      "lon": 80.4127213,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Silent Pub"
+      }
+    },
+    {
+      "lat": 5.9600069,
+      "lon": 80.403691,
+      "tags": {
+        "name:en": "Naomi Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9583705,
+      "lon": 80.4082847,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2025-01",
+        "name": "Ketature Beach Snack"
+      }
+    },
+    {
+      "lat": 5.9623927,
+      "lon": 80.4023308,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9604514,
+      "lon": 80.4028331,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Roti & Kottu Shed"
+      }
+    },
+    {
+      "lat": 5.9554327,
+      "lon": 80.4182091,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Cliff Welligama"
+      }
+    },
+    {
+      "lat": 5.9591628,
+      "lon": 80.4189473,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Vin Food"
+      }
+    },
+    {
+      "lat": 5.9625263,
+      "lon": 80.3954831,
+      "tags": {
+        "addr:city": "Midigama",
+        "addr:housenumber": "1",
+        "addr:postcode": "80650",
+        "addr:street": "Ruppewaththa",
+        "air_conditioning": "yes",
+        "contact:facebook": "https://www.facebook.com/thestableshotel/",
+        "contact:instagram": "https://www.instagram.com/thestables.srilanka/",
+        "email": "thestablessrilanka@gmail.com",
+        "image": "https://static.wixstatic.com/media/ba76c8_70e5d443c2c2496690318d18d8e64170~mv2.jpg/v1/crop/x_49,y_0,w_2925,h_4032/fill/w_750,h_1034,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/DJI_0623_JPG.jpg",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Stables Oceanfront Hotel",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "phone": "+94 76 771 1032",
+        "rooms": "9",
+        "tourism": "hotel",
+        "website": "https://www.the-stables-hotel.com/"
+      }
+    },
+    {
+      "lat": 5.9585965,
+      "lon": 80.4103127,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:street": "Abimanagama Road",
+        "email": "reservations@resplendentceylon.com",
+        "name": "Cape Weligama",
+        "operator": "http://www.resplendentceylon.com/",
+        "phone": "+94 11 774 5730",
+        "tourism": "hotel",
+        "website": "http://www.capeweligama.com/"
+      }
+    },
+    {
+      "lat": 5.9625675,
+      "lon": 80.3955048,
+      "tags": {
+        "addr:city": "Midigama",
+        "addr:housenumber": "1",
+        "addr:postcode": "80650",
+        "addr:street": "Ruppewaththa",
+        "air_conditioning": "yes",
+        "building": "yes",
+        "building:levels": "2",
+        "contact:facebook": "https://www.facebook.com/thestableshotel/",
+        "email": "thestablessrilanka@gmail.com",
+        "image": "https://static.wixstatic.com/media/ba76c8_073db7c2e9344cc4b2818c4bd267ec11~mv2.jpg/v1/crop/x_1486,y_0,w_2820,h_3712/fill/w_786,h_1034,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/RO6_0597_JPG.jpg",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "mobile": "+94 76 771 1032",
+        "name": "The Stables Oceanfront Hotel",
+        "opening_hours": "Mo-Su 08:00-17:00",
+        "operator": "The Playground Enterprise PVT (Ltd)",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 76 771 1032",
+        "reservation": "recommended",
+        "rooms": "9",
+        "tourism": "hotel",
+        "website": "https://www.the-stables-hotel.com/"
+      }
+    }
+  ]
+}

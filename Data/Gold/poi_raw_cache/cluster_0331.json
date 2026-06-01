@@ -1,0 +1,103 @@
+{
+  "cluster_id": 331,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.741886,
+    "lat_max": 7.821826,
+    "lon_min": 79.927973,
+    "lon_max": 80.02693000000001
+  },
+  "outlet_ids": [
+    "OUT_13095",
+    "OUT_13351",
+    "OUT_13480",
+    "OUT_13503",
+    "OUT_13597",
+    "OUT_13621",
+    "OUT_13707",
+    "OUT_13915",
+    "OUT_14033",
+    "OUT_14141",
+    "OUT_14238",
+    "OUT_14287",
+    "OUT_14703",
+    "OUT_14846",
+    "OUT_14888",
+    "OUT_14955",
+    "OUT_15000",
+    "OUT_15043",
+    "OUT_15245",
+    "OUT_15549",
+    "OUT_15577",
+    "OUT_15759",
+    "OUT_15764",
+    "OUT_15837",
+    "OUT_16100",
+    "OUT_16238",
+    "OUT_16400",
+    "OUT_16721",
+    "OUT_16837",
+    "OUT_16920"
+  ],
+  "n_outlets": 30,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T22:11:41.319800",
+  "elements": [
+    {
+      "lat": 7.7762842,
+      "lon": 80.0175665,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rural Hospital Rasnayakepura"
+      }
+    },
+    {
+      "lat": 7.7758543,
+      "lon": 80.0246368,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Clink Restaurant"
+      }
+    },
+    {
+      "lat": 7.7472868,
+      "lon": 79.9771636,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.7434294,
+      "lon": 79.9778688,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Madawakkulama",
+        "official_name": "primary medical care unit Madawakkulama"
+      }
+    },
+    {
+      "lat": 7.7791255,
+      "lon": 79.9478128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7790537,
+      "lon": 79.9494973,
+      "tags": {
+        "amenity": "school",
+        "name": "Andigama Maha Vidyalaya"
+      }
+    }
+  ]
+}

@@ -1,0 +1,592 @@
+{
+  "cluster_id": 381,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.889423,
+    "lat_max": 6.96129,
+    "lon_min": 79.987299,
+    "lon_max": 80.060044
+  },
+  "outlet_ids": [
+    "OUT_00080",
+    "OUT_00499",
+    "OUT_00737",
+    "OUT_00759",
+    "OUT_01192",
+    "OUT_01360",
+    "OUT_01411",
+    "OUT_01482",
+    "OUT_01627",
+    "OUT_01662",
+    "OUT_01671",
+    "OUT_01686",
+    "OUT_01880",
+    "OUT_01917",
+    "OUT_01958",
+    "OUT_02261",
+    "OUT_02354",
+    "OUT_02382",
+    "OUT_02455",
+    "OUT_02574",
+    "OUT_02799",
+    "OUT_02854",
+    "OUT_02923",
+    "OUT_03188",
+    "OUT_03324",
+    "OUT_03497",
+    "OUT_03531",
+    "OUT_03612",
+    "OUT_03650",
+    "OUT_03878",
+    "OUT_04096",
+    "OUT_04168",
+    "OUT_04171",
+    "OUT_04351",
+    "OUT_04408",
+    "OUT_04527",
+    "OUT_04554",
+    "OUT_04636",
+    "OUT_04664",
+    "OUT_04705",
+    "OUT_04975",
+    "OUT_05078",
+    "OUT_05216",
+    "OUT_05282",
+    "OUT_05297",
+    "OUT_05583",
+    "OUT_05797",
+    "OUT_05827",
+    "OUT_06427",
+    "OUT_06515",
+    "OUT_06640",
+    "OUT_06740",
+    "OUT_06770",
+    "OUT_07062",
+    "OUT_07347",
+    "OUT_07386",
+    "OUT_07435",
+    "OUT_07495",
+    "OUT_07598",
+    "OUT_07710",
+    "OUT_07735",
+    "OUT_07843",
+    "OUT_07874",
+    "OUT_08009",
+    "OUT_08033",
+    "OUT_08469",
+    "OUT_08596",
+    "OUT_08706",
+    "OUT_08917"
+  ],
+  "n_outlets": 69,
+  "n_pois_returned": 57,
+  "scraped_at": "2026-05-16T22:15:45.375180",
+  "elements": [
+    {
+      "lat": 6.9256271,
+      "lon": 80.0178699,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9069022,
+      "lon": 80.0530928,
+      "tags": {
+        "addr:city": "Ambulgama",
+        "amenity": "place_of_worship",
+        "name": "Ambulgama Purana Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9504097,
+      "lon": 80.0530856,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Shaila Chaithyarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9474414,
+      "lon": 79.9938994,
+      "tags": {
+        "amenity": "school",
+        "name": "Biyagama Central College"
+      }
+    },
+    {
+      "lat": 6.9452528,
+      "lon": 79.9910991,
+      "tags": {
+        "amenity": "school",
+        "name": "Biyagama Junior School"
+      }
+    },
+    {
+      "lat": 6.9469426,
+      "lon": 79.9939404,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Biyagama Hospital"
+      }
+    },
+    {
+      "lat": 6.9594705,
+      "lon": 80.017417,
+      "tags": {
+        "amenity": "school",
+        "name": "Walgama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9475079,
+      "lon": 79.9879931,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8908923,
+      "lon": 80.0573851,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Wilauda"
+      }
+    },
+    {
+      "lat": 6.9064993,
+      "lon": 80.059602,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Artigala",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9506342,
+      "lon": 80.0575853,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Dompe Weekly Market"
+      }
+    },
+    {
+      "lat": 6.9593192,
+      "lon": 80.0519688,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Liyanegama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9524588,
+      "lon": 80.052572,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Kalyana Ashramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9058205,
+      "lon": 80.0367021,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.895641,
+      "lon": 80.0430183,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jalthara Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9481012,
+      "lon": 79.9907893,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop",
+        "name": "PT Country House"
+      }
+    },
+    {
+      "lat": 6.9599423,
+      "lon": 80.0106953,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Biyagama Private Hospital"
+      }
+    },
+    {
+      "lat": 6.8974221,
+      "lon": 79.9940925,
+      "tags": {
+        "addr:city": "Athurugiriya",
+        "addr:postcode": "10150",
+        "addr:street": "Lake Terrace",
+        "amenity": "place_of_worship",
+        "name": "Seevali Asapuwa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9125478,
+      "lon": 80.0015952,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Manikagara"
+      }
+    },
+    {
+      "lat": 6.9028521,
+      "lon": 79.9918675,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9347123,
+      "lon": 80.0024965,
+      "tags": {
+        "addr:city": "Kaduwela",
+        "amenity": "school",
+        "name": "Bomiriya Central College"
+      }
+    },
+    {
+      "lat": 6.9344144,
+      "lon": 79.9933592,
+      "tags": {
+        "addr:city": "Kaduwela",
+        "amenity": "school",
+        "name": "Kumarathunga Munidasa Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8917585,
+      "lon": 80.0579079,
+      "tags": {
+        "amenity": "school",
+        "name": "Artigala Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9562099,
+      "lon": 79.9954049,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8894303,
+      "lon": 79.997046,
+      "tags": {
+        "addr:street": "Galwarusawa Road",
+        "amenity": "school",
+        "name:en": "Oruwala primary school",
+        "opening_hours": "Su-Fr 07:30-13:30"
+      }
+    },
+    {
+      "lat": 6.9248378,
+      "lon": 80.0172914,
+      "tags": {
+        "brand": "Sathosa",
+        "brand:wikidata": "Q96386898",
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9348108,
+      "lon": 79.9939263,
+      "tags": {
+        "amenity": "school",
+        "name": "Munidasa Kumaratunga Vidyalaya - Bomiriya"
+      }
+    },
+    {
+      "lat": 6.9198248,
+      "lon": 80.0335412,
+      "tags": {
+        "addr:street": "Colombo-Hanwella Low Level Road",
+        "amenity": "place_of_worship",
+        "fixme": "location",
+        "name": "Mahindarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9067431,
+      "lon": 80.0517943,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Embalawa Rathgal Vehera"
+      }
+    },
+    {
+      "lat": 6.9323689,
+      "lon": 80.0060937,
+      "tags": {
+        "addr:street": "Avissawella Road(Colombo-Hanwella Low Level Road)",
+        "amenity": "place_of_worship",
+        "name": "International Cambodian Buddhist Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9505126,
+      "lon": 80.0433298,
+      "tags": {
+        "name": "Hotel Janro",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9445096,
+      "lon": 79.9999782,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nandarama Viharaya"
+      }
+    },
+    {
+      "lat": 6.8920081,
+      "lon": 79.9880291,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "Shrine of St. Padre Pio",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9374157,
+      "lon": 80.0405276,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9225061,
+      "lon": 80.014342,
+      "tags": {
+        "amenity": "hospital",
+        "name": "M D.H. Jayawardana Divisional Hospital Nawagamuwa"
+      }
+    },
+    {
+      "lat": 6.9316887,
+      "lon": 80.0079108,
+      "tags": {
+        "name": "Sudu Araliya Super City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8918325,
+      "lon": 80.0035435,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshana Vihara",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9492898,
+      "lon": 80.0167635,
+      "tags": {
+        "addr:city": "Malwana",
+        "addr:street": "Malwana Dekatana Road",
+        "amenity": "restaurant",
+        "name": "Malwana Bake House"
+      }
+    },
+    {
+      "lat": 6.9570589,
+      "lon": 79.9974107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.925362,
+      "lon": 80.0414987,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9474823,
+      "lon": 80.0602282,
+      "tags": {
+        "amenity": "school",
+        "name": "Devi Balika Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9493142,
+      "lon": 80.0593916,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Dompe Hospital"
+      }
+    },
+    {
+      "lat": 6.9503572,
+      "lon": 80.0573117,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9247583,
+      "lon": 80.0105131,
+      "tags": {
+        "amenity": "marketplace",
+        "landuse": "plant_nursery",
+        "name": "Supreme Orchid Plant Nursery",
+        "opening_hours": "08:30-12:30,15:30-20:00"
+      }
+    },
+    {
+      "lat": 6.9540726,
+      "lon": 80.0223814,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Walagama Sri Sudharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.956213,
+      "lon": 80.0190681,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Al-Masjidul Musthafaviyyah Thakkiya",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.958742,
+      "lon": 80.0191517,
+      "tags": {
+        "name": "Walagama Weekend Bazar",
+        "opening_hours": "Mo-Fr 08:30-20:00; Sa,Su 08:00-15:00; PH off",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9239011,
+      "lon": 80.0178135,
+      "tags": {
+        "addr:city": "Nawagamuwa",
+        "addr:street": "Colombo-Hanwella Low Level Road",
+        "amenity": "place_of_worship",
+        "name": "Nawagamuwa Pattini Devalaya &temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9162449,
+      "lon": 79.9934795,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "name": "Nisansala"
+      }
+    },
+    {
+      "lat": 6.9476025,
+      "lon": 80.0121902,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Raxapana Jumma Mosque",
+        "name:ta": "\u0bb0\u0b95\u0bcd\u0bb8\u0baa\u0bbe\u0ba9 \u0b9c\u0bc1\u0bae\u0bcd\u0bae\u0bbe \u0bae\u0bb8\u0bcd\u0b9c\u0bbf\u0ba4\u0bcd",
+        "religion": "muslim",
+        "source": "Mapbox satellite"
+      }
+    },
+    {
+      "lat": 6.9063655,
+      "lon": 80.0518551,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Ambulgama Purana Raja maha Viharaya (Rock)",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9310824,
+      "lon": 80.0271054,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8924881,
+      "lon": 80.0584089,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9574682,
+      "lon": 80.0519311,
+      "tags": {
+        "amenity": "school",
+        "name": "Dompe Primary School"
+      }
+    },
+    {
+      "lat": 6.9586543,
+      "lon": 80.0515861,
+      "tags": {
+        "amenity": "school",
+        "name": "Dompe Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9573511,
+      "lon": 80.0339834,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9148719,
+      "lon": 80.001938,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Korathota Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

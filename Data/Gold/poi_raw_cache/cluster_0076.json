@@ -1,0 +1,1308 @@
+{
+  "cluster_id": 76,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.734788,
+    "lat_max": 6.8049,
+    "lon_min": 79.825026,
+    "lon_max": 79.901651
+  },
+  "outlet_ids": [
+    "OUT_00097",
+    "OUT_00155",
+    "OUT_00599",
+    "OUT_00810",
+    "OUT_00970",
+    "OUT_01121",
+    "OUT_01374",
+    "OUT_01650",
+    "OUT_01774",
+    "OUT_01846",
+    "OUT_02104",
+    "OUT_02139",
+    "OUT_02483",
+    "OUT_02804",
+    "OUT_02933",
+    "OUT_03367",
+    "OUT_03375",
+    "OUT_03414",
+    "OUT_03465",
+    "OUT_03505",
+    "OUT_03574",
+    "OUT_03628",
+    "OUT_03680",
+    "OUT_03733",
+    "OUT_03779",
+    "OUT_03834",
+    "OUT_03872",
+    "OUT_03903",
+    "OUT_04631",
+    "OUT_04728",
+    "OUT_04823",
+    "OUT_04864",
+    "OUT_05052",
+    "OUT_05077",
+    "OUT_05200",
+    "OUT_05436",
+    "OUT_05622",
+    "OUT_05633",
+    "OUT_05671",
+    "OUT_05953",
+    "OUT_06126",
+    "OUT_06422",
+    "OUT_06595",
+    "OUT_06704",
+    "OUT_06786",
+    "OUT_06787",
+    "OUT_06816",
+    "OUT_06966",
+    "OUT_06977",
+    "OUT_07012",
+    "OUT_07116",
+    "OUT_07143",
+    "OUT_07280",
+    "OUT_07509",
+    "OUT_07579",
+    "OUT_07924",
+    "OUT_08068",
+    "OUT_08162",
+    "OUT_08255",
+    "OUT_08259",
+    "OUT_08510",
+    "OUT_08658",
+    "OUT_08751",
+    "OUT_08891",
+    "OUT_08924"
+  ],
+  "n_outlets": 65,
+  "n_pois_returned": 123,
+  "scraped_at": "2026-05-16T20:32:11.405809",
+  "elements": [
+    {
+      "lat": 6.8035952,
+      "lon": 79.887687,
+      "tags": {
+        "amenity": "school",
+        "name": "German Technical Institute"
+      }
+    },
+    {
+      "lat": 6.802066,
+      "lon": 79.8883716,
+      "tags": {
+        "name": "Cargills Big City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7852223,
+      "lon": 79.8839469,
+      "tags": {
+        "amenity": "school",
+        "name": "Prince of Wales' College",
+        "wikidata": "Q7244365",
+        "wikipedia": "en:Prince of Wales' College, Moratuwa"
+      }
+    },
+    {
+      "lat": 6.7873302,
+      "lon": 79.8851301,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Methodist church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7896157,
+      "lon": 79.8969782,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7791788,
+      "lon": 79.880428,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Joseph Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7840477,
+      "lon": 79.8776831,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "De Soysa Hospital"
+      }
+    },
+    {
+      "lat": 6.7993854,
+      "lon": 79.8780519,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Matthias Church",
+        "religion": "christian",
+        "wikidata": "Q38251288",
+        "wikipedia": "en:St Matthias' Church, Lakshapathiya"
+      }
+    },
+    {
+      "lat": 6.7959345,
+      "lon": 79.88782,
+      "tags": {
+        "branch": "Katubedda",
+        "name": "K Zone",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7921181,
+      "lon": 79.8943564,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhirukkaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7921714,
+      "lon": 79.894563,
+      "tags": {
+        "amenity": "school",
+        "name": "Vidyaraja Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7967977,
+      "lon": 79.8931628,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shaila Bimbarama",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7775372,
+      "lon": 79.8820238,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7821556,
+      "lon": 79.8809938,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7786639,
+      "lon": 79.8824163,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Steam Boat"
+      }
+    },
+    {
+      "lat": 6.7976656,
+      "lon": 79.8881097,
+      "tags": {
+        "amenity": "school",
+        "name": "A T I"
+      }
+    },
+    {
+      "lat": 6.7656313,
+      "lon": 79.8872226,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Peter's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7671708,
+      "lon": 79.8858654,
+      "tags": {
+        "amenity": "school",
+        "name": "Janajaya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.741579,
+      "lon": 79.8947381,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sunandopananda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7727642,
+      "lon": 79.8811018,
+      "tags": {
+        "amenity": "school",
+        "name": "Our Lady of Victories Convent"
+      }
+    },
+    {
+      "lat": 6.7447861,
+      "lon": 79.8942553,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Mary's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7844301,
+      "lon": 79.884079,
+      "tags": {
+        "amenity": "school",
+        "name": "Princess Of Wales' College",
+        "wikidata": "Q19895432",
+        "wikipedia": "en:Princess of Wales' College"
+      }
+    },
+    {
+      "lat": 6.7783575,
+      "lon": 79.8848622,
+      "tags": {
+        "amenity": "school",
+        "name": "Moratuwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7657005,
+      "lon": 79.8966774,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Old Galle Road",
+        "name": "Bolgoda Park Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7680711,
+      "lon": 79.8956876,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Old Galle Road",
+        "amenity": "school",
+        "name": "Telecom Training Centre"
+      }
+    },
+    {
+      "lat": 6.79493,
+      "lon": 79.900953,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "255",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7966209,
+      "lon": 79.8882834,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "name:signed": "no",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.783547,
+      "lon": 79.8780478,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Lunawa Aryuweda Hospital"
+      }
+    },
+    {
+      "lat": 6.7809097,
+      "lon": 79.8772359,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "LaaBeach Restaurant"
+      }
+    },
+    {
+      "lat": 6.778398,
+      "lon": 79.8782149,
+      "tags": {
+        "name": "Blue Horizone",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7791651,
+      "lon": 79.8779226,
+      "tags": {
+        "name": "Sanrich",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7782265,
+      "lon": 79.8826839,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Suduwella Methodhist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7954285,
+      "lon": 79.8997391,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7429318,
+      "lon": 79.8916572,
+      "tags": {
+        "name": "Egoda Uyana",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.7743504,
+      "lon": 79.8817806,
+      "tags": {
+        "name": "Moratuwa",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.7584506,
+      "lon": 79.8859478,
+      "tags": {
+        "name": "Koralawalla",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.752501,
+      "lon": 79.8994105,
+      "tags": {
+        "addr:city": "Gorakana",
+        "addr:postcode": "12500",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Anne's Church",
+        "note": "This church known locally as Sarikkamulla Church (since it is situated in Sarikkamulla) belongs to the Parish of Panadura.",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7850917,
+      "lon": 79.8848782,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7785817,
+      "lon": 79.8827918,
+      "tags": {
+        "amenity": "school",
+        "name": "Weera Puran Appu Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7372011,
+      "lon": 79.8976467,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "anglican",
+        "name": "St. James' Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7828073,
+      "lon": 79.8838884,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "anglican",
+        "name": "St. Mark's church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7852538,
+      "lon": 79.8847406,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "delivery": "yes",
+        "name": "Pizza Hut",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.7950295,
+      "lon": 79.9005337,
+      "tags": {
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "255",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.7720382,
+      "lon": 79.8853742,
+      "tags": {
+        "name:en": "Frankfort House - Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7714712,
+      "lon": 79.8859907,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Wijaya Bodhirajaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.773178,
+      "lon": 79.8926056,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Nagahawaraya Road",
+        "amenity": "place_of_worship",
+        "name": "Purana Sangikaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7634618,
+      "lon": 79.8975836,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Old Galle Road",
+        "name": "Ramadia Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7710278,
+      "lon": 79.8924497,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "amenity": "place_of_worship",
+        "name": "Gangarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.764552,
+      "lon": 79.8965862,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Old Galle Road",
+        "name": "Raashi Lake Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7586592,
+      "lon": 79.8981429,
+      "tags": {
+        "addr:city": "Gorakana",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "name": "St.Luke's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7421975,
+      "lon": 79.9006666,
+      "tags": {
+        "addr:city": "Pallimulla",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Walukaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7988303,
+      "lon": 79.8727054,
+      "tags": {
+        "name": "Angulana",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.786652,
+      "lon": 79.8755526,
+      "tags": {
+        "name": "Lunawa",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.7968243,
+      "lon": 79.8778805,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7409611,
+      "lon": 79.8954432,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7890252,
+      "lon": 79.8969034,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Methodist Church Car Park"
+      }
+    },
+    {
+      "lat": 6.7911184,
+      "lon": 79.8865096,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator:wikidata": "Q5039260",
+        "operator:wikipedia": "en:Cargills (Ceylon)",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7857503,
+      "lon": 79.8891203,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7875932,
+      "lon": 79.8862764,
+      "tags": {
+        "amenity": "place_of_worship",
+        "historic": "memorial",
+        "memorial": "statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7859264,
+      "lon": 79.8838619,
+      "tags": {
+        "addr:housenumber": "664",
+        "addr:postcode": "10400",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "name:en": "Jasmine Song Restaurant"
+      }
+    },
+    {
+      "lat": 6.759687,
+      "lon": 79.8984971,
+      "tags": {
+        "name": "Asiri Hotel and Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7590178,
+      "lon": 79.899799,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dharmarakshitharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7575618,
+      "lon": 79.8985741,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Chef Don"
+      }
+    },
+    {
+      "lat": 6.7554862,
+      "lon": 79.9005964,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nandana Pirivena (Temple)",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7545378,
+      "lon": 79.8994019,
+      "tags": {
+        "amenity": "school",
+        "name": "Ikra International College",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7533034,
+      "lon": 79.8997015,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "\u0dc3\u0dd2\u0dad\u0dd4\u0db8\u0dca \u0dc4\u0ddc\u0da7\u0dd9\u0dbd\u0dca"
+      }
+    },
+    {
+      "lat": 6.7531762,
+      "lon": 79.8999575,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Charith's"
+      }
+    },
+    {
+      "lat": 6.7526188,
+      "lon": 79.9007978,
+      "tags": {
+        "amenity": "school",
+        "name": "Mount Hira International School",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7524676,
+      "lon": 79.8988037,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St Anne's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7508517,
+      "lon": 79.897716,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gangathilaka Pirivana, Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7502995,
+      "lon": 79.9002501,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Keselwattha Bus Stop",
+        "operator": "dilshan",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7498779,
+      "lon": 79.8987903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dheeniya masjid \u0645\u0633\u062c\u062f",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.7499765,
+      "lon": 79.9002682,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Old Galle Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator": "dilshan",
+        "operator:wikidata": "Q5039260",
+        "operator:wikipedia": "en:Cargills (Ceylon)",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7885537,
+      "lon": 79.8969783,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.788388,
+      "lon": 79.896983,
+      "tags": {
+        "District": "Colombo District",
+        "amenity": "place_of_worship",
+        "city": "Moratuwa",
+        "name": "Methodist Church Moratumulla"
+      }
+    },
+    {
+      "lat": 6.7775175,
+      "lon": 79.8822431,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "name": "Moratuwa Express Bus Stand",
+        "public_transport": "platform",
+        "ref": "229",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7869987,
+      "lon": 79.8846582,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "name": "Rawatawatta",
+        "name:si": "\u0dbb\u0dcf\u0dc0\u0dad\u0dcf\u0dc0\u0dad\u0dca\u0dad",
+        "public_transport": "platform",
+        "ref": "232",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.7904026,
+      "lon": 79.8859029,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7997439,
+      "lon": 79.8882945,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.7938655,
+      "lon": 79.8872163,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8028482,
+      "lon": 79.8876012,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "German Tech Halt",
+        "public_transport": "platform",
+        "ref": "238",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.799306,
+      "lon": 79.8884318,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mallika Bekeriya halt",
+        "public_transport": "platform",
+        "ref": "237",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.7505407,
+      "lon": 79.8934152,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Randiya hotel"
+      }
+    },
+    {
+      "lat": 6.7360729,
+      "lon": 79.9013955,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Old Galle Road",
+        "amenity": "restaurant",
+        "name": "Aknara hotel"
+      }
+    },
+    {
+      "lat": 6.7689198,
+      "lon": 79.8869864,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Francisco Place",
+        "amenity": "restaurant",
+        "name": "Grand bolgoda"
+      }
+    },
+    {
+      "lat": 6.7836657,
+      "lon": 79.8775068,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "lunawa road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Lunawa hospital"
+      }
+    },
+    {
+      "lat": 6.7765408,
+      "lon": 79.8797432,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Puranappu Raja Mawatha",
+        "amenity": "restaurant",
+        "name": "OYO 282"
+      }
+    },
+    {
+      "lat": 6.7603153,
+      "lon": 79.889906,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Cuppies"
+      }
+    },
+    {
+      "lat": 6.7638887,
+      "lon": 79.8877425,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Thambuttegama wade kade"
+      }
+    },
+    {
+      "lat": 6.7560593,
+      "lon": 79.8913115,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Bolgoda queens villa"
+      }
+    },
+    {
+      "lat": 6.7757513,
+      "lon": 79.8822924,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:signed": "no",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7489075,
+      "lon": 79.900812,
+      "tags": {
+        "name": "Public Market Building",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7546797,
+      "lon": 79.8992517,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paratta junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7556663,
+      "lon": 79.8989303,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paratta junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7580877,
+      "lon": 79.8984904,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gorakana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7584955,
+      "lon": 79.8982382,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gorakana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7684884,
+      "lon": 79.8927408,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7804359,
+      "lon": 79.8832732,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kurusa Junction Bus Stop",
+        "name:en": "Kurusa Junction Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7825662,
+      "lon": 79.8841703,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name:en": "Mendis lane",
+        "name:signed": "no",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7835493,
+      "lon": 79.884181,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mendis Lane Halt",
+        "name:en": "Mendis Lane Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7862949,
+      "lon": 79.884694,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Rawathawatte",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7770654,
+      "lon": 79.8832625,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa clock tower(to Panadura)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7778201,
+      "lon": 79.8830995,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa clock tower(to Colombo)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.775352,
+      "lon": 79.884098,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Pilawoos Hotel",
+        "phone": "0776611788",
+        "website": "https://pillawooshotel.business.site/"
+      }
+    },
+    {
+      "lat": 6.7722459,
+      "lon": 79.8851358,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa police(to Panadura)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7753741,
+      "lon": 79.8838061,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7732916,
+      "lon": 79.8846274,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa police(to Colombo)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7744613,
+      "lon": 79.884209,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa(to Panadura)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7856706,
+      "lon": 79.884712,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Fr. Pradeep Jesudian Jesus Answers Prayers GT"
+      }
+    },
+    {
+      "lat": 6.7787333,
+      "lon": 79.8824868,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Moratuwa Cross Junction Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7860987,
+      "lon": 79.8844862,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Prince Of Wales College Moratuwa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7975707,
+      "lon": 79.890586,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dr. Lakshman Amarasekara"
+      }
+    },
+    {
+      "lat": 6.7971861,
+      "lon": 79.9010871,
+      "tags": {
+        "amenity": "university",
+        "name": "University of Moratuwa",
+        "phone": "+94 11 2650301",
+        "wikidata": "Q3523254",
+        "wikipedia": "en:University of Moratuwa"
+      }
+    },
+    {
+      "lat": 6.7850251,
+      "lon": 79.8871716,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "anglican",
+        "name": "Holy Emmanuel Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.783202,
+      "lon": 79.8917922,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "St.anthony's church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7931487,
+      "lon": 79.887611,
+      "tags": {
+        "amenity": "clinic",
+        "building": "hospital",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.7940547,
+      "lon": 79.8870666,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "baptist",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7939256,
+      "lon": 79.8879913,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "roman_catholic",
+        "name": "Queen of Angels Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.774025,
+      "lon": 79.8831842,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "St. Sebastian Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7490545,
+      "lon": 79.8994772,
+      "tags": {
+        "addr:city": "Old Galle Road",
+        "addr:street": "School Lane",
+        "amenity": "school",
+        "name": "WP/KL/ Jeelan National College"
+      }
+    },
+    {
+      "lat": 6.7487872,
+      "lon": 79.900967,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dentistry",
+        "name": "Keselwatta Dental Clinic"
+      }
+    },
+    {
+      "lat": 6.7476123,
+      "lon": 79.9008526,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Safety Firts",
+        "operator": "Dr, Imthiyas",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.7495703,
+      "lon": 79.9009201,
+      "tags": {
+        "building": "yes",
+        "name": "Arafath Hotel",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

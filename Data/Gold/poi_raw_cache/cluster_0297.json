@@ -1,0 +1,4282 @@
+{
+  "cluster_id": 297,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.982060000000001,
+    "lat_max": 6.071631,
+    "lon_min": 80.182072,
+    "lon_max": 80.24915
+  },
+  "outlet_ids": [
+    "OUT_17061",
+    "OUT_17279",
+    "OUT_17284",
+    "OUT_17311",
+    "OUT_17583",
+    "OUT_17590",
+    "OUT_17659",
+    "OUT_17714",
+    "OUT_17730",
+    "OUT_17907",
+    "OUT_17911",
+    "OUT_17943",
+    "OUT_18054",
+    "OUT_18087",
+    "OUT_18187",
+    "OUT_18252",
+    "OUT_18260",
+    "OUT_18324",
+    "OUT_18417",
+    "OUT_18467",
+    "OUT_18472",
+    "OUT_18628",
+    "OUT_18695",
+    "OUT_18728",
+    "OUT_18784",
+    "OUT_18836",
+    "OUT_18860",
+    "OUT_19076",
+    "OUT_19114",
+    "OUT_19155",
+    "OUT_19158",
+    "OUT_19296",
+    "OUT_19453",
+    "OUT_19658",
+    "OUT_19741",
+    "OUT_19994"
+  ],
+  "n_outlets": 36,
+  "n_pois_returned": 436,
+  "scraped_at": "2026-05-16T22:08:26.648394",
+  "elements": [
+    {
+      "lat": 6.0471249,
+      "lon": 80.2121695,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Sanghamitta College"
+      }
+    },
+    {
+      "lat": 6.0494692,
+      "lon": 80.2151194,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahinda College",
+        "opening_hours": "Mo-Fr 07:30-13:30",
+        "url": "http://www.mahindacollege.lk",
+        "wikidata": "Q16746736",
+        "wikipedia": "en:Mahinda College"
+      }
+    },
+    {
+      "lat": 6.0333734,
+      "lon": 80.215379,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0411635,
+      "lon": 80.2193468,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "JOSM",
+        "name": "Tuwakugala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0394153,
+      "lon": 80.2206156,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Wijayananda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.044276,
+      "lon": 80.2204785,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "JOSM",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0536503,
+      "lon": 80.1909694,
+      "tags": {
+        "name": "Piyadigama",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.0562827,
+      "lon": 80.2043969,
+      "tags": {
+        "amenity": "school",
+        "name": "Ceylinco Sussex College - Galle"
+      }
+    },
+    {
+      "lat": 6.0539303,
+      "lon": 80.2048071,
+      "tags": {
+        "name": "Richmond Hill",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.0618512,
+      "lon": 80.1936045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0365987,
+      "lon": 80.2110256,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Sacred Heart Convent"
+      }
+    },
+    {
+      "lat": 6.0361207,
+      "lon": 80.2121328,
+      "tags": {
+        "amenity": "school",
+        "created_by": "Potlatch 0.10f",
+        "name": "Saint Aloysius College"
+      }
+    },
+    {
+      "lat": 6.0391918,
+      "lon": 80.2189176,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "Potlatch 0.5d",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0420512,
+      "lon": 80.2100255,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "Potlatch 0.5d",
+        "name": "Galwadugoda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0641445,
+      "lon": 80.2219431,
+      "tags": {
+        "amenity": "restaurant",
+        "is_in": "Galle, Galle District, Southern Province, Sri Lanka",
+        "name": "Sahana Restaurant"
+      }
+    },
+    {
+      "lat": 6.0355497,
+      "lon": 80.220023,
+      "tags": {
+        "amenity": "restaurant",
+        "created_by": "JOSM",
+        "is_in": "Galle, Galle District, Southern Province, Sri Lanka",
+        "name": "Sahana Cool Spot"
+      }
+    },
+    {
+      "lat": 6.0336472,
+      "lon": 80.2183437,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0385273,
+      "lon": 80.2186845,
+      "tags": {
+        "created_by": "JOSM",
+        "is_in": "Galle, Galle District, Southern Province, Sri Lanka",
+        "name": "Lady Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0381348,
+      "lon": 80.2185394,
+      "tags": {
+        "created_by": "JOSM",
+        "name": "Dutch House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0378335,
+      "lon": 80.219074,
+      "tags": {
+        "created_by": "JOSM",
+        "name": "Sun House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.033327,
+      "lon": 80.2374945,
+      "tags": {
+        "amenity": "restaurant",
+        "created_by": "JOSM",
+        "name": "Sahana"
+      }
+    },
+    {
+      "lat": 6.0548541,
+      "lon": 80.2214569,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "xybot",
+        "name": "Didiswatta",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0578728,
+      "lon": 80.2083534,
+      "tags": {
+        "amenity": "place_of_worship",
+        "created_by": "JOSM",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0578826,
+      "lon": 80.2154199,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sadhatissaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0653024,
+      "lon": 80.2176063,
+      "tags": {
+        "created_by": "Potlatch 0.10f",
+        "name": "Gangasiri",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0643681,
+      "lon": 80.2160254,
+      "tags": {
+        "name": "Abeywikrama food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0679775,
+      "lon": 80.2280709,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0366488,
+      "lon": 80.2161531,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "is_in": "Galle, Galle District, Southern Province, Sri Lanka",
+        "name": "Co-op Hospital"
+      }
+    },
+    {
+      "lat": 6.0602475,
+      "lon": 80.2059459,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Francois Xavier Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.0500595,
+      "lon": 80.2298394,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Sri Jinendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0576123,
+      "lon": 80.2013754,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Kalegana Piyatissa Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0099224,
+      "lon": 80.2479568,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Happy Banana"
+      }
+    },
+    {
+      "lat": 6.00765,
+      "lon": 80.24365,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sekeera Restaurant"
+      }
+    },
+    {
+      "lat": 6.0078667,
+      "lon": 80.2436,
+      "tags": {
+        "email": "seaview@sltnet.lk",
+        "fax": "+94 - 91 - 2 223 649",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sea View Hotel",
+        "phone": "+94 - 91 - 2 224 376",
+        "tourism": "hotel",
+        "website": "http://www.seaviewunawatuna.com/"
+      }
+    },
+    {
+      "lat": 6.0354036,
+      "lon": 80.2120989,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "St. Aloysius College"
+      }
+    },
+    {
+      "lat": 6.0403011,
+      "lon": 80.2445105,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist",
+        "source": "Bing"
+      }
+    },
+    {
+      "lat": 6.0254725,
+      "lon": 80.2182872,
+      "tags": {
+        "amenity": "school",
+        "name": "Army Pre School"
+      }
+    },
+    {
+      "lat": 6.0288675,
+      "lon": 80.2162698,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.0254777,
+      "lon": 80.2184121,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.0288122,
+      "lon": 80.2155206,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Yara Galle Fort"
+      }
+    },
+    {
+      "lat": 6.0250774,
+      "lon": 80.2193067,
+      "tags": {
+        "addr:housenumber": "38",
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.0287891,
+      "lon": 80.2162835,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "pizza",
+        "name": "Anura's"
+      }
+    },
+    {
+      "lat": 6.0259149,
+      "lon": 80.2170031,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Karunadasa"
+      }
+    },
+    {
+      "lat": 6.0405133,
+      "lon": 80.215669,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.010584,
+      "lon": 80.2435663,
+      "tags": {
+        "name": "Mandi",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.027654,
+      "lon": 80.2160328,
+      "tags": {
+        "addr:city": "Galle",
+        "amenity": "school",
+        "name": "Southlands College"
+      }
+    },
+    {
+      "lat": 6.0141182,
+      "lon": 80.2488289,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Flower Garden",
+        "tourism": "hotel",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.0260245,
+      "lon": 80.2188169,
+      "tags": {
+        "name": "Fort Fifty",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0060945,
+      "lon": 80.2433908,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Welle Devalaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0578417,
+      "lon": 80.2176171,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0582552,
+      "lon": 80.2172684,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.057655,
+      "lon": 80.2176734,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0575937,
+      "lon": 80.2175312,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0087109,
+      "lon": 80.2446177,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "One Love"
+      }
+    },
+    {
+      "lat": 6.0095487,
+      "lon": 80.2456747,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Cormaran Beach"
+      }
+    },
+    {
+      "lat": 6.0111783,
+      "lon": 80.2482512,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:vegetarian": "only",
+        "name": "Jina's Vegeratian"
+      }
+    },
+    {
+      "lat": 6.0097233,
+      "lon": 80.2483089,
+      "tags": {
+        "name": "Lucky Tuna",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0104077,
+      "lon": 80.2438264,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Villa Watuna",
+        "religion": "buddhist",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0108674,
+      "lon": 80.2480345,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Roti Shop",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.009715,
+      "lon": 80.2467768,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Samson Seafood"
+      }
+    },
+    {
+      "lat": 6.0117935,
+      "lon": 80.2481312,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Silva Rest"
+      }
+    },
+    {
+      "lat": 6.010011,
+      "lon": 80.2486728,
+      "tags": {
+        "addr:city": "unawatuna",
+        "amenity": "restaurant",
+        "name": "Tartaruga Beach Restaurant"
+      }
+    },
+    {
+      "lat": 6.0635596,
+      "lon": 80.2095382,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ananda Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.041144,
+      "lon": 80.2003651,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "C.W.W Kannangara Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0404825,
+      "lon": 80.2043777,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kovilagodella Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0575797,
+      "lon": 80.1824426,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thunmahal Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0469374,
+      "lon": 80.1942282,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahamudalindarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0219434,
+      "lon": 80.2473565,
+      "tags": {
+        "check_date:shelter": "2022-11-18",
+        "highway": "bus_stop",
+        "name": "Eramudugaha Junction",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.0276562,
+      "lon": 80.2176515,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.0259522,
+      "lon": 80.2189479,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "crepe",
+        "level": "1",
+        "name": "Crepe-Ology"
+      }
+    },
+    {
+      "lat": 6.035113,
+      "lon": 80.2167116,
+      "tags": {
+        "amenity": "school",
+        "name": "Dhamma School"
+      }
+    },
+    {
+      "lat": 6.0247231,
+      "lon": 80.2181357,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Herbal Cafe Garden"
+      }
+    },
+    {
+      "lat": 6.0343215,
+      "lon": 80.2185651,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Indian Food"
+      }
+    },
+    {
+      "lat": 6.0256908,
+      "lon": 80.2188379,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "Anua"
+      }
+    },
+    {
+      "lat": 6.0263382,
+      "lon": 80.2195259,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Serendipity Arts Cafe"
+      }
+    },
+    {
+      "lat": 6.0264409,
+      "lon": 80.219373,
+      "tags": {
+        "name": "Thenu Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.031561,
+      "lon": 80.2351112,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housename": "Closenberg Hotel",
+        "addr:street": "Closenberg Road, Megalle",
+        "name": "Closenberg Hotel",
+        "phone": "+94 91 2232241, +94 91 2224313",
+        "tourism": "hotel",
+        "website": "https://www.closenburghotel.com/",
+        "wikidata": "Q30622961",
+        "wikimedia_commons": "Category:Closenberg Hotel",
+        "wikipedia": "en:Closenberg Hotel"
+      }
+    },
+    {
+      "lat": 6.0225059,
+      "lon": 80.2490708,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Bodhirukkarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0107428,
+      "lon": 80.2476095,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:vegetarian": "only",
+        "name": "Jina's Vegetarian Restaurant"
+      }
+    },
+    {
+      "lat": 6.0086211,
+      "lon": 80.2444549,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "The Rock"
+      }
+    },
+    {
+      "lat": 6.0082682,
+      "lon": 80.244024,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Kingfisher",
+        "website": "https://effectivetours.com/kingfisher/"
+      }
+    },
+    {
+      "lat": 6.0090036,
+      "lon": 80.2449525,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hot Rock"
+      }
+    },
+    {
+      "lat": 6.025932,
+      "lon": 80.2157956,
+      "tags": {
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Hotel Weltevreden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0153306,
+      "lon": 80.2399952,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rumassala Sri Viwekarama Vihara",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0109717,
+      "lon": 80.2478067,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "addr:housenumber": "95",
+        "addr:street": "Welle Devala Road",
+        "amenity": "restaurant",
+        "capacity": "20",
+        "cuisine": "regional,_italian",
+        "name": "Paradise Garden",
+        "phone": "0094 772307639"
+      }
+    },
+    {
+      "lat": 6.0114517,
+      "lon": 80.2491083,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Unawatuna Nor Lanka",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0108835,
+      "lon": 80.2489445,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Sea Breeze Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0126107,
+      "lon": 80.2490816,
+      "tags": {
+        "addr:city": "unawatuna",
+        "addr:housenumber": "206/1",
+        "addr:postcode": "80600",
+        "addr:street": "Colombo -Matara Road",
+        "internet_access": "wlan",
+        "name": "Srimalis Residence",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0131928,
+      "lon": 80.2488566,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Daffodil Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.012963,
+      "lon": 80.2480155,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Green Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0142411,
+      "lon": 80.2490031,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Palitha's Guest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0138934,
+      "lon": 80.2483933,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "The Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0149729,
+      "lon": 80.248873,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Nooit Gedacht Heritage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0179647,
+      "lon": 80.2489421,
+      "tags": {
+        "addr:city": "unawatuna",
+        "amenity": "restaurant",
+        "name": "Upul's"
+      }
+    },
+    {
+      "lat": 6.0184944,
+      "lon": 80.2477794,
+      "tags": {
+        "name": "Nature Trails Boutique",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.017672,
+      "lon": 80.2392676,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Coco Bay Unawatuna Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0274995,
+      "lon": 80.2425956,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Coco Bay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.015282,
+      "lon": 80.2393856,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Rooftop Lounge Angel Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0119744,
+      "lon": 80.2391711,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Jungle Beach",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0177479,
+      "lon": 80.2406573,
+      "tags": {
+        "addr:city": "unawatuna",
+        "name": "Cantaloupe Levels",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0221212,
+      "lon": 80.2482305,
+      "tags": {
+        "name": "La Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0244468,
+      "lon": 80.2459841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Galketiya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0330551,
+      "lon": 80.2437867,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Siyambalagahawatte Sri Vijitharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0448302,
+      "lon": 80.1972417,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "Tamarind Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0436518,
+      "lon": 80.1941396,
+      "tags": {
+        "addr:city": "Galle",
+        "name": "Sanras Holiday Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0268677,
+      "lon": 80.2194762,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Dutch Hospital Shopping Precinct Galle"
+      }
+    },
+    {
+      "lat": 6.0251877,
+      "lon": 80.2189121,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mama's Roof Top Restaurant"
+      }
+    },
+    {
+      "lat": 6.0262383,
+      "lon": 80.218671,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "24",
+        "addr:postcode": "80000",
+        "addr:street": "Pedlar Street",
+        "amenity": "restaurant",
+        "cuisine": "burger",
+        "name": "Rocket Burger",
+        "phone": "+94914545488",
+        "website": "http://theoriginalrocketburger.com"
+      }
+    },
+    {
+      "lat": 6.0064946,
+      "lon": 80.2435411,
+      "tags": {
+        "amenity": "restaurant",
+        "capacity": "25",
+        "contact:phone": "+947777931472",
+        "cuisine": "seafood",
+        "delivery": "no",
+        "image": "https://photos.app.goo.gl/zjPi8AUDUGMSx59K6",
+        "name": "Sunrise Sea Food Restaurant",
+        "note": "Cross the little stream at the west end of the beach and you'll find this simple place next to the temple. It's got a great location away from the hordes and a fine view back across the surf. The menu reflects whatever has been culled from the fishing boa",
+        "smoking": "outside",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.0101999,
+      "lon": 80.2472873,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Happy Spice"
+      }
+    },
+    {
+      "lat": 6.036438,
+      "lon": 80.2165098,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Thasim Chest Clinic"
+      }
+    },
+    {
+      "lat": 6.0350306,
+      "lon": 80.2109041,
+      "tags": {
+        "name": "Keels Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0633934,
+      "lon": 80.1996941,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.064688,
+      "lon": 80.1990327,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0679099,
+      "lon": 80.1982012,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0603515,
+      "lon": 80.2052673,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.0590977,
+      "lon": 80.203175,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Kalegana Fair"
+      }
+    },
+    {
+      "lat": 6.0590937,
+      "lon": 80.2035941,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Boo tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0688603,
+      "lon": 80.1982396,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0263833,
+      "lon": 80.2160189,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Parrawa Street",
+        "amenity": "restaurant",
+        "description": "Sri Lankan and Indian cuisine",
+        "name": "Lucky Fort",
+        "opening_hours": "Mo-Su 12:00-22:00",
+        "phone": "+94-0777147662"
+      }
+    },
+    {
+      "lat": 6.0265582,
+      "lon": 80.2194862,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Sugar bistro and wine bar"
+      }
+    },
+    {
+      "lat": 6.0265949,
+      "lon": 80.2195597,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hammock"
+      }
+    },
+    {
+      "lat": 6.0269436,
+      "lon": 80.2196773,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "international",
+        "name": "A minute by tuk tuk"
+      }
+    },
+    {
+      "lat": 6.0327454,
+      "lon": 80.2401656,
+      "tags": {
+        "name": "Katugoda",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.0088501,
+      "lon": 80.2447602,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Samaya Beach Restaurant"
+      }
+    },
+    {
+      "lat": 6.016252,
+      "lon": 80.2384023,
+      "tags": {
+        "email": "VILLA.BAYWATCH@GMAIL.COM",
+        "name": "Villa Baywatch",
+        "opening_hours": "7:00-",
+        "phone": "+94 777872581",
+        "tourism": "hotel",
+        "website": "http://www.villabaywatch.com/"
+      }
+    },
+    {
+      "lat": 6.0096416,
+      "lon": 80.2466409,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional,pizza,italian",
+        "name": "Flamingo",
+        "opening_hours": "7:00-22:00",
+        "smoking": "outside"
+      }
+    },
+    {
+      "lat": 6.0113281,
+      "lon": 80.2482556,
+      "tags": {
+        "email": "reservations@gloriagrandunawatuna.com",
+        "name": "Gloria Grand Hotel",
+        "name:en": "Gloria Grand",
+        "phone": "+94 (0) 776378608",
+        "tourism": "hotel",
+        "website": "http://www.gloriagrandunawatuna.com/"
+      }
+    },
+    {
+      "lat": 6.0378996,
+      "lon": 80.2300911,
+      "tags": {
+        "addr:postcode": "80000",
+        "addr:street": "Colombo -Matara Road",
+        "amenity": "school",
+        "education": "school",
+        "name": "Anuladevi girl school"
+      }
+    },
+    {
+      "lat": 6.0169806,
+      "lon": 80.2489736,
+      "tags": {
+        "name": "coffee shopping\u5bf9\u9762\u4e2d\u56fd\u4eba\u7684 195",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0202465,
+      "lon": 80.2475954,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "lat": 6.0128998,
+      "lon": 80.2484559,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mati Gedara"
+      }
+    },
+    {
+      "lat": 6.0101068,
+      "lon": 80.2475948,
+      "tags": {
+        "amenity": "restaurant",
+        "name:de": "KOHA SurfCaf\u00e9&Lounge"
+      }
+    },
+    {
+      "lat": 6.0346907,
+      "lon": 80.214603,
+      "tags": {
+        "addr:housenumber": "38",
+        "addr:street": "Havelock Road",
+        "amenity": "restaurant",
+        "name": "Chinese Globe restaurant",
+        "name:zh": "\u73af\u7403\u996d\u5e97"
+      }
+    },
+    {
+      "lat": 6.0492496,
+      "lon": 80.2292513,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "name": "Hempel House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0242707,
+      "lon": 80.2179384,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2024-12-23",
+        "name": "Indian Hut"
+      }
+    },
+    {
+      "lat": 6.0252789,
+      "lon": 80.2189151,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Royal Dutch Cafe"
+      }
+    },
+    {
+      "lat": 6.0330661,
+      "lon": 80.2150827,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.009923,
+      "lon": 80.2471439,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Pink elephant"
+      }
+    },
+    {
+      "lat": 6.0070676,
+      "lon": 80.2427879,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian,seafood,sri-lankan",
+        "name": "LemonGrass",
+        "name:en": "Lemongrass",
+        "outdoor_seating": "yes",
+        "phone": "+94 77 760 0671",
+        "website": "https://www.tripadvisor.com/Restaurant_Review-g644047-d3641109-Reviews-Lemongrass_cafe-Unawatuna_Galle_District_Southern_Province.html"
+      }
+    },
+    {
+      "lat": 6.0098759,
+      "lon": 80.2490429,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "addr:street": "Welle Devala Road",
+        "name": "Calamander Unawatuna Beach",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0481134,
+      "lon": 80.1962254,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Mahamudali Road",
+        "name": "Jetwing KURULUBEDDA",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0368811,
+      "lon": 80.226034,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Fresh Fish market",
+        "name:ru": "\u0420\u044b\u043d\u043e\u043a \u0441\u0432\u0435\u0436\u0435\u0439 \u0440\u044b\u0431\u044b"
+      }
+    },
+    {
+      "lat": 6.0105023,
+      "lon": 80.248947,
+      "tags": {
+        "name": "Sheron Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0106514,
+      "lon": 80.2486791,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Pizza Restaurant"
+      }
+    },
+    {
+      "lat": 6.0187543,
+      "lon": 80.2484282,
+      "tags": {
+        "name:en": "Sunny and fun",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0322894,
+      "lon": 80.2148351,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Galle Highway Bus Stand",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0365933,
+      "lon": 80.2162355,
+      "tags": {
+        "addr:city": "Galle",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Car Park"
+      }
+    },
+    {
+      "lat": 6.0261347,
+      "lon": 80.2176614,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local",
+        "name:en": "Punto Caf\u00e9"
+      }
+    },
+    {
+      "lat": 6.0100487,
+      "lon": 80.2475177,
+      "tags": {
+        "addr:housenumber": "104/3",
+        "addr:street": "Yaddehimulla Road",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name:en": "Koha Surf Lounge",
+        "operator": "Danesh",
+        "website": "https://www.facebook.com/KohaSurfLounge/"
+      }
+    },
+    {
+      "lat": 6.0102623,
+      "lon": 80.2436025,
+      "tags": {
+        "addr:street": "Yaddehimulla Road",
+        "internet_access": "wlan",
+        "name:de": "Saadana Bird House",
+        "name:en": "Saadana Bird House",
+        "phone": "2224953",
+        "tourism": "hotel",
+        "website": "https://www.birdhouse.8k.com/"
+      }
+    },
+    {
+      "lat": 6.0338159,
+      "lon": 80.2188949,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ms Zouh's Restaurant"
+      }
+    },
+    {
+      "lat": 6.0262498,
+      "lon": 80.2185247,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "yes",
+        "internet_access:type": "Wi-Fi",
+        "name": "Mirisgala"
+      }
+    },
+    {
+      "lat": 6.0347948,
+      "lon": 80.214629,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ajantha bake house"
+      }
+    },
+    {
+      "lat": 6.0268896,
+      "lon": 80.2185227,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Punto Cafe"
+      }
+    },
+    {
+      "lat": 6.0261102,
+      "lon": 80.2172666,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "fish;regional",
+        "name": "The Merchant"
+      }
+    },
+    {
+      "lat": 6.0341956,
+      "lon": 80.2346916,
+      "tags": {
+        "name": "marco polo hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0290167,
+      "lon": 80.2176152,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0251023,
+      "lon": 80.2180596,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local;sri_lankan;seafood",
+        "name": "Coconut Sambol"
+      }
+    },
+    {
+      "lat": 6.0292879,
+      "lon": 80.2157834,
+      "tags": {
+        "name": "Entrance Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0353485,
+      "lon": 80.217151,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.031761,
+      "lon": 80.2400742,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.0281811,
+      "lon": 80.2435539,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0294785,
+      "lon": 80.2159404,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "curry",
+        "name": "Rampart"
+      }
+    },
+    {
+      "lat": 6.0259552,
+      "lon": 80.215871,
+      "tags": {
+        "addr:housenumber": "104",
+        "addr:street": "Pedlar Street",
+        "amenity": "restaurant",
+        "cuisine": "local;burger;fish_and_chips;fish",
+        "name": "VOC restaurant"
+      }
+    },
+    {
+      "lat": 6.0504686,
+      "lon": 80.2199335,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese;italian;asian;local",
+        "name:en": "Blue Moon",
+        "opening_hours": "Mo-Su 11:00-15:00, 18:00-22:30"
+      }
+    },
+    {
+      "lat": 6.046658,
+      "lon": 80.2181804,
+      "tags": {
+        "addr:housenumber": "30",
+        "addr:postcode": "80000",
+        "addr:street": "Pokunuwatta Lane",
+        "internet_access": "wlan",
+        "name:en": "Villa Frangipani",
+        "opening_hours": "24/7",
+        "phone": "+94 77 141 4345",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0257457,
+      "lon": 80.2193634,
+      "tags": {
+        "addr:street": "Hospital Street",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Kamu Restaurant cafe"
+      }
+    },
+    {
+      "lat": 6.0255943,
+      "lon": 80.2178959,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Summer green"
+      }
+    },
+    {
+      "lat": 6.008508,
+      "lon": 80.2413132,
+      "tags": {
+        "amenity": "restaurant",
+        "description": "Russian restaurant",
+        "description:ru": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d",
+        "name": "Provence"
+      }
+    },
+    {
+      "lat": 6.0078928,
+      "lon": 80.241597,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Pandanus"
+      }
+    },
+    {
+      "lat": 6.0266832,
+      "lon": 80.2178012,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Chambers"
+      }
+    },
+    {
+      "lat": 6.0250289,
+      "lon": 80.2180375,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "sri_lankan",
+        "name": "Polsumbal"
+      }
+    },
+    {
+      "lat": 6.0325415,
+      "lon": 80.2148268,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Direct express bus to Int. airport and Negombo 6:30 AM and 4:30 PM",
+        "name:zh": "Bus to Embilipitiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0100922,
+      "lon": 80.2425426,
+      "tags": {
+        "addr:postcode": "80600",
+        "addr:street": "Yaddehimulla Road",
+        "email": "goodlifeunawatuna@yahoo.com",
+        "internet_access": "wlan",
+        "name:en": "Good Life Unawatuna",
+        "operator": "Roshan & \u041c\u0430\u0440\u0438\u044f",
+        "phone": "+94777717694",
+        "tourism": "hotel",
+        "website": "https://www.instagram.com/hotelgoodlifeunawatuna"
+      }
+    },
+    {
+      "lat": 6.0164996,
+      "lon": 80.2375249,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jungle Beach Inn Restaurant"
+      }
+    },
+    {
+      "lat": 6.010614,
+      "lon": 80.2464282,
+      "tags": {
+        "name": "Penthhouse on the Rocks",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0243746,
+      "lon": 80.2172435,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Blockhouse Cafe"
+      }
+    },
+    {
+      "lat": 6.0104787,
+      "lon": 80.2406702,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian;curry",
+        "name:en": "Cook With Wasantha"
+      }
+    },
+    {
+      "lat": 6.011872,
+      "lon": 80.2481099,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name:en": "The Me-Nu"
+      }
+    },
+    {
+      "lat": 6.0330555,
+      "lon": 80.2160643,
+      "tags": {
+        "addr:street": "Gamini Mawatha",
+        "amenity": "restaurant",
+        "level": "1",
+        "name": "Family Restaurant"
+      }
+    },
+    {
+      "lat": 6.0402163,
+      "lon": 80.2016701,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "226",
+        "addr:postcode": "80000",
+        "addr:street": "Colombo-Galle Road",
+        "amenity": "restaurant",
+        "capacity": "70",
+        "cuisine": "pizza;italian;regional;coffee_shop;chinese;sandwich;kebab;indian;asian;chicken;american;ice_cream;thai;international;fish_and_chips;seafood",
+        "delivery": "yes",
+        "email": "disenroresort@gmail.com",
+        "name": "Disenro Resort",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "outdoor_seating": "yes",
+        "payment:cash": "yes",
+        "payment:coins": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:maestro": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "payment:visa_debit": "yes",
+        "phone": "0715999995",
+        "smoking": "outside",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.0249229,
+      "lon": 80.2192472,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mama's Galle Fort Restaurant and Take-away"
+      }
+    },
+    {
+      "lat": 6.0373176,
+      "lon": 80.2177784,
+      "tags": {
+        "addr:housenumber": "27/3",
+        "addr:street": "Lower Dickson Road",
+        "check_date": "2025-12-05",
+        "name": "Green Turf Homestay",
+        "phone": "+94775693098",
+        "tourism": "hotel",
+        "website": "https://www.airbnb.de/rooms/27569429"
+      }
+    },
+    {
+      "lat": 6.0371424,
+      "lon": 80.2176736,
+      "tags": {
+        "addr:housenumber": "27/3",
+        "addr:street": "Lower Dickson Road",
+        "check_date": "2025-12-05",
+        "name": "Jungle Hostel Villa",
+        "opening_hours": "Mo-Su 09:00-23:00",
+        "tourism": "hotel",
+        "website": "https://www.hostelworld.com/hosteldetails.php/Jungle-Hostel-Villa/Galle/285375"
+      }
+    },
+    {
+      "lat": 6.035673,
+      "lon": 80.2209556,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Pagoma"
+      }
+    },
+    {
+      "lat": 6.0198267,
+      "lon": 80.2482679,
+      "tags": {
+        "addr:housenumber": "660",
+        "addr:postcode": "80600",
+        "addr:street": "Galle Road",
+        "internet_access": "wlan",
+        "name:en": "Hotel J",
+        "name:nl": "Hotel J",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0104049,
+      "lon": 80.2406668,
+      "tags": {
+        "addr:street": "Dewala Road",
+        "amenity": "restaurant",
+        "cuisine": "seafood;tea;diner;regional;sandwich;curry;coffee_shop;local",
+        "diet:vegan": "yes",
+        "email": "s.s.wedamulla@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "Sea Waves Restaurant and Cooking Class",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "operator": "Susanthi",
+        "phone": "+94 77 319 1072"
+      }
+    },
+    {
+      "lat": 6.0203482,
+      "lon": 80.2485821,
+      "tags": {
+        "name": "Travellers De Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0259344,
+      "lon": 80.2156326,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Pedlar\u2019s Corner Cafe"
+      }
+    },
+    {
+      "lat": 6.0099667,
+      "lon": 80.2469987,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional;pizza;seafood",
+        "name:en": "Nautilus Restaurant & Cooking Class",
+        "phone": "+94772449863",
+        "website": "https://www.nautiluscookingclass.com/"
+      }
+    },
+    {
+      "lat": 6.0264011,
+      "lon": 80.2449546,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Fish Hunter Restaurant"
+      }
+    },
+    {
+      "lat": 6.0273822,
+      "lon": 80.2164871,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Imals Restaurant"
+      }
+    },
+    {
+      "lat": 6.0366468,
+      "lon": 80.2189647,
+      "tags": {
+        "addr:housenumber": "7",
+        "addr:street": "Upper Dickson Road",
+        "name": "Villa Upper Dickson",
+        "tourism": "hotel",
+        "website": "https://www.villaupperdickson.com/"
+      }
+    },
+    {
+      "lat": 6.0097408,
+      "lon": 80.2471782,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Ayam Zaman"
+      }
+    },
+    {
+      "lat": 6.011653,
+      "lon": 80.2481632,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "The ME-NU"
+      }
+    },
+    {
+      "lat": 6.0270495,
+      "lon": 80.2154155,
+      "tags": {
+        "name": "Yellow house",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0097355,
+      "lon": 80.2474901,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Lucky Tuna"
+      }
+    },
+    {
+      "lat": 6.0572482,
+      "lon": 80.2053511,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "384/12",
+        "addr:postcode": "80000",
+        "addr:street": "Wakwella Road",
+        "amenity": "restaurant",
+        "name": "sudam homestay",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "lat": 6.0437691,
+      "lon": 80.2232076,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Indian hut"
+      }
+    },
+    {
+      "lat": 6.0218035,
+      "lon": 80.2412046,
+      "tags": {
+        "name": "Agnus Luxury Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0219425,
+      "lon": 80.2472237,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "good and cheap food"
+      }
+    },
+    {
+      "lat": 6.0326203,
+      "lon": 80.2148133,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Bus to Ella daily 6 a.m",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0109487,
+      "lon": 80.2480677,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "seafood;chicken;regional;asian;fish_and_chips;italian;sandwich;curry;coffee_shop;local;deli;chinese;friture;pasta;fish;kebab;international;grill;indian",
+        "diet:vegetarian": "yes",
+        "internet_access": "wlan",
+        "name:en": "Coconut Style",
+        "name:ru": "\u0420\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u043d\u0430 \u0442\u0440\u0435\u0442\u044c\u0435\u043c \u044d\u0442\u0430\u0436\u0435"
+      }
+    },
+    {
+      "lat": 6.0252436,
+      "lon": 80.2189056,
+      "tags": {
+        "name": "Le Jardin du Fort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0137849,
+      "lon": 80.2490166,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name:en": "Prabodi restaurant"
+      }
+    },
+    {
+      "lat": 6.0262847,
+      "lon": 80.2178124,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "lebanese;arab;kebab;turkish",
+        "name:en": "Chambers Restaurant"
+      }
+    },
+    {
+      "lat": 6.0120114,
+      "lon": 80.2483471,
+      "tags": {
+        "name": "Silva Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0113135,
+      "lon": 80.2479175,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Jina's"
+      }
+    },
+    {
+      "lat": 6.0260071,
+      "lon": 80.216889,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:vegan": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Calorie Counter"
+      }
+    },
+    {
+      "lat": 6.0108234,
+      "lon": 80.2480778,
+      "tags": {
+        "addr:housenumber": "106",
+        "addr:street": "Yaddehimulla Road",
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "The Hideout",
+        "website": "https://www.tripadvisor.co.uk/Restaurant_Review-g644047-d15534152-Reviews-The_Hideout_Unawatuna-Unawatuna_Galle_District_Southern_Province.html"
+      }
+    },
+    {
+      "lat": 6.0336719,
+      "lon": 80.2181386,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Welle Kade"
+      }
+    },
+    {
+      "lat": 6.0255416,
+      "lon": 80.2187219,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Mom's Hidden Kitchen"
+      }
+    },
+    {
+      "lat": 6.0275059,
+      "lon": 80.2424506,
+      "tags": {
+        "amenity": "restaurant",
+        "delivery": "no",
+        "name": "La Mer",
+        "outdoor_seating": "yes"
+      }
+    },
+    {
+      "lat": 6.041429,
+      "lon": 80.2047389,
+      "tags": {
+        "name": "Paradise Hostel Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0109629,
+      "lon": 80.2480901,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Baby's Bistro"
+      }
+    },
+    {
+      "lat": 6.009659,
+      "lon": 80.246143,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Mettha's Home Cooked Meals"
+      }
+    },
+    {
+      "lat": 6.0224897,
+      "lon": 80.247353,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Good and Cheap rice packets"
+      }
+    },
+    {
+      "lat": 6.0102935,
+      "lon": 80.2477585,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name:de": "The Mahesh Roti Shop",
+        "name:en": "The Mahesh Roti Shop"
+      }
+    },
+    {
+      "lat": 6.0172469,
+      "lon": 80.2429081,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "addr:street": "Rumassala Road",
+        "amenity": "restaurant",
+        "name": "Jungle Village"
+      }
+    },
+    {
+      "lat": 6.0166643,
+      "lon": 80.2408954,
+      "tags": {
+        "addr:city": "unawatuna",
+        "addr:street": "Rumassala Road",
+        "amenity": "restaurant",
+        "name": "Hanaman Hill House"
+      }
+    },
+    {
+      "lat": 6.0100341,
+      "lon": 80.2476803,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "addr:street": "Welle Devala Road",
+        "amenity": "restaurant",
+        "name": "Happy Banana Hotel"
+      }
+    },
+    {
+      "lat": 6.0638801,
+      "lon": 80.2220689,
+      "tags": {
+        "name": "Keells super",
+        "shop": "supermarket",
+        "website": "https://www.keellssuper.com/welcome"
+      }
+    },
+    {
+      "lat": 6.0247586,
+      "lon": 80.2180245,
+      "tags": {
+        "name": "Cargils Express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0261946,
+      "lon": 80.2177537,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Dumplings Cafe"
+      }
+    },
+    {
+      "lat": 6.0657973,
+      "lon": 80.2242124,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Karapitiya",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "brand:wikipedia": "en:Pizza Hut",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "phone": "+94917500317",
+        "website": "https://www.pizzahut.lk/"
+      }
+    },
+    {
+      "lat": 6.0670713,
+      "lon": 80.2234453,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+94912 236 137",
+        "shop": "supermarket",
+        "website": "https://cargillsonline.com/"
+      }
+    },
+    {
+      "lat": 6.0127794,
+      "lon": 80.2483329,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Sri Dhara Restaurant"
+      }
+    },
+    {
+      "lat": 6.008992,
+      "lon": 80.2446285,
+      "tags": {
+        "addr:housenumber": "159",
+        "addr:postcode": "80600",
+        "addr:street": "Dewala Road",
+        "internet_access": "wlan",
+        "name:en": "Una Beach Hotel",
+        "phone": "+94 76 310 9737",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0282852,
+      "lon": 80.2162582,
+      "tags": {
+        "name:en": "chilli spices shop",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0335198,
+      "lon": 80.2371933,
+      "tags": {
+        "addr:city": "Magalle",
+        "addr:housenumber": "430",
+        "addr:street": "Colombo -Matara Road",
+        "name": "Sea Fair Food City",
+        "opening_hours": "Mo-Su 08:30-20:30",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "phone": "+94 91 224-8300",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0465634,
+      "lon": 80.2251015,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "83",
+        "addr:postcode": "80000",
+        "addr:street": "Morris Road",
+        "alt_name:en": "Ceylon City Mart",
+        "name:en": "Hidayath Hypermarket",
+        "name:ru": "\u0425\u0438\u0434\u0430\u0439\u044f",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "+94912234931",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0107939,
+      "lon": 80.2479679,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Ten4Teen"
+      }
+    },
+    {
+      "lat": 6.0098733,
+      "lon": 80.246978,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Shifting Sands Cafe"
+      }
+    },
+    {
+      "lat": 6.0090112,
+      "lon": 80.24023,
+      "tags": {
+        "name:en": "Water Gate Resort & Spa",
+        "name:ru": "Water Gate Resort & Spa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0340534,
+      "lon": 80.2354714,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0099261,
+      "lon": 80.2470694,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Granders"
+      }
+    },
+    {
+      "lat": 6.0326951,
+      "lon": 80.2338624,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0267237,
+      "lon": 80.2195636,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ocean Bistro by Starbeans"
+      }
+    },
+    {
+      "lat": 6.0257109,
+      "lon": 80.2178902,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dumplings cafe",
+        "opening_hours": "Mo-Th 09:00-21:00; Fr-Su 09:00-22:00"
+      }
+    },
+    {
+      "lat": 6.0371472,
+      "lon": 80.2176731,
+      "tags": {
+        "name": "Backpacker Galle hostel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0134214,
+      "lon": 80.2487888,
+      "tags": {
+        "addr:housenumber": "26",
+        "addr:postcode": "80600",
+        "addr:street": "Yaddehimulla Road",
+        "name:en": "MA Unawatuna",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0102196,
+      "lon": 80.2477127,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dream Gecko",
+        "name:en": "Dream"
+      }
+    },
+    {
+      "lat": 6.0130974,
+      "lon": 80.2487096,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Daffodil"
+      }
+    },
+    {
+      "lat": 6.0098015,
+      "lon": 80.2470664,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Sand Beach"
+      }
+    },
+    {
+      "lat": 6.0345833,
+      "lon": 80.2180427,
+      "tags": {
+        "name": "Wickramasinghe food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0334244,
+      "lon": 80.2367448,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "SEBU lounge"
+      }
+    },
+    {
+      "lat": 6.0092725,
+      "lon": 80.2455209,
+      "tags": {
+        "addr:street": "Yaddehimulla Road",
+        "amenity": "restaurant",
+        "cuisine": "breakfast;burger;cake;caribbean;coffee_shop;fish;grill",
+        "name:en": "Best tuna & seafood restaurant on beach Thaproban",
+        "phone": "+94914381722",
+        "website": "https://www.thambapannileisure.com/"
+      }
+    },
+    {
+      "lat": 6.0128341,
+      "lon": 80.2487364,
+      "tags": {
+        "name": "Kingfisher Bamboo Garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0295123,
+      "lon": 80.2157496,
+      "tags": {
+        "air_conditioning": "yes",
+        "amenity": "restaurant",
+        "name": "Galle Fort Restaurant",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes"
+      }
+    },
+    {
+      "lat": 6.0220317,
+      "lon": 80.244483,
+      "tags": {
+        "name": "Villa Rumassala",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0258147,
+      "lon": 80.2188272,
+      "tags": {
+        "addr:street": "Leyn Baan Street",
+        "amenity": "restaurant",
+        "check_date": "2025-01-19",
+        "cuisine": "pizza",
+        "diet:vegetarian": "yes",
+        "name": "Aqua Pizza",
+        "outdoor_seating": "yes",
+        "takeaway": "yes",
+        "toilets": "yes"
+      }
+    },
+    {
+      "lat": 6.0374657,
+      "lon": 80.2261118,
+      "tags": {
+        "brand": "Spar",
+        "brand:wikidata": "Q610492",
+        "name": "Spar",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0097795,
+      "lon": 80.2468487,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sun Rise Catamaran"
+      }
+    },
+    {
+      "lat": 6.0115129,
+      "lon": 80.2481212,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "mexican",
+        "name": "The Hideout"
+      }
+    },
+    {
+      "lat": 6.0410111,
+      "lon": 80.201568,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "218/4",
+        "addr:postcode": "80000",
+        "addr:street": "Colombo Road",
+        "name": "Windy Garden Villa",
+        "swimming_pool": "outdoor",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0405754,
+      "lon": 80.2336958,
+      "tags": {
+        "name:en": "Suniru Lanka",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.037286,
+      "lon": 80.2265011,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Aluroma"
+      }
+    },
+    {
+      "lat": 6.035644,
+      "lon": 80.2208525,
+      "tags": {
+        "name": "Sea line",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.033026,
+      "lon": 80.2164184,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Family restaurant"
+      }
+    },
+    {
+      "lat": 6.0459098,
+      "lon": 80.224405,
+      "tags": {
+        "name:en": "Cargills food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0271565,
+      "lon": 80.2165202,
+      "tags": {
+        "amenity": "restaurant",
+        "check_date": "2026-01-05",
+        "name": "Anods"
+      }
+    },
+    {
+      "lat": 6.0272816,
+      "lon": 80.2168896,
+      "tags": {
+        "check_date": "2026-01-05",
+        "name": "The Dutch Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0213408,
+      "lon": 80.2486556,
+      "tags": {
+        "name": "Rest Point",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0107371,
+      "lon": 80.247123,
+      "tags": {
+        "contact:facebook": "https://www.facebook.com/solymarunawatuna/",
+        "image": "https://photos.app.goo.gl/J9nRRioepukeGSRS7",
+        "name": "Sol Y Mar",
+        "phone": "+94 091 225 0074",
+        "tourism": "hotel",
+        "website": "https://solymarhotelunawatuna.com/"
+      }
+    },
+    {
+      "lat": 6.01073,
+      "lon": 80.2471152,
+      "tags": {
+        "addr:housenumber": "119a",
+        "addr:postcode": "80600",
+        "addr:street": "Yaddehimulla Road",
+        "internet_access": "wlan",
+        "level": "3",
+        "name": "Sol Y Mar - Unawatuna",
+        "phone": "+94 77 725 0074",
+        "tourism": "hotel",
+        "website": "https://solymarhotelunawatuna.com/"
+      }
+    },
+    {
+      "lat": 6.0254266,
+      "lon": 80.218714,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Antic"
+      }
+    },
+    {
+      "lat": 6.0259307,
+      "lon": 80.2157626,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "The Archives"
+      }
+    },
+    {
+      "lat": 6.0270364,
+      "lon": 80.2180135,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "italian",
+        "name": "The Pasta Factory"
+      }
+    },
+    {
+      "lat": 6.0098119,
+      "lon": 80.2471277,
+      "tags": {
+        "addr:postcode": "80600",
+        "addr:street": "Yaddehimulla Road",
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name": "Red Snapper Unawatuna",
+        "opening_hours": "Mo-Su 08:00-22:30",
+        "outdoor_seating": "yes",
+        "website:menu": "https://maps.app.goo.gl/yQzVfDiCqGhQx7KLA"
+      }
+    },
+    {
+      "lat": 6.053852,
+      "lon": 80.1901125,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "63",
+        "addr:postcode": "80000",
+        "addr:street": "goluwa Road",
+        "air_conditioning": "yes",
+        "brand": "Hotel",
+        "height": "0",
+        "internet_access": "yes",
+        "internet_access:fee": "no",
+        "level": "4",
+        "name": "Nila Vila & Homestry",
+        "opening_hours": "24Hours",
+        "payment:pay_at_the_property": "yes",
+        "phone": "0765563857",
+        "tourism": "hotel",
+        "website": "https://sites.google.com/view/nila-villa-galle/home"
+      }
+    },
+    {
+      "lat": 6.0277011,
+      "lon": 80.2191132,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Magister Square",
+        "name:si": "\u0db8\u0dc4\u0dda\u0dc3\u0dca\u0dad\u0dca\u200d\u0dbb\u0dcf\u0dc3\u0dca \u0da0\u0dad\u0dd4\u0dbb\u0dc3\u0dca\u0dad\u0dca\u200d\u0dbb\u0dba"
+      }
+    },
+    {
+      "lat": 6.024628,
+      "lon": 80.2186988,
+      "tags": {
+        "addr:street": "Leyn Baan Street",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:colour": "#FFFFFF",
+        "building:levels": "3",
+        "denomination": "sunni",
+        "floor:material": "wood",
+        "height": "11.68",
+        "image": "https://photos.app.goo.gl/RpNoua6WrCdGJKKZ7",
+        "name": "Meeran Jumma Masjid",
+        "religion": "muslim",
+        "roof:colour": "#800000",
+        "roof:height": "3.16",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 6.0283116,
+      "lon": 80.2160403,
+      "tags": {
+        "amenity": "school",
+        "name": "All Saints"
+      }
+    },
+    {
+      "lat": 6.0286036,
+      "lon": 80.2169952,
+      "tags": {
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/J4MwDyPuZEMURY8g9",
+        "name": "Amangalla",
+        "operator": "Aman",
+        "tourism": "hotel",
+        "website": "https://www.aman.com/resorts/amangalla/",
+        "wikidata": "Q4739838",
+        "wikimedia_commons": "Category:Amangalla",
+        "wikipedia": "en:Amangalla"
+      }
+    },
+    {
+      "lat": 6.0245318,
+      "lon": 80.2175508,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Zaviya Ummul Fuqarah",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0315899,
+      "lon": 80.2124458,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "30",
+        "addr:street": "Park Road",
+        "building": "yes",
+        "name": "Le Grand Galle by Asia Leisure",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0248291,
+      "lon": 80.2182315,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "height": "6.82",
+        "image": "https://photos.app.goo.gl/CHDiUYE7RSJVGgcg8",
+        "name": "Jiffry Thaikka",
+        "religion": "muslim",
+        "roof:height": "1.03",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 6.0247271,
+      "lon": 80.2175011,
+      "tags": {
+        "amenity": "school",
+        "name": "Thomas Gall International School",
+        "status": "abandoned"
+      }
+    },
+    {
+      "lat": 6.0384394,
+      "lon": 80.2234987,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Muhiyaddeen Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0408725,
+      "lon": 80.2241144,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nabaviyya Taikka",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0260289,
+      "lon": 80.2180136,
+      "tags": {
+        "building": "yes",
+        "name": "Fort Printers",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0346961,
+      "lon": 80.211877,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Shiwa Shiwa Hindu Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.0335913,
+      "lon": 80.2124623,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "image": "https://photos.app.goo.gl/GKZFuuDErkrtiNNJ6",
+        "name": "Shiwa Hindu Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.0266299,
+      "lon": 80.2175347,
+      "tags": {
+        "addr:city": "Galle",
+        "building": "yes",
+        "check_date": "2024-12-23",
+        "name": "Galle Fort Hotel",
+        "tourism": "hotel",
+        "wikidata": "Q5518909",
+        "wikimedia_commons": "Category:Galle Fort Hotel",
+        "wikipedia": "en:Galle Fort Hotel"
+      }
+    },
+    {
+      "lat": 6.0247811,
+      "lon": 80.2185314,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "Zaviya Shazuliyyah",
+        "religion": "muslim",
+        "roof:colour": "#800000",
+        "roof:height": "1.14",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 6.0258687,
+      "lon": 80.2178471,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "building:levels": "2",
+        "name": "Aroosiyathul Qadiriyaa Taikka",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.028182,
+      "lon": 80.2170989,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.0652155,
+      "lon": 80.2275865,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Cancer Unit Karapitiya"
+      }
+    },
+    {
+      "lat": 6.0665678,
+      "lon": 80.225809,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "name": "Karapitiya Teaching Hospital",
+        "name:en": "Karapiti",
+        "name:si": "\u0d9a\u0dbb\u0dcf\u0db4\u0dd2\u0da7\u0dd2\u0dba \u0dbb\u0ddd\u0dc4\u0dbd"
+      }
+    },
+    {
+      "lat": 6.0661999,
+      "lon": 80.2257915,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.0071479,
+      "lon": 80.24235,
+      "tags": {
+        "building": "yes",
+        "name": "Unawatuna Bay",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0421842,
+      "lon": 80.1946509,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housename": "Jetwing Lighthouse",
+        "addr:street": "Dadella",
+        "building": "yes",
+        "name": "Jetwing Lighthouse Hotel",
+        "operator": "Jetwing",
+        "phone": "+94 91 2223744",
+        "tourism": "hotel",
+        "website": "https://www.jetwinghotels.com/jetwinglighthouse/"
+      }
+    },
+    {
+      "lat": 6.0693537,
+      "lon": 80.2271794,
+      "tags": {
+        "amenity": "hospital",
+        "contact:phone": "+94912234060",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Ruhunu Hospital",
+        "name:si": "\u0dbb\u0dd4\u0dc4\u0dd4\u0dab\u0dd4 \u0dbb\u0ddd\u0dc4\u0dc5",
+        "phone": "+94912234059",
+        "website": "https://www.ruhunuhospital.lk/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0259043,
+      "lon": 80.2188057,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "52",
+        "addr:postcode": "80000",
+        "addr:street": "Leyn Baan Street",
+        "building": "commercial",
+        "name": "La Clochette Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0359324,
+      "lon": 80.2126351,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "cathedral",
+        "denomination": "catholic",
+        "name": "St. Mary's Cathedral",
+        "name:alt": "Staint Mary's Cathedral",
+        "religion": "christian",
+        "wikidata": "Q7590097",
+        "wikimedia_commons": "Category:Kaluwella Catholic Church",
+        "wikipedia": "en:St. Mary's Cathedral, Galle"
+      }
+    },
+    {
+      "lat": 6.0712099,
+      "lon": 80.2358136,
+      "tags": {
+        "addr:city": "Labuduwa",
+        "addr:street": "Mapalagama Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "Traditional_Local_Foods",
+        "name": "Hela Bojun Hala",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.0714512,
+      "lon": 80.2332797,
+      "tags": {
+        "addr:street": "Mapalagama Road",
+        "amenity": "school",
+        "name": "Sri Lanka School of Agriculture Labuduwa",
+        "office": "government",
+        "opening_hours": "Mo-Fr 08:00-17:00"
+      }
+    },
+    {
+      "lat": 6.0602407,
+      "lon": 80.2019106,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0593542,
+      "lon": 80.203073,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Weekly Fair - Kalegana"
+      }
+    },
+    {
+      "lat": 6.0449426,
+      "lon": 80.2239077,
+      "tags": {
+        "amenity": "school",
+        "name": "Malharasulliya Boys College"
+      }
+    },
+    {
+      "lat": 6.0268333,
+      "lon": 80.2174842,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "28",
+        "addr:postcode": "80000",
+        "addr:street": "Church Street",
+        "building": "yes",
+        "email": "enquiries@teardrop-hotels.com",
+        "name": "Fort Bazaar",
+        "tourism": "hotel",
+        "website": "http://teardrop-hotels.com/fort-bazaar/"
+      }
+    },
+    {
+      "lat": 6.0281466,
+      "lon": 80.2171271,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "\u0db4\u0dbd\u0dca\u0dbd\u0dd2\u0dba \u0dc0\u0dd3\u0daf\u0dd2\u0dba",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "dutch_reformed",
+        "historic": "monument",
+        "image": "https://photos.app.goo.gl/BNAmgphQhBHUnZ597",
+        "name": "Dutch Reformed Church (1755)",
+        "religion": "christian",
+        "wikidata": "Q17189325",
+        "wikipedia": "en:Groote_Kerk,_Galle"
+      }
+    },
+    {
+      "lat": 6.0276859,
+      "lon": 80.2162108,
+      "tags": {
+        "addr:city": "Galle",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "methodist",
+        "historic": "monument",
+        "name": "Magistrate Court (Malay Soilders' Barrack)",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.0267706,
+      "lon": 80.2164851,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "44",
+        "addr:postcode": "80000",
+        "addr:street": "Lighthouse Street",
+        "alt_name": "Deco on Forty Four",
+        "building": "yes",
+        "name": "Deco on 44",
+        "phone": "+94 91 2 225773",
+        "tourism": "hotel",
+        "website": "decoon44.com"
+      }
+    },
+    {
+      "lat": 6.0259842,
+      "lon": 80.2159578,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "100",
+        "addr:postcode": "80000",
+        "addr:street": "Pedlar Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "capacity": "10",
+        "cuisine": "regional",
+        "name": "Spoon's",
+        "phone": "+94 77 102 0063"
+      }
+    },
+    {
+      "lat": 6.0256695,
+      "lon": 80.2160463,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "77",
+        "addr:postcode": "80000",
+        "addr:street": "Pedlar Street",
+        "building": "yes",
+        "description": "A Luxury Boutique Hotel",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "level": "3",
+        "name": "The Bartizan",
+        "opening_hours": "24/7",
+        "operator": "The Bartizan Management",
+        "phone": "+94 91 223 2020",
+        "rooms": "10",
+        "smoking": "isolated",
+        "stars": "5",
+        "tourism": "hotel",
+        "website": "https://www.thebartizan.com/"
+      }
+    },
+    {
+      "lat": 6.0158723,
+      "lon": 80.2378075,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "religious",
+        "image": "https://photos.app.goo.gl/3EKgW3KUvTZr3JGo8",
+        "man_made": "stupa",
+        "name:en": "Peace Pagoda",
+        "url": "https://youtu.be/15jsluK1kqY"
+      }
+    },
+    {
+      "lat": 6.015777,
+      "lon": 80.2381309,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/S7b3ckBFK21WjXW78",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0105885,
+      "lon": 80.2477969,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.0345629,
+      "lon": 80.21665,
+      "tags": {
+        "amenity": "school",
+        "name": "Vidyaloka College"
+      }
+    },
+    {
+      "lat": 6.0357763,
+      "lon": 80.216071,
+      "tags": {
+        "amenity": "hospital",
+        "building": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Asiri Hospital"
+      }
+    },
+    {
+      "lat": 6.0366975,
+      "lon": 80.2164766,
+      "tags": {
+        "addr:city": "Galle",
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Co-op Hospital New Bullding"
+      }
+    },
+    {
+      "lat": 6.0253894,
+      "lon": 80.217888,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "60",
+        "addr:postcode": "80000",
+        "addr:street": "Church Street",
+        "amenity": "school",
+        "building": "yes",
+        "building:levels": "3",
+        "education": "school",
+        "image": "https://photos.app.goo.gl/sdGcuZsQjS1UXQy7A",
+        "int_name": "Al Bahjathul Ibraheemiyyah Arabic College",
+        "name": "Arabic College",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 6.0331283,
+      "lon": 80.2138253,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "roof",
+        "building:levels": "1",
+        "image": "https://photos.app.goo.gl/8VQW6b9yi78Ui2K67",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0060695,
+      "lon": 80.2432961,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/sJ6kSzUEy4SaZorK8",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0099234,
+      "lon": 80.2466128,
+      "tags": {
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/rwKBMKosqEfU2oVJA",
+        "name": "Neptune Bay Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0097887,
+      "lon": 80.2470859,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "addr:housenumber": "35",
+        "addr:postcode": "80600",
+        "addr:street": "Koswatthage Wattha, Yaddehimulla Rd",
+        "amenity": "restaurant",
+        "building": "roof",
+        "cuisine": "european;ukrainian;russian;cake",
+        "diet:halal": "yes",
+        "diet:vegetarian": "yes",
+        "name": "RELAX Food Art Restaurant",
+        "opening_hours": "Mo-Su 08:00-22:00",
+        "phone": "0775673623",
+        "website": "http://www.facebook.com/groups/relax.restaurant"
+      }
+    },
+    {
+      "lat": 6.0067638,
+      "lon": 80.2428119,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name:en": "Blow Hole"
+      }
+    },
+    {
+      "lat": 6.0331834,
+      "lon": 80.2136894,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/qZV59RRq2tkP99cV6",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0330492,
+      "lon": 80.2120206,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/GVbtiWjjR4MrtGf68",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0371915,
+      "lon": 80.2155496,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/SfdeBQ6H8XDEFWZo6",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0408271,
+      "lon": 80.2002637,
+      "tags": {
+        "amenity": "school",
+        "name": "C.W.W Kannangara Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0495058,
+      "lon": 80.2301945,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "amenity": "school",
+        "name": "Athiligoda Sudharshi Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0285196,
+      "lon": 80.2155494,
+      "tags": {
+        "addr:housenumber": "34",
+        "addr:postcode": "80000",
+        "addr:street": "Middle Street",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "seafood;fish;local",
+        "internet_access": "wlan",
+        "name:en": "Elita Restaurant",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "phone": "+94772423442",
+        "website": "https://www.facebook.com/elita.restaurant"
+      }
+    },
+    {
+      "lat": 6.0261772,
+      "lon": 80.2160893,
+      "tags": {
+        "building": "yes",
+        "name": "Iffa House Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0387668,
+      "lon": 80.2068311,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mahamodara Teaching Hospital"
+      }
+    },
+    {
+      "lat": 6.061304,
+      "lon": 80.2205085,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "MJM Hotel",
+        "phone": "+94914930550"
+      }
+    },
+    {
+      "lat": 6.0641452,
+      "lon": 80.2219583,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "is_in": "Galle, Galle District, Southern Province, Sri Lanka",
+        "name": "Sahana Restaurant"
+      }
+    },
+    {
+      "lat": 6.0578189,
+      "lon": 80.1823347,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.0353784,
+      "lon": 80.2314988,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0466542,
+      "lon": 80.2181825,
+      "tags": {
+        "building": "yes",
+        "name": "Villa Frangipani",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0546432,
+      "lon": 80.2169381,
+      "tags": {
+        "building": "hotel",
+        "name": "Ministry of Home Affairs Circuit Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0573198,
+      "lon": 80.2216487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0501037,
+      "lon": 80.2099783,
+      "tags": {
+        "building": "yes",
+        "name": "Milano Hotel Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0270875,
+      "lon": 80.2157004,
+      "tags": {
+        "building": "yes",
+        "name": "Prince Of Galle",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0482585,
+      "lon": 80.2211621,
+      "tags": {
+        "building": "yes",
+        "name": "Mahagedara Sundale Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0488445,
+      "lon": 80.203798,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Vijayaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0498304,
+      "lon": 80.203122,
+      "tags": {
+        "building": "yes",
+        "name": "Richmond Edge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0497755,
+      "lon": 80.2186069,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Ruhunu Metal Workers"
+      }
+    },
+    {
+      "lat": 6.0493651,
+      "lon": 80.2063736,
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Hasara",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0528998,
+      "lon": 80.1903449,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Piyadigama Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.048897,
+      "lon": 80.2229951,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Jennath International School"
+      }
+    },
+    {
+      "lat": 6.0358784,
+      "lon": 80.2200472,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0523203,
+      "lon": 80.2062834,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "methodist",
+        "name": "Richmond Methodist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.0674722,
+      "lon": 80.2254197,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0504117,
+      "lon": 80.1986766,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Buruma Pansala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.05381,
+      "lon": 80.2187468,
+      "tags": {
+        "building": "yes",
+        "name": "Express Dicksons Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0537455,
+      "lon": 80.2169614,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Leeds International College"
+      }
+    },
+    {
+      "lat": 6.0493362,
+      "lon": 80.2100196,
+      "tags": {
+        "building": "yes",
+        "name": "Keshara Super Centre",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0452741,
+      "lon": 80.2224573,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.056238,
+      "lon": 80.1844279,
+      "tags": {
+        "amenity": "school",
+        "name": "Dharmapala Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0554404,
+      "lon": 80.1866381,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0681369,
+      "lon": 80.2235409,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.0532773,
+      "lon": 80.2168552,
+      "tags": {
+        "amenity": "school",
+        "name": "The International School"
+      }
+    },
+    {
+      "lat": 6.0512891,
+      "lon": 80.219657,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:housenumber": "401",
+        "addr:street": "Dangedara Mawatha",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology",
+        "name": "Srikatha Medical Center",
+        "opening_hours": "Mo-Su 07:00-21:00"
+      }
+    },
+    {
+      "lat": 6.0515995,
+      "lon": 80.2182706,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0492139,
+      "lon": 80.1982848,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Galle Burmese Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0518837,
+      "lon": 80.2049013,
+      "tags": {
+        "addr:postcode": "80000",
+        "amenity": "school",
+        "name": "Richmond College",
+        "wikidata": "Q3529302",
+        "wikipedia": "en:Richmond College, Galle"
+      }
+    },
+    {
+      "lat": 6.0526018,
+      "lon": 80.2034884,
+      "tags": {
+        "amenity": "school",
+        "name": "Rippon Girls' College"
+      }
+    },
+    {
+      "lat": 6.0484474,
+      "lon": 80.2073052,
+      "tags": {
+        "building": "yes",
+        "name": "Aradhana Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.049745,
+      "lon": 80.2122142,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sudarshana Paramananda Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0259406,
+      "lon": 80.2409582,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0257799,
+      "lon": 80.2436588,
+      "tags": {
+        "amenity": "school",
+        "name": "Bona Vista College"
+      }
+    },
+    {
+      "lat": 6.0239695,
+      "lon": 80.2421987,
+      "tags": {
+        "amenity": "school",
+        "name": "G/Buonavista Junior School-Unawatuna"
+      }
+    },
+    {
+      "lat": 6.0175665,
+      "lon": 80.2404294,
+      "tags": {
+        "addr:city": "unawatuna",
+        "addr:street": "Rumassala Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Levels Unawatuna"
+      }
+    },
+    {
+      "lat": 6.0428472,
+      "lon": 80.2397552,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Anagarika Dharmapala Memorial Institute",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0424754,
+      "lon": 80.239436,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Suwani Health Care (Pvt) L"
+      }
+    },
+    {
+      "lat": 6.0419062,
+      "lon": 80.2434925,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Rathanajothi Vidyalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0447034,
+      "lon": 80.2434205,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0370565,
+      "lon": 80.2473046,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0524608,
+      "lon": 80.2393408,
+      "tags": {
+        "amenity": "school",
+        "name": "Haliwala Muslim Primary School"
+      }
+    },
+    {
+      "lat": 6.0520286,
+      "lon": 80.2385609,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Haliwala Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0524942,
+      "lon": 80.2424374,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hillside Buddhist centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0495041,
+      "lon": 80.2458841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Visuddharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0712296,
+      "lon": 80.2352648,
+      "tags": {
+        "amenity": "university",
+        "name": "The open University of Sri lanka"
+      }
+    },
+    {
+      "lat": 6.0332692,
+      "lon": 80.235522,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sahana Beach"
+      }
+    },
+    {
+      "lat": 6.0339425,
+      "lon": 80.2375007,
+      "tags": {
+        "amenity": "school",
+        "name": "Sudarma College"
+      }
+    },
+    {
+      "lat": 6.0413225,
+      "lon": 80.2430368,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0385619,
+      "lon": 80.2368302,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sudarmarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0372349,
+      "lon": 80.2420035,
+      "tags": {
+        "amenity": "school",
+        "name": "A.R.M. Thassim College"
+      }
+    },
+    {
+      "lat": 6.0712633,
+      "lon": 80.2369785,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Farm Side"
+      }
+    },
+    {
+      "lat": 6.0693726,
+      "lon": 80.2334601,
+      "tags": {
+        "name": "The Country House Chalets",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0541895,
+      "lon": 80.2387507,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0597934,
+      "lon": 80.2432046,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0693123,
+      "lon": 80.2271984,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ruhunu Hospital"
+      }
+    },
+    {
+      "lat": 6.0692302,
+      "lon": 80.2267535,
+      "tags": {
+        "amenity": "university",
+        "name": "Faculty of Medicine, University of Ruhuna,"
+      }
+    },
+    {
+      "lat": 6.0636749,
+      "lon": 80.2430346,
+      "tags": {
+        "amenity": "school",
+        "name": "Kapuhempola Nandhimithra Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0694611,
+      "lon": 80.2237377,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "AHS Hostel (university of ruhuna)"
+      }
+    },
+    {
+      "lat": 6.0706288,
+      "lon": 80.2252485,
+      "tags": {
+        "name": "Inland Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0546661,
+      "lon": 80.2289275,
+      "tags": {
+        "amenity": "school",
+        "name": "Thomas Gall School"
+      }
+    },
+    {
+      "lat": 6.0691237,
+      "lon": 80.2257053,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shi Sumangala Suwasarana Hermitage",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0674693,
+      "lon": 80.2273071,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Sahana Medical Centre & Laboratory Complex"
+      }
+    },
+    {
+      "lat": 6.06672,
+      "lon": 80.2266385,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sri Lanka Victoria Emergency Truma Centre"
+      }
+    },
+    {
+      "lat": 6.0676805,
+      "lon": 80.2254683,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Purana Sunandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0677869,
+      "lon": 80.227228,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ruhunu Hospital"
+      }
+    },
+    {
+      "lat": 6.0675813,
+      "lon": 80.2276356,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "P&S"
+      }
+    },
+    {
+      "lat": 6.0680456,
+      "lon": 80.2280593,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0678261,
+      "lon": 80.2282972,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.0658976,
+      "lon": 80.2261984,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Hieimbura Road, Karapitiya",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "gynaecology;neonatology",
+        "name": "German Sri Lanka Friendship Hospital For Women",
+        "operator": "Government",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 6.0728694,
+      "lon": 80.2321975,
+      "tags": {
+        "amenity": "school",
+        "name": "Siridhamma College",
+        "wikidata": "Q10978242",
+        "wikipedia": "en:Siridhamma College"
+      }
+    },
+    {
+      "lat": 6.0676018,
+      "lon": 80.1837531,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hilur Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0641969,
+      "lon": 80.1845742,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Somarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0671883,
+      "lon": 80.1841966,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "A.J. Industries"
+      }
+    },
+    {
+      "lat": 6.066074,
+      "lon": 80.1873769,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jinarathanarmaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0719045,
+      "lon": 80.2188134,
+      "tags": {
+        "amenity": "school",
+        "name": "Richard Pathirana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0688197,
+      "lon": 80.2174111,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Giribura Shri Jayashekararamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0672963,
+      "lon": 80.2176615,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Sudu Restaurant"
+      }
+    },
+    {
+      "lat": 6.0712704,
+      "lon": 80.2178543,
+      "tags": {
+        "amenity": "school",
+        "name": "Richard Pathirana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0717411,
+      "lon": 80.2203886,
+      "tags": {
+        "name": "Hotel Dalunga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0671963,
+      "lon": 80.2158192,
+      "tags": {
+        "amenity": "school",
+        "name": "Navinna Muslim School"
+      }
+    },
+    {
+      "lat": 6.0687965,
+      "lon": 80.2147383,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0701936,
+      "lon": 80.2145626,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Navinna Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0579643,
+      "lon": 80.1904079,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudarshanarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0533651,
+      "lon": 80.1925101,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Globe Medical Center"
+      }
+    },
+    {
+      "lat": 6.0530066,
+      "lon": 80.1902382,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Piyadigama Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.061823,
+      "lon": 80.1935578,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Watareka Pansala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0605472,
+      "lon": 80.1936008,
+      "tags": {
+        "amenity": "school",
+        "name": "Watareka Sri Sohitha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0554191,
+      "lon": 80.1980723,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharmarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0592198,
+      "lon": 80.2033352,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Kalegana Fair"
+      }
+    },
+    {
+      "lat": 6.0572061,
+      "lon": 80.1994752,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medical Center Dr. Dias G.A"
+      }
+    },
+    {
+      "lat": 6.0602486,
+      "lon": 80.2019207,
+      "tags": {
+        "name": "Abeywickrama Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.058774,
+      "lon": 80.1843626,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.0363393,
+      "lon": 80.2380413,
+      "tags": {
+        "name": "unawatuna",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0697639,
+      "lon": 80.2153492,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.0073847,
+      "lon": 80.2434133,
+      "tags": {
+        "addr:city": "unawatuna",
+        "addr:street": "Yaddehimulla Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "WAVE BEACH RESORT"
+      }
+    },
+    {
+      "lat": 6.0687189,
+      "lon": 80.2097801,
+      "tags": {
+        "name": "Galle HillTop",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0345812,
+      "lon": 80.2141068,
+      "tags": {
+        "name": "Galle",
+        "name:ur": "\u06af\u0627\u0644",
+        "public_transport": "station",
+        "railway": "station",
+        "station": "train",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.0352701,
+      "lon": 80.246213,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "name": "Indian Hut",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.0197329,
+      "lon": 80.24759,
+      "tags": {
+        "building": "yes",
+        "building:levels": "2",
+        "name:en": "Cargill's Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.037292,
+      "lon": 80.2302064,
+      "tags": {
+        "addr:street": "No.28,Matara Road, Galle",
+        "brand": "Arpico",
+        "building": "yes",
+        "description": "A biggest supermarket in Galle",
+        "name": "Arpico Supercentre",
+        "name:en": "Arpico Supercentre",
+        "opening_hours": "09:00-22:00",
+        "phone": "091-4384233",
+        "shop": "supermarket",
+        "website": "https://www.arpico.com"
+      }
+    },
+    {
+      "lat": 6.0524935,
+      "lon": 80.188814,
+      "tags": {
+        "amenity": "marketplace",
+        "covered": "yes",
+        "name:en": "Piyadigama Fair"
+      }
+    },
+    {
+      "lat": 6.0330708,
+      "lon": 80.2390443,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "retail",
+        "name": "Cargills Food City",
+        "name:en": "Cargills Food City Express",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "payment:cash": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0330436,
+      "lon": 80.2122644,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/PDRU18NC4AyKWfNs5",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.027001,
+      "lon": 80.2153298,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Shri Sudarmalaya Temple",
+        "religion": "buddhist",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 6.0274607,
+      "lon": 80.2174615,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "\u0db4\u0dbd\u0dca\u0dbd\u0dd2\u0dba \u0dc0\u0dd3\u0daf\u0dd2\u0dba",
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "anglican",
+        "image": "https://photos.app.goo.gl/brJ9zNQCgkKH2Cjq5",
+        "name:en": "All Saints Church Fort Galle",
+        "religion": "christian",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

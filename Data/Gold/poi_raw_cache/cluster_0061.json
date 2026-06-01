@@ -1,0 +1,424 @@
+{
+  "cluster_id": 61,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.9913,
+    "lat_max": 6.081856999999999,
+    "lon_min": 80.314063,
+    "lon_max": 80.397383
+  },
+  "outlet_ids": [
+    "OUT_17049",
+    "OUT_17114",
+    "OUT_17249",
+    "OUT_17303",
+    "OUT_17374",
+    "OUT_17473",
+    "OUT_17476",
+    "OUT_17537",
+    "OUT_17610",
+    "OUT_17704",
+    "OUT_17727",
+    "OUT_17783",
+    "OUT_18027",
+    "OUT_18085",
+    "OUT_18133",
+    "OUT_18243",
+    "OUT_18261",
+    "OUT_18295",
+    "OUT_18301",
+    "OUT_18319",
+    "OUT_18371",
+    "OUT_18515",
+    "OUT_18686",
+    "OUT_18710",
+    "OUT_18756",
+    "OUT_18810",
+    "OUT_18877",
+    "OUT_18959",
+    "OUT_19012",
+    "OUT_19127",
+    "OUT_19465",
+    "OUT_19588",
+    "OUT_19682",
+    "OUT_19764",
+    "OUT_19888",
+    "OUT_19895",
+    "OUT_19900",
+    "OUT_19958"
+  ],
+  "n_outlets": 38,
+  "n_pois_returned": 38,
+  "scraped_at": "2026-05-16T20:29:29.195038",
+  "elements": [
+    {
+      "lat": 6.0210488,
+      "lon": 80.3411254,
+      "tags": {
+        "addr:city": "Unawatuna, Galle",
+        "addr:street": "Galle Dikkumbura Main Road",
+        "is_in": "Kahanda, Habaraduwa Division, Galle District, Southern Province, Sri Lanka",
+        "name": "Kahanda Kanda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0378367,
+      "lon": 80.391441,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Imaduwa Hospital"
+      }
+    },
+    {
+      "lat": 6.0352586,
+      "lon": 80.3823841,
+      "tags": {
+        "addr:city": "Imaduwa",
+        "addr:street": "Galle - Akuressa - Deniyaya Road",
+        "amenity": "school",
+        "name": "National collage"
+      }
+    },
+    {
+      "lat": 6.0089335,
+      "lon": 80.342188,
+      "tags": {
+        "amenity": "school",
+        "name": "Pelassa School"
+      }
+    },
+    {
+      "lat": 6.0076619,
+      "lon": 80.3416057,
+      "tags": {
+        "addr:city": "Ahangama",
+        "addr:housename": "Pelassa Road, Santhosagama",
+        "addr:postcode": "80560",
+        "name": "Villa Mayurana",
+        "operator": "Villa Mayurana",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9978275,
+      "lon": 80.3190241,
+      "tags": {
+        "addr:street": "Koggala, Habaraduwa",
+        "name": "Lake Side Spice Garden",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9936364,
+      "lon": 80.3496059,
+      "tags": {
+        "addr:city": "Unawatuna",
+        "addr:street": "Koggala Lake",
+        "name": "Villa Alexandra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9979462,
+      "lon": 80.320329,
+      "tags": {
+        "addr:city": "Koggala",
+        "name": "Kimbulagalawatte Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0053014,
+      "lon": 80.3186338,
+      "tags": {
+        "addr:city": "Habaraduwa",
+        "name": "Hotel La Veranda di Serena Lake",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0351121,
+      "lon": 80.314359,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0346679,
+      "lon": 80.3151505,
+      "tags": {
+        "amenity": "school",
+        "name": "Angulugaha Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0351111,
+      "lon": 80.3766581,
+      "tags": {
+        "addr:city": "Paragoda",
+        "addr:street": "Galle - Akuressa - Deniyaya Road",
+        "amenity": "place_of_worship",
+        "name": "Paragoda Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0177595,
+      "lon": 80.3780331,
+      "tags": {
+        "amenity": "school",
+        "name": "Dikkumbura Mha vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0156077,
+      "lon": 80.3928995,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Andugoda puran viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9926446,
+      "lon": 80.3144665,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Koggala Airforce bus Stop",
+        "name:ru": "\u042d\u0439\u0440\u0444\u043e\u0440\u0441"
+      }
+    },
+    {
+      "lat": 6.003971,
+      "lon": 80.3428558,
+      "tags": {
+        "addr:city": "Koggala",
+        "addr:street": "Pelassa Road",
+        "name": "Cinnamon Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0037994,
+      "lon": 80.3409394,
+      "tags": {
+        "addr:city": "Koggala",
+        "addr:street": "Pelassa Road",
+        "name": "Koggala House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 5.9946116,
+      "lon": 80.3273316,
+      "tags": {
+        "addr:city": "Koggala",
+        "amenity": "place_of_worship",
+        "name": "Weduwa Buddhist Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0007589,
+      "lon": 80.324381,
+      "tags": {
+        "addr:city": "Koggala",
+        "amenity": "place_of_worship",
+        "image": "https://photos.app.goo.gl/yaKqZJZbpA8n7rHZ7",
+        "name": "Talatuduwa Buddhist Temple & Meditation Centre.",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0426276,
+      "lon": 80.346946,
+      "tags": {
+        "addr:city": "Koggala",
+        "amenity": "place_of_worship",
+        "name": "Akkara Panaha Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0218061,
+      "lon": 80.3365188,
+      "tags": {
+        "name": "Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0350882,
+      "lon": 80.3554949,
+      "tags": {
+        "name:en": "Davora Iththagala tea factory",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0303275,
+      "lon": 80.3823245,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Samadhi Sri Sambuddha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.021324,
+      "lon": 80.3478777,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Meth Boo Sewana Meditation Center",
+        "religion": "buddhist",
+        "url": "https://youtu.be/Tbl8Nq_ezVE?si=_n3SgDYy8k5nA4CJ"
+      }
+    },
+    {
+      "lat": 6.0301813,
+      "lon": 80.3822046,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.0012052,
+      "lon": 80.3418484,
+      "tags": {
+        "landuse": "residential",
+        "name": "Tri Lanka",
+        "phone": "+94 777 708 177",
+        "tourism": "hotel",
+        "website": "https://trilanka.com/"
+      }
+    },
+    {
+      "lat": 6.0674534,
+      "lon": 80.3313074,
+      "tags": {
+        "amenity": "school",
+        "name": "Hiyare East Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0730987,
+      "lon": 80.3387293,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Mahendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0123013,
+      "lon": 80.3923171,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 5.9915946,
+      "lon": 80.3161504,
+      "tags": {
+        "addr:city": "Koggala",
+        "amenity": "restaurant",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/QYe8ep93u9W1iBW99",
+        "name": "Catalina Grill"
+      }
+    },
+    {
+      "lat": 5.9919314,
+      "lon": 80.3193658,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Hirigal Devale",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0008967,
+      "lon": 80.3251231,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0009527,
+      "lon": 80.3253077,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9946936,
+      "lon": 80.3148339,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9945491,
+      "lon": 80.3144516,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9949663,
+      "lon": 80.314801,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9951064,
+      "lon": 80.3148139,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9947681,
+      "lon": 80.3143884,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "isced:level": "0",
+        "name": "Martin Wickremasinghe Maha Vidyalaya",
+        "opening_hours": "07:30- 0130",
+        "wheelchair": "yes"
+      }
+    }
+  ]
+}

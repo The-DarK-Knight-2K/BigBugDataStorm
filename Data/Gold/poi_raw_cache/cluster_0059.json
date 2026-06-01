@@ -1,0 +1,454 @@
+{
+  "cluster_id": 59,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.773034,
+    "lat_max": 6.853124,
+    "lon_min": 80.047231,
+    "lon_max": 80.117568
+  },
+  "outlet_ids": [
+    "OUT_00022",
+    "OUT_00339",
+    "OUT_00421",
+    "OUT_00496",
+    "OUT_00543",
+    "OUT_00766",
+    "OUT_00785",
+    "OUT_00878",
+    "OUT_00945",
+    "OUT_01432",
+    "OUT_01449",
+    "OUT_01480",
+    "OUT_01549",
+    "OUT_01941",
+    "OUT_02096",
+    "OUT_02172",
+    "OUT_02300",
+    "OUT_02310",
+    "OUT_02629",
+    "OUT_02659",
+    "OUT_03005",
+    "OUT_03222",
+    "OUT_03256",
+    "OUT_03275",
+    "OUT_03472",
+    "OUT_03489",
+    "OUT_03571",
+    "OUT_03727",
+    "OUT_03747",
+    "OUT_03768",
+    "OUT_03860",
+    "OUT_04084",
+    "OUT_04200",
+    "OUT_04327",
+    "OUT_04411",
+    "OUT_04658",
+    "OUT_04775",
+    "OUT_04816",
+    "OUT_04818",
+    "OUT_04917",
+    "OUT_04960",
+    "OUT_05044",
+    "OUT_05100",
+    "OUT_05309",
+    "OUT_05593",
+    "OUT_05670",
+    "OUT_05846",
+    "OUT_06185",
+    "OUT_06213",
+    "OUT_06404",
+    "OUT_06499",
+    "OUT_06616",
+    "OUT_06699",
+    "OUT_06841",
+    "OUT_06930",
+    "OUT_06941",
+    "OUT_07022",
+    "OUT_07131",
+    "OUT_07424",
+    "OUT_07443",
+    "OUT_07755",
+    "OUT_07897",
+    "OUT_08346",
+    "OUT_08395",
+    "OUT_08530",
+    "OUT_08616",
+    "OUT_08631",
+    "OUT_08695",
+    "OUT_08847",
+    "OUT_08934"
+  ],
+  "n_outlets": 70,
+  "n_pois_returned": 42,
+  "scraped_at": "2026-05-16T20:29:19.276005",
+  "elements": [
+    {
+      "lat": 6.8412294,
+      "lon": 80.0903222,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Padukka Public Market"
+      }
+    },
+    {
+      "lat": 6.8427474,
+      "lon": 80.0911536,
+      "tags": {
+        "name": "Padukka",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8525718,
+      "lon": 80.0675421,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Punyaloka Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7851573,
+      "lon": 80.054638,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Poorwaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8400553,
+      "lon": 80.0896596,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Padukka Base Hospital"
+      }
+    },
+    {
+      "lat": 6.8395546,
+      "lon": 80.0883829,
+      "tags": {
+        "amenity": "school",
+        "name": "Siri Piyarathana College"
+      }
+    },
+    {
+      "lat": 6.8406039,
+      "lon": 80.0917839,
+      "tags": {
+        "amenity": "school",
+        "name": "Siri Piyarathana Primary College"
+      }
+    },
+    {
+      "lat": 6.8241189,
+      "lon": 80.0553595,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dampe Purana Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8529835,
+      "lon": 80.1094043,
+      "tags": {
+        "name": "Angampitya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8383604,
+      "lon": 80.0797169,
+      "tags": {
+        "name": "Liyanwala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8229351,
+      "lon": 80.0671441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8412578,
+      "lon": 80.0923318,
+      "tags": {
+        "addr:city": "Padukka",
+        "addr:postcode": "10500",
+        "addr:street": "Galagedara-Horana Road",
+        "name": "Padukka Rest House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.78858,
+      "lon": 80.0779968,
+      "tags": {
+        "amenity": "school",
+        "name": "Millawa Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8214453,
+      "lon": 80.0496419,
+      "tags": {
+        "addr:city": "Dampe",
+        "amenity": "place_of_worship",
+        "name": "Bpdhiwardanaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8346072,
+      "lon": 80.0486807,
+      "tags": {
+        "addr:city": "Dampe",
+        "amenity": "place_of_worship",
+        "name": "Wela Mada Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7893367,
+      "lon": 80.1092876,
+      "tags": {
+        "addr:postcode": "10500",
+        "addr:street": "Malagala",
+        "amenity": "clinic",
+        "name": "Malagala Ayurvedic Medical Center"
+      }
+    },
+    {
+      "lat": 6.7894084,
+      "lon": 80.1092341,
+      "tags": {
+        "addr:postcode": "10500",
+        "addr:street": "Malagala",
+        "amenity": "clinic",
+        "name": "Maternal & Child Health Clinic Malagala",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 6.8067896,
+      "lon": 80.0493825,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.816322,
+      "lon": 80.0686514,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8499658,
+      "lon": 80.1158814,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8391466,
+      "lon": 80.0811909,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Paul's Church Linyawala",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8334818,
+      "lon": 80.0591294,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.826489,
+      "lon": 80.0758119,
+      "tags": {
+        "amenity": "place_of_worship",
+        "description": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8431734,
+      "lon": 80.0598726,
+      "tags": {
+        "name": "Watareka",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8109241,
+      "lon": 80.0843247,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.8531067,
+      "lon": 80.087622,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "sanu"
+      }
+    },
+    {
+      "lat": 6.840611,
+      "lon": 80.0932686,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Jeewaka Private Hospital"
+      }
+    },
+    {
+      "lat": 6.8403321,
+      "lon": 80.0932164,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Chathura Hotel"
+      }
+    },
+    {
+      "lat": 6.840151,
+      "lon": 80.0933301,
+      "tags": {
+        "amenity": "clinic",
+        "name": "MOH"
+      }
+    },
+    {
+      "lat": 6.841679,
+      "lon": 80.0956734,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Moragahatenna Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8399095,
+      "lon": 80.0581723,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Sinhala class"
+      }
+    },
+    {
+      "lat": 6.7914828,
+      "lon": 80.1127253,
+      "tags": {
+        "amenity": "school",
+        "name": "Malagala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7917471,
+      "lon": 80.1133124,
+      "tags": {
+        "amenity": "school",
+        "name": "Malagala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7923666,
+      "lon": 80.1129691,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Parama Damma Kithyaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8155267,
+      "lon": 80.0962605,
+      "tags": {
+        "addr:city": "Padukka",
+        "addr:postcode": "10500",
+        "addr:street": "Malagala Road",
+        "amenity": "school",
+        "name": "MDH Jayawardhana Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.819034,
+      "lon": 80.0940784,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8195087,
+      "lon": 80.0947464,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udumulla Gallen Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8389326,
+      "lon": 80.0962128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8479592,
+      "lon": 80.0881715,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.840643,
+      "lon": 80.0798506,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8473218,
+      "lon": 80.0559258,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8262129,
+      "lon": 80.0765503,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1020 @@
+{
+  "cluster_id": 239,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.076824,
+    "lat_max": 7.166869,
+    "lon_min": 80.514682,
+    "lon_max": 80.593939
+  },
+  "outlet_ids": [
+    "OUT_09048",
+    "OUT_09089",
+    "OUT_09105",
+    "OUT_09131",
+    "OUT_09160",
+    "OUT_09182",
+    "OUT_09265",
+    "OUT_09329",
+    "OUT_09352",
+    "OUT_09386",
+    "OUT_09407",
+    "OUT_09432",
+    "OUT_09601",
+    "OUT_09752",
+    "OUT_09768",
+    "OUT_09797",
+    "OUT_09965",
+    "OUT_09987",
+    "OUT_09991",
+    "OUT_10503",
+    "OUT_10631",
+    "OUT_10689",
+    "OUT_10881",
+    "OUT_10888",
+    "OUT_11402",
+    "OUT_11480",
+    "OUT_11577",
+    "OUT_11890",
+    "OUT_11910",
+    "OUT_11989",
+    "OUT_12125",
+    "OUT_12227",
+    "OUT_12288",
+    "OUT_12359",
+    "OUT_12475",
+    "OUT_12481",
+    "OUT_12509",
+    "OUT_12571",
+    "OUT_12656",
+    "OUT_12806",
+    "OUT_12878"
+  ],
+  "n_outlets": 41,
+  "n_pois_returned": 106,
+  "scraped_at": "2026-05-16T21:00:15.112811",
+  "elements": [
+    {
+      "lat": 7.1082827,
+      "lon": 80.5597211,
+      "tags": {
+        "name": "Ulapane",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1606757,
+      "lon": 80.5651452,
+      "tags": {
+        "name": "Cargils Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.165099,
+      "lon": 80.5723204,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Hill Street",
+        "amenity": "school",
+        "name": "Buddhist College"
+      }
+    },
+    {
+      "lat": 7.1639499,
+      "lon": 80.5735309,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Peradeniya-Badulla-Chenkaladi Road",
+        "amenity": "hospital",
+        "name": "Suwa Bawana Hospital"
+      }
+    },
+    {
+      "lat": 7.1603406,
+      "lon": 80.5569004,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:postcode": "20500",
+        "addr:street": "Mawanella-Hemmathagama-Singhapitiya Road",
+        "amenity": "school",
+        "name": "Jinaraja Boys College",
+        "opening_hours": "Mo-Fr 07:30-13:30"
+      }
+    },
+    {
+      "lat": 7.1577112,
+      "lon": 80.5566858,
+      "tags": {
+        "amenity": "school",
+        "name": "Devi Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1061708,
+      "lon": 80.564435,
+      "tags": {
+        "addr:city": "Ulapane",
+        "addr:street": "Gampola-Nawalapitiya Road",
+        "amenity": "hospital",
+        "name": "Rural Hospital"
+      }
+    },
+    {
+      "lat": 7.1054427,
+      "lon": 80.5605037,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1042469,
+      "lon": 80.5586134,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0988057,
+      "lon": 80.5581376,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.105041,
+      "lon": 80.5604946,
+      "tags": {
+        "addr:city": "Ulapane",
+        "addr:street": "Gampola-Nawalapitiya Road",
+        "amenity": "school",
+        "name": "Iqra Muslim Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0838913,
+      "lon": 80.5758046,
+      "tags": {
+        "addr:city": "Kothmale",
+        "name": "Kothmale Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1347746,
+      "lon": 80.5698023,
+      "tags": {
+        "addr:city": "Ethgala",
+        "amenity": "place_of_worship",
+        "name": "Ethgala Sri Bhodirajaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1387703,
+      "lon": 80.5698314,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "sri sumanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0799478,
+      "lon": 80.5434081,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1611161,
+      "lon": 80.547108,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ambuluwawa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1442466,
+      "lon": 80.5371314,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pahala Galpaya"
+      }
+    },
+    {
+      "lat": 7.1387468,
+      "lon": 80.5369873,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Uda Galpaya"
+      }
+    },
+    {
+      "lat": 7.1276693,
+      "lon": 80.5301869,
+      "tags": {
+        "addr:city": "Kurunduwatta",
+        "addr:street": "Gampola-Dolosbage Road",
+        "name": "Sathosa Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1160564,
+      "lon": 80.5256703,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Summerset"
+      }
+    },
+    {
+      "lat": 7.1296407,
+      "lon": 80.5234146,
+      "tags": {
+        "addr:city": "kuruduwatta",
+        "amenity": "place_of_worship",
+        "name": "Talihunna Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1621703,
+      "lon": 80.5693551,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Gampola-Nawalapitiya Road",
+        "amenity": "place_of_worship",
+        "name": "St. Andrew's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1634892,
+      "lon": 80.5682103,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Malabar Street",
+        "amenity": "school",
+        "building:levels": "2",
+        "name": "Gangasiripura College"
+      }
+    },
+    {
+      "lat": 7.1651488,
+      "lon": 80.5680216,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Ambagamuwa Road",
+        "amenity": "place_of_worship",
+        "name": "St. Joseph's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1650051,
+      "lon": 80.569875,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Kadugannawa-Gampola Road",
+        "amenity": "marketplace",
+        "name": "Public Market"
+      }
+    },
+    {
+      "lat": 7.1005194,
+      "lon": 80.5237455,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Madagoda Handiya"
+      }
+    },
+    {
+      "lat": 7.1030519,
+      "lon": 80.5175013,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Watekedeniya Palama"
+      }
+    },
+    {
+      "lat": 7.1003527,
+      "lon": 80.5177288,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Galkadulla Bus stop"
+      }
+    },
+    {
+      "lat": 7.0768652,
+      "lon": 80.5428028,
+      "tags": {
+        "addr:street": "gampola - Nawalapitiya Road",
+        "amenity": "place_of_worship",
+        "name": "Warakawa Sri Sundararamaya Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0827416,
+      "lon": 80.5478747,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tilton",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0838877,
+      "lon": 80.550789,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pallegama",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0860214,
+      "lon": 80.5535593,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pallegama Temple"
+      }
+    },
+    {
+      "lat": 7.0961914,
+      "lon": 80.5178534,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Lokananda Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1251389,
+      "lon": 80.5268959,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ruwanpa Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1240424,
+      "lon": 80.5323837,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Poorvarama Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1059999,
+      "lon": 80.5640303,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ulapane",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1084744,
+      "lon": 80.5590397,
+      "tags": {
+        "addr:city": "Ulapane",
+        "amenity": "place_of_worship",
+        "name": "Isipathanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1109244,
+      "lon": 80.5631864,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1323571,
+      "lon": 80.5888461,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Delpitiya",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.1487463,
+      "lon": 80.5802459,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Moragolla Junction"
+      }
+    },
+    {
+      "lat": 7.1565348,
+      "lon": 80.5780515,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "name": "Sisila Rest Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.156932,
+      "lon": 80.5593928,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Kudamake Rd",
+        "amenity": "place_of_worship",
+        "name": "Wijayarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1608389,
+      "lon": 80.5596541,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sinhapitiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1094018,
+      "lon": 80.5651912,
+      "tags": {
+        "addr:city": "Ulapane",
+        "amenity": "school",
+        "name": "Ulapane Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0778245,
+      "lon": 80.5428266,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paththunupitiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.16658,
+      "lon": 80.5729269,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Peradeniya-Badulla-Chenkaladi Road",
+        "amenity": "restaurant",
+        "name": "Perera & Sons"
+      }
+    },
+    {
+      "lat": 7.1665063,
+      "lon": 80.5731109,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Peradeniya-Badulla-Chenkaladi Road",
+        "amenity": "restaurant",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 7.1641484,
+      "lon": 80.554729,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1647742,
+      "lon": 80.5711112,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gampola (Kandy Rd)"
+      }
+    },
+    {
+      "lat": 7.0860363,
+      "lon": 80.5540421,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pallegama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0951854,
+      "lon": 80.5555917,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gadol bokkuwa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0974416,
+      "lon": 80.5573855,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1287805,
+      "lon": 80.5313918,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Kurunduwaththa Divisional Hospital"
+      }
+    },
+    {
+      "lat": 7.0864035,
+      "lon": 80.5512841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bo Uyana Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1598304,
+      "lon": 80.5625064,
+      "tags": {
+        "addr:street": "Mawanella-Hemmathagama-Singhapitiya Road",
+        "amenity": "restaurant",
+        "cuisine": "curry;asian",
+        "name:en": "LaPinchi"
+      }
+    },
+    {
+      "lat": 7.1583299,
+      "lon": 80.5789849,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1586199,
+      "lon": 80.5783117,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahara Sri Weluwanarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1620824,
+      "lon": 80.5736174,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Green Park Restaurant"
+      }
+    },
+    {
+      "lat": 7.1323867,
+      "lon": 80.5863985,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nawa Devita Sri Gangaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.08521,
+      "lon": 80.5674595,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.097334,
+      "lon": 80.5897433,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0979595,
+      "lon": 80.5903816,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nayapana Waththa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1641064,
+      "lon": 80.5533783,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Jamboo Hotel & Restaurant"
+      }
+    },
+    {
+      "lat": 7.1590431,
+      "lon": 80.5225003,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1478495,
+      "lon": 80.5303243,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1542095,
+      "lon": 80.5800008,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Boralumankada Junction"
+      }
+    },
+    {
+      "lat": 7.0847576,
+      "lon": 80.5395913,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Katukithula Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.162037,
+      "lon": 80.5851983,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1648709,
+      "lon": 80.5693355,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.1628173,
+      "lon": 80.5683119,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "spices king"
+      }
+    },
+    {
+      "lat": 7.1547138,
+      "lon": 80.5700934,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pat care Animal Hospital"
+      }
+    },
+    {
+      "lat": 7.1553422,
+      "lon": 80.5656001,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Lanka Medical"
+      }
+    },
+    {
+      "lat": 7.1579105,
+      "lon": 80.5648876,
+      "tags": {
+        "name": "laugfs gas center",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1661203,
+      "lon": 80.5677975,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1650257,
+      "lon": 80.5689535,
+      "tags": {
+        "name": "Mahajana super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1648199,
+      "lon": 80.5743116,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Town mosque cultural hall"
+      }
+    },
+    {
+      "lat": 7.1651954,
+      "lon": 80.5701472,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.166275,
+      "lon": 80.5716744,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "M.K Hospital"
+      }
+    },
+    {
+      "lat": 7.1648676,
+      "lon": 80.5706787,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Avanhala"
+      }
+    },
+    {
+      "lat": 7.1597713,
+      "lon": 80.5640184,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Golden Pearl"
+      }
+    },
+    {
+      "lat": 7.1645879,
+      "lon": 80.5676515,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Lahiru Medical Center"
+      }
+    },
+    {
+      "lat": 7.1615621,
+      "lon": 80.565029,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Cafe Nosh On"
+      }
+    },
+    {
+      "lat": 7.1642242,
+      "lon": 80.5666428,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gampola town mosque cultural hall"
+      }
+    },
+    {
+      "lat": 7.1619366,
+      "lon": 80.5623866,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Golden Pearl Reception hall"
+      }
+    },
+    {
+      "lat": 7.1601214,
+      "lon": 80.5686913,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pet Care Animal Hospital"
+      }
+    },
+    {
+      "lat": 7.1590143,
+      "lon": 80.5625181,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1631739,
+      "lon": 80.5707123,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Hotel annapoorna"
+      }
+    },
+    {
+      "lat": 7.0993377,
+      "lon": 80.5479249,
+      "tags": {
+        "name": "The Weir House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1057061,
+      "lon": 80.5465938,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.1608212,
+      "lon": 80.5713845,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Gampolawela Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0772219,
+      "lon": 80.5449478,
+      "tags": {
+        "amenity": "school",
+        "name": "Paththunupitiya Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.162162,
+      "lon": 80.5670372,
+      "tags": {
+        "area": "yes",
+        "name": "Gampola",
+        "operator": "Sri Lanka Railway",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1563625,
+      "lon": 80.5657126,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 7.122919,
+      "lon": 80.5620291,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1343977,
+      "lon": 80.5872387,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Delpitiya Bodirukkarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1406345,
+      "lon": 80.5908477,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1352742,
+      "lon": 80.5829418,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1649072,
+      "lon": 80.5824177,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.1591376,
+      "lon": 80.587973,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.159444,
+      "lon": 80.5654423,
+      "tags": {
+        "brand": "Keells",
+        "building": "retail",
+        "building:colour": "#00b000",
+        "height": "8",
+        "name:en": "Keells",
+        "opening_hours": "Mo-Su 08:30-22:30",
+        "roof:colour": "#c0c0c0",
+        "roof:height": "1",
+        "roof:material": "metal",
+        "roof:shape": "gabled",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1590384,
+      "lon": 80.5684878,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "jayakeshi snacks fast food"
+      }
+    },
+    {
+      "lat": 7.1546808,
+      "lon": 80.5636876,
+      "tags": {
+        "amenity": "school",
+        "name": "Wickramabahu Natinal College",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 7.1557723,
+      "lon": 80.564403,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Gampola-Nawalapitiya Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Gampola Base Hospital",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 7.1576739,
+      "lon": 80.5670565,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 7.1575674,
+      "lon": 80.5661966,
+      "tags": {
+        "addr:city": "Gampola",
+        "addr:street": "Weegulwatte Road",
+        "amenity": "school",
+        "name": "Jinaraja Girl's College",
+        "type": "multipolygon"
+      }
+    },
+    {
+      "lat": 7.1586365,
+      "lon": 80.5692547,
+      "tags": {
+        "amenity": "school",
+        "name": "Saint Andrew's College",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "cluster_id": 237,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.9763090000000005,
+    "lat_max": 6.059868,
+    "lon_min": 80.484207,
+    "lon_max": 80.565949
+  },
+  "outlet_ids": [
+    "OUT_17112",
+    "OUT_17171",
+    "OUT_17241",
+    "OUT_17346",
+    "OUT_17432",
+    "OUT_17442",
+    "OUT_17496",
+    "OUT_17534",
+    "OUT_17538",
+    "OUT_17747",
+    "OUT_17799",
+    "OUT_17841",
+    "OUT_17924",
+    "OUT_17932",
+    "OUT_17954",
+    "OUT_17981",
+    "OUT_17991",
+    "OUT_18005",
+    "OUT_18042",
+    "OUT_18090",
+    "OUT_18253",
+    "OUT_18327",
+    "OUT_18351",
+    "OUT_18406",
+    "OUT_18455",
+    "OUT_18664",
+    "OUT_18713",
+    "OUT_18855",
+    "OUT_18967",
+    "OUT_19068",
+    "OUT_19109",
+    "OUT_19183",
+    "OUT_19198",
+    "OUT_19220",
+    "OUT_19322",
+    "OUT_19361",
+    "OUT_19495",
+    "OUT_19513",
+    "OUT_19551",
+    "OUT_19574",
+    "OUT_19623",
+    "OUT_19644",
+    "OUT_19672",
+    "OUT_19746",
+    "OUT_19750",
+    "OUT_19754",
+    "OUT_19864",
+    "OUT_19917"
+  ],
+  "n_outlets": 48,
+  "n_pois_returned": 44,
+  "scraped_at": "2026-05-16T21:00:05.132458",
+  "elements": [
+    {
+      "lat": 5.9992804,
+      "lon": 80.5195786,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nagoda Junction"
+      }
+    },
+    {
+      "lat": 6.0132659,
+      "lon": 80.5643642,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahindagiri Wiharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.979596,
+      "lon": 80.5193806,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Unella"
+      }
+    },
+    {
+      "lat": 6.0046347,
+      "lon": 80.5191144,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Ogaspe Junction"
+      }
+    },
+    {
+      "lat": 6.0244485,
+      "lon": 80.5171088,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bus Halt"
+      }
+    },
+    {
+      "lat": 6.0094347,
+      "lon": 80.5181894,
+      "tags": {
+        "amenity": "school",
+        "name": "MR/ Sri Sumedha Vidyalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9769306,
+      "lon": 80.5182794,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kadedduwa Junction"
+      }
+    },
+    {
+      "lat": 6.0216517,
+      "lon": 80.4909932,
+      "tags": {
+        "amenity": "school",
+        "name": "Thelijjawila Royal Collage"
+      }
+    },
+    {
+      "lat": 6.0084654,
+      "lon": 80.5007265,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Akkurugoda MOH"
+      }
+    },
+    {
+      "lat": 6.0249798,
+      "lon": 80.4959284,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0239774,
+      "lon": 80.4960302,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 5.9841116,
+      "lon": 80.5211268,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "palatuwa"
+      }
+    },
+    {
+      "lat": 6.0192213,
+      "lon": 80.4900853,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Samarasingharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.986366,
+      "lon": 80.5215193,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Palatuwa Junction"
+      }
+    },
+    {
+      "lat": 5.9903208,
+      "lon": 80.5394276,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshanarama Pothgul Viharaya, Watagedara",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9867729,
+      "lon": 80.5226584,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Palatuwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9883094,
+      "lon": 80.5263008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhirukkaramaya, Elambakalagoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9836401,
+      "lon": 80.4907008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ramagiri Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9819953,
+      "lon": 80.4955612,
+      "tags": {
+        "amenity": "school",
+        "name": "Sulthanagoda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0000242,
+      "lon": 80.5138924,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9861167,
+      "lon": 80.5212696,
+      "tags": {
+        "amenity": "school",
+        "name": "Gunaratana CentralCollege"
+      }
+    },
+    {
+      "lat": 6.0096825,
+      "lon": 80.5169842,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0092742,
+      "lon": 80.5175613,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Malimbada Junction",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.0082911,
+      "lon": 80.5160838,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Indrarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0132557,
+      "lon": 80.5090146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jayasumanaramaya Road",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0157478,
+      "lon": 80.5050726,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kirimatimulla Junction",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.9768762,
+      "lon": 80.5184687,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Highway Food Corner"
+      }
+    },
+    {
+      "lat": 5.9983577,
+      "lon": 80.5563126,
+      "tags": {
+        "amenity": "school",
+        "name": "Naimbala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0201828,
+      "lon": 80.5603767,
+      "tags": {
+        "amenity": "school",
+        "name": "Kithalagama (East) School"
+      }
+    },
+    {
+      "lat": 6.0382514,
+      "lon": 80.560233,
+      "tags": {
+        "amenity": "school",
+        "name": "Palolpitiya Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0486909,
+      "lon": 80.5613997,
+      "tags": {
+        "addr:city": "Akurugoda",
+        "amenity": "school",
+        "name": "Siri Rathanajothi Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.046984,
+      "lon": 80.5022349,
+      "tags": {
+        "amenity": "school",
+        "name": "Dampella Maha Vidyalaya",
+        "name:si": "\u0daf\u0db8\u0dca\u0db4\u0dd0\u0dbd\u0dca\u0dbd \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.0176635,
+      "lon": 80.4922709,
+      "tags": {
+        "amenity": "school",
+        "name": "Ground"
+      }
+    },
+    {
+      "lat": 6.0191486,
+      "lon": 80.4904326,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0219288,
+      "lon": 80.4911941,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0610536,
+      "lon": 80.5658608,
+      "tags": {
+        "amenity": "university",
+        "name": "University of Ruhuna-Faculty of Agriculture"
+      }
+    },
+    {
+      "lat": 5.9970437,
+      "lon": 80.5194512,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Keth Addara"
+      }
+    },
+    {
+      "lat": 6.0247851,
+      "lon": 80.524314,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0001485,
+      "lon": 80.562255,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Midellawala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.059779,
+      "lon": 80.5447967,
+      "tags": {
+        "amenity": "school",
+        "name": "MR/Sri Gunarathana Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0590989,
+      "lon": 80.5438485,
+      "tags": {
+        "addr:city": "Ihala Vitiyala",
+        "amenity": "place_of_worship",
+        "name": "Sabarale Sri Niwasaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0541946,
+      "lon": 80.5319377,
+      "tags": {
+        "amenity": "school",
+        "name": "MR/Karagoda Uyangoda Navodya School"
+      }
+    },
+    {
+      "lat": 6.004942,
+      "lon": 80.5236764,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "mahayana",
+        "name": "Gangarama Purana Wiharaya",
+        "religion": "buddhist",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.0089426,
+      "lon": 80.5187153,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sumedha Vidyalaya Ground",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

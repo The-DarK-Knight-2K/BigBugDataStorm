@@ -1,0 +1,545 @@
+{
+  "cluster_id": 85,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.9472320000000005,
+    "lat_max": 8.044406,
+    "lon_min": 79.783719,
+    "lon_max": 79.869873
+  },
+  "outlet_ids": [
+    "OUT_13279",
+    "OUT_13551",
+    "OUT_13642",
+    "OUT_13880",
+    "OUT_13881",
+    "OUT_13891",
+    "OUT_14051",
+    "OUT_14165",
+    "OUT_14223",
+    "OUT_14454",
+    "OUT_14611",
+    "OUT_14645",
+    "OUT_14655",
+    "OUT_14676",
+    "OUT_14812",
+    "OUT_15150",
+    "OUT_15279",
+    "OUT_15284",
+    "OUT_15342",
+    "OUT_15343",
+    "OUT_15563",
+    "OUT_15596",
+    "OUT_15671",
+    "OUT_15716",
+    "OUT_15728",
+    "OUT_15936",
+    "OUT_15970",
+    "OUT_15998",
+    "OUT_16414",
+    "OUT_16491",
+    "OUT_16548",
+    "OUT_16594",
+    "OUT_16632",
+    "OUT_16676",
+    "OUT_16741",
+    "OUT_16866",
+    "OUT_16971"
+  ],
+  "n_outlets": 37,
+  "n_pois_returned": 51,
+  "scraped_at": "2026-05-16T20:34:07.118464",
+  "elements": [
+    {
+      "lat": 7.962158,
+      "lon": 79.8308253,
+      "tags": {
+        "addr:city": "Erukkalampiddy",
+        "amenity": "place_of_worship",
+        "name": "Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9568537,
+      "lon": 79.8309999,
+      "tags": {
+        "addr:city": "Erukkalampiddy",
+        "amenity": "place_of_worship",
+        "name": "Our Lady of Guadalupe Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.9573318,
+      "lon": 79.8291385,
+      "tags": {
+        "addr:city": "Erukkalampiddy",
+        "amenity": "place_of_worship",
+        "name": "Sri Anandaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9782479,
+      "lon": 79.8330053,
+      "tags": {
+        "addr:city": "Palavi",
+        "amenity": "place_of_worship",
+        "name": "Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9807443,
+      "lon": 79.8309158,
+      "tags": {
+        "addr:city": "Palaviya",
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9893421,
+      "lon": 79.8360204,
+      "tags": {
+        "addr:city": "Palavi",
+        "amenity": "place_of_worship",
+        "check_date": "2025-07-18",
+        "name": "Kobbekaduwa Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.999094,
+      "lon": 79.8373393,
+      "tags": {
+        "addr:city": "Puttalam",
+        "amenity": "place_of_worship",
+        "name": "Rathmalyaya Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 8.0121443,
+      "lon": 79.8393131,
+      "tags": {
+        "addr:city": "Thillaiyadi",
+        "amenity": "school",
+        "education": "school",
+        "name": "Muslim Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 8.0198967,
+      "lon": 79.861434,
+      "tags": {
+        "name": "Royal Green Garden Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 8.035971,
+      "lon": 79.8398157,
+      "tags": {
+        "name": "Noor Nagar",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 8.0273287,
+      "lon": 79.8406538,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2022-12-24",
+        "education": "school",
+        "fee": "no",
+        "grades": "1-13",
+        "name": "Puttlam Hindu Central College",
+        "name:ta": "\u0baa\u0bc1\u0ba4\u0bcd\u0ba4\u0bb3\u0bae\u0bcd \u0b87\u0ba8\u0bcd\u0ba4\u0bc1 \u0bae\u0ba4\u0bcd\u0ba4\u0bbf\u0baf \u0b95\u0bb2\u0bcd\u0bb2\u0bc2\u0bb0\u0bbf",
+        "operator:type": "government",
+        "polling_station": "yes",
+        "religion": "hindu",
+        "wikidata": "Q18346046",
+        "wikipedia": "en:Puttalam Hindu Central College"
+      }
+    },
+    {
+      "lat": 7.9615801,
+      "lon": 79.8301236,
+      "tags": {
+        "name": "Erukkalampiddy-Nagavillu Railway station",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.9688641,
+      "lon": 79.8512938,
+      "tags": {
+        "description": "Country House Hotel",
+        "email": "Email: relax@grovesrilanka.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "The Grove",
+        "smoking": "outside",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.978309,
+      "lon": 79.8333209,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Bus stop (to Colombo & Negombo)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.9791343,
+      "lon": 79.8320061,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 8.0265913,
+      "lon": 79.8308827,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Clement's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 8.0317653,
+      "lon": 79.8275273,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mohideen Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 8.0237243,
+      "lon": 79.8398902,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Balasooriya Hospital"
+      }
+    },
+    {
+      "lat": 7.9793074,
+      "lon": 79.8210894,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Thothupala"
+      }
+    },
+    {
+      "lat": 8.0277861,
+      "lon": 79.8300473,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "check_date": "2022-12-08",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 8.0302512,
+      "lon": 79.828289,
+      "tags": {
+        "amenity": "marketplace",
+        "check_date": "2022-12-08",
+        "name": "Public Market"
+      }
+    },
+    {
+      "lat": 8.0282134,
+      "lon": 79.8371307,
+      "tags": {
+        "check_date": "2022-12-09",
+        "name": "Keels Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0277811,
+      "lon": 79.8388358,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2022-12-09",
+        "healthcare": "hospital",
+        "name": "Base Hospital Puttalam",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 8.0273035,
+      "lon": 79.8377402,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "check_date": "2022-12-09",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0309304,
+      "lon": 79.8559328,
+      "tags": {
+        "addr:street": "Puttalam-Anuradhapura-Trincomalee Road",
+        "amenity": "restaurant",
+        "name": "Isuru Bake House & Restaurant",
+        "name:ta": "\u0b87\u0b9a\u0bc1\u0bb1\u0bc1 \u0baa\u0bc7\u0b95\u0bcd\u0b95\u0bb0\u0bbf\u0baf\u0bc1\u0bae\u0bcd \u0b89\u0ba3\u0bb5\u0b95\u0bae\u0bc1\u0bae\u0bcd"
+      }
+    },
+    {
+      "lat": 8.0404586,
+      "lon": 79.8475492,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "mariyamman kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 8.0100407,
+      "lon": 79.8379281,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Annai Montesorri centre"
+      }
+    },
+    {
+      "lat": 7.9616091,
+      "lon": 79.8305423,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 8.0276904,
+      "lon": 79.8348166,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.9796439,
+      "lon": 79.8331724,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.9743611,
+      "lon": 79.8051792,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.9729088,
+      "lon": 79.7960818,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.974257,
+      "lon": 79.8100534,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.9726825,
+      "lon": 79.7894925,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0272115,
+      "lon": 79.836587,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 8.0278365,
+      "lon": 79.8303852,
+      "tags": {
+        "name": "Cargills express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.9798255,
+      "lon": 79.8245211,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 8.0279741,
+      "lon": 79.8345154,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Bus Stop to Mannar, Jaffna",
+        "name:fr": "Arr\u00eat de bus pour Mannar, Jaffna",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.9790764,
+      "lon": 79.8320884,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.9908839,
+      "lon": 79.851381,
+      "tags": {
+        "name": "Bismi Villa & Rooms",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 8.0312373,
+      "lon": 79.8389384,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 8.0226735,
+      "lon": 79.8378517,
+      "tags": {
+        "building": "yes",
+        "layer": "1",
+        "name": "Puttalam",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "railway": "station",
+        "wikidata": "Q38250533"
+      }
+    },
+    {
+      "lat": 7.9816689,
+      "lon": 79.8328121,
+      "tags": {
+        "building": "yes",
+        "name": "Palavi",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.9985129,
+      "lon": 79.8399805,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.9967682,
+      "lon": 79.8451904,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 8.0078196,
+      "lon": 79.8405135,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 8.0039082,
+      "lon": 79.8484636,
+      "tags": {
+        "amenity": "hospital",
+        "name": "darmaraja general hospital"
+      }
+    },
+    {
+      "lat": 8.0081508,
+      "lon": 79.8377383,
+      "tags": {
+        "addr:city": "Puttalam",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Muhaiyadeen Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 8.0105967,
+      "lon": 79.837316,
+      "tags": {
+        "addr:city": "Thillaiyadi",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "Velankanni Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 8.0362318,
+      "lon": 79.8420298,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "MASJIDHUL_FALAH",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 8.0362506,
+      "lon": 79.8377218,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "NOORMASJIDH_MOSQUE",
+        "religion": "muslim"
+      }
+    }
+  ]
+}

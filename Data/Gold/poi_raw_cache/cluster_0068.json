@@ -1,0 +1,335 @@
+{
+  "cluster_id": 68,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.191903,
+    "lat_max": 6.273762,
+    "lon_min": 80.22112,
+    "lon_max": 80.300602
+  },
+  "outlet_ids": [
+    "OUT_17283",
+    "OUT_17290",
+    "OUT_17297",
+    "OUT_17307",
+    "OUT_17318",
+    "OUT_17328",
+    "OUT_17438",
+    "OUT_17472",
+    "OUT_17570",
+    "OUT_17733",
+    "OUT_17950",
+    "OUT_17958",
+    "OUT_17976",
+    "OUT_17996",
+    "OUT_18078",
+    "OUT_18096",
+    "OUT_18117",
+    "OUT_18207",
+    "OUT_18220",
+    "OUT_18427",
+    "OUT_18477",
+    "OUT_18534",
+    "OUT_18668",
+    "OUT_18701",
+    "OUT_18716",
+    "OUT_18899",
+    "OUT_18955",
+    "OUT_18976",
+    "OUT_19020",
+    "OUT_19084",
+    "OUT_19090",
+    "OUT_19199",
+    "OUT_19206",
+    "OUT_19240",
+    "OUT_19245",
+    "OUT_19273",
+    "OUT_19369",
+    "OUT_19405",
+    "OUT_19531",
+    "OUT_19651",
+    "OUT_19667",
+    "OUT_19795",
+    "OUT_19891",
+    "OUT_19934",
+    "OUT_19947"
+  ],
+  "n_outlets": 45,
+  "n_pois_returned": 29,
+  "scraped_at": "2026-05-16T20:30:02.178107",
+  "elements": [
+    {
+      "lat": 6.2507813,
+      "lon": 80.2677388,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bus Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.2598429,
+      "lon": 80.2643545,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bus Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.2451002,
+      "lon": 80.2678824,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Gallinda Base Hospital",
+        "name:si": "\u0d9c\u0dbd\u0dca\u0dbd\u0dd2\u0db3 \u0db8\u0dd4\u0dbd\u0dd2\u0d9a \u0dbb\u0ddd\u0dc4\u0dbd"
+      }
+    },
+    {
+      "lat": 6.233017,
+      "lon": 80.2387718,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "\u0dc0\u0dad\u0dd4\u0dbb\u0dd4\u0dc0\u0dd2\u0dbd_\u0dc0\u0db1\u0dc0\u0dcf\u0dc3_\u0dc3\u0d82\u0d9d_\u0db8\u0dd6\u0dbd\u0dc3\u0dca\u0dae\u0dcf\u0db1\u0dba",
+        "name": "Wathuruwila Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2154508,
+      "lon": 80.2720146,
+      "tags": {
+        "addr:street": "Mapalagama Road",
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.213418,
+      "lon": 80.2397172,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sumanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2252704,
+      "lon": 80.222576,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Kahaduwa Ayurweda Clinic"
+      }
+    },
+    {
+      "lat": 6.2608467,
+      "lon": 80.2628463,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2685733,
+      "lon": 80.2422765,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2422709,
+      "lon": 80.2541754,
+      "tags": {
+        "amenity": "school",
+        "name": "Polpalakatiya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.2259291,
+      "lon": 80.2229742,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "Government Medical Center"
+      }
+    },
+    {
+      "lat": 6.2271196,
+      "lon": 80.2975454,
+      "tags": {
+        "amenity": "school",
+        "name": "Mapalagama M.V",
+        "opening_hours": "07:30-13:30"
+      }
+    },
+    {
+      "lat": 6.2001948,
+      "lon": 80.28012,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2103202,
+      "lon": 80.2971784,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "hhhh"
+      }
+    },
+    {
+      "lat": 6.2102803,
+      "lon": 80.2968721,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "hhhh"
+      }
+    },
+    {
+      "lat": 6.2105375,
+      "lon": 80.2968959,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "hhhh"
+      }
+    },
+    {
+      "lat": 6.2244729,
+      "lon": 80.289073,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "microbrewery": "no",
+        "name": "kkkk"
+      }
+    },
+    {
+      "lat": 6.1955151,
+      "lon": 80.274451,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple"
+      }
+    },
+    {
+      "lat": 6.205511,
+      "lon": 80.256073,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Taaaaaaa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2053479,
+      "lon": 80.2558341,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Taaaaaaa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2051906,
+      "lon": 80.2558059,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Taaaaaaa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2525764,
+      "lon": 80.2526905,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.239577,
+      "lon": 80.2653629,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:category_of_the_house": "single_house",
+        "building:floor_area": "more_than_1000",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plastered",
+        "building:ownership": "owner",
+        "building:state_of_the_house": "permanent",
+        "floor:material": "cement",
+        "religion": "christian",
+        "roof:material": "asbestos"
+      }
+    },
+    {
+      "lat": 6.2332123,
+      "lon": 80.2393679,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.238514,
+      "lon": 80.2655709,
+      "tags": {
+        "amenity": "school",
+        "name": "Niyagama Primary School"
+      }
+    },
+    {
+      "lat": 6.2392859,
+      "lon": 80.2642143,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Punyaraama Wiharasthaanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2335766,
+      "lon": 80.2626841,
+      "tags": {
+        "amenity": "school",
+        "name": "Niyagama Vijitha Central College",
+        "name:si": "\u0db1\u0dd2\u0dba\u0dcf\u0d9c\u0db8 \u0dc0\u0dd2\u0da2\u0dd2\u0dad \u0db8\u0dcf\u0db0\u0dca\u200d\u0dba \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.2222225,
+      "lon": 80.2556567,
+      "tags": {
+        "amenity": "school",
+        "name": "Pabankale Primary School"
+      }
+    },
+    {
+      "lat": 6.22759,
+      "lon": 80.2543444,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

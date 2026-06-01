@@ -1,0 +1,2135 @@
+{
+  "cluster_id": 393,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.05692,
+    "lat_max": 7.1382449999999995,
+    "lon_min": 79.814094,
+    "lon_max": 79.89195600000001
+  },
+  "outlet_ids": [
+    "OUT_00009",
+    "OUT_00139",
+    "OUT_00148",
+    "OUT_00154",
+    "OUT_00187",
+    "OUT_00192",
+    "OUT_00239",
+    "OUT_00263",
+    "OUT_00301",
+    "OUT_00327",
+    "OUT_00760",
+    "OUT_00769",
+    "OUT_00809",
+    "OUT_00811",
+    "OUT_00813",
+    "OUT_01020",
+    "OUT_01106",
+    "OUT_01225",
+    "OUT_01384",
+    "OUT_01514",
+    "OUT_01544",
+    "OUT_01708",
+    "OUT_01724",
+    "OUT_01897",
+    "OUT_01942",
+    "OUT_01954",
+    "OUT_01959",
+    "OUT_01974",
+    "OUT_01992",
+    "OUT_02054",
+    "OUT_02087",
+    "OUT_02170",
+    "OUT_02302",
+    "OUT_02381",
+    "OUT_02419",
+    "OUT_02589",
+    "OUT_02779",
+    "OUT_02954",
+    "OUT_02993",
+    "OUT_03285",
+    "OUT_03521",
+    "OUT_03537",
+    "OUT_03760",
+    "OUT_03894",
+    "OUT_03934",
+    "OUT_04014",
+    "OUT_04203",
+    "OUT_04304",
+    "OUT_04318",
+    "OUT_04518",
+    "OUT_04520",
+    "OUT_04595",
+    "OUT_04619",
+    "OUT_04725",
+    "OUT_04768",
+    "OUT_04779",
+    "OUT_04890",
+    "OUT_04936",
+    "OUT_04957",
+    "OUT_05274",
+    "OUT_05345",
+    "OUT_05460",
+    "OUT_05463",
+    "OUT_05528",
+    "OUT_05561",
+    "OUT_05621",
+    "OUT_05849",
+    "OUT_05908",
+    "OUT_05965",
+    "OUT_05970",
+    "OUT_06140",
+    "OUT_06218",
+    "OUT_06415",
+    "OUT_06441",
+    "OUT_06474",
+    "OUT_06492",
+    "OUT_06526",
+    "OUT_06557",
+    "OUT_06624",
+    "OUT_06696",
+    "OUT_06752",
+    "OUT_06827",
+    "OUT_06989",
+    "OUT_07250",
+    "OUT_07251",
+    "OUT_07323",
+    "OUT_07330",
+    "OUT_07368",
+    "OUT_07402",
+    "OUT_07420",
+    "OUT_07468",
+    "OUT_07759",
+    "OUT_07958",
+    "OUT_08113",
+    "OUT_08196",
+    "OUT_08220",
+    "OUT_08251",
+    "OUT_08306",
+    "OUT_08487",
+    "OUT_08560",
+    "OUT_08597",
+    "OUT_08725",
+    "OUT_08729",
+    "OUT_08820",
+    "OUT_08900"
+  ],
+  "n_outlets": 105,
+  "n_pois_returned": 165,
+  "scraped_at": "2026-05-16T22:16:36.773135",
+  "elements": [
+    {
+      "lat": 7.0753583,
+      "lon": 79.8590782,
+      "tags": {
+        "amenity": "school",
+        "name": "Bopitiya Central"
+      }
+    },
+    {
+      "lat": 7.070402,
+      "lon": 79.8604622,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Nicolas Church"
+      }
+    },
+    {
+      "lat": 7.1369898,
+      "lon": 79.8346787,
+      "tags": {
+        "name": "Cashew Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1237593,
+      "lon": 79.8404844,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Sanctuary House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1353023,
+      "lon": 79.8387041,
+      "tags": {
+        "addr:city": "Negombo",
+        "name": "Lagoon Paradise",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1177283,
+      "lon": 79.8408707,
+      "tags": {
+        "amenity": "school",
+        "name": "Kapungoda Secondary School"
+      }
+    },
+    {
+      "lat": 7.0921396,
+      "lon": 79.8502584,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Joseph's Pamunugama",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.109174,
+      "lon": 79.8448081,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Sebastian Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.089941,
+      "lon": 79.8507037,
+      "tags": {
+        "amenity": "school",
+        "name": "Gonzalves College Pamunugama"
+      }
+    },
+    {
+      "lat": 7.1312008,
+      "lon": 79.8772575,
+      "tags": {
+        "name": "Laufgh Sun up Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1368005,
+      "lon": 79.8751278,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Bandaranayake Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1315468,
+      "lon": 79.8779066,
+      "tags": {
+        "amenity": "school",
+        "education": "school",
+        "name": "Seeduwa Davi Samara Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0825172,
+      "lon": 79.8908362,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "K F C Ja Ela"
+      }
+    },
+    {
+      "lat": 7.0909599,
+      "lon": 79.88757,
+      "tags": {
+        "internet_access": "wlan",
+        "name": "The Blue Gum",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0788024,
+      "lon": 79.8498966,
+      "tags": {
+        "addr:city": "Bopitiya",
+        "name": "Beach Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0839091,
+      "lon": 79.8487074,
+      "tags": {
+        "addr:city": "Ja-Ela",
+        "name": "Villa Palma",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0929247,
+      "lon": 79.8519954,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "lat": 7.0797102,
+      "lon": 79.8595896,
+      "tags": {
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0857524,
+      "lon": 79.8704884,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0924867,
+      "lon": 79.8882493,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "wayside_shrine",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1310363,
+      "lon": 79.8859131,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatharama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1311778,
+      "lon": 79.8892441,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 7.1326505,
+      "lon": 79.885602,
+      "tags": {
+        "amenity": "place_of_worship",
+        "man_made": "tower",
+        "name": "Supawath Arana Romanu Catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1099928,
+      "lon": 79.8834919,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1078178,
+      "lon": 79.8839992,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dehiyagatha",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.1381575,
+      "lon": 79.8751221,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Seeduwa Brandix Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.103658,
+      "lon": 79.8842049,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0825528,
+      "lon": 79.8911497,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1322741,
+      "lon": 79.8761431,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1313464,
+      "lon": 79.8769289,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Seeduwa junction bus halt",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.1328362,
+      "lon": 79.8889335,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.115952,
+      "lon": 79.8870266,
+      "tags": {
+        "name": "Alawathupitiya",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.103893,
+      "lon": 79.889808,
+      "tags": {
+        "internet_access": "no",
+        "name": "Kudahakapola",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 7.0929503,
+      "lon": 79.8909487,
+      "tags": {
+        "name": "Tudella",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1350678,
+      "lon": 79.878187,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Sydney Premathiratne Mawatha",
+        "amenity": "restaurant",
+        "name": "Arachana airport transit"
+      }
+    },
+    {
+      "lat": 7.1220479,
+      "lon": 79.8812158,
+      "tags": {
+        "addr:city": "Katunayake",
+        "addr:street": "Munidasa Kumarathunga Mawatha",
+        "amenity": "restaurant",
+        "name": "Sky transit hotel"
+      }
+    },
+    {
+      "lat": 7.0910777,
+      "lon": 79.8471508,
+      "tags": {
+        "addr:city": "JaEla",
+        "addr:street": "Pamunugama Road",
+        "amenity": "restaurant",
+        "name": "Cocomo Sri Lanka"
+      }
+    },
+    {
+      "lat": 7.0938619,
+      "lon": 79.8477318,
+      "tags": {
+        "addr:street": "No120, near the, Pamunugama Rd",
+        "amenity": "restaurant",
+        "name:en": "Lake View Resort-Sea & Safari",
+        "website": "http://lakeviewresortlk.com"
+      }
+    },
+    {
+      "lat": 7.0735185,
+      "lon": 79.8896084,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ram Cafe"
+      }
+    },
+    {
+      "lat": 7.1017087,
+      "lon": 79.8451368,
+      "tags": {
+        "name": "Ayana Beach Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1084676,
+      "lon": 79.8491559,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.1070131,
+      "lon": 79.8816016,
+      "tags": {
+        "addr:city": "Ja-Ela Srilanka",
+        "addr:housenumber": "No, 369/16",
+        "addr:postcode": "11350",
+        "addr:street": "Palkada Ela road",
+        "amenity": "restaurant",
+        "bar": "yes",
+        "brewery": "yes;various",
+        "capacity": "40",
+        "cuisine": "breakfast;international;grill;barbecue",
+        "delivery": "yes",
+        "description": "Restaurant and a Bar at The Shenu Lake House",
+        "diet:chicken": "yes",
+        "diet:fish": "yes",
+        "diet:local": "yes",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "email": "hello@theshenulakehouse.com",
+        "internet_access": "wlan",
+        "name": "Lake & Leaf Restaurnat",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "outdoor_seating": "yes",
+        "payment:alipay": "yes",
+        "payment:american_express": "yes",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "payment:google_pay": "yes",
+        "payment:mastercard": "yes",
+        "payment:visa": "yes",
+        "phone": "+94 70 355 5152",
+        "smoking": "outside",
+        "toilets": "yes",
+        "website": "https://www.theshenulakehouse.com/"
+      }
+    },
+    {
+      "lat": 7.1082477,
+      "lon": 79.8745364,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Maria Goretti Church, Kindigoda",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0893194,
+      "lon": 79.8885899,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "denomination": "catholic",
+        "name": "Tudella Adakkala Matha Church",
+        "religion": "christian",
+        "roof:material": "asbestos",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.1376154,
+      "lon": 79.869501,
+      "tags": {
+        "addr:city": "Liyanagemulla",
+        "addr:street": "Blue Diamond Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Onreech hotel"
+      }
+    },
+    {
+      "lat": 7.0755602,
+      "lon": 79.8823589,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "historic": "wayside_shrine",
+        "religion": "christian",
+        "roof:material": "tile"
+      }
+    },
+    {
+      "lat": 7.0753116,
+      "lon": 79.8878588,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1092709,
+      "lon": 79.8828459,
+      "tags": {
+        "addr:housenumber": "454",
+        "amenity": "restaurant",
+        "building": "utility",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1078799,
+      "lon": 79.8850125,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "School Laborotary",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1081018,
+      "lon": 79.8848589,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1080441,
+      "lon": 79.8850676,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1076052,
+      "lon": 79.8874967,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Wijayarama Temple",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0857948,
+      "lon": 79.890913,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "H & C Restaurent",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0889265,
+      "lon": 79.8879598,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "kids are schools",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0870844,
+      "lon": 79.8914327,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "brick",
+        "roof:material": "tile",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0870737,
+      "lon": 79.8912978,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "brick",
+        "roof:material": "tile",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0909332,
+      "lon": 79.8875525,
+      "tags": {
+        "building": "hotel",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "name": "Blue Gum Hotel",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1053026,
+      "lon": 79.8866569,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:age": "more_than_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "denomination": "roman_catholic",
+        "name": "Holy Rosary Church, Dehiyagatha",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "many"
+      }
+    },
+    {
+      "lat": 7.066913,
+      "lon": 79.8850213,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Wewala primary school",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0666084,
+      "lon": 79.8849429,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0665298,
+      "lon": 79.8854005,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0663638,
+      "lon": 79.8848299,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1009367,
+      "lon": 79.884144,
+      "tags": {
+        "addr:housenumber": "500.e",
+        "amenity": "clinic",
+        "building": "hospital",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Rediant Way Eye Hospital",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0782182,
+      "lon": 79.889978,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "name": "Boraja wehera",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1079631,
+      "lon": 79.8853318,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0788226,
+      "lon": 79.8916588,
+      "tags": {
+        "amenity": "clinic",
+        "building": "retail",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.131033,
+      "lon": 79.8766457,
+      "tags": {
+        "building": "commercial",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "Laugfus Supermarket",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0825443,
+      "lon": 79.8881927,
+      "tags": {
+        "addr:city": "Ja-Ela",
+        "addr:postcode": "11350",
+        "addr:street": "Gamameda Road",
+        "amenity": "restaurant",
+        "building": "other",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "PN Fernando Restaurant",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0676226,
+      "lon": 79.89047,
+      "tags": {
+        "addr:city": "Ja-Ela",
+        "addr:postcode": "11350",
+        "addr:street": "Weligampitiya",
+        "amenity": "place_of_worship",
+        "building": "church"
+      }
+    },
+    {
+      "lat": 7.1290257,
+      "lon": 79.88254,
+      "tags": {
+        "building": "train_station",
+        "layer": "1",
+        "name": "Seeduwa",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.0796702,
+      "lon": 79.8909484,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "retail",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Ja-Ela Fish Market",
+        "operator": "government",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0836137,
+      "lon": 79.8897735,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0795664,
+      "lon": 79.8887844,
+      "tags": {
+        "amenity": "school",
+        "building": "other",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Purnodhaya pre school",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0833085,
+      "lon": 79.8885599,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "St Mical Pre School",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1185685,
+      "lon": 79.8404371,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Anthony's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0940405,
+      "lon": 79.8874771,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "glass",
+        "name": "Villege Hut Restaurant",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0939924,
+      "lon": 79.8873647,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1006901,
+      "lon": 79.884,
+      "tags": {
+        "amenity": "clinic",
+        "building": "other",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "4",
+        "building:material": "plaster",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0996621,
+      "lon": 79.8849644,
+      "tags": {
+        "addr:housenumber": "506",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Ruwanthi Hotel",
+        "roof:material": "tile",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1004785,
+      "lon": 79.8839301,
+      "tags": {
+        "amenity": "clinic",
+        "building": "other",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "roof:material": "zinc",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0909119,
+      "lon": 79.8885255,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "restaurant",
+        "building:age": "10_to_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Bell Pepper Restaurant",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1075221,
+      "lon": 79.887382,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Wijayarama Temple",
+        "religion": "buddhist",
+        "roof:material": "cadjan_palmyrah_straw",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0906706,
+      "lon": 79.8814244,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Family Clinic",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0971141,
+      "lon": 79.8858915,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "denomination": "anglican",
+        "name": "St.Mark's Church",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0880933,
+      "lon": 79.8879556,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "industrial",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.086962,
+      "lon": 79.8911512,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "brick",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0870448,
+      "lon": 79.8911485,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0863545,
+      "lon": 79.8902245,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Machan Ja Ela",
+        "roof:material": "zinc",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0974008,
+      "lon": 79.8854301,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.097642,
+      "lon": 79.8867107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "denomination": "roman_catholic",
+        "name": "St. Sebastian Church, Dandugama",
+        "religion": "christian",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0860457,
+      "lon": 79.8904383,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Grilled Food",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0778002,
+      "lon": 79.8919509,
+      "tags": {
+        "building": "train_station",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Ja-Ela",
+        "railway": "station",
+        "roof:material": "tile",
+        "roof:shape": "gabled",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 7.0671949,
+      "lon": 79.89093,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "denomination": "roman_catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0672238,
+      "lon": 79.8905851,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church"
+      }
+    },
+    {
+      "lat": 7.0968947,
+      "lon": 79.8892119,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "wood",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1073723,
+      "lon": 79.8875054,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.0805304,
+      "lon": 79.8896034,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Sribodhiraja viharaya"
+      }
+    },
+    {
+      "lat": 7.0975545,
+      "lon": 79.8918119,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jayasumanaramaya Temple",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.097617,
+      "lon": 79.8915646,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:levels": "1",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0781298,
+      "lon": 79.889008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "function": "pagoda"
+      }
+    },
+    {
+      "lat": 7.0581959,
+      "lon": 79.8817121,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:age": "10_to_20",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "2 faces (pitched)"
+      }
+    },
+    {
+      "lat": 7.0800269,
+      "lon": 79.8854393,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "leisure": "playground",
+        "name": "urban council pre school",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0631168,
+      "lon": 79.8892596,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0632942,
+      "lon": 79.8894135,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "St. xavior maha viduhala",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0634288,
+      "lon": 79.8892528,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0630599,
+      "lon": 79.8894046,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "3",
+        "building:material": "plaster",
+        "name": "Xavior viduhala",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.063229,
+      "lon": 79.8893294,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Xavior viduhala",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0623066,
+      "lon": 79.8896788,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0612147,
+      "lon": 79.8878289,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0587206,
+      "lon": 79.8889321,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0597106,
+      "lon": 79.8837774,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0597364,
+      "lon": 79.8838234,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tin",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0598368,
+      "lon": 79.8839423,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1.5 to 3",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0617474,
+      "lon": 79.8902194,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "brick",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0616537,
+      "lon": 79.8902437,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "commercial",
+        "building:age": "10_to_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "brick",
+        "name": "a",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0634842,
+      "lon": 79.8891072,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "St. xavior maha viduhala",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0828296,
+      "lon": 79.8907454,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "more_than_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "glass",
+        "name": "Little Hut Family Restaurant",
+        "roof:material": "tin",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0866147,
+      "lon": 79.8919352,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0602412,
+      "lon": 79.8836986,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.0600801,
+      "lon": 79.8834197,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0604394,
+      "lon": 79.8835817,
+      "tags": {
+        "amenity": "school",
+        "building": "construction",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:material": "plaster"
+      }
+    },
+    {
+      "lat": 7.0602706,
+      "lon": 79.8835225,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0600911,
+      "lon": 79.8836067,
+      "tags": {
+        "amenity": "school",
+        "building": "school",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1071187,
+      "lon": 79.8874967,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Wijayarama Temple",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1170645,
+      "lon": 79.8797459,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0977553,
+      "lon": 79.8873591,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0980334,
+      "lon": 79.8859001,
+      "tags": {
+        "amenity": "clinic",
+        "building": "utility",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1138257,
+      "lon": 79.8868236,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1137271,
+      "lon": 79.8868583,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "name": "Alawatupitiya Temple",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1138044,
+      "lon": 79.8871593,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "tile",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.1138992,
+      "lon": 79.8870962,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "less_than_10",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "religion": "buddhist",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1258562,
+      "lon": 79.8883734,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Pentecostal Churches",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1235879,
+      "lon": 79.874723,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "cement_block",
+        "roof:material": "asbestos"
+      }
+    },
+    {
+      "lat": 7.1228128,
+      "lon": 79.8750078,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "residential",
+        "building:age": "10_to_30",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "cement_block",
+        "roof:material": "asbestos",
+        "roof:shape": "gabled"
+      }
+    },
+    {
+      "lat": 7.0897472,
+      "lon": 79.8891538,
+      "tags": {
+        "amenity": "school",
+        "name": "Nimalamariya Girls Primary School"
+      }
+    },
+    {
+      "lat": 7.0921213,
+      "lon": 79.8852711,
+      "tags": {
+        "amenity": "school",
+        "name": "Nimalamariya Girls Primary School",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.1138064,
+      "lon": 79.8869983,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Alawathupitiya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1172118,
+      "lon": 79.8799373,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Jothi Rathana Pre School"
+      }
+    },
+    {
+      "lat": 7.1091876,
+      "lon": 79.8919007,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St.Pilip Neri Church Udammita South",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0800214,
+      "lon": 79.890721,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "other",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "historic": "wayside_shrine",
+        "religion": "christian",
+        "roof:material": "asbestos",
+        "roof:shape": "hipped"
+      }
+    },
+    {
+      "lat": 7.0891203,
+      "lon": 79.8892313,
+      "tags": {
+        "amenity": "school",
+        "name": "WP/NC/Maries Immaculate Convant"
+      }
+    },
+    {
+      "lat": 7.1115768,
+      "lon": 79.8814288,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ramada Katunayake",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0766209,
+      "lon": 79.877167,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "historic": "wayside_shrine",
+        "religion": "christian",
+        "roof:material": "concrete"
+      }
+    },
+    {
+      "lat": 7.0712855,
+      "lon": 79.887112,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:age": "10_to_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "historic": "wayside_shrine",
+        "religion": "christian",
+        "roof:material": "concrete"
+      }
+    },
+    {
+      "lat": 7.1141932,
+      "lon": 79.8819425,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gangaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0675838,
+      "lon": 79.884487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building:age": "more_than_30",
+        "building:foundation_height": "1 to 1.5",
+        "building:levels": "1",
+        "building:material": "plaster",
+        "historic": "wayside_shrine",
+        "religion": "christian",
+        "roof:material": "concrete"
+      }
+    },
+    {
+      "lat": 7.0665464,
+      "lon": 79.8848571,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "construction",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "brick",
+        "religion": "christian",
+        "roof:material": "Asbestos",
+        "roof:shape": "2 faces (pitched)"
+      }
+    },
+    {
+      "lat": 7.0630468,
+      "lon": 79.8890283,
+      "tags": {
+        "amenity": "school",
+        "building": "government",
+        "building:age": "less_than_10",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Mahindodaya Lab",
+        "roof:material": "tile",
+        "roof:shape": "2 faces (pitched)"
+      }
+    },
+    {
+      "lat": 7.1233414,
+      "lon": 79.8817738,
+      "tags": {
+        "amenity": "school",
+        "name": "Bandarawaththa Shantha Mariya School"
+      }
+    },
+    {
+      "lat": 7.1238997,
+      "lon": 79.8818511,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St Anthony's Church Bandarawatta",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1263544,
+      "lon": 79.878255,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Wijaya Kumaranatunga Memorial",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 7.1267741,
+      "lon": 79.8730218,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Jayabodhi Sudassanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1039924,
+      "lon": 79.8842728,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:age": "more_than_20",
+        "building:foundation_height": "less_than_1",
+        "building:levels": "2",
+        "building:material": "plaster",
+        "name": "Conastan church",
+        "religion": "christian",
+        "roof:material": "concrete",
+        "roof:shape": "lean_to"
+      }
+    },
+    {
+      "lat": 7.1080211,
+      "lon": 79.8847116,
+      "tags": {
+        "amenity": "school",
+        "name": "Holy Rocery School"
+      }
+    },
+    {
+      "lat": 7.0600285,
+      "lon": 79.8835143,
+      "tags": {
+        "amenity": "school",
+        "name": "Kalaeliya Primary School",
+        "operator": "Goverment"
+      }
+    },
+    {
+      "lat": 7.0599958,
+      "lon": 79.8832028,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Joachim's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0631904,
+      "lon": 79.8890117,
+      "tags": {
+        "amenity": "school",
+        "name": "St.Xaviour School",
+        "operator": "Goverment"
+      }
+    },
+    {
+      "lat": 7.0675327,
+      "lon": 79.8903952,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St.Anne Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0666493,
+      "lon": 79.8850841,
+      "tags": {
+        "amenity": "school",
+        "name": "Wewala Primary School",
+        "operator": "Goverment"
+      }
+    },
+    {
+      "lat": 7.1132928,
+      "lon": 79.8890883,
+      "tags": {
+        "amenity": "school",
+        "building:levels": "1",
+        "name": "Alawathupitiya Secondary School"
+      }
+    },
+    {
+      "lat": 7.0724786,
+      "lon": 79.8917263,
+      "tags": {
+        "building": "yes",
+        "name": "Keells",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0757877,
+      "lon": 79.8918644,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Family Chef"
+      }
+    },
+    {
+      "lat": 7.0745854,
+      "lon": 79.8916912,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Sangeeth Restaurant"
+      }
+    },
+    {
+      "lat": 7.0796706,
+      "lon": 79.8909386,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Ja-ela Market"
+      }
+    },
+    {
+      "lat": 7.0735647,
+      "lon": 79.8916976,
+      "tags": {
+        "addr:street": "Christ King Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "chinese",
+        "name": "S4"
+      }
+    }
+  ]
+}

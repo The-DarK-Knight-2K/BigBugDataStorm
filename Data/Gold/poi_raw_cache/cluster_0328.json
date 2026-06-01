@@ -1,0 +1,363 @@
+{
+  "cluster_id": 328,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.450592,
+    "lat_max": 7.541745,
+    "lon_min": 79.784975,
+    "lon_max": 79.865677
+  },
+  "outlet_ids": [
+    "OUT_13228",
+    "OUT_13240",
+    "OUT_13332",
+    "OUT_13341",
+    "OUT_13353",
+    "OUT_13389",
+    "OUT_13669",
+    "OUT_13822",
+    "OUT_14026",
+    "OUT_14091",
+    "OUT_14148",
+    "OUT_14224",
+    "OUT_14397",
+    "OUT_14465",
+    "OUT_14558",
+    "OUT_14599",
+    "OUT_15005",
+    "OUT_15007",
+    "OUT_15209",
+    "OUT_15375",
+    "OUT_15443",
+    "OUT_15539",
+    "OUT_15556",
+    "OUT_15617",
+    "OUT_15770",
+    "OUT_15981",
+    "OUT_16151",
+    "OUT_16354",
+    "OUT_16466",
+    "OUT_16494",
+    "OUT_16824",
+    "OUT_16931",
+    "OUT_16955"
+  ],
+  "n_outlets": 33,
+  "n_pois_returned": 31,
+  "scraped_at": "2026-05-16T22:11:30.568712",
+  "elements": [
+    {
+      "lat": 7.4621812,
+      "lon": 79.8530119,
+      "tags": {
+        "name": "Kudawewa",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.5328175,
+      "lon": 79.8227037,
+      "tags": {
+        "name": "Kakkapalliya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.5347969,
+      "lon": 79.8206679,
+      "tags": {
+        "addr:city": "Kakkapalliya",
+        "name": "Co-op City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.5247544,
+      "lon": 79.7928014,
+      "tags": {
+        "addr:city": "Ambakandawila",
+        "name": "Carolina Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.452834,
+      "lon": 79.8265687,
+      "tags": {
+        "addr:city": "Mahawewa",
+        "amenity": "place_of_worship",
+        "name": "Mahawewa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4609962,
+      "lon": 79.8422261,
+      "tags": {
+        "addr:city": "Kudawewa",
+        "amenity": "place_of_worship",
+        "name": "Kudawewa Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4629835,
+      "lon": 79.8047203,
+      "tags": {
+        "addr:city": "Kudamaduwella",
+        "amenity": "marketplace",
+        "name": "Public Market"
+      }
+    },
+    {
+      "lat": 7.4612115,
+      "lon": 79.8057258,
+      "tags": {
+        "addr:city": "Kudamaduwella",
+        "amenity": "place_of_worship",
+        "name": "Kudamaduwella Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4915458,
+      "lon": 79.7985949,
+      "tags": {
+        "addr:city": "Thoduwawa",
+        "amenity": "marketplace",
+        "name": "Fish Market"
+      }
+    },
+    {
+      "lat": 7.4951519,
+      "lon": 79.8406095,
+      "tags": {
+        "addr:city": "Madampe",
+        "name": "Public Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4949992,
+      "lon": 79.8409115,
+      "tags": {
+        "addr:city": "Madampe",
+        "name": "Co-op Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4927497,
+      "lon": 79.8370154,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "name": "Jayathilinaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4955253,
+      "lon": 79.8440477,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "name": "Dharmarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4946823,
+      "lon": 79.8575372,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "name": "Suduwella Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4976837,
+      "lon": 79.8307153,
+      "tags": {
+        "addr:city": "Irattakulama",
+        "amenity": "place_of_worship",
+        "name": "St.Mary's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4835913,
+      "lon": 79.8325723,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4831073,
+      "lon": 79.8279267,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "name": "Senanayake Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4844636,
+      "lon": 79.8278838,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "name": "St.Sebastian Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4774487,
+      "lon": 79.8301041,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "image": "https://photos.app.goo.gl/QB5suUd52Ec1B3NY9",
+        "name": "Thaniwella Devalaya",
+        "religion": "buddhist",
+        "url": "https://youtu.be/Mw7TvujXjKY?si=nf1d-Q4Kb1ruUbWV"
+      }
+    },
+    {
+      "lat": 7.5095621,
+      "lon": 79.82917,
+      "tags": {
+        "amenity": "restaurant",
+        "indoor_seating": "yes",
+        "name:en": "Sri Muruga vilas",
+        "outdoor_seating": "no"
+      }
+    },
+    {
+      "lat": 7.4754149,
+      "lon": 79.8450442,
+      "tags": {
+        "building": "yes",
+        "name": "Nelumpokuna",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.4709675,
+      "lon": 79.8066512,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general",
+        "name": "Primary Medical Care Unit , Thoduwawa"
+      }
+    },
+    {
+      "lat": 7.4705213,
+      "lon": 79.8058285,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Doctors Quarters, Thoduwawa"
+      }
+    },
+    {
+      "lat": 7.476499,
+      "lon": 79.8050467,
+      "tags": {
+        "addr:city": "Thoduwawa",
+        "addr:place": "Thoduwawa",
+        "addr:postcode": "61224",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "roman_catholic",
+        "name": "St. Anthony's Church",
+        "religion": "christian",
+        "service_times": "Sunday at 6.30 PM"
+      }
+    },
+    {
+      "lat": 7.464111,
+      "lon": 79.8204861,
+      "tags": {
+        "addr:city": "Mattakotuwa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Mattakotuwa Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.4768411,
+      "lon": 79.8309196,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "shrine",
+        "description": "Buddha statue",
+        "image": "https://photos.app.goo.gl/TdKbow4qMHF3JU5M8",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4612428,
+      "lon": 79.8057509,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.5098841,
+      "lon": 79.8297028,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Punchi Kataragama",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.4968733,
+      "lon": 79.8413774,
+      "tags": {
+        "building": "train_station",
+        "name": "Madampe",
+        "operator": "Srilanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 7.4803338,
+      "lon": 79.8281798,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "mosque",
+        "denomination": "sunni",
+        "image": "https://photos.app.goo.gl/sp35gbroWS7dTpCR6",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.4946618,
+      "lon": 79.8390213,
+      "tags": {
+        "amenity": "school",
+        "name": "Senanayake Central College"
+      }
+    }
+  ]
+}

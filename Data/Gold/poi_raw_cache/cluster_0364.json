@@ -1,0 +1,104 @@
+{
+  "cluster_id": 364,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.066765,
+    "lat_max": 6.155429,
+    "lon_min": 80.373599,
+    "lon_max": 80.453794
+  },
+  "outlet_ids": [
+    "OUT_17102",
+    "OUT_17147",
+    "OUT_17262",
+    "OUT_17364",
+    "OUT_17396",
+    "OUT_17505",
+    "OUT_17593",
+    "OUT_17750",
+    "OUT_17819",
+    "OUT_17839",
+    "OUT_17844",
+    "OUT_17855",
+    "OUT_17887",
+    "OUT_17895",
+    "OUT_17919",
+    "OUT_17937",
+    "OUT_17942",
+    "OUT_18029",
+    "OUT_18060",
+    "OUT_18093",
+    "OUT_18176",
+    "OUT_18341",
+    "OUT_18349",
+    "OUT_18432",
+    "OUT_18436",
+    "OUT_18457",
+    "OUT_18479",
+    "OUT_18518",
+    "OUT_18552",
+    "OUT_18587",
+    "OUT_18682",
+    "OUT_18786",
+    "OUT_18851",
+    "OUT_18880",
+    "OUT_19013",
+    "OUT_19025",
+    "OUT_19149",
+    "OUT_19268",
+    "OUT_19280",
+    "OUT_19325",
+    "OUT_19334",
+    "OUT_19435",
+    "OUT_19452",
+    "OUT_19570",
+    "OUT_19615",
+    "OUT_19693",
+    "OUT_19724",
+    "OUT_19872",
+    "OUT_19923",
+    "OUT_19933"
+  ],
+  "n_outlets": 50,
+  "n_pois_returned": 4,
+  "scraped_at": "2026-05-16T22:13:49.836586",
+  "elements": [
+    {
+      "lat": 6.1273633,
+      "lon": 80.4249129,
+      "tags": {
+        "amenity": "school",
+        "name": "Maliduwa K.v"
+      }
+    },
+    {
+      "lat": 6.1477497,
+      "lon": 80.4191297,
+      "tags": {
+        "amenity": "school",
+        "name": "Ehelape M.V"
+      }
+    },
+    {
+      "lat": 6.1342412,
+      "lon": 80.4028306,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1204517,
+      "lon": 80.4196706,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

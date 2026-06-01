@@ -1,0 +1,147 @@
+{
+  "cluster_id": 51,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.87588,
+    "lat_max": 7.9746749999999995,
+    "lon_min": 79.983996,
+    "lon_max": 80.074269
+  },
+  "outlet_ids": [
+    "OUT_13086",
+    "OUT_13089",
+    "OUT_13093",
+    "OUT_13280",
+    "OUT_13316",
+    "OUT_13364",
+    "OUT_13371",
+    "OUT_13479",
+    "OUT_13571",
+    "OUT_13821",
+    "OUT_13874",
+    "OUT_13919",
+    "OUT_14065",
+    "OUT_14392",
+    "OUT_14436",
+    "OUT_14439",
+    "OUT_14489",
+    "OUT_14500",
+    "OUT_14508",
+    "OUT_14519",
+    "OUT_14567",
+    "OUT_14639",
+    "OUT_14782",
+    "OUT_14870",
+    "OUT_14898",
+    "OUT_14965",
+    "OUT_15124",
+    "OUT_15132",
+    "OUT_15145",
+    "OUT_15211",
+    "OUT_15248",
+    "OUT_15287",
+    "OUT_15307",
+    "OUT_15321",
+    "OUT_15542",
+    "OUT_15586",
+    "OUT_15641",
+    "OUT_15642",
+    "OUT_15643",
+    "OUT_15647",
+    "OUT_15777",
+    "OUT_16484",
+    "OUT_16947"
+  ],
+  "n_outlets": 43,
+  "n_pois_returned": 9,
+  "scraped_at": "2026-05-16T20:28:35.298908",
+  "elements": [
+    {
+      "lat": 7.9372109,
+      "lon": 80.0130107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.878681,
+      "lon": 80.0105357,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9138787,
+      "lon": 80.0449778,
+      "tags": {
+        "amenity": "school",
+        "name": "Vimalarathna kumaragama school"
+      }
+    },
+    {
+      "lat": 7.907164,
+      "lon": 80.0028411,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9246331,
+      "lon": 80.0148436,
+      "tags": {
+        "name:en": "Mud House",
+        "name:es": "Casa de barro",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.9127529,
+      "lon": 79.9873431,
+      "tags": {
+        "addr:city": "Anamaduwa",
+        "addr:postcode": "61500",
+        "addr:street": "Dakunu Paliyagama, Anamaduwa",
+        "amenity": "place_of_worship",
+        "name": "Mahamevnawa Buddhist Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8850677,
+      "lon": 80.0025756,
+      "tags": {
+        "addr:city": "Anamaduwa",
+        "addr:street": "Katugastota-Kurunegala-Puttalam Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Anamaduwa Hospital"
+      }
+    },
+    {
+      "lat": 7.8869654,
+      "lon": 80.0111141,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kawanthissa Seya Temple"
+      }
+    },
+    {
+      "lat": 7.9127484,
+      "lon": 79.9873275,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    }
+  ]
+}

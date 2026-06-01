@@ -1,0 +1,613 @@
+{
+  "cluster_id": 191,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.401178,
+    "lat_max": 7.4729969999999994,
+    "lon_min": 80.526873,
+    "lon_max": 80.60854
+  },
+  "outlet_ids": [
+    "OUT_09041",
+    "OUT_09323",
+    "OUT_09482",
+    "OUT_09541",
+    "OUT_09546",
+    "OUT_09580",
+    "OUT_09751",
+    "OUT_09818",
+    "OUT_09827",
+    "OUT_09871",
+    "OUT_10004",
+    "OUT_10287",
+    "OUT_10309",
+    "OUT_10390",
+    "OUT_10518",
+    "OUT_10630",
+    "OUT_10656",
+    "OUT_10894",
+    "OUT_10914",
+    "OUT_10952",
+    "OUT_11014",
+    "OUT_11028",
+    "OUT_11243",
+    "OUT_11437",
+    "OUT_11786",
+    "OUT_11800",
+    "OUT_11894",
+    "OUT_11985",
+    "OUT_12006",
+    "OUT_12016",
+    "OUT_12077",
+    "OUT_12179",
+    "OUT_12191",
+    "OUT_12314",
+    "OUT_12319",
+    "OUT_12643",
+    "OUT_12704",
+    "OUT_12823",
+    "OUT_12936"
+  ],
+  "n_outlets": 39,
+  "n_pois_returned": 64,
+  "scraped_at": "2026-05-16T20:49:09.866028",
+  "elements": [
+    {
+      "lat": 7.4404367,
+      "lon": 80.5701698,
+      "tags": {
+        "addr:city": "Ankumbura",
+        "amenity": "hospital",
+        "name": "Ankumbura Divitional Hospital"
+      }
+    },
+    {
+      "lat": 7.4054319,
+      "lon": 80.5636305,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4480951,
+      "lon": 80.5681405,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Somananda Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4512948,
+      "lon": 80.5539783,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "mirissala temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4264828,
+      "lon": 80.5278542,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4050306,
+      "lon": 80.5575097,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ashokaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4343897,
+      "lon": 80.5657435,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kithulgolla"
+      }
+    },
+    {
+      "lat": 7.4476304,
+      "lon": 80.565777,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bogahagedara Bus Stop"
+      }
+    },
+    {
+      "lat": 7.44784,
+      "lon": 80.5663055,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bogahagedara Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4390318,
+      "lon": 80.5361203,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Keppitigala"
+      }
+    },
+    {
+      "lat": 7.4233459,
+      "lon": 80.5943672,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4122488,
+      "lon": 80.608038,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.4188903,
+      "lon": 80.6084062,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4390066,
+      "lon": 80.5688292,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jayawardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4382685,
+      "lon": 80.5731649,
+      "tags": {
+        "amenity": "school",
+        "name": "Ankumbura Parakrama Central College. (National School)"
+      }
+    },
+    {
+      "lat": 7.4580722,
+      "lon": 80.5656778,
+      "tags": {
+        "amenity": "school",
+        "name": "Ihalamulla Weluwana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4360985,
+      "lon": 80.5736346,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Ankumbura Ayurweda Dispensary"
+      }
+    },
+    {
+      "lat": 7.4314516,
+      "lon": 80.5746057,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhigodella Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4247657,
+      "lon": 80.5761667,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Welgala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4474218,
+      "lon": 80.568073,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ihalamulla Weeramunda Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4324679,
+      "lon": 80.5590673,
+      "tags": {
+        "amenity": "school",
+        "name": "Kithulgolla Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4327621,
+      "lon": 80.5584095,
+      "tags": {
+        "amenity": "school",
+        "name": "Pahalakithugolla Pre School"
+      }
+    },
+    {
+      "lat": 7.4242955,
+      "lon": 80.5673241,
+      "tags": {
+        "amenity": "school",
+        "name": "Udagama Devananda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4313861,
+      "lon": 80.5833072,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Uggala Kovila",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.4349539,
+      "lon": 80.5551119,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Marawia Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.429719,
+      "lon": 80.5681661,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udakithulgolla Kalashilaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4312281,
+      "lon": 80.5706493,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ankumbura Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4496169,
+      "lon": 80.5601106,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dhammikaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4480547,
+      "lon": 80.5554995,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udawaththa Kovila",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.4418555,
+      "lon": 80.5736019,
+      "tags": {
+        "name": "Sathsara Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4281908,
+      "lon": 80.5630651,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thennahena Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4214162,
+      "lon": 80.5668216,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ramakotuwa Bodhiya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4392985,
+      "lon": 80.5712902,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ankumbura Bomaluwa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4549005,
+      "lon": 80.5552662,
+      "tags": {
+        "amenity": "school",
+        "name": "Mirissala Maha Vdyalaya"
+      }
+    },
+    {
+      "lat": 7.4378396,
+      "lon": 80.6028163,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4367092,
+      "lon": 80.5985141,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dambagasdeniya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4612119,
+      "lon": 80.58734,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Owilikanda Hospital"
+      }
+    },
+    {
+      "lat": 7.4554992,
+      "lon": 80.5767855,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4539487,
+      "lon": 80.5788535,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Owilikanda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4576375,
+      "lon": 80.5866641,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4579566,
+      "lon": 80.5867633,
+      "tags": {
+        "amenity": "school",
+        "name": "Owilikanda Primary School"
+      }
+    },
+    {
+      "lat": 7.4014342,
+      "lon": 80.607128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Delgasgoda Purana Piriwen Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4398519,
+      "lon": 80.5707027,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Prpossed Bus Stand, Ankumbura"
+      }
+    },
+    {
+      "lat": 7.4099789,
+      "lon": 80.5852666,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4650761,
+      "lon": 80.5425847,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4376462,
+      "lon": 80.572251,
+      "tags": {
+        "name": "Sathosa",
+        "operator": "Government",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4417268,
+      "lon": 80.5748429,
+      "tags": {
+        "addr:city": "Ankumbura",
+        "addr:street": "Ankumbura - Owilikanda Road",
+        "amenity": "restaurant",
+        "name": "Grand Piyol Reception Hall"
+      }
+    },
+    {
+      "lat": 7.4385014,
+      "lon": 80.5717103,
+      "tags": {
+        "name": "Co-Op City",
+        "operator": "MPCS Pujapitiya",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4419229,
+      "lon": 80.5784307,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mithsewana",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4549998,
+      "lon": 80.5816433,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "supuni resturant"
+      }
+    },
+    {
+      "lat": 7.4554191,
+      "lon": 80.5811398,
+      "tags": {
+        "name": "lilananda store",
+        "payment:cash": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4558033,
+      "lon": 80.5811836,
+      "tags": {
+        "name": "sarath shop",
+        "operator": "sarath",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4571519,
+      "lon": 80.5865417,
+      "tags": {
+        "amenity": "school",
+        "name": "owilikanda school ground"
+      }
+    },
+    {
+      "lat": 7.4284181,
+      "lon": 80.5295834,
+      "tags": {
+        "amenity": "school",
+        "name": "Ikiriwatta Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4416216,
+      "lon": 80.5977416,
+      "tags": {
+        "amenity": "school",
+        "name": "Thibbotuwawa Primary School"
+      }
+    },
+    {
+      "lat": 7.4597159,
+      "lon": 80.5888166,
+      "tags": {
+        "amenity": "school",
+        "name": "Owilikanda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.4057717,
+      "lon": 80.6075364,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Alawathugoda Maha Saman Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4227835,
+      "lon": 80.5853118,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Uggala Tamil School"
+      }
+    },
+    {
+      "lat": 7.4550117,
+      "lon": 80.5816467,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "supuni resturant"
+      }
+    },
+    {
+      "lat": 7.4539549,
+      "lon": 80.5788971,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "owilikanda temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4576324,
+      "lon": 80.5866539,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4568646,
+      "lon": 80.5866101,
+      "tags": {
+        "amenity": "school",
+        "name": "owiliknda school ground"
+      }
+    },
+    {
+      "lat": 7.4554144,
+      "lon": 80.5811445,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4557342,
+      "lon": 80.5811669,
+      "tags": {
+        "building": "yes",
+        "name": "sarath shop",
+        "operator": "sarath",
+        "shop": "supermarket"
+      }
+    }
+  ]
+}

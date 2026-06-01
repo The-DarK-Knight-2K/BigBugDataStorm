@@ -1,0 +1,523 @@
+{
+  "cluster_id": 84,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.913232,
+    "lat_max": 7.001927,
+    "lon_min": 80.535835,
+    "lon_max": 80.623352
+  },
+  "outlet_ids": [
+    "OUT_09019",
+    "OUT_09366",
+    "OUT_09373",
+    "OUT_09425",
+    "OUT_09496",
+    "OUT_09545",
+    "OUT_09613",
+    "OUT_09687",
+    "OUT_09695",
+    "OUT_09744",
+    "OUT_09760",
+    "OUT_09803",
+    "OUT_09808",
+    "OUT_10281",
+    "OUT_10378",
+    "OUT_10489",
+    "OUT_10523",
+    "OUT_10546",
+    "OUT_10561",
+    "OUT_10563",
+    "OUT_10604",
+    "OUT_10838",
+    "OUT_10870",
+    "OUT_11099",
+    "OUT_11196",
+    "OUT_11309",
+    "OUT_11543",
+    "OUT_11580",
+    "OUT_11595",
+    "OUT_11702",
+    "OUT_11737",
+    "OUT_11841",
+    "OUT_11869",
+    "OUT_11919",
+    "OUT_11996",
+    "OUT_12046",
+    "OUT_12079",
+    "OUT_12103",
+    "OUT_12271",
+    "OUT_12368",
+    "OUT_12488",
+    "OUT_12573",
+    "OUT_12736",
+    "OUT_12850"
+  ],
+  "n_outlets": 44,
+  "n_pois_returned": 49,
+  "scraped_at": "2026-05-16T20:33:57.882464",
+  "elements": [
+    {
+      "lat": 6.9348701,
+      "lon": 80.5587202,
+      "tags": {
+        "alt_name": "Rozella",
+        "name": "Rozelle",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9481148,
+      "lon": 80.542167,
+      "tags": {
+        "name": "Ihala Watawala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9943143,
+      "lon": 80.5394705,
+      "tags": {
+        "name": "Penrose",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9908778,
+      "lon": 80.559935,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St Joseph Moscati Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9315208,
+      "lon": 80.5520394,
+      "tags": {
+        "addr:city": "Rosalla",
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "New Choice Restaurant"
+      }
+    },
+    {
+      "lat": 6.9452597,
+      "lon": 80.5387892,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. John the Baptist",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9685345,
+      "lon": 80.6108308,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bogahawaththa Bodhirukkharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9335267,
+      "lon": 80.5595161,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9172049,
+      "lon": 80.586611,
+      "tags": {
+        "addr:street": "Argyle Road",
+        "addr:suburb": "Kudaoya Estate",
+        "email": "reservations@theargylevillas.com",
+        "name": "The Argyle",
+        "phone": "+94 51 2030000;tel:+94 76 3886846",
+        "tourism": "hotel",
+        "website": "http://www.theargyle.lk/"
+      }
+    },
+    {
+      "lat": 6.9163075,
+      "lon": 80.6006243,
+      "tags": {
+        "amenity": "school",
+        "name": "cambridge Collage"
+      }
+    },
+    {
+      "lat": 6.9158922,
+      "lon": 80.5983477,
+      "tags": {
+        "addr:city": "KOTAGALA",
+        "addr:housenumber": "kotagala",
+        "addr:postcode": "22000",
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "place_of_worship",
+        "name": "Shivan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9221529,
+      "lon": 80.5835014,
+      "tags": {
+        "name": "Harrington Heritage",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9237384,
+      "lon": 80.5827593,
+      "tags": {
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9168002,
+      "lon": 80.5977669,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Asvika hotel"
+      }
+    },
+    {
+      "lat": 6.9163076,
+      "lon": 80.5993092,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.918222,
+      "lon": 80.5998027,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9179371,
+      "lon": 80.5953958,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9231267,
+      "lon": 80.6041291,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9243328,
+      "lon": 80.6061542,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9247935,
+      "lon": 80.6069374,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9253287,
+      "lon": 80.6085923,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9250065,
+      "lon": 80.6096249,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "kotagala school bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9264496,
+      "lon": 80.6148257,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "rosita bazzar bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.926881,
+      "lon": 80.6167838,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9256009,
+      "lon": 80.6089297,
+      "tags": {
+        "addr:city": "Kotagala",
+        "addr:housenumber": "WJG5 + 5H3",
+        "addr:postcode": "22080",
+        "addr:street": "Kotagala Railway Station Road",
+        "amenity": "place_of_worship",
+        "name": "Muthuvinayagar kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9272131,
+      "lon": 80.6126419,
+      "tags": {
+        "addr:city": "kotagala",
+        "addr:housenumber": "WJG7 + V32",
+        "addr:postcode": "22080",
+        "amenity": "place_of_worship",
+        "name": "Shri Muthumariamman temple, wooton hills",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9283117,
+      "lon": 80.6086713,
+      "tags": {
+        "addr:city": "Kotagala",
+        "addr:postcode": "22080",
+        "name": "Kotagala",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.9164484,
+      "lon": 80.5900098,
+      "tags": {
+        "addr:city": "Hatton",
+        "addr:street": "Hatton - Maskeliya - Dalhousie Road,",
+        "amenity": "school",
+        "name": "Webster International School, Hatton",
+        "phone": "0512223000"
+      }
+    },
+    {
+      "lat": 6.9176945,
+      "lon": 80.5972223,
+      "tags": {
+        "addr:city": "KOTAGALA",
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "restaurant",
+        "name": "Hill Cool Hotel & Restaurant",
+        "phone": "0770516667"
+      }
+    },
+    {
+      "lat": 6.9186903,
+      "lon": 80.5929844,
+      "tags": {
+        "addr:street": "Avissawella - Hatton - Nuwara Eliya Road",
+        "amenity": "restaurant",
+        "name": "The nonis",
+        "phone": "0704023245"
+      }
+    },
+    {
+      "lat": 6.924135,
+      "lon": 80.609954,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kotagala Pabbatharama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9255741,
+      "lon": 80.6096144,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2024-05-19",
+        "grades": "1-13",
+        "name": "Kotagala Tamil Vidyalaya",
+        "operator:type": "government",
+        "religion": "all"
+      }
+    },
+    {
+      "lat": 6.9268394,
+      "lon": 80.6178517,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nuwara Eliya Pradeshiya Sabha",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9418033,
+      "lon": 80.5409157,
+      "tags": {
+        "amenity": "school",
+        "name": "Watawala Tamil Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9427592,
+      "lon": 80.5401398,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Buddharama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9432837,
+      "lon": 80.5404617,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Watawala Government Hospital"
+      }
+    },
+    {
+      "lat": 6.9546712,
+      "lon": 80.553196,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9423145,
+      "lon": 80.5681971,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9685765,
+      "lon": 80.6101394,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9883672,
+      "lon": 80.556457,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9213113,
+      "lon": 80.5598594,
+      "tags": {
+        "amenity": "school",
+        "name": "Kuilwatte Tamil School"
+      }
+    },
+    {
+      "lat": 6.9281503,
+      "lon": 80.5795797,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ruwanpura Sri Wijayamangalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9248009,
+      "lon": 80.5799263,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9256205,
+      "lon": 80.6077132,
+      "tags": {
+        "name": "sothosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9242061,
+      "lon": 80.6107462,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9207229,
+      "lon": 80.5862805,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9256899,
+      "lon": 80.5913513,
+      "tags": {
+        "addr:full": "*=MAYFIELD ESTATE CHALMERS DIVISION HATTON",
+        "addr:place": "Charmes",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Kudu Oya",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "chalmers vinayagar kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9268849,
+      "lon": 80.5920183,
+      "tags": {
+        "addr:full": "*=MAYFIELD ESTATE CHALMERS DIVISION HATTON",
+        "addr:place": "Charmes",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Kudu Oya",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "CHALMERS SUPRAMANIYAM MURUGAN KOVIL",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9145087,
+      "lon": 80.5857641,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Muniswaran Shrine",
+        "religion": "hindu"
+      }
+    }
+  ]
+}

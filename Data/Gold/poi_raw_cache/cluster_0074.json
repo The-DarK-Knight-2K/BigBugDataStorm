@@ -1,0 +1,560 @@
+{
+  "cluster_id": 74,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.509956,
+    "lat_max": 7.600817,
+    "lon_min": 79.783236,
+    "lon_max": 79.86681300000001
+  },
+  "outlet_ids": [
+    "OUT_13124",
+    "OUT_13148",
+    "OUT_13206",
+    "OUT_13281",
+    "OUT_13483",
+    "OUT_13772",
+    "OUT_14293",
+    "OUT_14313",
+    "OUT_14912",
+    "OUT_14964",
+    "OUT_15032",
+    "OUT_15295",
+    "OUT_15358",
+    "OUT_15689",
+    "OUT_15730",
+    "OUT_15787",
+    "OUT_15895",
+    "OUT_15913",
+    "OUT_15927",
+    "OUT_16085",
+    "OUT_16242",
+    "OUT_16246",
+    "OUT_16429",
+    "OUT_16454",
+    "OUT_16514",
+    "OUT_16665",
+    "OUT_16770",
+    "OUT_16815",
+    "OUT_16951"
+  ],
+  "n_outlets": 29,
+  "n_pois_returned": 52,
+  "scraped_at": "2026-05-16T22:27:14.376965",
+  "elements": [
+    {
+      "lat": 7.5757856,
+      "lon": 79.7909316,
+      "tags": {
+        "name": "Chilaw",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.6006132,
+      "lon": 79.8274738,
+      "tags": {
+        "name": "Manuwangama",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.5328175,
+      "lon": 79.8227037,
+      "tags": {
+        "name": "Kakkapalliya",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.5614974,
+      "lon": 79.805341,
+      "tags": {
+        "name": "Sawarana",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.5690992,
+      "lon": 79.799087,
+      "tags": {
+        "addr:city": "Chilaw",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.5755788,
+      "lon": 79.7932901,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "place_of_worship",
+        "name": "St.Bernadette's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.559749,
+      "lon": 79.8051494,
+      "tags": {
+        "addr:city": "Merawala",
+        "amenity": "place_of_worship",
+        "name": "St.Lukes Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.5582428,
+      "lon": 79.8059514,
+      "tags": {
+        "addr:city": "Merawala",
+        "amenity": "place_of_worship",
+        "name": "St.Joseph's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.5768148,
+      "lon": 79.7932097,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "place_of_worship",
+        "name": "Town Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.5783038,
+      "lon": 79.7930412,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "school",
+        "building": "school",
+        "name": "Edmund Peiris Primary School"
+      }
+    },
+    {
+      "lat": 7.5347969,
+      "lon": 79.8206679,
+      "tags": {
+        "addr:city": "Kakkapalliya",
+        "name": "Co-op City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.5247544,
+      "lon": 79.7928014,
+      "tags": {
+        "addr:city": "Ambakandawila",
+        "name": "Carolina Beach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.5766071,
+      "lon": 79.7978904,
+      "tags": {
+        "addr:city": "Chilaw",
+        "addr:street": "Thappawatte Road",
+        "amenity": "restaurant",
+        "name": "resturant"
+      }
+    },
+    {
+      "lat": 7.5635042,
+      "lon": 79.8071817,
+      "tags": {
+        "addr:street": "Colombo-Chilaw Road",
+        "amenity": "place_of_worship",
+        "name:en": "Pastor Anju Costha"
+      }
+    },
+    {
+      "lat": 7.5835472,
+      "lon": 79.7967483,
+      "tags": {
+        "name": "Keells",
+        "opening_hours": "Mo-Su 08:30-22:30",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.5664638,
+      "lon": 79.8034489,
+      "tags": {
+        "addr:housenumber": "178/6",
+        "addr:street": "Perani Mawatha, Maikkulama",
+        "amenity": "place_of_worship",
+        "name:en": "The Society of the Divine Saviour (Salvatorians)",
+        "phone": "0094322220019",
+        "website": "https://sds.org/"
+      }
+    },
+    {
+      "lat": 7.5757613,
+      "lon": 79.7966919,
+      "tags": {
+        "addr:city": "Chilaw",
+        "addr:street": "Colombo-Chilaw Road",
+        "amenity": "place_of_worship",
+        "name": "sri vijayakama viharaya"
+      }
+    },
+    {
+      "lat": 7.5757402,
+      "lon": 79.7960314,
+      "tags": {
+        "addr:city": "Chilaw",
+        "addr:street": "Colombo-Chilaw Road",
+        "name": "Arpico super market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.5755949,
+      "lon": 79.7933188,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.5783656,
+      "lon": 79.7930311,
+      "tags": {
+        "addr:city": "Chilaw",
+        "addr:street": "Alutwatte Road",
+        "amenity": "school",
+        "name": "peiris primary school"
+      }
+    },
+    {
+      "lat": 7.5768903,
+      "lon": 79.7932094,
+      "tags": {
+        "addr:city": "Chilaw",
+        "addr:street": "Bazzaar Street",
+        "amenity": "place_of_worship",
+        "name": "mosque"
+      }
+    },
+    {
+      "lat": 7.5808764,
+      "lon": 79.8167384,
+      "tags": {
+        "addr:city": "Chilaw",
+        "addr:street": "Wariyapola Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/y1JuqUjSXf88ZBDk9",
+        "name": "Munneswaram Kovil",
+        "religion": "hindu",
+        "url": "https://youtu.be/Aag_Jz2fK6w?si=GoVr1iarYTcl4kEK",
+        "wikidata": "Q6936796",
+        "wikimedia_commons": "Category:Munneswaram Hindu temple",
+        "wikipedia": "en:Munneswaram temple"
+      }
+    },
+    {
+      "lat": 7.5835338,
+      "lon": 79.8167871,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.5910716,
+      "lon": 79.8317431,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.5633408,
+      "lon": 79.84367,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.5769914,
+      "lon": 79.8020658,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "place_of_worship",
+        "building": "public",
+        "name": "Sri Devagiri Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.5719882,
+      "lon": 79.7974204,
+      "tags": {
+        "amenity": "hospital",
+        "building": "hospital",
+        "name": "District General Hospital Chilaw"
+      }
+    },
+    {
+      "lat": 7.5899838,
+      "lon": 79.7879222,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/c8ej1tdVevWDUF59A",
+        "name": "St.Sebastian Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.5702302,
+      "lon": 79.7885182,
+      "tags": {
+        "addr:city": "Chilaw",
+        "name": "Ranvil",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.5690637,
+      "lon": 79.788708,
+      "tags": {
+        "building": "yes",
+        "name": "Chilaw City Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.5429904,
+      "lon": 79.814571,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "image": "https://photos.app.goo.gl/hRjWuLA83woExG1q6",
+        "name": "Holy Rosary Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.5716292,
+      "lon": 79.7924493,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "St.James Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.5668851,
+      "lon": 79.796696,
+      "tags": {
+        "addr:city": "Chilaw",
+        "building": "yes",
+        "name": "Far Inn Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.5782006,
+      "lon": 79.7924145,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Saint Mary's Church",
+        "religion": "christian",
+        "short_name": "St.Mary's Church"
+      }
+    },
+    {
+      "lat": 7.5762957,
+      "lon": 79.7968915,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Suwana Private Hospital"
+      }
+    },
+    {
+      "lat": 7.5765435,
+      "lon": 79.798784,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Chilaw International School"
+      }
+    },
+    {
+      "lat": 7.5098841,
+      "lon": 79.8297028,
+      "tags": {
+        "addr:city": "Madampe",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Punchi Kataragama",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.5786657,
+      "lon": 79.7939293,
+      "tags": {
+        "addr:city": "Chilaw",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.5774797,
+      "lon": 79.7949573,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "marketplace",
+        "building": "retail",
+        "building:levels": "1"
+      }
+    },
+    {
+      "lat": 7.5718449,
+      "lon": 79.7968557,
+      "tags": {
+        "alt_name": "Chilaw Base Hospital",
+        "amenity": "hospital",
+        "name": "District General Hospital",
+        "operator": "Government"
+      }
+    },
+    {
+      "lat": 7.5715458,
+      "lon": 79.7999896,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "school",
+        "grades": "1-13",
+        "name": "Ananda National School - Chilaw"
+      }
+    },
+    {
+      "lat": 7.5726226,
+      "lon": 79.7969695,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Chapel of Our Lady of Perpetual Help",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.5769521,
+      "lon": 79.7966165,
+      "tags": {
+        "addr:city": "Chilaw",
+        "addr:street": "Chilaw-Wariyapola Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "image": "https://photos.app.goo.gl/J849itL2wGwjTKKb8",
+        "name": "hindu kowil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.5757036,
+      "lon": 79.7966771,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "place_of_worship",
+        "name": "Sri Vijayarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.594129,
+      "lon": 79.8652135,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.5769704,
+      "lon": 79.7893472,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "marketplace",
+        "name": "Vegetable Market"
+      }
+    },
+    {
+      "lat": 7.5778489,
+      "lon": 79.7894967,
+      "tags": {
+        "addr:city": "Chilaw",
+        "amenity": "marketplace",
+        "name": "Fish Market"
+      }
+    },
+    {
+      "lat": 7.5822908,
+      "lon": 79.7956701,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.5469528,
+      "lon": 79.8104901,
+      "tags": {
+        "addr:city": "chilaw",
+        "addr:street": "Colombo-Chilaw Road",
+        "building": "yes",
+        "name": "Nilawin hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.5771553,
+      "lon": 79.7941135,
+      "tags": {
+        "addr:city": "chilaw",
+        "addr:street": "Fort Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "yes",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.57933,
+      "lon": 79.8402929,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 7.5612194,
+      "lon": 79.8250264,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

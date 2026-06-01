@@ -1,0 +1,669 @@
+{
+  "cluster_id": 221,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.032515,
+    "lat_max": 6.108715,
+    "lon_min": 80.505483,
+    "lon_max": 80.589457
+  },
+  "outlet_ids": [
+    "OUT_17064",
+    "OUT_17111",
+    "OUT_17243",
+    "OUT_17258",
+    "OUT_17378",
+    "OUT_17498",
+    "OUT_17566",
+    "OUT_17628",
+    "OUT_17779",
+    "OUT_17782",
+    "OUT_17866",
+    "OUT_17900",
+    "OUT_18104",
+    "OUT_18140",
+    "OUT_18152",
+    "OUT_18174",
+    "OUT_18446",
+    "OUT_18507",
+    "OUT_18609",
+    "OUT_18816",
+    "OUT_18887",
+    "OUT_18907",
+    "OUT_18919",
+    "OUT_19008",
+    "OUT_19047",
+    "OUT_19115",
+    "OUT_19133",
+    "OUT_19283",
+    "OUT_19339",
+    "OUT_19689",
+    "OUT_19692",
+    "OUT_19740",
+    "OUT_19762",
+    "OUT_19800",
+    "OUT_19819",
+    "OUT_19871",
+    "OUT_19948",
+    "OUT_19952",
+    "OUT_19999"
+  ],
+  "n_outlets": 39,
+  "n_pois_returned": 57,
+  "scraped_at": "2026-05-16T20:58:01.667105",
+  "elements": [
+    {
+      "lat": 6.1074973,
+      "lon": 80.5798816,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Horapawita Sri Wijesundara Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0816883,
+      "lon": 80.5598535,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sapugoda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0906027,
+      "lon": 80.5289811,
+      "tags": {
+        "amenity": "university",
+        "name": "Nilwala Training College"
+      }
+    },
+    {
+      "lat": 6.0985854,
+      "lon": 80.5283222,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nimalaramaya",
+        "source": "Nalaka"
+      }
+    },
+    {
+      "lat": 6.0789572,
+      "lon": 80.5662179,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Batapaththala temple, Sri Upasena piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.103338,
+      "lon": 80.5117936,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0382514,
+      "lon": 80.560233,
+      "tags": {
+        "amenity": "school",
+        "name": "Palolpitiya Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0486909,
+      "lon": 80.5613997,
+      "tags": {
+        "addr:city": "Akurugoda",
+        "amenity": "school",
+        "name": "Siri Rathanajothi Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0957342,
+      "lon": 80.5647207,
+      "tags": {
+        "addr:city": "Andapana",
+        "amenity": "hospital",
+        "name": "Kamburupitiya Base Hospital"
+      }
+    },
+    {
+      "lat": 6.1083338,
+      "lon": 80.5625683,
+      "tags": {
+        "amenity": "school",
+        "name": "Koramburuwana School"
+      }
+    },
+    {
+      "lat": 6.0773213,
+      "lon": 80.5644976,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "name": "Co-op City Kamburupitiya",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0793742,
+      "lon": 80.565366,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "name": "Samarathunga Suermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0807745,
+      "lon": 80.5643056,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Akuressa - Kamburupitiya Road",
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0801364,
+      "lon": 80.5722064,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Kirinda - Kamburupitiya Road",
+        "name": "Sirini Hotel & Restaurant",
+        "rooms": "0",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0801162,
+      "lon": 80.5804633,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:housenumber": "Boraluketiya",
+        "addr:street": "Kirinda - Kamburupitiya Road",
+        "amenity": "place_of_worship",
+        "name": "Boraluketiya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0680021,
+      "lon": 80.5278291,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0620099,
+      "lon": 80.519875,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.044289,
+      "lon": 80.5885928,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Batuwita Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0813412,
+      "lon": 80.5665121,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kamburupitiya Bodhiya",
+        "religion": "buddhist",
+        "service_times": "24/7"
+      }
+    },
+    {
+      "lat": 6.0811988,
+      "lon": 80.5677326,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "amenity": "school",
+        "name": "Narandeniya National School's Ground"
+      }
+    },
+    {
+      "lat": 6.100703,
+      "lon": 80.5126297,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.1076694,
+      "lon": 80.5802989,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.0610536,
+      "lon": 80.5658608,
+      "tags": {
+        "amenity": "university",
+        "name": "University of Ruhuna-Faculty of Agriculture"
+      }
+    },
+    {
+      "lat": 6.059779,
+      "lon": 80.5447967,
+      "tags": {
+        "amenity": "school",
+        "name": "MR/Sri Gunarathana Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0590989,
+      "lon": 80.5438485,
+      "tags": {
+        "addr:city": "Ihala Vitiyala",
+        "amenity": "place_of_worship",
+        "name": "Sabarale Sri Niwasaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0607082,
+      "lon": 80.5393675,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Anagarika Dharmapala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.06501,
+      "lon": 80.539896,
+      "tags": {
+        "addr:city": "Bibulawela",
+        "amenity": "hospital",
+        "name": "Gamudawa Ruhunugama Rural Hospital"
+      }
+    },
+    {
+      "lat": 6.0541946,
+      "lon": 80.5319377,
+      "tags": {
+        "amenity": "school",
+        "name": "MR/Karagoda Uyangoda Navodya School"
+      }
+    },
+    {
+      "lat": 6.0695234,
+      "lon": 80.5604506,
+      "tags": {
+        "addr:city": "Godawa",
+        "amenity": "place_of_worship",
+        "name": "Godawa Sri Bodhirajaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0818597,
+      "lon": 80.5679454,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Kirinda - Kamburupitiya Road",
+        "amenity": "marketplace",
+        "building": "commercial",
+        "building:levels": "1",
+        "name": "Kamburupitiya Sunday Fair"
+      }
+    },
+    {
+      "lat": 6.0820322,
+      "lon": 80.5678556,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Kirinda - Kamburupitiya Road",
+        "amenity": "marketplace",
+        "building": "hut",
+        "building:levels": "1",
+        "name": "Sunday Fair"
+      }
+    },
+    {
+      "lat": 6.0820387,
+      "lon": 80.5680707,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Kirinda - Kamburupitiya Road",
+        "amenity": "marketplace",
+        "building": "hut",
+        "building:levels": "1",
+        "name": "Sunday Fair"
+      }
+    },
+    {
+      "lat": 6.0820093,
+      "lon": 80.5681751,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Kirinda - Kamburupitiya Road",
+        "amenity": "marketplace",
+        "building": "hut",
+        "building:levels": "1",
+        "name": "Sunday Fair"
+      }
+    },
+    {
+      "lat": 6.0821332,
+      "lon": 80.5678583,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Kirinda - Kamburupitiya Road",
+        "amenity": "marketplace",
+        "building": "hut",
+        "building:levels": "1",
+        "name": "Sunday Fair"
+      }
+    },
+    {
+      "lat": 6.0821289,
+      "lon": 80.567952,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Kirinda - Kamburupitiya Road",
+        "amenity": "marketplace",
+        "building": "hut",
+        "building:levels": "1",
+        "name": "Sunday Fair"
+      }
+    },
+    {
+      "lat": 6.0790464,
+      "lon": 80.5661092,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Batapaththala temple road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Batapaththala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0791126,
+      "lon": 80.5659988,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Batapaththala temple road",
+        "amenity": "place_of_worship",
+        "building": "house",
+        "building:levels": "1",
+        "name": "Batapaththala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0788483,
+      "lon": 80.5662878,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Batapaththala Temple",
+        "amenity": "place_of_worship",
+        "building": "budhu_geya",
+        "building:levels": "2",
+        "name": "Batapaththala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0810548,
+      "lon": 80.5661548,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:levels": "2",
+        "name": "Wijaya Lanka Caters and Bakers"
+      }
+    },
+    {
+      "lat": 6.0794408,
+      "lon": 80.5659395,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "A.B.N.Trades",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0798718,
+      "lon": 80.5660393,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "amenity": "clinic",
+        "building": "commercial",
+        "building:levels": "2",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Medical Center"
+      }
+    },
+    {
+      "lat": 6.0799649,
+      "lon": 80.5660763,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "1",
+        "healthcare": "clinic",
+        "name": "Medical Center"
+      }
+    },
+    {
+      "lat": 6.0792676,
+      "lon": 80.5652132,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "building": "commercial",
+        "building:levels": "2",
+        "name": "Wickramarachchi Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0794562,
+      "lon": 80.5653163,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:levels": "4",
+        "name": "Samarathunga Supermarket, Bar & Restaurant"
+      }
+    },
+    {
+      "lat": 6.0795215,
+      "lon": 80.56567,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "healthcare": "clinic",
+        "name": "Medical Center"
+      }
+    },
+    {
+      "lat": 6.0760956,
+      "lon": 80.5635307,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Nadeesha Holiday Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0797057,
+      "lon": 80.5661299,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:levels": "1",
+        "name": "Kapila Restaurant"
+      }
+    },
+    {
+      "lat": 6.0767814,
+      "lon": 80.5642384,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "building:levels": "2",
+        "healthcare": "clinic",
+        "name": "Medical Clinic"
+      }
+    },
+    {
+      "lat": 6.0773035,
+      "lon": 80.5645026,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Co-oparative Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0807444,
+      "lon": 80.5643123,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Akuressa - Kamburupitiya Road",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0804932,
+      "lon": 80.5657795,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Akuressa - Kamburupitiya Road",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Sithumina Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0813062,
+      "lon": 80.5642826,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Akuressa - Kamburupitiya Road",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "White House Hotel & Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0814073,
+      "lon": 80.5642129,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Akuressa - Kamburupitiya Road",
+        "building": "yes",
+        "building:levels": "1",
+        "name": "White House Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0820077,
+      "lon": 80.5667287,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Kamburupitiya - Makandura Road",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:levels": "1",
+        "name": "Stand View Hotel"
+      }
+    },
+    {
+      "lat": 6.0815788,
+      "lon": 80.5662851,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Ruhunu Cafe & Bakers"
+      }
+    },
+    {
+      "lat": 6.080903,
+      "lon": 80.5662082,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Matara - Kamburupitiya Road",
+        "building": "yes",
+        "building:levels": "4",
+        "name": "Runage Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0801965,
+      "lon": 80.5665121,
+      "tags": {
+        "addr:city": "Kamburupitiya",
+        "addr:street": "Old Bus Stand",
+        "amenity": "restaurant",
+        "building": "commercial",
+        "building:levels": "1",
+        "name": "Stand View Hotel"
+      }
+    }
+  ]
+}

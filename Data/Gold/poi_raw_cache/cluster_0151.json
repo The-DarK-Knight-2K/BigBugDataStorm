@@ -1,0 +1,478 @@
+{
+  "cluster_id": 151,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 5.971815,
+    "lat_max": 6.05673,
+    "lon_min": 80.439821,
+    "lon_max": 80.518398
+  },
+  "outlet_ids": [
+    "OUT_17050",
+    "OUT_17062",
+    "OUT_17238",
+    "OUT_17309",
+    "OUT_17319",
+    "OUT_17358",
+    "OUT_17373",
+    "OUT_17456",
+    "OUT_17489",
+    "OUT_17624",
+    "OUT_17643",
+    "OUT_17652",
+    "OUT_17703",
+    "OUT_17945",
+    "OUT_17990",
+    "OUT_18063",
+    "OUT_18160",
+    "OUT_18299",
+    "OUT_18332",
+    "OUT_18382",
+    "OUT_18506",
+    "OUT_18687",
+    "OUT_18708",
+    "OUT_18751",
+    "OUT_18783",
+    "OUT_18857",
+    "OUT_18998",
+    "OUT_18999",
+    "OUT_19010",
+    "OUT_19049",
+    "OUT_19139",
+    "OUT_19317",
+    "OUT_19559",
+    "OUT_19695",
+    "OUT_19702",
+    "OUT_19747",
+    "OUT_19799"
+  ],
+  "n_outlets": 37,
+  "n_pois_returned": 44,
+  "scraped_at": "2026-05-16T20:42:25.884013",
+  "elements": [
+    {
+      "lat": 6.0489375,
+      "lon": 80.4486463,
+      "tags": {
+        "amenity": "school",
+        "name": "\u0db1\u0dd2\u0db8\u0dbd\u0dc0 \u0d9a\u0dab\u0dd2\u0dc2\u0dca\u0da8 \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.0507934,
+      "lon": 80.4590103,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "\u0dad\u0dd9\u0db4\u0dd4\u0daf\u0dd9\u0dab\u0dd2\u0dba \u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db6\u0ddd\u0db0\u0dd2\u0dbb\u0dcf\u0da2 \u0dc0\u0dd2\u0dc4\u0dcf\u0dbb\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0244485,
+      "lon": 80.5171088,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Bus Halt"
+      }
+    },
+    {
+      "lat": 6.0094347,
+      "lon": 80.5181894,
+      "tags": {
+        "amenity": "school",
+        "name": "MR/ Sri Sumedha Vidyalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9769306,
+      "lon": 80.5182794,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kadedduwa Junction"
+      }
+    },
+    {
+      "lat": 6.0216517,
+      "lon": 80.4909932,
+      "tags": {
+        "amenity": "school",
+        "name": "Thelijjawila Royal Collage"
+      }
+    },
+    {
+      "lat": 6.0084654,
+      "lon": 80.5007265,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Akkurugoda MOH"
+      }
+    },
+    {
+      "lat": 5.9811566,
+      "lon": 80.4509266,
+      "tags": {
+        "amenity": "school",
+        "name": "Denipitiya Primary School"
+      }
+    },
+    {
+      "lat": 6.0249798,
+      "lon": 80.4959284,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0239774,
+      "lon": 80.4960302,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.0192213,
+      "lon": 80.4900853,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Samarasingharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9836401,
+      "lon": 80.4907008,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Ramagiri Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9819953,
+      "lon": 80.4955612,
+      "tags": {
+        "amenity": "school",
+        "name": "Sulthanagoda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 5.9806507,
+      "lon": 80.4785202,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Khettaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0000242,
+      "lon": 80.5138924,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0096825,
+      "lon": 80.5169842,
+      "tags": {
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.0092742,
+      "lon": 80.5175613,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Malimbada Junction",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.0082911,
+      "lon": 80.5160838,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Indrarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0132557,
+      "lon": 80.5090146,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Jayasumanaramaya Road",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0157478,
+      "lon": 80.5050726,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Kirimatimulla Junction",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 5.989194,
+      "lon": 80.4580953,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9757548,
+      "lon": 80.4398539,
+      "tags": {
+        "addr:city": "Southern Province",
+        "addr:country": "LK",
+        "addr:town": "Weligama",
+        "alt_name": "Pelena Gangarama Viharaya",
+        "amenity": "place_of_worship",
+        "name": "Gangarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9733917,
+      "lon": 80.4863597,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Naalakaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9828792,
+      "lon": 80.4518865,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Denipitiya Market",
+        "opening_hours": "Mo-Su 05:00-9:00"
+      }
+    },
+    {
+      "lat": 5.9723597,
+      "lon": 80.4427409,
+      "tags": {
+        "highway": "bus_stop",
+        "name:de": "Palena Bushaltestelle",
+        "name:en": "Palena Bus Station"
+      }
+    },
+    {
+      "lat": 5.973775,
+      "lon": 80.4783949,
+      "tags": {
+        "amenity": "restaurant",
+        "internet_access": "wlan",
+        "name:en": "Cosmic Power Woody Cottage",
+        "phone": "+94775091550"
+      }
+    },
+    {
+      "lat": 5.9990605,
+      "lon": 80.4566378,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9728503,
+      "lon": 80.4417414,
+      "tags": {
+        "addr:street": "Matara Road",
+        "amenity": "restaurant",
+        "cuisine": "italian;pizza",
+        "name": "rise",
+        "opening_hours": "Tu-Su 17:00-21:00",
+        "phone": "+94 41 2260337",
+        "website": "https://www.risesrilanka.com/"
+      }
+    },
+    {
+      "lat": 5.9824382,
+      "lon": 80.4423954,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.972043,
+      "lon": 80.4434767,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 5.9778865,
+      "lon": 80.440087,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.046984,
+      "lon": 80.5022349,
+      "tags": {
+        "amenity": "school",
+        "name": "Dampella Maha Vidyalaya",
+        "name:si": "\u0daf\u0db8\u0dca\u0db4\u0dd0\u0dbd\u0dca\u0dbd \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.0176635,
+      "lon": 80.4922709,
+      "tags": {
+        "amenity": "school",
+        "name": "Ground"
+      }
+    },
+    {
+      "lat": 6.0191486,
+      "lon": 80.4904326,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "man_made": "stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0219288,
+      "lon": 80.4911941,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0133399,
+      "lon": 80.4735543,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Udukawa temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0169008,
+      "lon": 80.4840727,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Samara Weeraramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0089426,
+      "lon": 80.5187153,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sumedha Vidyalaya Ground",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 5.9975235,
+      "lon": 80.4556328,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 5.9730237,
+      "lon": 80.4394311,
+      "tags": {
+        "addr:city": "Weligama",
+        "addr:housenumber": "700",
+        "addr:street": "Colombo\u2013Matara Road",
+        "air_conditioning": "yes",
+        "building": "hotel",
+        "building:levels": "15",
+        "check_date": "2026-01-04",
+        "image": "https://photos.app.goo.gl/hXGZgKvtkFyUNDFB9",
+        "layer": "1",
+        "name": "Weligama Bay Marriott Resort & Spa",
+        "roof:shape": "flat",
+        "rooms": "198",
+        "stars": "5",
+        "tourism": "hotel",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 5.9729981,
+      "lon": 80.4402138,
+      "tags": {
+        "addr:city": "Pelena",
+        "addr:postcode": "81700",
+        "addr:street": "Colombo -Matara Road",
+        "air_conditioning": "yes",
+        "area": "yes",
+        "contact:email": "info@weligamabayresort.com",
+        "name": "Weligama Bay Resort",
+        "phone": "+94 41 2 253920",
+        "tourism": "hotel",
+        "website": "https://www.weligamabayresort.com/en/"
+      }
+    },
+    {
+      "lat": 5.9725087,
+      "lon": 80.4403933,
+      "tags": {
+        "addr:housenumber": "736",
+        "addr:street": "Colombo\u2013Matara Road",
+        "air_conditioning": "yes",
+        "email": "info@themeresorts.com",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Parangi Weligama Bay",
+        "phone": "+94 77 004 1396",
+        "smoking": "outside",
+        "tourism": "hotel",
+        "website": "https://parangiweligamabay.com/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 5.972281,
+      "lon": 80.439942,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "retail",
+        "building:levels": "1",
+        "building:use": "foodservice",
+        "name": "Cutty Sark",
+        "roof:colour": "#b22222",
+        "roof:material": "roof_tiles",
+        "roof:shape": "pyramidal"
+      }
+    },
+    {
+      "lat": 5.9736665,
+      "lon": 80.4397597,
+      "tags": {
+        "building": "yes",
+        "building:levels": "4",
+        "name": "LG Hotel",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

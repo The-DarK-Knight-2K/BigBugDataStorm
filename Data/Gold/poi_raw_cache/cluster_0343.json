@@ -1,0 +1,83 @@
+{
+  "cluster_id": 343,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.903090000000001,
+    "lat_max": 7.994022,
+    "lon_min": 80.02936,
+    "lon_max": 80.117565
+  },
+  "outlet_ids": [
+    "OUT_13077",
+    "OUT_13282",
+    "OUT_13574",
+    "OUT_13696",
+    "OUT_13929",
+    "OUT_13948",
+    "OUT_14011",
+    "OUT_14398",
+    "OUT_14529",
+    "OUT_14591",
+    "OUT_14989",
+    "OUT_15146",
+    "OUT_15222",
+    "OUT_15243",
+    "OUT_15372",
+    "OUT_15490",
+    "OUT_15607",
+    "OUT_15693",
+    "OUT_15846",
+    "OUT_15892",
+    "OUT_15920",
+    "OUT_15952",
+    "OUT_16055",
+    "OUT_16175",
+    "OUT_16182",
+    "OUT_16501",
+    "OUT_16607",
+    "OUT_16745",
+    "OUT_16765",
+    "OUT_16808"
+  ],
+  "n_outlets": 30,
+  "n_pois_returned": 4,
+  "scraped_at": "2026-05-16T22:12:27.156153",
+  "elements": [
+    {
+      "lat": 7.9335928,
+      "lon": 80.1142663,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kalu Bandara Devalaya & Traditional SInhala Medicine Centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9138787,
+      "lon": 80.0449778,
+      "tags": {
+        "amenity": "school",
+        "name": "Vimalarathna kumaragama school"
+      }
+    },
+    {
+      "lat": 7.9728592,
+      "lon": 80.109361,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.9451254,
+      "lon": 80.0919809,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

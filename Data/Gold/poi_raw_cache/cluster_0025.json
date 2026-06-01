@@ -1,0 +1,439 @@
+{
+  "cluster_id": 25,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.362605,
+    "lat_max": 7.456853,
+    "lon_min": 80.652022,
+    "lon_max": 80.734093
+  },
+  "outlet_ids": [
+    "OUT_09056",
+    "OUT_09126",
+    "OUT_09156",
+    "OUT_09251",
+    "OUT_09317",
+    "OUT_09393",
+    "OUT_09594",
+    "OUT_09681",
+    "OUT_09707",
+    "OUT_09714",
+    "OUT_09984",
+    "OUT_10046",
+    "OUT_10124",
+    "OUT_10194",
+    "OUT_10217",
+    "OUT_10373",
+    "OUT_10385",
+    "OUT_10414",
+    "OUT_10506",
+    "OUT_10722",
+    "OUT_10766",
+    "OUT_10797",
+    "OUT_10925",
+    "OUT_10926",
+    "OUT_10944",
+    "OUT_11027",
+    "OUT_11060",
+    "OUT_11100",
+    "OUT_11199",
+    "OUT_11270",
+    "OUT_11432",
+    "OUT_11509",
+    "OUT_11582",
+    "OUT_11667",
+    "OUT_11693",
+    "OUT_11859",
+    "OUT_12167",
+    "OUT_12196",
+    "OUT_12203",
+    "OUT_12215",
+    "OUT_12251",
+    "OUT_12262",
+    "OUT_12281",
+    "OUT_12483",
+    "OUT_12577",
+    "OUT_12728",
+    "OUT_12752",
+    "OUT_12801",
+    "OUT_12817",
+    "OUT_12836"
+  ],
+  "n_outlets": 50,
+  "n_pois_returned": 39,
+  "scraped_at": "2026-05-16T20:23:48.640227",
+  "elements": [
+    {
+      "lat": 7.4291895,
+      "lon": 80.7113761,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.4344599,
+      "lon": 80.712095,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Shrine",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.4012673,
+      "lon": 80.6908677,
+      "tags": {
+        "addr:city": "Kandy",
+        "name": "Hunas Falls Hotel",
+        "operator": "Amaya Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3840931,
+      "lon": 80.6616741,
+      "tags": {
+        "name": "Patanpaha",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 7.3753772,
+      "lon": 80.6778503,
+      "tags": {
+        "addr:city": "Wattegama",
+        "addr:country": "LK",
+        "addr:district": "Kandy District",
+        "addr:place": "Wattegama",
+        "addr:province": "Central Province",
+        "addr:street": "Elkaduwa Road",
+        "email": "manager@brooksideresort.lk",
+        "name": "Brookside Resort",
+        "operator": "By Earl's",
+        "phone": "+94 81 5624933",
+        "tourism": "hotel",
+        "website": "http://brooksideresort.lk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 7.4216499,
+      "lon": 80.6638734,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4350454,
+      "lon": 80.6641171,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3727295,
+      "lon": 80.668442,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pahala Yatawara Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3640344,
+      "lon": 80.6747224,
+      "tags": {
+        "addr:street": "Wattegama - Matale Road",
+        "amenity": "place_of_worship",
+        "check_date": "2025-11-23",
+        "name": "Ihala Yatawara Kettarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3709976,
+      "lon": 80.661063,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gal Ambalama"
+      }
+    },
+    {
+      "lat": 7.3656282,
+      "lon": 80.6574381,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Doragamuwa"
+      }
+    },
+    {
+      "lat": 7.3902612,
+      "lon": 80.6783071,
+      "tags": {
+        "addr:street": "Wattegama - Kandenuwara - Wariyapola Road",
+        "name": "Green View Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3968902,
+      "lon": 80.6791671,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3752444,
+      "lon": 80.7277068,
+      "tags": {
+        "addr:city": "Panwila",
+        "addr:street": "Katugastota-Bambarella Road",
+        "name": "Hatale Tea Estate Bungalow",
+        "phone": "077 766 3663",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4176673,
+      "lon": 80.6824206,
+      "tags": {
+        "addr:city": "Elkaduwa",
+        "addr:street": "Ukuwela-Elkaduwa Road",
+        "amenity": "place_of_worship",
+        "name": "Elkaduwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3746305,
+      "lon": 80.6783663,
+      "tags": {
+        "addr:city": "Wattegama",
+        "addr:street": "Elkaduwa Road",
+        "name": "Simpson's Forest Hotel",
+        "operator": "Seetha Holdings",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4036126,
+      "lon": 80.653962,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Raithalawala Junction"
+      }
+    },
+    {
+      "lat": 7.4548671,
+      "lon": 80.6672162,
+      "tags": {
+        "addr:city": "Matale",
+        "amenity": "place_of_worship",
+        "name": "Sri Isipathana Bodhimalu Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3980322,
+      "lon": 80.7331905,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Madulkelle Hospital"
+      }
+    },
+    {
+      "lat": 7.3989039,
+      "lon": 80.7334117,
+      "tags": {
+        "addr:street": "Madulkelle - Kabaragala - Kandenuwara Road",
+        "amenity": "place_of_worship",
+        "name": "Madulkelle Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4167092,
+      "lon": 80.7268191,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mahapathana Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4528272,
+      "lon": 80.6832079,
+      "tags": {
+        "amenity": "school",
+        "name": "MT/Kandenuwara T M.V"
+      }
+    },
+    {
+      "lat": 7.4558457,
+      "lon": 80.6804058,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Nelinsa Resort"
+      }
+    },
+    {
+      "lat": 7.4494282,
+      "lon": 80.6796789,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Kandenuwara General  Hospital"
+      }
+    },
+    {
+      "lat": 7.4554389,
+      "lon": 80.682563,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.4066879,
+      "lon": 80.6520967,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raithalawela Sub Post Office"
+      }
+    },
+    {
+      "lat": 7.3651136,
+      "lon": 80.6833242,
+      "tags": {
+        "addr:postcode": "20810",
+        "addr:street": "Elkaduwa Road",
+        "amenity": "place_of_worship",
+        "check_date": "2026-04-23",
+        "name": "Gothamachethiya Mangalagiri Buddhist Monastery",
+        "religion": "buddhist",
+        "website": "https://gothamachethiya.org/"
+      }
+    },
+    {
+      "lat": 7.4456556,
+      "lon": 80.6561704,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2026-04-24",
+        "name": "Lunuatuwa Forest Monastery \u2010 \u0dbd\u0dd4\u0dab\u0dd4\u0d85\u0da7\u0dd4\u0dc0 \u0d86\u0dbb\u0dab\u0dca\u200d\u0dba \u0dc3\u0dda\u0db1\u0dcf\u0dc3\u0db1\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4271636,
+      "lon": 80.7215819,
+      "tags": {
+        "amenity": "school",
+        "name": "Kelebokka Tamil School"
+      }
+    },
+    {
+      "lat": 7.400631,
+      "lon": 80.6803053,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.4071901,
+      "lon": 80.6732136,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4062359,
+      "lon": 80.672759,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.4172627,
+      "lon": 80.7273546,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahapathana Primary School"
+      }
+    },
+    {
+      "lat": 7.39312,
+      "lon": 80.7237474,
+      "tags": {
+        "addr:city": "Madulkelle",
+        "building": "hotel",
+        "building:levels": "1",
+        "name": "Madulkelle Tea & Eco Lodge",
+        "phone": "+94 81 3801052",
+        "roof:colour": "#409030",
+        "roof:height": "5",
+        "roof:material": "metal",
+        "roof:shape": "pyramidal",
+        "rooms": "22",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4493272,
+      "lon": 80.6797631,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kandenuwara General Hospital"
+      }
+    },
+    {
+      "lat": 7.449114,
+      "lon": 80.6777598,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kandenuwara Amman Kovil"
+      }
+    },
+    {
+      "lat": 7.4558197,
+      "lon": 80.6804313,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Nelinsa Resturent"
+      }
+    },
+    {
+      "lat": 7.4049462,
+      "lon": 80.6530126,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "masjidul Hudha Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3999558,
+      "lon": 80.6544209,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Cake in Wonderland"
+      }
+    }
+  ]
+}

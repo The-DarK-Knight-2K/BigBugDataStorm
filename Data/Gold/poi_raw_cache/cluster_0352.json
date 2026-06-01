@@ -1,0 +1,1036 @@
+{
+  "cluster_id": 352,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.7896350000000005,
+    "lat_max": 6.867336,
+    "lon_min": 80.017851,
+    "lon_max": 80.09118
+  },
+  "outlet_ids": [
+    "OUT_00049",
+    "OUT_00256",
+    "OUT_00347",
+    "OUT_00406",
+    "OUT_00805",
+    "OUT_00931",
+    "OUT_00938",
+    "OUT_01188",
+    "OUT_01314",
+    "OUT_01332",
+    "OUT_01376",
+    "OUT_01401",
+    "OUT_01584",
+    "OUT_01594",
+    "OUT_01676",
+    "OUT_01899",
+    "OUT_01936",
+    "OUT_02091",
+    "OUT_02092",
+    "OUT_02218",
+    "OUT_02418",
+    "OUT_02475",
+    "OUT_02757",
+    "OUT_02798",
+    "OUT_02906",
+    "OUT_03066",
+    "OUT_03258",
+    "OUT_03382",
+    "OUT_03475",
+    "OUT_03482",
+    "OUT_03503",
+    "OUT_03686",
+    "OUT_03789",
+    "OUT_03832",
+    "OUT_03852",
+    "OUT_03873",
+    "OUT_03935",
+    "OUT_03994",
+    "OUT_04073",
+    "OUT_04109",
+    "OUT_04434",
+    "OUT_04598",
+    "OUT_04738",
+    "OUT_04797",
+    "OUT_04850",
+    "OUT_04898",
+    "OUT_04995",
+    "OUT_05180",
+    "OUT_05344",
+    "OUT_05373",
+    "OUT_05441",
+    "OUT_05566",
+    "OUT_05626",
+    "OUT_05635",
+    "OUT_05744",
+    "OUT_05777",
+    "OUT_05805",
+    "OUT_05860",
+    "OUT_05892",
+    "OUT_05925",
+    "OUT_06054",
+    "OUT_06377",
+    "OUT_06711",
+    "OUT_07051",
+    "OUT_07056",
+    "OUT_07403",
+    "OUT_07454",
+    "OUT_07545",
+    "OUT_07566",
+    "OUT_07632",
+    "OUT_07660",
+    "OUT_07817",
+    "OUT_07858",
+    "OUT_07942",
+    "OUT_07969",
+    "OUT_08022",
+    "OUT_08050",
+    "OUT_08102",
+    "OUT_08215",
+    "OUT_08332",
+    "OUT_08407",
+    "OUT_08408",
+    "OUT_08591",
+    "OUT_08643",
+    "OUT_08755",
+    "OUT_08779"
+  ],
+  "n_outlets": 86,
+  "n_pois_returned": 96,
+  "scraped_at": "2026-05-16T22:13:00.982218",
+  "elements": [
+    {
+      "lat": 6.8412294,
+      "lon": 80.0903222,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Padukka Public Market"
+      }
+    },
+    {
+      "lat": 6.8427474,
+      "lon": 80.0911536,
+      "tags": {
+        "name": "Padukka",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8457298,
+      "lon": 80.045521,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatha Dharmayathanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8461319,
+      "lon": 80.042246,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "alternative",
+        "healthcare:speciality": "ayurveda",
+        "name": "Meegoda Ayurveda Hospital"
+      }
+    },
+    {
+      "lat": 6.8610974,
+      "lon": 80.0340753,
+      "tags": {
+        "name": "Villuda Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.828958,
+      "lon": 80.0271253,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pitipana Purana Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8439807,
+      "lon": 80.0436651,
+      "tags": {
+        "amenity": "school",
+        "name": "Dharmaraja Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8522951,
+      "lon": 80.0468501,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2024-03-31",
+        "name": "Meegoda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8525718,
+      "lon": 80.0675421,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Punyaloka Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8400553,
+      "lon": 80.0896596,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Padukka Base Hospital"
+      }
+    },
+    {
+      "lat": 6.8395546,
+      "lon": 80.0883829,
+      "tags": {
+        "amenity": "school",
+        "name": "Siri Piyarathana College"
+      }
+    },
+    {
+      "lat": 6.8241189,
+      "lon": 80.0553595,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dampe Purana Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8501351,
+      "lon": 80.033647,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8401032,
+      "lon": 80.0209468,
+      "tags": {
+        "addr:city": "Homagama",
+        "name": "Amaliya Reach Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8515196,
+      "lon": 80.0265187,
+      "tags": {
+        "addr:city": "Godagama",
+        "addr:street": "High Level Road",
+        "name": "Lanka Sathosa",
+        "operator": "LK gov",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8504844,
+      "lon": 80.0329229,
+      "tags": {
+        "addr:city": "Godagama",
+        "amenity": "school",
+        "name": "Subharathi Mahamatya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8569029,
+      "lon": 80.0236414,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8631394,
+      "lon": 80.0254353,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2024-03-31",
+        "name": "Panagoda Sri Parakrama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8567419,
+      "lon": 80.0320845,
+      "tags": {
+        "addr:city": "Godagama-Kotte Road",
+        "amenity": "place_of_worship",
+        "name": "Godagama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8383604,
+      "lon": 80.0797169,
+      "tags": {
+        "name": "Liyanwala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8482073,
+      "lon": 80.0353303,
+      "tags": {
+        "addr:city": "Godagama",
+        "name": "Lotus Godagama Reach Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.835662,
+      "lon": 80.036981,
+      "tags": {
+        "addr:city": "Pitipana",
+        "name": "Orchid Leisure Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8229351,
+      "lon": 80.0671441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8543193,
+      "lon": 80.0806044,
+      "tags": {
+        "addr:city": "Galagedara",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "check_date:opening_hours": "2024-03-31",
+        "name": "Perera & Sons",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "lat": 6.8580377,
+      "lon": 80.0908299,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "highway": "bus_stop",
+        "lit": "yes",
+        "local_ref": "Meepe",
+        "name": "Meepe",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8583428,
+      "lon": 80.0903364,
+      "tags": {
+        "addr:city": "Meepe",
+        "addr:postcode": "10509",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "cuisine": "seafood;grill;chicken;fish_and_chips;breakfast",
+        "diet:healthy": "yes",
+        "diet:sugar_free": "yes",
+        "name": "Kingsland Hotel & restaurant",
+        "opening_hours": "Mo-Su 09:00-23:30",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "phone": "0112 859 646",
+        "website": "https://r.search.yahoo.com/_ylt=Awr9.EyA3TpoG88HXx9XNyoA;_ylu=Y29sbwNncTEEcG9zAzMEdnRpZAMEc2VjA3Ny/RV=2/RE=1749897857/RO=10/RU=https%3a%2f%2fwww.cybo.com%2fLK-biz%2fkingsland-hotel-restaurant/RK=2/RS=KGk5lslHLwVxXHo9lBTwECdWskU-"
+      }
+    },
+    {
+      "lat": 6.8540233,
+      "lon": 80.0527587,
+      "tags": {
+        "addr:city": "Meegoda",
+        "addr:street": "High Level Road",
+        "amenity": "place_of_worship",
+        "name": "Meegoda Meditation Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8659937,
+      "lon": 80.0242393,
+      "tags": {
+        "addr:city": "Panagoda",
+        "addr:postcode": "10200",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Sri Vimalarama Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8672754,
+      "lon": 80.0243916,
+      "tags": {
+        "addr:city": "Panagoda",
+        "addr:postcode": "10200",
+        "amenity": "place_of_worship",
+        "name": "Indraramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8639937,
+      "lon": 80.0249393,
+      "tags": {
+        "addr:city": "Panagoda Junction",
+        "addr:postcode": "10200",
+        "amenity": "clinic",
+        "name": "Health Care Medical Center"
+      }
+    },
+    {
+      "lat": 6.865492,
+      "lon": 80.0267855,
+      "tags": {
+        "addr:postcode": "10200",
+        "amenity": "place_of_worship",
+        "name": "Kande Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8652519,
+      "lon": 80.0230854,
+      "tags": {
+        "addr:postcode": "10200",
+        "amenity": "restaurant",
+        "capacity": "15",
+        "cuisine": "regional",
+        "smoking": "outside",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8649131,
+      "lon": 80.0233371,
+      "tags": {
+        "addr:postcode": "10200",
+        "amenity": "restaurant",
+        "capacity": "15",
+        "cuisine": "regional",
+        "name": "Amila Hotel",
+        "opening_hours": "06:30-21:00",
+        "smoking": "outside",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8652002,
+      "lon": 80.0237157,
+      "tags": {
+        "addr:postcode": "10200",
+        "amenity": "restaurant",
+        "capacity": "15",
+        "cuisine": "regional",
+        "smoking": "outside"
+      }
+    },
+    {
+      "lat": 6.8652794,
+      "lon": 80.023515,
+      "tags": {
+        "name": "Panagoda Mini Coop City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8652381,
+      "lon": 80.0234389,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8637509,
+      "lon": 80.0249593,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.85671,
+      "lon": 80.0591971,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8483523,
+      "lon": 80.0212256,
+      "tags": {
+        "name": "Nimansala Hotel & Family Restaurant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8214453,
+      "lon": 80.0496419,
+      "tags": {
+        "addr:city": "Dampe",
+        "amenity": "place_of_worship",
+        "name": "Bpdhiwardanaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8346072,
+      "lon": 80.0486807,
+      "tags": {
+        "addr:city": "Dampe",
+        "amenity": "place_of_worship",
+        "name": "Wela Mada Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8451459,
+      "lon": 80.0453477,
+      "tags": {
+        "addr:city": "Meegoda",
+        "addr:street": "Godagama-Padukka Road",
+        "amenity": "place_of_worship",
+        "check_date": "2024-03-02",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8067896,
+      "lon": 80.0493825,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.816322,
+      "lon": 80.0686514,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8540731,
+      "lon": 80.0872487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.831854,
+      "lon": 80.0239018,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pitipana North Uththararama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8541151,
+      "lon": 80.0782988,
+      "tags": {
+        "name": "Serene Bridge Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8391466,
+      "lon": 80.0811909,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Paul's Church Linyawala",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.797727,
+      "lon": 80.0419986,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Thalagala Bus Stop"
+      }
+    },
+    {
+      "lat": 6.8123795,
+      "lon": 80.025736,
+      "tags": {
+        "amenity": "school",
+        "name": "Dolahena Primary School"
+      }
+    },
+    {
+      "lat": 6.8334818,
+      "lon": 80.0591294,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.826489,
+      "lon": 80.0758119,
+      "tags": {
+        "amenity": "place_of_worship",
+        "description": "Buddha statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8244636,
+      "lon": 80.0391085,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8586129,
+      "lon": 80.0908781,
+      "tags": {
+        "addr:city": "Meepe Junction",
+        "addr:housenumber": "No. 180/A",
+        "addr:postcode": "10509",
+        "addr:street": "High Level Road",
+        "air_conditioning": "yes",
+        "brand": "Cargills Food City",
+        "name": "Cargills Food City",
+        "not:brand:wikidata": "Q58353955",
+        "opening_hours": "Mo-Su 08:00-20:00",
+        "operator": "Cargills (Ceylon) PLC",
+        "payment:app": "yes",
+        "payment:cash": "yes",
+        "payment:debit_cards": "yes",
+        "payment:mastercard": "yes",
+        "phone": "+94 112 197 538",
+        "shop": "supermarket",
+        "website": "https://www.cargillsceylon.com"
+      }
+    },
+    {
+      "lat": 6.8479029,
+      "lon": 80.0328649,
+      "tags": {
+        "name": "Godagama",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8431734,
+      "lon": 80.0598726,
+      "tags": {
+        "name": "Watareka",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.846941,
+      "lon": 80.0190057,
+      "tags": {
+        "name": "Panagoda",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.8576337,
+      "lon": 80.0902337,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "BUS STOP",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.83648,
+      "lon": 80.0240337,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Seelamatha Aramaya,Pitipana",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8356972,
+      "lon": 80.0241488,
+      "tags": {
+        "name": "Market Place, Pitipana.",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.836777,
+      "lon": 80.0237584,
+      "tags": {
+        "name": "Sudu Araliya, Food City, Pitipana,",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8109241,
+      "lon": 80.0843247,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "lat": 6.8562771,
+      "lon": 80.0641254,
+      "tags": {
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8532677,
+      "lon": 80.0387761,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.851638,
+      "lon": 80.0328361,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8355518,
+      "lon": 80.0380826,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8537155,
+      "lon": 80.0895406,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "happy kitchen"
+      }
+    },
+    {
+      "lat": 6.8532746,
+      "lon": 80.0888911,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "sunshine hotel and resturent"
+      }
+    },
+    {
+      "lat": 6.8536984,
+      "lon": 80.0884817,
+      "tags": {
+        "name": "sampath food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8534666,
+      "lon": 80.0874207,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "dulmini hotel"
+      }
+    },
+    {
+      "lat": 6.8563363,
+      "lon": 80.0884575,
+      "tags": {
+        "amenity": "university",
+        "name": "external building"
+      }
+    },
+    {
+      "lat": 6.8558233,
+      "lon": 80.0894523,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Fruit store"
+      }
+    },
+    {
+      "lat": 6.8587123,
+      "lon": 80.0907951,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "dasatha"
+      }
+    },
+    {
+      "lat": 6.8531067,
+      "lon": 80.087622,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "sanu"
+      }
+    },
+    {
+      "lat": 6.8586333,
+      "lon": 80.0907123,
+      "tags": {
+        "name": "Kingland",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8576115,
+      "lon": 80.0903783,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8447277,
+      "lon": 80.0244275,
+      "tags": {
+        "amenity": "university",
+        "description": "The University of Kelaniya, Sri Lanka, has its origin in the historic Vidy\u0101la\u1e45k\u0101ra Pirivena, founded in 1875, as a centre of learning for Buddhist monks. It was one of the two great national centres of traditional higher learning at the time.",
+        "education": "university",
+        "internet_access": "yes",
+        "internet_access:fee": "customers",
+        "name": "Buddhist & Pali University of Sri Lanka",
+        "name:en": "Buddhist & Pali University of Sri Lanka",
+        "name:zh": "\u65af\u91cc\u5170\u5361\u4f5b\u6559\u4e0e\u5df4\u5229\u5927\u5b66",
+        "name:zh-Hans": "\u65af\u91cc\u5170\u5361\u4f5b\u6559\u4e0e\u5df4\u5229\u5927\u5b66",
+        "name:zh-Hant": "\u65af\u91cc\u862d\u5361\u4f5b\u6559\u8207\u5df4\u5229\u5927\u5b78",
+        "official_name": "Buddhist and Pali University of Sri Lanka",
+        "official_name:en": "Buddhist and Pali University of Sri Lanka",
+        "phone": "+94-112857786",
+        "start_date": "1875",
+        "website": "https://www.bpu.ac.lk/",
+        "wikidata": "Q4984263",
+        "wikipedia": "en:Buddhist and Pali University of Sri Lanka"
+      }
+    },
+    {
+      "lat": 6.8539967,
+      "lon": 80.0741305,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8399095,
+      "lon": 80.0581723,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "name": "Sinhala class"
+      }
+    },
+    {
+      "lat": 6.8238487,
+      "lon": 80.0393551,
+      "tags": {
+        "addr:city": "Pitipana,Homagagama",
+        "addr:street": "Dampe Road",
+        "amenity": "school",
+        "name": "Mahinda Rajapaksa National School"
+      }
+    },
+    {
+      "lat": 6.8479592,
+      "lon": 80.0881715,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8469127,
+      "lon": 80.0189929,
+      "tags": {
+        "building": "train_station",
+        "name": "Panagoda",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.840643,
+      "lon": 80.0798506,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8473218,
+      "lon": 80.0559258,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8435499,
+      "lon": 80.0462036,
+      "tags": {
+        "building": "commercial",
+        "name": "meegoda train station",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.8433667,
+      "lon": 80.0462514,
+      "tags": {
+        "building": "yes",
+        "name": "Meegoda",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.8262129,
+      "lon": 80.0765503,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8209162,
+      "lon": 80.0396638,
+      "tags": {
+        "addr:city": "Pitipana,Homagagama",
+        "addr:postcode": "10206",
+        "addr:street": "Mahenwaththa",
+        "amenity": "university",
+        "contact:facebook": "https://www.facebook.com/nsbm.lk",
+        "description": "NSBM is a government recognized degree awarding institute in Sri Lanka. It was granted the degree awarding status by the Ministry of Education under Section 25A of the Universities Act No. 16 of 1978 and established under the Companies Act No. 07 of 2007",
+        "email": "inquiries@nsbm.ac.lk",
+        "internet_access:ssid": "NSBM-Students",
+        "loc_name:si": "NSBM \u0dc4\u0dbb\u0dd2\u0dad \u0dc3\u0dbb\u0dc3\u0dc0\u0dd2\u0dba",
+        "loc_name:ta": "NSBM \u0baa\u0b9a\u0bc1\u0bae\u0bc8\u0baa\u0bcd \u0baa\u0bb2\u0bcd\u0b95\u0bb2\u0bc8\u0b95\u0bcd\u0b95\u0bb4\u0b95\u0bae\u0bcd",
+        "mobile": "+94 71 244 5000",
+        "name": "NSBM Green University",
+        "note": "NSBM Green University is the first of its kind in South Asia. We offer undergraduate and postgraduate programmes in the fields of Business, Computing, Engineering, Design and Science in an alternative and innovative approach to higher education.",
+        "official_name:en": "National School of Business Management",
+        "official_name:si": "\u0da2\u0dcf\u0dad\u0dd2\u0d9a \u0dc0\u0dca\u200d\u0dba\u0dcf\u0db4\u0dcf\u0dbb \u0d9a\u0dc5\u0db8\u0db1\u0dcf\u0d9a\u0dcf\u0dbb\u0dd3\u0dad\u0dca\u0dc0 \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dba\u0dad\u0db1\u0dba",
+        "official_name:ta": "\u0ba4\u0bc7\u0b9a\u0bbf\u0baf \u0bb5\u0bbf\u0baf\u0bbe\u0baa\u0bbe\u0bb0 \u0bae\u0bc1\u0b95\u0bbe\u0bae\u0bc8\u0ba4\u0bcd\u0ba4\u0bc1\u0bb5 \u0baa\u0bbe\u0b9f\u0b9a\u0bbe\u0bb2\u0bc8",
+        "opening_hours": "Mo-Su 08:30-22:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 11 544 5000",
+        "short_name": "NSBM",
+        "start_date": "2011",
+        "website": "https://www.nsbm.ac.lk/",
+        "wheelchair": "yes",
+        "wikidata": "Q39061140",
+        "wikimedia_commons": "Category:National School of Business Management, Sri Lanka",
+        "wikipedia": "en:National School of Business Management"
+      }
+    },
+    {
+      "lat": 6.8220968,
+      "lon": 80.0425523,
+      "tags": {
+        "amenity": "university",
+        "barrier": "wall",
+        "name": "Faculty of Technology",
+        "operator": "University of Sri Jayawardenapura"
+      }
+    },
+    {
+      "lat": 6.8169344,
+      "lon": 80.044696,
+      "tags": {
+        "amenity": "university"
+      }
+    },
+    {
+      "lat": 6.8276315,
+      "lon": 80.038776,
+      "tags": {
+        "addr:city": "Homagama",
+        "addr:street": "Dampe Road",
+        "addr:suburb": "Pitipana",
+        "amenity": "university",
+        "name": "Center for Research & Development"
+      }
+    },
+    {
+      "lat": 6.8226788,
+      "lon": 80.0302774,
+      "tags": {
+        "amenity": "school",
+        "name": "Pitipana Maha College"
+      }
+    },
+    {
+      "lat": 6.8215693,
+      "lon": 80.0420843,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8533281,
+      "lon": 80.0871476,
+      "tags": {
+        "addr:city": "Galagedara",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "burger;coffee_shop;chicken;seafood;asian;italian;juice",
+        "diet:local": "yes",
+        "name": "amawi",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 6.8399356,
+      "lon": 80.0223334,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Restaurant 1"
+      }
+    },
+    {
+      "lat": 6.8583761,
+      "lon": 80.0903247,
+      "tags": {
+        "building": "yes",
+        "name": "kingland",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

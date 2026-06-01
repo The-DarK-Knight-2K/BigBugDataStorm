@@ -1,0 +1,85 @@
+{
+  "cluster_id": 394,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 8.041713,
+    "lat_max": 8.117533,
+    "lon_min": 80.120314,
+    "lon_max": 80.207275
+  },
+  "outlet_ids": [
+    "OUT_13134",
+    "OUT_13564",
+    "OUT_13658",
+    "OUT_13677",
+    "OUT_13789",
+    "OUT_13817",
+    "OUT_13832",
+    "OUT_13909",
+    "OUT_14110",
+    "OUT_14180",
+    "OUT_14199",
+    "OUT_14410",
+    "OUT_14563",
+    "OUT_14754",
+    "OUT_15127",
+    "OUT_15235",
+    "OUT_15440",
+    "OUT_15496",
+    "OUT_15751",
+    "OUT_15762",
+    "OUT_15848",
+    "OUT_16134",
+    "OUT_16339",
+    "OUT_16393",
+    "OUT_16520",
+    "OUT_16525",
+    "OUT_16573",
+    "OUT_16771",
+    "OUT_16826",
+    "OUT_16879"
+  ],
+  "n_outlets": 30,
+  "n_pois_returned": 4,
+  "scraped_at": "2026-05-16T22:16:40.246436",
+  "elements": [
+    {
+      "lat": 8.101672,
+      "lon": 80.1944912,
+      "tags": {
+        "addr:city": "Rajanganaya",
+        "amenity": "place_of_worship",
+        "name": "Weheragala Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.1175437,
+      "lon": 80.1926275,
+      "tags": {
+        "amenity": "school",
+        "name": "Giribawa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 8.1170245,
+      "lon": 80.1936105,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pahala Giribawa Hospital"
+      }
+    },
+    {
+      "lat": 8.1039574,
+      "lon": 80.1298128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

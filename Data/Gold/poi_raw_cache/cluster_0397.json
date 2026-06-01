@@ -1,0 +1,833 @@
+{
+  "cluster_id": 397,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.937366,
+    "lat_max": 7.012606,
+    "lon_min": 79.947514,
+    "lon_max": 80.018755
+  },
+  "outlet_ids": [
+    "OUT_00006",
+    "OUT_00050",
+    "OUT_00083",
+    "OUT_00132",
+    "OUT_00372",
+    "OUT_00425",
+    "OUT_00830",
+    "OUT_01137",
+    "OUT_01206",
+    "OUT_01226",
+    "OUT_01246",
+    "OUT_01298",
+    "OUT_01361",
+    "OUT_01371",
+    "OUT_01548",
+    "OUT_01625",
+    "OUT_02047",
+    "OUT_02156",
+    "OUT_02251",
+    "OUT_02432",
+    "OUT_02747",
+    "OUT_02960",
+    "OUT_03082",
+    "OUT_03229",
+    "OUT_03538",
+    "OUT_03596",
+    "OUT_03742",
+    "OUT_03748",
+    "OUT_03799",
+    "OUT_03845",
+    "OUT_03973",
+    "OUT_04237",
+    "OUT_04801",
+    "OUT_04952",
+    "OUT_04955",
+    "OUT_04990",
+    "OUT_05277",
+    "OUT_05342",
+    "OUT_05403",
+    "OUT_05529",
+    "OUT_05533",
+    "OUT_05604",
+    "OUT_05810",
+    "OUT_05814",
+    "OUT_05820",
+    "OUT_05828",
+    "OUT_06002",
+    "OUT_06092",
+    "OUT_06402",
+    "OUT_06457",
+    "OUT_06555",
+    "OUT_06685",
+    "OUT_06785",
+    "OUT_06938",
+    "OUT_07377",
+    "OUT_07412",
+    "OUT_07714",
+    "OUT_07732",
+    "OUT_07993",
+    "OUT_08077",
+    "OUT_08094",
+    "OUT_08121",
+    "OUT_08261",
+    "OUT_08626",
+    "OUT_08753"
+  ],
+  "n_outlets": 65,
+  "n_pois_returned": 85,
+  "scraped_at": "2026-05-16T22:16:52.015850",
+  "elements": [
+    {
+      "lat": 6.9443959,
+      "lon": 79.9481511,
+      "tags": {
+        "addr:city": "Kelaniya",
+        "amenity": "school",
+        "name": "Bollegala Maha Vidyalayaa"
+      }
+    },
+    {
+      "lat": 7.0040909,
+      "lon": 79.9533712,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kadawatha Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9941875,
+      "lon": 80.0126748,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wardanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9715525,
+      "lon": 79.9546479,
+      "tags": {
+        "amenity": "school",
+        "name": "Sapugaskanda Vishaka Girls College"
+      }
+    },
+    {
+      "lat": 6.9396561,
+      "lon": 79.9808799,
+      "tags": {
+        "name": "Biyagama Village",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9474414,
+      "lon": 79.9938994,
+      "tags": {
+        "amenity": "school",
+        "name": "Biyagama Central College"
+      }
+    },
+    {
+      "lat": 6.9452528,
+      "lon": 79.9910991,
+      "tags": {
+        "amenity": "school",
+        "name": "Biyagama Junior School"
+      }
+    },
+    {
+      "lat": 6.9469426,
+      "lon": 79.9939404,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Biyagama Hospital"
+      }
+    },
+    {
+      "lat": 6.9649284,
+      "lon": 80.0137477,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Somalankaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9594705,
+      "lon": 80.017417,
+      "tags": {
+        "amenity": "school",
+        "name": "Walgama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9947678,
+      "lon": 80.0160491,
+      "tags": {
+        "amenity": "school",
+        "name": "Weera Wijayaba Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9475079,
+      "lon": 79.9879931,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9613903,
+      "lon": 80.0080845,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.0003913,
+      "lon": 79.9482984,
+      "tags": {
+        "check_date": "2024-09-04",
+        "name": "Cargills Kadawatha",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0003195,
+      "lon": 79.9481858,
+      "tags": {
+        "amenity": "restaurant",
+        "branch": "Kadawatha",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.9743267,
+      "lon": 79.9540525,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gale Pansala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9721861,
+      "lon": 79.9585264,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Abhinawaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9743213,
+      "lon": 79.9526309,
+      "tags": {
+        "amenity": "school",
+        "name": "Sapugaskanda Sobhitha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.9679476,
+      "lon": 79.9542724,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Francis Xavier",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9686505,
+      "lon": 79.9590843,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Abeysekararamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9690987,
+      "lon": 79.9588281,
+      "tags": {
+        "amenity": "school",
+        "name": "Yoshida International School"
+      }
+    },
+    {
+      "lat": 6.9896172,
+      "lon": 80.0164881,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kalyana Pradeepa Pirivena Delgoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0014343,
+      "lon": 79.9497045,
+      "tags": {
+        "addr:city": "Kadawatha",
+        "addr:street": "Kandy Road",
+        "name": "Arpico Super Center",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9423353,
+      "lon": 79.9618176,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Mabima Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9440747,
+      "lon": 79.9548065,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pattiwila"
+      }
+    },
+    {
+      "lat": 6.963288,
+      "lon": 79.9871503,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sucharitharmaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9481012,
+      "lon": 79.9907893,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop",
+        "name": "PT Country House"
+      }
+    },
+    {
+      "lat": 6.9711797,
+      "lon": 80.0023604,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Kandila"
+      }
+    },
+    {
+      "lat": 6.9769145,
+      "lon": 80.0064124,
+      "tags": {
+        "addr:street": "New Kandy Rd",
+        "amenity": "place_of_worship",
+        "name": "Sri Sambodhi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9714044,
+      "lon": 79.9769134,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9694195,
+      "lon": 79.9836393,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Dimo Junction",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9710234,
+      "lon": 79.9734432,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9695635,
+      "lon": 79.9834023,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9599423,
+      "lon": 80.0106953,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Biyagama Private Hospital"
+      }
+    },
+    {
+      "lat": 6.970289,
+      "lon": 79.9822774,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.9710538,
+      "lon": 79.9735434,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9678183,
+      "lon": 79.9674817,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9675309,
+      "lon": 79.9611586,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9695241,
+      "lon": 79.9544618,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9742894,
+      "lon": 79.9508192,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.9813403,
+      "lon": 80.0075508,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.980249,
+      "lon": 79.9829899,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9927225,
+      "lon": 80.0175245,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ven. Bandarawela Amithananda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9866672,
+      "lon": 80.0129752,
+      "tags": {
+        "addr:city": "Delgoda WP",
+        "addr:street": "New Kandy Rd",
+        "name": "Cargills food city",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9502965,
+      "lon": 79.9571648,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9761891,
+      "lon": 79.9904441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0031894,
+      "lon": 79.9561294,
+      "tags": {
+        "addr:city": "kadawatha",
+        "addr:housenumber": "831/A1",
+        "addr:street": "Colombo - Kandy Road",
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9562099,
+      "lon": 79.9954049,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0072691,
+      "lon": 79.9789041,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Transformer Junction"
+      }
+    },
+    {
+      "lat": 7.0023905,
+      "lon": 79.9584128,
+      "tags": {
+        "amenity": "school",
+        "name": "Kadawatha Buddhist Primary School"
+      }
+    },
+    {
+      "lat": 7.003728,
+      "lon": 79.9582212,
+      "tags": {
+        "addr:city": "Kadawatha",
+        "addr:street": "Sunethrarama Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Sunethraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0016975,
+      "lon": 79.9479851,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bimbarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0043042,
+      "lon": 79.9491545,
+      "tags": {
+        "name": "Sendra",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0002221,
+      "lon": 79.9480797,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9883175,
+      "lon": 80.0069279,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Jayasumanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9381821,
+      "lon": 79.9506605,
+      "tags": {
+        "name": "Grand Arena Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9623221,
+      "lon": 80.006011,
+      "tags": {
+        "name": "Hotel P.T. Gardens",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9917128,
+      "lon": 79.9587563,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mankada Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.001197,
+      "lon": 79.9518281,
+      "tags": {
+        "addr:city": "Kadawatha",
+        "addr:street": "Kadawatha-Mawaramandiya Road",
+        "name": "Hotel Everest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0024346,
+      "lon": 79.949625,
+      "tags": {
+        "name:en": "CARGILS Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.0081839,
+      "lon": 79.9863964,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9753362,
+      "lon": 79.948626,
+      "tags": {
+        "addr:city": "Peliyagoda",
+        "addr:housenumber": "67/3A",
+        "addr:street": "Makola Rd",
+        "amenity": "restaurant",
+        "name": "Vishwa Family Restaurant",
+        "opening_hours": "08:00-23:00"
+      }
+    },
+    {
+      "lat": 6.9445096,
+      "lon": 79.9999782,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nandarama Viharaya"
+      }
+    },
+    {
+      "lat": 6.9439323,
+      "lon": 79.9564192,
+      "tags": {
+        "amenity": "marketplace"
+      }
+    },
+    {
+      "lat": 6.9405737,
+      "lon": 79.9870238,
+      "tags": {
+        "name": "Laugfs Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9389084,
+      "lon": 79.9723972,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Highway Edge"
+      }
+    },
+    {
+      "lat": 6.946475,
+      "lon": 79.9531348,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "coffee_shop"
+      }
+    },
+    {
+      "lat": 6.9446328,
+      "lon": 79.9511917,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bodhi Tree",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9492898,
+      "lon": 80.0167635,
+      "tags": {
+        "addr:city": "Malwana",
+        "addr:street": "Malwana Dekatana Road",
+        "amenity": "restaurant",
+        "name": "Malwana Bake House"
+      }
+    },
+    {
+      "lat": 6.9403097,
+      "lon": 79.9637301,
+      "tags": {
+        "addr:city": "Welivita",
+        "addr:street": "Kelaniya-Biyagama Road",
+        "amenity": "restaurant",
+        "name": "Nilnadee Inn"
+      }
+    },
+    {
+      "lat": 6.9570589,
+      "lon": 79.9974107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0073424,
+      "lon": 79.9643055,
+      "tags": {
+        "addr:street": "Bandaranayake Mawatha",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0025055,
+      "lon": 79.9820802,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Temple"
+      }
+    },
+    {
+      "lat": 6.9879889,
+      "lon": 80.0140579,
+      "tags": {
+        "addr:city": "Delgoda WP",
+        "addr:street": "New Kandy Rd",
+        "building": "yes",
+        "name": "laugh supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.9628739,
+      "lon": 79.9965572,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9576112,
+      "lon": 79.9806728,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Devamiththa Yogashramay",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9627224,
+      "lon": 79.9969648,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9449161,
+      "lon": 79.9513324,
+      "tags": {
+        "addr:city": "Kelaniya",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Manelwatte Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9476025,
+      "lon": 80.0121902,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Raxapana Jumma Mosque",
+        "name:ta": "\u0bb0\u0b95\u0bcd\u0bb8\u0baa\u0bbe\u0ba9 \u0b9c\u0bc1\u0bae\u0bcd\u0bae\u0bbe \u0bae\u0bb8\u0bcd\u0b9c\u0bbf\u0ba4\u0bcd",
+        "religion": "muslim",
+        "source": "Mapbox satellite"
+      }
+    },
+    {
+      "lat": 7.0006745,
+      "lon": 79.9532369,
+      "tags": {
+        "amenity": "school",
+        "name": "Baptist Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0128034,
+      "lon": 79.9753283,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ranmuthugala Punyalankara Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9849764,
+      "lon": 79.9774771,
+      "tags": {
+        "addr:city": "Heiyanthuduwa",
+        "addr:postcode": "11618",
+        "addr:street": "Sri Sudharshanarama Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshanarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9980155,
+      "lon": 79.9871395,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9979183,
+      "lon": 79.9888527,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9457638,
+      "lon": 79.9511879,
+      "tags": {
+        "alt_name": "Nagananda International Buddhist University",
+        "amenity": "university",
+        "name": "Nagananda International Institute for Buddhist Studies",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

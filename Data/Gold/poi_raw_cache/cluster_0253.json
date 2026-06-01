@@ -1,0 +1,255 @@
+{
+  "cluster_id": 253,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.835971,
+    "lat_max": 6.928877,
+    "lon_min": 80.482455,
+    "lon_max": 80.558755
+  },
+  "outlet_ids": [
+    "OUT_09120",
+    "OUT_09304",
+    "OUT_09480",
+    "OUT_09743",
+    "OUT_09805",
+    "OUT_09830",
+    "OUT_09897",
+    "OUT_09941",
+    "OUT_10005",
+    "OUT_10205",
+    "OUT_10439",
+    "OUT_10633",
+    "OUT_10875",
+    "OUT_10876",
+    "OUT_10946",
+    "OUT_11221",
+    "OUT_11395",
+    "OUT_11562",
+    "OUT_11605",
+    "OUT_11672",
+    "OUT_11722",
+    "OUT_11790",
+    "OUT_11992",
+    "OUT_12178",
+    "OUT_12444",
+    "OUT_12497",
+    "OUT_12636",
+    "OUT_12682",
+    "OUT_12691",
+    "OUT_12741",
+    "OUT_12785",
+    "OUT_12818",
+    "OUT_12863"
+  ],
+  "n_outlets": 33,
+  "n_pois_returned": 23,
+  "scraped_at": "2026-05-16T22:27:24.711355",
+  "elements": [
+    {
+      "lat": 6.9154445,
+      "lon": 80.5053843,
+      "tags": {
+        "addr:street": "Norton - Maskeliya Road",
+        "amenity": "place_of_worship",
+        "name": "KiriwanEliya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9183415,
+      "lon": 80.5064626,
+      "tags": {
+        "addr:street": "Norton - Maskeliya Road",
+        "amenity": "school",
+        "name": "Kiriwan Eliya School"
+      }
+    },
+    {
+      "lat": 6.9003514,
+      "lon": 80.4978097,
+      "tags": {
+        "addr:city": "Lakshapana",
+        "addr:street": "Sapthakanya Road",
+        "name": "Lakshapana Rest",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9068787,
+      "lon": 80.5043645,
+      "tags": {
+        "addr:hamlet": "Laxapana",
+        "addr:street": "Norton - Maskeliya Road",
+        "name": "Norton Grange Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8753958,
+      "lon": 80.5289036,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.8472182,
+      "lon": 80.5452233,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "CEB Rest House"
+      }
+    },
+    {
+      "lat": 6.9110802,
+      "lon": 80.5033071,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8973273,
+      "lon": 80.5072392,
+      "tags": {
+        "covered": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.900762,
+      "lon": 80.4975264,
+      "tags": {
+        "covered": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9145821,
+      "lon": 80.5208176,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Norton Bar & Restaurant"
+      }
+    },
+    {
+      "lat": 6.9141194,
+      "lon": 80.5211141,
+      "tags": {
+        "covered": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.9107488,
+      "lon": 80.5212814,
+      "tags": {
+        "amenity": "school",
+        "name": "ganapathy t.m.v"
+      }
+    },
+    {
+      "lat": 6.9117527,
+      "lon": 80.5212867,
+      "tags": {
+        "amenity": "school",
+        "name": "vidulipura sinhala maha vidyalaya"
+      }
+    },
+    {
+      "lat": 6.907276,
+      "lon": 80.5216668,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "assembly of god church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9129955,
+      "lon": 80.5207012,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "norton pansala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9012834,
+      "lon": 80.5296557,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.8474495,
+      "lon": 80.5517881,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8655276,
+      "lon": 80.5382304,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8448595,
+      "lon": 80.5406028,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "srijalandanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.844979,
+      "lon": 80.5483913,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Saman Devalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8998083,
+      "lon": 80.5326615,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Praise Garden Retreat Centre Norton Bridge",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9106582,
+      "lon": 80.5213066,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8993178,
+      "lon": 80.5415038,
+      "tags": {
+        "addr:place": "LDK",
+        "addr:subdistrict": "Norwood",
+        "addr:village": "Vellioya",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Kaali Kovil",
+        "religion": "hindu"
+      }
+    }
+  ]
+}

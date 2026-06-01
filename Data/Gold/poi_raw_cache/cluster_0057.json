@@ -1,0 +1,167 @@
+{
+  "cluster_id": 57,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.733989,
+    "lat_max": 7.840847999999999,
+    "lon_min": 79.78250799999999,
+    "lon_max": 79.852777
+  },
+  "outlet_ids": [
+    "OUT_13068",
+    "OUT_13150",
+    "OUT_13227",
+    "OUT_13499",
+    "OUT_13808",
+    "OUT_13913",
+    "OUT_14125",
+    "OUT_14435",
+    "OUT_14458",
+    "OUT_14744",
+    "OUT_14777",
+    "OUT_14881",
+    "OUT_15131",
+    "OUT_15162",
+    "OUT_15173",
+    "OUT_15251",
+    "OUT_15334",
+    "OUT_15420",
+    "OUT_15451",
+    "OUT_15462",
+    "OUT_15870",
+    "OUT_16046",
+    "OUT_16093",
+    "OUT_16375",
+    "OUT_16439",
+    "OUT_16571",
+    "OUT_16593",
+    "OUT_16850"
+  ],
+  "n_outlets": 28,
+  "n_pois_returned": 12,
+  "scraped_at": "2026-05-16T20:29:07.676085",
+  "elements": [
+    {
+      "lat": 7.7571732,
+      "lon": 79.8282517,
+      "tags": {
+        "name": "Kiriyankalli",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.7975461,
+      "lon": 79.8256822,
+      "tags": {
+        "name": "Mundalama",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.7887782,
+      "lon": 79.8276202,
+      "tags": {
+        "addr:city": "Mundalama",
+        "amenity": "hospital",
+        "name": "Divisional Hospital"
+      }
+    },
+    {
+      "lat": 7.7912447,
+      "lon": 79.8272628,
+      "tags": {
+        "addr:city": "Mundalama",
+        "alt_name": "Sinhala Maha Vidyalaya",
+        "amenity": "school",
+        "name": "Pu/Sinhala Maha Vidyalaya",
+        "name:si": "\u0dc3\u0dd2\u0d82\u0dc4\u0dbd \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0dae\u0dd4\u0dc4\u0dbd",
+        "name:ta": "\u0baa\u0bc1/\u0b9a\u0bbf\u0b99\u0bcd\u0b95\u0bb3 \u0bae\u0b95\u0bbe \u0bb5\u0bbf\u0ba4\u0bcd\u0ba4\u0bbf\u0baf\u0bbe\u0bb2\u0baf\u0bae\u0bcd"
+      }
+    },
+    {
+      "lat": 7.7993339,
+      "lon": 79.822235,
+      "tags": {
+        "addr:city": "Mundalama",
+        "amenity": "place_of_worship",
+        "name": "St.Jame's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.8041427,
+      "lon": 79.8257577,
+      "tags": {
+        "addr:city": "Mundalama",
+        "amenity": "place_of_worship",
+        "name": "Mundalama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.748346,
+      "lon": 79.7899388,
+      "tags": {
+        "addr:city": "Udappuwa",
+        "amenity": "place_of_worship",
+        "name": "Sri Veerapathra Kali Amman Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.7466211,
+      "lon": 79.7902345,
+      "tags": {
+        "addr:city": "Udappuwa",
+        "amenity": "marketplace",
+        "name": "Fish Market"
+      }
+    },
+    {
+      "lat": 7.7424732,
+      "lon": 79.7947807,
+      "tags": {
+        "addr:city": "Udappuwa",
+        "amenity": "place_of_worship",
+        "name": "Aiyanar Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.7455431,
+      "lon": 79.790599,
+      "tags": {
+        "addr:city": "Udappuwa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "St.Xavier Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.745985,
+      "lon": 79.7903574,
+      "tags": {
+        "addr:city": "Udappuwa",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.7445789,
+      "lon": 79.7914626,
+      "tags": {
+        "addr:city": "Udappuwa",
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Sri Partha Sarathi Temple",
+        "religion": "hindu"
+      }
+    }
+  ]
+}

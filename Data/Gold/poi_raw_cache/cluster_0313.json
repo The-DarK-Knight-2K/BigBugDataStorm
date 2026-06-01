@@ -1,0 +1,673 @@
+{
+  "cluster_id": 313,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.1389380000000005,
+    "lat_max": 7.21627,
+    "lon_min": 80.047965,
+    "lon_max": 80.117603
+  },
+  "outlet_ids": [
+    "OUT_00011",
+    "OUT_00039",
+    "OUT_00085",
+    "OUT_00164",
+    "OUT_00243",
+    "OUT_00271",
+    "OUT_00560",
+    "OUT_00573",
+    "OUT_00972",
+    "OUT_01125",
+    "OUT_01130",
+    "OUT_01337",
+    "OUT_01379",
+    "OUT_01577",
+    "OUT_01703",
+    "OUT_01714",
+    "OUT_01722",
+    "OUT_01907",
+    "OUT_01914",
+    "OUT_01955",
+    "OUT_02068",
+    "OUT_02563",
+    "OUT_02654",
+    "OUT_02678",
+    "OUT_02721",
+    "OUT_03216",
+    "OUT_03321",
+    "OUT_03698",
+    "OUT_03770",
+    "OUT_03825",
+    "OUT_04410",
+    "OUT_04468",
+    "OUT_04483",
+    "OUT_04516",
+    "OUT_04596",
+    "OUT_04597",
+    "OUT_04695",
+    "OUT_04726",
+    "OUT_04881",
+    "OUT_04895",
+    "OUT_05083",
+    "OUT_05255",
+    "OUT_05388",
+    "OUT_05389",
+    "OUT_05510",
+    "OUT_05762",
+    "OUT_05911",
+    "OUT_06071",
+    "OUT_06424",
+    "OUT_06559",
+    "OUT_06702",
+    "OUT_06868",
+    "OUT_06926",
+    "OUT_07030",
+    "OUT_07515",
+    "OUT_07651",
+    "OUT_07685",
+    "OUT_07805",
+    "OUT_07939",
+    "OUT_08137",
+    "OUT_08311",
+    "OUT_08539",
+    "OUT_08561",
+    "OUT_08627",
+    "OUT_08766",
+    "OUT_08805",
+    "OUT_08867"
+  ],
+  "n_outlets": 67,
+  "n_pois_returned": 63,
+  "scraped_at": "2026-05-16T22:10:03.430438",
+  "elements": [
+    {
+      "lat": 7.139915,
+      "lon": 80.0954259,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Nittambuwa Old Bus Stand"
+      }
+    },
+    {
+      "lat": 7.1854854,
+      "lon": 80.0743794,
+      "tags": {
+        "name": "Keenawala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1983011,
+      "lon": 80.0899349,
+      "tags": {
+        "name": "Pallewala",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1821133,
+      "lon": 80.1109902,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1493987,
+      "lon": 80.0945433,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1535817,
+      "lon": 80.0584505,
+      "tags": {
+        "addr:city": "veyangoda",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1551359,
+      "lon": 80.0579516,
+      "tags": {
+        "addr:city": "Veyangoda",
+        "addr:street": "By Pass Road",
+        "amenity": "marketplace",
+        "name": "Veyangoda Market"
+      }
+    },
+    {
+      "lat": 7.1414131,
+      "lon": 80.0942211,
+      "tags": {
+        "addr:city": "Nittambuwa",
+        "addr:street": "Colombo-Kandy Road",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1467951,
+      "lon": 80.0969283,
+      "tags": {
+        "addr:city": "Nittambuwa",
+        "addr:street": "Colombo-Kandy Road",
+        "name": "Ranathisara Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1558081,
+      "lon": 80.1099858,
+      "tags": {
+        "name": "DAMRO Nittambuwa",
+        "opening_hours": "09:00-19:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1647235,
+      "lon": 80.0957714,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.14298,
+      "lon": 80.096423,
+      "tags": {
+        "name": "Nihal super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1393813,
+      "lon": 80.0993819,
+      "tags": {
+        "name:en": "Hotel sanol",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1442434,
+      "lon": 80.0944656,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Church"
+      }
+    },
+    {
+      "lat": 7.145084,
+      "lon": 80.09314,
+      "tags": {
+        "amenity": "school",
+        "name:en": "Negombo south International School"
+      }
+    },
+    {
+      "lat": 7.1447793,
+      "lon": 80.0924088,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vidyananda Piriven Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1438011,
+      "lon": 80.0953911,
+      "tags": {
+        "name:en": "Co-op City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1426768,
+      "lon": 80.0854677,
+      "tags": {
+        "addr:city": "Nittumbuwa",
+        "addr:street": "Pinnagolla Rd.",
+        "amenity": "place_of_worship",
+        "name": "Sri Wiwekaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1394259,
+      "lon": 80.0737411,
+      "tags": {
+        "amenity": "school",
+        "name": "Vidyaloka Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1905274,
+      "lon": 80.1033875,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2028282,
+      "lon": 80.0767136,
+      "tags": {
+        "addr:city": "Pallewela",
+        "addr:street": "Borukgamuwa Temple Road",
+        "amenity": "place_of_worship",
+        "historic": "yes",
+        "name": "Borukgamuwa Alokarama Ancient Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1989409,
+      "lon": 80.084591,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Walbolana Wickramashila Widarshana Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2030225,
+      "lon": 80.0761837,
+      "tags": {
+        "name": "Lucky Stores",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.167838,
+      "lon": 80.0660584,
+      "tags": {
+        "internet_access": "no",
+        "name": "Wadurawa Railway Station",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1980859,
+      "lon": 80.0675012,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Viradagala,Sri Sayilathrarama Viharasthanaya,",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1530741,
+      "lon": 80.0584119,
+      "tags": {
+        "name": "Veyangoda",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.2132698,
+      "lon": 80.0714781,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gaspe Sri Jayawardanaramaya Rajayama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.213476,
+      "lon": 80.0570717,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Muddaragama Chethiyaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2157945,
+      "lon": 80.0579324,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "operator": "CTB",
+        "public_transport": "platform",
+        "ref": "985"
+      }
+    },
+    {
+      "lat": 7.1859664,
+      "lon": 80.1121075,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Mhaeliya"
+      }
+    },
+    {
+      "lat": 7.1994038,
+      "lon": 80.1113869,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gal Amuna bus stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.1557854,
+      "lon": 80.0567306,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1563323,
+      "lon": 80.0558553,
+      "tags": {
+        "name": "Somawathi Traders",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1564903,
+      "lon": 80.0555715,
+      "tags": {
+        "amenity": "school",
+        "name": "Veyangoda Primary College"
+      }
+    },
+    {
+      "lat": 7.1544958,
+      "lon": 80.057717,
+      "tags": {
+        "name": "Tharushi Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1565059,
+      "lon": 80.0549802,
+      "tags": {
+        "amenity": "school",
+        "name": "Hiripitiya  Primary School"
+      }
+    },
+    {
+      "lat": 7.1561624,
+      "lon": 80.055014,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Michail church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.2006937,
+      "lon": 80.1110855,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gal Amuna Bus stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.2129312,
+      "lon": 80.1052505,
+      "tags": {
+        "name": "Ganegoda",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1523941,
+      "lon": 80.0583623,
+      "tags": {
+        "area": "yes",
+        "name": "Veyangoda",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.141551,
+      "lon": 80.0825448,
+      "tags": {
+        "addr:city": "Nittumbuwa",
+        "addr:street": "Pinnagolla Rd.",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1545455,
+      "lon": 80.0565683,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nagendrarama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2034492,
+      "lon": 80.0779263,
+      "tags": {
+        "building": "yes",
+        "name": "Grocery Outlet",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1982479,
+      "lon": 80.092263,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "public",
+        "name": "Pallewela Sathi Pola"
+      }
+    },
+    {
+      "lat": 7.2060379,
+      "lon": 80.1046792,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raddalgoda Jinendrarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2165594,
+      "lon": 80.1139529,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Indiparape Asramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.200337,
+      "lon": 80.0837169,
+      "tags": {
+        "addr:city": "Pallewela",
+        "addr:postcode": "11150",
+        "addr:street": "Kaleliya - Pallewela - Medagampitiya Road",
+        "amenity": "school",
+        "name": "Walbolana Primary School",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2092471,
+      "lon": 80.0601746,
+      "tags": {
+        "amenity": "school",
+        "name": "Muddaragama Primary School"
+      }
+    },
+    {
+      "lat": 7.1535648,
+      "lon": 80.1137276,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1764933,
+      "lon": 80.1177288,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pasyala Purana Raja maha Viharaya",
+        "religion": "buddhist",
+        "service_times": "24 hrs"
+      }
+    },
+    {
+      "lat": 7.1525541,
+      "lon": 80.0832181,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Indasara Primary School"
+      }
+    },
+    {
+      "lat": 7.1519153,
+      "lon": 80.083581,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Udammita Sri Sumanarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1557656,
+      "lon": 80.0567362,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1545909,
+      "lon": 80.0577479,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.2001704,
+      "lon": 80.1113585,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional;chinese",
+        "name": "Restuarant"
+      }
+    },
+    {
+      "lat": 7.2013371,
+      "lon": 80.1112083,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza;fine_dining;pastry;chinese;regional",
+        "name": "Mr.Pizza",
+        "opening_hours": "6.30 AM to 10 PM"
+      }
+    },
+    {
+      "lat": 7.1600398,
+      "lon": 80.0537739,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.2007288,
+      "lon": 80.1112735,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "name": "Family Restuarant"
+      }
+    },
+    {
+      "lat": 7.2025687,
+      "lon": 80.1108308,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "pizza;regional",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Mr.Pizza Family Restuarant",
+        "opening_hours": "08:00-22:00"
+      }
+    },
+    {
+      "lat": 7.1979379,
+      "lon": 80.1116144,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "chinese;regional",
+        "diet:non-vegetarian": "yes",
+        "diet:vegetarian": "yes",
+        "name": "White Palace"
+      }
+    },
+    {
+      "lat": 7.1978999,
+      "lon": 80.1113616,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;dentistry;blood_check;emergency",
+        "name": "Suwaya Medical Center"
+      }
+    },
+    {
+      "lat": 7.1963473,
+      "lon": 80.1158611,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Gambara Dewalaya-Kal Eliya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1654544,
+      "lon": 80.06425,
+      "tags": {
+        "addr:city": "Veyangoda",
+        "amenity": "school",
+        "name": "Bandaranayake Central College Veyangoda",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

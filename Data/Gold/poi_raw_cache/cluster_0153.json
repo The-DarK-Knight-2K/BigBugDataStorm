@@ -1,0 +1,580 @@
+{
+  "cluster_id": 153,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.0438540000000005,
+    "lat_max": 6.121778,
+    "lon_min": 80.228264,
+    "lon_max": 80.313649
+  },
+  "outlet_ids": [
+    "OUT_17077",
+    "OUT_17124",
+    "OUT_17161",
+    "OUT_17223",
+    "OUT_17256",
+    "OUT_17259",
+    "OUT_17314",
+    "OUT_17356",
+    "OUT_17419",
+    "OUT_17465",
+    "OUT_17548",
+    "OUT_17625",
+    "OUT_17675",
+    "OUT_17700",
+    "OUT_17826",
+    "OUT_17840",
+    "OUT_17972",
+    "OUT_18022",
+    "OUT_18182",
+    "OUT_18236",
+    "OUT_18267",
+    "OUT_18310",
+    "OUT_18449",
+    "OUT_18473",
+    "OUT_18494",
+    "OUT_18625",
+    "OUT_18665",
+    "OUT_18674",
+    "OUT_18774",
+    "OUT_18790",
+    "OUT_18834",
+    "OUT_18840",
+    "OUT_18871",
+    "OUT_18961",
+    "OUT_18984",
+    "OUT_18989",
+    "OUT_19041",
+    "OUT_19237",
+    "OUT_19357",
+    "OUT_19433",
+    "OUT_19493",
+    "OUT_19547",
+    "OUT_19614",
+    "OUT_19650",
+    "OUT_19656",
+    "OUT_19688",
+    "OUT_19707",
+    "OUT_19825",
+    "OUT_19844",
+    "OUT_19959"
+  ],
+  "n_outlets": 50,
+  "n_pois_returned": 57,
+  "scraped_at": "2026-05-16T20:42:33.983725",
+  "elements": [
+    {
+      "lat": 6.0500595,
+      "lon": 80.2298394,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Sri Jinendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0782597,
+      "lon": 80.2511786,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Maliban junction",
+        "name": "Maliban junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0757994,
+      "lon": 80.2628101,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "rathjambugaha junction",
+        "name": "Rathjambugahg junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0777582,
+      "lon": 80.2756728,
+      "tags": {
+        "highway": "bus_stop",
+        "local_ref": "Kuranguwaththa handiya",
+        "name": "kurunduwaththa junction"
+      }
+    },
+    {
+      "lat": 6.0795413,
+      "lon": 80.2843538,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Hiyare handiya",
+        "name": "Hiyare junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0808518,
+      "lon": 80.2857522,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Jayanthi handiya",
+        "name": "Jayanthi handiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0913671,
+      "lon": 80.3066919,
+      "tags": {
+        "addr:street": "Galle - Udugama Road",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Galgoda handiya",
+        "name": "Galgoda handiya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0921712,
+      "lon": 80.3067649,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.095198,
+      "lon": 80.3059255,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "local_ref": "Kottawa usawiya handiya",
+        "name": "Magistrate court ,kottawa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0492835,
+      "lon": 80.2529938,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudarshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0779813,
+      "lon": 80.2744712,
+      "tags": {
+        "amenity": "school",
+        "designation": "Government School",
+        "name": "Sri Sumangala Navodya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0794439,
+      "lon": 80.2844478,
+      "tags": {
+        "addr:street": "Hiyare Junction",
+        "amenity": "place_of_worship",
+        "name": "Neegrodharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0520726,
+      "lon": 80.2847011,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sumangala Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0865217,
+      "lon": 80.2421636,
+      "tags": {
+        "amenity": "school",
+        "name": "Akmeemana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0492496,
+      "lon": 80.2292513,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "name": "Hempel House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0467326,
+      "lon": 80.2900275,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Mulana Junction",
+        "name:si": "\u0db8\u0dd4\u0dbd\u0db1 \u0dc4\u0db1\u0dca\u0daf\u0dd2\u0dba"
+      }
+    },
+    {
+      "lat": 6.0693566,
+      "lon": 80.2697294,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1033813,
+      "lon": 80.3100441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Kottawa Nagaaranya Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0658573,
+      "lon": 80.2964383,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0622606,
+      "lon": 80.2805449,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0512222,
+      "lon": 80.2904195,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0944262,
+      "lon": 80.2413734,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Narawala Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.0780927,
+      "lon": 80.2741019,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0780389,
+      "lon": 80.2748981,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0782262,
+      "lon": 80.2744547,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0780513,
+      "lon": 80.2742766,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0712099,
+      "lon": 80.2358136,
+      "tags": {
+        "addr:city": "Labuduwa",
+        "addr:street": "Mapalagama Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "Traditional_Local_Foods",
+        "name": "Hela Bojun Hala",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.0714512,
+      "lon": 80.2332797,
+      "tags": {
+        "addr:street": "Mapalagama Road",
+        "amenity": "school",
+        "name": "Sri Lanka School of Agriculture Labuduwa",
+        "office": "government",
+        "opening_hours": "Mo-Fr 08:00-17:00"
+      }
+    },
+    {
+      "lat": 6.0843642,
+      "lon": 80.2461197,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Akmeemana Tempal",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0495058,
+      "lon": 80.2301945,
+      "tags": {
+        "addr:city": "Galle",
+        "addr:street": "Sri Jinenendrarama Mawatha",
+        "amenity": "school",
+        "name": "Athiligoda Sudharshi Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0693024,
+      "lon": 80.297431,
+      "tags": {
+        "amenity": "school",
+        "name": "Hiyare Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0447034,
+      "lon": 80.2434205,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0524608,
+      "lon": 80.2393408,
+      "tags": {
+        "amenity": "school",
+        "name": "Haliwala Muslim Primary School"
+      }
+    },
+    {
+      "lat": 6.0520286,
+      "lon": 80.2385609,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Haliwala Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.0524942,
+      "lon": 80.2424374,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hillside Buddhist centre",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0495041,
+      "lon": 80.2458841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Visuddharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0712296,
+      "lon": 80.2352648,
+      "tags": {
+        "amenity": "university",
+        "name": "The open University of Sri lanka"
+      }
+    },
+    {
+      "lat": 6.0712633,
+      "lon": 80.2369785,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Farm Side"
+      }
+    },
+    {
+      "lat": 6.0693726,
+      "lon": 80.2334601,
+      "tags": {
+        "name": "The Country House Chalets",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.0751483,
+      "lon": 80.2380439,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pancha thuparamaya Thotagoda",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0740082,
+      "lon": 80.2432978,
+      "tags": {
+        "amenity": "school",
+        "name": "Aththadassi Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0541895,
+      "lon": 80.2387507,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0754191,
+      "lon": 80.234034,
+      "tags": {
+        "amenity": "university",
+        "name": "Advanced Technological Institute - Galle"
+      }
+    },
+    {
+      "lat": 6.0742165,
+      "lon": 80.2341561,
+      "tags": {
+        "amenity": "university",
+        "name": "Advanced Technical Institute - Labuduwa"
+      }
+    },
+    {
+      "lat": 6.0597934,
+      "lon": 80.2432046,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0636749,
+      "lon": 80.2430346,
+      "tags": {
+        "amenity": "school",
+        "name": "Kapuhempola Nandhimithra Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0546661,
+      "lon": 80.2289275,
+      "tags": {
+        "amenity": "school",
+        "name": "Thomas Gall School"
+      }
+    },
+    {
+      "lat": 6.0678261,
+      "lon": 80.2282972,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "lat": 6.0728694,
+      "lon": 80.2321975,
+      "tags": {
+        "amenity": "school",
+        "name": "Siridhamma College",
+        "wikidata": "Q10978242",
+        "wikipedia": "en:Siridhamma College"
+      }
+    },
+    {
+      "lat": 6.0732437,
+      "lon": 80.2399487,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "sin dinero"
+      }
+    },
+    {
+      "lat": 6.0977086,
+      "lon": 80.2284786,
+      "tags": {
+        "amenity": "school",
+        "name": "Naraawala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.0979659,
+      "lon": 80.2341166,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Naraawala Sri Sudharshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0584198,
+      "lon": 80.2597216,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Andayamgodella Sri Khettaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.0515988,
+      "lon": 80.2861963,
+      "tags": {
+        "amenity": "school",
+        "name": "Ankokkawala Sri Sumangala Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.077398,
+      "lon": 80.3111358,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.0776677,
+      "lon": 80.3102121,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1007569,
+      "lon": 80.3116615,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

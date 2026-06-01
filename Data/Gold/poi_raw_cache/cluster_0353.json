@@ -1,0 +1,108 @@
+{
+  "cluster_id": 353,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.654002,
+    "lat_max": 7.741325,
+    "lon_min": 79.973934,
+    "lon_max": 80.070323
+  },
+  "outlet_ids": [
+    "OUT_13297",
+    "OUT_13334",
+    "OUT_13390",
+    "OUT_13405",
+    "OUT_13454",
+    "OUT_13737",
+    "OUT_13809",
+    "OUT_13871",
+    "OUT_13903",
+    "OUT_14108",
+    "OUT_14191",
+    "OUT_14220",
+    "OUT_14260",
+    "OUT_14554",
+    "OUT_14626",
+    "OUT_14638",
+    "OUT_14668",
+    "OUT_14737",
+    "OUT_14815",
+    "OUT_14826",
+    "OUT_14963",
+    "OUT_15051",
+    "OUT_15416",
+    "OUT_15426",
+    "OUT_15493",
+    "OUT_15817",
+    "OUT_15918",
+    "OUT_16302",
+    "OUT_16555",
+    "OUT_16753",
+    "OUT_16819",
+    "OUT_16833",
+    "OUT_16889",
+    "OUT_16910"
+  ],
+  "n_outlets": 34,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T22:13:04.377599",
+  "elements": [
+    {
+      "lat": 7.6697414,
+      "lon": 80.0063072,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6719361,
+      "lon": 80.0325959,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Manelembuwa Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6809752,
+      "lon": 80.033141,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6713248,
+      "lon": 79.9889845,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "name": "Makullapokuma Sri Sumanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.6537579,
+      "lon": 79.9898819,
+      "tags": {
+        "amenity": "school",
+        "name": "Weerapokuna Vijitha M.M.V",
+        "phone": "+94 32 2053062"
+      }
+    },
+    {
+      "lat": 7.6692135,
+      "lon": 80.0335126,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sarananda M.V"
+      }
+    }
+  ]
+}

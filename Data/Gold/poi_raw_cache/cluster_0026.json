@@ -1,0 +1,349 @@
+{
+  "cluster_id": 26,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.234381,
+    "lat_max": 6.317817,
+    "lon_min": 80.23873,
+    "lon_max": 80.319342
+  },
+  "outlet_ids": [
+    "OUT_17128",
+    "OUT_17145",
+    "OUT_17162",
+    "OUT_17252",
+    "OUT_17254",
+    "OUT_17275",
+    "OUT_17295",
+    "OUT_17301",
+    "OUT_17564",
+    "OUT_17825",
+    "OUT_17977",
+    "OUT_18009",
+    "OUT_18021",
+    "OUT_18067",
+    "OUT_18114",
+    "OUT_18155",
+    "OUT_18392",
+    "OUT_18456",
+    "OUT_18502",
+    "OUT_18565",
+    "OUT_18575",
+    "OUT_18592",
+    "OUT_18594",
+    "OUT_18637",
+    "OUT_18814",
+    "OUT_18923",
+    "OUT_18929",
+    "OUT_18940",
+    "OUT_19026",
+    "OUT_19060",
+    "OUT_19112",
+    "OUT_19123",
+    "OUT_19135",
+    "OUT_19154",
+    "OUT_19191",
+    "OUT_19216",
+    "OUT_19276",
+    "OUT_19337",
+    "OUT_19352",
+    "OUT_19364",
+    "OUT_19411",
+    "OUT_19670",
+    "OUT_19775",
+    "OUT_19781",
+    "OUT_19834",
+    "OUT_19898",
+    "OUT_19946"
+  ],
+  "n_outlets": 47,
+  "n_pois_returned": 32,
+  "scraped_at": "2026-05-16T20:23:52.806213",
+  "elements": [
+    {
+      "lat": 6.2507813,
+      "lon": 80.2677388,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bus Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.2598429,
+      "lon": 80.2643545,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bus Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.2970852,
+      "lon": 80.2515156,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Bus Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.2829315,
+      "lon": 80.2650691,
+      "tags": {
+        "amenity": "school",
+        "name": "Poddiwala Maha Vidyalaya",
+        "name:si": "\u0db4\u0ddd\u0daf\u0dca\u0daf\u0dd3\u0dc0\u0dd9\u0dbd \u0db8\u0dc4\u0dcf \u0dc0\u0dd2\u0daf\u0dca\u200d\u0dba\u0dcf\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.3023047,
+      "lon": 80.249527,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Primary Health Care Centre"
+      }
+    },
+    {
+      "lat": 6.2781578,
+      "lon": 80.245857,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2451002,
+      "lon": 80.2678824,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Gallinda Base Hospital",
+        "name:si": "\u0d9c\u0dbd\u0dca\u0dbd\u0dd2\u0db3 \u0db8\u0dd4\u0dbd\u0dd2\u0d9a \u0dbb\u0ddd\u0dc4\u0dbd"
+      }
+    },
+    {
+      "lat": 6.2608467,
+      "lon": 80.2628463,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2685733,
+      "lon": 80.2422765,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2422709,
+      "lon": 80.2541754,
+      "tags": {
+        "amenity": "school",
+        "name": "Polpalakatiya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.310869,
+      "lon": 80.2425313,
+      "tags": {
+        "amenity": "school",
+        "name": "Vidya Shanthi Piriwena"
+      }
+    },
+    {
+      "lat": 6.307506,
+      "lon": 80.2518547,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Matthaka Sri Bodhi Nigrodharamaya",
+        "office": "religion",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2988828,
+      "lon": 80.3180972,
+      "tags": {
+        "amenity": "school",
+        "government": "administrative",
+        "name": "Galle/St.Anne's shchool"
+      }
+    },
+    {
+      "lat": 6.2955303,
+      "lon": 80.3189903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Senkulu kanyaramaya",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.2594523,
+      "lon": 80.3149563,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nagala Aranya Temple,Eppala.",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.3139216,
+      "lon": 80.3168063,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hiniduma Methodist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.3003318,
+      "lon": 80.317448,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Calvary Church Hiniduma",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.3102399,
+      "lon": 80.3174092,
+      "tags": {
+        "amenity": "school",
+        "name": "Mallika Maha Vidyalaya."
+      }
+    },
+    {
+      "lat": 6.3116942,
+      "lon": 80.3177485,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hiniduma Shasanodaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2525764,
+      "lon": 80.2526905,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.239577,
+      "lon": 80.2653629,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "building:category_of_the_house": "single_house",
+        "building:floor_area": "more_than_1000",
+        "building:foundation_height": "1_to_1.5",
+        "building:levels": "1",
+        "building:material": "plastered",
+        "building:ownership": "owner",
+        "building:state_of_the_house": "permanent",
+        "floor:material": "cement",
+        "religion": "christian",
+        "roof:material": "asbestos"
+      }
+    },
+    {
+      "lat": 6.238514,
+      "lon": 80.2655709,
+      "tags": {
+        "amenity": "school",
+        "name": "Niyagama Primary School"
+      }
+    },
+    {
+      "lat": 6.2392859,
+      "lon": 80.2642143,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Punyaraama Wiharasthaanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.3142541,
+      "lon": 80.3169184,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.309818,
+      "lon": 80.3175038,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.3115632,
+      "lon": 80.3180958,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2990364,
+      "lon": 80.3181675,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.2954476,
+      "lon": 80.3188374,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.3004417,
+      "lon": 80.3177096,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.3112037,
+      "lon": 80.2419955,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.3072227,
+      "lon": 80.2517132,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2594283,
+      "lon": 80.3143716,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

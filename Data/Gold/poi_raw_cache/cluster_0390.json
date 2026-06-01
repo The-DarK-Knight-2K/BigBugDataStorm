@@ -1,0 +1,105 @@
+{
+  "cluster_id": 390,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.969601,
+    "lat_max": 8.062519,
+    "lon_min": 80.064577,
+    "lon_max": 80.151758
+  },
+  "outlet_ids": [
+    "OUT_13040",
+    "OUT_13182",
+    "OUT_13356",
+    "OUT_13379",
+    "OUT_13532",
+    "OUT_13624",
+    "OUT_13734",
+    "OUT_13828",
+    "OUT_13850",
+    "OUT_13982",
+    "OUT_14024",
+    "OUT_14047",
+    "OUT_14205",
+    "OUT_14209",
+    "OUT_14305",
+    "OUT_14311",
+    "OUT_14347",
+    "OUT_14610",
+    "OUT_14686",
+    "OUT_14701",
+    "OUT_14708",
+    "OUT_14746",
+    "OUT_14771",
+    "OUT_14781",
+    "OUT_14813",
+    "OUT_14879",
+    "OUT_14930",
+    "OUT_15395",
+    "OUT_15602",
+    "OUT_15785",
+    "OUT_15969",
+    "OUT_16095",
+    "OUT_16096",
+    "OUT_16163",
+    "OUT_16248",
+    "OUT_16261",
+    "OUT_16346",
+    "OUT_16580"
+  ],
+  "n_outlets": 38,
+  "n_pois_returned": 6,
+  "scraped_at": "2026-05-16T22:16:26.035973",
+  "elements": [
+    {
+      "lat": 8.0510619,
+      "lon": 80.0970295,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0041055,
+      "lon": 80.1127196,
+      "tags": {
+        "amenity": "school",
+        "name": "Nawagaththegama Navodya School"
+      }
+    },
+    {
+      "lat": 7.9728592,
+      "lon": 80.109361,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 8.061325,
+      "lon": 80.0781226,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ralapanawa Sri Sambodhi Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0612998,
+      "lon": 80.0903196,
+      "tags": {
+        "amenity": "school",
+        "name": "Ralapanawa Vidyalaya"
+      }
+    },
+    {
+      "lat": 8.0038804,
+      "lon": 80.1126093,
+      "tags": {
+        "amenity": "school"
+      }
+    }
+  ]
+}

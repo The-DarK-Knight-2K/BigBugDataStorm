@@ -1,0 +1,125 @@
+{
+  "cluster_id": 40,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.773911,
+    "lat_max": 7.860818,
+    "lon_min": 79.902862,
+    "lon_max": 79.994947
+  },
+  "outlet_ids": [
+    "OUT_13064",
+    "OUT_13104",
+    "OUT_13166",
+    "OUT_13303",
+    "OUT_13313",
+    "OUT_13343",
+    "OUT_13358",
+    "OUT_13372",
+    "OUT_13453",
+    "OUT_13556",
+    "OUT_13588",
+    "OUT_13665",
+    "OUT_13699",
+    "OUT_14274",
+    "OUT_14564",
+    "OUT_14629",
+    "OUT_14710",
+    "OUT_14792",
+    "OUT_14819",
+    "OUT_14933",
+    "OUT_15034",
+    "OUT_15159",
+    "OUT_15433",
+    "OUT_15492",
+    "OUT_15740",
+    "OUT_15836",
+    "OUT_16079",
+    "OUT_16189",
+    "OUT_16234",
+    "OUT_16252",
+    "OUT_16265",
+    "OUT_16288",
+    "OUT_16441",
+    "OUT_16509",
+    "OUT_16546",
+    "OUT_16560",
+    "OUT_16621"
+  ],
+  "n_outlets": 37,
+  "n_pois_returned": 8,
+  "scraped_at": "2026-05-16T20:26:06.664339",
+  "elements": [
+    {
+      "lat": 7.8407194,
+      "lon": 79.9938759,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7791255,
+      "lon": 79.9478128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7790537,
+      "lon": 79.9494973,
+      "tags": {
+        "amenity": "school",
+        "name": "Andigama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.8415169,
+      "lon": 79.9386075,
+      "tags": {
+        "amenity": "school",
+        "name": "Walpaluwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.8377184,
+      "lon": 79.9397636,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Walpaluwa viharasthanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8488823,
+      "lon": 79.9033606,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahakubukkadawala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.8476893,
+      "lon": 79.9059194,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Mahakubukkadawala Hospitel"
+      }
+    },
+    {
+      "lat": 7.8197013,
+      "lon": 79.9132204,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Diparama temple",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

@@ -1,0 +1,2152 @@
+{
+  "cluster_id": 354,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.707416,
+    "lat_max": 6.781711,
+    "lon_min": 79.837037,
+    "lon_max": 79.924034
+  },
+  "outlet_ids": [
+    "OUT_00183",
+    "OUT_00287",
+    "OUT_00489",
+    "OUT_00784",
+    "OUT_00786",
+    "OUT_00821",
+    "OUT_01035",
+    "OUT_01171",
+    "OUT_01217",
+    "OUT_01232",
+    "OUT_01330",
+    "OUT_01632",
+    "OUT_01665",
+    "OUT_01728",
+    "OUT_01735",
+    "OUT_01768",
+    "OUT_01790",
+    "OUT_01847",
+    "OUT_01902",
+    "OUT_02062",
+    "OUT_02229",
+    "OUT_02332",
+    "OUT_02393",
+    "OUT_02662",
+    "OUT_02766",
+    "OUT_02937",
+    "OUT_03052",
+    "OUT_03055",
+    "OUT_03060",
+    "OUT_03426",
+    "OUT_03444",
+    "OUT_03455",
+    "OUT_03507",
+    "OUT_03579",
+    "OUT_03846",
+    "OUT_04024",
+    "OUT_04041",
+    "OUT_04122",
+    "OUT_04230",
+    "OUT_04374",
+    "OUT_04548",
+    "OUT_04642",
+    "OUT_04944",
+    "OUT_05031",
+    "OUT_05145",
+    "OUT_05310",
+    "OUT_05452",
+    "OUT_05490",
+    "OUT_05506",
+    "OUT_05787",
+    "OUT_05809",
+    "OUT_05926",
+    "OUT_06123",
+    "OUT_06188",
+    "OUT_06203",
+    "OUT_06246",
+    "OUT_06333",
+    "OUT_06397",
+    "OUT_06426",
+    "OUT_06477",
+    "OUT_06489",
+    "OUT_06494",
+    "OUT_06519",
+    "OUT_06534",
+    "OUT_06593",
+    "OUT_06683",
+    "OUT_06780",
+    "OUT_06874",
+    "OUT_06892",
+    "OUT_06899",
+    "OUT_06990",
+    "OUT_06995",
+    "OUT_07011",
+    "OUT_07063",
+    "OUT_07146",
+    "OUT_07318",
+    "OUT_07374",
+    "OUT_07431",
+    "OUT_08016",
+    "OUT_08128",
+    "OUT_08212",
+    "OUT_08318",
+    "OUT_08466",
+    "OUT_08607",
+    "OUT_08895"
+  ],
+  "n_outlets": 85,
+  "n_pois_returned": 203,
+  "scraped_at": "2026-05-16T22:13:08.018059",
+  "elements": [
+    {
+      "lat": 6.7636916,
+      "lon": 79.9096066,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Aqua Pearl Drive",
+        "name": "Aqua Pearl Lake Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7774418,
+      "lon": 79.9127379,
+      "tags": {
+        "addr:city": "Dampe",
+        "name": "St.Michelle Island Resort",
+        "operator": "Celinco",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7229739,
+      "lon": 79.9142091,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Johns College",
+        "wikidata": "Q7588659",
+        "wikipedia": "en:St. John's College, Panadura"
+      }
+    },
+    {
+      "lat": 6.7200733,
+      "lon": 79.9076091,
+      "tags": {
+        "bus": "yes",
+        "direction": "S",
+        "highway": "bus_stop",
+        "name": "Town Hall",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7261289,
+      "lon": 79.9055569,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 6.7246287,
+      "lon": 79.914715,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gangula Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7083614,
+      "lon": 79.9079462,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7133598,
+      "lon": 79.908312,
+      "tags": {
+        "amenity": "school",
+        "name": "Panadura Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7109205,
+      "lon": 79.9065934,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rankoth Vihara Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7257226,
+      "lon": 79.9049301,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Main Street",
+        "amenity": "school",
+        "name": "Lyceum International School"
+      }
+    },
+    {
+      "lat": 6.7791788,
+      "lon": 79.880428,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Joseph Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.713496,
+      "lon": 79.9023228,
+      "tags": {
+        "name": "Navro Beach Hotel",
+        "stars": "3",
+        "tourism": "hotel",
+        "website": "http://www.navrobeachhotel.com/"
+      }
+    },
+    {
+      "lat": 6.7716912,
+      "lon": 79.9161661,
+      "tags": {
+        "addr:city": "Dampe",
+        "name": "Dampe Village",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7775372,
+      "lon": 79.8820238,
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7786639,
+      "lon": 79.8824163,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Steam Boat"
+      }
+    },
+    {
+      "lat": 6.7658188,
+      "lon": 79.9217556,
+      "tags": {
+        "addr:city": "Madapatha",
+        "name": "Bolgoda Lake Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7656313,
+      "lon": 79.8872226,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Peter's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7671708,
+      "lon": 79.8858654,
+      "tags": {
+        "amenity": "school",
+        "name": "Janajaya Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.741579,
+      "lon": 79.8947381,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Sunandopananda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7727642,
+      "lon": 79.8811018,
+      "tags": {
+        "amenity": "school",
+        "name": "Our Lady of Victories Convent"
+      }
+    },
+    {
+      "lat": 6.7447861,
+      "lon": 79.8942553,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St.Mary's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7783575,
+      "lon": 79.8848622,
+      "tags": {
+        "amenity": "school",
+        "name": "Moratuwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7614549,
+      "lon": 79.9061214,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7657005,
+      "lon": 79.8966774,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Old Galle Road",
+        "name": "Bolgoda Park Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7680711,
+      "lon": 79.8956876,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Old Galle Road",
+        "amenity": "school",
+        "name": "Telecom Training Centre"
+      }
+    },
+    {
+      "lat": 6.741302,
+      "lon": 79.9048286,
+      "tags": {
+        "addr:city": "Pallimulla",
+        "addr:street": "Sri Niwasarama Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Niwasaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7322987,
+      "lon": 79.9098228,
+      "tags": {
+        "addr:city": "Walana",
+        "addr:street": "Bekkegama Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Siddhaththaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7097845,
+      "lon": 79.9191355,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Panadura-Rathnapura",
+        "amenity": "school",
+        "name": "Bauddhaloka College"
+      }
+    },
+    {
+      "lat": 6.7098926,
+      "lon": 79.9145618,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Panadura-Rathnapura",
+        "amenity": "school",
+        "name": "Sri Sumangala Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7109149,
+      "lon": 79.9075992,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7204088,
+      "lon": 79.9073267,
+      "tags": {
+        "bus": "yes",
+        "direction": "N",
+        "highway": "bus_stop",
+        "name": "Town Hall",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7118485,
+      "lon": 79.9076329,
+      "tags": {
+        "bus": "yes",
+        "direction": "S",
+        "highway": "bus_stop",
+        "name": "Express Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7103795,
+      "lon": 79.9074061,
+      "tags": {
+        "bus": "yes",
+        "direction": "N",
+        "highway": "bus_stop",
+        "name": "Express Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7180466,
+      "lon": 79.9082865,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Suwa Medura"
+      }
+    },
+    {
+      "lat": 6.7161337,
+      "lon": 79.9074559,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7132808,
+      "lon": 79.9072708,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.708683,
+      "lon": 79.9067317,
+      "tags": {
+        "amenity": "school",
+        "name": "Agamethi Balika Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7234723,
+      "lon": 79.9075757,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "Mother of Sorrows Church",
+        "note": "This church known locally as Walana Church (since it is situated in Walana) is the main church of the Parish of Panadura.",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7809097,
+      "lon": 79.8772359,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "LaaBeach Restaurant"
+      }
+    },
+    {
+      "lat": 6.778398,
+      "lon": 79.8782149,
+      "tags": {
+        "name": "Blue Horizone",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7791651,
+      "lon": 79.8779226,
+      "tags": {
+        "name": "Sanrich",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7782265,
+      "lon": 79.8826839,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Suduwella Methodhist Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7207505,
+      "lon": 79.9055719,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "addr:street": "Main Street",
+        "amenity": "place_of_worship",
+        "denomination": "anglican",
+        "name": "The Church of St. John the Evangelist",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7429318,
+      "lon": 79.8916572,
+      "tags": {
+        "name": "Egoda Uyana",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.7743504,
+      "lon": 79.8817806,
+      "tags": {
+        "name": "Moratuwa",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.7111418,
+      "lon": 79.9106933,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:housenumber": "76",
+        "addr:postcode": "12500",
+        "addr:street": "Panadura-Rathnapura",
+        "amenity": "hospital",
+        "ele": "7",
+        "emergency": "yes",
+        "facilities": "OPD, ETU, ICU, Theatre, Lab, Physiotherapy, Scan, X-Ray, Pahrmacy, Car Park",
+        "healthcare": "hospital",
+        "name": "Sachitra Hospital",
+        "note": "Experience the peace of mind that modern medical technology can provide with the therapeutic and loving care of our well qualified, experienced and dedicated Doctors and Nursing Staff.",
+        "phone": "+94382240425",
+        "website": "http://www.sachitrahospitals.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.7584506,
+      "lon": 79.8859478,
+      "tags": {
+        "name": "Koralawalla",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.7768999,
+      "lon": 79.9056724,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "name": "Lake Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.752501,
+      "lon": 79.8994105,
+      "tags": {
+        "addr:city": "Gorakana",
+        "addr:postcode": "12500",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Anne's Church",
+        "note": "This church known locally as Sarikkamulla Church (since it is situated in Sarikkamulla) belongs to the Parish of Panadura.",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7417869,
+      "lon": 79.9069717,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "name": "St. Joseph's Church",
+        "note": "This church known locally as Wattalpola Church (since it is situated in Wattalpola) belongs to the Parish of Panadura.",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7259248,
+      "lon": 79.9060859,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "addr:street": "Galle Road",
+        "name": "Keells Super",
+        "operator": "Keells",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7595068,
+      "lon": 79.9225428,
+      "tags": {
+        "addr:city": "Madapatha",
+        "name": "Ranmin",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7599611,
+      "lon": 79.9216946,
+      "tags": {
+        "addr:city": "Madapatha",
+        "name": "The Lake View",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7656291,
+      "lon": 79.9159941,
+      "tags": {
+        "addr:city": "Dampe",
+        "name": "Villa Sulanga",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7694747,
+      "lon": 79.9115779,
+      "tags": {
+        "addr:city": "Dampe",
+        "name": "Palm Jardin Lake Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7690389,
+      "lon": 79.9110258,
+      "tags": {
+        "addr:city": "Dampe",
+        "name": "Cinnamon Cove",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7677034,
+      "lon": 79.9133616,
+      "tags": {
+        "addr:city": "Dampe",
+        "name": "Santhusti Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7319454,
+      "lon": 79.910586,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Bekkegama Road",
+        "amenity": "school",
+        "name": "Lyceum International School Primary"
+      }
+    },
+    {
+      "lat": 6.7140633,
+      "lon": 79.9078154,
+      "tags": {
+        "name": "Cargils express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7226664,
+      "lon": 79.9074018,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Family Super"
+      }
+    },
+    {
+      "lat": 6.7785817,
+      "lon": 79.8827918,
+      "tags": {
+        "amenity": "school",
+        "name": "Weera Puran Appu Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7372011,
+      "lon": 79.8976467,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "anglican",
+        "name": "St. James' Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7075351,
+      "lon": 79.908164,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "addr:street": "Galle Road",
+        "name": "Arpico",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7278364,
+      "lon": 79.9006463,
+      "tags": {
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "place_of_worship",
+        "name": "Bodhirajaramaya"
+      }
+    },
+    {
+      "lat": 6.7307238,
+      "lon": 79.89935,
+      "tags": {
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "place_of_worship",
+        "name": "Vidarshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7299698,
+      "lon": 79.8995048,
+      "tags": {
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "school",
+        "name:en": "Egodauyana Junior School"
+      }
+    },
+    {
+      "lat": 6.7301133,
+      "lon": 79.8983047,
+      "tags": {
+        "addr:street": "Dinasiri Mawatha",
+        "amenity": "place_of_worship",
+        "name:en": "Jinendraramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7615017,
+      "lon": 79.9185425,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "name": "Santa Lucia Private Island on Bolgoda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7720382,
+      "lon": 79.8853742,
+      "tags": {
+        "name:en": "Frankfort House - Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7714712,
+      "lon": 79.8859907,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Wijaya Bodhirajaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.773178,
+      "lon": 79.8926056,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Nagahawaraya Road",
+        "amenity": "place_of_worship",
+        "name": "Purana Sangikaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7634618,
+      "lon": 79.8975836,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Old Galle Road",
+        "name": "Ramadia Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7710278,
+      "lon": 79.8924497,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "amenity": "place_of_worship",
+        "name": "Gangarama Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.764552,
+      "lon": 79.8965862,
+      "tags": {
+        "addr:city": "Horetuduwa",
+        "addr:street": "Old Galle Road",
+        "name": "Raashi Lake Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7586592,
+      "lon": 79.8981429,
+      "tags": {
+        "addr:city": "Gorakana",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "name": "St.Luke's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7421975,
+      "lon": 79.9006666,
+      "tags": {
+        "addr:city": "Pallimulla",
+        "addr:street": "Old Galle Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Walukaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7392908,
+      "lon": 79.9118262,
+      "tags": {
+        "addr:city": "Pallimulla",
+        "addr:street": "Wijaya Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Wijayarama temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7279846,
+      "lon": 79.9030856,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Mahanama Road",
+        "amenity": "school",
+        "name": "Mahanama Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7285036,
+      "lon": 79.9080688,
+      "tags": {
+        "addr:city": "Walana",
+        "addr:street": "Podujana Mawatha",
+        "amenity": "place_of_worship",
+        "name": "Saranapala Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7283995,
+      "lon": 79.9207396,
+      "tags": {
+        "addr:city": "Hirana",
+        "addr:street": "Hirana Road",
+        "amenity": "place_of_worship",
+        "name": "Indraramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7090463,
+      "lon": 79.9034238,
+      "tags": {
+        "addr:housenumber": "24/10",
+        "addr:street": "Sri Gunananda Road",
+        "email": "milanfernando@hotmail.com",
+        "internet_access": "wlan",
+        "name": "Milan Beach Villa",
+        "name:en": "Milan Beach Villa",
+        "name:ru": "\u0412\u0438\u043b\u043b\u0430 \u041c\u0438\u043b\u0430\u043d\u0430 \u043d\u0430 \u0431\u0435\u0440\u0435\u0433\u0443",
+        "opening_hours": "24/7",
+        "operator": "Milan Fernando",
+        "phone": "+94776559591",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7122496,
+      "lon": 79.9073495,
+      "tags": {
+        "addr:housenumber": "27",
+        "addr:street": "7th Cross Street",
+        "amenity": "restaurant",
+        "name:en": "Shanghai family restaurant",
+        "name:ru": "\u0421\u0435\u043c\u0435\u0439\u043d\u044b\u0439 \u0440\u0435\u0441\u0442\u043e\u0440\u0430\u043d \u0428\u0430\u043d\u0445\u0430\u0439",
+        "phone": "0382235555"
+      }
+    },
+    {
+      "lat": 6.7092358,
+      "lon": 79.9032391,
+      "tags": {
+        "addr:housenumber": "24/10",
+        "addr:postcode": "12500",
+        "addr:street": "Sri Gunananda Road",
+        "email": "milanfernando@hotmail.com",
+        "internet_access": "wlan",
+        "name:en": "Milan Beach Villa",
+        "name:ru": "Milan Beach Villa",
+        "opening_hours": "24/7",
+        "operator": "Milan Fernando",
+        "phone": "+94776559591",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7409611,
+      "lon": 79.8954432,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7189889,
+      "lon": 79.9075492,
+      "tags": {
+        "addr:street": "Galle Road",
+        "name": "Sathosa",
+        "opening_hours": "Mo-Fr 09:00-19:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7197136,
+      "lon": 79.9076574,
+      "tags": {
+        "addr:street": "Galle Road",
+        "name": "Cargilles FoodCity",
+        "opening_hours": "Mo-Su 09:00-21:30",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7095453,
+      "lon": 79.9176332,
+      "tags": {
+        "amenity": "school",
+        "name:en": "The Institute of Business, Engineering and Technology (PVT) LTD",
+        "website": "https://www.tibetedu.lk/"
+      }
+    },
+    {
+      "lat": 6.713999,
+      "lon": 79.9072759,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Salgadu Bakers"
+      }
+    },
+    {
+      "lat": 6.7509179,
+      "lon": 79.9048131,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "gcjhdgh",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.759687,
+      "lon": 79.8984971,
+      "tags": {
+        "name": "Asiri Hotel and Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7590178,
+      "lon": 79.899799,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Dharmarakshitharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7575618,
+      "lon": 79.8985741,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Chef Don"
+      }
+    },
+    {
+      "lat": 6.7630861,
+      "lon": 79.9075158,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Las Brisas Lake Resort"
+      }
+    },
+    {
+      "lat": 6.7634611,
+      "lon": 79.9111497,
+      "tags": {
+        "name": "Mcs Villa In Bolgoda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7629817,
+      "lon": 79.9114984,
+      "tags": {
+        "name": "Villa Lake",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7601816,
+      "lon": 79.9145727,
+      "tags": {
+        "name": "The Cabin, Lake Bolgoda",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7554862,
+      "lon": 79.9005964,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nandana Pirivena (Temple)",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7565937,
+      "lon": 79.9021862,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nakshabandiya Jummah Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.7555473,
+      "lon": 79.9028117,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Waves Cafe"
+      }
+    },
+    {
+      "lat": 6.7571213,
+      "lon": 79.9101886,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Chiththa Meditation Temple Dolewatta",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7564408,
+      "lon": 79.9165596,
+      "tags": {
+        "name": "Tranquil Villa",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7551198,
+      "lon": 79.9122832,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Bodhi Chethiyarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7538747,
+      "lon": 79.9167243,
+      "tags": {
+        "name": "Imma Lake Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7545378,
+      "lon": 79.8994019,
+      "tags": {
+        "amenity": "school",
+        "name": "Ikra International College",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7558243,
+      "lon": 79.9050141,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Subadrarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7533034,
+      "lon": 79.8997015,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "\u0dc3\u0dd2\u0dad\u0dd4\u0db8\u0dca \u0dc4\u0ddc\u0da7\u0dd9\u0dbd\u0dca"
+      }
+    },
+    {
+      "lat": 6.7531762,
+      "lon": 79.8999575,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Charith's"
+      }
+    },
+    {
+      "lat": 6.7526188,
+      "lon": 79.9007978,
+      "tags": {
+        "amenity": "school",
+        "name": "Mount Hira International School",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7528422,
+      "lon": 79.9027427,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Thaksala Maha Vidyalaya",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7526434,
+      "lon": 79.90552,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Naleemiya Jumma Masjid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.7524676,
+      "lon": 79.8988037,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St Anne's Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7508517,
+      "lon": 79.897716,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Gangathilaka Pirivana, Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7530969,
+      "lon": 79.906119,
+      "tags": {
+        "amenity": "school",
+        "name": "Sri Jina Darmadana Vidyalaya",
+        "operator": "dilshan"
+      }
+    },
+    {
+      "lat": 6.7514696,
+      "lon": 79.906795,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Purwarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7496058,
+      "lon": 79.9121883,
+      "tags": {
+        "name": "Innisfree Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7502995,
+      "lon": 79.9002501,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Keselwattha Bus Stop",
+        "operator": "dilshan",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7498779,
+      "lon": 79.8987903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dheeniya masjid \u0645\u0633\u062c\u062f",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.7499765,
+      "lon": 79.9002682,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Old Galle Road",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "operator": "dilshan",
+        "operator:wikidata": "Q5039260",
+        "operator:wikipedia": "en:Cargills (Ceylon)",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7186545,
+      "lon": 79.9052713,
+      "tags": {
+        "addr:housenumber": "118/B",
+        "addr:street": "Main Street",
+        "amenity": "restaurant",
+        "contact:facebook": "https://www.facebook.com/kalunikasl/",
+        "name": "Kalunika"
+      }
+    },
+    {
+      "lat": 6.7775175,
+      "lon": 79.8822431,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "name": "Moratuwa Express Bus Stand",
+        "public_transport": "platform",
+        "ref": "229",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7505407,
+      "lon": 79.8934152,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Randiya hotel"
+      }
+    },
+    {
+      "lat": 6.7360729,
+      "lon": 79.9013955,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Old Galle Road",
+        "amenity": "restaurant",
+        "name": "Aknara hotel"
+      }
+    },
+    {
+      "lat": 6.7689198,
+      "lon": 79.8869864,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:street": "Francisco Place",
+        "amenity": "restaurant",
+        "name": "Grand bolgoda"
+      }
+    },
+    {
+      "lat": 6.7765408,
+      "lon": 79.8797432,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Puranappu Raja Mawatha",
+        "amenity": "restaurant",
+        "name": "OYO 282"
+      }
+    },
+    {
+      "lat": 6.7319432,
+      "lon": 79.8958746,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Galle Road New Deviation",
+        "amenity": "restaurant",
+        "name": "Oruwa Restaurant"
+      }
+    },
+    {
+      "lat": 6.7603153,
+      "lon": 79.889906,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Cuppies"
+      }
+    },
+    {
+      "lat": 6.7638887,
+      "lon": 79.8877425,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Thambuttegama wade kade"
+      }
+    },
+    {
+      "lat": 6.7560593,
+      "lon": 79.8913115,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "Egoda Uyana Road",
+        "amenity": "restaurant",
+        "name": "Bolgoda queens villa"
+      }
+    },
+    {
+      "lat": 6.731526,
+      "lon": 79.9043224,
+      "tags": {
+        "addr:city": "Walana",
+        "addr:street": "Old Galle Road",
+        "amenity": "restaurant",
+        "name": "River Side Inn"
+      }
+    },
+    {
+      "lat": 6.7115857,
+      "lon": 79.9073868,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7757513,
+      "lon": 79.8822924,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:signed": "no",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7489075,
+      "lon": 79.900812,
+      "tags": {
+        "name": "Public Market Building",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.708673,
+      "lon": 79.92261,
+      "tags": {
+        "addr:street": "Horana Road",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology",
+        "name": "De Soysa Center",
+        "operator": "Dr. Soysa Silva"
+      }
+    },
+    {
+      "lat": 6.7546797,
+      "lon": 79.8992517,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paratta junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7556663,
+      "lon": 79.8989303,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Paratta junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7580877,
+      "lon": 79.8984904,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gorakana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7584955,
+      "lon": 79.8982382,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gorakana",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7684884,
+      "lon": 79.8927408,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "bus stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7804359,
+      "lon": 79.8832732,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kurusa Junction Bus Stop",
+        "name:en": "Kurusa Junction Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7770654,
+      "lon": 79.8832625,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa clock tower(to Panadura)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7778201,
+      "lon": 79.8830995,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa clock tower(to Colombo)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.775352,
+      "lon": 79.884098,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Pilawoos Hotel",
+        "phone": "0776611788",
+        "website": "https://pillawooshotel.business.site/"
+      }
+    },
+    {
+      "lat": 6.7722459,
+      "lon": 79.8851358,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa police(to Panadura)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7753741,
+      "lon": 79.8838061,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7248974,
+      "lon": 79.906655,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Mahanama Road",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7732916,
+      "lon": 79.8846274,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa police(to Colombo)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7744613,
+      "lon": 79.884209,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Moratuwa(to Panadura)",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7787333,
+      "lon": 79.8824868,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Moratuwa Cross Junction Halt",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7141921,
+      "lon": 79.9081688,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "City lab"
+      }
+    },
+    {
+      "lat": 6.7168061,
+      "lon": 79.9077793,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Lush burger"
+      }
+    },
+    {
+      "lat": 6.7140293,
+      "lon": 79.9065805,
+      "tags": {
+        "amenity": "restaurant",
+        "diet:vegetarian": "yes",
+        "name": "Ravira Cafe"
+      }
+    },
+    {
+      "lat": 6.7140836,
+      "lon": 79.9068544,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "indian",
+        "name": "Sri Gayathri Cafe"
+      }
+    },
+    {
+      "lat": 6.7143935,
+      "lon": 79.9087457,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dr. Wijesoma De Sliva Memorial Clinic"
+      }
+    },
+    {
+      "lat": 6.7124749,
+      "lon": 79.908548,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "Shanghai Chinese Restaurant"
+      }
+    },
+    {
+      "lat": 6.7782823,
+      "lon": 79.9032375,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudarmarathnaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7149193,
+      "lon": 79.9049569,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Panadura Market"
+      }
+    },
+    {
+      "lat": 6.712408,
+      "lon": 79.9045767,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "building": "train_station",
+        "building:levels": "1",
+        "image": "https://photos.app.goo.gl/AEXU7JFJfVbv8tEq8",
+        "name": "Panadura",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.7115338,
+      "lon": 79.9028169,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:housenumber": "40",
+        "addr:postcode": "12500",
+        "addr:street": "Beach Road",
+        "amenity": "restaurant",
+        "building": "yes",
+        "cuisine": "regional",
+        "delivery": "no",
+        "name": "Street Food Outlets",
+        "opening_hours": "15:00-21:00",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.7117075,
+      "lon": 79.9029762,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Kinro Food Corner"
+      }
+    },
+    {
+      "lat": 6.7085631,
+      "lon": 79.9078229,
+      "tags": {
+        "building": "yes",
+        "name": "Cargils Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7208563,
+      "lon": 79.9076555,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "addr:street": "Galle Road",
+        "building": "yes",
+        "name": "Coap City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7115426,
+      "lon": 79.9061866,
+      "tags": {
+        "addr:city": "Panadura",
+        "addr:postcode": "12500",
+        "addr:street": "Main Street",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Rankoth Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7323283,
+      "lon": 79.9095894,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.775857,
+      "lon": 79.9228657,
+      "tags": {
+        "addr:city": "Piliyandala",
+        "addr:street": "Kotagedara Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "Our Lady of Lourdes Church",
+        "religion": "christian",
+        "service_times": "Sunday 9.00am to 10.00am & Wendsday 5.00pm to 6.00pm"
+      }
+    },
+    {
+      "lat": 6.774025,
+      "lon": 79.8831842,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "catholic",
+        "name": "St. Sebastian Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7217149,
+      "lon": 79.9067953,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Panadura Hospital"
+      }
+    },
+    {
+      "lat": 6.7428221,
+      "lon": 79.9115747,
+      "tags": {
+        "addr:city": "Thotawatta",
+        "addr:postcode": "12500",
+        "addr:street": "Main Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology;paediatrics",
+        "name": "Thotawatta Women and Child Clinic",
+        "opening_hours": "Mo-Fr 08:00-16:00",
+        "operator": "Government",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 6.7432109,
+      "lon": 79.9119836,
+      "tags": {
+        "addr:city": "Thotawatta, Panadura",
+        "addr:postcode": "12500",
+        "addr:street": "main Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Medi1st",
+        "operator": "Dr.Ismail"
+      }
+    },
+    {
+      "lat": 6.7419131,
+      "lon": 79.9087687,
+      "tags": {
+        "addr:city": "Werawatta",
+        "addr:postcode": "12500",
+        "addr:street": "Main Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Kiddies Medical Center",
+        "opening_hours": "Mo-Sa 06:00-22:30",
+        "operator": "Dr. Hemantha",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.7431816,
+      "lon": 79.9061336,
+      "tags": {
+        "addr:city": "Wattalpola",
+        "addr:street": "Scheem Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "gynaecology",
+        "name": "W care 1st",
+        "opening_hours": "Mo-Su 07:00-09:00, 18:00-22:00",
+        "operator": "Dr. N.P Naslima",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.7489362,
+      "lon": 79.907566,
+      "tags": {
+        "addr:city": "Wattalpola",
+        "addr:street": "Gimpotha",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Venus Clinic",
+        "opening_hours": "24/7",
+        "operator": "Dr. Ruwan Fermando",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.7527369,
+      "lon": 79.9116418,
+      "tags": {
+        "addr:city": "Keselwatta",
+        "addr:street": "Diggala Road",
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "ophthalmology",
+        "name": "Keselwatta Medical Center",
+        "operator": "Dr. Channa",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.7524254,
+      "lon": 79.9060625,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Keselwatta Ayurweda Center",
+        "operator": "Dr. K.Riyas",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.7490545,
+      "lon": 79.8994772,
+      "tags": {
+        "addr:city": "Old Galle Road",
+        "addr:street": "School Lane",
+        "amenity": "school",
+        "name": "WP/KL/ Jeelan National College"
+      }
+    },
+    {
+      "lat": 6.7487872,
+      "lon": 79.900967,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "dentistry",
+        "name": "Keselwatta Dental Clinic"
+      }
+    },
+    {
+      "lat": 6.7476123,
+      "lon": 79.9008526,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general",
+        "name": "Safety Firts",
+        "operator": "Dr, Imthiyas",
+        "operator:type": "private"
+      }
+    },
+    {
+      "lat": 6.7247426,
+      "lon": 79.9061827,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Panadura MOH",
+        "operator": "Ministry of Health, Nutrition and Indigenous Medicine",
+        "operator:wikidata": "Q16147207",
+        "operator:wikipedia": "en:Ministry of Health, Nutrition and Indigenous Medicine"
+      }
+    },
+    {
+      "lat": 6.721496,
+      "lon": 79.9061064,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Jhons College"
+      }
+    },
+    {
+      "lat": 6.7259033,
+      "lon": 79.9077631,
+      "tags": {
+        "amenity": "school",
+        "name": "Mahanama Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.7243203,
+      "lon": 79.907298,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "Panadura MOH",
+        "operator": "Ministry of Health, Nutrition and Indigenous Medicine",
+        "operator:wikidata": "Q16147207",
+        "operator:wikipedia": "en:Ministry of Health, Nutrition and Indigenous Medicine"
+      }
+    },
+    {
+      "lat": 6.7244674,
+      "lon": 79.9077227,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "healthcare:speciality": "paediatrics;gynaecology",
+        "name": "Panadura Clinic Center",
+        "operator": "MOH Panadura",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 6.7450428,
+      "lon": 79.9136125,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:levels": "2",
+        "name": "Asjidul Ibraheem Zaviya",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.716783,
+      "lon": 79.9043989,
+      "tags": {
+        "building": "yes",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7133266,
+      "lon": 79.9015797,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "name": "Navro Seafood"
+      }
+    },
+    {
+      "lat": 6.7084626,
+      "lon": 79.9039268,
+      "tags": {
+        "building": "yes",
+        "name": "Kurumba Beach Private Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7109145,
+      "lon": 79.9040191,
+      "tags": {
+        "building": "yes",
+        "name": "Jvin Beach Hotel Panadura",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7147455,
+      "lon": 79.9108526,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Galgoda BUddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7155055,
+      "lon": 79.9041763,
+      "tags": {
+        "building": "yes",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7166681,
+      "lon": 79.9083992,
+      "tags": {
+        "building": "yes",
+        "name": "Avana resort Panadura",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.71586,
+      "lon": 79.9074492,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "building": "yes",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.7159968,
+      "lon": 79.9073729,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Sree Sudharshan Caffe"
+      }
+    },
+    {
+      "lat": 6.7141544,
+      "lon": 79.9087695,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Janapriya Medical Centre"
+      }
+    },
+    {
+      "lat": 6.7149536,
+      "lon": 79.9093784,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Medihelp- Panadura"
+      }
+    },
+    {
+      "lat": 6.7182567,
+      "lon": 79.9099737,
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name": "Ayurvedic Orthopaedic Medical Centre - Dr. Rukshan"
+      }
+    },
+    {
+      "lat": 6.7278048,
+      "lon": 79.9037277,
+      "tags": {
+        "building": "yes",
+        "name": "River Reach",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7266832,
+      "lon": 79.9038417,
+      "tags": {
+        "building": "yes",
+        "name": "Hotel Gangara",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.7284993,
+      "lon": 79.9081336,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7415914,
+      "lon": 79.9069741,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7417736,
+      "lon": 79.9070289,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7343427,
+      "lon": 79.9240279,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7591421,
+      "lon": 79.9098882,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Bodhiraja Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7407344,
+      "lon": 79.9164493,
+      "tags": {
+        "amenity": "school",
+        "name": "WP/KL/ Ilma Maha vidyalaya School Ground"
+      }
+    },
+    {
+      "lat": 6.7495703,
+      "lon": 79.9009201,
+      "tags": {
+        "building": "yes",
+        "name": "Arafath Hotel",
+        "tourism": "hotel"
+      }
+    }
+  ]
+}

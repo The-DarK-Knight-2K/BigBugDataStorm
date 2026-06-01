@@ -1,0 +1,65 @@
+{
+  "cluster_id": 111,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.447704,
+    "lat_max": 7.517569,
+    "lon_min": 80.71086,
+    "lon_max": 80.812383
+  },
+  "outlet_ids": [
+    "OUT_09144",
+    "OUT_09165",
+    "OUT_09330",
+    "OUT_09372",
+    "OUT_09464",
+    "OUT_09487",
+    "OUT_09489",
+    "OUT_10354",
+    "OUT_10398",
+    "OUT_10457",
+    "OUT_10611",
+    "OUT_10643",
+    "OUT_10674",
+    "OUT_10717",
+    "OUT_10742",
+    "OUT_10951",
+    "OUT_11210",
+    "OUT_11211",
+    "OUT_11228",
+    "OUT_11386",
+    "OUT_11526",
+    "OUT_11635",
+    "OUT_11750",
+    "OUT_11882",
+    "OUT_11954",
+    "OUT_12026",
+    "OUT_12102",
+    "OUT_12274",
+    "OUT_12279",
+    "OUT_12467",
+    "OUT_12503",
+    "OUT_12583",
+    "OUT_12730",
+    "OUT_12766",
+    "OUT_12794",
+    "OUT_12796",
+    "OUT_12870"
+  ],
+  "n_outlets": 37,
+  "n_pois_returned": 1,
+  "scraped_at": "2026-05-16T20:37:19.830207",
+  "elements": [
+    {
+      "lat": 7.5142256,
+      "lon": 80.7567628,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

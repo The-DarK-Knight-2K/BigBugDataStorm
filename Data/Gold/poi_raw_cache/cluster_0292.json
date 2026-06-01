@@ -1,0 +1,704 @@
+{
+  "cluster_id": 292,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.75762,
+    "lat_max": 6.8342529999999995,
+    "lon_min": 79.809999,
+    "lon_max": 79.87785
+  },
+  "outlet_ids": [
+    "OUT_00003",
+    "OUT_00027",
+    "OUT_00038",
+    "OUT_00064",
+    "OUT_00174",
+    "OUT_00379",
+    "OUT_00428",
+    "OUT_00622",
+    "OUT_00642",
+    "OUT_00714",
+    "OUT_00715",
+    "OUT_00848",
+    "OUT_00980",
+    "OUT_01118",
+    "OUT_01138",
+    "OUT_01247",
+    "OUT_01353",
+    "OUT_01585",
+    "OUT_01602",
+    "OUT_01744",
+    "OUT_01799",
+    "OUT_01814",
+    "OUT_02041",
+    "OUT_02090",
+    "OUT_02435",
+    "OUT_02552",
+    "OUT_02622",
+    "OUT_02669",
+    "OUT_02735",
+    "OUT_02796",
+    "OUT_02965",
+    "OUT_03562",
+    "OUT_03663",
+    "OUT_03847",
+    "OUT_03890",
+    "OUT_04000",
+    "OUT_04250",
+    "OUT_04407",
+    "OUT_05040",
+    "OUT_05569",
+    "OUT_05598",
+    "OUT_05732",
+    "OUT_05742",
+    "OUT_05825",
+    "OUT_06114",
+    "OUT_06272",
+    "OUT_06354",
+    "OUT_07023",
+    "OUT_07059",
+    "OUT_07193",
+    "OUT_07273",
+    "OUT_07324",
+    "OUT_07384",
+    "OUT_07803",
+    "OUT_08042",
+    "OUT_08130",
+    "OUT_08192",
+    "OUT_08298",
+    "OUT_08324",
+    "OUT_08345",
+    "OUT_08363",
+    "OUT_08731",
+    "OUT_08772"
+  ],
+  "n_outlets": 63,
+  "n_pois_returned": 58,
+  "scraped_at": "2026-05-16T22:07:21.330641",
+  "elements": [
+    {
+      "lat": 6.8329646,
+      "lon": 79.8671266,
+      "tags": {
+        "branch": "Mount Lavinia ",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8311854,
+      "lon": 79.8773217,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Siddhalepa"
+      }
+    },
+    {
+      "lat": 6.8318632,
+      "lon": 79.8673272,
+      "tags": {
+        "name": "Keells Super, Mount Lavinia.",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8335379,
+      "lon": 79.8672498,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia",
+        "public_transport": "platform",
+        "shelter": "yes",
+        "tactile_paving": "yes"
+      }
+    },
+    {
+      "lat": 6.831599,
+      "lon": 79.8708579,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugatha Dharmayathanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7840477,
+      "lon": 79.8776831,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "De Soysa Hospital"
+      }
+    },
+    {
+      "lat": 6.8143086,
+      "lon": 79.8738873,
+      "tags": {
+        "amenity": "school",
+        "name": "Kothalawalapura Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8143601,
+      "lon": 79.8774709,
+      "tags": {
+        "amenity": "school",
+        "name": "Lalith Athulathmudali Vocational Training Centre",
+        "operator": "Asanka"
+      }
+    },
+    {
+      "lat": 6.8279341,
+      "lon": 79.8746799,
+      "tags": {
+        "addr:city": "colombo",
+        "addr:street": "Pirivena Road",
+        "amenity": "place_of_worship",
+        "denomination": "theravada",
+        "name": "Parama Dhamma Chethiya Pirivena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8295398,
+      "lon": 79.8682418,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Templers Road",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.8277078,
+      "lon": 79.8690532,
+      "tags": {
+        "branch": "Rathmalana ",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8317211,
+      "lon": 79.8682352,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thapodhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8295595,
+      "lon": 79.8717788,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "amenity": "school",
+        "name": "Lalith Athulathmudali College"
+      }
+    },
+    {
+      "lat": 6.821556,
+      "lon": 79.8696862,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8327725,
+      "lon": 79.8671666,
+      "tags": {
+        "name": "Food city express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7809097,
+      "lon": 79.8772359,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "chinese",
+        "name": "LaaBeach Restaurant"
+      }
+    },
+    {
+      "lat": 6.8334725,
+      "lon": 79.8625626,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Relaxn On Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.833533,
+      "lon": 79.8644815,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Mount Lodge",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8328468,
+      "lon": 79.8645018,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Lavinia House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8322887,
+      "lon": 79.864946,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Prestige Court Residence Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8312443,
+      "lon": 79.8632456,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "name": "Hotel Sunhill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8300254,
+      "lon": 79.8626033,
+      "tags": {
+        "addr:street": "Samudrasanna Road",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name:en": "Mount Casadi",
+        "name:nl": "Mount Casadi"
+      }
+    },
+    {
+      "lat": 6.8194372,
+      "lon": 79.8739314,
+      "tags": {
+        "name:en": "Keels Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7988303,
+      "lon": 79.8727054,
+      "tags": {
+        "name": "Angulana",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.786652,
+      "lon": 79.8755526,
+      "tags": {
+        "name": "Lunawa",
+        "network": "Coastal Line",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.8333578,
+      "lon": 79.8629655,
+      "tags": {
+        "name:en": "Mini supermarket and Gem Store",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.817339,
+      "lon": 79.8750765,
+      "tags": {
+        "bus": "yes",
+        "departures_board": "no",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8225851,
+      "lon": 79.8712851,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8194095,
+      "lon": 79.8735358,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8254423,
+      "lon": 79.8697525,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "kerb": "no",
+        "lit": "no",
+        "name": "Mount Lavinia Police Station halt",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "ref": "246",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.8331765,
+      "lon": 79.8673693,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia Junction",
+        "public_transport": "platform",
+        "ref": "248",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8226593,
+      "lon": 79.8714131,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8225983,
+      "lon": 79.8713361,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dharmarama Temple Road halt",
+        "public_transport": "platform",
+        "ref": "245",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8194686,
+      "lon": 79.873627,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Maliban Junction",
+        "public_transport": "platform",
+        "ref": "244",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8173828,
+      "lon": 79.8751325,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "vijitha film hall halt",
+        "public_transport": "platform",
+        "ref": "243",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.7836657,
+      "lon": 79.8775068,
+      "tags": {
+        "addr:city": "Moratuwa",
+        "addr:street": "lunawa road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Lunawa hospital"
+      }
+    },
+    {
+      "lat": 6.8303971,
+      "lon": 79.8656752,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Samudrasanna Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Maharhishi Ayurveda Hospital"
+      }
+    },
+    {
+      "lat": 6.8294278,
+      "lon": 79.8680707,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:housenumber": "108",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "branch": "Mount Lavinia",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "check_date": "2023-04-27",
+        "cuisine": "pizza",
+        "name": "Pizza Hut",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "takeaway": "yes",
+        "website": "https://pizzahut.lk/"
+      }
+    },
+    {
+      "lat": 6.8311823,
+      "lon": 79.8678775,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:housenumber": "25",
+        "addr:street": "Galle Road",
+        "amenity": "restaurant",
+        "branch": "Mount Lavinia",
+        "brand": "Elite Indian Restaurant",
+        "cuisine": "indian",
+        "name": "Elite Indian Restaurant",
+        "opening_hours": "Mo-Su 10:30-23:00"
+      }
+    },
+    {
+      "lat": 6.8226232,
+      "lon": 79.871402,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dharmarama Temple Road halt",
+        "public_transport": "platform",
+        "ref": "245",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8254677,
+      "lon": 79.8698326,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia Police Station halt",
+        "public_transport": "platform",
+        "ref": "246",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8331777,
+      "lon": 79.8673081,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mount Lavinia Junction",
+        "public_transport": "platform",
+        "ref": "248",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8276844,
+      "lon": 79.8688536,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "kerb": "no",
+        "lit": "no",
+        "name": "Cargills Food City Ratmalana",
+        "passenger_information_display": "no",
+        "public_transport": "platform",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.8308008,
+      "lon": 79.8676676,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8210621,
+      "lon": 79.8722983,
+      "tags": {
+        "name": "belta",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8093303,
+      "lon": 79.8743393,
+      "tags": {
+        "amenity": "marketplace",
+        "name": "Economic Centre Ratmalana",
+        "shop": "greengrocer"
+      }
+    },
+    {
+      "lat": 6.8334169,
+      "lon": 79.8618975,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:housenumber": "100",
+        "addr:street": "Hotel Road",
+        "building": "yes",
+        "internet_access": "yes",
+        "is_in": "Mount Lavinia, Colombo, Western Province, Sri Lanka",
+        "name": "Mount Lavinia Hotel",
+        "phone": "+94 11 2711711",
+        "smoking": "separated",
+        "stars": "5",
+        "toilets:wheelchair": "yes",
+        "tourism": "hotel",
+        "website": "https://www.mountlaviniahotel.com/",
+        "wheelchair": "limited",
+        "wikipedia": "si:\u0d9c\u0dbd\u0dca\u0d9a\u0dd2\u0dc3\u0dca\u0dc3 \u0db8\u0dc4 \u0dc4\u0ddd\u0da7\u0dbd\u0dba"
+      }
+    },
+    {
+      "lat": 6.8152409,
+      "lon": 79.8667473,
+      "tags": {
+        "building": "yes",
+        "name": "Ratmalana",
+        "name:si": "\u0dbb\u0dad\u0dca\u0db8\u0dbd\u0dcf\u0db1",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.8279011,
+      "lon": 79.8748314,
+      "tags": {
+        "addr:city": "colombo",
+        "addr:street": "Pirivena Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Paramadamma Chethiya Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8281575,
+      "lon": 79.875026,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Stupa",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8331602,
+      "lon": 79.8668986,
+      "tags": {
+        "name": "Anarva Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8328426,
+      "lon": 79.8668727,
+      "tags": {
+        "amenity": "marketplace",
+        "building": "yes",
+        "name": "Mt Lavenia Public Market"
+      }
+    },
+    {
+      "lat": 6.8322327,
+      "lon": 79.8656927,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8323323,
+      "lon": 79.8656821,
+      "tags": {
+        "amenity": "school",
+        "building": "yes",
+        "tourism": "guest_house"
+      }
+    },
+    {
+      "lat": 6.8301351,
+      "lon": 79.8764537,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "amenity": "school",
+        "name": "Science College"
+      }
+    },
+    {
+      "lat": 6.8264181,
+      "lon": 79.8672328,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Vimalaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8140436,
+      "lon": 79.8777426,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Central Dispensary Ratmalana"
+      }
+    },
+    {
+      "lat": 6.8317253,
+      "lon": 79.8627768,
+      "tags": {
+        "addr:city": "Mount Lavinia",
+        "addr:street": "Station Road",
+        "building": "train_station",
+        "name": "Mount Lavinia",
+        "network": "Sri Lanka Railways",
+        "operator": "asanka",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "type": "multipolygon"
+      }
+    }
+  ]
+}

@@ -1,0 +1,812 @@
+{
+  "cluster_id": 316,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.030338,
+    "lat_max": 7.122891,
+    "lon_min": 80.544536,
+    "lon_max": 80.638762
+  },
+  "outlet_ids": [
+    "OUT_09074",
+    "OUT_09242",
+    "OUT_09318",
+    "OUT_09443",
+    "OUT_09504",
+    "OUT_09555",
+    "OUT_09651",
+    "OUT_09807",
+    "OUT_09855",
+    "OUT_10134",
+    "OUT_10196",
+    "OUT_10215",
+    "OUT_10273",
+    "OUT_10423",
+    "OUT_10673",
+    "OUT_10831",
+    "OUT_11168",
+    "OUT_11202",
+    "OUT_11493",
+    "OUT_11528",
+    "OUT_11554",
+    "OUT_11597",
+    "OUT_11787",
+    "OUT_11814",
+    "OUT_11986",
+    "OUT_12035",
+    "OUT_12091",
+    "OUT_12217",
+    "OUT_12291",
+    "OUT_12409",
+    "OUT_12558",
+    "OUT_12564",
+    "OUT_12585",
+    "OUT_12604",
+    "OUT_12605",
+    "OUT_12634",
+    "OUT_12681",
+    "OUT_12831",
+    "OUT_12833",
+    "OUT_12876",
+    "OUT_12929"
+  ],
+  "n_outlets": 41,
+  "n_pois_returned": 82,
+  "scraped_at": "2026-05-16T22:10:21.602435",
+  "elements": [
+    {
+      "lat": 7.1082827,
+      "lon": 80.5597211,
+      "tags": {
+        "name": "Ulapane",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.1061708,
+      "lon": 80.564435,
+      "tags": {
+        "addr:city": "Ulapane",
+        "addr:street": "Gampola-Nawalapitiya Road",
+        "amenity": "hospital",
+        "name": "Rural Hospital"
+      }
+    },
+    {
+      "lat": 7.1054427,
+      "lon": 80.5605037,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1042469,
+      "lon": 80.5586134,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0988057,
+      "lon": 80.5581376,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.105041,
+      "lon": 80.5604946,
+      "tags": {
+        "addr:city": "Ulapane",
+        "addr:street": "Gampola-Nawalapitiya Road",
+        "amenity": "school",
+        "name": "Iqra Muslim Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0696004,
+      "lon": 80.6044187,
+      "tags": {
+        "addr:city": "Kothmale",
+        "amenity": "place_of_worship",
+        "name": "Mahaweli Maha Seya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0838913,
+      "lon": 80.5758046,
+      "tags": {
+        "addr:city": "Kothmale",
+        "name": "Kothmale Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0563069,
+      "lon": 80.5705529,
+      "tags": {
+        "addr:city": "Hapugastalawa, Srilanka",
+        "addr:street": "Hurihela Road",
+        "amenity": "school",
+        "name": "Al Minhaj National School",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0518012,
+      "lon": 80.5919958,
+      "tags": {
+        "amenity": "school",
+        "name": "Harangala Primary School"
+      }
+    },
+    {
+      "lat": 7.0755201,
+      "lon": 80.5777274,
+      "tags": {
+        "addr:city": "Gampola Through",
+        "addr:hamlet": "Nugawela",
+        "amenity": "restaurant",
+        "cuisine": "asian",
+        "name": "Dimuthu Hotel"
+      }
+    },
+    {
+      "lat": 7.0662244,
+      "lon": 80.5535737,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gorokoya",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 7.0827416,
+      "lon": 80.5478747,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Tilton",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0838877,
+      "lon": 80.550789,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pallegama",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0860214,
+      "lon": 80.5535593,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pallegama Temple"
+      }
+    },
+    {
+      "lat": 7.1059999,
+      "lon": 80.5640303,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Ulapane",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1084744,
+      "lon": 80.5590397,
+      "tags": {
+        "addr:city": "Ulapane",
+        "amenity": "place_of_worship",
+        "name": "Isipathanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1109244,
+      "lon": 80.5631864,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1087371,
+      "lon": 80.634728,
+      "tags": {
+        "addr:city": "Pussellawa CP",
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "marketplace",
+        "name": "pussellawa market"
+      }
+    },
+    {
+      "lat": 7.1072519,
+      "lon": 80.6370455,
+      "tags": {
+        "addr:city": "Pussellawa CP",
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Manthindaramaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1103261,
+      "lon": 80.6340682,
+      "tags": {
+        "addr:city": "Pussellawa CP",
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "name": "Lanka Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.1094018,
+      "lon": 80.5651912,
+      "tags": {
+        "addr:city": "Ulapane",
+        "amenity": "school",
+        "name": "Ulapane Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0419312,
+      "lon": 80.6320814,
+      "tags": {
+        "amenity": "school",
+        "name": "Rojasangama Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0648649,
+      "lon": 80.5527787,
+      "tags": {
+        "amenity": "school",
+        "name": "Gorokoya School"
+      }
+    },
+    {
+      "lat": 7.0543058,
+      "lon": 80.5886279,
+      "tags": {
+        "addr:city": "Harangala",
+        "addr:street": "Harangala Road",
+        "amenity": "school",
+        "name": "Harangala Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.1162933,
+      "lon": 80.6252466,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Pussellawa Hospital"
+      }
+    },
+    {
+      "lat": 7.0721039,
+      "lon": 80.5689409,
+      "tags": {
+        "amenity": "school",
+        "name": "CP/ Kot/ Kahira Muslim Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0641033,
+      "lon": 80.5870992,
+      "tags": {
+        "addr:city": "Kothmale",
+        "addr:street": "Ulapane-Pussellawa Road",
+        "name": "Hanging Bridge Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0596634,
+      "lon": 80.5912648,
+      "tags": {
+        "addr:city": "Harangala",
+        "addr:street": "Harangala Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Kalyanawardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0664648,
+      "lon": 80.5845644,
+      "tags": {
+        "addr:city": "Kothmale",
+        "addr:street": "Ulapane-Pussellawa Road",
+        "amenity": "place_of_worship",
+        "name": "Nugawela Abhinawaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0860363,
+      "lon": 80.5540421,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pallegama Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0951854,
+      "lon": 80.5555917,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Gadol bokkuwa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.0974416,
+      "lon": 80.5573855,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.1092765,
+      "lon": 80.6347505,
+      "tags": {
+        "addr:street": "Peradeniya - Badulla - Chenkaladi Road",
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0576799,
+      "lon": 80.5673483,
+      "tags": {
+        "addr:city": "Hapugastalawa",
+        "addr:postcode": "20668",
+        "addr:street": "Hurihela Road",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Masjidhul Hijra",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0864035,
+      "lon": 80.5512841,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bo Uyana Aranya Senasanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0772687,
+      "lon": 80.6229731,
+      "tags": {
+        "amenity": "place_of_worship",
+        "fixme": "Religion and name"
+      }
+    },
+    {
+      "lat": 7.0553871,
+      "lon": 80.5724629,
+      "tags": {
+        "addr:city": "hapugastalawa",
+        "addr:postcode": "20668",
+        "addr:street": "Nawalapitiya - Harangala Road",
+        "amenity": "school",
+        "name": "An Noor Primary School",
+        "operator": "government"
+      }
+    },
+    {
+      "lat": 7.08521,
+      "lon": 80.5674595,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0711825,
+      "lon": 80.5819407,
+      "tags": {
+        "amenity": "school",
+        "name": "Nayapana Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.097334,
+      "lon": 80.5897433,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0979595,
+      "lon": 80.5903816,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nayapana Waththa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0439088,
+      "lon": 80.617083,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Tispanekanda Sri Gunaratana Piriwena",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0562464,
+      "lon": 80.571234,
+      "tags": {
+        "addr:street": "Hurihela Road",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "name": "Masjidhul Minhaj (Jumma Masjidh)",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0615053,
+      "lon": 80.5684293,
+      "tags": {
+        "addr:city": "hapugastalawa",
+        "addr:postcode": "20668",
+        "addr:street": "Downside Road",
+        "amenity": "place_of_worship",
+        "denomination": "sunni",
+        "email": "haqqani888@gmail.com",
+        "name": "Masjidhul Noor (Jumma Masjidh);Al Hamidhiyyah Arabic College",
+        "phone": "0094542240314",
+        "religion": "muslim",
+        "service_times": "worship",
+        "website": "https://www.alhamidhiyyah.com/"
+      }
+    },
+    {
+      "lat": 7.076594,
+      "lon": 80.57836,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0342844,
+      "lon": 80.6208394,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Thispane Sri Isipathanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0472574,
+      "lon": 80.5600037,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.1125484,
+      "lon": 80.6349654,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.1131878,
+      "lon": 80.635371,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Church of God",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.043817,
+      "lon": 80.5586729,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Tea cottage resort and spa"
+      }
+    },
+    {
+      "lat": 7.063728,
+      "lon": 80.5460131,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.106457,
+      "lon": 80.6374999,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0993377,
+      "lon": 80.5479249,
+      "tags": {
+        "name": "The Weir House",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.1057061,
+      "lon": 80.5465938,
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "lat": 7.0493649,
+      "lon": 80.605557,
+      "tags": {
+        "amenity": "school",
+        "name": "Tyspane Kanda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0772219,
+      "lon": 80.5449478,
+      "tags": {
+        "amenity": "school",
+        "name": "Paththunupitiya Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0638545,
+      "lon": 80.624553,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Morape Kataragama Maha Devalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0662648,
+      "lon": 80.627592,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Rajagiri Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0620365,
+      "lon": 80.6330596,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Yathurugahu Liyadda Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0628683,
+      "lon": 80.6337556,
+      "tags": {
+        "amenity": "school",
+        "name": "Maswela Gamunu Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0347832,
+      "lon": 80.6079209,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0812374,
+      "lon": 80.6077704,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0670512,
+      "lon": 80.5526343,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0658257,
+      "lon": 80.5524674,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Gorokoya Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0550263,
+      "lon": 80.5617205,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0466924,
+      "lon": 80.5670324,
+      "tags": {
+        "amenity": "school",
+        "name": "Ground"
+      }
+    },
+    {
+      "lat": 7.0357422,
+      "lon": 80.6301926,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.032224,
+      "lon": 80.6116277,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Abhayapura Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0353829,
+      "lon": 80.6174863,
+      "tags": {
+        "amenity": "school",
+        "name": "Medhananda Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0406854,
+      "lon": 80.5763455,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0441537,
+      "lon": 80.5838775,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.122919,
+      "lon": 80.5620291,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0396238,
+      "lon": 80.600523,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0360037,
+      "lon": 80.5984836,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nawathispane Sri Gnanodaya Buddhist Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0396645,
+      "lon": 80.6036524,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Nawathispane Sri Sudharshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1001261,
+      "lon": 80.6382725,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.1056976,
+      "lon": 80.6326425,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0526934,
+      "lon": 80.5903585,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.057691,
+      "lon": 80.5673263,
+      "tags": {
+        "addr:city": "Hapugastalawa",
+        "addr:postcode": "20668",
+        "addr:street": "Hurihela Road",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "sunni",
+        "name": "Masjidhul Hijra",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.0550209,
+      "lon": 80.5618358,
+      "tags": {
+        "addr:city": "Ruwanpura",
+        "addr:housenumber": "Siri",
+        "addr:postcode": "20668",
+        "addr:street": "Jayasumanaramaya",
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "siyam",
+        "layer": "1",
+        "name": "Siri Jayasumanaramaya",
+        "religion": "buddhist",
+        "service_times": "24/7"
+      }
+    },
+    {
+      "lat": 7.0543836,
+      "lon": 80.5885872,
+      "tags": {
+        "amenity": "school",
+        "name": "Harangala School"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1767 @@
+{
+  "cluster_id": 182,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.76843,
+    "lat_max": 6.843243,
+    "lon_min": 79.944613,
+    "lon_max": 80.021344
+  },
+  "outlet_ids": [
+    "OUT_00118",
+    "OUT_00359",
+    "OUT_00539",
+    "OUT_00671",
+    "OUT_00678",
+    "OUT_01164",
+    "OUT_01211",
+    "OUT_01396",
+    "OUT_01491",
+    "OUT_01497",
+    "OUT_01525",
+    "OUT_01776",
+    "OUT_01887",
+    "OUT_01956",
+    "OUT_01967",
+    "OUT_01989",
+    "OUT_02297",
+    "OUT_02473",
+    "OUT_02486",
+    "OUT_02522",
+    "OUT_02601",
+    "OUT_02649",
+    "OUT_02744",
+    "OUT_02809",
+    "OUT_02810",
+    "OUT_02925",
+    "OUT_03113",
+    "OUT_03247",
+    "OUT_03282",
+    "OUT_03337",
+    "OUT_03517",
+    "OUT_03896",
+    "OUT_03920",
+    "OUT_03993",
+    "OUT_04018",
+    "OUT_04046",
+    "OUT_04075",
+    "OUT_04082",
+    "OUT_04343",
+    "OUT_04389",
+    "OUT_04432",
+    "OUT_04549",
+    "OUT_04667",
+    "OUT_04756",
+    "OUT_04809",
+    "OUT_04889",
+    "OUT_04923",
+    "OUT_05119",
+    "OUT_05523",
+    "OUT_05609",
+    "OUT_05637",
+    "OUT_05769",
+    "OUT_05887",
+    "OUT_05918",
+    "OUT_06146",
+    "OUT_06259",
+    "OUT_06581",
+    "OUT_06606",
+    "OUT_06688",
+    "OUT_07061",
+    "OUT_07074",
+    "OUT_07088",
+    "OUT_07124",
+    "OUT_07408",
+    "OUT_07430",
+    "OUT_07444",
+    "OUT_07507",
+    "OUT_07862",
+    "OUT_08112",
+    "OUT_08144",
+    "OUT_08244",
+    "OUT_08326",
+    "OUT_08617",
+    "OUT_08773"
+  ],
+  "n_outlets": 74,
+  "n_pois_returned": 165,
+  "scraped_at": "2026-05-16T20:48:02.692589",
+  "elements": [
+    {
+      "lat": 6.7846239,
+      "lon": 79.9756303,
+      "tags": {
+        "addr:city": "Wethara",
+        "addr:street": "Colombo - Horana Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Wethara District Hospital"
+      }
+    },
+    {
+      "lat": 6.816558,
+      "lon": 79.9820128,
+      "tags": {
+        "addr:city": "Deepangoda",
+        "addr:street": "Kottawa-Horana Road",
+        "amenity": "school",
+        "name": "Deepangoda Sri Medhananda Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8164138,
+      "lon": 79.9825208,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Opposite Hathamuna",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8396183,
+      "lon": 80.0035762,
+      "tags": {
+        "addr:city": "Homagama",
+        "addr:street": "Moragahahena Road",
+        "amenity": "school",
+        "name": "President's College"
+      }
+    },
+    {
+      "lat": 6.826409,
+      "lon": 79.9894893,
+      "tags": {
+        "amenity": "school",
+        "name": "Niyandagala Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8325182,
+      "lon": 79.9637522,
+      "tags": {
+        "addr:city": "Kottawa",
+        "addr:street": "Piliyandala - Kottawa Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Wijayatilakaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8221104,
+      "lon": 79.9918832,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8139023,
+      "lon": 79.9825652,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Wardhanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8375568,
+      "lon": 79.9808004,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Makumbura Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8295514,
+      "lon": 79.966435,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:street": "Kottawa-Horana Road",
+        "amenity": "school",
+        "name": "Vidyadeepa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8264621,
+      "lon": 79.9766107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kande Purana Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.812792,
+      "lon": 79.9829103,
+      "tags": {
+        "addr:city": "Deepangoda",
+        "addr:street": "Kottawa-Horana Road",
+        "amenity": "school",
+        "name": "Deepangoda Primary School"
+      }
+    },
+    {
+      "lat": 6.8114091,
+      "lon": 79.9752145,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mattegoda",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8426946,
+      "lon": 80.0036857,
+      "tags": {
+        "name": "CWE",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8392973,
+      "lon": 79.972297,
+      "tags": {
+        "addr:city": "Kottawa",
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8413495,
+      "lon": 80.0049576,
+      "tags": {
+        "addr:city": "Homagama",
+        "addr:street": "High Level Road",
+        "height": "3",
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8409718,
+      "lon": 80.000959,
+      "tags": {
+        "addr:city": "Homagama",
+        "name": "Co-op Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8422482,
+      "lon": 79.9639732,
+      "tags": {
+        "addr:city": "Kottawa",
+        "name": "Co-op Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8391671,
+      "lon": 79.9725232,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Makumbura",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8413708,
+      "lon": 79.9640088,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Kottawa Bus Stand",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8429767,
+      "lon": 79.9782977,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Malapalla Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8124463,
+      "lon": 79.9633446,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Katugampala Weda Madura"
+      }
+    },
+    {
+      "lat": 6.8356078,
+      "lon": 80.0026461,
+      "tags": {
+        "name": "Bon Bon Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8161901,
+      "lon": 79.9709179,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8089517,
+      "lon": 79.9489777,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nikethanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8111423,
+      "lon": 79.9554836,
+      "tags": {
+        "addr:city": "Siddamulla",
+        "addr:street": "Piliyandala - Kottawa Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Sangarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8304653,
+      "lon": 79.9615868,
+      "tags": {
+        "addr:city": "Kottawa",
+        "addr:street": "Gamunupura 4th Lane",
+        "amenity": "school",
+        "name": "Dharmapala Adarsha Kanishta Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8406903,
+      "lon": 79.9670069,
+      "tags": {
+        "addr:city": "Kottawa",
+        "name": "Cargills",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8421511,
+      "lon": 79.9628099,
+      "tags": {
+        "addr:city": "Kottawa",
+        "name": "Laugfs Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8403823,
+      "lon": 79.9669078,
+      "tags": {
+        "addr:city": "Kottawa",
+        "amenity": "place_of_worship",
+        "name": "Saddhathissa"
+      }
+    },
+    {
+      "lat": 6.8346757,
+      "lon": 79.9898117,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vipassana Meditation Center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8272508,
+      "lon": 80.0128787,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Mawathgama Sri Vishuddharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8351444,
+      "lon": 79.9937384,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sasanawardanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8379669,
+      "lon": 79.985427,
+      "tags": {
+        "addr:city": "Makumbura",
+        "addr:street": "High Level Road",
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8401032,
+      "lon": 80.0209468,
+      "tags": {
+        "addr:city": "Homagama",
+        "name": "Amaliya Reach Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8263863,
+      "lon": 79.9847917,
+      "tags": {
+        "addr:city": "Homagama",
+        "amenity": "place_of_worship",
+        "name": "Doowe Purana Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8421702,
+      "lon": 79.9658331,
+      "tags": {
+        "addr:city": "Kottawa",
+        "amenity": "place_of_worship",
+        "name": "Sri Punyabhiwardanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8396772,
+      "lon": 79.9759436,
+      "tags": {
+        "addr:city": "Kottawa",
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 6.8417634,
+      "lon": 79.9629582,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kottawa",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8422498,
+      "lon": 79.9624578,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "lit": "no",
+        "name": "Kottawa",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8409315,
+      "lon": 79.9661122,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kottawa bus stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.839249,
+      "lon": 79.9728409,
+      "tags": {
+        "bench": "yes",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Makumbura",
+        "public_transport": "platform",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8387319,
+      "lon": 79.97951,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Makumbura",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8212295,
+      "lon": 79.9803208,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Opposite co-operative shop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8212348,
+      "lon": 79.9799721,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Near co-operative shop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8266731,
+      "lon": 79.9762653,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Near Kande Purana Viharaya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.82458,
+      "lon": 79.9776538,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8245798,
+      "lon": 79.9780838,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8268923,
+      "lon": 79.9760163,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Opposite Kande Purana Viharaya",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8288676,
+      "lon": 79.9764745,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dolekade",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8290273,
+      "lon": 79.9759488,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Dolekade",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8294002,
+      "lon": 79.970005,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8290273,
+      "lon": 79.9699513,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8298263,
+      "lon": 79.9733309,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8300713,
+      "lon": 79.9735455,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8328728,
+      "lon": 79.9648183,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pinhena Junction",
+        "name:si": "\u0db4\u0dd2\u0d82\u0dc4\u0dda\u0db1 \u0dc4\u0d82\u0daf\u0dd2\u0dba",
+        "operator": "route 342,280",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8327728,
+      "lon": 79.9646329,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pinhena Junction",
+        "operator": "route 255, 296",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8329529,
+      "lon": 79.9645628,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pinhena Junction",
+        "operator": "route 255, 296",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.8308916,
+      "lon": 79.9626772,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Opposite Mahanama Paint Centre",
+        "operator": "route 255, 296",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8311366,
+      "lon": 79.9624948,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Near Mahanama Paint Center",
+        "operator": "route 255, 296",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8294961,
+      "lon": 79.9618725,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Digana Junction",
+        "operator": "route 296, 255",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8296275,
+      "lon": 79.9615739,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Digana Junction",
+        "operator": "route 296, 255",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8368357,
+      "lon": 79.9651663,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8351484,
+      "lon": 79.9653625,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8364629,
+      "lon": 79.965032,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8347967,
+      "lon": 79.9651452,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8270885,
+      "lon": 79.9607675,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sikurada Pola Junction",
+        "operator": "route 255, 296",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8270556,
+      "lon": 79.9604266,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Sikurada Pola Junction",
+        "operator": "route 296, 255",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.819248,
+      "lon": 79.9812273,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8184104,
+      "lon": 79.9811308,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8166036,
+      "lon": 79.9824224,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Hathamuna",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8417854,
+      "lon": 80.0041484,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7861738,
+      "lon": 79.9653417,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Sudarshanaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8161815,
+      "lon": 79.9591475,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Nagas Junction",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.8164021,
+      "lon": 79.9591666,
+      "tags": {
+        "bench": "no",
+        "highway": "bus_stop",
+        "name": "Nagas Junction",
+        "shelter": "no",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.7825033,
+      "lon": 79.9500434,
+      "tags": {
+        "alt_name": "SOS College",
+        "amenity": "school",
+        "name": "Hermann Gmeiner School Piliyandala"
+      }
+    },
+    {
+      "lat": 6.8325846,
+      "lon": 79.9801567,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Hiripitiya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7927404,
+      "lon": 79.9452443,
+      "tags": {
+        "name": "Prince Hotel",
+        "note": "For quality weddings",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8131244,
+      "lon": 79.9661795,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Pubudu Mawatha Bus Stop",
+        "network": "342",
+        "public_transport": "stop_position",
+        "shelter": "yes",
+        "tactile_paving": "no"
+      }
+    },
+    {
+      "lat": 6.8422443,
+      "lon": 79.9626478,
+      "tags": {
+        "addr:city": "Kottawa",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8395546,
+      "lon": 79.9603455,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sugathanandaramaya"
+      }
+    },
+    {
+      "lat": 6.8353754,
+      "lon": 79.9653932,
+      "tags": {
+        "name": "Rochelle Gardens",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8409416,
+      "lon": 80.0007419,
+      "tags": {
+        "addr:city": "Homagama",
+        "amenity": "restaurant",
+        "name": "Dilaj"
+      }
+    },
+    {
+      "lat": 6.8414211,
+      "lon": 80.0024053,
+      "tags": {
+        "addr:city": "Homagama",
+        "name": "Public Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8152194,
+      "lon": 79.9714558,
+      "tags": {
+        "name": "Mattegoda Supermarket",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8270951,
+      "lon": 79.9890033,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Pushparama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8395802,
+      "lon": 79.9753111,
+      "tags": {
+        "addr:city": "Kottawa",
+        "amenity": "restaurant",
+        "cuisine": "regional",
+        "name": "Gammane"
+      }
+    },
+    {
+      "lat": 6.825495,
+      "lon": 79.9606436,
+      "tags": {
+        "addr:city": "Kotttawa",
+        "addr:street": "Piliyandala - Kottawa Road",
+        "name": "Summer Field Reception Hall & Restaurant",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8394677,
+      "lon": 79.9694563,
+      "tags": {
+        "addr:city": "kottawa",
+        "addr:street": "High Level Road",
+        "name": "Arpico super",
+        "operator": "ad",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8127229,
+      "lon": 79.9469438,
+      "tags": {
+        "bench": "yes",
+        "bus": "yes",
+        "covered": "yes",
+        "highway": "bus_stop",
+        "name": "Nampamunuwa Bus Stop",
+        "network": "Bus toute 296",
+        "public_transport": "platform",
+        "route_ref": "296",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8277503,
+      "lon": 79.9545818,
+      "tags": {
+        "bench": "no",
+        "bus": "yes",
+        "covered": "no",
+        "highway": "bus_stop",
+        "name": "Polkotuwa Junction Bus Stop",
+        "operator": "route 296",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7882673,
+      "lon": 79.9876992,
+      "tags": {
+        "addr:street": "Kahathuduwa-Diyagama road",
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8147633,
+      "lon": 79.9577899,
+      "tags": {
+        "addr:city": "Siddamulla",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8306545,
+      "lon": 79.9623121,
+      "tags": {
+        "addr:city": "Kottawa",
+        "addr:street": "Piliyandala - Kottawa Road",
+        "name": "Mahanama Reception Hall",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8204319,
+      "lon": 79.9668426,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:street": "Polgasowita Road",
+        "name": "Star Palace",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8202179,
+      "lon": 79.9688734,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:street": "Polgasowita Road",
+        "name": "Keells Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8142851,
+      "lon": 79.9656628,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:street": "Galwaladeniya Road",
+        "amenity": "place_of_worship",
+        "name": "Sarana Dhamma Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8366332,
+      "lon": 79.9652446,
+      "tags": {
+        "addr:city": "Kottawa",
+        "addr:street": "Kottawa Horana rd",
+        "name": "Keells Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8389366,
+      "lon": 79.9791986,
+      "tags": {
+        "addr:city": "Makumbura",
+        "addr:street": "High Level Road",
+        "amenity": "place_of_worship",
+        "name": "Paththini Devalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7718484,
+      "lon": 79.9629526,
+      "tags": {
+        "addr:city": "Heraliyawala",
+        "addr:street": "Temple Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Sudharmaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8224617,
+      "lon": 79.9608014,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Elvitigala Mawatha Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8356288,
+      "lon": 79.9653721,
+      "tags": {
+        "name": "Sathosa",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8391949,
+      "lon": 79.9874951,
+      "tags": {
+        "name": "Keels Super",
+        "name:en": "Keels super homagama",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8043563,
+      "lon": 79.9590193,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kudamaduwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8085914,
+      "lon": 79.9663501,
+      "tags": {
+        "amenity": "place_of_worship",
+        "description": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8349086,
+      "lon": 79.9565514,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7933167,
+      "lon": 79.9457769,
+      "tags": {
+        "amenity": "school",
+        "name": "Guidance International Junior School"
+      }
+    },
+    {
+      "lat": 6.8291124,
+      "lon": 79.9656089,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Mattegoda Junction",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8140587,
+      "lon": 79.966066,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "String_Hoppers",
+        "delivery": "no",
+        "outdoor_seating": "no",
+        "takeaway": "only"
+      }
+    },
+    {
+      "lat": 6.8013769,
+      "lon": 79.948851,
+      "tags": {
+        "addr:city": "Piliyandala",
+        "addr:postcode": "10350",
+        "addr:street": "Sri Wijayanandanarama Road, Honnantara North, Piliyandala",
+        "amenity": "place_of_worship",
+        "name": "Sri Wijayanandanaramaya, Honnantara, Piliyandala",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7861875,
+      "lon": 79.9704859,
+      "tags": {
+        "addr:city": "Wethara",
+        "addr:street": "Colombo - Horana Road",
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7859657,
+      "lon": 79.9781541,
+      "tags": {
+        "addr:city": "Wethara",
+        "addr:street": "Kirigampanuwa Road",
+        "amenity": "place_of_worship",
+        "name": "Suseemarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.829515,
+      "lon": 79.9614873,
+      "tags": {
+        "name": "Arpico daily",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8014718,
+      "lon": 80.0039516,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8141891,
+      "lon": 79.9574298,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Siddamulla Bus Stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.7715421,
+      "lon": 79.9531487,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Moraeda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8266576,
+      "lon": 79.977078,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kandegala Temple Dolekade",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8408496,
+      "lon": 79.9660849,
+      "tags": {
+        "bench": "no",
+        "bin": "no",
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name": "Kottawa bus stop",
+        "public_transport": "platform",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 6.7960568,
+      "lon": 79.9822623,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Kirigampamunuwa Sri sudarmarathna raja maha viharasthanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7789034,
+      "lon": 79.9656925,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ambalangoda Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7829477,
+      "lon": 79.9764143,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8251147,
+      "lon": 79.9754494,
+      "tags": {
+        "addr:city": "Nambuluwa",
+        "addr:street": "Papliwala Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Suwasewana Ayurvedic center"
+      }
+    },
+    {
+      "lat": 6.8012348,
+      "lon": 79.9787088,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:street": "Kirigampanuwa Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Rohana wijayasiri wedamahatha"
+      }
+    },
+    {
+      "lat": 6.8273497,
+      "lon": 79.9677268,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:street": "Kottawa-Mattegoda Road",
+        "amenity": "restaurant",
+        "name": "Green Garden Reception Hall"
+      }
+    },
+    {
+      "lat": 6.7904251,
+      "lon": 79.9551989,
+      "tags": {
+        "name:en": "Dayarathna Group of Companies",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.7992544,
+      "lon": 79.9635118,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Vipassana Meditation Centre",
+        "name:si": "\u0dc0\u0dd2\u0db4\u0dc3\u0dca\u0dc3\u0db1\u0dcf \u0db7\u0dcf\u0dc0\u0db1\u0dcf \u0db8\u0db0\u0dca\u200d\u0dba\u0dc3\u0dca\u0dae\u0dcf\u0db1\u0dba",
+        "religion": "buddhist",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.788248,
+      "lon": 79.9597996,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "name": "Cargills Food City",
+        "shop": "supermarket",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.7920002,
+      "lon": 79.9498632,
+      "tags": {
+        "amenity": "restaurant",
+        "delivery": "yes",
+        "name": "Sigiri Food Centre",
+        "name:si": "\u0dc3\u0dd3\u0d9c\u0dd2\u0dbb\u0dd2 \u0dc6\u0dd4\u0da9\u0dca",
+        "reservation": "no",
+        "takeaway": "only",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.7916326,
+      "lon": 79.9497809,
+      "tags": {
+        "name": "Sathosa",
+        "name:si": "\u0dc3\u0dad\u0ddc\u0dc3",
+        "shop": "supermarket",
+        "wheelchair": "limited"
+      }
+    },
+    {
+      "lat": 6.7932285,
+      "lon": 79.9469626,
+      "tags": {
+        "name": "Keels",
+        "shop": "supermarket",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "lat": 6.7873063,
+      "lon": 79.9627006,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Ovita Cafe",
+        "reservation": "no",
+        "takeaway": "yes"
+      }
+    },
+    {
+      "lat": 6.8130118,
+      "lon": 79.97448,
+      "tags": {
+        "addr:city": "Mattegoda",
+        "addr:housenumber": "193/10",
+        "addr:postcode": "10320",
+        "addr:street": "Kottawa-Mattegoda",
+        "amenity": "restaurant",
+        "cuisine": "chinese;italian;thai;mongolian;sri_lankan",
+        "name": "cloves",
+        "phone": "0094714334344"
+      }
+    },
+    {
+      "lat": 6.772774,
+      "lon": 80.0207184,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7958013,
+      "lon": 79.9824072,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7792841,
+      "lon": 79.9995328,
+      "tags": {
+        "addr:street": "Colombo - Horana Road",
+        "air_conditioning": "no",
+        "amenity": "restaurant",
+        "bar": "no",
+        "brand": "Sigiri Food Centre",
+        "capacity": "50",
+        "contact:facebook": "https://www.facebook.com/sigirifoodcenter",
+        "cuisine": "seafood;asian",
+        "delivery": "no",
+        "diet:meat": "yes",
+        "diet:vegetarian": "yes",
+        "name": "Sigiri Catering and Food Centre",
+        "opening_hours": "Mo-Su 11:00-23:00",
+        "payment:cash": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "phone": "+94 112 747014",
+        "reservation": "yes",
+        "smoking": "outside"
+      }
+    },
+    {
+      "lat": 6.7866164,
+      "lon": 80.0064642,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denotation": "religious",
+        "natural": "tree",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.77643,
+      "lon": 79.9981732,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Pannila Suwa Asapuwa",
+        "opening_hours": "Tu-Sa 00:00-24:00",
+        "phone": "0767431758"
+      }
+    },
+    {
+      "lat": 6.8205495,
+      "lon": 79.9693289,
+      "tags": {
+        "name": "Sajee Hotel",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8235913,
+      "lon": 79.9682511,
+      "tags": {
+        "amenity": "university",
+        "internet_access": "wlan",
+        "name": "Faculty of Engineering, University of Sri Jayewardenepura",
+        "opening_hours": "Mo-Sa 06:00-17:30"
+      }
+    },
+    {
+      "lat": 6.8053327,
+      "lon": 79.9834564,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "sri visuddawasa buddhist center",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7850337,
+      "lon": 79.9764404,
+      "tags": {
+        "name": "Keells",
+        "shop": "supermarket",
+        "website": "https://www.keellssuper.com/"
+      }
+    },
+    {
+      "lat": 6.7792384,
+      "lon": 79.949891,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Nandharamaya",
+        "phone": "0112 703 864"
+      }
+    },
+    {
+      "lat": 6.8381591,
+      "lon": 79.9658448,
+      "tags": {
+        "amenity": "school",
+        "name": "Kottawa Dharmapala MV",
+        "wikidata": "Q6434311",
+        "wikipedia": "en:Kottawa Dharmapala Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8437043,
+      "lon": 79.9542733,
+      "tags": {
+        "addr:city": "Pannipitiya",
+        "addr:street": "High Level Road",
+        "amenity": "school",
+        "name": "Dharmapala Vidyalaya",
+        "wikidata": "Q3529311",
+        "wikipedia": "en:Dharmapala Vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8007958,
+      "lon": 79.9937032,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.832694,
+      "lon": 79.9648949,
+      "tags": {
+        "building": "yes",
+        "name": "Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8020912,
+      "lon": 79.999984,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Sri Salawana Ramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8415892,
+      "lon": 80.0042754,
+      "tags": {
+        "addr:city": "Homagama",
+        "addr:street": "High Level Road",
+        "building": "commercial",
+        "height": "6m",
+        "name": "Public Super Market",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8410259,
+      "lon": 80.003443,
+      "tags": {
+        "addr:city": "Homagama",
+        "addr:street": "High Level Road",
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8385571,
+      "lon": 79.9463834,
+      "tags": {
+        "amenity": "school",
+        "name": "Arawwala Junior School"
+      }
+    },
+    {
+      "lat": 6.8089031,
+      "lon": 79.9928255,
+      "tags": {
+        "amenity": "university",
+        "name": "Institute of Technology - University of Moratuwa"
+      }
+    },
+    {
+      "lat": 6.8405853,
+      "lon": 79.9764039,
+      "tags": {
+        "building": "yes",
+        "building:levels": "0",
+        "name": "Makubura Railway Station",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 6.8419287,
+      "lon": 80.0038865,
+      "tags": {
+        "addr:city": "Homagama",
+        "building": "retail",
+        "height": "6",
+        "name": "Arpico Super Centre",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8411941,
+      "lon": 79.998194,
+      "tags": {
+        "branch": "Homagama",
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "building": "retail",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8331725,
+      "lon": 80.0037433,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.7820746,
+      "lon": 79.9861185,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7819656,
+      "lon": 79.9861036,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.781841,
+      "lon": 79.9858903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7816932,
+      "lon": 79.9859557,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.781758,
+      "lon": 79.9862031,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.7818244,
+      "lon": 79.9863532,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "theravada",
+        "name": "Sri Nandanaramaya",
+        "name:si": "\u0dc1\u0dca\u200d\u0dbb\u0dd3 \u0db1\u0db1\u0dca\u0daf\u0db1\u0dcf\u0dbb\u0dcf\u0db8\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8163424,
+      "lon": 79.9708918,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "layer": "1",
+        "name": "Temple Mattegoda"
+      }
+    },
+    {
+      "lat": 6.8118004,
+      "lon": 79.975028,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Buddha's Statue"
+      }
+    },
+    {
+      "lat": 6.8413374,
+      "lon": 79.9990422,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Helan Hospital"
+      }
+    },
+    {
+      "lat": 6.8410576,
+      "lon": 79.9732891,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    }
+  ]
+}

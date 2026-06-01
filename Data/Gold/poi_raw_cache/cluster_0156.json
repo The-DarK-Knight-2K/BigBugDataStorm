@@ -1,0 +1,443 @@
+{
+  "cluster_id": 156,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.933517,
+    "lat_max": 7.017253,
+    "lon_min": 80.584546,
+    "lon_max": 80.678572
+  },
+  "outlet_ids": [
+    "OUT_09220",
+    "OUT_09255",
+    "OUT_09341",
+    "OUT_09424",
+    "OUT_09501",
+    "OUT_09507",
+    "OUT_09558",
+    "OUT_09581",
+    "OUT_09583",
+    "OUT_09618",
+    "OUT_09628",
+    "OUT_09780",
+    "OUT_10040",
+    "OUT_10186",
+    "OUT_10219",
+    "OUT_10254",
+    "OUT_10269",
+    "OUT_10362",
+    "OUT_10578",
+    "OUT_10607",
+    "OUT_10618",
+    "OUT_10682",
+    "OUT_10703",
+    "OUT_10781",
+    "OUT_11003",
+    "OUT_11105",
+    "OUT_11185",
+    "OUT_11302",
+    "OUT_11353",
+    "OUT_11396",
+    "OUT_11450",
+    "OUT_11471",
+    "OUT_11498",
+    "OUT_11536",
+    "OUT_11622",
+    "OUT_11644",
+    "OUT_11678",
+    "OUT_11826",
+    "OUT_11903",
+    "OUT_12334",
+    "OUT_12414",
+    "OUT_12424",
+    "OUT_12441",
+    "OUT_12598",
+    "OUT_12706",
+    "OUT_12731",
+    "OUT_12895"
+  ],
+  "n_outlets": 47,
+  "n_pois_returned": 45,
+  "scraped_at": "2026-05-16T20:42:56.339260",
+  "elements": [
+    {
+      "lat": 6.9688843,
+      "lon": 80.6528447,
+      "tags": {
+        "name": "Watagoda",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9400481,
+      "lon": 80.6609908,
+      "tags": {
+        "name": "Talawakele",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 6.9495344,
+      "lon": 80.6384543,
+      "tags": {
+        "addr:city": "Talawakele",
+        "addr:street": "Hatton - Nuwara Eliya Road",
+        "name": "The Waterfall Villas",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.9508987,
+      "lon": 80.6365855,
+      "tags": {
+        "addr:city": "Talawakele",
+        "addr:street": "Hatton - Nuwara Eliya Road",
+        "name": "Devon Holiday Bungalow",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.0143335,
+      "lon": 80.6652635,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Punduloya Buddhist Temble",
+        "name:en": "Buddha Statue",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.0092701,
+      "lon": 80.6383932,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.946011,
+      "lon": 80.6527032,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "roman_catholic",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9508407,
+      "lon": 80.6332208,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Temple with view",
+        "name:fr": "Temple avec vue"
+      }
+    },
+    {
+      "lat": 6.9685345,
+      "lon": 80.6108308,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Bogahawaththa Bodhirukkharamaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.937224,
+      "lon": 80.6616944,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9365451,
+      "lon": 80.6610078,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.93591,
+      "lon": 80.6631428,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0161098,
+      "lon": 80.6649292,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 7.0147298,
+      "lon": 80.6671192,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "punduloya vinayagar alayam",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.0126592,
+      "lon": 80.6710435,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "amman kovil"
+      }
+    },
+    {
+      "lat": 7.014361,
+      "lon": 80.6652645,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "buddha statue"
+      }
+    },
+    {
+      "lat": 7.0129588,
+      "lon": 80.669151,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Punduloya Pentecostal Assembies Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.0135673,
+      "lon": 80.6673045,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "St. Sebastian Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 7.013624,
+      "lon": 80.6676418,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Masjidhun Nooraniyyah Thaikkah",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.9465343,
+      "lon": 80.636592,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9487532,
+      "lon": 80.6495419,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.9479856,
+      "lon": 80.6504274,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.9468782,
+      "lon": 80.6517705,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.014691,
+      "lon": 80.6701294,
+      "tags": {
+        "name": "Serenemo",
+        "phone": "077 555 1007",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.943807,
+      "lon": 80.653805,
+      "tags": {
+        "name": "Royal mount guest & rest",
+        "phone": "077 004 6030",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.947463,
+      "lon": 80.6456487,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 6.9517345,
+      "lon": 80.6361429,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "St Clair Tea Center"
+      }
+    },
+    {
+      "lat": 6.9382954,
+      "lon": 80.6612982,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Victory hotel"
+      }
+    },
+    {
+      "lat": 7.0128094,
+      "lon": 80.5856911,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Falls view restaurant"
+      }
+    },
+    {
+      "lat": 6.93853,
+      "lon": 80.6612917,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Shree Lakshana's kitchen"
+      }
+    },
+    {
+      "lat": 6.9698,
+      "lon": 80.6525871,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "Dilakshan Hotel"
+      }
+    },
+    {
+      "lat": 6.9392193,
+      "lon": 80.6610441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Kathiresan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.933576,
+      "lon": 80.6649671,
+      "tags": {
+        "amenity": "school",
+        "name": "CP/N/Talawakele T.M.V"
+      }
+    },
+    {
+      "lat": 6.9338237,
+      "lon": 80.6647605,
+      "tags": {
+        "amenity": "school",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9685765,
+      "lon": 80.6101394,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9934842,
+      "lon": 80.6275981,
+      "tags": {
+        "amenity": "school",
+        "name": "Beramana School"
+      }
+    },
+    {
+      "lat": 7.0076919,
+      "lon": 80.6285003,
+      "tags": {
+        "amenity": "school",
+        "name": "Wijayabahukanda School"
+      }
+    },
+    {
+      "lat": 7.0142516,
+      "lon": 80.5966647,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.0149112,
+      "lon": 80.5961047,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.9799894,
+      "lon": 80.6390395,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Medecombra GH"
+      }
+    },
+    {
+      "lat": 7.014579,
+      "lon": 80.6676959,
+      "tags": {
+        "amenity": "school",
+        "name": "punduloya TMV",
+        "name:en": "Pundaluoya Tamil Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.0154112,
+      "lon": 80.6705281,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.9465454,
+      "lon": 80.6369718,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.9352926,
+      "lon": 80.665347,
+      "tags": {
+        "addr:full": "DAYAGAMA WEST 2ND DIVISION",
+        "addr:place": "Dayagama West 2nd Division",
+        "addr:subdistrict": "Talawakelle",
+        "addr:village": "Dayagama West",
+        "amenity": "school",
+        "name": "Dell Tamil Vidyayam"
+      }
+    },
+    {
+      "lat": 7.0122889,
+      "lon": 80.6677714,
+      "tags": {
+        "amenity": "school",
+        "landuse": "religious",
+        "name": "Punduloya Pentecostal Assembies Church"
+      }
+    }
+  ]
+}

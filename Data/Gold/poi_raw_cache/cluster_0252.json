@@ -1,0 +1,94 @@
+{
+  "cluster_id": 252,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.906268,
+    "lat_max": 7.991169,
+    "lon_min": 79.950113,
+    "lon_max": 80.039377
+  },
+  "outlet_ids": [
+    "OUT_13052",
+    "OUT_13087",
+    "OUT_13318",
+    "OUT_13416",
+    "OUT_13715",
+    "OUT_13811",
+    "OUT_13985",
+    "OUT_14072",
+    "OUT_14203",
+    "OUT_14375",
+    "OUT_14550",
+    "OUT_14633",
+    "OUT_14801",
+    "OUT_14830",
+    "OUT_15009",
+    "OUT_15101",
+    "OUT_15111",
+    "OUT_15191",
+    "OUT_15335",
+    "OUT_15346",
+    "OUT_15482",
+    "OUT_15746",
+    "OUT_15884",
+    "OUT_16195",
+    "OUT_16205",
+    "OUT_16813",
+    "OUT_16935"
+  ],
+  "n_outlets": 27,
+  "n_pois_returned": 5,
+  "scraped_at": "2026-05-16T21:03:20.595740",
+  "elements": [
+    {
+      "lat": 7.9372109,
+      "lon": 80.0130107,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.907164,
+      "lon": 80.0028411,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9246331,
+      "lon": 80.0148436,
+      "tags": {
+        "name:en": "Mud House",
+        "name:es": "Casa de barro",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.9127529,
+      "lon": 79.9873431,
+      "tags": {
+        "addr:city": "Anamaduwa",
+        "addr:postcode": "61500",
+        "addr:street": "Dakunu Paliyagama, Anamaduwa",
+        "amenity": "place_of_worship",
+        "name": "Mahamevnawa Buddhist Monastery",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.9127484,
+      "lon": 79.9873275,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes"
+      }
+    }
+  ]
+}

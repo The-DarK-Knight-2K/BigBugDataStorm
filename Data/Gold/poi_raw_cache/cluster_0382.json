@@ -1,0 +1,262 @@
+{
+  "cluster_id": 382,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 8.026883999999999,
+    "lat_max": 8.116105000000001,
+    "lon_min": 79.828793,
+    "lon_max": 79.91212900000001
+  },
+  "outlet_ids": [
+    "OUT_13039",
+    "OUT_13200",
+    "OUT_13328",
+    "OUT_13412",
+    "OUT_13637",
+    "OUT_14082",
+    "OUT_14258",
+    "OUT_14352",
+    "OUT_14654",
+    "OUT_14665",
+    "OUT_14795",
+    "OUT_15165",
+    "OUT_15187",
+    "OUT_15198",
+    "OUT_15479",
+    "OUT_15786",
+    "OUT_16224",
+    "OUT_16229",
+    "OUT_16323",
+    "OUT_16365",
+    "OUT_16757",
+    "OUT_16845",
+    "OUT_16847",
+    "OUT_16925",
+    "OUT_16953",
+    "OUT_16960"
+  ],
+  "n_outlets": 26,
+  "n_pois_returned": 23,
+  "scraped_at": "2026-05-16T22:15:48.980879",
+  "elements": [
+    {
+      "lat": 8.035971,
+      "lon": 79.8398157,
+      "tags": {
+        "name": "Noor Nagar",
+        "network": "Sri Lanka Railways",
+        "operator": "Sri Lanka Railways",
+        "public_transport": "station",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 8.0273287,
+      "lon": 79.8406538,
+      "tags": {
+        "amenity": "school",
+        "check_date": "2022-12-24",
+        "education": "school",
+        "fee": "no",
+        "grades": "1-13",
+        "name": "Puttlam Hindu Central College",
+        "name:ta": "\u0baa\u0bc1\u0ba4\u0bcd\u0ba4\u0bb3\u0bae\u0bcd \u0b87\u0ba8\u0bcd\u0ba4\u0bc1 \u0bae\u0ba4\u0bcd\u0ba4\u0bbf\u0baf \u0b95\u0bb2\u0bcd\u0bb2\u0bc2\u0bb0\u0bbf",
+        "operator:type": "government",
+        "polling_station": "yes",
+        "religion": "hindu",
+        "wikidata": "Q18346046",
+        "wikipedia": "en:Puttalam Hindu Central College"
+      }
+    },
+    {
+      "lat": 8.0277861,
+      "lon": 79.8300473,
+      "tags": {
+        "amenity": "restaurant",
+        "brand": "Pizza Hut",
+        "brand:wikidata": "Q191615",
+        "check_date": "2022-12-08",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      }
+    },
+    {
+      "lat": 8.0282134,
+      "lon": 79.8371307,
+      "tags": {
+        "check_date": "2022-12-09",
+        "name": "Keels Super",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0277811,
+      "lon": 79.8388358,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2022-12-09",
+        "healthcare": "hospital",
+        "name": "Base Hospital Puttalam",
+        "operator:type": "government"
+      }
+    },
+    {
+      "lat": 8.0273035,
+      "lon": 79.8377402,
+      "tags": {
+        "brand": "Cargills Food City",
+        "brand:wikidata": "Q58353955",
+        "check_date": "2022-12-09",
+        "name": "Cargills Food City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0309304,
+      "lon": 79.8559328,
+      "tags": {
+        "addr:street": "Puttalam-Anuradhapura-Trincomalee Road",
+        "amenity": "restaurant",
+        "name": "Isuru Bake House & Restaurant",
+        "name:ta": "\u0b87\u0b9a\u0bc1\u0bb1\u0bc1 \u0baa\u0bc7\u0b95\u0bcd\u0b95\u0bb0\u0bbf\u0baf\u0bc1\u0bae\u0bcd \u0b89\u0ba3\u0bb5\u0b95\u0bae\u0bc1\u0bae\u0bcd"
+      }
+    },
+    {
+      "lat": 8.0404586,
+      "lon": 79.8475492,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "mariyamman kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 8.0343747,
+      "lon": 79.8788362,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0276904,
+      "lon": 79.8348166,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 8.0355393,
+      "lon": 79.8853196,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0336438,
+      "lon": 79.8735988,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 8.0272115,
+      "lon": 79.836587,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 8.0278365,
+      "lon": 79.8303852,
+      "tags": {
+        "name": "Cargills express",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 8.0279741,
+      "lon": 79.8345154,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "name:en": "Bus Stop to Mannar, Jaffna",
+        "name:fr": "Arr\u00eat de bus pour Mannar, Jaffna",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 8.0617313,
+      "lon": 79.8974168,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0632497,
+      "lon": 79.8966189,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0740762,
+      "lon": 79.8939568,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0312373,
+      "lon": 79.8389384,
+      "tags": {
+        "amenity": "restaurant"
+      }
+    },
+    {
+      "lat": 8.1057934,
+      "lon": 79.8833231,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 8.1051154,
+      "lon": 79.882318,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Gunarathnaramaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 8.0362318,
+      "lon": 79.8420298,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "MASJIDHUL_FALAH",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 8.0362506,
+      "lon": 79.8377218,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "NOORMASJIDH_MOSQUE",
+        "religion": "muslim"
+      }
+    }
+  ]
+}

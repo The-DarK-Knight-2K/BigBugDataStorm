@@ -1,0 +1,130 @@
+{
+  "cluster_id": 318,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.813175,
+    "lat_max": 7.903254,
+    "lon_min": 79.907499,
+    "lon_max": 80.007762
+  },
+  "outlet_ids": [
+    "OUT_13079",
+    "OUT_13264",
+    "OUT_13291",
+    "OUT_13641",
+    "OUT_13762",
+    "OUT_13779",
+    "OUT_13803",
+    "OUT_14061",
+    "OUT_14116",
+    "OUT_14146",
+    "OUT_14166",
+    "OUT_14341",
+    "OUT_14623",
+    "OUT_14809",
+    "OUT_14838",
+    "OUT_15046",
+    "OUT_15265",
+    "OUT_15329",
+    "OUT_15396",
+    "OUT_15419",
+    "OUT_15459",
+    "OUT_15547",
+    "OUT_15564",
+    "OUT_15613",
+    "OUT_15635",
+    "OUT_15749",
+    "OUT_15760",
+    "OUT_15994",
+    "OUT_16112",
+    "OUT_16193",
+    "OUT_16305",
+    "OUT_16315",
+    "OUT_16388",
+    "OUT_16404",
+    "OUT_16597",
+    "OUT_16651",
+    "OUT_16756"
+  ],
+  "n_outlets": 37,
+  "n_pois_returned": 8,
+  "scraped_at": "2026-05-16T22:10:36.793656",
+  "elements": [
+    {
+      "lat": 7.8407194,
+      "lon": 79.9938759,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8252749,
+      "lon": 80.001402,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8850677,
+      "lon": 80.0025756,
+      "tags": {
+        "addr:city": "Anamaduwa",
+        "addr:street": "Katugastota-Kurunegala-Puttalam Road",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Anamaduwa Hospital"
+      }
+    },
+    {
+      "lat": 7.8961744,
+      "lon": 79.9188705,
+      "tags": {
+        "amenity": "school",
+        "name": "Sohonkalma Primary School"
+      }
+    },
+    {
+      "lat": 7.8415169,
+      "lon": 79.9386075,
+      "tags": {
+        "amenity": "school",
+        "name": "Walpaluwa Maha Vidyalaya"
+      }
+    },
+    {
+      "lat": 7.8377184,
+      "lon": 79.9397636,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Walpaluwa viharasthanaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8715865,
+      "lon": 79.9103558,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sembukuliya tempal",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.8197013,
+      "lon": 79.9132204,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Diparama temple",
+        "religion": "buddhist"
+      }
+    }
+  ]
+}

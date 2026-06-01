@@ -1,0 +1,71 @@
+{
+  "cluster_id": 83,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.685560000000001,
+    "lat_max": 7.766849,
+    "lon_min": 79.944977,
+    "lon_max": 80.033428
+  },
+  "outlet_ids": [
+    "OUT_13033",
+    "OUT_13085",
+    "OUT_13135",
+    "OUT_13354",
+    "OUT_13465",
+    "OUT_13517",
+    "OUT_13638",
+    "OUT_14090",
+    "OUT_14292",
+    "OUT_14534",
+    "OUT_14570",
+    "OUT_14575",
+    "OUT_14700",
+    "OUT_14913",
+    "OUT_15060",
+    "OUT_15143",
+    "OUT_15819",
+    "OUT_15880",
+    "OUT_15983",
+    "OUT_16005",
+    "OUT_16212",
+    "OUT_16506",
+    "OUT_16734"
+  ],
+  "n_outlets": 23,
+  "n_pois_returned": 3,
+  "scraped_at": "2026-05-16T20:33:53.350817",
+  "elements": [
+    {
+      "lat": 7.7434081,
+      "lon": 80.0290671,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.7472868,
+      "lon": 79.9771636,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.7434294,
+      "lon": 79.9778688,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "Madawakkulama",
+        "official_name": "primary medical care unit Madawakkulama"
+      }
+    }
+  ]
+}

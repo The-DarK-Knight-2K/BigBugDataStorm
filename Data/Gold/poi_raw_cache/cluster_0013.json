@@ -1,0 +1,141 @@
+{
+  "cluster_id": 13,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.139341,
+    "lat_max": 6.21791,
+    "lon_min": 80.423205,
+    "lon_max": 80.507649
+  },
+  "outlet_ids": [
+    "OUT_17191",
+    "OUT_17228",
+    "OUT_17251",
+    "OUT_17280",
+    "OUT_17282",
+    "OUT_17321",
+    "OUT_17375",
+    "OUT_17387",
+    "OUT_17415",
+    "OUT_17592",
+    "OUT_17602",
+    "OUT_17609",
+    "OUT_17816",
+    "OUT_17880",
+    "OUT_17946",
+    "OUT_17966",
+    "OUT_18075",
+    "OUT_18168",
+    "OUT_18213",
+    "OUT_18375",
+    "OUT_18408",
+    "OUT_18608",
+    "OUT_18638",
+    "OUT_18644",
+    "OUT_18667",
+    "OUT_18739",
+    "OUT_18794",
+    "OUT_18806",
+    "OUT_18847",
+    "OUT_18848",
+    "OUT_18891",
+    "OUT_18918",
+    "OUT_18972",
+    "OUT_19294",
+    "OUT_19441",
+    "OUT_19496",
+    "OUT_19556",
+    "OUT_19596",
+    "OUT_19601",
+    "OUT_19919",
+    "OUT_19940"
+  ],
+  "n_outlets": 41,
+  "n_pois_returned": 9,
+  "scraped_at": "2026-05-16T20:21:40.729492",
+  "elements": [
+    {
+      "lat": 6.1986244,
+      "lon": 80.4675091,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.1668457,
+      "lon": 80.4674564,
+      "tags": {
+        "addr:street": "Galle - Deniyaya - Madampe Road",
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.2014408,
+      "lon": 80.4944065,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1917382,
+      "lon": 80.4765957,
+      "tags": {
+        "addr:city": "Pitabeddara",
+        "addr:street": "Akuressa-Pasgoda Road",
+        "name": "Bedda Eco Cottages",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.2054555,
+      "lon": 80.4781738,
+      "tags": {
+        "addr:city": "Pitabeddara",
+        "amenity": "place_of_worship",
+        "name": "Sri Gangagiri Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.1444551,
+      "lon": 80.4770641,
+      "tags": {
+        "addr:city": "Akuresse",
+        "addr:street": "Galle - Deniyaya - Madampe Road",
+        "amenity": "restaurant",
+        "cuisine": "traditional",
+        "name": "Lake Garden Resturent"
+      }
+    },
+    {
+      "lat": 6.1426371,
+      "lon": 80.4685979,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.141061,
+      "lon": 80.4810018,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.1991881,
+      "lon": 80.4670469,
+      "tags": {
+        "amenity": "school"
+      }
+    }
+  ]
+}

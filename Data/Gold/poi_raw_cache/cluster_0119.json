@@ -1,0 +1,692 @@
+{
+  "cluster_id": 119,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 6.783038,
+    "lat_max": 6.867673,
+    "lon_min": 80.543134,
+    "lon_max": 80.638897
+  },
+  "outlet_ids": [
+    "OUT_09111",
+    "OUT_09137",
+    "OUT_09232",
+    "OUT_09399",
+    "OUT_09422",
+    "OUT_09506",
+    "OUT_09553",
+    "OUT_09654",
+    "OUT_09655",
+    "OUT_09694",
+    "OUT_09819",
+    "OUT_09859",
+    "OUT_09971",
+    "OUT_10010",
+    "OUT_10069",
+    "OUT_10116",
+    "OUT_10130",
+    "OUT_10144",
+    "OUT_10169",
+    "OUT_10226",
+    "OUT_10345",
+    "OUT_10387",
+    "OUT_10391",
+    "OUT_10882",
+    "OUT_10945",
+    "OUT_10982",
+    "OUT_10984",
+    "OUT_11190",
+    "OUT_11204",
+    "OUT_11248",
+    "OUT_11274",
+    "OUT_11542",
+    "OUT_11575",
+    "OUT_11645",
+    "OUT_11706",
+    "OUT_11727",
+    "OUT_11763",
+    "OUT_11791",
+    "OUT_11809",
+    "OUT_11832",
+    "OUT_11940",
+    "OUT_11942",
+    "OUT_12030",
+    "OUT_12069",
+    "OUT_12073",
+    "OUT_12158",
+    "OUT_12218",
+    "OUT_12223",
+    "OUT_12238",
+    "OUT_12299",
+    "OUT_12375",
+    "OUT_12380",
+    "OUT_12473",
+    "OUT_12491",
+    "OUT_12588",
+    "OUT_12632",
+    "OUT_12775",
+    "OUT_12835",
+    "OUT_12953"
+  ],
+  "n_outlets": 59,
+  "n_pois_returned": 63,
+  "scraped_at": "2026-05-16T20:38:29.454623",
+  "elements": [
+    {
+      "lat": 6.8548993,
+      "lon": 80.6002986,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Dickoya Base Hospital"
+      }
+    },
+    {
+      "lat": 6.8511603,
+      "lon": 80.602616,
+      "tags": {
+        "name": "New Valley Holiday Home",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8531685,
+      "lon": 80.6027309,
+      "tags": {
+        "addr:city": "Dickoya",
+        "amenity": "restaurant",
+        "name": "upper Glencairn"
+      }
+    },
+    {
+      "lat": 6.8563402,
+      "lon": 80.5993601,
+      "tags": {
+        "addr:city": "Dickoya",
+        "amenity": "restaurant",
+        "name": "Lower Glencairn"
+      }
+    },
+    {
+      "lat": 6.7987731,
+      "lon": 80.5564734,
+      "tags": {
+        "bench": "yes",
+        "covered": "yes",
+        "description": "To/from Maskeliya. From Maskeliya: 7:30, ..., From Gartmore: ..., 12:30, 16:00 (at least every 2\u20133 h)",
+        "highway": "bus_stop",
+        "name": "Gartmore Estate (Rs 100)",
+        "public_transport": "stop_position",
+        "shelter": "yes"
+      }
+    },
+    {
+      "lat": 6.8297657,
+      "lon": 80.574743,
+      "tags": {
+        "addr:city": "maskeliya",
+        "addr:street": "vidyalaya mawatha",
+        "amenity": "school",
+        "name": "Samaneliya navodya vidyalaya"
+      }
+    },
+    {
+      "lat": 6.8261651,
+      "lon": 80.5767091,
+      "tags": {
+        "addr:street": "Maskeliya-Upcot Road",
+        "amenity": "place_of_worship",
+        "name": "All Saints Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.813765,
+      "lon": 80.5871295,
+      "tags": {
+        "addr:street": "Maskeliya-Upcot Road",
+        "amenity": "place_of_worship",
+        "name": "Amman Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8374418,
+      "lon": 80.6147184,
+      "tags": {
+        "addr:city": "Norwood",
+        "addr:street": "Norwood-Bogawantalawa Road",
+        "amenity": "place_of_worship",
+        "check_date": "2025-12-30",
+        "name": "Darmarajaha Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8312854,
+      "lon": 80.5432201,
+      "tags": {
+        "name:en": "Ayos Hill",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8341328,
+      "lon": 80.5713262,
+      "tags": {
+        "amenity": "restaurant",
+        "name:en": "Chanuka Restaurant"
+      }
+    },
+    {
+      "lat": 6.8338596,
+      "lon": 80.5721884,
+      "tags": {
+        "name:en": "Dam House (real location)",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 6.8296427,
+      "lon": 80.6206148,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Lawrence Bazaar",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8472182,
+      "lon": 80.5452233,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "CEB Rest House"
+      }
+    },
+    {
+      "lat": 6.8597237,
+      "lon": 80.5925186,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8339019,
+      "lon": 80.5721887,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "dam house"
+      }
+    },
+    {
+      "lat": 6.8301909,
+      "lon": 80.573515,
+      "tags": {
+        "amenity": "place_of_worship",
+        "denomination": "catholic",
+        "name": "St. Joseph Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8342537,
+      "lon": 80.5723001,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Bus stop to Hatton"
+      }
+    },
+    {
+      "lat": 6.8661916,
+      "lon": 80.5994721,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.835833,
+      "lon": 80.6142521,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 6.8474495,
+      "lon": 80.5517881,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8364997,
+      "lon": 80.6179143,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Portree Church",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.835974,
+      "lon": 80.5671441,
+      "tags": {
+        "amenity": "place_of_worship",
+        "flood_prone": "yes",
+        "name": "Sri sanmuganathar kovil",
+        "religion": "hindu",
+        "seasonal": "dry_season"
+      }
+    },
+    {
+      "lat": 6.8360033,
+      "lon": 80.5620264,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8352808,
+      "lon": 80.6146793,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8331554,
+      "lon": 80.572297,
+      "tags": {
+        "check_date": "2025-01",
+        "highway": "bus_stop",
+        "name": "Bus to Gartmore (Rs 100)"
+      }
+    },
+    {
+      "lat": 6.8312135,
+      "lon": 80.5723534,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 6.8365677,
+      "lon": 80.5719487,
+      "tags": {
+        "description": "Hatton: Rs 120/=, Delhousie: Rs 100/=",
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8046335,
+      "lon": 80.5696452,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8341502,
+      "lon": 80.570699,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8342194,
+      "lon": 80.5708092,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 6.8364836,
+      "lon": 80.6140034,
+      "tags": {
+        "name": "Kashmeer Super City",
+        "opening_hours": "Mo-Su 09:00-20:00",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8360378,
+      "lon": 80.6139502,
+      "tags": {
+        "addr:housenumber": "84",
+        "addr:street": "Norwood-Bogawantalawa Road",
+        "amenity": "restaurant",
+        "name": "Sri Magal",
+        "opening_hours": "Mo-Su 08:00-22:00"
+      }
+    },
+    {
+      "lat": 6.8357277,
+      "lon": 80.6143781,
+      "tags": {
+        "name": "Deepaams Super City",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 6.8377337,
+      "lon": 80.6146345,
+      "tags": {
+        "amenity": "restaurant",
+        "cuisine": "local",
+        "name": "Chef King",
+        "phone": "+94762402854"
+      }
+    },
+    {
+      "lat": 6.8301801,
+      "lon": 80.5707175,
+      "tags": {
+        "addr:city": "Maskeliya",
+        "addr:housenumber": "196",
+        "addr:postcode": "22070",
+        "addr:street": "Maskeliya-Upcot Road",
+        "name": "River View Inn",
+        "tourism": "hotel",
+        "website": "http://riverviewinn.blogspot.com/"
+      }
+    },
+    {
+      "lat": 6.8540351,
+      "lon": 80.6120353,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8535091,
+      "lon": 80.6123491,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8456118,
+      "lon": 80.6072732,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "K Valley"
+      }
+    },
+    {
+      "lat": 6.863455,
+      "lon": 80.6245823,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Battalagalla Temple",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8341839,
+      "lon": 80.5701222,
+      "tags": {
+        "amenity": "school",
+        "name": "St. Joseph's College"
+      }
+    },
+    {
+      "lat": 6.8312747,
+      "lon": 80.5708035,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Sri Sumanarama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8632157,
+      "lon": 80.5950903,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "church",
+        "name": "Christchurch Warleigh",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.8002351,
+      "lon": 80.5994984,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7903671,
+      "lon": 80.6080488,
+      "tags": {
+        "addr:hamlet": "Gawarawila",
+        "addr:street": "Maskeliya-Upcot Road",
+        "amenity": "school",
+        "name": "Gawarawila Sinhala School"
+      }
+    },
+    {
+      "lat": 6.8374109,
+      "lon": 80.6133842,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.7897678,
+      "lon": 80.608704,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 6.8618946,
+      "lon": 80.6241045,
+      "tags": {
+        "addr:city": "Hatton",
+        "addr:street": "Sanchimalle Road",
+        "amenity": "school",
+        "name": "Hornsey college"
+      }
+    },
+    {
+      "lat": 6.8632164,
+      "lon": 80.6261041,
+      "tags": {
+        "addr:city": "Hatton",
+        "addr:street": "Fordyce Road",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Battalgala Ground"
+      }
+    },
+    {
+      "lat": 6.8621375,
+      "lon": 80.6138237,
+      "tags": {
+        "addr:city": "Hatton",
+        "addr:street": "Sanchimalle Road",
+        "amenity": "hospital",
+        "check_date": "2024-02-19",
+        "healthcare": "hospital",
+        "leisure": "pitch",
+        "name": "Manickawatta 03 rd division Ground",
+        "sport": "volleyball",
+        "surface": "ground"
+      }
+    },
+    {
+      "lat": 6.844979,
+      "lon": 80.5483913,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Saman Devalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 6.8623484,
+      "lon": 80.5892904,
+      "tags": {
+        "addr:city": "Dickoya",
+        "addr:street": "Norton Street",
+        "email": "info@thefarmresorts.com",
+        "name": "The Farm Resorts",
+        "old_name": "Castlereigh Family Cottages",
+        "phone": "+94 77 6956520;+94 51 2223607",
+        "tourism": "hotel",
+        "website": "https://thefarmresorts.com/"
+      }
+    },
+    {
+      "lat": 6.8617538,
+      "lon": 80.5884183,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "service"
+      }
+    },
+    {
+      "lat": 6.8339695,
+      "lon": 80.5744472,
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "MaskeliyHospital"
+      }
+    },
+    {
+      "lat": 6.8316114,
+      "lon": 80.5709922,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Murugan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 6.8444643,
+      "lon": 80.5925064,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    },
+    {
+      "lat": 6.7861202,
+      "lon": 80.6165225,
+      "tags": {
+        "amenity": "restaurant",
+        "building": "yes"
+      }
+    },
+    {
+      "lat": 6.8628577,
+      "lon": 80.6141416,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "check_date": "2024-02-19",
+        "denomination": "shaivism",
+        "internet_access": "wlan",
+        "internet_access:fee": "no",
+        "name": "Sindakatty Kovil",
+        "opening_hours": "sunrise-sunset",
+        "payment:cards": "no",
+        "payment:cash": "yes",
+        "payment:credit_cards": "no",
+        "payment:debit_cards": "no",
+        "religion": "hindu",
+        "service_times": "sunset,sunrise",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8594261,
+      "lon": 80.6144034,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "shaivism",
+        "name": "Dhavarna Temple",
+        "opening_hours": "sunrise-sunset",
+        "religion": "hindu",
+        "service_times": "sunset,sunrise",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8624958,
+      "lon": 80.6135869,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "denomination": "shaivism",
+        "name": "Kaaman Kovil",
+        "opening_hours": "sunrise-sunset",
+        "religion": "hindu",
+        "service_times": "sunset,sunrise",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8618898,
+      "lon": 80.6139554,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "normal",
+        "building:material": "exposed_cement_block",
+        "check_date": "2024-02-19",
+        "denomination": "roman_catholic",
+        "name": "Madha Church",
+        "opening_hours": "sunrise-sunset",
+        "religion": "christian",
+        "roof:face": "2 faces",
+        "roof:material": "concrete",
+        "roof:shape": "gabled",
+        "service_times": "sunset,sunrise",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8610523,
+      "lon": 80.6135526,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "building:foundation_height": "normal",
+        "building:material": "exposed_cement_block",
+        "denomination": "shaivism",
+        "name": "Amman Kovil",
+        "opening_hours": "sunrise-sunset",
+        "religion": "hindu",
+        "roof:face": "2 faces",
+        "roof:material": "tin_sheet",
+        "roof:shape": "gabled",
+        "service_times": "sunset,sunrise",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 6.8630299,
+      "lon": 80.6209509,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "christian"
+      }
+    }
+  ]
+}

@@ -1,0 +1,783 @@
+{
+  "cluster_id": 124,
+  "config_snapshot": {
+    "n_clusters": 400,
+    "buffer_deg": 0.018
+  },
+  "bounding_box": {
+    "lat_min": 7.350694,
+    "lat_max": 7.44688,
+    "lon_min": 80.605233,
+    "lon_max": 80.692969
+  },
+  "outlet_ids": [
+    "OUT_09001",
+    "OUT_09151",
+    "OUT_09208",
+    "OUT_09224",
+    "OUT_09278",
+    "OUT_09282",
+    "OUT_09430",
+    "OUT_09470",
+    "OUT_09579",
+    "OUT_09691",
+    "OUT_09739",
+    "OUT_09767",
+    "OUT_09841",
+    "OUT_09848",
+    "OUT_09858",
+    "OUT_09933",
+    "OUT_10006",
+    "OUT_10043",
+    "OUT_10259",
+    "OUT_10372",
+    "OUT_10635",
+    "OUT_10749",
+    "OUT_10842",
+    "OUT_10854",
+    "OUT_10879",
+    "OUT_10899",
+    "OUT_10985",
+    "OUT_10993",
+    "OUT_11142",
+    "OUT_11366",
+    "OUT_11459",
+    "OUT_11512",
+    "OUT_11628",
+    "OUT_11656",
+    "OUT_11670",
+    "OUT_11764",
+    "OUT_11946",
+    "OUT_12142",
+    "OUT_12170",
+    "OUT_12455",
+    "OUT_12499",
+    "OUT_12679",
+    "OUT_12698",
+    "OUT_12790",
+    "OUT_12891",
+    "OUT_12937"
+  ],
+  "n_outlets": 46,
+  "n_pois_returned": 81,
+  "scraped_at": "2026-05-16T20:38:57.423614",
+  "elements": [
+    {
+      "lat": 7.4012673,
+      "lon": 80.6908677,
+      "tags": {
+        "addr:city": "Kandy",
+        "name": "Hunas Falls Hotel",
+        "operator": "Amaya Kandy",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4203771,
+      "lon": 80.634167,
+      "tags": {
+        "name": "Ukuwela",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.4416745,
+      "lon": 80.6321344,
+      "tags": {
+        "name": "Elwala",
+        "railway": "station"
+      }
+    },
+    {
+      "lat": 7.3840931,
+      "lon": 80.6616741,
+      "tags": {
+        "name": "Patanpaha",
+        "railway": "station",
+        "train": "yes"
+      }
+    },
+    {
+      "lat": 7.4013001,
+      "lon": 80.6133508,
+      "tags": {
+        "addr:city": "Alawathugoda",
+        "amenity": "school",
+        "name": "Alawathugoda National School"
+      }
+    },
+    {
+      "lat": 7.3753772,
+      "lon": 80.6778503,
+      "tags": {
+        "addr:city": "Wattegama",
+        "addr:country": "LK",
+        "addr:district": "Kandy District",
+        "addr:place": "Wattegama",
+        "addr:province": "Central Province",
+        "addr:street": "Elkaduwa Road",
+        "email": "manager@brooksideresort.lk",
+        "name": "Brookside Resort",
+        "operator": "By Earl's",
+        "phone": "+94 81 5624933",
+        "tourism": "hotel",
+        "website": "http://brooksideresort.lk/",
+        "wheelchair": "no"
+      }
+    },
+    {
+      "lat": 7.3870429,
+      "lon": 80.6071399,
+      "tags": {
+        "addr:street": "Neeralla Melchena Rd",
+        "amenity": "place_of_worship",
+        "name": "Dippitiya Chandrajothi Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4220117,
+      "lon": 80.6447981,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Weligala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3757884,
+      "lon": 80.6466117,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dunuwila Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4216499,
+      "lon": 80.6638734,
+      "tags": {
+        "amenity": "place_of_worship",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4350454,
+      "lon": 80.6641171,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4217335,
+      "lon": 80.6268768,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.409432,
+      "lon": 80.6093376,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Alawatugoda"
+      }
+    },
+    {
+      "lat": 7.4092505,
+      "lon": 80.6095582,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Alawatugoda"
+      }
+    },
+    {
+      "lat": 7.4076892,
+      "lon": 80.6101242,
+      "tags": {
+        "addr:street": "Kandy-Jaffna Road",
+        "amenity": "place_of_worship",
+        "name": "Sri Visuddharamaya Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4030026,
+      "lon": 80.6123907,
+      "tags": {
+        "addr:street": "Kandy-Jaffna Road",
+        "name": "Power Zone Guest Inn",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.397634,
+      "lon": 80.6125604,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Garakmadilla Rajamaha Viharaya,Arambepola",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3935261,
+      "lon": 80.6189685,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Konakalagala Sri Vijitha Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.396688,
+      "lon": 80.6326666,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Malgamandeniya"
+      }
+    },
+    {
+      "lat": 7.389852,
+      "lon": 80.6351798,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Pangollamada"
+      }
+    },
+    {
+      "lat": 7.3799934,
+      "lon": 80.6452166,
+      "tags": {
+        "name": "Shan Spice Center",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.3789232,
+      "lon": 80.6474551,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Dunuvila Raja Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.363004,
+      "lon": 80.6405946,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Aluthgama"
+      }
+    },
+    {
+      "lat": 7.3778511,
+      "lon": 80.6342328,
+      "tags": {
+        "addr:street": "Deegala Rd",
+        "amenity": "place_of_worship",
+        "name": "Deegala Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3697773,
+      "lon": 80.6152075,
+      "tags": {
+        "addr:street": "Grand Mosque Rd",
+        "amenity": "place_of_worship",
+        "name": "Grand Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3648752,
+      "lon": 80.6172566,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Akurana"
+      }
+    },
+    {
+      "lat": 7.3727295,
+      "lon": 80.668442,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Pahala Yatawara Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3640344,
+      "lon": 80.6747224,
+      "tags": {
+        "addr:street": "Wattegama - Matale Road",
+        "amenity": "place_of_worship",
+        "check_date": "2025-11-23",
+        "name": "Ihala Yatawara Kettarama Maha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3709976,
+      "lon": 80.661063,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Gal Ambalama"
+      }
+    },
+    {
+      "lat": 7.3656282,
+      "lon": 80.6574381,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Doragamuwa"
+      }
+    },
+    {
+      "lat": 7.3670144,
+      "lon": 80.6481957,
+      "tags": {
+        "addr:street": "Kudugala-Wattegama Rd",
+        "amenity": "place_of_worship",
+        "name": "Gammanthalawa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3582497,
+      "lon": 80.6226695,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Girakaduwa"
+      }
+    },
+    {
+      "lat": 7.3581828,
+      "lon": 80.6248256,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Galwala Junction"
+      }
+    },
+    {
+      "lat": 7.3640741,
+      "lon": 80.6329816,
+      "tags": {
+        "addr:street": "Dambagahamuduna Rd",
+        "amenity": "place_of_worship",
+        "name": "Daluke Sri Pushparama Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3596044,
+      "lon": 80.6379887,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Jambugahapitiya"
+      }
+    },
+    {
+      "lat": 7.3527768,
+      "lon": 80.6501471,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Tunkandura Junction"
+      }
+    },
+    {
+      "lat": 7.3902612,
+      "lon": 80.6783071,
+      "tags": {
+        "addr:street": "Wattegama - Kandenuwara - Wariyapola Road",
+        "name": "Green View Holiday Resort",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.3520151,
+      "lon": 80.6825796,
+      "tags": {
+        "addr:city": "Wattegama",
+        "addr:street": "Pitiyagedera - Wattegama - Iriyagastenne Road",
+        "amenity": "place_of_worship",
+        "name": "Kathiresan Kovil",
+        "religion": "hindu"
+      }
+    },
+    {
+      "lat": 7.3968902,
+      "lon": 80.6791671,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4171896,
+      "lon": 80.6379065,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name:en": "Manamboda Jummah Masjid"
+      }
+    },
+    {
+      "lat": 7.4058823,
+      "lon": 80.6109104,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4025147,
+      "lon": 80.612867,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4122488,
+      "lon": 80.608038,
+      "tags": {
+        "bus": "yes",
+        "highway": "bus_stop",
+        "public_transport": "platform"
+      }
+    },
+    {
+      "lat": 7.4166085,
+      "lon": 80.6117647,
+      "tags": {
+        "bench": "yes",
+        "highway": "bus_stop",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.4188903,
+      "lon": 80.6084062,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.424369,
+      "lon": 80.6155069,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4277299,
+      "lon": 80.6200361,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4378164,
+      "lon": 80.6236887,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4403366,
+      "lon": 80.6319671,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4311612,
+      "lon": 80.6210305,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.4336443,
+      "lon": 80.622077,
+      "tags": {
+        "highway": "bus_stop"
+      }
+    },
+    {
+      "lat": 7.3574493,
+      "lon": 80.6481235,
+      "tags": {
+        "name:en": "Dumbara spice",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4251074,
+      "lon": 80.6318139,
+      "tags": {
+        "highway": "bus_stop",
+        "name:en": "Samagi Mawatha Bus Stop"
+      }
+    },
+    {
+      "lat": 7.425897,
+      "lon": 80.6337694,
+      "tags": {
+        "addr:postcode": "21300",
+        "addr:street": "Dematagolla",
+        "amenity": "place_of_worship",
+        "name:en": "Siri Sumana Sama Viharaya",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 7.4213597,
+      "lon": 80.6335965,
+      "tags": {
+        "addr:street": "Ukuwela",
+        "amenity": "place_of_worship",
+        "name:en": "Bodimalu Viharaya",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "lat": 7.4176673,
+      "lon": 80.6824206,
+      "tags": {
+        "addr:city": "Elkaduwa",
+        "addr:street": "Ukuwela-Elkaduwa Road",
+        "amenity": "place_of_worship",
+        "name": "Elkaduwa Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3570136,
+      "lon": 80.6249231,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3583942,
+      "lon": 80.6314972,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Anuragala Rajamaha Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4014342,
+      "lon": 80.607128,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Delgasgoda Purana Piriwen Viharaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.3746305,
+      "lon": 80.6783663,
+      "tags": {
+        "addr:city": "Wattegama",
+        "addr:street": "Elkaduwa Road",
+        "name": "Simpson's Forest Hotel",
+        "operator": "Seetha Holdings",
+        "tourism": "hotel"
+      }
+    },
+    {
+      "lat": 7.4036126,
+      "lon": 80.653962,
+      "tags": {
+        "highway": "bus_stop",
+        "name": "Raithalawala Junction"
+      }
+    },
+    {
+      "lat": 7.3523331,
+      "lon": 80.6152591,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "stop_area"
+      }
+    },
+    {
+      "lat": 7.3515537,
+      "lon": 80.6157272,
+      "tags": {
+        "highway": "bus_stop",
+        "public_transport": "stop_area",
+        "shelter": "no"
+      }
+    },
+    {
+      "lat": 7.4066879,
+      "lon": 80.6520967,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Raithalawela Sub Post Office"
+      }
+    },
+    {
+      "lat": 7.4074859,
+      "lon": 80.6507073,
+      "tags": {
+        "name": "ACM Store Raithalawela",
+        "shop": "supermarket"
+      }
+    },
+    {
+      "lat": 7.4398509,
+      "lon": 80.6316596,
+      "tags": {
+        "amenity": "restaurant",
+        "name": "New Ransiri Restaurant & Bakehouse"
+      }
+    },
+    {
+      "lat": 7.3669569,
+      "lon": 80.62116,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Azhariya jumma masid",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3651136,
+      "lon": 80.6833242,
+      "tags": {
+        "addr:postcode": "20810",
+        "addr:street": "Elkaduwa Road",
+        "amenity": "place_of_worship",
+        "check_date": "2026-04-23",
+        "name": "Gothamachethiya Mangalagiri Buddhist Monastery",
+        "religion": "buddhist",
+        "website": "https://gothamachethiya.org/"
+      }
+    },
+    {
+      "lat": 7.4456556,
+      "lon": 80.6561704,
+      "tags": {
+        "amenity": "place_of_worship",
+        "check_date": "2026-04-24",
+        "name": "Lunuatuwa Forest Monastery \u2010 \u0dbd\u0dd4\u0dab\u0dd4\u0d85\u0da7\u0dd4\u0dc0 \u0d86\u0dbb\u0dab\u0dca\u200d\u0dba \u0dc3\u0dda\u0db1\u0dcf\u0dc3\u0db1\u0dba",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4218552,
+      "lon": 80.6269562,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4057717,
+      "lon": 80.6075364,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Alawathugoda Maha Saman Dewalaya",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.400631,
+      "lon": 80.6803053,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.4071901,
+      "lon": 80.6732136,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Buddhist Temple",
+        "religion": "buddhist"
+      }
+    },
+    {
+      "lat": 7.4062359,
+      "lon": 80.672759,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.4091006,
+      "lon": 80.6482673,
+      "tags": {
+        "amenity": "school"
+      }
+    },
+    {
+      "lat": 7.4049462,
+      "lon": 80.6530126,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "masjidul Hudha Jumma Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3999558,
+      "lon": 80.6544209,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "name": "Cake in Wonderland"
+      }
+    },
+    {
+      "lat": 7.4118949,
+      "lon": 80.6438577,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "place_of_worship",
+        "name": "Masjidul Noor Jummah Mosque",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.4184081,
+      "lon": 80.6421997,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "place_of_worship",
+        "name": "Maberiya Jummah Masjidh",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.4213023,
+      "lon": 80.6349901,
+      "tags": {
+        "amenity": "place_of_worship",
+        "name": "Ukuwela Town Masjidh",
+        "religion": "muslim"
+      }
+    },
+    {
+      "lat": 7.3669599,
+      "lon": 80.6211593,
+      "tags": {
+        "amenity": "place_of_worship",
+        "building": "yes",
+        "religion": "muslim"
+      }
+    }
+  ]
+}
