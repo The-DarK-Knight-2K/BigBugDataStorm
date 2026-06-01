@@ -41,8 +41,8 @@ The exhaustive implementation plan for Phase 2 has been refactored into its own 
 ### 📋 Phase 2 Implementation Tasks
 - [x] **Data Ingestion**: Build `App/scripts/populate_real_db.py` to parse parquets, CSVs, and `poi_raw_cache` JSONs into the new SQLite schema. *(Completed & patched for case-sensitive data mapping)*
 - [x] **DB Access & Performance**: Update `App/src/data_access/queries.ts` to support the new schema. *(Completed, alongside a massive Canvas-native rewrite of `Map.tsx` to render 20,000 points instantly)*
-- [x] **UI - Bug Fixes**: Patched `OutletDetailClient.tsx` to securely handle the new flat SHAP dataset structure without crashing.
-- [ ] **UI - Dashboard**: Add the 5th KPI card, Saturation column, and Market Saturation filter in `/`.
-- [ ] **UI - Details**: Add the Cooler Capacity and Market Catchment panels in `/outlets/[id]`.
+- [x] **UI - Bug Fixes**: Patched `OutletDetailClient.tsx` to securely handle the new flat SHAP dataset structure without crashing, and implemented a Business Glossary dictionary to map raw ML features to C-Suite friendly labels.
+- [x] **UI - Dashboard**: Add the 5th KPI card, Saturation column, and Market Saturation filter in `/`. *(Completed)*
+- [x] **UI - Details**: Add the Cooler Capacity and Market Catchment panels in `/outlets/[id]`.
 - [ ] **UI - Map**: Upgrade `SingleMap.tsx` to render the 2km radius competitors and footfall POIs.
 - [ ] **GenAI API**: Update the `SYSTEM_PROMPT` in `route.ts` to explain the new Tobit/Hurdle and DBSCAN features.

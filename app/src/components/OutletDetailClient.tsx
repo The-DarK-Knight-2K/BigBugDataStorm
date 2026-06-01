@@ -24,7 +24,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
         feature: key,
         shap_value: val,
         direction: (val as number) >= 0 ? 'positive' : 'negative',
-        feature_value: 'Data mapped in DB'
+        feature_value: (outlet as any)[key] !== undefined ? (outlet as any)[key] : null
       }))
       .sort((a, b) => Math.abs(b.shap_value) - Math.abs(a.shap_value))
       .slice(0, 12);
@@ -80,13 +80,44 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
     }
   };
 
+  // Business Glossary Dictionary for mapping raw model features to C-Suite friendly labels
+  const FEATURE_MAP: Record<string, string> = {
+    "hist_cv": "Historical Sales Volatility",
+    "trend_slope": "Recent Sales Momentum",
+    "yoy_growth_rate": "Year-over-Year Growth",
+    "jan_count": "Peak Season Activity (Jan)",
+    "active_months": "Active Trading Months",
+    "active_months_pct": "Trading Frequency (%)",
+    "consecutive_zero_months_max": "Max Consecutive Zero-Sales Months",
+    "worship_gravity_score": "Nearby Worship Places",
+    "market_gravity_score": "Market Catchment Density",
+    "transport_gravity_score": "Nearby Transport Hubs",
+    "hospitality_gravity_score": "Nearby Hospitality/Hotels",
+    "school_gravity_score": "Nearby Schools",
+    "hospital_gravity_score": "Nearby Hospitals",
+    "competitors_500m": "Close Competitors (500m)",
+    "competitors_1km": "Local Competitors (1km)",
+    "competitors_2km": "Regional Competitors (2km)",
+    "outlet_size": "Physical Store Size",
+    "cooler_count": "Installed Coolers",
+    "recent_3m_avg": "Recent 3M Sales Baseline",
+    "hist_p90_monthly": "Historical Peak Sales",
+    "months_since_last_order": "Months Since Last Order"
+  };
+
   // Recharts custom label mapping for readability
   const chartData = useMemo(() => {
-    return shapValues.map((v: any) => ({
-      name: v.feature.replace(/_/, ' ').replace(/score/, '').trim(),
-      val: v.shap_value,
-      orig: v.feature_value
-    }));
+    return shapValues
+      .filter((v: any) => v.feature !== 'latitude' && v.feature !== 'longitude') // Filter out abstract GPS coords
+      .map((v: any) => {
+        // Find human-readable label or fallback to cleaned raw string
+        const mappedName = FEATURE_MAP[v.feature] || v.feature.replace(/_/g, ' ').replace(/score/, '').trim();
+        return {
+          name: mappedName,
+          val: v.shap_value,
+          orig: v.feature_value
+        };
+      });
   }, [shapValues]);
 
   // Parse GenAI JSON
@@ -210,6 +241,86 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
         </div>
       </div>
 
+      {/* New Panels for Phase 2: Cooler Capacity & Market Catchment */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* Cooler & Capacity Ceiling Panel */}
+        <div className="glass-panel p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-heading font-bold text-lg text-white">❄️ Cooler & Capacity Ceiling</h3>
+              <p className="text-slate-400 text-[11px] mt-0.5">Physics-based constraints on maximum monthly volume.</p>
+            </div>
+            
+            <div className="space-y-3 font-mono text-xs">
+              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
+                <span className="text-slate-400">Physical Capacity</span>
+                <span className="text-white font-bold text-sm">{(outlet.cooler_capacity_litres || 0).toLocaleString()} L</span>
+              </div>
+              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
+                <span className="text-slate-400">Max Potential Target</span>
+                <span className="text-cyan-400 font-bold text-sm">{(outlet.theoretical_monthly_ceiling || 0).toLocaleString()} L</span>
+              </div>
+              
+              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                <div className="flex justify-between items-center mb-1.5">
+                  <span className="text-slate-400 text-[10px] uppercase">Utilization Ratio</span>
+                  <span className="text-white font-bold">{Math.round((outlet.capacity_utilization_ratio || 0) * 100)}%</span>
+                </div>
+                <div className="w-full bg-slate-800 rounded-full h-1.5">
+                  <div 
+                    className={`h-1.5 rounded-full ${
+                      (outlet.capacity_utilization_ratio || 0) > 0.8 ? 'bg-rose-500' :
+                      (outlet.capacity_utilization_ratio || 0) > 0.5 ? 'bg-amber-500' :
+                      'bg-emerald-500'
+                    }`}
+                    style={{ width: `${Math.min((outlet.capacity_utilization_ratio || 0) * 100, 100)}%` }}
+                  ></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Market & Catchment Panel */}
+        <div className="glass-panel p-6 rounded-2xl border border-slate-800 flex flex-col justify-between">
+          <div className="space-y-4">
+            <div>
+              <h3 className="font-heading font-bold text-lg text-white">🎯 Market & Catchment</h3>
+              <p className="text-slate-400 text-[11px] mt-0.5">Statistical Hurdle/Tobit demand estimates & saturation.</p>
+            </div>
+            
+            <div className="space-y-3 font-mono text-xs">
+              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
+                <span className="text-slate-400">Local Competitor Crowding</span>
+                <span className="text-white font-bold text-sm">{(outlet.competition_density_score || 0).toFixed(2)}</span>
+              </div>
+              <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
+                <span className="text-slate-400">Saturation Class</span>
+                <span className={`text-white font-bold text-[10px] uppercase px-2 py-1 rounded ${
+                  outlet.market_saturation_class === 'isolated' ? 'bg-emerald-500/20 text-emerald-400' :
+                  outlet.market_saturation_class === 'moderate' ? 'bg-amber-500/20 text-amber-400' :
+                  outlet.market_saturation_class === 'dense' ? 'bg-rose-500/20 text-rose-400' :
+                  'bg-slate-800'
+                }`}>
+                  {outlet.market_saturation_class || 'N/A'}
+                </span>
+              </div>
+              
+              <div className="grid grid-cols-2 gap-3 mt-2">
+                <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <span className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest">True Demand Est.</span>
+                  <span className="text-sm font-extrabold text-white mt-1 block">{(outlet.tobit_latent_estimate || 0).toLocaleString()} L</span>
+                </div>
+                <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
+                  <span className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest">Sales Likelihood</span>
+                  <span className="text-sm font-extrabold text-white mt-1 block">{(outlet.hurdle_estimate || 0).toLocaleString()} L</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       {/* Map View */}
       <div className="glass-panel p-1 rounded-2xl border border-slate-800 h-[350px]">
         <SingleMap outlet={{
@@ -253,8 +364,10 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                         return (
                           <div className="bg-slate-900 border border-slate-800 p-2.5 rounded-lg shadow-xl text-[11px]">
                             <p className="font-bold text-white uppercase">{data.name}</p>
-                            <p className="text-slate-300 mt-1">Impact Value: <span className="font-bold font-mono text-white">{data.val > 0 ? '+' : ''}{data.val} L</span></p>
-                            <p className="text-slate-400">Feature Value: <span className="font-mono text-slate-300">{data.orig}</span></p>
+                            <p className="text-slate-300 mt-1">Impact Value: <span className="font-bold font-mono text-white">{data.val > 0 ? '+' : ''}{Number(data.val).toFixed(1)} L</span></p>
+                            {data.orig !== null && data.orig !== undefined && (
+                              <p className="text-slate-400 mt-1">Feature Value: <span className="font-mono text-slate-300">{typeof data.orig === 'number' ? Number(data.orig).toFixed(2) : data.orig}</span></p>
+                            )}
                           </div>
                         );
                       }
@@ -301,32 +414,32 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
               <div className="space-y-3 font-mono text-xs">
                 {/* Transport Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
-                  <span className="text-slate-400">🚍 Transport Gravity</span>
+                  <span className="text-slate-400">🚍 Transport Footfall Impact</span>
                   <span className="text-white font-bold text-sm">{((context as any)?.transport_gravity_score || context?.gravity_features?.transport_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* School Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
-                  <span className="text-slate-400">🏫 School Gravity</span>
+                  <span className="text-slate-400">🏫 School Footfall Impact</span>
                   <span className="text-white font-bold text-sm">{((context as any)?.school_gravity_score || context?.gravity_features?.school_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* Worship Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
-                  <span className="text-slate-400">🛕 Worship Gravity</span>
+                  <span className="text-slate-400">🛕 Worship Footfall Impact</span>
                   <span className="text-white font-bold text-sm">{((context as any)?.worship_gravity_score || (context?.gravity_features as any)?.worship_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* Hospitality Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
-                  <span className="text-slate-400">🏨 Hospitality Gravity</span>
+                  <span className="text-slate-400">🏨 Hospitality Footfall Impact</span>
                   <span className="text-white font-bold text-sm">{((context as any)?.hospitality_gravity_score || (context?.gravity_features as any)?.hospitality_gravity_score || 0).toFixed(2)}</span>
                 </div>
               </div>
             </div>
 
             <div className="text-[10px] text-slate-500 font-sans italic border-t border-slate-800/60 pt-3 mt-4">
-              💡 Gravity scores calculated via distance decay algorithm. Closer features carry exponentially heavier weighting.
+              💡 Footfall Impact calculated via distance decay algorithm. Closer features carry exponentially heavier weighting.
             </div>
           </div>
 
