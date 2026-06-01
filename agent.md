@@ -56,13 +56,14 @@ the corresponding script in `pipeline/` or `modelling/`.
 | `gold/SPEC_cooler_features.md` | `pipeline/gold/build_cooler_features.py` |
 | `gold/SPEC_spatial_cluster.md` | `pipeline/gold/build_spatial_cluster_features.py` |
 
-### Modelling
-| File | Script |
-|------|--------|
+### Modelling and Optimizations
+| File | Script / Description |
+|------|----------------------|
 | `modelling/SPEC_baseline.md` | `modelling/baseline.py` |
 | `modelling/SPEC_train.md` | `modelling/train.py` |
 | `modelling/SPEC_predict.md` | `modelling/predict.py` |
-| `modelling/SPEC_budget_optimization.md` | `pipeline/optimizations/optimise_budget.py` |
+| `modelling/SPEC_budget_optimization.md` | `pipeline/optimizations/optimise_budget.py` (Business Logic Spec) |
+| `optimizations/SPEC_optimise_budget.md` | `pipeline/optimizations/optimise_budget.py` (Implementation Spec) |
 | `modelling/SPEC_xai.md` | `pipeline/xai/` (context packager/prompt builder) & `app/api/xai_api.py` |
 
 ### Web App & API

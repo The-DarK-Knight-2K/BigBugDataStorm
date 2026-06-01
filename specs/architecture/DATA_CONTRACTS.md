@@ -223,17 +223,6 @@ One row per outlet. One column per model feature (signed float). Outlet_ID is th
 > The `context_json` column stores the full context payload as a JSON string.
 > Parse with `json.loads(row["context_json"])` before passing to the prompt builder.
 
-### `budget_features.parquet` *(Round 2 — NEW, Western Province only)*
-| Column | Type | Nullable | Notes |
-|--------|------|----------|-------|
-| Outlet_ID | string | No | Primary key — Western Province outlets only (~6,842 rows) |
-| uplift_gap_litres | float32 | No | predicted_potential − recent_3m_avg, clipped at 0 |
-| roi_score | float32 | No | Weighted composite [0, 1] — see specs/modelling/BUDGET_OPTIMIZATION.md |
-| allocation_tier | string | No | One of: `high`, `medium`, `low` |
-| trade_spend_allocation_lkr | float32 | No | Final LKR allocation (0 if below floor) |
-| recommended_spend_type | string | No | One of: `cooler_grant`, `discount_voucher`, `display_material` |
-| projected_volume_uplift_litres | float32 | No | allocation × volume_per_lkr[tier] |
-| is_western_province | bool | No | Always True for rows in this table |
 
 ### `master_features.parquet` *(Round 1 base + Round 2 additions)*
 One row per outlet. All 20,000 outlets must be present.
@@ -258,6 +247,22 @@ One row per outlet. All 20,000 outlets must be present.
 > All float columns are upcast to `float64` and rounded to 4 decimal places.
 > Categorical columns (`Outlet_Type`, `Outlet_Size`, `province`, `seasonality_jan_2026`)
 > are stored as raw strings. Encoding is deferred to `train.py`.
+
+---
+
+## Optimization layer — `data/Optimization/`
+
+### `budget_features.parquet` *(Round 2 — NEW, Western Province only)*
+| Column | Type | Nullable | Notes |
+|--------|------|----------|-------|
+| Outlet_ID | string | No | Primary key — Western Province outlets only (~6,842 rows) |
+| uplift_gap_litres | float32 | No | predicted_potential − recent_3m_avg, clipped at 0 |
+| roi_score | float32 | No | Weighted composite [0, 1] — see specs/modelling/BUDGET_OPTIMIZATION.md |
+| allocation_tier | string | No | One of: `high`, `medium`, `low` |
+| trade_spend_allocation_lkr | float32 | No | Final LKR allocation (0 if below floor) |
+| recommended_spend_type | string | No | One of: `cooler_grant`, `discount_voucher`, `display_material` |
+| projected_volume_uplift_litres | float32 | No | allocation × volume_per_lkr[tier] |
+| is_western_province | bool | No | Always True for rows in this table |
 
 ---
 

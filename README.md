@@ -16,19 +16,29 @@ This repository contains a complete, reproducible data engineering and machine l
 BigBugDataStorm/
 ├── Data/
 │   ├── Raw/                         # Original CSV files (untouched)
-│   ├── Bronze/                      # Raw → Parquet (schema-preserved)
+│   ├── Bronze/                      # Raw -> Parquet (schema-preserved)
 │   ├── Silver/                      # Cleaned, validated, type-safe tables
 │   ├── Gold/                        # Engineered features (model-ready)
 │   │   ├── poi_raw_cache/           # Cached OpenStreetMap API responses (400 JSON files)
-│   │   ├── poi_features.parquet     # 20,000 × 21 — geospatial footfall features
-│   │   └── sales_features.parquet   # 20,000 × 21 — historical demand features
+│   │   ├── poi_features.parquet     # Geospatial footfall features
+│   │   ├── sales_features.parquet   # Historical demand features
+│   │   ├── gravity_features.parquet # Inverse-square POI gravity score features
+│   │   ├── catchment_features.parquet # BallTree competitor density features
+│   │   ├── cooler_features.parquet  # Cooler capacity physics-based ceiling features
+│   │   ├── spatial_cluster_features.parquet # DBSCAN micro-market density cluster features
+│   │   ├── tobit_features.parquet   # Predicted features from censored Tobit regression
+│   │   ├── hurdle_features.parquet  # Predicted features from zero-inflated Hurdle model
+│   │   ├── shap_values.parquet      # Cell-by-cell SHAP contribution values
+│   │   └── master_features.parquet  # Consolidated model training features
+│   ├── Optimization/                # Optimized trade marketing allocations (parquet format)
+│   │   └── budget_features.parquet  # ROI, allocation tiers, and projected uplift
 │   └── Quarantine/                  # Rejected records with failure reasons
 │
 ├── pipeline/
 │   ├── bronze/
-│   │   └── ingest.py                # CSV → Parquet ingestion
+│   │   └── ingest.py                # CSV -> Parquet ingestion
 │   ├── silver/
-│   │   ├── dq_checks.py            # Reusable data quality engine
+│   │   ├── dq_checks.py             # Reusable data quality engine
 │   │   ├── clean_outlets.py         # Outlet master cleaning + size imputation
 │   │   ├── clean_coordinates.py     # GPS validation + swapped lat/lon correction
 │   │   ├── clean_transactions.py    # Volume netting, blackout detection, outlier flags
@@ -37,7 +47,12 @@ BigBugDataStorm/
 │   ├── gold/
 │   │   ├── scrape_poi_raw.py        # Phase 1: KMeans clustering + Overpass API scraping
 │   │   ├── build_poi_features.py    # Phase 2: Geodesic distance + footfall scoring
-│   │   └── build_sales_features.py  # Vectorized historical sales aggregation
+│   │   ├── build_sales_features.py  # Vectorized historical sales aggregation
+│   │   ├── build_gravity_features.py # Inverse-square distance decay spatial POI scores
+│   │   ├── build_catchment_features.py # BallTree neighbor competitor count density
+│   │   ├── build_cooler_features.py # Physics-based cooler capacity ceiling estimation
+│   │   ├── build_spatial_cluster_features.py # DBSCAN micro-market density clustering
+│   │   └── build_master_features.py # Integrates all advanced features into master dataset
 │   ├── optimizations/
 │   │   └── optimise_budget.py       # Budget optimization logic
 │   ├── xai/
@@ -45,6 +60,16 @@ BigBugDataStorm/
 │   │   └── prompt_builder.py        # Generates LLM prompts
 │   └── utils/
 │       └── logger.py                # Centralized logging (console + file)
+│
+├── modelling/
+│   ├── artifacts/                   # Saved model pkl, runs registry, and optuna configurations
+│   ├── baseline.py                  # Static baseline demand calculations
+│   ├── train.py                     # XGBoost, LightGBM, Random Forest training + SHAP extraction
+│   ├── predict.py                   # Blended inference + validation checks
+│   ├── ensemble.py                  # Blends predictions from multiple model runs
+│   ├── optuna_tune.py               # Optuna hyperparameter re-tuning
+│   ├── tobit_model.py               # Tobit regression for censored demand
+│   └── hurdle_model.py              # Two-stage zero-inflated demand model
 │
 ├── notebooks/
 │   ├── 01_eda_transactions.ipynb    # Exploratory Data Analysis — transactions
@@ -62,8 +87,14 @@ BigBugDataStorm/
 │
 ├── outputs/
 │   ├── pipeline.log                 # Full execution log
-│   └── prediction_diagnostics.csv   # Prediction diagnostics
-│   └── bigbug_predictions.csv       # Final predictions
+│   ├── prediction_diagnostics.csv   # Prediction diagnostics
+│   ├── bigbug_predictions.csv       # Final predictions
+│   ├── bigbug_budget_allocations.csv # Final trade marketing budget allocations (submission format)
+│   ├── budget_diagnostics.csv       # Detailed budget allocation calculations and tiers
+│   ├── roi_distribution.png         # ROI score distribution plot with tier boundaries
+│   ├── round1/                      # Static archive of Round 1 predictions and configurations
+│   ├── round2_lite/                 # Static archive of lightweight/intermediate Round 2 runs
+│   └── round2_final/                # Static archive of the most recent final Round 2 model backup
 │
 ├── docs/
 │   ├── reference/                   # Project briefs and external requirements

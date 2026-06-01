@@ -46,7 +46,7 @@ up, negative means it pulled it down. The magnitude indicates contribution stren
 - `data/gold/shap_values.parquet`
 - `data/gold/master_features.parquet`
 - `data/gold/gravity_features.parquet`
-- `data/gold/budget_features.parquet`
+- `data/Optimization/budget_features.parquet`
 - `outputs/bigbug_predictions.csv`
 
 For a given `outlet_id`, it assembles a `context` dict that the prompt builder

@@ -17,7 +17,7 @@ def main():
     if not os.path.exists(predictions_path):
         predictions_path = os.path.join(base_dir, 'outputs', 'round2', 'bigbug_predictions.csv')
         
-    output_dir = os.path.join(base_dir, 'data', 'Optimizations')
+    output_dir = os.path.join(base_dir, 'outputs')
     os.makedirs(output_dir, exist_ok=True)
     
     # Load data
@@ -89,7 +89,7 @@ def main():
         temp_df.loc[:c1-1, 'Trade_Spend_Allocation_LKR'] = 2500.0
         
         temp_df.loc[c1:c2-1, 'allocation_tier'] = 'Medium'
-        temp_df.loc[c1:c2-1, 'Trade_Spend_Allocation_LKR'] = 1167.0
+        temp_df.loc[c1:c2-1, 'Trade_Spend_Allocation_LKR'] = 1200.0
         
         temp_df.loc[c2:c3-1, 'allocation_tier'] = 'Low'
         temp_df.loc[c2:c3-1, 'Trade_Spend_Allocation_LKR'] = 500.0
@@ -138,7 +138,7 @@ def main():
         temp_df.loc[:c1-1, 'allocation_tier'] = 'High'
         temp_df.loc[:c1-1, 'Trade_Spend_Allocation_LKR'] = 2500.0
         temp_df.loc[c1:c2-1, 'allocation_tier'] = 'Medium'
-        temp_df.loc[c1:c2-1, 'Trade_Spend_Allocation_LKR'] = 1167.0
+        temp_df.loc[c1:c2-1, 'Trade_Spend_Allocation_LKR'] = 1200.0
         temp_df.loc[c2:c3-1, 'allocation_tier'] = 'Low'
         temp_df.loc[c2:c3-1, 'Trade_Spend_Allocation_LKR'] = 500.0
         best_df = temp_df
@@ -152,91 +152,54 @@ def main():
     tier2_cutoff = tier1_cutoff + int(total_w * best_config[1])
     tier3_cutoff = tier2_cutoff + int(total_w * best_config[2])
 
-    # Greedy balancing to exactly 5,000,000
+    # Greedy balancing using multiples of 50
     current_budget = df_w['Trade_Spend_Allocation_LKR'].sum()
-    print(f"Base allocation sum: {current_budget:,.2f} LKR. Balancing to {target_budget:,.2f} LKR...")
+    print(f"Base allocation sum: {current_budget:,.2f} LKR. Balancing towards {target_budget:,.2f} LKR...")
     
     max_cap = 15000.0
     min_cap = 500.0
     
     if current_budget < target_budget:
         diff = target_budget - current_budget
-        for _ in range(2000): # Increased iterations to ensure balancing
-            if diff <= 0.01:
+        for _ in range(5000):
+            if diff < 50.0:
                 break
             
             made_change = False
-            # Try to add to Tier 1 first
-            for idx in range(tier1_cutoff):
-                if diff <= 0.01:
+            for idx in range(tier2_cutoff): # Add to Tier 1 and Tier 2
+                if diff < 50.0:
                     break
                 current_val = df_w.at[idx, 'Trade_Spend_Allocation_LKR']
-                headroom = max_cap - current_val
-                if headroom > 0:
-                    add_amt = min(100.0, diff, headroom)
-                    if add_amt > 0:
-                        df_w.at[idx, 'Trade_Spend_Allocation_LKR'] += add_amt
-                        diff -= add_amt
-                        made_change = True
+                if max_cap - current_val >= 50.0:
+                    df_w.at[idx, 'Trade_Spend_Allocation_LKR'] += 50.0
+                    diff -= 50.0
+                    made_change = True
             
-            # If Tier 1 is maxed out or not enough, spill over to Tier 2
-            if diff > 0.01 and all(df_w.loc[:tier1_cutoff-1, 'Trade_Spend_Allocation_LKR'] >= max_cap - 0.01):
-                for idx in range(tier1_cutoff, tier2_cutoff):
-                    if diff <= 0.01:
-                        break
-                    current_val = df_w.at[idx, 'Trade_Spend_Allocation_LKR']
-                    headroom = max_cap - current_val
-                    if headroom > 0:
-                        add_amt = min(100.0, diff, headroom)
-                        if add_amt > 0:
-                            df_w.at[idx, 'Trade_Spend_Allocation_LKR'] += add_amt
-                            diff -= add_amt
-                            made_change = True
-                            
             if not made_change:
-                print("Warning: Budget balancing stopped because no more headroom is available.")
                 break
                         
     elif current_budget > target_budget:
         diff = current_budget - target_budget
-        for _ in range(2000):
-            if diff <= 0.01:
+        for _ in range(5000):
+            if diff < 50.0:
                 break
                 
             made_change = False
-            # Reduce Tier 3 first
-            for idx in range(tier3_cutoff-1, tier2_cutoff-1, -1):
-                if diff <= 0.01:
+            for idx in range(tier3_cutoff-1, -1, -1): # Reduce from bottom up
+                if diff < 50.0:
                     break
                 current_alloc = df_w.at[idx, 'Trade_Spend_Allocation_LKR']
-                if current_alloc > 0:
-                    reduce_amt = min(100.0, diff)
-                    if current_alloc - reduce_amt < min_cap:
-                        reduce_amt = current_alloc # Drop to 0 if below min actionable
+                if current_alloc >= 50.0:
+                    reduce_amt = 50.0
+                    if current_alloc - reduce_amt < min_cap and current_alloc > 0:
+                        reduce_amt = current_alloc # Drop to 0
                         df_w.at[idx, 'allocation_tier'] = 'None'
                     
                     df_w.at[idx, 'Trade_Spend_Allocation_LKR'] -= reduce_amt
                     diff -= reduce_amt
                     made_change = True
             
-            # If Tier 3 is fully exhausted and we still need to reduce, reduce Tier 2
-            if diff > 0.01 and all(df_w.loc[tier2_cutoff:tier3_cutoff-1, 'Trade_Spend_Allocation_LKR'] <= 0.01):
-                for idx in range(tier2_cutoff-1, tier1_cutoff-1, -1):
-                    if diff <= 0.01:
-                        break
-                    current_alloc = df_w.at[idx, 'Trade_Spend_Allocation_LKR']
-                    if current_alloc > 0:
-                        reduce_amt = min(100.0, diff)
-                        if current_alloc - reduce_amt < min_cap:
-                            reduce_amt = current_alloc
-                            df_w.at[idx, 'allocation_tier'] = 'None'
-                        
-                        df_w.at[idx, 'Trade_Spend_Allocation_LKR'] -= reduce_amt
-                        diff -= reduce_amt
-                        made_change = True
-            
             if not made_change:
-                print("Warning: Budget balancing stopped because no more allocations can be reduced.")
                 break
                     
     # Map Spend Types
@@ -251,14 +214,8 @@ def main():
     # Ensure exact precision rounding issues don't fail verification
     df_w['Trade_Spend_Allocation_LKR'] = df_w['Trade_Spend_Allocation_LKR'].round(2)
     
-    # Process other provinces
-    df_other['roi_rank'] = np.nan
-    df_other['allocation_tier'] = 'None'
-    df_other['Trade_Spend_Allocation_LKR'] = 0.0
-    df_other['recommended_spend_type'] = 'None'
-    
-    # Combine back
-    df_final = pd.concat([df_w, df_other], ignore_index=True)
+    # Combine back (Only Western for output, as requested)
+    df_final = df_w.copy()
     
     print("Generating ROI Distribution Plot...")
     plt.figure(figsize=(12, 6))
@@ -296,15 +253,19 @@ def main():
     ]
     diag_df = df_final[cols]
     diag_df.to_csv(os.path.join(output_dir, 'budget_diagnostics.csv'), index=False)
-    diag_df.to_parquet(os.path.join(output_dir, 'budget_features.parquet'), index=False)
+    
+    # Save the parquet file in data/Optimization as requested
+    opt_dir = os.path.join(base_dir, 'data', 'Optimization')
+    os.makedirs(opt_dir, exist_ok=True)
+    diag_df.to_parquet(os.path.join(opt_dir, 'budget_features.parquet'), index=False)
     
     final_budget = df_final['Trade_Spend_Allocation_LKR'].sum()
     print(f"Budget Optimization Complete!")
     print(f"Total Budget Allocated: {final_budget:,.2f} LKR")
     print(f"Total Outlets Processed: {len(df_final)}")
     
-    # Small tolerance for floating point summation
-    assert abs(final_budget - 5000000.0) < 1.0, f"Budget mismatch: {final_budget}"
+    # Check budget is <= 5,000,000
+    assert final_budget <= 5000000.0, f"Budget exceeded: {final_budget}"
 
 if __name__ == '__main__':
     main()

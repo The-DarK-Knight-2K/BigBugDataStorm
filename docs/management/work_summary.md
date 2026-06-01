@@ -89,3 +89,8 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 36. Created `ensemble.py` to blend predictions from multiple model runs using configurable weights. Executed with 40% XGBoost, 40% LightGBM, 20% Random Forest split.
 37. Extended `predict.py` with `--predictions-csv` and `--output-path` CLI arguments to support loading pre-blended ensemble predictions and custom output paths.
 38. Generated the final Round 2 submission at `outputs/round2/bigbug_predictions.csv` (20,000 rows) by running the ensemble through the full post-processing pipeline (baseline floor blending, clamping, rounding, assertions).
+
+## Phase 4: Budget Optimization
+
+39. Designed and executed `pipeline/optimizations/optimise_budget.py` to optimally allocate a 5,000,000 LKR budget across Western Province outlets using a Grid Search on ROI metrics.
+40. Refined the optimization pipeline to apply Pareto principles, rounding budget distributions to strictly 50 LKR multiples, enforcing a `<= 5,000,000 LKR` cap, and correctly routing outputs containing strictly Western province targets to the `outputs/` folder.

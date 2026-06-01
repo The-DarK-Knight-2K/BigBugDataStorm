@@ -167,14 +167,19 @@ The plot will use **colored bands** to show where the tier cutoffs fall on this 
 
 ## 7. Required Output Artifacts
 
-All outputs go to `data/optimizations/`:
+Outputs are saved to the following directories:
 
+### Saved in `outputs/`
 | # | File | Description |
 |---|------|-------------|
-| 1 | `bigbug_budget_allocations.csv` | Competition submission. **Two columns only:** `Outlet_ID`, `Trade_Spend_Allocation_LKR`. 20,000 rows. |
+| 1 | `bigbug_budget_allocations.csv` | Competition submission. **Two columns only:** `Outlet_ID`, `Trade_Spend_Allocation_LKR`. Contains strictly Western province outlets. |
 | 2 | `budget_diagnostics.csv` | Full diagnostics with `Outlet_ID`, `province`, `uplift_gap_litres`, `composite_gravity_score`, `competition_density_score`, `roi_score`, `roi_rank`, `allocation_tier`, `recommended_spend_type`, `Trade_Spend_Allocation_LKR` |
-| 3 | `budget_features.parquet` | Same as `budget_diagnostics.csv` in Parquet format for pipeline consumption |
 | 4 | `roi_distribution.png` | Histogram of Frequency vs ROI Score with color-banded tier cutoffs |
+
+### Saved in `data/Optimization/`
+| # | File | Description |
+|---|------|-------------|
+| 3 | `budget_features.parquet` | Same as `budget_diagnostics.csv` in Parquet format for pipeline consumption |
 
 ---
 

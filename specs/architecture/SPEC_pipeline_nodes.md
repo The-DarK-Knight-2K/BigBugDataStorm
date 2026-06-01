@@ -254,7 +254,7 @@ shap_df.to_parquet("Data/Gold/shap_values.parquet", index=False)
 | **Script** | `modelling/optimise_budget.py` `[NEW]` |
 | **Spec** | `specs/modelling/BUDGET_OPTIMIZATION.md` |
 | **Reads** | `Data/Gold/master_features.parquet`, `outputs/bigbug_predictions.csv`, `Data/Gold/sales_features.parquet` |
-| **Writes** | `outputs/bigbug_budget_allocations.csv`, `Data/Gold/budget_features.parquet` |
+| **Writes** | `outputs/bigbug_budget_allocations.csv`, `data/Optimization/budget_features.parquet` |
 | **Config** | Add `budget_optimization` block to `config.yaml` |
 
 ### Steps (follow the spec exactly):
@@ -276,7 +276,7 @@ shap_df.to_parquet("Data/Gold/shap_values.parquet", index=False)
 |:--|:--|
 | **Script** | `pipeline/xai/context_packager.py` `[NEW]` |
 | **Spec** | `specs/modelling/XAI_SPEC.md` Step 2 |
-| **Reads** | `Data/Gold/shap_values.parquet`, `master_features.parquet`, `gravity_features.parquet`, `budget_features.parquet`, `bigbug_predictions.csv` |
+| **Reads** | `Data/Gold/shap_values.parquet`, `master_features.parquet`, `gravity_features.parquet`, `data/Optimization/budget_features.parquet`, `bigbug_predictions.csv` |
 | **Writes** | `Data/Gold/xai_context.parquet` |
 | **Config** | Add `xai.feature_labels` mapping to `config.yaml` |
 

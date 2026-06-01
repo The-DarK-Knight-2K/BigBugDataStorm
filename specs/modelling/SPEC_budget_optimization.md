@@ -76,7 +76,7 @@ def minmax(series):
     return (series - series.min()) / (series.max() - series.min() + 1e-9)
 ```
 
-ROI score is stored in `data/gold/budget_features.parquet` and served via
+ROI score is stored in `data/Optimization/budget_features.parquet` and served via
 `GET /outlets/{outlet_id}` as `budget.roi_score`.
 
 ---
@@ -197,7 +197,7 @@ budget_output["Trade_Spend_Allocation_LKR"] = budget_output[
 budget_output.to_csv("outputs/bigbug_budget_allocations.csv", index=False)
 ```
 
-Additionally, write `data/gold/budget_features.parquet` with the full intermediate
+Additionally, write `data/Optimization/budget_features.parquet` with the full intermediate
 columns for the API and the web app to consume:
 
 | Column | Type | Notes |
