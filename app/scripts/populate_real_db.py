@@ -166,7 +166,7 @@ def populate_real_db():
             float(row.get('latitude', 0.0)),
             float(row.get('longitude', 0.0)),
             int(row.get('cooler_count', 0)),
-            float(row.get('predicted_potential_litres', row.get('Maximum_Monthly_Liters', 0.0))),
+            float(row.get('predicted_potential_litres', row.get('maximum_monthly_liters', 0.0))),
             float(row.get('recent_3m_avg', 0.0)),
             float(row.get('hist_p90_monthly', 0.0)),
             has_history,
@@ -205,7 +205,7 @@ def populate_real_db():
             str(row.get('outlet_id')),
             float(row.get('uplift_gap_litres', 0.0)),
             float(row.get('roi_score', 0.0)),
-            str(row.get('allocation_tier', 'low')),
+            str(row.get('allocation_tier', 'low')).lower(),
             float(row.get('trade_spend_allocation_lkr', 0.0)),
             str(row.get('recommended_spend_type', 'none')),
             float(row.get('projected_volume_uplift_litres', 0.0))

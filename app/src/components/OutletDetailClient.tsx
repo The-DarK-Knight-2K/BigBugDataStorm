@@ -145,11 +145,11 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
         <div className="glass-panel p-6 rounded-2xl relative overflow-hidden group hover:border-slate-700 transition-colors">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Max monthly potential</p>
           <p className="text-3xl font-heading font-extrabold text-white mt-2">
-            {Math.round(outlet.predicted_potential_litres || context?.prediction.Maximum_Monthly_Liters || 0).toLocaleString()} <span className="text-xs text-slate-400">L</span>
+            {Math.round(outlet.predicted_potential_litres || context?.prediction?.Maximum_Monthly_Liters || 0).toLocaleString()} <span className="text-xs text-slate-400">L</span>
           </p>
           <div className="text-[10px] text-slate-400 mt-2 font-mono flex items-center gap-1">
             <span>Multiplier:</span>
-            <span className="text-cyan-400 font-bold">{context?.prediction.seasonality_multiplier_jan_2026 || 1.0}x</span>
+            <span className="text-cyan-400 font-bold">{context?.prediction?.seasonality_multiplier_jan_2026 || 1.0}x</span>
             <span>(January)</span>
           </div>
         </div>
@@ -158,11 +158,11 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
         <div className="glass-panel p-6 rounded-2xl relative overflow-hidden group hover:border-slate-700 transition-colors">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Recent 3M average</p>
           <p className="text-3xl font-heading font-extrabold text-white mt-2">
-            {Math.round(outlet.recent_3m_avg || context?.prediction.recent_3m_avg || 0).toLocaleString()} <span className="text-xs text-slate-400">L</span>
+            {Math.round(outlet.recent_3m_avg || context?.prediction?.recent_3m_avg || 0).toLocaleString()} <span className="text-xs text-slate-400">L</span>
           </p>
           <div className="text-[10px] text-slate-400 mt-2 font-mono flex items-center gap-1">
             <span>Active Months:</span>
-            <span className="text-slate-300 font-bold">{context?.sales_history.active_months || 0}m</span>
+            <span className="text-slate-300 font-bold">{context?.sales_history?.active_months || 0}m</span>
           </div>
         </div>
 
@@ -170,12 +170,12 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
         <div className="glass-panel p-6 rounded-2xl relative overflow-hidden group hover:border-slate-700 transition-colors">
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Uplift volume gap</p>
           <p className="text-3xl font-heading font-extrabold text-emerald-400 text-glow-emerald mt-2">
-            {outlet.budget_allocation?.uplift_gap_litres || context?.prediction.uplift_gap_litres ? `${Math.round(outlet.budget_allocation?.uplift_gap_litres || context?.prediction.uplift_gap_litres || 0).toLocaleString()} L` : '0 L'}
+            {outlet.budget_allocation?.uplift_gap_litres || context?.prediction?.uplift_gap_litres ? `${Math.round(outlet.budget_allocation?.uplift_gap_litres || context?.prediction?.uplift_gap_litres || 0).toLocaleString()} L` : '0 L'}
           </p>
           <div className="text-[10px] text-slate-400 mt-2 font-mono flex items-center gap-1">
             <span>Growth Space:</span>
             <span className="text-emerald-400 font-bold">
-              {(outlet.budget_allocation?.uplift_gap_litres || context?.prediction.uplift_gap_litres) && outlet.recent_3m_avg ? `+${Math.round(((outlet.budget_allocation?.uplift_gap_litres || context?.prediction.uplift_gap_litres || 0) / outlet.recent_3m_avg) * 100)}%` : '0%'}
+              {(outlet.budget_allocation?.uplift_gap_litres || context?.prediction?.uplift_gap_litres) && outlet.recent_3m_avg ? `+${Math.round(((outlet.budget_allocation?.uplift_gap_litres || context?.prediction?.uplift_gap_litres || 0) / outlet.recent_3m_avg) * 100)}%` : '0%'}
             </span>
           </div>
         </div>
