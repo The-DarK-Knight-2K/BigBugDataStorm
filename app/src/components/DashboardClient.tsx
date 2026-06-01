@@ -4,6 +4,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 import { Outlet, DashboardStats, FilterOptions } from '@/data_access/queries';
+import TooltipInfo from './TooltipInfo';
 
 // Dynamically import the Leaflet map with SSR disabled to avoid window reference errors in Next.js
 const MapComponent = dynamic(() => import('@/components/Map'), {
@@ -156,7 +157,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
       {/* KPI Cards Grid */}
       <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 transition-opacity duration-300 ${isLoadingTable ? 'opacity-50' : 'opacity-100'}`}>
         {/* Total Outlets */}
-        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-cyan-500 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300">
+        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-cyan-500 relative group hover:scale-[1.02] transition-all duration-300">
           <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">🏪</div>
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Total Outlets</p>
           <p className="text-3xl font-heading font-extrabold text-white text-glow-cyan mt-2">{stats.total_outlets}</p>
@@ -166,7 +167,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
         </div>
 
         {/* Total Predicted Liters */}
-        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-violet-500 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300">
+        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-violet-500 relative group hover:scale-[1.02] transition-all duration-300">
           <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">🛢️</div>
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Max Monthly Potential</p>
           <p className="text-3xl font-heading font-extrabold text-white mt-2">
@@ -178,7 +179,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
         </div>
 
         {/* Allocated Budget */}
-        <div className={`glass-panel p-6 rounded-2xl border-l-4 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300 ${stats.total_budget > 0 ? 'border-l-emerald-500' : 'border-l-slate-700'}`}>
+        <div className={`glass-panel p-6 rounded-2xl border-l-4 relative group hover:scale-[1.02] transition-all duration-300 ${stats.total_budget > 0 ? 'border-l-emerald-500' : 'border-l-slate-700'}`}>
           <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">💰</div>
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Western Province Budget</p>
           {stats.total_budget > 0 ? (
@@ -203,7 +204,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
         </div>
 
         {/* High Potential Tier */}
-        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-amber-500 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300">
+        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-amber-500 relative group hover:scale-[1.02] transition-all duration-300">
           <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">🔥</div>
           <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">High Potential Outlets</p>
           <p className="text-3xl font-heading font-extrabold text-white mt-2">{stats.high_potential_outlets}</p>
@@ -213,14 +214,16 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
         </div>
 
         {/* Avg Capacity Utilization */}
-        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-pink-500 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300">
+        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-pink-500 relative group hover:scale-[1.02] transition-all duration-300">
           <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">⚙️</div>
-          <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Avg Capacity Utilization</p>
+          <div className="flex items-center text-xs font-semibold uppercase tracking-wider text-slate-400">
+            Avg Capacity Utilization <TooltipInfo content="The percentage of the outlet's physical storage capacity currently being utilized." />
+          </div>
           <p className="text-3xl font-heading font-extrabold text-white mt-2">
             {stats.total_outlets > 0 ? `${Math.round((stats.avg_capacity_utilization || 0) * 100)}%` : <span className="text-2xl text-slate-500">N/A</span>}
           </p>
           <span className="text-[10px] text-pink-400 flex items-center gap-1 mt-1 font-mono">
-            <span>📈</span> Physics-based Ceiling
+            <span>📈</span> Physical Capacity Limit
           </span>
         </div>
       </div>
