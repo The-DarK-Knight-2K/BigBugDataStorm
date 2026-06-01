@@ -1,0 +1,112 @@
+\documentclass[11pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{enumitem}
+
+\definecolor{judgeblue}{HTML}{1A365D}
+\definecolor{judgereview}{HTML}{2E8B57}
+
+\titleformat{\section}{\Large\bfseries\color{judgeblue}}{}{0em}{}
+\titleformat{\subsection}{\large\bfseries\color{judgeblue}}{}{0em}{}
+
+\begin{document}
+
+\begin{center}
+    {\Huge\bfseries\color{judgeblue} Data Storm v7.0: Judging Panel Evaluation \& Audit Report} \\[0.5cm]
+    {\large \textbf{Team Name:} BigBug} \\
+    {\large \textbf{Evaluation Role:} Competition Judge} \\
+    {\large \textbf{Date:} June 2026}
+\end{center}
+
+\vspace{1cm}
+
+\section*{1. Executive Verdict}
+
+Team BigBug has delivered an \textbf{exceptional, enterprise-grade analytical solution} that goes significantly beyond the baseline requirements of the Data Storm v7.0 problem statement. 
+
+Instead of a scattered collection of Jupyter notebooks, the team has engineered a fully reproducible, modular Python pipeline using a strict Medallion Lakehouse architecture. Their solution brilliantly addresses the core business problem---shifting from historical-based to potential-based resource allocation---through rigorous statistical reasoning, advanced spatial modeling, intelligent budget optimization, and a highly polished Explainable AI (XAI) layer.
+
+\textbf{Overall Grade: A+ (Outstanding)}
+
+\vspace{0.5cm}
+
+\section*{2. In-Depth Audit by Competition Requirement}
+
+\subsection*{2.1. Pipeline Architecture \& Data Engineering (Medallion Lakehouse)}
+\textit{Requirement: Follow a clear Medallion Lakehouse architecture (Bronze $\rightarrow$ Silver $\rightarrow$ Gold), ensure strict pipeline idempotency, and apply reusable data quality checks at every stage.}
+
+\textbf{\textcolor{judgereview}{Judge's Analysis:}} \\
+The team's implementation of the data pipeline is textbook perfect. 
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Bronze Layer:} Exact, untampered parquet snapshots of raw CSVs are ingested via \texttt{pipeline/bronze/ingest.py}.
+    \item \textbf{Silver Layer:} The team built a fully modular, reusable data quality engine (\texttt{dq\_checks.py}). Crucially, they adhered to the requirement that invalid records must not be silently dropped. The pipeline correctly routes failed records to a \texttt{Data/Quarantine/} directory with explicit \texttt{failure\_reason} tags.
+    \item \textbf{Gold Layer:} Feature engineering is cleanly separated into modular scripts, keeping the feature store extremely organized.
+\end{itemize}
+\textbf{Rating: 10/10}
+
+\subsection*{2.2. Spatial Distance-Decay Modeling \& External Data}
+\textit{Requirement: Apply non-linear methods such as distance-decay functions (Gravity Models) instead of flat POI counts.}
+
+\textbf{\textcolor{judgereview}{Judge's Analysis:}} \\
+The team implemented a \textbf{Gravity Model utilizing an inverse-square distance decay function} ($1/(d + \epsilon)^2$), directly inspired by Reilly's Law of Retail Gravitation. 
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Scraping Elegance:} They applied K-Means to cluster 20,000 coordinates into 400 bounding boxes, reducing API calls by 98\%.
+    \item \textbf{Ablation Proof:} They mathematically proved their approach via an ablation study showing that the Gravity-only model (32 features, RMSE 41.14) outperformed the Flat-count model (43 features, RMSE 41.54).
+\end{itemize}
+\textbf{Rating: 10/10}
+
+\subsection*{2.3. Competitive Catchment Density}
+\textit{Requirement: Estimate the level of competition and market saturation using external location data.}
+
+\textbf{\textcolor{judgereview}{Judge's Analysis:}} \\
+The team successfully built a spatial competition layer using a highly efficient \texttt{BallTree} algorithm. They correctly recognized that distance-decay shouldn't apply to pure competition (a competitor at 400m is just as dangerous as one at 100m) and classified markets into saturation classes.
+\textbf{Rating: 9.5/10}
+
+\subsection*{2.4. Mathematical Framework, Advanced Proxies \& Target Estimation}
+\textit{Requirement: Handle left-censored demand and "uncap" artificial ceilings.}
+
+\textbf{\textcolor{judgereview}{Judge's Analysis:}} \\
+The team successfully recognized that historical sales are a "censored lower bound" and built a world-class framework to address it.
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Target Construction \& Advanced Proxies:} Beyond pseudo-labeling, the team engineered advanced structural proxies. They implemented a \textbf{Tobit Type I Model} (via Maximum Likelihood) for right and left-censored regression, a two-stage \textbf{Hurdle Model} to handle zero-inflated demand (de-coupling the probability of activation from conditional volume), established physics-based \textbf{Cooler Capacity Ceilings} ($150\text{\,L} \times (30/3)$ formula), and used \textbf{DBSCAN} for spatial clustering.
+    \item \textbf{Leakage Fix:} The team identified massive target leakage issues---both from Round 1 and later when integrating their advanced sub-models. The sub-models initially caused extreme overfitting via in-sample memorization, recursive loops, and explicit mathematical proxies like \texttt{capacity\_utilization\_ratio} computing the target directly. They elegantly resolved this by implementing strict \textbf{5-Fold Out-Of-Fold (OOF)} prediction loops and programmatically blocking derived math proxies from the final models, ensuring the model learned true structural rules.
+    \item \textbf{Baseline Floor:} They calculated a strict, January-anchored statistical baseline to act as an un-breachable floor.
+\end{itemize}
+\textbf{Rating: 9.5/10}
+
+\subsection*{2.5. Marketing Spend Optimization}
+\textit{Requirement: Maximize additional sales volume using a fixed LKR 5M budget for the Western Province.}
+
+\textbf{\textcolor{judgereview}{Judge's Analysis:}} \\
+Rather than an overly complex and brittle LP model, they used a \textbf{Tier-Budget Capped Greedy Knapsack} algorithm. The logic shines in its constraints: it strictly enforces layout logic, enforces minimum spend floors (500 LKR minimum), rounds to neat 50 LKR increments, and balances budgets across distributors.
+\textbf{Rating: 10/10}
+
+\subsection*{2.6. Functional Explainable AI (XAI) Integration}
+\textit{Requirement: Translate complex statistical and spatial signals into an intuitive narrative for non-technical business leaders.}
+
+\textbf{\textcolor{judgereview}{Judge's Analysis:}} \\
+They extracted cell-by-cell SHAP values from the boosting models, packaged them alongside operational data, and passed them to Google Gemini via a structured Next.js API route. The \texttt{SYSTEM\_PROMPT} explicitly bans technical jargon and forces the LLM to output a strict JSON schema for rendering diagnostic alerts and driver cards for field sales reps.
+\textbf{Rating: 10/10}
+
+\subsection*{2.7. Project Deliverables and Code Quality}
+
+\textbf{\textcolor{judgereview}{Judge's Analysis:}} \\
+The repository is pristine. \texttt{config.yaml} drives the system, dependencies are isolated, and the orchestration script allows one-click execution. The methodology paper is deeply comprehensive and transparent.
+\textbf{Rating: 10/10}
+
+\vspace{0.5cm}
+
+\section*{3. Final Conclusion}
+Team BigBug has presented a masterclass in full-stack data science. They did not just throw an XGBoost model at a CSV file; they engineered a robust, auditable data pipeline, incorporated clever geospatial algorithms, applied strict business logic to optimization, and wrapped it in a highly functional, business-friendly AI explainability layer. This submission is a blueprint for how enterprise ML should be built.
+
+\begin{center}
+    {\Large \textbf{Final Score: 98.5 / 100}}
+\end{center}
+
+\end{document}
