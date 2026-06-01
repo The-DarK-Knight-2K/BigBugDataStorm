@@ -65,32 +65,33 @@ For a quick deep dive, we recommend reading these high-value files first:
 
 | Document | Focus | Path |
 | :--- | :--- | :--- |
-| **Methodology Technical Paper** | Primary final report explaining math, pipeline & results | [methodology_technical_paper.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/report/round_2/methodology_technical_paper.md) |
-| **Model Results & Tuning** | Optuna trials, ensembles, and baseline comparisons | [tuning_and_ensemble_report.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/modelling/tuning_and_ensemble_report.md) |
-| **Budget Optimization Strategy** | Knapsack math and allocations under strict boundaries | [budget_optimization_strategy.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/report/round_2/budget_optimization_strategy.md) |
-| **UI Master Plan** | Next.js architecture and Gemini-based XAI explanations | [master_plan.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/web_app/master_plan.md) |
-| **Data Forensics & POI Caching** | OpenStreetMap (OSM) spatial scraping strategies & cleaning | [data_forensics_and_decisions.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/report/round_1/data_forensics_and_decisions.md) |
+| **Methodology Technical Paper** | Primary final report explaining math, pipeline & results | [methodology_technical_paper.md](../docs/report/round_2/methodology_technical_paper.md) |
+| **Model Results & Tuning** | Optuna trials, ensembles, and baseline comparisons | [tuning_and_ensemble_report.md](../docs/modelling/tuning_and_ensemble_report.md) |
+| **Budget Optimization Strategy** | Knapsack math and allocations under strict boundaries | [budget_optimization_strategy.md](../docs/report/round_2/budget_optimization_strategy.md) |
+| **UI Master Plan** | Next.js architecture and Gemini-based XAI explanations | [master_plan.md](../docs/web_app/master_plan.md) |
+| **Data Forensics & POI Caching** | OpenStreetMap (OSM) spatial scraping strategies & cleaning | [data_forensics_and_decisions.md](../docs/report/round_1/data_forensics_and_decisions.md) |
 
 ---
 
 ## Core Sections & Descriptions
 
 ### 1. Advanced Features & Data Forensics
-*   **[scoring_gap_analysis.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/advanced_features/scoring_gap_analysis.md):** Breaks down the target metric evaluation delta and identifies optimizations to bridge gaps between regional benchmarks and model forecasts.
-*   **[target_leakage_analysis.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/advanced_features/target_leakage_analysis.md):** Critical data engineering check that confirms features derived from transactions do not leak forward-looking target information.
+*   **[scoring_gap_analysis.md](../docs/advanced_features/scoring_gap_analysis.md):** Breaks down the target metric evaluation delta and identifies optimizations to bridge gaps between regional benchmarks and model forecasts.
+*   **[target_leakage_analysis.md](../docs/advanced_features/target_leakage_analysis.md):** Critical data engineering check that confirms features derived from transactions do not leak forward-looking target information.
 
 ### 2. Modeling & Scenario Evaluation
-*   **[model_results_summary.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/modelling/model_results_summary.md):** Compiles RMSE, MAE, R², and boundary validations across baseline XGBoost, LightGBM, Random Forest, Tobit, and Hurdle regressions.
-*   **[training_scenario_results.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/modelling/training_scenario_results.md):** Reports scores from different validation configurations (K-Fold vs. Spatial Cross-Validation).
-*   **[tuning_and_ensemble_report.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/modelling/tuning_and_ensemble_report.md):** Highlights how hyperparameter tuning was conducted and how predictions were ensembled.
+*   **[model_results_summary.md](../docs/modelling/model_results_summary.md):** Compiles RMSE, MAE, R², and boundary validations across baseline XGBoost, LightGBM, Random Forest, Tobit, and Hurdle regressions.
+*   **[training_scenario_results.md](../docs/modelling/training_scenario_results.md):** Reports scores from different validation configurations (K-Fold vs. Spatial Cross-Validation).
+*   **[tuning_and_ensemble_report.md](../docs/modelling/tuning_and_ensemble_report.md):** Highlights how hyperparameter tuning was conducted and how predictions were ensembled.
 
 ### 3. Budget & Mathematical Planning
-*   **[greedy_knapsack_budget_plan.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/planning/greedy_knapsack_budget_plan.md):** Mathematical outline of the Tiered-Capped Greedy Knapsack allocation logic that maximizes ROI while strictly honors the LKR 5M cap and business rules.
-*   **[parallel_execution_plan.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/planning/parallel_execution_plan.md):** Multi-threaded strategy for spatial computing to parse BallTrees and Reilly's gravity model rapidly.
+*   **[greedy_knapsack_budget_plan.md](../docs/planning/greedy_knapsack_budget_plan.md):** Mathematical outline of the Tiered-Capped Greedy Knapsack allocation logic that maximizes ROI while strictly honors the LKR 5M cap and business rules.
+*   **[parallel_execution_plan.md](../docs/planning/parallel_execution_plan.md):** Multi-threaded strategy for spatial computing to parse BallTrees and Reilly's gravity model rapidly.
 
 ### 4. Interactive Dashboard Specifications
-*   **[master_plan.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/web_app/master_plan.md):** Outlines the client dashboard setup, SQLite database schema integration, Next.js routing, and the Gemini 2.0 API prompt strategies.
+*   **[master_plan.md](../docs/web_app/master_plan.md):** Outlines the client dashboard setup, SQLite database schema integration, Next.js routing, and the Gemini 2.0 API prompt strategies.
 
 ---
 
-*For detailed technical guidelines, architecture contracts, and exact pipeline node details, please refer to the corresponding [Specifications Hub](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/specs/README.md).*
+*For detailed technical guidelines, architecture contracts, and exact pipeline node details, please refer to the corresponding [Specifications Hub](../specs/README.md).*
+

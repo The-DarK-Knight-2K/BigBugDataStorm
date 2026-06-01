@@ -97,6 +97,9 @@ Ensure the 5 original competition CSV files (`transactions.csv`, `outlets.csv`, 
 
 #### 3. Using the Orchestrator (Recommended)
 
+> **[WARNING]**
+> **Hardware Requirement for Training:** Our models utilize GPU acceleration. If you intend to use the `--train-models` flag to retrain the pipeline from scratch, a CUDA-compatible GPU is required. Running `--train-models` on a CPU-only machine will result in a `No visible GPU is found` error (see [known_edge_cases.md](docs/reference/known_edge_cases.md)). The default fast path avoids this by using our cached, pre-trained models.
+
 Our system features an automated, idempotent orchestrator that runs the full Bronze $\rightarrow$ Silver $\rightarrow$ Gold $\rightarrow$ Modelling execution chain.
 
 ```bash
@@ -188,12 +191,27 @@ pip install pandas pyarrow sqlite3
 python scripts/populate_real_db.py
 ```
 
-#### 2. Configure Environment Variables
+#### 2. Configure Environment Variables & Model Customization
 
 Create an `app/.env.local` file and add your Gemini API Key for the GenAI XAI module:
 
 ```env
 GEMINI_API_KEY=your_gemini_api_key_here
+```
+
+##### Changing the Gemini Model
+
+By default, the application uses `'gemini-2.0-flash'` to generate explanation plans. If you wish to use a different model, you can change it directly in [route.ts](app/src/app/api/explain/[id]/route.ts#L236-L243):
+
+```typescript
+const response = await ai.models.generateContent({
+  model: "gemini-2.0-flash", // <-- Update the model string here (e.g., 'gemini-2.5-flash', 'gemini-1.5-pro')
+  contents: userPrompt,
+  config: {
+    systemInstruction: SYSTEM_PROMPT,
+    responseMimeType: "application/json",
+  },
+});
 ```
 
 #### 3. Install & Launch
@@ -232,6 +250,10 @@ The pipeline generates `outputs/dq_report.csv` documenting every quality check a
 
 ## Pre-Generated Outputs (Google Drive)
 
-If you prefer to inspect the output data directly without running the pipeline, all generated `.parquet` feature files and audit logs are available:
-
 > **Google Drive:** [Data Storm Pre-Generated Outputs Link](https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP?usp=drive_link)
+
+---
+
+## More Information
+
+For more detailed information, research reports, and technical methodology papers, please refer to the [docs/report](docs/report) folder.

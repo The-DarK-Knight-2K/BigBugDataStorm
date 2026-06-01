@@ -63,21 +63,21 @@ specs/
 ## Key Specifications & Contracts
 
 ### 1. Global Architecture & Data Contracts
-*   **[DATA_CONTRACTS.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/specs/architecture/DATA_CONTRACTS.md):** Defines the exact schemas for every level of our Medallion Lakehouse (`Raw` $\rightarrow$ `Bronze` $\rightarrow$ `Silver` $\rightarrow$ `Gold` $\rightarrow$ `Optimization`). Every column, type, and verification constraint is explicitly detailed.
-*   **[SPEC_pipeline_nodes.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/specs/architecture/SPEC_pipeline_nodes.md):** Maps how execution nodes read and write datasets, ensuring that downstream runs have absolute dependency safety.
+*   **[DATA_CONTRACTS.md](../specs/architecture/DATA_CONTRACTS.md):** Defines the exact schemas for every level of our Medallion Lakehouse (`Raw` $\rightarrow$ `Bronze` $\rightarrow$ `Silver` $\rightarrow$ `Gold` $\rightarrow$ `Optimization`). Every column, type, and verification constraint is explicitly detailed.
+*   **[SPEC_pipeline_nodes.md](../specs/architecture/SPEC_pipeline_nodes.md):** Maps how execution nodes read and write datasets, ensuring that downstream runs have absolute dependency safety.
 
 ### 2. Silver Layer Quality & Cleaning
-*   **[SPEC_dq_checks.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/specs/silver/SPEC_dq_checks.md):** Outlines our data quality framework. Outlets with malformed geolocations or severe sales outliers are safely logged and redirected to `Data/Quarantine/` instead of breaking downstream training.
-*   **[SPEC_clean_coordinates.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/specs/silver/SPEC_clean_coordinates.md):** Standardizes geolocation formats, and specifies center-imputation for shops missing precise latitude/longitude attributes.
+*   **[SPEC_dq_checks.md](../specs/silver/SPEC_dq_checks.md):** Outlines our data quality framework. Outlets with malformed geolocations or severe sales outliers are safely logged and redirected to `Data/Quarantine/` instead of breaking downstream training.
+*   **[SPEC_clean_coordinates.md](../specs/silver/SPEC_clean_coordinates.md):** Standardizes geolocation formats, and specifies center-imputation for shops missing precise latitude/longitude attributes.
 
 ### 3. Gold Layer Spatial & Capacity Features
-*   **[SPEC_gravity_model.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/specs/gold/SPEC_gravity_model.md):** Details the inverse-square gravity calculation applied to OpenStreetMap POI targets. Formulates distance-decay features:
+*   **[SPEC_gravity_model.md](../specs/gold/SPEC_gravity_model.md):** Details the inverse-square gravity calculation applied to OpenStreetMap POI targets. Formulates distance-decay features:
     $$G_i = \sum_{j} \frac{W_j}{d_{ij}^2}$$
-*   **[SPEC_cooler_features.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/specs/gold/SPEC_cooler_features.md):** Specifies boundary constraints derived from cooler sizes and distributor cycle replenishment ceilings to prevent un-scalable physical sales predictions.
+*   **[SPEC_cooler_features.md](../specs/gold/SPEC_cooler_features.md):** Specifies boundary constraints derived from cooler sizes and distributor cycle replenishment ceilings to prevent un-scalable physical sales predictions.
 
 ### 4. Intelligence App Frontend
-*   **[03_llm_integration.md](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/specs/webapp/03_llm_integration.md):** Houses prompt engineering templates and schemas that translate highly complex SHAP indices into actionable, professional **Negotiation Action Cards** for sales representatives.
+*   **[03_llm_integration.md](../specs/webapp/03_llm_integration.md):** Houses prompt engineering templates and schemas that translate highly complex SHAP indices into actionable, professional **Negotiation Action Cards** for sales representatives.
 
 ---
 
-*For high-level project goals, submission methodologies, and model score analyses, refer to the corresponding [Documentation Hub](file:///c:/Users/sithu/My%20Works/My%20Softwares/Competitions/DataStorm3_ML_DS/BigBugDataStorm/docs/README.md).*
+*For high-level project goals, submission methodologies, and model score analyses, refer to the corresponding [Documentation Hub](../docs/README.md).*
