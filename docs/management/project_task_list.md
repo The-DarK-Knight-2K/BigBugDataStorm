@@ -135,9 +135,9 @@
 
 ### `run_pipeline.py`
 
-- [ ] Create a sequential execution flow (Bronze -> Silver -> Gold -> Modelling).
-- [ ] Add dependency checks (e.g., don't run Gold if Silver fails).
-- [ ] Implement global logging and error handling.
+- [x] Create a sequential execution flow (Bronze -> Silver -> Gold -> Modelling).
+- [x] Add dependency checks (e.g., don't run Gold if Silver fails).
+- [x] Implement global logging and error handling.
 
 # **ROUND 02**
 
@@ -265,7 +265,7 @@
 
 ### `run_pipeline.py`
 
-- [ ] Build orchestrator for Round 2 scripts with idempotency logic.
+- [x] Build orchestrator for Round 2 scripts with idempotency logic.
 # WebApp Task List — Outlet Intelligence Dashboard
 
 Track progress here. Check off each item as it is completed.

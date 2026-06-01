@@ -140,12 +140,16 @@ python pipeline/run_pipeline.py
 
 # Full Run: Forces live POI scraping and trains fresh models
 python pipeline/run_pipeline.py --run-scraping --train-models
+
+# Resume execution from a specific stage
+python pipeline/run_pipeline.py --start-from 7
 ```
 
 **Available Flags:**
 - `--run-scraping`: Triggers live POI scraping via OpenStreetMap (Time-consuming).
 - `--tune-hyperparameters`: Runs Optuna hyperparameter tuning before training.
 - `--train-models`: Trains fresh XGBoost, LightGBM, and Random Forest models instead of using the cached `round2` models.
+- `--start-from <int>`: Resumes pipeline execution from a specific stage number (0-17).
 
 ---
 
@@ -257,6 +261,14 @@ $env:PYTHONPATH="."; python modelling/predict.py
 ```
 
 Loads the trained model, baseline predictions, and master features to predict the maximum monthly sales potential for all 20,000 outlets. Generates the final competition submission file: `outputs/bigbug_predictions.csv` along with a diagnostic breakdown.
+
+### Step 5: Optimization (Phase 2)
+
+```bash
+python pipeline/optimizations/optimise_budget.py
+```
+
+Distributes the 5M LKR trade marketing budget optimally across the Western Province using ROI-based prioritization. Generates the final Phase 2 submission file: `outputs/bigbug_budget_allocations.csv`.
 
 ---
 

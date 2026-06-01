@@ -54,6 +54,8 @@ python modelling/predict.py --run-id run_20260531_143000_catboost_strategyA
 ```
 *(If `--run-id` is omitted, the script attempts to load a legacy `model.pkl` from the root of the `artifacts/` folder, which is not recommended for Round 2).*
 
+> **Note:** The recommended way to run inference is now via `pipeline/run_pipeline.py`. By default, the orchestrator bypasses individual `predict.py` calls and uses an ensemble of the `round2` models automatically.
+
 ---
 
 ## Setup Details
