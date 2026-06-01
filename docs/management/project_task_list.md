@@ -215,9 +215,10 @@
 - [x] Implement greedy knapsack allocation for 5M LKR budget (Western Province only).
 - [x] Distribute budget based on ROI composite scores with tier caps.
 - [x] Assign Sri Lankan specific trade spend packages (Cooler Subsidy, Promotional Discount, etc.).
-- [x] Output `bigbug_budget_allocations.csv`, `budget_diagnostics.csv` to `outputs/` and `budget_features.parquet` to `data/Optimization/`.
+- [x] Output `bigbug_budget_allocations.csv`, `budget_diagnostics.csv` to `outputs/` and `budget_features.parquet` to `data/Optimizations/`.
 - [x] Generate `roi_distribution.png` (Frequency vs ROI Score).
-- [x] Enforce Pareto principle rounding to 50 LKR multiples and strictly output Western province outlets.
+- [x] Enforce Pareto principle rounding to 50 LKR multiples and strictly output Western province targets.
+- [x] Update documentation `docs/report/round_2/budget_optimization_strategy.md`.
 
 ## Round 2: Gap Filling Advanced Optimizations
 

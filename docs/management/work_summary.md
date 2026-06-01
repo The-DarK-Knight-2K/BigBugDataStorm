@@ -92,12 +92,13 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 
 ## Phase 4: Budget Optimization
 
-39. Designed and executed `pipeline/optimizations/optimise_budget.py` to optimally allocate a 5,000,000 LKR budget across Western Province outlets using a Grid Search on ROI metrics.
-96. Refined the optimization pipeline to apply Pareto principles, rounding budget distributions to strictly 50 LKR multiples, enforcing a `<= 5,000,000 LKR` cap, and correctly routing outputs containing strictly Western province targets to the `outputs/` folder.
+39. Designed and executed `pipeline/optimizations/optimise_budget.py` to optimally allocate a 5,000,000 LKR budget across Western Province outlets using a Multi-Bucket Greedy Knapsack approach with strict Tier-Budget Caps.
+40. Refined the optimization pipeline to apply Pareto principles, rounding budget distributions to strictly 50 LKR multiples, enforcing dynamic headroom limits, and maintaining all distributor guardrails.
+41. Authored `docs/report/round_2/budget_optimization_strategy.md` detailing the final Tier-Budget Capped Knapsack approach and documenting failed strategy iterations.
 
 ## Phase 5: Pipeline Orchestration & End-to-End Execution
 
-41. **Implemented Master Orchestrator (`pipeline/run_pipeline.py`)**:
+42. **Implemented Master Orchestrator (`pipeline/run_pipeline.py`)**:
     - Developed a robust end-to-end Python script that coordinates the entire pipeline from raw CSV ingestion (Bronze) up to final budget allocation (Optimization).
     - Integrated intelligent fast-path logic: skips time-consuming POI network scraping and model training by default, utilizing idempotent caches and round 2 artifact backups, reducing execution time from ~40 minutes to < 2 minutes.
     - Added comprehensive CLI flexibility with `--run-scraping`, `--train-models`, and `--tune-hyperparameters` flags to allow ad-hoc heavy lifting.

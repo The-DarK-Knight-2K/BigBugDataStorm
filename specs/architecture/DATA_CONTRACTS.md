@@ -250,7 +250,7 @@ One row per outlet. All 20,000 outlets must be present.
 
 ---
 
-## Optimization layer — `data/Optimization/`
+## Optimization layer — `data/Optimizations/`
 
 ### `budget_features.parquet` *(Round 2 — NEW, Western Province only)*
 | Column | Type | Nullable | Notes |
