@@ -74,8 +74,8 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
       
       setXaiExplanation(data.explanation);
     } catch (err: any) {
-      console.error(err);
-      setXaiExplanation(`Error: ${err.message}. Please check if the API Key is configured correctly.`);
+      // Backend already prints exact error to terminal. We hide it from user/dev-overlay.
+      setXaiExplanation(`The AI analysis engine is currently unavailable. Please try again later.`);
     } finally {
       setXaiLoading(false);
     }

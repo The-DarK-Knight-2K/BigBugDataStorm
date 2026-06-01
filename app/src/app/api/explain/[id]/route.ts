@@ -234,7 +234,7 @@ export async function GET(
     const userPrompt = `Here is the complete outlet intelligence dossier. Analyze and produce an executive briefing:\n\n${JSON.stringify(enrichedContext, null, 2)}`;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-flash-latest',
+      model: 'gemini-2.0-flash',
       contents: userPrompt,
       config: {
         systemInstruction: SYSTEM_PROMPT,
@@ -265,15 +265,11 @@ export async function GET(
     });
   } catch (error: any) {
     console.error('Error generating AI explanation:', error);
-    // Graceful error handling for API limits or network issues
-    const isQuotaError = error?.message?.toLowerCase().includes('quota') || error?.status === 429;
     
+    // Return the exact error message to the frontend as requested
     return NextResponse.json(
-      { error: isQuotaError 
-          ? 'The AI engine is currently experiencing high demand. Please try again in a moment.' 
-          : 'An unexpected error occurred while analyzing this outlet.' 
-      },
-      { status: isQuotaError ? 429 : 500 }
+      { error: error?.message || 'Unknown error occurred during AI generation' },
+      { status: error?.status || 500 }
     );
   }
 }

@@ -4,8 +4,11 @@ import { getPaginatedOutlets, OutletFilters } from '@/data_access/queries';
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url);
   
-  const page = parseInt(searchParams.get('page') || '1');
-  const limit = parseInt(searchParams.get('limit') || '50');
+  const rawPage = parseInt(searchParams.get('page') || '1');
+  const page = isNaN(rawPage) ? 1 : Math.max(1, rawPage);
+  
+  const rawLimit = parseInt(searchParams.get('limit') || '50');
+  const limit = isNaN(rawLimit) ? 50 : Math.max(1, Math.min(100, rawLimit));
   
   const filters: OutletFilters = {
     province: searchParams.get('province') || undefined,
