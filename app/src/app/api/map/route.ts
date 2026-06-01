@@ -9,6 +9,7 @@ export async function GET(request: Request) {
     distributor_id: searchParams.get('distributor_id') || undefined,
     outlet_type: searchParams.get('outlet_type') || undefined,
     tier: searchParams.get('tier') || undefined,
+    market_saturation_class: searchParams.get('market_saturation_class') || undefined,
   };
 
   try {

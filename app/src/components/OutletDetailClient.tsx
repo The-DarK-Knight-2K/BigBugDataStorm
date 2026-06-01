@@ -11,7 +11,24 @@ const SingleMap = dynamic(() => import('./SingleMap'), { ssr: false });
 export default function OutletDetailClient({ outlet }: { outlet: OutletDetail }) {
   // Use parsed context to fill in details structured identically to the mock
   const context = outlet.parsed_context;
-  const shapValues = context?.shap_values || [];
+  
+  const shapValues = useMemo(() => {
+    if (!context) return [];
+    if (Array.isArray(context.shap_values)) {
+      return context.shap_values; // Fallback to Phase 1 format
+    }
+    // Parse Phase 2 flat format
+    return Object.entries(context)
+      .filter(([key, val]) => key !== 'outlet_id' && typeof val === 'number')
+      .map(([key, val]) => ({
+        feature: key,
+        shap_value: val,
+        direction: (val as number) >= 0 ? 'positive' : 'negative',
+        feature_value: 'Data mapped in DB'
+      }))
+      .sort((a, b) => Math.abs(b.shap_value) - Math.abs(a.shap_value))
+      .slice(0, 12);
+  }, [context]);
 
   // Dynamic interactive simulation state for the Gemini XAI Generator
   const [xaiLoading, setXaiLoading] = useState(false);
@@ -285,25 +302,25 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                 {/* Transport Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                   <span className="text-slate-400">🚍 Transport Gravity</span>
-                  <span className="text-white font-bold text-sm">{(context?.gravity_features?.transport_gravity_score || 0).toFixed(2)}</span>
+                  <span className="text-white font-bold text-sm">{((context as any)?.transport_gravity_score || context?.gravity_features?.transport_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* School Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                   <span className="text-slate-400">🏫 School Gravity</span>
-                  <span className="text-white font-bold text-sm">{(context?.gravity_features?.school_gravity_score || 0).toFixed(2)}</span>
+                  <span className="text-white font-bold text-sm">{((context as any)?.school_gravity_score || context?.gravity_features?.school_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* Worship Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                   <span className="text-slate-400">🛕 Worship Gravity</span>
-                  <span className="text-white font-bold text-sm">{((context?.gravity_features as any)?.worship_gravity_score || 0).toFixed(2)}</span>
+                  <span className="text-white font-bold text-sm">{((context as any)?.worship_gravity_score || (context?.gravity_features as any)?.worship_gravity_score || 0).toFixed(2)}</span>
                 </div>
 
                 {/* Hospitality Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                   <span className="text-slate-400">🏨 Hospitality Gravity</span>
-                  <span className="text-white font-bold text-sm">{((context?.gravity_features as any)?.hospitality_gravity_score || 0).toFixed(2)}</span>
+                  <span className="text-white font-bold text-sm">{((context as any)?.hospitality_gravity_score || (context?.gravity_features as any)?.hospitality_gravity_score || 0).toFixed(2)}</span>
                 </div>
               </div>
             </div>

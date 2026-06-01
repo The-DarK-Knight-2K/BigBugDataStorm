@@ -31,6 +31,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
   const [selectedDistributor, setSelectedDistributor] = useState('');
   const [selectedType, setSelectedType] = useState('');
   const [selectedTier, setSelectedTier] = useState('');
+  const [selectedSaturation, setSelectedSaturation] = useState('');
   
   const [page, setPage] = useState(1);
   const limit = 50;
@@ -64,8 +65,9 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
     if (selectedDistributor) params.set('distributor_id', selectedDistributor);
     if (selectedType) params.set('outlet_type', selectedType);
     if (selectedTier) params.set('tier', selectedTier);
+    if (selectedSaturation) params.set('market_saturation_class', selectedSaturation);
     return params.toString();
-  }, [selectedProvince, selectedDistributor, selectedType, selectedTier]);
+  }, [selectedProvince, selectedDistributor, selectedType, selectedTier, selectedSaturation]);
 
   // Fetch Table Data when filters or page change
   useEffect(() => {
@@ -121,20 +123,21 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
     };
     
     fetchMapAndStats();
-  }, [selectedProvince, selectedDistributor, selectedType, selectedTier, buildQueryString]);
+  }, [selectedProvince, selectedDistributor, selectedType, selectedTier, selectedSaturation, buildQueryString]);
 
   // Reset page to 1 when filters change (except first load)
   useEffect(() => {
     if (!isInitialMount.current) {
       setPage(1);
     }
-  }, [selectedProvince, selectedDistributor, selectedType, selectedTier]);
+  }, [selectedProvince, selectedDistributor, selectedType, selectedTier, selectedSaturation]);
 
   const resetFilters = () => {
     setSelectedProvince('');
     setSelectedDistributor('');
     setSelectedType('');
     setSelectedTier('');
+    setSelectedSaturation('');
     setPage(1);
   };
   
@@ -151,7 +154,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
       </div>
 
       {/* KPI Cards Grid */}
-      <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 transition-opacity duration-300 ${isLoadingTable ? 'opacity-50' : 'opacity-100'}`}>
+      <div className={`grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6 transition-opacity duration-300 ${isLoadingTable ? 'opacity-50' : 'opacity-100'}`}>
         {/* Total Outlets */}
         <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-cyan-500 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300">
           <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">🏪</div>
@@ -206,6 +209,18 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
           <p className="text-3xl font-heading font-extrabold text-white mt-2">{stats.high_potential_outlets}</p>
           <span className="text-[10px] text-amber-400 flex items-center gap-1 mt-1 font-mono">
             <span>★</span> T1 Priority Targets
+          </span>
+        </div>
+
+        {/* Avg Capacity Utilization */}
+        <div className="glass-panel p-6 rounded-2xl border-l-4 border-l-pink-500 relative overflow-hidden group hover:scale-[1.02] transition-all duration-300">
+          <div className="absolute right-4 bottom-4 text-4xl opacity-10 group-hover:scale-110 transition-transform">⚙️</div>
+          <p className="text-xs font-semibold uppercase tracking-wider text-slate-400">Avg Capacity Utilization</p>
+          <p className="text-3xl font-heading font-extrabold text-white mt-2">
+            {Math.round((stats.avg_capacity_utilization || 0) * 100)}%
+          </p>
+          <span className="text-[10px] text-pink-400 flex items-center gap-1 mt-1 font-mono">
+            <span>📈</span> Physics-based Ceiling
           </span>
         </div>
       </div>
@@ -272,10 +287,25 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
               ))}
             </select>
           </div>
+
+          {/* Market Saturation */}
+          <div className="flex flex-col gap-1.5 min-w-[140px] flex-1 sm:flex-initial">
+            <label className="text-[10px] font-semibold tracking-wider text-slate-400 uppercase">Market Saturation</label>
+            <select 
+              value={selectedSaturation}
+              onChange={(e) => setSelectedSaturation(e.target.value)}
+              className="bg-slate-900/80 border border-slate-800 text-slate-200 text-xs rounded-xl p-2.5 outline-none focus:border-cyan-500 transition-colors"
+            >
+              <option value="">All Classes</option>
+              {filterOptions.saturation_classes?.map(cls => (
+                <option key={cls} value={cls}>{cls ? cls.charAt(0).toUpperCase() + cls.slice(1) : ''}</option>
+              ))}
+            </select>
+          </div>
         </div>
 
         {/* Reset Action */}
-        {(selectedProvince || selectedDistributor || selectedType || selectedTier) && (
+        {(selectedProvince || selectedDistributor || selectedType || selectedTier || selectedSaturation) && (
           <button 
             onClick={resetFilters}
             className="text-xs text-rose-400 font-semibold border border-rose-500/20 hover:border-rose-500 hover:bg-rose-500/10 px-4 py-2.5 rounded-xl transition-all"
@@ -354,6 +384,7 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
                 <th className="px-6 py-4 text-right">Potential (L)</th>
                 <th className="px-6 py-4 text-right">Recent 3M Avg (L)</th>
                 <th className="px-6 py-4 text-center">T1 Potential Tier</th>
+                <th className="px-6 py-4 text-center">Saturation</th>
                 <th className="px-6 py-4 text-center">Actions</th>
               </tr>
             </thead>
@@ -383,6 +414,16 @@ export default function DashboardClient({ initialOutlets, initialTotalOutlets, i
                         'bg-slate-800 text-slate-500'
                       }`}>
                         {outlet.allocation_tier && outlet.allocation_tier !== 'none' ? outlet.allocation_tier : 'NONE'}
+                      </span>
+                    </td>
+                    <td className="px-6 py-4 text-center">
+                      <span className={`px-2 py-0.5 rounded text-[9px] uppercase font-extrabold tracking-wider ${
+                        outlet.market_saturation_class === 'isolated' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
+                        outlet.market_saturation_class === 'moderate' ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30' :
+                        outlet.market_saturation_class === 'dense' ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30' :
+                        'bg-slate-800 text-slate-500'
+                      }`}>
+                        {outlet.market_saturation_class || 'UNKNOWN'}
                       </span>
                     </td>
                     <td className="px-6 py-4 text-center">
