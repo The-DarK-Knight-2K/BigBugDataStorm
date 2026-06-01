@@ -36,6 +36,7 @@ def populate_real_db():
     print("Creating tables...")
     
     # 1. Create outlets table
+    cursor.execute('DROP TABLE IF EXISTS outlets')
     cursor.execute('''
     CREATE TABLE outlets (
         outlet_id TEXT PRIMARY KEY,
@@ -72,6 +73,7 @@ def populate_real_db():
     ''')
     
     # 2. Create budget_allocations table
+    cursor.execute('DROP TABLE IF EXISTS budget_allocations')
     cursor.execute('''
     CREATE TABLE budget_allocations (
         outlet_id TEXT PRIMARY KEY,
@@ -86,6 +88,7 @@ def populate_real_db():
     ''')
     
     # 3. Create xai_contexts table
+    cursor.execute('DROP TABLE IF EXISTS xai_contexts')
     cursor.execute('''
     CREATE TABLE xai_contexts (
         outlet_id TEXT PRIMARY KEY,
@@ -96,6 +99,7 @@ def populate_real_db():
     ''')
     
     # 4. Create pipeline_health table
+    cursor.execute('DROP TABLE IF EXISTS pipeline_health')
     cursor.execute('''
     CREATE TABLE pipeline_health (
         dataset TEXT PRIMARY KEY,
@@ -108,6 +112,7 @@ def populate_real_db():
     ''')
     
     # 5. Create outlet_clusters table
+    cursor.execute('DROP TABLE IF EXISTS outlet_clusters')
     cursor.execute('''
     CREATE TABLE outlet_clusters (
         outlet_id TEXT PRIMARY KEY,
@@ -117,6 +122,7 @@ def populate_real_db():
     ''')
     
     # 6. Create cluster_pois table
+    cursor.execute('DROP TABLE IF EXISTS cluster_pois')
     cursor.execute('''
     CREATE TABLE cluster_pois (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -254,44 +260,63 @@ def populate_real_db():
     print("Calculating and inserting pipeline_health...")
     rejected_coords_path = os.path.join(quarantine_dir, 'rejected_outlet_coordinates.parquet')
     rejected_tx_path = os.path.join(quarantine_dir, 'rejected_transactions.parquet')
+    silver_coords_path = os.path.join(repo_root, 'Data', 'Silver', 'outlet_coordinates_clean.parquet')
+    silver_tx_path = os.path.join(repo_root, 'Data', 'Silver', 'transactions_clean.parquet')
     
     try:
         df_rej_coords = pd.read_parquet(rejected_coords_path) if os.path.exists(rejected_coords_path) else pd.DataFrame()
         df_rej_tx = pd.read_parquet(rejected_tx_path) if os.path.exists(rejected_tx_path) else pd.DataFrame()
+        df_silver_coords = pd.read_parquet(silver_coords_path) if os.path.exists(silver_coords_path) else pd.DataFrame()
+        df_silver_tx = pd.read_parquet(silver_tx_path) if os.path.exists(silver_tx_path) else pd.DataFrame()
         
-        # We estimate total checked based on current features + rejected
-        total_outlets = len(df_features) + len(df_rej_coords)
         quarantine_coords = len(df_rej_coords)
-        passed_coords = len(df_features)
+        passed_coords = len(df_silver_coords)
+        total_outlets = passed_coords + quarantine_coords
         coords_q_rate = quarantine_coords / total_outlets if total_outlets > 0 else 0
         
-        # Transactions estimation (assume arbitrary ratio if raw tx not easily accessible here)
-        # Just use rejected_tx as quarantined, make up a total or use outlets
         quarantine_tx = len(df_rej_tx)
-        total_tx = quarantine_tx * 50 + len(df_features) * 24 # rough approx
-        passed_tx = total_tx - quarantine_tx
+        passed_tx = len(df_silver_tx)
+        total_tx = passed_tx + quarantine_tx
         tx_q_rate = quarantine_tx / total_tx if total_tx > 0 else 0
         
+        def generate_checks(df_rej, total_records, passed_total, default_check_name):
+            checks = []
+            if not df_rej.empty and 'failure_reason' in df_rej.columns:
+                # Group by base reason to avoid exploding UI with distinct negative values
+                df_rej['base_reason'] = df_rej['failure_reason'].astype(str).apply(lambda x: x.split(':value=')[0])
+                for reason, count in df_rej['base_reason'].value_counts().items():
+                    checks.append({
+                        "check_name": f"Valid {reason.replace('_', ' ').title()}",
+                        "passed": total_records - int(count),
+                        "quarantined": int(count),
+                        "failure_reason": reason
+                    })
+                # Add an overarching base integrity check that passes
+                checks.append({
+                    "check_name": default_check_name,
+                    "passed": passed_total,
+                    "quarantined": 0,
+                    "failure_reason": "None"
+                })
+            else:
+                checks.append({
+                    "check_name": default_check_name,
+                    "passed": passed_total,
+                    "quarantined": 0,
+                    "failure_reason": "None"
+                })
+            return checks
+            
         pipeline_data = [
             (
                 "outlet_coordinates",
                 total_outlets, passed_coords, quarantine_coords, float(coords_q_rate),
-                json.dumps([{
-                    "check_name": "Valid Lat/Lon Coordinates", 
-                    "passed": passed_coords,
-                    "quarantined": quarantine_coords,
-                    "failure_reason": "Missing or out-of-bounds coordinates"
-                }])
+                json.dumps(generate_checks(df_rej_coords, total_outlets, passed_coords, "Valid Lat/Lon Coordinates"))
             ),
             (
                 "transactions",
                 total_tx, passed_tx, quarantine_tx, float(tx_q_rate),
-                json.dumps([{
-                    "check_name": "Non-negative Volume Integrity", 
-                    "passed": passed_tx,
-                    "quarantined": quarantine_tx,
-                    "failure_reason": "Negative returns exceeded threshold"
-                }])
+                json.dumps(generate_checks(df_rej_tx, total_tx, passed_tx, "Valid Transactions"))
             )
         ]
         

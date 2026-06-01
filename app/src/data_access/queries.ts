@@ -456,8 +456,13 @@ export function getBudgetAllocations(): (BudgetAllocation & { distributor_id: st
  * Get pipeline health validation results.
  */
 export function getPipelineHealth(): PipelineHealth[] {
-  const stmt = db.prepare(`SELECT * FROM pipeline_health`);
-  return stmt.all() as PipelineHealth[];
+  try {
+    const stmt = db.prepare(`SELECT * FROM pipeline_health ORDER BY dataset ASC`);
+    return stmt.all() as PipelineHealth[];
+  } catch (e) {
+    console.error("Error querying pipeline_health:", e);
+    return [];
+  }
 }
 
 // --- Spatial Queries ---
