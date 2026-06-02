@@ -181,6 +181,27 @@ _(Produces `outputs/bigbug_predictions.csv` and `outputs/bigbug_budget_allocatio
 
 The frontend is an interactive Next.js application that brings the model's outputs to life for business stakeholders and frontline sales reps.
 
+### 🖥️ Interactive Dashboard Showcase
+
+Explore the Next.js visual intelligence frontend designed for business users, field representatives, and operations managers.
+
+| 🏠 Landing Homepage | 📊 Core Sales Analytics Dashboard |
+| :---: | :---: |
+| ![Homepage](app/public/homepage.png) | ![Analytics Dashboard](app/public/analytics.png) |
+| *Modern landing portal for Team BigBug's forecasting dashboard* | *Interactive geo-mapping, outlet rankings, and catchment metrics* |
+
+| 🤖 Gemini-Powered GenAI XAI | 💰 Spend Optimization Engine |
+| :---: | :---: |
+| ![AI Analytics](app/public/AI_analytics.jpeg) | ![Budget Optimizer](app/public/budget_spend.png) |
+| *Real-time SHAP analysis interpreted into field negotiation cards* | *Greedy Knapsack LKR 5M allocation with distributor caps* |
+
+| 📈 Detailed Regional Analytics | 🩺 Data Pipeline Health Diagnostics |
+| :---: | :---: |
+| ![Analytics Details](app/public/analytics2.png) | ![Pipeline Health](app/public/pipeline_health.png) |
+| *Advanced outlet profiling and feature drift inspections* | *Live Silver-Gold Medallion health and quarantine data stats* |
+
+---
+
 #### 1. Setup the Local Database
 
 The web app runs on a highly optimized SQLite database constructed from the backend's Parquet files.
