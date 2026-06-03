@@ -126,20 +126,125 @@ LANGUAGE RULES (CRITICAL):
 - NO HALLUCINATIONS: Only cite numbers that appear in the provided data. Do NOT invent POI counts, distances, or percentages.
 - Write as if you are presenting to the CEO. Authoritative, data-backed, but plain English. Think McKinsey executive briefing.`;
 
+// Generate a deterministic fallback briefing from outlet data when Gemini is unavailable
+function generateFallbackBriefing(outletDetail: any, enrichedContext: any): string {
+  const predicted = enrichedContext.sales_performance.predicted_potential_litres;
+  const recent3m = enrichedContext.sales_performance.recent_3m_avg;
+  const gap = Math.max(0, predicted - recent3m);
+  const gapPct = recent3m > 0 ? Math.round((gap / recent3m) * 100) : 0;
+  const utilizationPct = enrichedContext.cooler_capacity.capacity_utilization_pct;
+  const saturation = enrichedContext.market_competition.saturation_class;
+  const budget = enrichedContext.budget_allocation;
+
+  // Determine diagnostic alert type
+  let alertType = 'info';
+  let alertTitle = 'ℹ️ Outlet Assessment Summary';
+  let alertMessage = `This outlet has a predicted monthly potential of ${Math.round(predicted).toLocaleString()}L against a recent 3-month average of ${Math.round(recent3m).toLocaleString()}L.`;
+
+  if (utilizationPct > 80) {
+    alertType = 'critical';
+    alertTitle = '🚨 Cooler Capacity Bottleneck Detected';
+    alertMessage = `This outlet is operating at ${utilizationPct}% cooler capacity utilization. Physical infrastructure is constraining growth. The predicted potential of ${Math.round(predicted).toLocaleString()}L cannot be achieved without additional cooler deployment.`;
+  } else if (gap > 0 && gapPct > 30) {
+    alertType = 'success';
+    alertTitle = '✅ High-Growth Opportunity Identified';
+    alertMessage = `There is a significant ${Math.round(gap).toLocaleString()}L monthly volume gap (${gapPct}% growth headroom) between current sales and predicted potential. This outlet is underperforming relative to its market opportunity.`;
+  } else if (saturation === 'dense') {
+    alertType = 'warning';
+    alertTitle = '⚠️ High Competition Market';
+    alertMessage = `This outlet operates in a densely competitive market with ${enrichedContext.market_competition.competitors_within_500m} competitors within 500m. Focus on customer retention and share-of-wallet strategies.`;
+  }
+
+  // Build driver cards
+  const driverCards: any[] = [];
+
+  if (budget) {
+    driverCards.push({
+      icon: '💰',
+      title: `Investment Opportunity — ${budget.allocation_tier.charAt(0).toUpperCase() + budget.allocation_tier.slice(1)} Priority Budget`,
+      description: `This outlet has been selected for a LKR ${Math.round(budget.trade_spend_lkr).toLocaleString()} trade spend investment targeting a ${Math.round(budget.uplift_gap_litres).toLocaleString()}L volume gap. The recommended activity is ${budget.recommended_spend_type.replace(/_/g, ' ')}, with an expected volume uplift of ${Math.round(budget.projected_volume_uplift_litres).toLocaleString()}L per month.`
+    });
+  }
+
+  driverCards.push({
+    icon: '📈',
+    title: 'Demand Gap Analysis',
+    description: `The predicted maximum monthly potential is ${Math.round(predicted).toLocaleString()}L, while the recent 3-month average sits at ${Math.round(recent3m).toLocaleString()}L — a gap of ${Math.round(gap).toLocaleString()}L (${gapPct}% growth headroom). The true demand estimate of ${Math.round(enrichedContext.demand_analysis.true_demand_estimate).toLocaleString()}L suggests historical sales data may have underrepresented actual demand.`
+  });
+
+  driverCards.push({
+    icon: '❄️',
+    title: 'Cooler Infrastructure Status',
+    description: `The outlet has a physical cooler capacity of ${Math.round(enrichedContext.cooler_capacity.physical_capacity_litres).toLocaleString()}L with a theoretical monthly ceiling of ${Math.round(enrichedContext.cooler_capacity.theoretical_monthly_ceiling).toLocaleString()}L. Current utilization is at ${utilizationPct}%${utilizationPct > 80 ? ' — this is a bottleneck that requires immediate attention' : utilizationPct < 40 ? ' — significant room for growth without additional infrastructure' : ''}.`
+  });
+
+  if (enrichedContext.market_competition.competitors_within_500m > 0) {
+    driverCards.push({
+      icon: '🏪',
+      title: 'Market Competition Landscape',
+      description: `There are ${enrichedContext.market_competition.competitors_within_500m} competitors within 500m and ${enrichedContext.market_competition.competitors_within_1km} within 1km. The market is classified as "${saturation}". ${saturation === 'dense' ? 'Focus on differentiation and customer loyalty programs.' : saturation === 'isolated' ? 'Significant opportunity to capture unserved demand in this low-competition area.' : 'A balanced competitive environment with room for strategic growth.'}`
+    });
+  }
+
+  const compositeScore = enrichedContext.location_footfall.composite_score;
+  if (compositeScore > 0) {
+    driverCards.push({
+      icon: '🚍',
+      title: 'Location & Foot Traffic',
+      description: `The outlet benefits from a location traffic score of ${compositeScore.toFixed(1)}.${enrichedContext.location_footfall.transport_impact > 1 ? ' Strong transit hub proximity drives regular foot traffic.' : ''}${enrichedContext.location_footfall.school_impact > 1 ? ' Nearby educational facilities contribute to daily customer flow.' : ''}${enrichedContext.location_footfall.worship_impact > 1 ? ' Proximity to places of worship generates periodic high-traffic events.' : ''}`
+    });
+  }
+
+  // Build action checklist
+  const actions: string[] = [];
+
+  if (budget) {
+    actions.push(`Deploy the LKR ${Math.round(budget.trade_spend_lkr).toLocaleString()} ${budget.recommended_spend_type.replace(/_/g, ' ')} to unlock the estimated ${Math.round(budget.uplift_gap_litres).toLocaleString()}L monthly volume gap.`);
+  }
+
+  if (utilizationPct > 80) {
+    actions.push(`Prioritize cooler infrastructure expansion — current ${utilizationPct}% utilization is physically constraining volume growth.`);
+  }
+
+  if (gap > 0) {
+    actions.push(`Target the ${Math.round(gap).toLocaleString()}L demand gap with optimized delivery scheduling and stock availability improvements.`);
+  }
+
+  if (saturation === 'dense') {
+    actions.push(`Implement customer retention tactics (loyalty incentives, competitive pricing) given the dense competitive environment with ${enrichedContext.market_competition.competitors_within_500m} nearby competitors.`);
+  } else if (saturation === 'isolated') {
+    actions.push(`Expand outreach to capture unserved demand in this low-competition area — consider increased visibility and promotional activity.`);
+  }
+
+  actions.push(`Review and verify outlet performance against the ${Math.round(predicted).toLocaleString()}L target in the next monthly sales review cycle.`);
+
+  const fallback = {
+    diagnostic_alert: {
+      type: alertType,
+      title: alertTitle,
+      message: alertMessage
+    },
+    driver_cards: driverCards.slice(0, 5),
+    action_checklist: actions.slice(0, 5)
+  };
+
+  return JSON.stringify(fallback);
+}
+
 export async function GET(
   request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
   try {
     const { id } = await params;
-    
+
     // Check if user is forcing a regeneration
     const url = new URL(request.url);
     const force = url.searchParams.get('force') === 'true';
 
     // 1. Fetch from DB
     const contextRow = getXAIContext(id);
-    
+
     if (!contextRow) {
       return NextResponse.json(
         { error: 'Outlet context not found in database.' },
@@ -168,7 +273,7 @@ export async function GET(
 
     // Build enriched context: combine outlet business metrics + budget + top SHAP drivers
     const outletDetail = getOutletDetails(id);
-    
+
     // Parse top model drivers from raw SHAP context
     let modelTopDrivers: { feature: string; impact_litres: string }[] = [];
     try {
@@ -233,27 +338,35 @@ export async function GET(
 
     const userPrompt = `Here is the complete outlet intelligence dossier. Analyze and produce an executive briefing:\n\n${JSON.stringify(enrichedContext, null, 2)}`;
 
-    const response = await ai.models.generateContent({
-      model: 'gemini-2.0-flash',
-      contents: userPrompt,
-      config: {
-        systemInstruction: SYSTEM_PROMPT,
-        responseMimeType: "application/json",
-      },
-    });
+    let cleanedJson: string;
 
-    const generatedText = response.text || '';
-
-    // Validate and sanitize JSON before caching
-    let cleanedJson = generatedText.replace(/```json\n?|\n?```/g, '').trim();
     try {
-      JSON.parse(cleanedJson);
-    } catch (parseError) {
-      console.error('Gemini returned invalid JSON structure:', generatedText);
-      return NextResponse.json(
-        { error: 'The AI engine generated an invalid response format. Please try again.' },
-        { status: 502 }
-      );
+      const response = await ai.models.generateContent({
+        model: 'gemini-2.0-flash',
+        contents: userPrompt,
+        config: {
+          systemInstruction: SYSTEM_PROMPT,
+          responseMimeType: "application/json",
+        },
+      });
+
+      const generatedText = response.text || '';
+
+      // Validate and sanitize JSON before caching
+      cleanedJson = generatedText.replace(/```json\n?|\n?```/g, '').trim();
+      try {
+        JSON.parse(cleanedJson);
+      } catch (parseError) {
+        console.error('Gemini returned invalid JSON structure:', generatedText);
+        // Fall through to fallback
+        console.log('Falling back to deterministic briefing due to invalid Gemini response.');
+        cleanedJson = generateFallbackBriefing(outletDetail, enrichedContext);
+      }
+    } catch (apiError: any) {
+      // Handle rate limiting (429) and other API errors gracefully with a fallback
+      const status = apiError?.status || apiError?.httpStatusCode || 0;
+      console.warn(`Gemini API error (status ${status}): ${apiError?.message || 'Unknown'}. Generating fallback briefing.`);
+      cleanedJson = generateFallbackBriefing(outletDetail, enrichedContext);
     }
 
     // 4. Save to cache
@@ -265,7 +378,7 @@ export async function GET(
     });
   } catch (error: any) {
     console.error('Error generating AI explanation:', error);
-    
+
     // Return the exact error message to the frontend as requested
     return NextResponse.json(
       { error: error?.message || 'Unknown error occurred during AI generation' },
@@ -273,3 +386,4 @@ export async function GET(
     );
   }
 }
+

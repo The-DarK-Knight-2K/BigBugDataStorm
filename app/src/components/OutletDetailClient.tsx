@@ -12,7 +12,7 @@ const SingleMap = dynamic(() => import('./SingleMap'), { ssr: false });
 export default function OutletDetailClient({ outlet }: { outlet: OutletDetail }) {
   // Use parsed context to fill in details structured identically to the mock
   const context = outlet.parsed_context;
-  
+
   const shapValues = useMemo(() => {
     if (!context) return [];
     if (Array.isArray(context.shap_values)) {
@@ -34,7 +34,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
   // Dynamic interactive simulation state for the Gemini XAI Generator
   const [xaiLoading, setXaiLoading] = useState(false);
   const [xaiExplanation, setXaiExplanation] = useState<string | null>(outlet.xai_explanation);
-  
+
   // Rotating loading messages
   const loadingSteps = useMemo(() => [
     "Initializing Gemini 2.0 Flash engine...",
@@ -45,7 +45,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
     "Formulating Field Rep Negotiation Plan...",
     "Finalizing executive insights..."
   ], []);
-  
+
   const [loadingStepIdx, setLoadingStepIdx] = useState(0);
 
   useEffect(() => {
@@ -63,15 +63,15 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
 
   const generateXaiInsight = async (force: boolean = false) => {
     setXaiLoading(true);
-    
+
     try {
       const res = await fetch(`/api/explain/${outlet.outlet_id}${force ? '?force=true' : ''}`);
       const data = await res.json();
-      
+
       if (!res.ok) {
         throw new Error(data.error || 'Failed to generate explanation');
       }
-      
+
       setXaiExplanation(data.explanation);
     } catch (err: any) {
       // Backend already prints exact error to terminal. We hide it from user/dev-overlay.
@@ -176,8 +176,8 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
     <div className="space-y-8 animate-fade-in">
       {/* Header breadcrumb & back button */}
       <div>
-        <Link 
-          href="/" 
+        <Link
+          href="/"
           className="inline-flex items-center gap-2 text-xs text-slate-400 hover:text-cyan-400 transition-colors uppercase tracking-widest font-semibold"
         >
           &larr; Back to Dashboard
@@ -190,12 +190,11 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
           <div className="flex flex-wrap items-center gap-3">
             <span className="text-2xl">🏪</span>
             <h2 className="font-heading font-extrabold text-3xl tracking-tight text-white">{outlet.outlet_id}</h2>
-            <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-extrabold tracking-wider uppercase ${
-              outlet.budget_allocation?.allocation_tier === 'high' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
+            <span className={`px-2.5 py-0.5 rounded-full text-[10px] font-extrabold tracking-wider uppercase ${outlet.budget_allocation?.allocation_tier === 'high' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
               outlet.budget_allocation?.allocation_tier === 'medium' ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30' :
-              outlet.budget_allocation?.allocation_tier === 'low' ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30' :
-              'bg-slate-800 text-slate-400 border border-slate-700/50'
-            }`}>
+                outlet.budget_allocation?.allocation_tier === 'low' ? 'bg-rose-500/20 text-rose-400 border border-rose-500/30' :
+                  'bg-slate-800 text-slate-400 border border-slate-700/50'
+              }`}>
               Tier: {outlet.budget_allocation?.allocation_tier || 'NO ALLOCATION'}
             </span>
           </div>
@@ -288,7 +287,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
               <h3 className="font-heading font-bold text-lg text-white">❄️ Cooler & Capacity Ceiling</h3>
               <p className="text-slate-400 text-[11px] mt-0.5">Physical limits on maximum monthly volume.</p>
             </div>
-            
+
             <div className="space-y-3 font-mono text-xs">
               <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                 <span className="text-slate-400">Physical Capacity</span>
@@ -298,7 +297,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                 <span className="text-slate-400">Max Potential Target</span>
                 <span className="text-cyan-400 font-bold text-sm">{(outlet.theoretical_monthly_ceiling || 0).toLocaleString()} L</span>
               </div>
-              
+
               <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
                 <div className="flex justify-between items-center mb-1.5">
                   <div className="flex items-center text-slate-400 text-[10px] uppercase">
@@ -307,12 +306,11 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                   <span className="text-white font-bold">{Math.round((outlet.capacity_utilization_ratio || 0) * 100)}%</span>
                 </div>
                 <div className="w-full bg-slate-800 rounded-full h-1.5">
-                  <div 
-                    className={`h-1.5 rounded-full ${
-                      (outlet.capacity_utilization_ratio || 0) > 0.8 ? 'bg-rose-500' :
+                  <div
+                    className={`h-1.5 rounded-full ${(outlet.capacity_utilization_ratio || 0) > 0.8 ? 'bg-rose-500' :
                       (outlet.capacity_utilization_ratio || 0) > 0.5 ? 'bg-amber-500' :
-                      'bg-emerald-500'
-                    }`}
+                        'bg-emerald-500'
+                      }`}
                     style={{ width: `${Math.min((outlet.capacity_utilization_ratio || 0) * 100, 100)}%` }}
                   ></div>
                 </div>
@@ -328,7 +326,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
               <h3 className="font-heading font-bold text-lg text-white">🎯 Market & Catchment</h3>
               <p className="text-slate-400 text-[11px] mt-0.5">Market Demand & Saturation Estimates.</p>
             </div>
-            
+
             <div className="space-y-3 font-mono text-xs">
               <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                 <div className="flex items-center text-slate-400">
@@ -338,16 +336,15 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
               </div>
               <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
                 <span className="text-slate-400">Saturation Class</span>
-                <span className={`text-white font-bold text-[10px] uppercase px-2 py-1 rounded ${
-                  outlet.market_saturation_class === 'isolated' ? 'bg-emerald-500/20 text-emerald-400' :
+                <span className={`text-white font-bold text-[10px] uppercase px-2 py-1 rounded ${outlet.market_saturation_class === 'isolated' ? 'bg-emerald-500/20 text-emerald-400' :
                   outlet.market_saturation_class === 'moderate' ? 'bg-amber-500/20 text-amber-400' :
-                  outlet.market_saturation_class === 'dense' ? 'bg-rose-500/20 text-rose-400' :
-                  'bg-slate-800'
-                }`}>
+                    outlet.market_saturation_class === 'dense' ? 'bg-rose-500/20 text-rose-400' :
+                      'bg-slate-800'
+                  }`}>
                   {outlet.market_saturation_class || 'N/A'}
                 </span>
               </div>
-              
+
               <div className="grid grid-cols-2 gap-3 mt-2">
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800">
                   <div className="flex items-center text-[9px] font-bold text-slate-500 uppercase tracking-widest">
@@ -386,7 +383,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
             <h3 className="font-heading font-bold text-lg text-white">SHAP Prediction Drivers Impact</h3>
             <p className="text-slate-400 text-[11px] mt-0.5">Quantifying the impact of model features pushing the volume prediction up or down.</p>
           </div>
-          <div className="flex-1 min-h-[280px] w-full text-xs">
+          <div className="flex-1 w-full text-xs" style={{ minHeight: 280, height: 320 }}>
             {chartData.length > 0 ? (
               <ResponsiveContainer width="100%" height="100%" minHeight={280}>
                 <BarChart
@@ -395,13 +392,13 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                   margin={{ top: 10, right: 30, left: 40, bottom: 5 }}
                 >
                   <XAxis type="number" stroke="#94a3b8" fontSize={10} tickLine={false} />
-                  <YAxis 
-                    dataKey="name" 
-                    type="category" 
-                    stroke="#94a3b8" 
-                    fontSize={10} 
-                    tickLine={false} 
-                    width={120} 
+                  <YAxis
+                    dataKey="name"
+                    type="category"
+                    stroke="#94a3b8"
+                    fontSize={10}
+                    tickLine={false}
+                    width={120}
                   />
                   <Tooltip
                     content={({ active, payload }) => {
@@ -423,9 +420,9 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                   <ReferenceLine x={0} stroke="#475569" strokeDasharray="3 3" />
                   <Bar dataKey="val">
                     {chartData.map((entry: any, index: number) => (
-                      <Cell 
-                        key={`cell-${index}`} 
-                        fill={entry.val >= 0 ? 'url(#greenGradient)' : 'url(#redGradient)'} 
+                      <Cell
+                        key={`cell-${index}`}
+                        fill={entry.val >= 0 ? 'url(#greenGradient)' : 'url(#redGradient)'}
                       />
                     ))}
                   </Bar>
@@ -456,7 +453,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                 <h3 className="font-heading font-bold text-lg text-white">Spatial Analysis Scorecard</h3>
                 <p className="text-slate-400 text-[11px] mt-0.5">POI Distance Decay Gravity calculations.</p>
               </div>
-              
+
               <div className="space-y-3 font-mono text-xs">
                 {/* Transport Gravity */}
                 <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800 flex justify-between items-center">
@@ -573,16 +570,15 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
             <div className="space-y-6">
               {/* 1. Diagnostic Alert */}
               {parsedExplanation.diagnostic_alert ? (
-                <div className={`p-5 rounded-xl border flex items-start gap-4 shadow-lg ${
-                  parsedExplanation.diagnostic_alert.type === 'warning' ? 'bg-amber-900/20 border-amber-500/50 text-amber-200' :
+                <div className={`p-5 rounded-xl border flex items-start gap-4 shadow-lg ${parsedExplanation.diagnostic_alert.type === 'warning' ? 'bg-amber-900/20 border-amber-500/50 text-amber-200' :
                   parsedExplanation.diagnostic_alert.type === 'critical' ? 'bg-rose-900/20 border-rose-500/50 text-rose-200' :
-                  parsedExplanation.diagnostic_alert.type === 'success' ? 'bg-emerald-900/20 border-emerald-500/50 text-emerald-200' :
-                  'bg-cyan-900/20 border-cyan-500/50 text-cyan-200'
-                }`}>
+                    parsedExplanation.diagnostic_alert.type === 'success' ? 'bg-emerald-900/20 border-emerald-500/50 text-emerald-200' :
+                      'bg-cyan-900/20 border-cyan-500/50 text-cyan-200'
+                  }`}>
                   <div className="text-2xl shrink-0 mt-0.5">
-                    {parsedExplanation.diagnostic_alert.type === 'warning' ? '⚠️' : 
-                     parsedExplanation.diagnostic_alert.type === 'critical' ? '🚨' : 
-                     parsedExplanation.diagnostic_alert.type === 'success' ? '✅' : 'ℹ️'}
+                    {parsedExplanation.diagnostic_alert.type === 'warning' ? '⚠️' :
+                      parsedExplanation.diagnostic_alert.type === 'critical' ? '🚨' :
+                        parsedExplanation.diagnostic_alert.type === 'success' ? '✅' : 'ℹ️'}
                   </div>
                   <div>
                     <h4 className="font-bold text-base">{parsedExplanation.diagnostic_alert.title}</h4>
@@ -591,7 +587,7 @@ export default function OutletDetailClient({ outlet }: { outlet: OutletDetail })
                 </div>
               ) : parsedExplanation.raw_fallback ? (
                 <div className="bg-slate-900/50 rounded-xl border border-slate-800/60 p-5 text-sm text-slate-300">
-                   <p>{parsedExplanation.raw_fallback}</p>
+                  <p>{parsedExplanation.raw_fallback}</p>
                 </div>
               ) : null}
 

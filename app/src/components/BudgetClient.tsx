@@ -16,12 +16,12 @@ export interface BudgetSummaryData {
   }>;
 }
 
-export default function BudgetClient({ 
-  allocations, 
-  budgetSummary 
-}: { 
-  allocations: (BudgetAllocation & { distributor_id: string; outlet_type: string })[], 
-  budgetSummary: BudgetSummaryData 
+export default function BudgetClient({
+  allocations,
+  budgetSummary
+}: {
+  allocations: (BudgetAllocation & { distributor_id: string; outlet_type: string })[],
+  budgetSummary: BudgetSummaryData
 }) {
   const [selectedDistributor, setSelectedDistributor] = useState('');
   const [selectedTier, setSelectedTier] = useState('');
@@ -161,8 +161,8 @@ export default function BudgetClient({
             <h3 className="font-heading font-bold text-lg text-white">Spends Share by Distributor</h3>
             <p className="text-slate-400 text-[11px] mt-0.5">Budget split across WP regional distributors.</p>
           </div>
-          
-          <div className="h-[250px] w-full flex items-center justify-center relative">
+
+          <div className="w-full flex items-center justify-center relative" style={{ minHeight: 250, height: 250 }}>
             {donutData.length > 0 ? (
               <ResponsiveContainer width="100%" height="100%" minHeight={250}>
                 <PieChart>
@@ -194,8 +194,8 @@ export default function BudgetClient({
                       return null;
                     }}
                   />
-                  <Legend 
-                    verticalAlign="bottom" 
+                  <Legend
+                    verticalAlign="bottom"
                     height={36}
                     iconType="circle"
                     formatter={(value) => <span className="text-[11px] text-slate-300 font-mono">{value}</span>}
@@ -218,8 +218,8 @@ export default function BudgetClient({
             <h3 className="font-heading font-bold text-lg text-white">Expected Volume Lift by Territory</h3>
             <p className="text-slate-400 text-[11px] mt-0.5">Expected sales volume growth from recommended spending.</p>
           </div>
-          
-          <div className="h-[250px] w-full text-xs">
+
+          <div className="w-full text-xs" style={{ minHeight: 250, height: 250 }}>
             {barData.length > 0 ? (
               <ResponsiveContainer width="100%" height="100%" minHeight={250}>
                 <BarChart data={barData} margin={{ top: 10, right: 10, left: 10, bottom: 5 }}>
@@ -267,7 +267,7 @@ export default function BudgetClient({
             <h3 className="font-heading font-bold text-lg text-white">Spend Recommendation Accounts</h3>
             <p className="text-slate-400 text-[11px] mt-0.5">Filter specific trade programs and outlet-level spend.</p>
           </div>
-          
+
           {/* Interactive filter dropdowns */}
           <div className="flex flex-wrap items-center gap-4">
             <div className="flex items-center gap-2">
@@ -283,7 +283,7 @@ export default function BudgetClient({
                 ))}
               </select>
             </div>
-            
+
             <div className="flex items-center gap-2">
               <span className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">Tier:</span>
               <select
@@ -342,11 +342,10 @@ export default function BudgetClient({
                       LKR {Math.round(outlet.trade_spend_allocation_lkr || 0).toLocaleString()}
                     </td>
                     <td className="px-6 py-4 text-center">
-                      <span className={`px-2 py-0.5 rounded text-[9px] uppercase font-extrabold tracking-wider ${
-                        outlet.allocation_tier === 'high' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
+                      <span className={`px-2 py-0.5 rounded text-[9px] uppercase font-extrabold tracking-wider ${outlet.allocation_tier === 'high' ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30' :
                         outlet.allocation_tier === 'medium' ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30' :
-                        'bg-rose-500/20 text-rose-400 border border-rose-500/30'
-                      }`}>
+                          'bg-rose-500/20 text-rose-400 border border-rose-500/30'
+                        }`}>
                         {outlet.allocation_tier}
                       </span>
                     </td>
