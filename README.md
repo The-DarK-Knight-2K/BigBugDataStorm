@@ -222,7 +222,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 ##### Changing the Gemini Model
 
-By default, the application uses `'gemini-2.0-flash'` to generate explanation plans. If you wish to use a different model, you can change it directly in [route.ts](app/src/app/api/explain/[id]/route.ts#L236-L243):
+By default, the application uses `'gemini-2.0-flash'` to generate explanation plans. If you wish to use a different model, you can change it directly in [route.ts](app/src/app/api/explain/[id]/route.ts#L340-L347):
 
 ```typescript
 const response = await ai.models.generateContent({
@@ -234,6 +234,11 @@ const response = await ai.models.generateContent({
   },
 });
 ```
+
+##### Automatic Fallback Briefing (API Quota Resilience)
+
+If the Gemini API is unavailable (e.g., free-tier quota exhausted, 429 rate-limiting, or network errors), the application **automatically generates a deterministic fallback briefing** built entirely from the outlet's existing data — no API call required. The fallback produces the same JSON schema (diagnostic alert, driver cards, action checklist) using rule-based logic derived from the outlet's sales performance, cooler capacity, market competition, and budget allocation data. Fallback responses are cached in SQLite identically to Gemini-generated ones, so subsequent visits serve instantly. See [`generateFallbackBriefing()`](app/src/app/api/explain/[id]/route.ts#L129-L234) for the implementation.
+
 
 #### 3. Install & Launch
 
