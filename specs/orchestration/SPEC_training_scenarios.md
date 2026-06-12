@@ -36,9 +36,9 @@ STRATEGIES = {
 Running different scenarios:
 
 ```bash
-python modelling/train.py --strategy strategyA --algorithm catboost
+python modelling/train.py --strategy strategyA --algorithm lightgbm
 python modelling/train.py --strategy strategyA --algorithm xgboost
-python modelling/train.py --strategy strategyC --algorithm catboost
+python modelling/train.py --strategy strategyC --algorithm lightgbm
 ```
 
 ---

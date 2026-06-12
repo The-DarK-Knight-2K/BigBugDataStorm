@@ -90,7 +90,7 @@ graph TD
 
 ### 🔬 Q&A: Composite weight reasoning — are these made up? Are we using other scores?
 
-**Yes, we are generating ALL 6 individual gravity scores** (`school`, `market`, `hospital`, `transport`, `worship`, `hospitality`) as separate columns in `gravity_features.parquet`. These will all be fed into CatBoost so it can independently learn which categories drive sales.
+**Yes, we are generating ALL 6 individual gravity scores** (`school`, `market`, `hospital`, `transport`, `worship`, `hospitality`) as separate columns in `gravity_features.parquet`. These will all be fed into LightGBM so it can independently learn which categories drive sales.
 
 **The weights for the `composite_gravity_score` encode a domain hypothesis optimized for beverage sales:**
 | Category | Weight | Business rationale |
@@ -149,7 +149,7 @@ Catchment density measures market saturation (density/counts), not influence (gr
 
 ---
 
-## Node 3 — Re-train CatBoost with Gravity + Catchment Features
+## Node 3 — Re-train LightGBM with Gravity + Catchment Features
 
 > **Why:** The existing model uses 41 flat-count features. Adding 7 gravity scores + catchment features will improve the model.
 
@@ -177,13 +177,13 @@ This forces the model to predict potential from *structural drivers* (location, 
 
 ### 🔬 Q&A: Hardware for Training (ASUS TUF RTX 5070 GPU)?
 
-**Yes! That hardware is incredibly powerful and more than enough.** An RTX 5070 will train CatBoost on 20K rows in a matter of *seconds*. There is absolutely no need to use Google Colab.
+**Yes! That hardware is incredibly powerful and more than enough.** An RTX 5070 will train LightGBM on 20K rows in a matter of *seconds*. There is absolutely no need to use Google Colab.
 
-**How to use the GPU in CatBoost:**
-Simply add `task_type="GPU"` to your CatBoostRegressor parameters.
+**How to use the GPU in LightGBM:**
+Simply add `device_type="gpu"` to your LGBMRegressor parameters.
 ```python
-model = CatBoostRegressor(
-    task_type="GPU",
+model = LGBMRegressor(
+    device_type="gpu",
     random_seed=42,
     # ... other params ...
 )
@@ -194,7 +194,7 @@ model = CatBoostRegressor(
 **Do not overwrite `model.pkl` every time.** We need a robust architecture to track history.
 
 **Implementation (in `train.py`):**
-1. Generate a timestamp for the run: `run_id = f"run_{datetime.now().strftime('%Y%m%d_%H%M%S')}_catboost"`
+1. Generate a timestamp for the run: `run_id = f"run_{datetime.now().strftime('%Y%m%d_%H%M%S')}_lightgbm"`
 2. Create a dedicated folder: `modelling/artifacts/runs/{run_id}/`
 3. Save `model.pkl`, `cv_results.json`, and `feature_importance.png` inside that folder.
 4. Maintain a master log file: `modelling/artifacts/run_registry.csv`. Append a row for every run with `Run_ID, Algorithm, CV_RMSE, Features_Used, Timestamp`.

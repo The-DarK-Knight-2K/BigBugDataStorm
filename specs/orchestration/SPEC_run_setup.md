@@ -21,17 +21,17 @@ python modelling/train.py --strategy <STRATEGY> --algorithm <ALGORITHM> [--shap]
 - `strategyA_flat_only`: Strategy A minus all gravity scores.
 
 **Available Algorithms:**
-- `catboost` (Default, highly recommended, handles categorical natively)
+- `lightgbm` (Default for SHAP, highly recommended, handles categorical natively)
 - `xgboost`
 - `lightgbm`
 
 **Example:**
 ```bash
-python modelling/train.py --strategy strategyA --algorithm catboost --shap --notes "CatBoost with Strategy A to extract SHAP values"
+python modelling/train.py --strategy strategyA --algorithm lightgbm --shap --notes "LightGBM with Strategy A to extract SHAP values"
 ```
 
 ### 2. Run Tracking
-Every time you execute `train.py`, a new run ID is generated (e.g., `run_20260531_143000_catboost_strategyA`).
+Every time you execute `train.py`, a new run ID is generated (e.g., `run_20260531_143000_lightgbm_strategyA`).
 All artifacts for that run are saved into `modelling/artifacts/runs/<run_id>/`:
 - `model.pkl`: The serialized model.
 - `cv_results.json`: Cross-validation scores (RMSE, MAE).
@@ -50,7 +50,7 @@ python modelling/predict.py --run-id <RUN_ID>
 
 **Example:**
 ```bash
-python modelling/predict.py --run-id run_20260531_143000_catboost_strategyA
+python modelling/predict.py --run-id run_20260531_143000_lightgbm_strategyA
 ```
 *(If `--run-id` is omitted, the script attempts to load a legacy `model.pkl` from the root of the `artifacts/` folder, which is not recommended for Round 2).*
 
@@ -61,8 +61,8 @@ python modelling/predict.py --run-id run_20260531_143000_catboost_strategyA
 ## Setup Details
 
 ### GPU Enablement
-If using CatBoost or XGBoost, GPU training is configured by default via `config.yaml`.
-For CatBoost, ensure `task_type: "GPU"` and `devices: "0"` are present under `modelling.catboost_params`.
+If using LightGBM or XGBoost, GPU training is configured by default via `config.yaml`.
+For LightGBM, ensure `device_type: "gpu"` is present under `modelling.lightgbm_params`.
 
 ### SHAP Values
 The XAI pipeline in Phase 3 requires SHAP values. By passing `--shap` to `train.py`, a `TreeExplainer` will compute cell-by-cell drivers for all 20,000 outlets and export them to `Data/Gold/shap_values.parquet`.

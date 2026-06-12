@@ -21,9 +21,9 @@ graph TD
     
     MF2 --> TR["train.py\n(Multi-Algorithm Trainer)"]
     
-    TR --> CB["CatBoost Model\n(Champion)"]
+    TR --> LG["LightGBM Model\n(SHAP Source)"]
     TR --> XG["XGBoost Model"]
-    TR --> LG["LightGBM Model"]
+    TR --> RF["RandomForest Model"]
     TR --> RF["RandomForest Model"]
     
     TR --> SHAP["shap_values.parquet\n(Per-outlet explainability)"]
@@ -1127,9 +1127,8 @@ graph TD
 ```mermaid
 graph LR
     subgraph "Gradient Boosting (GPU-Accelerated)"
-        CB["CatBoost ★\nChampion\nNative categoricals\nOptuna-tuned"]
+        LG["LightGBM 🏆\nSHAP Engine\nHandles categoricals natively"]
         XG["XGBoost\nFastest GPU training\nAFT objective available"]
-        LG["LightGBM\nLeaf-wise growth\nFastest training"]
     end
     
     subgraph "Ensemble Diversity"
@@ -1141,12 +1140,12 @@ graph LR
 
 | Algorithm | Key Strength | GPU Support | Handles Categoricals Natively | Production Role |
 |:---|:---|:---|:---|:---|
-| **CatBoost** | Best CV RMSE (40.38), native categoricals, ordered boosting | Yes (CUDA) | Yes | Champion model, SHAP extraction |
+| **LightGBM** | Fast training, leaf-wise growth | Yes (GPU) | Yes (category type) | Ensemble member (0.4) & SHAP extraction |
 | **XGBoost** | Fast GPU training, AFT objective for Tobit model | Yes (CUDA) | No (needs encoding) | Ensemble member (weight 0.4) |
-| **LightGBM** | Fastest training, leaf-wise growth | Yes (GPU) | Partial (category type) | Ensemble member (weight 0.4) |
 | **RandomForest** | Bagging instead of boosting — adds ensemble diversity | No (CPU) | No (needs encoding) | Ensemble member (weight 0.2) |
+| **CatBoost** | Best CV RMSE in Round 1 (40.38) | Yes (CUDA) | Yes | Colab experiments (Abandoned locally due to GPU bug) |
 
-### CatBoost Champion Configuration (Optuna-Tuned)
+### LightGBM Champion Configuration (Optuna-Tuned)
 
 | Parameter | Value | Meaning |
 |:---|:---|:---|
@@ -1208,7 +1207,7 @@ When the `--shap` flag is passed, the pipeline extracts per-outlet SHAP values u
 
 ```mermaid
 graph TD
-    A["Trained Model\n(e.g., CatBoost)"] --> B["SHAP TreeExplainer"]
+    A["Trained Model\n(e.g., LightGBM)"] --> B["SHAP TreeExplainer"]
     B --> C["For each of 20,000 outlets:\nCompute per-feature\ncontribution to prediction"]
     C --> D["shap_values.parquet\n(20,000 rows × N feature columns)"]
     D --> E["Used by:\n1. Feature importance ranking\n2. XAI briefings (Gemini)\n3. Per-outlet driver analysis"]
@@ -1222,7 +1221,7 @@ Every training run creates a timestamped directory with full artifacts:
 
 ```
 modelling/artifacts/runs/
-├── run_20260601_143012_catboost_strategyA_gravity_only/
+└── run_20260531_211951_lightgbm_strategyA_gravity_only/
 │   ├── model.pkl              (Serialized model + feature list + algorithm name)
 │   ├── cv_results.json        (Per-fold RMSE/MAE + means + stds)
 │   ├── feature_importance.csv (All features ranked by gain)

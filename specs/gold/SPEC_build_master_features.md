@@ -214,7 +214,7 @@ log.info("Rounded %d float columns to 4 decimal places (all float64)", len(float
 > string categories (`Outlet_Type`, `Outlet_Size`, `province`,
 > `seasonality_jan_2026`). Encoding is deferred to `train.py` via a
 > Preprocessor class so the same Gold table can serve LightGBM, XGBoost,
-> CatBoost, and Random Forest without modification.
+> LightGBM, XGBoost, and Random Forest without modification.
 > See `docs/modelling_and_pipeline/optimizations/optimizations_implemented.md` Section 3 for details.
 
 ### Step 9 — Write output

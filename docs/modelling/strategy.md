@@ -9,11 +9,11 @@ These are critical for the pipeline to function correctly and to score well on t
 1. **Remove Target Leakage (Strategy A)**
    - **What:** Add `hist_p90_monthly`, `jan_avg_volume`, and similar direct historical target proxies to `EXCLUDE_COLS`.
    - **Why:** Forces the model to use POI and Gravity features. If you skip this, your spatial features will have 0% importance.
-   - **Algorithm:** CatBoost (GPU)
+   - **Algorithm:** LightGBM (GPU)
 
 2. **Add Individual Gravity Scores**
    - **What:** Include all 6 individual gravity scores (`school`, `hospital`, `transport`, `market`, `worship`, `hospitality`) in the feature set, not just the composite.
-   - **Why:** CatBoost will naturally figure out which POI categories matter most for beverage sales.
+   - **Why:** LightGBM will naturally figure out which POI categories matter most for beverage sales.
 
 3. **Implement Basic Run Tracking**
    - **What:** Update `train.py` to save models and results in timestamped folders (e.g., `artifacts/runs/run_YYYYMMDD_HHMM/`) instead of overwriting a single `model.pkl`. Maintain a `run_registry.csv` that logs CV RMSE, features used, and algorithm for every run.
@@ -26,11 +26,11 @@ These are critical for the pipeline to function correctly and to score well on t
 These will noticeably improve your score or provide great talking points for your final report.
 
 4. **Multi-Model Comparison**
-   - **What:** Train **XGBoost (GPU)** and **LightGBM (GPU)** alongside CatBoost using the exact same features and cross-validation splits.
+   - **What:** Train **XGBoost (GPU)** and **RandomForest** alongside LightGBM using the exact same features and cross-validation splits.
    - **Why:** Proves you didn't just blindly pick the first algorithm. It's a standard requirement for "Enterprise-Grade" data science.
 
 5. **Hyperparameter Tuning (Optuna)**
-   - **What:** Run a 50-trial Optuna study for CatBoost (and XGBoost/LightGBM) using the new spatial feature set.
+   - **What:** Run a 50-trial Optuna study for LightGBM (and XGBoost/RandomForest) using the new spatial feature set.
    - **Why:** The optimal tree depth and learning rate change when you introduce spatial features.
 
 6. **Feature Interaction Engineering (Strategy C)**
@@ -44,7 +44,7 @@ These will noticeably improve your score or provide great talking points for you
 Do these only if Phases 1-4 of the main pipeline are completely finished and working.
 
 7. **Model Ensembling (Blending)**
-   - **What:** If CatBoost and XGBoost have similar RMSE, average their predictions: `0.6 * CatBoost + 0.4 * XGBoost`.
+   - **What:** If LightGBM and XGBoost have similar RMSE, average their predictions: `0.6 * LightGBM + 0.4 * XGBoost`.
    - **Why:** Usually guarantees a 2-5% reduction in RMSE.
 
 8. **Experiment with Decay Functions (Gaussian / Exponential)**
@@ -65,7 +65,7 @@ Do these only if Phases 1-4 of the main pipeline are completely finished and wor
 
 11. **Deep Learning / Neural Networks**
     - **What:** PyTorch/TensorFlow models for tabular data.
-    - **Why:** Overkill. Tree-based models (CatBoost/XGBoost) consistently outperform NNs on small tabular datasets (20K rows) and require much less tuning.
+    - **Why:** Overkill. Tree-based models (LightGBM/XGBoost) consistently outperform NNs on small tabular datasets (20K rows) and require much less tuning.
 
 12. **Decay Functions for Catchment Density**
     - **What:** Using gravity models for competitor counts.

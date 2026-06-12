@@ -1,11 +1,11 @@
 # SPEC: train.py
 
 > [!IMPORTANT]
-> **Round 2 Architecture Upgrade:** The `train.py` script has been completely rewritten for Round 2 to support advanced Run Tracking, dynamic strategy exclusions (e.g., removing target leakages), multi-algorithm support (CatBoost, XGBoost, LightGBM), GPU acceleration, and SHAP value extraction. Please refer to `specs/orchestration/SPEC_run_setup.md` for the latest usage instructions. This spec document describes the base logic, but execution should follow the new CLI setup.
+> **Round 2 Architecture Upgrade:** The `train.py` script has been completely rewritten for Round 2 to support advanced Run Tracking, dynamic strategy exclusions (e.g., removing target leakages), multi-algorithm support (LightGBM, XGBoost, RandomForest), GPU acceleration, and SHAP value extraction. Please refer to `specs/orchestration/SPEC_run_setup.md` for the latest usage instructions. This spec document describes the base logic, but execution should follow the new CLI setup.
 
 ## Purpose
 
-Train a gradient boosting model (supports CatBoost, XGBoost, LightGBM, RandomForest via `--algorithm` flag) to predict outlet-level maximum monthly
+Train a gradient boosting model (supports LightGBM, XGBoost, RandomForest via `--algorithm` flag) to predict outlet-level maximum monthly
 purchase potential. Since there is no labelled target variable, a pseudo-label is
 constructed from the 90th percentile historical monthly volume adjusted for
 seasonality. The trained model is saved to `modelling/artifacts/runs/{run_id}/model.pkl`.
@@ -83,7 +83,7 @@ df = pd.read_parquet(GOLD / "master_features.parquet")
 
 ### Step 2 — Define feature columns
 
-Code supports 4 algorithms and uses a dynamic strategy registry with 8 strategies to define exclusion columns. Categorical encoding is handled natively by CatBoost, and via label/category encoding for XGBoost/LightGBM.
+Code supports 4 algorithms and uses a dynamic strategy registry with 8 strategies to define exclusion columns. Categorical encoding is handled natively by LightGBM, and via label/category encoding for XGBoost.
 
 ```python
 # The strategy defines which columns to exclude from training

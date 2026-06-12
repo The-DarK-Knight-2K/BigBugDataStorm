@@ -77,9 +77,9 @@ graph LR
 | **Data** | Pandas | 2.2.2 | DataFrame manipulation |
 | **Data** | NumPy | 1.26.4 | Numerical computation |
 | **File Format** | PyArrow | 16.1.0 | Parquet read/write |
-| **ML — Gradient Boosting** | CatBoost | 1.2.10 | GPU-accelerated boosting (champion model) |
 | **ML — Gradient Boosting** | XGBoost | 3.2.0 | AFT survival + boosting |
-| **ML — Gradient Boosting** | LightGBM | 4.3.0 | Fast boosting alternative |
+| **ML — Gradient Boosting** | LightGBM | 4.3.0 | GPU-accelerated boosting (SHAP engine) |
+| **ML — Gradient Boosting** | CatBoost | 1.2.10 | Colab experiments (deprecated locally) |
 | **ML — Ensemble** | Scikit-learn | 1.5.0 | KMeans, KFold, RandomForest, LogisticRegression |
 | **ML — Tuning** | Optuna | 4.8.0 | Hyperparameter optimization |
 | **ML — Explainability** | SHAP | 0.51.0 | TreeExplainer for feature attributions |
@@ -298,9 +298,9 @@ Key design:
   - `model.pkl`, `predictions.csv`, `cv_results.json`, `feature_importance.png`, `run_config.json`
   - Appended to `run_registry.csv` for experiment comparison
 
-**Config for the champion CatBoost model** (from [config.yaml](config.yaml#L38-L54)):
+**Config for the final LightGBM model** (from [config.yaml](config.yaml#L56-L65)):
 ```yaml
-algorithm: "catboost"
+algorithm: "lightgbm"
 iterations: 1289
 learning_rate: 0.0283
 depth: 5
@@ -514,7 +514,7 @@ flowchart TD
 | `poi` | 400 K-Means clusters, 2km buffer, radii: 500m/1km/2km |
 | `gravity_model` | inverse_square decay, epsilon=0.05km, max_radius=2km, weighted by POI type |
 | `cooler_constraints` | 150L per cooler, 3-day replenishment cycle, 85% fill rate |
-| `modelling` | seed=42, 5-fold CV, P90 target percentile, CatBoost champion algo |
+| `modelling` | seed=42, 5-fold CV, P90 target percentile, LightGBM/XGBoost/RF ensemble |
 | `team_name` | "bigbug" (used in output filenames) |
 
 ### Environment Variables

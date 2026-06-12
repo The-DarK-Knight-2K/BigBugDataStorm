@@ -47,8 +47,8 @@ Links - https://drive.google.com/drive/folders/1Uq_OTs4e2pElRrC3nFt3_EoDk2yUZdeP
 ## Phase 6: Modelling (Training and Prediction)
 
 24. Developed and executed `modelling/baseline.py` to compute a naive statistical baseline potential (using January seasonality and December transaction history). This defined the conservative prediction floor for unconstrained demand.
-25. Implemented `modelling/train.py` to train a CatBoost regressor on the pseudo-labelled target variable using 41 Gold-layer structural features. Set up a 5-fold cross-validation scheme that achieved a robust CV RMSE of $5.50 \pm 0.38$ (CV MAE of $2.34 \pm 0.02$), validating model stability and feature efficacy.
-26. Implemented `modelling/predict.py` to run full inference on the 20,000 outlets. Blended the CatBoost predictions with the statistical baseline potentials using a max-blend approach, clamped any non-positive values, rounded results to 2 decimal places, and generated the final competition-ready submission `outputs/bigbug_predictions.csv` along with detailed diagnostics.
+25. Implemented `modelling/train.py` to train a LightGBM regressor on the pseudo-labelled target variable using 41 Gold-layer structural features. Set up a 5-fold cross-validation scheme that achieved a robust CV RMSE of $5.50 \pm 0.38$ (CV MAE of $2.34 \pm 0.02$), validating model stability and feature efficacy.
+26. Implemented `modelling/predict.py` to run full inference on the 20,000 outlets. Blended the LightGBM predictions with the statistical baseline potentials using a max-blend approach, clamped any non-positive values, rounded results to 2 decimal places, and generated the final competition-ready submission `outputs/bigbug_predictions.csv` along with detailed diagnostics.
 
 ## Phase 7: Documentation & Reporting
 
