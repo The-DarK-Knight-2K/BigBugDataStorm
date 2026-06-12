@@ -317,7 +317,7 @@ export function getMapPoints(filters?: OutletFilters): any[][] {
     SELECT o.outlet_id, o.latitude, o.longitude, o.outlet_type, o.predicted_potential_litres, o.market_saturation_class, b.allocation_tier
     FROM outlets o
     LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
-    ${baseWhere}
+    ${baseWhere} AND o.in_sea = 0
   `;
   
   const stmt = db.prepare(query);
