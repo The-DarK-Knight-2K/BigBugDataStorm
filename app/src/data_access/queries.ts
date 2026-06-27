@@ -284,7 +284,7 @@ export async function getPaginatedOutlets(filters: OutletFilters | undefined, pa
   `;
   const dataParams = [...params, limit, (page - 1) * limit];
   const outletsRes = await db.execute({ sql: dataQuery, args: dataParams });
-  const outlets = outletsRes.rows as unknown as (Outlet & { allocation_tier?: string })[];
+  const outlets = outletsRes.rows.map(r => ({...r})) as unknown as (Outlet & { allocation_tier?: string })[];
 
   return { outlets, total: countRow.count as number };
 }
@@ -455,7 +455,7 @@ export async function getBudgetAllocations(): Promise<(BudgetAllocation & { dist
     FROM budget_allocations b
     JOIN outlets o ON b.outlet_id = o.outlet_id
   `);
-  return res.rows as unknown as (BudgetAllocation & { distributor_id: string; outlet_type: string })[];
+  return res.rows.map(r => ({...r})) as unknown as (BudgetAllocation & { distributor_id: string; outlet_type: string })[];
 }
 
 /**
@@ -464,7 +464,7 @@ export async function getBudgetAllocations(): Promise<(BudgetAllocation & { dist
 export async function getPipelineHealth(): Promise<PipelineHealth[]> {
   try {
     const res = await db.execute(`SELECT * FROM pipeline_health ORDER BY dataset ASC`);
-    return res.rows as unknown as PipelineHealth[];
+    return res.rows.map(r => ({...r})) as unknown as PipelineHealth[];
   } catch (e) {
     console.error("Error querying pipeline_health:", e);
     return [];
@@ -523,7 +523,7 @@ export async function getOutletPOIs(outletId: string): Promise<POI[]> {
   const poisRes = await db.execute({ sql: `
     SELECT * FROM cluster_pois WHERE cluster_id = ?
   `, args: [outletRow.cluster_id] });
-  const pois = poisRes.rows as unknown as POI[];
+  const pois = poisRes.rows.map(r => ({...r})) as unknown as POI[];
 
   // 3. Calculate distance and filter to 2km (2000 meters)
   const result: POI[] = [];
