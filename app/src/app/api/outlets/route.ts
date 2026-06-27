@@ -19,7 +19,7 @@ export async function GET(request: Request) {
   };
 
   try {
-    const data = getPaginatedOutlets(filters, page, limit);
+    const data = await getPaginatedOutlets(filters, page, limit);
     return NextResponse.json(data);
   } catch (error) {
     console.error("Failed to fetch outlets:", error);

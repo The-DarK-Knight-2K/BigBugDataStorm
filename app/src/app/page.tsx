@@ -1,10 +1,10 @@
 import { getPaginatedOutlets, getDashboardStats, getFilterOptions } from '@/data_access/queries';
 import DashboardClient from '@/components/DashboardClient';
 
-export default function Dashboard() {
-  const { outlets: initialOutlets, total: totalOutlets } = getPaginatedOutlets(undefined, 1, 50);
-  const initialStats = getDashboardStats();
-  const filterOptions = getFilterOptions();
+export default async function Dashboard() {
+  const { outlets: initialOutlets, total: totalOutlets } = await getPaginatedOutlets(undefined, 1, 50);
+  const initialStats = await getDashboardStats();
+  const filterOptions = await getFilterOptions();
 
   return (
     <DashboardClient 

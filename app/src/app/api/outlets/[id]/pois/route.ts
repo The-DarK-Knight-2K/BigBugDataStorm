@@ -7,7 +7,7 @@ export async function GET(
 ) {
   try {
     const { id } = await params;
-    const pois = getOutletPOIs(id);
+    const pois = await getOutletPOIs(id);
     
     if (!pois) {
       return NextResponse.json({ error: 'Failed to fetch POIs' }, { status: 500 });

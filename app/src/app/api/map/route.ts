@@ -13,7 +13,7 @@ export async function GET(request: Request) {
   };
 
   try {
-    const data = getMapPoints(filters);
+    const data = await getMapPoints(filters);
     return NextResponse.json(data);
   } catch (error) {
     console.error("Failed to fetch map points:", error);

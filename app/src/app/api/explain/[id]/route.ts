@@ -243,7 +243,7 @@ export async function GET(
     const force = url.searchParams.get('force') === 'true';
 
     // 1. Fetch from DB
-    const contextRow = getXAIContext(id);
+    const contextRow = await getXAIContext(id);
 
     if (!contextRow) {
       return NextResponse.json(
@@ -272,7 +272,7 @@ export async function GET(
     const ai = new GoogleGenAI({ apiKey });
 
     // Build enriched context: combine outlet business metrics + budget + top SHAP drivers
-    const outletDetail = getOutletDetails(id);
+    const outletDetail = await getOutletDetails(id);
 
     // Parse top model drivers from raw SHAP context
     let modelTopDrivers: { feature: string; impact_litres: string }[] = [];
@@ -370,7 +370,7 @@ export async function GET(
     }
 
     // 4. Save to cache
-    updateXaiExplanation(id, cleanedJson);
+    await updateXaiExplanation(id, cleanedJson);
 
     return NextResponse.json({
       explanation: cleanedJson,

@@ -1,8 +1,8 @@
 import { getBudgetAllocations } from '@/data_access/queries';
 import BudgetClient, { BudgetSummaryData } from '@/components/BudgetClient';
 
-export default function BudgetDashboard() {
-  const allAllocations = getBudgetAllocations();
+export default async function BudgetDashboard() {
+  const allAllocations = await getBudgetAllocations();
   const allocations = allAllocations.filter(a => a.allocation_tier !== 'none' && (a.trade_spend_allocation_lkr || 0) > 0);
 
   // Dynamically calculate the aggregated stats on the server

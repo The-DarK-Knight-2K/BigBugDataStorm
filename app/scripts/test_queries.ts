@@ -3,21 +3,21 @@ import { getDashboardStats, getPaginatedOutlets, getOutletDetails, getBudgetAllo
 async function test() {
   console.log("=== Testing DB Queries ===");
   try {
-    const stats = getDashboardStats();
+    const stats = await getDashboardStats();
     console.log("Dashboard Stats:", stats);
 
-    const { outlets } = getPaginatedOutlets(undefined, 1, 5);
+    const { outlets } = await getPaginatedOutlets(undefined, 1, 5);
     console.log(`Outlets (first ${outlets.length}):`, outlets);
 
     if (outlets.length > 0) {
-      const details = getOutletDetails(outlets[0].outlet_id);
+      const details = await getOutletDetails(outlets[0].outlet_id);
       console.log(`Details for ${outlets[0].outlet_id}:`, details ? "Found" : "Not Found");
     }
 
-    const budgets = getBudgetAllocations();
+    const budgets = await getBudgetAllocations();
     console.log(`Budget Allocations count: ${budgets.length}`);
 
-    const health = getPipelineHealth();
+    const health = await getPipelineHealth();
     console.log(`Pipeline Health checks: ${health.length}`);
     
     console.log("ALL SUCCESS!");

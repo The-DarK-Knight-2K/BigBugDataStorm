@@ -13,7 +13,7 @@ export async function GET(request: Request) {
   };
 
   try {
-    const data = getDashboardStats(filters);
+    const data = await getDashboardStats(filters);
     return NextResponse.json(data);
   } catch (error) {
     console.error("Failed to fetch dashboard stats:", error);

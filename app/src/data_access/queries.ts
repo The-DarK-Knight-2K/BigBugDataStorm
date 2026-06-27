@@ -144,7 +144,7 @@ export interface FilterOptions {
 /**
  * Get aggregated stats for the main dashboard.
  */
-export function getDashboardStats(filters?: OutletFilters): DashboardStats {
+export async function getDashboardStats(filters?: OutletFilters): Promise<DashboardStats> {
   let baseWhere = 'WHERE 1=1';
   let budgetWhere = 'WHERE 1=1';
   const params: any[] = [];
@@ -204,28 +204,32 @@ export function getDashboardStats(filters?: OutletFilters): DashboardStats {
     ${budgetWhere} AND b.allocation_tier = 'high'
   `;
 
-  const outletsRow = db.prepare(outletsQuery).get(...params) as { total_outlets: number; total_predicted_volume: number; avg_capacity_utilization: number | null };
-  const budgetRow = db.prepare(budgetQuery).get(...params) as { total_budget: number | null };
-  const highPotentialRow = db.prepare(highPotentialQuery).get(...params) as { high_potential_outlets: number };
+  const outletsRes = await db.execute({ sql: outletsQuery, args: params });
+  const budgetRes = await db.execute({ sql: budgetQuery, args: params });
+  const highPotentialRes = await db.execute({ sql: highPotentialQuery, args: params });
+
+  const outletsRow = outletsRes.rows[0] as any;
+  const budgetRow = budgetRes.rows[0] as any;
+  const highPotentialRow = highPotentialRes.rows[0] as any;
 
   return {
-    total_outlets: outletsRow?.total_outlets || 0,
-    total_predicted_volume: outletsRow?.total_predicted_volume || 0,
-    total_budget: budgetRow?.total_budget || 0,
-    high_potential_outlets: highPotentialRow?.high_potential_outlets || 0,
-    avg_capacity_utilization: outletsRow?.avg_capacity_utilization || 0,
+    total_outlets: (outletsRow?.total_outlets as number) || 0,
+    total_predicted_volume: (outletsRow?.total_predicted_volume as number) || 0,
+    total_budget: (budgetRow?.total_budget as number) || 0,
+    high_potential_outlets: (highPotentialRow?.high_potential_outlets as number) || 0,
+    avg_capacity_utilization: (outletsRow?.avg_capacity_utilization as number) || 0,
   };
 }
 
 /**
  * Get distinct filter options from the database
  */
-export function getFilterOptions(): FilterOptions {
-  const provinces = (db.prepare('SELECT DISTINCT province FROM outlets WHERE province IS NOT NULL').all() as any[]).map(r => r.province);
-  const distributors = (db.prepare('SELECT DISTINCT distributor_id FROM outlets WHERE distributor_id IS NOT NULL').all() as any[]).map(r => r.distributor_id);
-  const types = (db.prepare('SELECT DISTINCT outlet_type FROM outlets WHERE outlet_type IS NOT NULL').all() as any[]).map(r => r.outlet_type);
-  const tiers = (db.prepare("SELECT DISTINCT allocation_tier FROM budget_allocations WHERE allocation_tier IS NOT NULL AND allocation_tier != 'none'").all() as any[]).map(r => r.allocation_tier);
-  const saturation_classes = (db.prepare("SELECT DISTINCT market_saturation_class FROM outlets WHERE market_saturation_class IS NOT NULL").all() as any[]).map(r => r.market_saturation_class);
+export async function getFilterOptions(): Promise<FilterOptions> {
+  const provinces = (await db.execute('SELECT DISTINCT province FROM outlets WHERE province IS NOT NULL')).rows.map(r => r.province as string);
+  const distributors = (await db.execute('SELECT DISTINCT distributor_id FROM outlets WHERE distributor_id IS NOT NULL')).rows.map(r => r.distributor_id as string);
+  const types = (await db.execute('SELECT DISTINCT outlet_type FROM outlets WHERE outlet_type IS NOT NULL')).rows.map(r => r.outlet_type as string);
+  const tiers = (await db.execute("SELECT DISTINCT allocation_tier FROM budget_allocations WHERE allocation_tier IS NOT NULL AND allocation_tier != 'none'")).rows.map(r => r.allocation_tier as string);
+  const saturation_classes = (await db.execute("SELECT DISTINCT market_saturation_class FROM outlets WHERE market_saturation_class IS NOT NULL")).rows.map(r => r.market_saturation_class as string);
   
   return { provinces, distributors, types, tiers, saturation_classes };
 }
@@ -233,7 +237,7 @@ export function getFilterOptions(): FilterOptions {
 /**
  * Get paginated outlets for the data table, optionally filtered.
  */
-export function getPaginatedOutlets(filters: OutletFilters | undefined, page: number, limit: number): { outlets: (Outlet & { allocation_tier?: string })[], total: number } {
+export async function getPaginatedOutlets(filters: OutletFilters | undefined, page: number, limit: number): Promise<{ outlets: (Outlet & { allocation_tier?: string })[], total: number }> {
   let baseWhere = 'WHERE 1=1';
   const params: any[] = [];
 
@@ -267,7 +271,8 @@ export function getPaginatedOutlets(filters: OutletFilters | undefined, page: nu
     LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
     ${baseWhere}
   `;
-  const countRow = db.prepare(countQuery).get(...params) as { count: number };
+  const countRes = await db.execute({ sql: countQuery, args: params });
+  const countRow = countRes.rows[0] as any;
 
   // Data query
   const dataQuery = `
@@ -278,15 +283,16 @@ export function getPaginatedOutlets(filters: OutletFilters | undefined, page: nu
     LIMIT ? OFFSET ?
   `;
   const dataParams = [...params, limit, (page - 1) * limit];
-  const outlets = db.prepare(dataQuery).all(...dataParams) as (Outlet & { allocation_tier?: string })[];
+  const outletsRes = await db.execute({ sql: dataQuery, args: dataParams });
+  const outlets = outletsRes.rows as unknown as (Outlet & { allocation_tier?: string })[];
 
-  return { outlets, total: countRow.count };
+  return { outlets, total: countRow.count as number };
 }
 
 /**
  * Get map points efficiently (stripped down properties).
  */
-export function getMapPoints(filters?: OutletFilters): any[][] {
+export async function getMapPoints(filters?: OutletFilters): Promise<any[][]> {
   let baseWhere = 'WHERE 1=1';
   const params: any[] = [];
 
@@ -320,8 +326,8 @@ export function getMapPoints(filters?: OutletFilters): any[][] {
     ${baseWhere} AND o.in_sea = 0
   `;
   
-  const stmt = db.prepare(query);
-  const rows = stmt.all(...params) as any[];
+  const res = await db.execute({ sql: query, args: params });
+  const rows = res.rows as any[];
   
   // Convert to array of arrays to minimize JSON size:
   // [id, lat, lng, type, vol, tier, saturation]
@@ -339,8 +345,8 @@ export function getMapPoints(filters?: OutletFilters): any[][] {
 /**
  * Get comprehensive details for a single outlet.
  */
-export function getOutletDetails(outletId: string): OutletDetail | null {
-  const row = db.prepare(`
+export async function getOutletDetails(outletId: string): Promise<OutletDetail | null> {
+  const res = await db.execute({ sql: `
     SELECT 
       o.*, 
       x.context_json, 
@@ -350,7 +356,8 @@ export function getOutletDetails(outletId: string): OutletDetail | null {
     LEFT JOIN xai_contexts x ON o.outlet_id = x.outlet_id
     LEFT JOIN budget_allocations b ON o.outlet_id = b.outlet_id
     WHERE o.outlet_id = ?
-  `).get(outletId) as any;
+  `, args: [outletId] });
+  const row = res.rows[0] as any;
 
   if (!row) return null;
 
@@ -419,46 +426,45 @@ export function getOutletDetails(outletId: string): OutletDetail | null {
 /**
  * Update the XAI explanation for an outlet.
  */
-export function updateXaiExplanation(outletId: string, explanation: string): void {
-  const stmt = db.prepare(`
+export async function updateXaiExplanation(outletId: string, explanation: string): Promise<void> {
+  await db.execute({ sql: `
     UPDATE xai_contexts 
     SET xai_explanation = ? 
     WHERE outlet_id = ?
-  `);
-  stmt.run(explanation, outletId);
+  `, args: [explanation, outletId] });
 }
 
 /**
  * Get the XAI context (JSON and any cached explanation) for a specific outlet.
  */
-export function getXAIContext(outletId: string): { context_json: string; xai_explanation: string | null } | null {
-  const stmt = db.prepare(`
+export async function getXAIContext(outletId: string): Promise<{ context_json: string; xai_explanation: string | null } | null> {
+  const res = await db.execute({ sql: `
     SELECT context_json, xai_explanation 
     FROM xai_contexts 
     WHERE outlet_id = ?
-  `);
-  return stmt.get(outletId) as { context_json: string; xai_explanation: string | null } | null;
+  `, args: [outletId] });
+  return (res.rows[0] as unknown as { context_json: string; xai_explanation: string | null }) || null;
 }
 
 /**
  * Get all budget allocations.
  */
-export function getBudgetAllocations(): (BudgetAllocation & { distributor_id: string; outlet_type: string })[] {
-  const stmt = db.prepare(`
+export async function getBudgetAllocations(): Promise<(BudgetAllocation & { distributor_id: string; outlet_type: string })[]> {
+  const res = await db.execute(`
     SELECT b.*, o.distributor_id, o.outlet_type
     FROM budget_allocations b
     JOIN outlets o ON b.outlet_id = o.outlet_id
   `);
-  return stmt.all() as (BudgetAllocation & { distributor_id: string; outlet_type: string })[];
+  return res.rows as unknown as (BudgetAllocation & { distributor_id: string; outlet_type: string })[];
 }
 
 /**
  * Get pipeline health validation results.
  */
-export function getPipelineHealth(): PipelineHealth[] {
+export async function getPipelineHealth(): Promise<PipelineHealth[]> {
   try {
-    const stmt = db.prepare(`SELECT * FROM pipeline_health ORDER BY dataset ASC`);
-    return stmt.all() as PipelineHealth[];
+    const res = await db.execute(`SELECT * FROM pipeline_health ORDER BY dataset ASC`);
+    return res.rows as unknown as PipelineHealth[];
   } catch (e) {
     console.error("Error querying pipeline_health:", e);
     return [];
@@ -501,26 +507,28 @@ function calculateDistance(lat1: number, lon1: number, lat2: number, lon2: numbe
 /**
  * Get all POIs within a 2km radius of a specific outlet.
  */
-export function getOutletPOIs(outletId: string): POI[] {
+export async function getOutletPOIs(outletId: string): Promise<POI[]> {
   // 1. Get outlet lat/lon and cluster_id
-  const outletRow = db.prepare(`
+  const outletRes = await db.execute({ sql: `
     SELECT o.latitude, o.longitude, c.cluster_id
     FROM outlets o
     JOIN outlet_clusters c ON o.outlet_id = c.outlet_id
     WHERE o.outlet_id = ?
-  `).get(outletId) as { latitude: number, longitude: number, cluster_id: number } | undefined;
+  `, args: [outletId] });
+  const outletRow = outletRes.rows[0] as unknown as { latitude: number, longitude: number, cluster_id: number } | undefined;
 
   if (!outletRow) return [];
 
   // 2. Fetch all POIs for the cluster
-  const pois = db.prepare(`
+  const poisRes = await db.execute({ sql: `
     SELECT * FROM cluster_pois WHERE cluster_id = ?
-  `).all(outletRow.cluster_id) as POI[];
+  `, args: [outletRow.cluster_id] });
+  const pois = poisRes.rows as unknown as POI[];
 
   // 3. Calculate distance and filter to 2km (2000 meters)
   const result: POI[] = [];
   for (const poi of pois) {
-    const dist = calculateDistance(outletRow.latitude, outletRow.longitude, poi.lat, poi.lon);
+    const dist = calculateDistance(outletRow.latitude as number, outletRow.longitude as number, poi.lat, poi.lon);
     if (dist <= 2000) {
       poi.distance_meters = Math.round(dist);
       result.push(poi);

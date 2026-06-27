@@ -1,28 +1,21 @@
-import Database from 'better-sqlite3';
-import path from 'path';
-
-// Construct the absolute path to the SQLite database
-const dbPath = path.resolve(process.cwd(), 'data/outlets.db');
+import { createClient, Client } from '@libsql/client';
 
 /**
  * Global variable for the database connection.
  * We use `globalThis` to preserve the connection across Next.js hot reloads.
  */
 const globalForDb = globalThis as unknown as {
-  db: Database.Database | undefined;
+  db: Client | undefined;
 };
 
 // Initialize the connection or reuse the existing one
-const db = globalForDb.db ?? new Database(dbPath, { 
-  // Disable verbose logging to avoid terminal output corruption
-  verbose: undefined 
+const db = globalForDb.db ?? createClient({
+  url: process.env.TURSO_DATABASE_URL!,
+  authToken: process.env.TURSO_AUTH_TOKEN!,
 });
 
 if (process.env.NODE_ENV !== 'production') {
   globalForDb.db = db;
 }
-
-// Enable Write-Ahead Logging for better concurrent read/write performance
-db.pragma('journal_mode = WAL');
 
 export default db;

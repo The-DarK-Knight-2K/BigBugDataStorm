@@ -2,8 +2,8 @@ import { getPipelineHealth } from '@/data_access/queries';
 
 export const dynamic = 'force-dynamic';
 
-export default function PipelineHealthPage() {
-  const rawHealthData = getPipelineHealth();
+export default async function PipelineHealthPage() {
+  const rawHealthData = await getPipelineHealth();
 
   let totalChecked = 0;
   let totalPassed = 0;
